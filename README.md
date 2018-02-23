@@ -92,3 +92,16 @@ you easily regarding the event.
 Supplying a location is used in the user's calendar (if it supports it). E.g. when
 the user adds the event to their google calendar, they will see a map of the location
 and can easily get directions to it.
+
+## Building
+
+```console
+bundle install --path vendor/bundle
+bundle exec jekyll serve --watch
+```
+
+Other commands are available under `jekyll --help`
+
+## License
+
+The site is based off of `minima` which is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).

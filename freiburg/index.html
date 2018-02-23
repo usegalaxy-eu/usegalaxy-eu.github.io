@@ -7,9 +7,18 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <link rel="stylesheet" href="/assets/css/galaxy_bootstrap.css">
+  <link rel="stylesheet" href="https://usegalaxy-eu.github.io/assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://usegalaxy-eu.github.io/assets/css/galaxy_bootstrap.css">
   <link rel="stylesheet" href="/assets/css/main.css">
   <link rel="stylesheet" href="/assets/css/academicons.min.css"/>
+  <link rel="stylesheet" href="https://usegalaxy-eu.github.io/assets/css/carousel.css">
+
+
+
+
+  <link rel="stylesheet" href="/assets/css/eu.css">
+  
+  <link rel="stylesheet" href="/assets/css/freiburg.css">
   
 
   <link rel="canonical" href="https://usegalaxy-eu.github.io/freiburg/">
@@ -19,107 +28,194 @@
 
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.0/jquery.matchHeight-min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha256-U5ZEeKfGNOja007MMD3YBI0A3OSZOQbeG6z2f2Y0hu8=" crossorigin="anonymous"></script>
 </head>
 
   <body>
     <div id="wrap">
       <div id="main">
-        <div class="navbar navbar-inverse">
+        <div class="navbar">
 
   <div class="container">
     
     
 
-    <div class="navbar-header"">
-      <a class="navbar-brand" href="/">Galaxy Europe</a>
-    </div>
-  
     
-      <div class="navbar-collapse collapse navbar-inverse-collapse">
+    
+    
+
+    
+
+    <div class="navbar-header"">
+      <div class="navbar-brand">
+        
+        <img src="/assets/media/galaxy-eu-logo.inv.svg" style="height: 20px"/>
+        
+      </div>
+
+      <a class="navbar-brand" href="/" style="padding-left: 6px">
+        Galaxy Europe
+      </a>
+      
+        <div class="navbar-brand" style="color: white">
+        /
+        </div>
+        <a class="navbar-brand" href="/freiburg">
+          Freiburg
+        </a>
+      
+    </div>
+
+      <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-right">
+           <li class="dropdown">
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Member Sites <span class="caret"></span></a>
+             <ul class="dropdown-menu">
+              
+                <li>
+                  <a class="page-link" href="/freiburg/">Freiburg</a>
+                </li>
+              
+             </ul>
+           </li>
+
+          
           
             <li>
-              <a class="page-link" href="/news/">News</a>
+              <a class="page-link" href="/freiburg/news/">News</a>
             </li>
           
             <li>
-              <a class="page-link" href="/events/">Events</a>
+              <a class="page-link" href="/freiburg/events/">Events</a>
             </li>
           
             <li>
-              <a class="page-link" href="/people/">People</a>
+              <a class="page-link" href="/freiburg/people/">People</a>
             </li>
           
             <li>
-              <a class="page-link" href="/services/">Services</a>
+              <a class="page-link" href="/freiburg/services/">Services</a>
             </li>
           
             <li>
-              <a class="page-link" href="/publications/">Publications</a>
+              <a class="page-link" href="/freiburg/publications/">Publications</a>
             </li>
+          
           
         </ul>
       </div>
-    
   </div>
 </div>
 
         <div class="container" id="maincontainer">
           <div class="home">
-  <div class="jumbotron">
-    <p>The Freiburg Galaxy Team offers a framework for scientists on e.g. NGS
-    data analyses (RNA-seq, ChIP-seq, Exome-seq, MethylC-seq), genome
-    annotation analyses for eukaryotic and prokaryotic organisms (from gene
-    prediction to functional description), Proteomics and Metabolomics
-    analysis, and the ChemicalToolBoX for analysis of small compounds.</p>
+  <div class="carousel slide row" data-ride="carousel" id="splash-box">
 
-    <p>Furthermore, Galaxy has a huge variety of data visualization tools. Galaxy
-    contains more than 800 different single analysis tools and ready-to-use
-    pipelines for different applications.</p> 
+  <ol class="carousel-indicators">
+    
+    <li data-target="#splash-box" data-slide-to="0" class="active"></li>
+    
+    <li data-target="#splash-box" data-slide-to="1"></li>
+    
+    <li data-target="#splash-box" data-slide-to="2"></li>
+    
+    <li data-target="#splash-box" data-slide-to="3"></li>
+    
+    <li data-target="#splash-box" data-slide-to="4"></li>
+    
+  </ol>
 
-    <p>After registration, all tools and the infrastructure for data analysis are 
-    freely available and can be used for creation of your own workflows for your 
-    specific projects. </p>
-  </div>
+  <div class="carousel-inner" role="listbox">
+
+    <div class="item carousel-item jumbotron active">
+  <h2 class="display-3">Data Driven Reseach for Everyone</h2>
+  <p class="lead"></p>
+  <p>Galaxy is an <strong>open, web-based</strong> platform for accessible, reproducible, and transparent computational biological research.</p>
+  <ul>
+    <li><strong>Accessible:</strong> Users can easily configure and run tools without the need to write code, all via an user-friendly web-based interface.</li>
+    <li><strong>Reproducible:</strong> Galaxy captures the full metadata required so that any user can not only understand but also reproduce the complete computational analysis.</li>
+    <li><strong>Transparent:</strong> Users can extract, share and publish analyses via interactive, web-based documents that can enhance analyses with user-supplied annotation.</li>
+    <li><strong>Scalable:</strong> Galaxy scales: it can run on a local computer, on a large cluster or on the cloud</li>
+  </ul>
+  <p>You can try on <a href="https://usegalaxy.eu">https://usegalaxy.eu</a>!</p>
+</div>
+
+    <div class="item carousel-item jumbotron">
+  <h2 class="display-3">Our services</h2>
+  <p>The Freiburg Galaxy Team is offering several services to enable <strong>reproducible</strong> and <strong>accessible</strong> research for everyone:</p>
+  <ul>
+    <li><i class="fa fa-server"></i> <a href="/freiburg/services#galaxy-server">Galaxy server</a></li>
+    <li><i class="fa fa-graduation-cap"></i> <a href="/freiburg/services#training">Training</a></li>
+    <li><i class="fa fa-cube"></i> <a href="/freiburg/services#virtualization-for-sensitive-data">Virtualization for Sensitive Data</a></li>
+    <li><i class="fa fa-table"></i> <a href="/freiburg/services#data-analysi">Data analysis</a></li>
+    <li><i class="fa fa-cogs"></i> <a href="/freiburg/services#tool-integration">Tool integration</a></li>
+    <li><i class="fa fa-cloud"></i> <a href="/freiburg/services#scientific-computing-cloud">Scientific computing cloud</a></li>
+  </ul>
+</div>
+
+    <div class="item carousel-item jumbotron">
+  <h2 class="display-3">Training</h2>
+  <p class="lead"></p>
+  <p>Supporting researchers by educating them in e.g. big data analysis, programming, data management, and Galaxy server administration, is one of our flagship services as we believe that <strong>sharing of knowledge</strong> and the <strong>open science</strong> movement are the key points in future.</p>
+
+  <p>Regular workshops are provided by us: You can check our <a href="https://usegalaxy-eu.github.io//events">calendar</a> to find out how to join our next workshop.</p>
+
+  <p>Unfortunately, we cannot meet the demand for training. For those of you unable to attend one of our training sessions, we offer training materials, freely accessible online at <a href="http://training.galaxyproject.org">http://training.galaxyproject.org</a></p>
+</div>
+
+    <div class="item carousel-item jumbotron">
+  <h2 class="display-3">Co-Authorship/Acknowledgements</h2>
+  <p class="lead"></p>
+  <p>We wish to maintain high competency and provide high quality data analysis 
+    services to all our Galaxy users.</p>
+
+    <p>Therefore we request that you acknowledge this service by including the 
+    members of the Freiburg Galaxy Team as co-authors if they have made a 
+    significant intellectual and/or organizational contribution to the work 
+    described (conceptualization, design, data analysis, data interpretation 
+    and/or input into drafting, revising or writing any portion of the manuscript).</p>
+
+    <p>Individuals who have contributed to the project, but whose contributions 
+    do not rise to the level justifying authorship, can be recognized in an 
+    acknowledgements section of the manuscript as follows: </p>
+
+    <blockquote>
+      <p>The authors acknowledge the support of the Freiburg Galaxy Team: 
+      Person X and Prof. Rolf Backofen, Bioinformatics, University of Freiburg, 
+      Germany funded by <a href="http://www.sfb992.uni-freiburg.de">Collaborative 
+      Research Centre 992 Medical Epigenetics</a> (<a href="http://www.dfg.de">DFG</a> 
+      grant SFB 992/1 2012) and German Federal Ministry of Education and Research
+      (<a href="http://www.bmbf.de/">BMBF</a> grant 031 A538A RBC (<a href="https://www.denbi.de">de.NBI</a>)).
+      </p>
+    </blockquote>
+
+    <p>Additional funding of projects and/or provision of material expenses are welcome as well, to help
+    support our growing Galaxy community in Freiburg.</p>
+</div>
+
+
+      </div>
+    <a class="left carousel-control" href="#splash-box" role="button" data-slide="prev">
+      <span class="icon-prev" aria-hidden="true"></span>
+      <span class="sr-only">
+        <previous></previous>
+      </span>
+    </a>
+    <a class="right carousel-control" href="#splash-box" role="button" data-slide="next">
+      <span class="icon-next" aria-hidden="true"></span>
+      <span class="sr-only">
+        <next></next>
+      </span>
+    </a>
+</div>
+
 
   <div class="row">
-  <div class='col-sm-6'>
+  <div class="col-sm-6">
     <h2><a href="https://usegalaxy-eu.github.io/news/">News</a></h2>
-    <div class>
+    <div class="">
       <div class="list-group">
         
-        
-          
-          <a class="list-group-item" href="https://usegalaxy-eu.github.io/posts/2018/02/13/Galaxy-User-Conf/">
-            <p class="list-group-item-text">Feb 13, 2018</p>
-            <h4 class="list-group-item-heading">
-              
-
-
-
-
-
-
-
-              Program for the Galaxy User Conference
-            </h4>
-          </a>
-        
-          
-          <a class="list-group-item" href="https://usegalaxy-eu.github.io/posts/2018/02/13/ELIXIR-Galaxy-kickoff/">
-            <p class="list-group-item-text">Feb 13, 2018</p>
-            <h4 class="list-group-item-heading">
-              
-
-
-
-
-
-
-
-              ELIXIR Galaxy kick-off meeting 14.03.2018 in Freiburg
-            </h4>
-          </a>
         
           
           <a class="list-group-item" href="https://usegalaxy-eu.github.io/posts/2018/02/11/genome-annotation-reloaded/">
@@ -175,17 +271,51 @@
             </h4>
           </a>
         
+          
+          <a class="list-group-item" href="https://usegalaxy-eu.github.io/posts/2018/01/30/COST/">
+            <p class="list-group-item-text">Jan 30, 2018</p>
+            <h4 class="list-group-item-heading">
+              
+
+
+
+
+
+
+
+              We are now part of COST (CA16212)!
+            </h4>
+          </a>
+        
+          
+          <a class="list-group-item" href="https://usegalaxy-eu.github.io/posts/2018/01/26/Galaxy-workshop-9.2018/">
+            <p class="list-group-item-text">Jan 26, 2018</p>
+            <h4 class="list-group-item-heading">
+              
+
+
+	<i class="fa fa-graduation-cap" aria-hidden="true"></i>
+
+
+
+
+
+
+              Next Galaxy Workshop on HTS data analysis in September 2018
+            </h4>
+          </a>
+        
       </div>
     </div>
   </div>
-  <div class='col-sm-6'>
+  <div class="col-sm-6">
     <h2><a href="events/">Events</a></h2>
-    <div class>
+    <div class="">
       <div class="list-group">
         
         
           
-          <a class="list-group-item" href="https://usegalaxy-eu.github.io/events/2017-11-16-Announcement-Galaxy-course/">
+          <a class="list-group-item" href="https://usegalaxy-eu.github.io/event/2017-11-16-Announcement-Galaxy-course/">
             
             <p class="list-group-item-text">Feb 26, 2018 - Mar 2, 2018</p>
             
@@ -196,7 +326,7 @@
           </a>
         
           
-          <a class="list-group-item" href="https://usegalaxy-eu.github.io/events/2018-01-08-Admin-norway/">
+          <a class="list-group-item" href="https://usegalaxy-eu.github.io/event/2018-01-08-Admin-norway/">
             
             <p class="list-group-item-text">Jan 8, 2018 - Jan 12, 2018</p>
             
@@ -207,7 +337,7 @@
           </a>
         
           
-          <a class="list-group-item" href="https://usegalaxy-eu.github.io/events/2017-11-29-vre-nest/">
+          <a class="list-group-item" href="https://usegalaxy-eu.github.io/event/2017-11-29-vre-nest/">
             
             <p class="list-group-item-text">Dec 4, 2017</p>
             
@@ -218,7 +348,7 @@
           </a>
         
           
-          <a class="list-group-item" href="https://usegalaxy-eu.github.io/events/2017-11-30-HUB-EMBL/">
+          <a class="list-group-item" href="https://usegalaxy-eu.github.io/event/2017-11-30-HUB-EMBL/">
             
             <p class="list-group-item-text">Nov 30, 2017</p>
             
@@ -229,7 +359,7 @@
           </a>
         
           
-          <a class="list-group-item" href="https://usegalaxy-eu.github.io/events/2017-11-06-vice/">
+          <a class="list-group-item" href="https://usegalaxy-eu.github.io/event/2017-11-06-vice/">
             
             <p class="list-group-item-text">Nov 6, 2017</p>
             
@@ -243,23 +373,6 @@
     </div>
   </div>
 </div>
-
-  <div class="jumbotron">
-    <h2>Training</h2>
-
-    <p>The Freiburg Galaxy Team cares about training.</p>
-
-	<p>Twice a year, we organize a week-long workshop on NGS data analysis, here
-	in Freiburg. We also regularly lead training events around the world,
-	covering a wider range of topics such as data analysis, development, and
-	Galaxy administration. You can check our <a href="https://usegalaxy-eu.github.io//events">calendar</a>
-	to find out how to join our next workshop.</p>
-
-    <p>Unfortunately, we cannot meet the demand for training. For those of you unable to attend one of our training sessions, we offer 
-    training materials, freely accessible online at <a href="http://training.galaxyproject.org">http://training.galaxyproject.org</a></p>
-</div>
-
-
 
   <div class="row">
 
