@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <title>Galaxy Europe | HiCExplorer - a suite of tools for reproducible Hi-C data analysis, quality control and visualization</title>
+  <meta name="description" content="The European Galaxy Instance">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <link rel="stylesheet" href="/assets/css/galaxy_bootstrap.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="/assets/css/academicons.min.css"/>
+  
+
+  <link rel="canonical" href="https://usegalaxy-eu.github.io/posts/2017/12/30/hicexplorer/">
+
+  <link rel="alternate" type="application/rss+xml" title="Galaxy Europe" href="/feed.xml">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.0/jquery.matchHeight-min.js"></script>
+</head>
+
+  <body>
+    <div id="wrap">
+      <div id="main">
+        <div class="navbar navbar-inverse">
+
+  <div class="container">
+    
+    
+
+    <div class="navbar-header"">
+      <a class="navbar-brand" href="/">Galaxy Europe</a>
+    </div>
+  
+    
+      <div class="navbar-collapse collapse navbar-inverse-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          
+            <li>
+              <a class="page-link" href="/news/">News</a>
+            </li>
+          
+            <li>
+              <a class="page-link" href="/events/">Events</a>
+            </li>
+          
+            <li>
+              <a class="page-link" href="/people/">People</a>
+            </li>
+          
+            <li>
+              <a class="page-link" href="/services/">Services</a>
+            </li>
+          
+            <li>
+              <a class="page-link" href="/publications/">Publications</a>
+            </li>
+          
+        </ul>
+      </div>
+    
+  </div>
+</div>
+
+        <div class="container" id="maincontainer">
+          
+<section id="news-page">
+  <div class="row news-header-row">
+    
+    <a class="col-xs-1 text-center" href="/posts/2017/12/30/GraphClust/">
+      «
+    </a>
+    
+    <div class="col-xs-10 ">
+      <div class="text-center">
+        <h2 class="title">HiCExplorer - a suite of tools for reproducible Hi-C data analysis, quality control and visualization</h2>
+      </div>
+      <hr />
+    </div>
+    
+    <a class="col-xs-1 text-center" href="/posts/2018/01/12/ELIXIR-Galaxy-admin-workshop/">
+      »
+    </a>
+    
+  </div>
+  <div class="row post-metadata">
+    <div class="col-md-8 col-md-offset-2">
+      <div class="text-right">
+        <div>
+          <span class="post-date">
+            December 30, 2017
+          </span>
+
+          
+
+          
+          <br />
+          <span class="post-tags">
+            
+              <span class="label label-info">tools</span>
+            
+          </span>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2">
+      <div class="news-content">
+        <p><a href="https://galaxy.uni-freiburg.de/u/joachim-wolff/w/workflow-hicexplorer-hicplotmatrix" target="_blank"><img src="https://img.shields.io/badge/HiCExplorer-HiCPlotMatrix_workflow-green.svg" /></a>  <a href="https://galaxy.uni-freiburg.de/u/joachim-wolff/w/workflow-hicexplorer-hicsummatrix" target="_blank"><img src="https://img.shields.io/badge/HiCExplorer-HiCSumMatrix_workflow-green.svg" /></a></p>
+
+<p>Hi-C has become a standard technique for the genome-wide analysis of
+chromosome conformation. Analysis of Hi-C data provides insights into folding principles of the
+chromatin, functional compartments within the nucleus, as well as long range enhancer-promoter
+interactions. Integration of Hi-C and other epigenomic datasets has
+helped researchers in understanding of mechanisms of gene regulation and genetic diseases.</p>
+
+<p>Today we released HiCExplorer 2.0 to provide an easy and user-friendly access to
+the analysis of Hi-C data. Starting with the mapping of the raw sequence data,
+creation of the contact matrices, the correction of contact matrices, to the computation of
+topological associated domains (TADs) and A/B compartments. A detailed quality report generated
+during the process, which, using the support of MultiQC, allows users to compare multiple Hi-C
+datasets. Finally, the users can create publication ready plots of the contact matrix,
+A/B compartments, and TADs on a selected genomic locus, along with additional information
+like gene tracks or ChIP-Seq signals.</p>
+
+<p>A template workflow is shared with everyone and an example history is also available.</p>
+
+<p>For more detailed information check out the <a href="https://github.com/deeptools/HiCExplorer">HiCExplorer GitHub repository</a>,
+our <a href="https://github.com/deeptools/docker-galaxy-hicexplorer">Galaxy Docker flavor</a> or two publication were it
+was used already:</p>
+
+<p><a href="https://www.biorxiv.org/content/early/2017/03/08/115063">Fidel Ramirez, Vivek Bhardwaj, Jose Villaveces, Laura Arrigoni, Bjoern A Gruening, Kin Chung Lam,
+Bianca Habermann, Asifa Akhtar, Thomas Manke,
+High-resolution TADs reveal DNA sequences underlying genome organization in flies
+</a></p>
+
+<p><a href="https://www.biorxiv.org/content/early/2017/10/16/203075">Ralf Gilsbach, Martin Schwaderer, Sebastian Preissl, Bjoern A Gruening, David Kranzhoefer, et al.,
+Distinct epigenetic programs regulate cardiac myocyte development and disease in the human heart in vivo</a>.</p>
+
+<p>Of course all tools are available
+from the <a href="https://toolshed.g2.bx.psu.edu/view/bgruening/suite_hicexplorer">Galaxy ToolShed</a> and installable into any
+Galaxy instance.</p>
+
+<h2 id="credits">Credits</h2>
+
+<ul>
+  <li><a href="https://github.com/joachimwolff">Joachim Wolff</a></li>
+  <li><a href="https://github.com/fidelram">Fidel Ramirez</a></li>
+  <li><a href="https://github.com/vivekbhr">Vivek Bhardwaj</a></li>
+  <li><a href="https://github.com/DonStephano">Stephan Nothjunge</a></li>
+  <li><a href="https://github.com/rgilsbach">Ralf Gilsbach</a></li>
+  <li><a href="https://github.com/thomasmanke">Thomas Manke</a></li>
+  <li><a href="https://github.com/rolfbackofen">Rolf Backofen</a></li>
+  <li><a href="https://github.com/bgruening">Björn Grüning</a></li>
+</ul>
+
+      </div>
+    </div>
+  </div>
+
+  
+
+</section>
+
+        </div>
+      </div>
+    </div>
+    <footer class="navbar-default">
+  <div class="container">
+    <div class="row">
+      <p class="navbar-brand">Galaxy Europe</p>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <ul class="contact-info">
+          
+            <li><i class="fa fa-envelope"></i><a href="mailto:contact@usegalaxy.eu">contact@usegalaxy.eu</a></li>
+          
+          
+            <li><i class="fa fa-github"></i><a href="https://github.com/usegalaxy-eu">usegalaxy-eu</a></li>
+          
+          
+            <li><i class="fa fa-twitter"></i><a href="https://twitter.com/usegalaxy_eu">usegalaxy_eu</a></li>
+          
+            <li><i class="fa fa-rss"></i>Subscribe <a href="/feed.xml">via RSS</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <p>The Freiburg Galaxy Team is part of the <a href="http://www.bioinf.uni-freiburg.de/">Bionformatics Group Freiburg</a>, headed by the Prof. Dr. Rolf Backofen. The team is supported by <a href="https://www.denbi.de/">de.NBI</a> and <a href="https://www.elixir-europe.org/">ELIXIR</a></p>
+        <p>All content on this site is available under <a href="https://creativecommons.org/publicdomain/ero/1.0/">CC0-1.0</a>, unless otherwise specified</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  </body>
+</html>
