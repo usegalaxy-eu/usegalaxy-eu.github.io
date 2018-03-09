@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  <title>Galaxy Europe | deepTools3 is now available!</title>
+  <title>Galaxy Europe | Propagating hashtags in a Galaxy history</title>
   <meta name="description" content="The European Galaxy Instance">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="utf-8">
@@ -23,7 +23,7 @@
     
   
 
-  <link rel="canonical" href="https://usegalaxy-eu.github.io/posts/2018/03/03/deepTools/">
+  <link rel="canonical" href="https://usegalaxy-eu.github.io/posts/2018/03/09/propagate-history-hashtags/">
 
   <link rel="alternate" type="application/rss+xml" title="Galaxy Europe" href="https://usegalaxy-eu.github.io/feed.xml">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
@@ -114,20 +114,16 @@
 <section id="news-page">
   <div class="row news-header-row">
     
-    <a class="col-xs-1 text-center" href="https://usegalaxy-eu.github.io/posts/2018/02/13/Galaxy-User-Conf/">
+    <a class="col-xs-1 text-center" href="https://usegalaxy-eu.github.io/posts/2018/03/03/deepTools/">
       «
     </a>
     
     <div class="col-xs-10 ">
       <div class="text-center">
-        <h2 class="title">deepTools3 is now available!</h2>
+        <h2 class="title">Propagating hashtags in a Galaxy history</h2>
       </div>
       <hr />
     </div>
-    
-    <a class="col-xs-1 text-center" href="https://usegalaxy-eu.github.io/posts/2018/03/09/propagate-history-hashtags/">
-      »
-    </a>
     
   </div>
   <div class="row post-metadata">
@@ -135,7 +131,7 @@
       <div class="text-right">
         <div>
           <span class="post-date">
-            March 3, 2018
+            March 9, 2018
           </span>
 
           
@@ -144,7 +140,13 @@
           <br />
           <span class="post-tags">
             
+              <span class="label label-info">galaxy</span>
+            
               <span class="label label-info">tools</span>
+            
+              <span class="label label-info">users</span>
+            
+              <span class="label label-info">software-release</span>
             
           </span>
           
@@ -156,12 +158,93 @@
   <div class="row">
     <div class="col-md-8 col-md-offset-2">
       <div class="news-content">
-        <p>The deepTools developers have released a brand new version! This time with CRAM support, new normalization and plotting
-options, new tools, e.g. alignmentsieve for ATAC-seq, and <a href="https://github.com/deeptools/deepTools/blob/master/CHANGES.txt">many more</a>.</p>
+        <h3 id="background">Background</h3>
 
-<blockquote class="twitter-tweet" data-lang="de"><p lang="en" dir="ltr">deepTools 3.0 is now available on pypi (bioconda soon). Changes include a completely revamped normalization interface (and new methods), CRAM support, interactive plots,  a more homogenized interface, new tools and better MultiQC integration</p>&mdash; Devon Ryan (@dpryan79) <a href="https://twitter.com/dpryan79/status/963061179311632384?ref_src=twsrc%5Etfw">12. Februar 2018</a></blockquote>
+<p>To process data using Galaxy, an raw dataset (HDA) is uploaded and few hashtags are added to make it better searchable and identifiable. Then, using different tools/workflows, this raw/input dataset is transformed into multiple new datasets. What if, after running dozens of tools, generating hundreds or thousands of datasets, you realise that you’ve forgotten to tag your input datasets? In this case, the new hashtags will not be propagated to the generated datasets automatically. We require an easy and automatic solution to assign correct hashtags to all of the downstream datasets generated from our inputs, whenever new hashtags are added to any of the datasets in our history. Before going into the further explanation, let’s assign the following labels to the types/names of datasets we would use:</p>
 
-<p>Special thanks to Devon and Fidel for those fantastic tools that were executed over 50.000 times so far on our Galaxy server.</p>
+<ul>
+  <li>Input datasets as parent datasets</li>
+  <li>Derived/generated datasets as child datasets</li>
+</ul>
+
+<p>This <a href="https://github.com/anuprulez/apply_history_tags">script</a> will solve the situations mentioned above, adding any new hashtags to all derived datasets. The script is written considering a Galaxy history as a tree (data structure) with input datasets as its roots and all the generated ones either as nodes or leaves of this tree. An example history ‘tree’ is shown in the figure below.</p>
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/3022518/37175617-5382eec8-231a-11e8-98b2-d5988dce3bb4.png" />
+</p>
+
+<p>In the above figure, we can see one input dataset with multiple datasets created from this input, using different tools (Galaxy tools). There can be any number of levels (tree hierarchy) in the ‘history’ tree from the top to bottom.</p>
+
+<h3 id="how-to-use-the-script">How to use the script</h3>
+
+<p>In order to use the <a href="https://github.com/anuprulez/apply_history_tags">script</a> to propagate hashtags from parents to children, a user should remember the hierarchy of their datasets. Wherever hashtags are added to datasets, they will be propagated to all the children of that dataset.  These new hashtags will be appended to the already existing hashtags for each child dataset. To use this script:</p>
+
+<ol>
+  <li>Acquire your API key from your Galaxy.</li>
+  <li>(Optionally) Get the ID of the history to apply hashtags to. If this id is not supplied, the script will use the most recently updated history.</li>
+  <li>Install <a href="https://bioblend.readthedocs.io/en/latest/#installation">BioBlend</a> on your machine.</li>
+  <li>Execute: 
+<code class="highlighter-rouge">python apply_tags.py &lt;galaxy_url&gt; &lt;galaxy_api_key&gt; &lt;history_id optional&gt;</code></li>
+</ol>
+
+<p>Here, <galaxy_url> is the URL of your Galaxy instance. <galaxy_api_key> is the Galaxy API key you obtained from your user preferences. <history_id> is the encoded id of a Galaxy history. It is an optional parameter.</history_id></galaxy_api_key></galaxy_url></p>
+
+<h3 id="example-commands">Example commands</h3>
+
+<p>Propagate hashtags in a specific history</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>python apply_tags.py "https://usegalaxy.org" "*******************" "f2db41e1fa331b3e"
+</code></pre>
+</div>
+
+<p>Propagate hashtags in your most recently updated history</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>python apply_tags.py "https://usegalaxy.org" "*******************"
+</code></pre>
+</div>
+
+<h3 id="a-visual-example">A visual example</h3>
+
+<ol>
+  <li>
+    <p>Upload a raw dataset using an upload tool and add a couple of hashtags (figure below the next point). Each arrow denotes the use of a Galaxy tool to transform one dataset into another.</p>
+  </li>
+  <li>
+    <p>Run a few tools (say ToolA and ToolB) using the input dataset and create new (child) datasets (figure below).</p>
+  </li>
+</ol>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/3022518/37175698-99004f90-231a-11e8-8e4d-79109518cd10.png" />
+</p>
+
+<ol>
+  <li>Now, add new hashtags to the input dataset. The figure below shows new hashtags (#new_root_tag1, #new_root_tag2) getting added to the input dataset.</li>
+</ol>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/3022518/37175716-a531b600-231a-11e8-8088-a41cf46404f9.png" />
+</p>
+
+<ol>
+  <li>To propagate the new hashtags from parent to child datasets, execute the script using the example commands (here one should use the id of the history created above containing 3 datasets). We can see the child datasets now contain the new hashtags from their parent (figure below).</li>
+</ol>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/3022518/37175722-ab5794e6-231a-11e8-976b-2598eaadd9ce.png" />
+</p>
+
+<h3 id="more-complex-example">More complex example</h3>
+
+<p>In the previous example, we saw a tree with one level of hierarchy. In the following visual, we would see a more complex example of inheriting hashtags from parents involving multiple levels in the history tree.(figure below).</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/3022518/37175736-b52df492-231a-11e8-9524-542208135533.png" />
+</p>
+
+<h3 id="propagate-hashtags-in-galaxy">Propagate hashtags in Galaxy</h3>
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/3022518/37175741-bb172a40-231a-11e8-835c-50166b6f11e3.png" />
+</p>
+<p>1.fasta → 3:Replace Text on data 1 → 4: Text transformation on data 3</p>
+
+<p>In the above figure, “1.fasta” is the root (input dataset). “3:Replace Text on data 1” is the child/derived dataset from the root. “4: Text transformation on data 3” is the child of the second dataset. The hashtags that we see are after executing the script on this history.</p>
+
 
       </div>
     </div>

@@ -1,4 +1,89 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.1">Jekyll</generator><link href="https://usegalaxy-eu.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://usegalaxy-eu.github.io/" rel="alternate" type="text/html" /><updated>2018-03-08T14:11:28+01:00</updated><id>https://usegalaxy-eu.github.io/</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">deepTools3 is now available!</title><link href="https://usegalaxy-eu.github.io/posts/2018/03/03/deepTools/" rel="alternate" type="text/html" title="deepTools3 is now available!" /><published>2018-03-03T00:00:00+01:00</published><updated>2018-03-03T00:00:00+01:00</updated><id>https://usegalaxy-eu.github.io/posts/2018/03/03/deepTools</id><content type="html" xml:base="https://usegalaxy-eu.github.io/posts/2018/03/03/deepTools/">&lt;p&gt;The deepTools developers have released a brand new version! This time with CRAM support, new normalization and plotting
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.1">Jekyll</generator><link href="https://usegalaxy-eu.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://usegalaxy-eu.github.io/" rel="alternate" type="text/html" /><updated>2018-03-09T13:34:55+01:00</updated><id>https://usegalaxy-eu.github.io/</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">Propagating hashtags in a Galaxy history</title><link href="https://usegalaxy-eu.github.io/posts/2018/03/09/propagate-history-hashtags/" rel="alternate" type="text/html" title="Propagating hashtags in a Galaxy history" /><published>2018-03-09T00:00:00+01:00</published><updated>2018-03-09T00:00:00+01:00</updated><id>https://usegalaxy-eu.github.io/posts/2018/03/09/propagate-history-hashtags</id><content type="html" xml:base="https://usegalaxy-eu.github.io/posts/2018/03/09/propagate-history-hashtags/">&lt;h3 id=&quot;background&quot;&gt;Background&lt;/h3&gt;
+
+&lt;p&gt;To process data using Galaxy, an raw dataset (HDA) is uploaded and few hashtags are added to make it better searchable and identifiable. Then, using different tools/workflows, this raw/input dataset is transformed into multiple new datasets. What if, after running dozens of tools, generating hundreds or thousands of datasets, you realise that you’ve forgotten to tag your input datasets? In this case, the new hashtags will not be propagated to the generated datasets automatically. We require an easy and automatic solution to assign correct hashtags to all of the downstream datasets generated from our inputs, whenever new hashtags are added to any of the datasets in our history. Before going into the further explanation, let’s assign the following labels to the types/names of datasets we would use:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Input datasets as parent datasets&lt;/li&gt;
+  &lt;li&gt;Derived/generated datasets as child datasets&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This &lt;a href=&quot;https://github.com/anuprulez/apply_history_tags&quot;&gt;script&lt;/a&gt; will solve the situations mentioned above, adding any new hashtags to all derived datasets. The script is written considering a Galaxy history as a tree (data structure) with input datasets as its roots and all the generated ones either as nodes or leaves of this tree. An example history ‘tree’ is shown in the figure below.&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+  &lt;img src=&quot;https://user-images.githubusercontent.com/3022518/37175617-5382eec8-231a-11e8-98b2-d5988dce3bb4.png&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;In the above figure, we can see one input dataset with multiple datasets created from this input, using different tools (Galaxy tools). There can be any number of levels (tree hierarchy) in the ‘history’ tree from the top to bottom.&lt;/p&gt;
+
+&lt;h3 id=&quot;how-to-use-the-script&quot;&gt;How to use the script&lt;/h3&gt;
+
+&lt;p&gt;In order to use the &lt;a href=&quot;https://github.com/anuprulez/apply_history_tags&quot;&gt;script&lt;/a&gt; to propagate hashtags from parents to children, a user should remember the hierarchy of their datasets. Wherever hashtags are added to datasets, they will be propagated to all the children of that dataset.  These new hashtags will be appended to the already existing hashtags for each child dataset. To use this script:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Acquire your API key from your Galaxy.&lt;/li&gt;
+  &lt;li&gt;(Optionally) Get the ID of the history to apply hashtags to. If this id is not supplied, the script will use the most recently updated history.&lt;/li&gt;
+  &lt;li&gt;Install &lt;a href=&quot;https://bioblend.readthedocs.io/en/latest/#installation&quot;&gt;BioBlend&lt;/a&gt; on your machine.&lt;/li&gt;
+  &lt;li&gt;Execute: 
+&lt;code class=&quot;highlighter-rouge&quot;&gt;python apply_tags.py &amp;lt;galaxy_url&amp;gt; &amp;lt;galaxy_api_key&amp;gt; &amp;lt;history_id optional&amp;gt;&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Here, &lt;galaxy_url&gt; is the URL of your Galaxy instance. &lt;galaxy_api_key&gt; is the Galaxy API key you obtained from your user preferences. &lt;history_id&gt; is the encoded id of a Galaxy history. It is an optional parameter.&lt;/history_id&gt;&lt;/galaxy_api_key&gt;&lt;/galaxy_url&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;example-commands&quot;&gt;Example commands&lt;/h3&gt;
+
+&lt;p&gt;Propagate hashtags in a specific history&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;python apply_tags.py &quot;https://usegalaxy.org&quot; &quot;*******************&quot; &quot;f2db41e1fa331b3e&quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Propagate hashtags in your most recently updated history&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;python apply_tags.py &quot;https://usegalaxy.org&quot; &quot;*******************&quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;a-visual-example&quot;&gt;A visual example&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Upload a raw dataset using an upload tool and add a couple of hashtags (figure below the next point). Each arrow denotes the use of a Galaxy tool to transform one dataset into another.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Run a few tools (say ToolA and ToolB) using the input dataset and create new (child) datasets (figure below).&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+&lt;p align=&quot;center&quot;&gt;
+  &lt;img src=&quot;https://user-images.githubusercontent.com/3022518/37175698-99004f90-231a-11e8-8e4d-79109518cd10.png&quot; /&gt;
+&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Now, add new hashtags to the input dataset. The figure below shows new hashtags (#new_root_tag1, #new_root_tag2) getting added to the input dataset.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p align=&quot;center&quot;&gt;
+  &lt;img src=&quot;https://user-images.githubusercontent.com/3022518/37175716-a531b600-231a-11e8-8088-a41cf46404f9.png&quot; /&gt;
+&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;To propagate the new hashtags from parent to child datasets, execute the script using the example commands (here one should use the id of the history created above containing 3 datasets). We can see the child datasets now contain the new hashtags from their parent (figure below).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p align=&quot;center&quot;&gt;
+  &lt;img src=&quot;https://user-images.githubusercontent.com/3022518/37175722-ab5794e6-231a-11e8-976b-2598eaadd9ce.png&quot; /&gt;
+&lt;/p&gt;
+
+&lt;h3 id=&quot;more-complex-example&quot;&gt;More complex example&lt;/h3&gt;
+
+&lt;p&gt;In the previous example, we saw a tree with one level of hierarchy. In the following visual, we would see a more complex example of inheriting hashtags from parents involving multiple levels in the history tree.(figure below).&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;
+  &lt;img src=&quot;https://user-images.githubusercontent.com/3022518/37175736-b52df492-231a-11e8-9524-542208135533.png&quot; /&gt;
+&lt;/p&gt;
+
+&lt;h3 id=&quot;propagate-hashtags-in-galaxy&quot;&gt;Propagate hashtags in Galaxy&lt;/h3&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+  &lt;img src=&quot;https://user-images.githubusercontent.com/3022518/37175741-bb172a40-231a-11e8-835c-50166b6f11e3.png&quot; /&gt;
+&lt;/p&gt;
+&lt;p&gt;1.fasta → 3:Replace Text on data 1 → 4: Text transformation on data 3&lt;/p&gt;
+
+&lt;p&gt;In the above figure, “1.fasta” is the root (input dataset). “3:Replace Text on data 1” is the child/derived dataset from the root. “4: Text transformation on data 3” is the child of the second dataset. The hashtags that we see are after executing the script on this history.&lt;/p&gt;</content><author><name></name></author><category term="galaxy" /><category term="tools" /><category term="users" /><category term="software-release" /><summary type="html">Background</summary></entry><entry><title type="html">deepTools3 is now available!</title><link href="https://usegalaxy-eu.github.io/posts/2018/03/03/deepTools/" rel="alternate" type="text/html" title="deepTools3 is now available!" /><published>2018-03-03T00:00:00+01:00</published><updated>2018-03-03T00:00:00+01:00</updated><id>https://usegalaxy-eu.github.io/posts/2018/03/03/deepTools</id><content type="html" xml:base="https://usegalaxy-eu.github.io/posts/2018/03/03/deepTools/">&lt;p&gt;The deepTools developers have released a brand new version! This time with CRAM support, new normalization and plotting
 options, new tools, e.g. alignmentsieve for ATAC-seq, and &lt;a href=&quot;https://github.com/deeptools/deepTools/blob/master/CHANGES.txt&quot;&gt;many more&lt;/a&gt;.&lt;/p&gt;
 
 &lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;de&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;deepTools 3.0 is now available on pypi (bioconda soon). Changes include a completely revamped normalization interface (and new methods), CRAM support, interactive plots,  a more homogenized interface, new tools and better MultiQC integration&lt;/p&gt;&amp;mdash; Devon Ryan (@dpryan79) &lt;a href=&quot;https://twitter.com/dpryan79/status/963061179311632384?ref_src=twsrc%5Etfw&quot;&gt;12. Februar 2018&lt;/a&gt;&lt;/blockquote&gt;
@@ -258,6 +343,4 @@ Registration will be open from mid of April 2018 on. Save the date!&lt;/p&gt;</c
 
 &lt;p&gt;Further information: &lt;a href=&quot;http://www.bioinf.uni-freiburg.de/&quot;&gt;Bioinformatics Uni Freiburg&lt;/a&gt;, &lt;a href=&quot;https://usegalaxy-eu.github.io/freiburg/people&quot;&gt;Freiburg Galaxy Team&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Please send your application including a motivation letter, CV, certificates, and 3 references latest until 15.2.2018 via email to Anika Erxleben (bioinf-jobs@informatik.uni-freiburg.de)&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Galaxy Workshop - Registration is closed!</title><link href="https://usegalaxy-eu.github.io/posts/2018/01/18/Galaxy-workshop-2.2018/" rel="alternate" type="text/html" title="Galaxy Workshop - Registration is closed!" /><published>2018-01-18T00:00:00+01:00</published><updated>2018-01-18T00:00:00+01:00</updated><id>https://usegalaxy-eu.github.io/posts/2018/01/18/Galaxy-workshop-2.2018</id><content type="html" xml:base="https://usegalaxy-eu.github.io/posts/2018/01/18/Galaxy-workshop-2.2018/">&lt;p&gt;Due to the high number of applicants for the next Galaxy workshop from 26.02.-02.03.2018, we close the registration.
-Participants will be selected from the applicants until 02.02.2018.
-The next workshop will take place in September 2018.&lt;/p&gt;</content><author><name></name></author><category term="training" /><summary type="html">Due to the high number of applicants for the next Galaxy workshop from 26.02.-02.03.2018, we close the registration. Participants will be selected from the applicants until 02.02.2018. The next workshop will take place in September 2018.</summary></entry></feed>
+&lt;p&gt;Please send your application including a motivation letter, CV, certificates, and 3 references latest until 15.2.2018 via email to Anika Erxleben (bioinf-jobs@informatik.uni-freiburg.de)&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
