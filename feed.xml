@@ -1,4 +1,76 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.1">Jekyll</generator><link href="https://usegalaxy-eu.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://usegalaxy-eu.github.io/" rel="alternate" type="text/html" /><updated>2018-03-14T17:24:36+01:00</updated><id>https://usegalaxy-eu.github.io/</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">ELIXIR Galaxy community kick-off meeting</title><link href="https://usegalaxy-eu.github.io/posts/2018/03/14/elixir-galaxy-kickoff-meeting/" rel="alternate" type="text/html" title="ELIXIR Galaxy community kick-off meeting" /><published>2018-03-14T00:00:00+01:00</published><updated>2018-03-14T00:00:00+01:00</updated><id>https://usegalaxy-eu.github.io/posts/2018/03/14/elixir-galaxy-kickoff-meeting</id><content type="html" xml:base="https://usegalaxy-eu.github.io/posts/2018/03/14/elixir-galaxy-kickoff-meeting/">&lt;p&gt;The &lt;a href=&quot;https://www.elixir-europe.org/about/groups/galaxy-wg&quot;&gt;ELIXIR Galaxy community&lt;/a&gt; kick-off meeting was held here in Freiburg.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.1">Jekyll</generator><link href="https://usegalaxy-eu.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://usegalaxy-eu.github.io/" rel="alternate" type="text/html" /><updated>2018-03-15T13:36:18+01:00</updated><id>https://usegalaxy-eu.github.io/</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">Freiburg Galaxy becomes useGalaxy.eu</title><link href="https://usegalaxy-eu.github.io/posts/2018/03/15/usegalaxy-eu/" rel="alternate" type="text/html" title="Freiburg Galaxy becomes useGalaxy.eu" /><published>2018-03-15T00:00:00+01:00</published><updated>2018-03-15T00:00:00+01:00</updated><id>https://usegalaxy-eu.github.io/posts/2018/03/15/usegalaxy-eu</id><content type="html" xml:base="https://usegalaxy-eu.github.io/posts/2018/03/15/usegalaxy-eu/">&lt;p&gt;As part of our ongoing growth and development, Freiburg Galaxy is becoming useGalaxy.eu&lt;/p&gt;
+
+&lt;h2 id=&quot;what-changes&quot;&gt;What Changes&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;You will be able to access the galaxy instance via &lt;a href=&quot;https://usegalaxy.eu&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;https://usegalaxy.eu&lt;/code&gt;&lt;/a&gt; in addition to the old, &lt;code class=&quot;highlighter-rouge&quot;&gt;https://galaxy.uni-freiburg.de&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;Our website will read “useGalaxy.eu” in many places where it used to say Freiburg Galaxy. However, this Galaxy is still primarily run and maintained by the Freiburg Galaxy Team.&lt;/li&gt;
+  &lt;li&gt;You can reach us any time for questions at &lt;a href=&quot;mailto:contact@usegalaxy.eu&quot;&gt;contact@usegalaxy.eu&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;what-doesnt-change&quot;&gt;What Doesn’t Change&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Your data, the tools&lt;/li&gt;
+  &lt;li&gt;The Freiburg Galaxy Team is still maintaing the instance and providing all of the training associated with our Galaxy.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;the-future&quot;&gt;The Future&lt;/h2&gt;
+
+&lt;p&gt;We are not trying to be the only Galaxy in all of Europe, but we believe we are
+in a good position to make our Galaxy and our services available to all of
+Europe, especially locations which may not have the expertise or resources to
+host their own Galaxy instance. Many times regional Galaxies will provide
+features that are desirable over using a main european one, such as
+localisation, support in your native language, and usage of local resources.&lt;/p&gt;
+
+&lt;p&gt;We welcome other groups to join us in maintaining and improving the European
+Galaxy Instance, as part of that we have &lt;a href=&quot;https://github.com/usegalaxy-eu&quot;&gt;open sourced&lt;/a&gt;
+most of the tools used in
+maintenance of the repository and all of the supporting infrastructure. Our
+goal is to have a completely open setup which anyone can reproduce on their own
+infrastructure.&lt;/p&gt;
+
+&lt;p&gt;Here are some of our repositories and how they can be useful to you:&lt;/p&gt;
+
+&lt;table class=&quot;table table-striped&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Repository&lt;/th&gt;
+      &lt;th&gt;About&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/usegalaxy-eu/website&quot;&gt;website&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Our website, https://usegalaxy-eu.github.io&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/usegalaxy-eu/vgcn&quot;&gt;vgcn&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;The compute images we use for our cloud condor cluster&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/usegalaxy-eu/vgcn-infrastructure&quot;&gt;vgcn-infrastructure&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;The yaml description of our cloud cluster. Make a PR here if you think the queue is too slow and that we should add more compute resources.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/usegalaxy-eu/usegalaxy-eu-tools&quot;&gt;usegalaxy-eu-tools&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;The tools installed in our Galaxy instance. Any changes made here are automatically reflected in useGalaxy.eu every saturday morning.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/usegalaxy-eu/infrastructure-playbook&quot;&gt;infrastructure-playbook&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;All of our cloud infrastructure, the VMs we run and their configuration.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/usegalaxy-eu/branding&quot;&gt;branding&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Branding resources used by useGalaxy.EU&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/usegalaxy-eu/operations&quot;&gt;operations&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Our useGalaxy.eu operations manual for sysadmins&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</content><author><name></name></author><category term="devops" /><summary type="html">As part of our ongoing growth and development, Freiburg Galaxy is becoming useGalaxy.eu</summary></entry><entry><title type="html">ELIXIR Galaxy community kick-off meeting</title><link href="https://usegalaxy-eu.github.io/posts/2018/03/14/elixir-galaxy-kickoff-meeting/" rel="alternate" type="text/html" title="ELIXIR Galaxy community kick-off meeting" /><published>2018-03-14T00:00:00+01:00</published><updated>2018-03-14T00:00:00+01:00</updated><id>https://usegalaxy-eu.github.io/posts/2018/03/14/elixir-galaxy-kickoff-meeting</id><content type="html" xml:base="https://usegalaxy-eu.github.io/posts/2018/03/14/elixir-galaxy-kickoff-meeting/">&lt;p&gt;The &lt;a href=&quot;https://www.elixir-europe.org/about/groups/galaxy-wg&quot;&gt;ELIXIR Galaxy community&lt;/a&gt; kick-off meeting was held here in Freiburg.&lt;/p&gt;
 
 &lt;div class=&quot;multiple-img&quot;&gt;
     &lt;img src=&quot;https://usegalaxy-eu.github.io/assets/media/2018-03-14-elixir-galaxy-kickoff.jpg&quot; width=&quot;500px&quot; alt=&quot;ELIXIR Galaxy community kick-off meeting&quot; /&gt;
@@ -355,6 +427,4 @@ for their great new paper entiteled
 
 &lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;/h2&gt;
 
-&lt;p&gt;Epigenetic mechanisms and transcription factor networks essential for differentiation of cardiac myocytes have been uncovered. However, reshaping of the epigenome of these terminally differentiated cells during fetal development, postnatal maturation, and in disease remains unknown. Here, we investigate the dynamics of the cardiac myocyte epigenome during development and in chronic heart failure. We find that prenatal development and postnatal maturation are characterized by a cooperation of active CpG methylation and histone marks at cis-regulatory and genic regions to shape the cardiac myocyte transcriptome. In contrast, pathological gene expression in terminal heart failure is accompanied by changes in active histone marks without major alterations in CpG methylation and repressive chromatin marks. Notably, cis-regulatory regions in cardiac myocytes are significantly enriched for cardiovascular disease-associated variants. This study uncovers distinct layers of epigenetic regulation not only during prenatal development and postnatal maturation but also in diseased human cardiac myocytes.&lt;/p&gt;</content><author><name></name></author><category term="paper" /><summary type="html">Congratulation to Ralf Gilsbach et al. from the Hein group for their great new paper entiteled Distinct epigenetic programs regulate cardiac myocyte development and disease in the human heart in vivo.</summary></entry><entry><title type="html">We are now part of COST (CA16212)!</title><link href="https://usegalaxy-eu.github.io/posts/2018/01/30/COST/" rel="alternate" type="text/html" title="We are now part of COST (CA16212)!" /><published>2018-01-30T00:00:00+01:00</published><updated>2018-01-30T00:00:00+01:00</updated><id>https://usegalaxy-eu.github.io/posts/2018/01/30/COST</id><content type="html" xml:base="https://usegalaxy-eu.github.io/posts/2018/01/30/COST/">&lt;p&gt;We are part of COST &lt;a href=&quot;http://www.cost.eu/COST_Actions/ca/CA16212&quot;&gt;Impact of Nuclear Domains On Gene Expression and Plant Traits&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.cost.eu&quot;&gt;COST&lt;/a&gt; is an intergovernmental framework consisting in 36 Member States and a Cooperating State. This allows researchers from these countries to embark upon networking opportunities by participating in science and technology networks called COST Actions. If you are working with plants or have any questions don’t hesitate to contact us.&lt;/p&gt;</content><author><name></name></author><summary type="html">We are part of COST Impact of Nuclear Domains On Gene Expression and Plant Traits</summary></entry></feed>
+&lt;p&gt;Epigenetic mechanisms and transcription factor networks essential for differentiation of cardiac myocytes have been uncovered. However, reshaping of the epigenome of these terminally differentiated cells during fetal development, postnatal maturation, and in disease remains unknown. Here, we investigate the dynamics of the cardiac myocyte epigenome during development and in chronic heart failure. We find that prenatal development and postnatal maturation are characterized by a cooperation of active CpG methylation and histone marks at cis-regulatory and genic regions to shape the cardiac myocyte transcriptome. In contrast, pathological gene expression in terminal heart failure is accompanied by changes in active histone marks without major alterations in CpG methylation and repressive chromatin marks. Notably, cis-regulatory regions in cardiac myocytes are significantly enriched for cardiovascular disease-associated variants. This study uncovers distinct layers of epigenetic regulation not only during prenatal development and postnatal maturation but also in diseased human cardiac myocytes.&lt;/p&gt;</content><author><name></name></author><category term="paper" /><summary type="html">Congratulation to Ralf Gilsbach et al. from the Hein group for their great new paper entiteled Distinct epigenetic programs regulate cardiac myocyte development and disease in the human heart in vivo.</summary></entry></feed>
