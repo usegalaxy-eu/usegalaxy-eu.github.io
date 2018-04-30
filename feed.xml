@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.1">Jekyll</generator><link href="https://usegalaxy-eu.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://usegalaxy-eu.github.io/" rel="alternate" type="text/html" /><updated>2018-04-30T10:19:55+02:00</updated><id>https://usegalaxy-eu.github.io/</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">DNS outage affecting UseGalaxy.eu</title><link href="https://usegalaxy-eu.github.io/posts/2018/04/26/outage/" rel="alternate" type="text/html" title="DNS outage affecting UseGalaxy.eu" /><published>2018-04-26T00:00:00+02:00</published><updated>2018-04-26T00:00:00+02:00</updated><id>https://usegalaxy-eu.github.io/posts/2018/04/26/outage</id><content type="html" xml:base="https://usegalaxy-eu.github.io/posts/2018/04/26/outage/">&lt;h2 id=&quot;incident-timeline&quot;&gt;Incident Timeline&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.1">Jekyll</generator><link href="https://usegalaxy-eu.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://usegalaxy-eu.github.io/" rel="alternate" type="text/html" /><updated>2018-04-30T10:28:50+02:00</updated><id>https://usegalaxy-eu.github.io/</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">DNS outage affecting UseGalaxy.eu</title><link href="https://usegalaxy-eu.github.io/posts/2018/04/26/outage/" rel="alternate" type="text/html" title="DNS outage affecting UseGalaxy.eu" /><published>2018-04-26T00:00:00+02:00</published><updated>2018-04-26T00:00:00+02:00</updated><id>https://usegalaxy-eu.github.io/posts/2018/04/26/outage</id><content type="html" xml:base="https://usegalaxy-eu.github.io/posts/2018/04/26/outage/">&lt;h2 id=&quot;incident-timeline&quot;&gt;Incident Timeline&lt;/h2&gt;
 
 &lt;table class=&quot;table table-striped&quot;&gt;
   &lt;thead&gt;
@@ -44,7 +44,37 @@ we will be able to direct users to the most reliable one in the future.&lt;/p&gt
 
 &lt;p&gt;We check several hostnames and several DNS providers as we’ve experienced
 similar issues before, e.g. &lt;code class=&quot;highlighter-rouge&quot;&gt;registry.npmjs.org&lt;/code&gt; is checked as BelWü failed to
-respond to it breaking several automated processes. &lt;code class=&quot;highlighter-rouge&quot;&gt;google.com&lt;/code&gt; is checked as a simple sanity-test.&lt;/p&gt;</content><author><name></name></author><category term="devops" /><category term="downtime" /><summary type="html">Incident Timeline</summary></entry><entry><title type="html">New Galaxy Team member!</title><link href="https://usegalaxy-eu.github.io/posts/2018/04/23/Fabio-Cumbo/" rel="alternate" type="text/html" title="New Galaxy Team member!" /><published>2018-04-23T00:00:00+02:00</published><updated>2018-04-23T00:00:00+02:00</updated><id>https://usegalaxy-eu.github.io/posts/2018/04/23/Fabio-Cumbo</id><content type="html" xml:base="https://usegalaxy-eu.github.io/posts/2018/04/23/Fabio-Cumbo/">&lt;p&gt;The Galaxy Team in Freiburg has a new member.&lt;/p&gt;
+respond to it breaking several automated processes. &lt;code class=&quot;highlighter-rouge&quot;&gt;google.com&lt;/code&gt; is checked as a simple sanity-test.&lt;/p&gt;</content><author><name></name></author><category term="devops" /><category term="downtime" /><summary type="html">Incident Timeline</summary></entry><entry><title type="html">Fileserver Outage affecting Jobs</title><link href="https://usegalaxy-eu.github.io/posts/2018/04/24/fileserver-outage/" rel="alternate" type="text/html" title="Fileserver Outage affecting Jobs" /><published>2018-04-24T00:00:00+02:00</published><updated>2018-04-24T00:00:00+02:00</updated><id>https://usegalaxy-eu.github.io/posts/2018/04/24/fileserver-outage</id><content type="html" xml:base="https://usegalaxy-eu.github.io/posts/2018/04/24/fileserver-outage/">&lt;h2 id=&quot;incident-timeline&quot;&gt;Incident Timeline&lt;/h2&gt;
+
+&lt;table class=&quot;table table-striped&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Time&lt;/th&gt;
+      &lt;th&gt;State&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;11:02&lt;/td&gt;
+      &lt;td&gt;We received a mail from the HPC team that the central Uni Freiburg fileserver was experiencing issues resulting in an outage.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;16:30&lt;/td&gt;
+      &lt;td&gt;Some jobs were still hung and could not recover due to this outage. The UseGalaxy.eu Admin team began discussing possible options.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;17:18&lt;/td&gt;
+      &lt;td&gt;We took the decision to reboot affected hosts as processes could not be killed. This affected a number of jobs unfortunately that were not rescheduled automatically.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;resolution&quot;&gt;Resolution&lt;/h2&gt;
+
+&lt;p&gt;Killing the affected hosts was not an optimal solution however it was the most
+efficient. Jobs should have been rescheduled and re-run automatically but it
+seems they were often not, so we will be investigating and correcting issues
+with our Galaxy job configuration.&lt;/p&gt;</content><author><name></name></author><category term="devops" /><category term="outage" /><summary type="html">Incident Timeline</summary></entry><entry><title type="html">New Galaxy Team member!</title><link href="https://usegalaxy-eu.github.io/posts/2018/04/23/Fabio-Cumbo/" rel="alternate" type="text/html" title="New Galaxy Team member!" /><published>2018-04-23T00:00:00+02:00</published><updated>2018-04-23T00:00:00+02:00</updated><id>https://usegalaxy-eu.github.io/posts/2018/04/23/Fabio-Cumbo</id><content type="html" xml:base="https://usegalaxy-eu.github.io/posts/2018/04/23/Fabio-Cumbo/">&lt;p&gt;The Galaxy Team in Freiburg has a new member.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://github.com/fabio-cumbo&quot;&gt;Fabio Cumbo&lt;/a&gt; is a PhD Candidate in Software Engineering at the University of Roma Tre in Rome, Italy. Previously member of the US Team of Galaxy, he has recently joined the Galaxy Team in Freiburg as a visiting scientist.&lt;/p&gt;
 
@@ -297,27 +327,4 @@ infrastructure.&lt;/p&gt;
 &lt;/p&gt;
 &lt;p&gt;1.fasta → 3:Replace Text on data 1 → 4: Text transformation on data 3&lt;/p&gt;
 
-&lt;p&gt;In the above figure, “1.fasta” is the root (input dataset). “3:Replace Text on data 1” is the child/derived dataset from the root. “4: Text transformation on data 3” is the child of the second dataset. The hashtags that we see are after executing the script on this history.&lt;/p&gt;</content><author><name></name></author><category term="galaxy" /><category term="tools" /><category term="users" /><category term="software-release" /><summary type="html">Background</summary></entry><entry><title type="html">Map and identify phenotypic mutations in model organism genomes</title><link href="https://usegalaxy-eu.github.io/posts/2018/03/08/MiModD/" rel="alternate" type="text/html" title="Map and identify phenotypic mutations in model organism genomes" /><published>2018-03-08T00:00:00+01:00</published><updated>2018-03-08T00:00:00+01:00</updated><id>https://usegalaxy-eu.github.io/posts/2018/03/08/MiModD</id><content type="html" xml:base="https://usegalaxy-eu.github.io/posts/2018/03/08/MiModD/">&lt;p&gt;The MiModD suite of tools, developed in the
-&lt;a href=&quot;https://celegans.de/mimodd/&quot;&gt;Baumeister lab&lt;/a&gt; at the Institute for Biology 3
-here in Freiburg, is now available on the server.
-MiModD is for geneticists who have isolated phenotypic mutants of their
-favourite organism, &lt;em&gt;e.g.&lt;/em&gt;, through forward genetic screens, and who now wish
-to map the underlying mutations and eventually identify them molecularly.&lt;/p&gt;
-
-&lt;p&gt;Provided you have followed a mutant phenotype through a cross between the
-mutant line and a suitable mapping strain and have sequenced recombinant
-offspring genomes, you can use the MiModD tools to identify marker SNPs
-(inherited from either parent) and perform a linkage analysis between these
-markers and the observed phenotype. You can then continue with MiModD to
-identify and annotate candidate mutations that fall into the linked genomic
-region.&lt;/p&gt;
-
-&lt;p&gt;MiModD can derive linkage patterns from a variety of different crossing
-schemes and has been used successfully for species as diverse as the ciliate
-&lt;em&gt;Tetrahymena thermophila&lt;/em&gt;, the roundworm &lt;em&gt;C. elegans&lt;/em&gt;, and zebrafish.&lt;/p&gt;
-
-&lt;p&gt;A Galaxy-based tutorial for the tools is available
-&lt;a href=&quot;http://galaxyproject.github.io/training-material/topics/variant-analysis/tutorials/mapping-by-sequencing/tutorial.html&quot;&gt;here&lt;/a&gt; and there is also a shared
-&lt;a href=&quot;https://usegalaxy.eu/u/wolfgang-maier/w/identify-phenotypic-mutation-in-arabidopsis&quot;&gt;workflow to reproduce the analysis from the tutorial&lt;/a&gt;.
-Additional example analyses can be found in the
-&lt;a href=&quot;http://mimodd.readthedocs.io/en/default/tutorial.html&quot;&gt;MiModD documentation&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="tools" /><summary type="html">The MiModD suite of tools, developed in the Baumeister lab at the Institute for Biology 3 here in Freiburg, is now available on the server. MiModD is for geneticists who have isolated phenotypic mutants of their favourite organism, e.g., through forward genetic screens, and who now wish to map the underlying mutations and eventually identify them molecularly.</summary></entry></feed>
+&lt;p&gt;In the above figure, “1.fasta” is the root (input dataset). “3:Replace Text on data 1” is the child/derived dataset from the root. “4: Text transformation on data 3” is the child of the second dataset. The hashtags that we see are after executing the script on this history.&lt;/p&gt;</content><author><name></name></author><category term="galaxy" /><category term="tools" /><category term="users" /><category term="software-release" /><summary type="html">Background</summary></entry></feed>

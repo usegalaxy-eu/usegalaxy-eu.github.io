@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  <title>Galaxy Europe | News</title>
+  <title>Galaxy Europe | Fileserver Outage affecting Jobs</title>
   <meta name="description" content="The European Galaxy Instance">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="utf-8">
@@ -19,9 +19,11 @@
   <link rel="stylesheet" href="https://usegalaxy-eu.github.io/assets/css/eu.css">
   
     
+    <link rel="stylesheet" href="https://usegalaxy-eu.github.io/assets/css/freiburg.css">
+    
   
 
-  <link rel="canonical" href="https://usegalaxy-eu.github.io/paris/news.html">
+  <link rel="canonical" href="https://usegalaxy-eu.github.io/posts/2018/04/24/fileserver-outage/plain.html">
 
   <link rel="alternate" type="application/rss+xml" title="Galaxy Europe" href="https://usegalaxy-eu.github.io/feed.xml">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
@@ -34,212 +36,100 @@
   <body>
     <div id="wrap">
       <div id="main">
-        <div class="navbar">
-
-  <div class="container">
-    
-    
-
-    
-    
-    
-
-    
-
-    <div class="navbar-header">
-      <div class="navbar-brand">
-        
-        <img alt="galaxy eu logo" src="https://usegalaxy-eu.github.io/assets/media/galaxy-eu-logo.inv.svg" style="height: 20px"/>
-        
-      </div>
-
-      <a class="navbar-brand" href="https://usegalaxy-eu.github.io/" style="padding-left: 6px">
-        Galaxy Europe
-      </a>
-      
-        <div class="navbar-brand" style="color: white">
-        /
-        </div>
-        <a class="navbar-brand" href="https://usegalaxy-eu.github.io/paris">
-          Paris
-        </a>
-      
-    </div>
-
-      <div class="navbar-collapse collapse">
-        <ul class="nav navbar-nav navbar-right">
-           <li class="dropdown">
-             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Member Sites <span class="caret"></span></a>
-             <ul class="dropdown-menu">
-              
-                <li>
-                  <a class="page-link" href="/freiburg/">Freiburg</a>
-                </li>
-              
-             </ul>
-           </li>
-
-          
-          
-            <li>
-              <a class="page-link" href="/news">News</a>
-            </li>
-          
-            <li>
-              <a class="page-link" href="/events">Events</a>
-            </li>
-          
-            <li>
-              <a class="page-link" href="/people">People</a>
-            </li>
-          
-            <li>
-              <a class="page-link" href="/about">About</a>
-            </li>
-          
-          
-        </ul>
-      </div>
-  </div>
-</div>
-
         <div class="container" id="maincontainer">
           
+<section id="news-page">
+  <div class="row news-header-row">
+    
+    <a class="col-xs-1 text-center" href="https://usegalaxy-eu.github.io/posts/2018/04/23/Fabio-Cumbo/plain.html">
+      «
+    </a>
+    
+    <div class="col-xs-10 ">
+      <div class="text-center">
+        <h2 class="title">Fileserver Outage affecting Jobs</h2>
+      </div>
+      <hr />
+    </div>
+    
+    <a class="col-xs-1 text-center" href="https://usegalaxy-eu.github.io/posts/2018/04/26/outage/plain.html">
+      »
+    </a>
+    
+  </div>
+  <div class="row post-metadata">
+    <div class="col-md-8 col-md-offset-2">
+      <div class="text-right">
+        <div>
+          <span class="post-date">
+            Apr 24, 2018
+          </span>
 
+          
+          <br />
+          <span class="post-location">
+              Freiburg, Germany
+          </span>
+          
 
+          
+          <br />
+          <span class="post-tags">
+            
+              <span class="label label-info">devops</span>
+            
+              <span class="label label-info">outage</span>
+            
+          </span>
+          
 
-
-<section class="page-header">
-  <div class="row">
-    <div class="col-sm-12 text-center">
-      <h1>News</h1>
+          
+        </div>
+      </div>
     </div>
   </div>
-</section>
 
-<section id="news-list">
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2">
+      <div class="news-content">
+        <h2 id="incident-timeline">Incident Timeline</h2>
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Time</th>
+      <th>State</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>11:02</td>
+      <td>We received a mail from the HPC team that the central Uni Freiburg fileserver was experiencing issues resulting in an outage.</td>
+    </tr>
+    <tr>
+      <td>16:30</td>
+      <td>Some jobs were still hung and could not recover due to this outage. The UseGalaxy.eu Admin team began discussing possible options.</td>
+    </tr>
+    <tr>
+      <td>17:18</td>
+      <td>We took the decision to reboot affected hosts as processes could not be killed. This affected a number of jobs unfortunately that were not rescheduled automatically.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="resolution">Resolution</h2>
+
+<p>Killing the affected hosts was not an optimal solution however it was the most
+efficient. Jobs should have been rescheduled and re-run automatically but it
+seems they were often not, so we will be investigating and correcting issues
+with our Galaxy job configuration.</p>
+
+      </div>
+    </div>
+  </div>
 
   
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
+
 </section>
 
         </div>
