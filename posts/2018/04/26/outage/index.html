@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  <title>Galaxy Europe | News</title>
+  <title>Galaxy Europe | DNS outage affecting UseGalaxy.eu</title>
   <meta name="description" content="The European Galaxy Instance">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="utf-8">
@@ -19,9 +19,11 @@
   <link rel="stylesheet" href="https://usegalaxy-eu.github.io/assets/css/eu.css">
   
     
+    <link rel="stylesheet" href="https://usegalaxy-eu.github.io/assets/css/freiburg.css">
+    
   
 
-  <link rel="canonical" href="https://usegalaxy-eu.github.io/paris/news.html">
+  <link rel="canonical" href="https://usegalaxy-eu.github.io/posts/2018/04/26/outage/">
 
   <link rel="alternate" type="application/rss+xml" title="Galaxy Europe" href="https://usegalaxy-eu.github.io/feed.xml">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
@@ -60,8 +62,8 @@
         <div class="navbar-brand" style="color: white">
         /
         </div>
-        <a class="navbar-brand" href="https://usegalaxy-eu.github.io/paris">
-          Paris
+        <a class="navbar-brand" href="https://usegalaxy-eu.github.io/freiburg">
+          Freiburg
         </a>
       
     </div>
@@ -82,19 +84,27 @@
           
           
             <li>
-              <a class="page-link" href="/news">News</a>
+              <a class="page-link" href="/freiburg/news">News</a>
             </li>
           
             <li>
-              <a class="page-link" href="/events">Events</a>
+              <a class="page-link" href="/freiburg/events">Events</a>
             </li>
           
             <li>
-              <a class="page-link" href="/people">People</a>
+              <a class="page-link" href="/freiburg/people">People</a>
             </li>
           
             <li>
-              <a class="page-link" href="/about">About</a>
+              <a class="page-link" href="/freiburg/projects">Projects</a>
+            </li>
+          
+            <li>
+              <a class="page-link" href="/freiburg/services">Services</a>
+            </li>
+          
+            <li>
+              <a class="page-link" href="/freiburg/publications">Publications</a>
             </li>
           
           
@@ -105,139 +115,110 @@
 
         <div class="container" id="maincontainer">
           
+<section id="news-page">
+  <div class="row news-header-row">
+    
+    <a class="col-xs-1 text-center" href="https://usegalaxy-eu.github.io/posts/2018/04/23/Fabio-Cumbo/">
+      «
+    </a>
+    
+    <div class="col-xs-10 ">
+      <div class="text-center">
+        <h2 class="title">DNS outage affecting UseGalaxy.eu</h2>
+      </div>
+      <hr />
+    </div>
+    
+  </div>
+  <div class="row post-metadata">
+    <div class="col-md-8 col-md-offset-2">
+      <div class="text-right">
+        <div>
+          <span class="post-date">
+            April 26, 2018
+          </span>
 
+          
+          <br />
+          <span class="post-location">
+              Freiburg, Germany
+          </span>
+          
 
+          
+          <br />
+          <span class="post-tags">
+            
+              <span class="label label-info">devops</span>
+            
+              <span class="label label-info">downtime</span>
+            
+          </span>
+          
 
-
-<section class="page-header">
-  <div class="row">
-    <div class="col-sm-12 text-center">
-      <h1>News</h1>
+          
+        </div>
+      </div>
     </div>
   </div>
-</section>
 
-<section id="news-list">
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2">
+      <div class="news-content">
+        <h2 id="incident-timeline">Incident Timeline</h2>
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Time</th>
+      <th>State</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>12:10</td>
+      <td>DNS providers failed to respond to requests for <code class="highlighter-rouge">usegalaxy.eu</code></td>
+    </tr>
+    <tr>
+      <td>12:19</td>
+      <td>We received a user report that usegalaxy.eu was not reachable, nor were any subdomains such as <code class="highlighter-rouge">stats.usegalaxy.eu</code>. Our testing showed everything working locally in freiburg as most of our computers use BelWü’s DNS.</td>
+    </tr>
+    <tr>
+      <td>12:24</td>
+      <td>Our automated alert finally trigged that DNS was non-responsive for 15 minutes.</td>
+    </tr>
+    <tr>
+      <td>12:45</td>
+      <td>Systems returned to a functional state on their own.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><a href="https://usegalaxy-eu.github.io/assets/media/2018-04-26-outage.png">
+<img src="https://usegalaxy-eu.github.io/assets/media/2018-04-26-outage.png" alt="DNS providers failing to respond to requests." />
+</a></p>
+
+<h2 id="resolution">Resolution</h2>
+
+<p>There was no short-term resolution for this issue. There is no long term plan
+for resolution as DNS issues are not easily solvable at our organisation’s
+size.</p>
+
+<p>We have begun to monitoring more DNS providers (CloudFlare, Quad9) so hopefully
+we will be able to direct users to the most reliable one in the future.</p>
+
+<h2 id="background">Background</h2>
+
+<p>We check several hostnames and several DNS providers as we’ve experienced
+similar issues before, e.g. <code class="highlighter-rouge">registry.npmjs.org</code> is checked as BelWü failed to
+respond to it breaking several automated processes. <code class="highlighter-rouge">google.com</code> is checked as a simple sanity-test.</p>
+
+      </div>
+    </div>
+  </div>
 
   
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
+
 </section>
 
         </div>

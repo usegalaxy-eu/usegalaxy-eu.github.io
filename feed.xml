@@ -1,4 +1,50 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.1">Jekyll</generator><link href="https://usegalaxy-eu.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://usegalaxy-eu.github.io/" rel="alternate" type="text/html" /><updated>2018-04-29T13:59:03+02:00</updated><id>https://usegalaxy-eu.github.io/</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">New Galaxy Team member!</title><link href="https://usegalaxy-eu.github.io/posts/2018/04/23/Fabio-Cumbo/" rel="alternate" type="text/html" title="New Galaxy Team member!" /><published>2018-04-23T00:00:00+02:00</published><updated>2018-04-23T00:00:00+02:00</updated><id>https://usegalaxy-eu.github.io/posts/2018/04/23/Fabio-Cumbo</id><content type="html" xml:base="https://usegalaxy-eu.github.io/posts/2018/04/23/Fabio-Cumbo/">&lt;p&gt;The Galaxy Team in Freiburg has a new member.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.1">Jekyll</generator><link href="https://usegalaxy-eu.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://usegalaxy-eu.github.io/" rel="alternate" type="text/html" /><updated>2018-04-30T10:19:55+02:00</updated><id>https://usegalaxy-eu.github.io/</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">DNS outage affecting UseGalaxy.eu</title><link href="https://usegalaxy-eu.github.io/posts/2018/04/26/outage/" rel="alternate" type="text/html" title="DNS outage affecting UseGalaxy.eu" /><published>2018-04-26T00:00:00+02:00</published><updated>2018-04-26T00:00:00+02:00</updated><id>https://usegalaxy-eu.github.io/posts/2018/04/26/outage</id><content type="html" xml:base="https://usegalaxy-eu.github.io/posts/2018/04/26/outage/">&lt;h2 id=&quot;incident-timeline&quot;&gt;Incident Timeline&lt;/h2&gt;
+
+&lt;table class=&quot;table table-striped&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Time&lt;/th&gt;
+      &lt;th&gt;State&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;12:10&lt;/td&gt;
+      &lt;td&gt;DNS providers failed to respond to requests for &lt;code class=&quot;highlighter-rouge&quot;&gt;usegalaxy.eu&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;12:19&lt;/td&gt;
+      &lt;td&gt;We received a user report that usegalaxy.eu was not reachable, nor were any subdomains such as &lt;code class=&quot;highlighter-rouge&quot;&gt;stats.usegalaxy.eu&lt;/code&gt;. Our testing showed everything working locally in freiburg as most of our computers use BelWü’s DNS.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;12:24&lt;/td&gt;
+      &lt;td&gt;Our automated alert finally trigged that DNS was non-responsive for 15 minutes.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;12:45&lt;/td&gt;
+      &lt;td&gt;Systems returned to a functional state on their own.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://usegalaxy-eu.github.io/assets/media/2018-04-26-outage.png&quot;&gt;
+&lt;img src=&quot;https://usegalaxy-eu.github.io/assets/media/2018-04-26-outage.png&quot; alt=&quot;DNS providers failing to respond to requests.&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;resolution&quot;&gt;Resolution&lt;/h2&gt;
+
+&lt;p&gt;There was no short-term resolution for this issue. There is no long term plan
+for resolution as DNS issues are not easily solvable at our organisation’s
+size.&lt;/p&gt;
+
+&lt;p&gt;We have begun to monitoring more DNS providers (CloudFlare, Quad9) so hopefully
+we will be able to direct users to the most reliable one in the future.&lt;/p&gt;
+
+&lt;h2 id=&quot;background&quot;&gt;Background&lt;/h2&gt;
+
+&lt;p&gt;We check several hostnames and several DNS providers as we’ve experienced
+similar issues before, e.g. &lt;code class=&quot;highlighter-rouge&quot;&gt;registry.npmjs.org&lt;/code&gt; is checked as BelWü failed to
+respond to it breaking several automated processes. &lt;code class=&quot;highlighter-rouge&quot;&gt;google.com&lt;/code&gt; is checked as a simple sanity-test.&lt;/p&gt;</content><author><name></name></author><category term="devops" /><category term="downtime" /><summary type="html">Incident Timeline</summary></entry><entry><title type="html">New Galaxy Team member!</title><link href="https://usegalaxy-eu.github.io/posts/2018/04/23/Fabio-Cumbo/" rel="alternate" type="text/html" title="New Galaxy Team member!" /><published>2018-04-23T00:00:00+02:00</published><updated>2018-04-23T00:00:00+02:00</updated><id>https://usegalaxy-eu.github.io/posts/2018/04/23/Fabio-Cumbo</id><content type="html" xml:base="https://usegalaxy-eu.github.io/posts/2018/04/23/Fabio-Cumbo/">&lt;p&gt;The Galaxy Team in Freiburg has a new member.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://github.com/fabio-cumbo&quot;&gt;Fabio Cumbo&lt;/a&gt; is a PhD Candidate in Software Engineering at the University of Roma Tre in Rome, Italy. Previously member of the US Team of Galaxy, he has recently joined the Galaxy Team in Freiburg as a visiting scientist.&lt;/p&gt;
 
@@ -274,9 +320,4 @@ schemes and has been used successfully for species as diverse as the ciliate
 &lt;a href=&quot;http://galaxyproject.github.io/training-material/topics/variant-analysis/tutorials/mapping-by-sequencing/tutorial.html&quot;&gt;here&lt;/a&gt; and there is also a shared
 &lt;a href=&quot;https://usegalaxy.eu/u/wolfgang-maier/w/identify-phenotypic-mutation-in-arabidopsis&quot;&gt;workflow to reproduce the analysis from the tutorial&lt;/a&gt;.
 Additional example analyses can be found in the
-&lt;a href=&quot;http://mimodd.readthedocs.io/en/default/tutorial.html&quot;&gt;MiModD documentation&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="tools" /><summary type="html">The MiModD suite of tools, developed in the Baumeister lab at the Institute for Biology 3 here in Freiburg, is now available on the server. MiModD is for geneticists who have isolated phenotypic mutants of their favourite organism, e.g., through forward genetic screens, and who now wish to map the underlying mutations and eventually identify them molecularly.</summary></entry><entry><title type="html">deepTools3 is now available!</title><link href="https://usegalaxy-eu.github.io/posts/2018/03/03/deepTools/" rel="alternate" type="text/html" title="deepTools3 is now available!" /><published>2018-03-03T00:00:00+01:00</published><updated>2018-03-03T00:00:00+01:00</updated><id>https://usegalaxy-eu.github.io/posts/2018/03/03/deepTools</id><content type="html" xml:base="https://usegalaxy-eu.github.io/posts/2018/03/03/deepTools/">&lt;p&gt;The deepTools developers have released a brand new version! This time with CRAM support, new normalization and plotting
-options, new tools, e.g. alignmentsieve for ATAC-seq, and &lt;a href=&quot;https://github.com/deeptools/deepTools/blob/master/CHANGES.txt&quot;&gt;many more&lt;/a&gt;.&lt;/p&gt;
-
-&lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;de&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;deepTools 3.0 is now available on pypi (bioconda soon). Changes include a completely revamped normalization interface (and new methods), CRAM support, interactive plots,  a more homogenized interface, new tools and better MultiQC integration&lt;/p&gt;&amp;mdash; Devon Ryan (@dpryan79) &lt;a href=&quot;https://twitter.com/dpryan79/status/963061179311632384?ref_src=twsrc%5Etfw&quot;&gt;12. Februar 2018&lt;/a&gt;&lt;/blockquote&gt;
-
-&lt;p&gt;Special thanks to Devon and Fidel for those fantastic tools that were executed over 50.000 times so far on our Galaxy server.&lt;/p&gt;</content><author><name></name></author><category term="tools" /><summary type="html">The deepTools developers have released a brand new version! This time with CRAM support, new normalization and plotting options, new tools, e.g. alignmentsieve for ATAC-seq, and many more.</summary></entry></feed>
+&lt;a href=&quot;http://mimodd.readthedocs.io/en/default/tutorial.html&quot;&gt;MiModD documentation&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="tools" /><summary type="html">The MiModD suite of tools, developed in the Baumeister lab at the Institute for Biology 3 here in Freiburg, is now available on the server. MiModD is for geneticists who have isolated phenotypic mutants of their favourite organism, e.g., through forward genetic screens, and who now wish to map the underlying mutations and eventually identify them molecularly.</summary></entry></feed>
