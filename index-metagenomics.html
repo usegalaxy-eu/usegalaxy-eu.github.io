@@ -39,51 +39,149 @@
   
 
 
-  <h1 id="galaxy-metagenomics">Galaxy Metagenomics</h1>
+  <p><img src="https://usegalaxy-eu.github.io/assets/media/asaim_logo.png" height="100px" alt="ASaiM logo" /></p>
 
-<p>Welcome to Galaxy Metagenomics (ASaiM) – a webserver to process, analyse and visualize Metagenomic or in general Microbiota data.</p>
-
-<p><img src="/assets/media/asaim_logo.png" alt="" /></p>
+<p>Welcome to <strong>Galaxy Metagenomics</strong> (<a href="http://asaim.readthedocs.io/en/latest/">ASaiM</a>) – a webserver to process, analyse and visualize Metagenomic and Microbiota data in general.</p>
 
 <h2 id="get-started">Get started</h2>
 
 <p>Are you new to Galaxy, or returning after a long time, and looking for help to get started? Take <a target="_parent" href="https://metagenomics.usegalaxy.eu/tours/core.galaxy_ui">a guided tour</a> through Galaxy’s user interface.</p>
 
-<p>Take <a target="_parent" href="https://metagenomics.usegalaxy.eu/tours/mothur-miseq-sop">a guided tour</a> for an introduction to Galaxy and Metagenomics data analysis. This tour guides you through the 16S Microbial Analysis with Mothur tutorial on the <a target="_parent" href="http://galaxyproject.github.io/training-material/topics/metagenomics/tutorials/mothur-miseq-sop/tutorial.html">Galaxy Training Network</a>. Follow the tutorial to understand the analysis steps better or as a help which parameters are useful.</p>
-
-<p>Over time we will collect more tutorials in the <a href="http://galaxyproject.github.io/training-material/topics/metagenomics/">Galaxy Training Network</a>.</p>
-
-<p>A precomputed history of the tutorial can be viewed <a href="">here</a>.</p>
-
-<h3 id="example-data">Example data</h3>
-
-<p>The Galaxy Training Network tutorial uses example data from Drosophila melanogaster and is hosted on zenodo: <a target="_parent" href="https://doi.org/10.5281/zenodo.165147"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.165147.svg" alt="DOI" /></a></p>
-
-<p>Additional we provide the data in <a target="_parent" href="https://metagenomics.usegalaxy.eu/library/list">the shared data library</a>. In comparison to the data hosted on zenodo it contains preprocessed intermediate files.</p>
-
-<h3 id="more-interactive-tours">More interactive tours</h3>
+<p>Want to learn about metagenomics analyses? Check our <a href="#tutorials">tutorials</a> or take one of our guided tour:</p>
 
 <ul>
-  <li>
-    <p><a target="_parent" href="https://metagenomics.usegalaxy.eu/tours/mothur-miseq-sop">Mothur MiSeq SOP</a>: In this tour we will perform the Standard Operating Procedure (SOP) for MiSeq data mothur-miseq-sop</p>
+  <li><a target="_parent" href="https://metagenomics.usegalaxy.eu/tours/metagenomics-general-tutorial-amplicon">Introduction of amplicon data analyses using mothur tool suite</a></li>
+  <li><a target="_parent" href="https://metagenomics.usegalaxy.eu/tours/metagenomics-general-tutorial-shotgun">Introduction to shotgun metagenomics data analyses</a></li>
+  <li><a target="_parent" href="https://metagenomics.usegalaxy.eu/tours/mothur-miseq-sop">16S Microbial Analysis with Mothur MiSeq SOP</a></li>
+</ul>
+
+<p>Check also the standard but customizable <a href="#workflows">workflows</a> available there.</p>
+
+<p><a name="tools"></a></p>
+<h2 id="tools">Tools</h2>
+
+<p>More than <a href="http://asaim.readthedocs.io/en/latest/tools/index.html">200 tools</a> are integrated in this custom Galaxy instance. They were chosen for their use in exploitation of microbiota data:</p>
+
+<ul>
+  <li><a href="http://asaim.readthedocs.io/en/latest/tools/file_meta_tools.html"><strong>General tools</strong></a>
+    <ul>
+      <li><strong>Data retrieval</strong>: EBISearch, ENASearch, SRA Tools</li>
+      <li><strong>BAM/SAM file manipulation</strong>: SAM tools</li>
+      <li><strong>BIOM file manipulation</strong>: BIOM-Format tools</li>
+    </ul>
   </li>
-  <li>
-    <p><a target="_parent" href="https://metagenomics.usegalaxy.eu/tours/metagenomics-general-tutorial-amplicon">Analyses of metagenomics data - Amplicon data analyses</a>: In this tour, we will use mothur tool suite to analyze amplicon datasets from soil samples.</p>
+  <li><a href="http://asaim.readthedocs.io/en/latest/tools/genomics.html"><strong>Genomics tools</strong></a>
+    <ul>
+      <li><strong>Quality control</strong>: FastQC, PRINSEQ, Trim Galore! , Trimmomatic, MultiQC</li>
+      <li><strong>Clustering</strong>: CD-Hit</li>
+      <li><strong>Sorting and prediction</strong>: SortMeRNA, FragGeneScan</li>
+      <li><strong>Mapping</strong>: BWA, Bowtie</li>
+      <li><strong>Similarity search</strong>: NCBI Blast+, Diamond</li>
+      <li><strong>Alignment</strong>: HMMER3</li>
+    </ul>
   </li>
-  <li>
-    <p><a target="_parent" href="https://metagenomics.usegalaxy.eu/tours/metagenomics-general-tutorial-shotgun">Analyses of metagenomics data - Shotgun metagenomics data analyses</a>: In this tour, we will use analyze shotgun datasets from soil samples.</p>
+  <li><a href="http://asaim.readthedocs.io/en/latest/tools/microbiota.html"><strong>Microbiota dedicated tools</strong></a>
+    <ul>
+      <li><strong>Metagenomics data manipulation</strong>: VSEARCH, Nonpareil</li>
+      <li><strong>Assembly</strong>: MEGAHIT, metaSPAdes, metaQUAST, VALET</li>
+      <li><strong>Metataxonomic sequence analysis</strong>: Mothur, QIIME</li>
+      <li><strong>Taxonomy assignation on WGS sequences</strong>: MetaPhlAn2, Format MetaPhlan2, Kraken</li>
+      <li><strong>Metabolism assignation</strong>: HUMAnN2, Group HUMAnN2 to GO slim terms, Compare HUMAnN2 outputs, PICRUST, InterProScan</li>
+      <li><strong>Combination of functional and taxonomic results</strong></li>
+      <li><strong>Visualization</strong>: Export2graphlan, GraPhlAn, KRONA</li>
+    </ul>
   </li>
 </ul>
 
-<h2 id="galaxy-for-metagenomics--many-possibilities">Galaxy for Metagenomics – many possibilities</h2>
+<p><a name="tutorials"></a></p>
+<h2 id="tutorials">Tutorials</h2>
+
+<p>We are passionate about training. So we are working in close collaboration with the <a href="https://galaxyproject.org/teach/gtn/">Galaxy Training Network (GTN)</a> to develop training materials of data analyses based on Galaxy <a href="#batut2017community">(Batut <i>et al.</i>, 2017)</a>. These materials hosted on the GTN GitHub repository are available online at <a href="http://training.galaxyproject.org">http://training.galaxyproject.org</a>.</p>
+
+<p>We then developed <a href="http://galaxyproject.github.io/training-material/topics/metagenomics/">several tutorials</a> and more will come:</p>
 
 <ul>
-  <li>16s RNA</li>
-  <li>Genome assembly</li>
-  <li>…</li>
+  <li>
+    <p><a href="https://galaxyproject.github.io/training-material/topics/metagenomics/tutorials/general-tutorial/tutorial.html">Analyses of metagenomics data - The global picture</a></p>
+
+    <p>This tutorial introduces the amplicon and shotgun data analyses with the general principles behind and the differences.</p>
+  </li>
+  <li>
+    <p><a href="https://galaxyproject.github.io/training-material/topics/metagenomics/tutorials/mothur-miseq-sop/tutorial.html">16S Microbial Analysis with Mothur</a></p>
+
+    <p>In this tutorial the Standard Operating Procedure (SOP) for MiSeq data, developed by the creators of the Mothur software package, is perfomed within Galaxy.</p>
+  </li>
 </ul>
 
+<p><a name="workflows"></a></p>
 <h2 id="workflows">Workflows</h2>
+
+<p>To orchestrate tools and help users with their analyses, several <a href="http://asaim.readthedocs.io/en/latest/workflows.html">workflows</a> are available. They formally orchestrate tools in a defined order and with defined parameters, but they are customizable (tools, order, parameters).</p>
+
+<p>The workflows are available in the <a href="https://metagenomics.usegalaxy.eu/workflows/list_published">Shared Workflows</a>, with the label “<strong><em>asaim</em></strong>”.</p>
+
+<h3 id="analysis-of-raw-metagenomic-or-metatranscriptomic-shotgun-data">Analysis of raw metagenomic or metatranscriptomic shotgun data</h3>
+
+<p>The workflow quickly produces, from raw metagenomic or metatranscriptomic shotgun data, accurate and precise taxonomic assignations, wide extended functional results and taxonomically related metabolism information</p>
+
+<p><img src="http://asaim.readthedocs.io/en/latest/_images/main_workflow.png" alt="" /></p>
+
+<p>This workflow consists of</p>
+
+<ol>
+  <li>Processing with quality control/trimming (<strong>FastQC</strong> and <strong>Trim Galore!</strong>) and dereplication (<strong>VSearch</strong>)</li>
+  <li>Taxonomic analyses with assignation (<strong>MetaPhlAn2</strong>) and visualization (<strong>KRONA</strong>, <strong>GraPhlAn</strong>)</li>
+  <li>Functional analyses with metabolic assignation and pathway reconstruction (<strong>HUMAnN2</strong>)</li>
+  <li>Functional and taxonomic combination with developed tools combining HUMAnN2 and MetaPhlAn2 outputs</li>
+</ol>
+
+<p>It is available with 4 versions, given the input</p>
+
+<ol>
+  <li>Simple files: <a href="https://metagenomics.usegalaxy.eu/u/berenice/w/asaim-shotgun-workflow">Single-end</a> or <a href="https://metagenomics.usegalaxy.eu/u/berenice/w/asaim---shotgun-workflow-for-paired-end-data">paired-end</a></li>
+  <li>Collection input files: <a href="https://metagenomics.usegalaxy.eu/u/berenice/w/asaim-shotgun-workflow-se-collection">Single-end</a> or <a href="https://metagenomics.usegalaxy.eu/u/berenice/w/asaim---shotgun-workflow-for-paired-end-data-collection">paired-end</a></li>
+</ol>
+
+<h3 id="assembly-of-metagenomic-data">Assembly of metagenomic data</h3>
+
+<p>To reconstruct genomes or to get longer sequences for further analysis, microbiota data needs to be assembled, using the recently developed metagenomics assemblers.</p>
+
+<p>To help in this task, two workflows have been developed using two different well-performing assemblers:</p>
+
+<ul>
+  <li>
+    <p><a href="https://metagenomics.usegalaxy.eu/u/berenice/w/asaim-metagenomic-assembly-with-megahit">MEGAHIT</a></p>
+
+    <p>It is currently the most efficent computationally assembler: it has the lowest memory and time consumption <a href="#van2017assembling">(van der Walt <i>et al.</i>, 2017; Awad <i>et al.</i>, 2017; Sczyrba <i>et al.</i>, 2017)</a>. It produced some of the best assemblies (irrespective of sequencing coverage) with the fewest structural errors <a href="#olson2017metagenomic">(Olson <i>et al.</i>, 2017)</a> and outperforms in recovering the genomes of closely related strains <a href="#awad2017evaluating">(Awad <i>et al.</i>, 2017)</a>, but has a bias towards relatively low coverage genomes leading to a suboptimal assembly of high abundant community member genomes in very large datasets <a href="#vollmers2017comparing">(Vollmers <i>et al.</i>, 2017)</a></p>
+  </li>
+  <li>
+    <p><a href="https://metagenomics.usegalaxy.eu/u/berenice/w/asaim-metagenomic-assembly-with-metaspades">MetaSPAdes</a></p>
+
+    <p>It is particularly optimal for high-coverage metagenomes <a href="#van2017assembling">(van der Walt <i>et al.</i>, 2017)</a> with the best contig metrics <a href="#greenwald2017utilization">(Greenwald <i>et al.</i>, 2017)</a> and produces few under-collapsed/over-collapsed repeats <a href="#olson2017metagenomic">(Olson <i>et al.</i>, 2017)</a></p>
+  </li>
+</ul>
+
+<p>Both workflows consists of</p>
+
+<ol>
+  <li>Processing with quality control/trimming (<strong>FastQC</strong> and <strong>Trim Galore!</strong>)</li>
+  <li>Assembly with either <strong>MEGAHIT</strong> or <strong>MetaSPAdes</strong></li>
+  <li>Estimation of the assembly quality statistics with <strong>MetaQUAST</strong></li>
+  <li>Identification of potential assembly error signature with <strong>VALET</strong></li>
+  <li>Determination of percentage of unmapped reads with <strong>Bowtie2</strong> combined with <strong>MultiQC</strong> to aggregate the results.</li>
+</ol>
+
+<h3 id="analysis-of-metataxonomic-data">Analysis of metataxonomic data</h3>
+
+<p>To analyze amplicon data, the <strong>Mothur</strong> and <strong>QIIME</strong> tool suites are available there. We implemented the workflows described in tutorials of Mothur and QIIME websites, as example of amplicon data analyses as well as support for the training material. These workflows, as any workflows available there, can be adapted for a specific analysis or used as subworkflows by the users.</p>
+
+<h3 id="running-as-in-ebi-metagenomics">Running as in EBI metagenomics</h3>
+
+<p>The tools used in the EBI Metagenomics pipeline are also available here and can be run as a <a href="https://metagenomics.usegalaxy.eu/u/berenice/w/asaim-ebi-metagenomics-workflow-30">workflow</a> with the same steps as the <a href="https://www.ebi.ac.uk/metagenomics/pipelines/3.0">EBI Metagenomics pipeline (3.0)</a>.</p>
+
+<p><img src="http://asaim.readthedocs.io/en/latest/_images/ebi_metagenomics_workflow.png" alt="" /></p>
+
+<p>However, the parameters must be adjusted by the user as we could not find them in the EBI Metagenomics documentation.</p>
 
 <h2 id="our-data-policy">Our Data Policy</h2>
 
@@ -110,6 +208,15 @@ permanently deleted.</p>
 <p>The Galaxy service will be compliant to the EU General Data Protection
 Regulation starting May, 25th 2018.</p>
 
+<h2 id="references">References</h2>
+
+<ol class="bibliography"><li><span id="index-metagenomics-awad2017evaluating">Awad,S. <i>et al.</i> (2017) Evaluating Metagenome Assembly on a Simple Defined Community with Many Strain Variants. <i>bioRxiv</i>, 155358.</span></li>
+<li><span id="index-metagenomics-batut2017community">Batut,B. <i>et al.</i> (2017) Community-driven data analysis training for biology. <i>BioRxiv</i>, 225680.</span></li>
+<li><span id="index-metagenomics-greenwald2017utilization">Greenwald,W.W. <i>et al.</i> (2017) Utilization of defined microbial communities enables effective evaluation of meta-genomic assemblies. <i>BMC genomics</i>, <b>18</b>, 296.</span></li>
+<li><span id="index-metagenomics-olson2017metagenomic">Olson,N.D. <i>et al.</i> (2017) Metagenomic assembly through the lens of validation: recent advances in assessing and improving the quality of genomes assembled from metagenomes. <i>Briefings in Bioinformatics</i>, bbx098.</span></li>
+<li><span id="index-metagenomics-sczyrba2017critical">Sczyrba,A. <i>et al.</i> (2017) Critical Assessment of Metagenome Interpretation- a benchmark of computational metagenomics software. <i>Biorxiv</i>, 099127.</span></li>
+<li><span id="index-metagenomics-van2017assembling">Walt,A.J. van der <i>et al.</i> (2017) Assembling metagenomes, one community at a time. <i>bioRxiv</i>, 120154.</span></li>
+<li><span id="index-metagenomics-vollmers2017comparing">Vollmers,J. <i>et al.</i> (2017) Comparing and Evaluating Metagenome Assembly Tools from a Microbiologist’s Perspective-Not Only Size Matters! <i>PloS one</i>, <b>12</b>, e0169662.</span></li></ol>
 
 
   <iframe style="border: 0px" width="100%" height="150px" src="https://stats.usegalaxy.eu/dashboard-solo/db/jobs-dashboard?panelId=1&orgId=1" ></iframe>
