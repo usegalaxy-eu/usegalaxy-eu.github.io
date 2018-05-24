@@ -54,7 +54,22 @@ the latest Galaxy release and in order to be compliant with GDPR.</p>
 
 <p>Welcome to <strong>Galaxy Metagenomics</strong> (<a href="https://asaim.readthedocs.io/en/latest/" target="_blank">ASaiM</a>) – a webserver to process, analyse and visualize Metagenomic and Microbiota data in general.</p>
 
-<h2 id="get-started">Get started</h2>
+<ol id="markdown-toc">
+  <li><a href="#get-started" id="markdown-toc-get-started">Get started</a></li>
+  <li><a href="#tools" id="markdown-toc-tools">Tools</a></li>
+  <li><a href="#tutorials" id="markdown-toc-tutorials">Tutorials</a></li>
+  <li><a href="#workflows" id="markdown-toc-workflows">Workflows</a>    <ol>
+      <li><a href="#analysis-of-raw-metagenomic-or-metatranscriptomic-shotgun-data" id="markdown-toc-analysis-of-raw-metagenomic-or-metatranscriptomic-shotgun-data">Analysis of raw metagenomic or metatranscriptomic shotgun data</a></li>
+      <li><a href="#assembly-of-metagenomic-data" id="markdown-toc-assembly-of-metagenomic-data">Assembly of metagenomic data</a></li>
+      <li><a href="#analysis-of-metataxonomic-data" id="markdown-toc-analysis-of-metataxonomic-data">Analysis of metataxonomic data</a></li>
+      <li><a href="#running-as-in-ebi-metagenomics" id="markdown-toc-running-as-in-ebi-metagenomics">Running as in EBI metagenomics</a></li>
+    </ol>
+  </li>
+  <li><a href="#our-data-policy" id="markdown-toc-our-data-policy">Our Data Policy</a></li>
+  <li><a href="#references" id="markdown-toc-references">References</a></li>
+</ol>
+
+<h1 id="get-started">Get started</h1>
 
 <p>Are you new to Galaxy, or returning after a long time, and looking for help to get started? Take <a href="https://metagenomics.usegalaxy.eu/tours/core.galaxy_ui" target="_blank">a guided tour</a> through Galaxy’s user interface.</p>
 
@@ -69,7 +84,7 @@ the latest Galaxy release and in order to be compliant with GDPR.</p>
 <p>Check also the standard but customizable <a href="#workflows">workflows</a> available there.</p>
 
 <p><a name="tools"></a></p>
-<h2 id="tools">Tools</h2>
+<h1 id="tools">Tools</h1>
 
 <p>More than <a href="https://asaim.readthedocs.io/en/latest/tools/index.html" target="_blank">200 tools</a> are integrated in this custom Galaxy instance. They were chosen for their use in exploitation of microbiota data:</p>
 
@@ -105,7 +120,7 @@ the latest Galaxy release and in order to be compliant with GDPR.</p>
 </ul>
 
 <p><a name="tutorials"></a></p>
-<h2 id="tutorials">Tutorials</h2>
+<h1 id="tutorials">Tutorials</h1>
 
 <p>We are passionate about training. So we are working in close collaboration with the <a href="https://galaxyproject.org/teach/gtn/" target="_blank">Galaxy Training Network (GTN)</a> to develop training materials of data analyses based on Galaxy <a href="#batut2017community">(Batut <i>et al.</i>, 2017)</a>. These materials hosted on the GTN GitHub repository are available online at <a href="https://training.galaxyproject.org" target="_blank">https://training.galaxyproject.org</a>.</p>
 
@@ -125,13 +140,13 @@ the latest Galaxy release and in order to be compliant with GDPR.</p>
 </ul>
 
 <p><a name="workflows"></a></p>
-<h2 id="workflows">Workflows</h2>
+<h1 id="workflows">Workflows</h1>
 
 <p>To orchestrate tools and help users with their analyses, several <a href="https://asaim.readthedocs.io/en/latest/workflows.html" target="_blank">workflows</a> are available. They formally orchestrate tools in a defined order and with defined parameters, but they are customizable (tools, order, parameters).</p>
 
 <p>The workflows are available in the <a href="https://metagenomics.usegalaxy.eu/workflows/list_published">Shared Workflows</a>, with the label “<strong><em>asaim</em></strong>”.</p>
 
-<h3 id="analysis-of-raw-metagenomic-or-metatranscriptomic-shotgun-data">Analysis of raw metagenomic or metatranscriptomic shotgun data</h3>
+<h2 id="analysis-of-raw-metagenomic-or-metatranscriptomic-shotgun-data">Analysis of raw metagenomic or metatranscriptomic shotgun data</h2>
 
 <p>The workflow quickly produces, from raw metagenomic or metatranscriptomic shotgun data, accurate and precise taxonomic assignations, wide extended functional results and taxonomically related metabolism information</p>
 
@@ -153,7 +168,7 @@ the latest Galaxy release and in order to be compliant with GDPR.</p>
   <li>Collection input files: <a href="https://metagenomics.usegalaxy.eu/u/berenice/w/asaim-shotgun-workflow-se-collection">Single-end</a> or <a href="https://metagenomics.usegalaxy.eu/u/berenice/w/asaim---shotgun-workflow-for-paired-end-data-collection">paired-end</a></li>
 </ol>
 
-<h3 id="assembly-of-metagenomic-data">Assembly of metagenomic data</h3>
+<h2 id="assembly-of-metagenomic-data">Assembly of metagenomic data</h2>
 
 <p>To reconstruct genomes or to get longer sequences for further analysis, microbiota data needs to be assembled, using the recently developed metagenomics assemblers.</p>
 
@@ -182,11 +197,11 @@ the latest Galaxy release and in order to be compliant with GDPR.</p>
   <li>Determination of percentage of unmapped reads with <strong>Bowtie2</strong> combined with <strong>MultiQC</strong> to aggregate the results.</li>
 </ol>
 
-<h3 id="analysis-of-metataxonomic-data">Analysis of metataxonomic data</h3>
+<h2 id="analysis-of-metataxonomic-data">Analysis of metataxonomic data</h2>
 
 <p>To analyze amplicon data, the <strong>Mothur</strong> and <strong>QIIME</strong> tool suites are available there. We implemented the workflows described in tutorials of Mothur and QIIME websites, as example of amplicon data analyses as well as support for the training material. These workflows, as any workflows available there, can be adapted for a specific analysis or used as subworkflows by the users.</p>
 
-<h3 id="running-as-in-ebi-metagenomics">Running as in EBI metagenomics</h3>
+<h2 id="running-as-in-ebi-metagenomics">Running as in EBI metagenomics</h2>
 
 <p>The tools used in the EBI Metagenomics pipeline are also available here and can be run as a <a href="https://metagenomics.usegalaxy.eu/u/berenice/w/asaim-ebi-metagenomics-workflow-30" target="_blank">workflow</a> with the same steps as the <a href="https://www.ebi.ac.uk/metagenomics/pipelines/3.0" target="_blank">EBI Metagenomics pipeline (3.0)</a>.</p>
 
@@ -194,7 +209,7 @@ the latest Galaxy release and in order to be compliant with GDPR.</p>
 
 <p>However, the parameters must be adjusted by the user as we could not find them in the EBI Metagenomics documentation.</p>
 
-<h2 id="our-data-policy">Our Data Policy</h2>
+<h1 id="our-data-policy">Our Data Policy</h1>
 
 <h3>Registered Users</h3>
 
@@ -219,7 +234,7 @@ permanently deleted.</p>
 <p>The Galaxy service will be compliant to the EU General Data Protection
 Regulation starting May, 25th 2018.</p>
 
-<h2 id="references">References</h2>
+<h1 id="references">References</h1>
 
 <ol class="bibliography"><li><span id="index-metagenomics-awad2017evaluating">Awad,S. <i>et al.</i> (2017) Evaluating Metagenome Assembly on a Simple Defined Community with Many Strain Variants. <i>bioRxiv</i>, 155358.</span></li>
 <li><span id="index-metagenomics-batut2017community">Batut,B. <i>et al.</i> (2017) Community-driven data analysis training for biology. <i>BioRxiv</i>, 225680.</span></li>
