@@ -1,4 +1,27 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.1">Jekyll</generator><link href="https://usegalaxy-eu.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://usegalaxy-eu.github.io/" rel="alternate" type="text/html" /><updated>2018-05-30T11:11:06+02:00</updated><id>https://usegalaxy-eu.github.io/</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2018 update</title><link href="https://usegalaxy-eu.github.io/posts/2018/05/28/Galaxy-NAR/" rel="alternate" type="text/html" title="The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2018 update" /><published>2018-05-28T00:00:00+02:00</published><updated>2018-05-28T00:00:00+02:00</updated><id>https://usegalaxy-eu.github.io/posts/2018/05/28/Galaxy-NAR</id><content type="html" xml:base="https://usegalaxy-eu.github.io/posts/2018/05/28/Galaxy-NAR/">&lt;p&gt;The Galaxy project has published an 2018 update of the core Galaxy framwork with all the new features of the last two years.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.1">Jekyll</generator><link href="https://usegalaxy-eu.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://usegalaxy-eu.github.io/" rel="alternate" type="text/html" /><updated>2018-05-30T21:34:48+02:00</updated><id>https://usegalaxy-eu.github.io/</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">Nanopolish tools for signal-level analysis of Oxford Nanopore sequencing data is now available in Galaxy</title><link href="https://usegalaxy-eu.github.io/posts/2018/05/30/nanopolish/" rel="alternate" type="text/html" title="Nanopolish tools for signal-level analysis of Oxford Nanopore sequencing data is now available in Galaxy" /><published>2018-05-30T00:00:00+02:00</published><updated>2018-05-30T00:00:00+02:00</updated><id>https://usegalaxy-eu.github.io/posts/2018/05/30/nanopolish</id><content type="html" xml:base="https://usegalaxy-eu.github.io/posts/2018/05/30/nanopolish/">&lt;p&gt;&lt;img src=&quot;https://github.com/jts/nanopolish&quot; alt=&quot;Nanopolish&quot; /&gt; is a popular tool suite for working with data produced by the Nanopore sequencing platform. We are pleased to announce that the demanding tools have been integrated into the Galaxy platform and are available on &lt;a href=&quot;https://usegalaxy.eu&quot;&gt;our server&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Nanopolish can be used to call SNPs and indels with respect to a reference genome, detect base modifications like methylation or creates an improved consensus sequence for a draft genome assembly.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/nanopolish_variants/nanopolish_variants/0.1.0&quot;&gt;Nanopolish variants caller and consensus “polishing”&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;multiple-img&quot;&gt;
+    &lt;img src=&quot;https://usegalaxy-eu.github.io/assets/media/2018-05-30-nanopolish-variants.png&quot; width=&quot;800px&quot; alt=&quot;Nanopolish variants screenshot&quot; /&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/nanopolish_methylation/nanopolish_methylation/0.1.0&quot;&gt;Nanopolish methylation caller&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;multiple-img&quot;&gt;
+    &lt;img src=&quot;https://usegalaxy-eu.github.io/assets/media/2018-05-30-nanopolish-methylation.png&quot; width=&quot;800px&quot; alt=&quot;Nanopolish mathylation caller screenshot&quot; /&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/nanopolish_eventalign/nanopolish_eventalign/0.1.0&quot;&gt;Nanopolish event/squiggle aligner&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;multiple-img&quot;&gt;
+    &lt;img src=&quot;https://usegalaxy-eu.github.io/assets/media/2018-05-30-nanopolish-eventalign.png&quot; width=&quot;800px&quot; alt=&quot;Nanopolish eventalign screenshot&quot; /&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="tools" /><summary type="html">is a popular tool suite for working with data produced by the Nanopore sequencing platform. We are pleased to announce that the demanding tools have been integrated into the Galaxy platform and are available on our server.</summary></entry><entry><title type="html">The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2018 update</title><link href="https://usegalaxy-eu.github.io/posts/2018/05/28/Galaxy-NAR/" rel="alternate" type="text/html" title="The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2018 update" /><published>2018-05-28T00:00:00+02:00</published><updated>2018-05-28T00:00:00+02:00</updated><id>https://usegalaxy-eu.github.io/posts/2018/05/28/Galaxy-NAR</id><content type="html" xml:base="https://usegalaxy-eu.github.io/posts/2018/05/28/Galaxy-NAR/">&lt;p&gt;The Galaxy project has published an 2018 update of the core Galaxy framwork with all the new features of the last two years.
 &lt;a href=&quot;https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gky379/5001157&quot;&gt;&lt;em&gt;The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2018 update&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
 
 &lt;div class=&quot;multiple-img&quot;&gt;
@@ -198,34 +221,4 @@ Participants are selected from the applicants. Apply &lt;a href=&quot;https://dr
 
 &lt;div class=&quot;multiple-img&quot;&gt;
 &lt;a data-flickr-embed=&quot;true&quot; href=&quot;https://www.flickr.com/photos/134305289@N03/25968925417/in/album-72157666749418028/&quot; title=&quot;Galaxy User Conference - Freiburg - 2018 - Day 2&quot;&gt;&lt;img src=&quot;https://farm5.staticflickr.com/4782/25968925417_32689c8941.jpg&quot; width=&quot;333&quot; height=&quot;500&quot; alt=&quot;Galaxy User Conference - Freiburg - 2018 - Day 2&quot; /&gt;&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">The Galaxy User Conference in Freiburg just ended!</summary></entry><entry><title type="html">Galaxy User Conference: a successful first day</title><link href="https://usegalaxy-eu.github.io/posts/2018/03/15/y-galaxy-user-conference-a-successful-first-day/" rel="alternate" type="text/html" title="Galaxy User Conference: a successful first day" /><published>2018-03-15T00:00:00+01:00</published><updated>2018-03-15T00:00:00+01:00</updated><id>https://usegalaxy-eu.github.io/posts/2018/03/15/y-galaxy-user-conference-a-successful-first-day</id><content type="html" xml:base="https://usegalaxy-eu.github.io/posts/2018/03/15/y-galaxy-user-conference-a-successful-first-day/">&lt;p&gt;More than 120 participants joined us for the first Galaxy User Conference in Freiburg. The first day has just ended and what an amazing day it was!&lt;/p&gt;
-
-&lt;div class=&quot;multiple-img&quot;&gt;
-&lt;a data-flickr-embed=&quot;true&quot; href=&quot;https://www.flickr.com/photos/134305289@N03/albums/72157666749418028&quot; title=&quot;Galaxy User Conference&quot;&gt;&lt;img src=&quot;https://farm5.staticflickr.com/4786/39930400815_5788c882b6.jpg&quot; width=&quot;500&quot; height=&quot;333&quot; alt=&quot;Galaxy User Conference&quot; /&gt;&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-&lt;/div&gt;
-
-&lt;p&gt;It started with a tribute from Björn to Stephen Hawkings.&lt;/p&gt;
-
-&lt;p&gt;Followed by several talks across diverse topics:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;“de.NBI &amp;amp; RBC” by Andreas Tauch (Bielefeld, DE) and Rolf Backofen (Freiburg, DE)&lt;/li&gt;
-  &lt;li&gt;“Galaxy HiCExplorer” by Joachim Wolff (Freiburg, DE)&lt;/li&gt;
-  &lt;li&gt;“Analysis of the cardiac myocyte epigenome using Galaxy” by Ralf Gilsbach (Freiburg, DE)&lt;/li&gt;
-  &lt;li&gt;“Using direct reprogramming to find the master regulators of renal tubulogenesis and factors leading to congenital kidney defects” by Sören Lienkamp (Freiburg, DE)&lt;/li&gt;
-  &lt;li&gt;“Galaxy tools and workflows for metabolomics: A community effort to make data processing and analysis accessible, reproducible, and transparent” by Ralf Weber (Birmingham, UK)&lt;/li&gt;
-  &lt;li&gt;“Workflow4Metabolomics - Towards an international computing infrastructure and a tools showcase for Metabolomics” by Christophe Caron (Rennes, FR)&lt;/li&gt;
-  &lt;li&gt;“Deployment of genome databases for insects using Galaxy Genome Annotation” by Anthony Bretaudeau (Rennes, FR)&lt;/li&gt;
-  &lt;li&gt;“Galaxy-E: A french initiative dedicated to Macro-Ecological data analysis” by Yvan Le Bras (Paris, FR)&lt;/li&gt;
-  &lt;li&gt;“The ELIXIR Communities usegalaxy.eu/au launch” by John Hancock (ELIXIR, UK) and Frederik Coppens (Gent, BE)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;At the end, Simon Gladman (from Australia) and Björn officially launched the useGalaxy.eu/.org.au!&lt;/p&gt;
-
-&lt;div class=&quot;multiple-img&quot;&gt;
-    &lt;a data-flickr-embed=&quot;true&quot; href=&quot;https://www.flickr.com/photos/134305289@N03/39931636715/in/datetaken/&quot; title=&quot;Galaxy User Conference - Freiburg - 2018 - Day 1&quot;&gt;&lt;img src=&quot;https://farm5.staticflickr.com/4771/39931636715_2f6af569f6.jpg&quot; width=&quot;500&quot; height=&quot;333&quot; alt=&quot;Galaxy User Conference - Freiburg - 2018 - Day 1&quot; /&gt;&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;em&gt;For more information about what are the implication of useGalaxy.eu launch, you can check our &lt;a href=&quot;https://usegalaxy-eu.github.io/posts/2018/03/15/usegalaxy-eu/&quot;&gt;post explaining the details&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Thank a lot to all the speakers. See you all tomorrow!&lt;/p&gt;</content><author><name></name></author><summary type="html">More than 120 participants joined us for the first Galaxy User Conference in Freiburg. The first day has just ended and what an amazing day it was!</summary></entry></feed>
+&lt;/div&gt;</content><author><name></name></author><summary type="html">The Galaxy User Conference in Freiburg just ended!</summary></entry></feed>
