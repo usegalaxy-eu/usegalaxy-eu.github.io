@@ -1,4 +1,47 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.1">Jekyll</generator><link href="https://usegalaxy-eu.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://usegalaxy-eu.github.io/" rel="alternate" type="text/html" /><updated>2018-06-04T11:10:27+02:00</updated><id>https://usegalaxy-eu.github.io/</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">Nanopolish tools for signal-level analysis of Oxford Nanopore sequencing data is now available in Galaxy</title><link href="https://usegalaxy-eu.github.io/posts/2018/05/30/nanopolish/" rel="alternate" type="text/html" title="Nanopolish tools for signal-level analysis of Oxford Nanopore sequencing data is now available in Galaxy" /><published>2018-05-30T00:00:00+02:00</published><updated>2018-05-30T00:00:00+02:00</updated><id>https://usegalaxy-eu.github.io/posts/2018/05/30/nanopolish</id><content type="html" xml:base="https://usegalaxy-eu.github.io/posts/2018/05/30/nanopolish/">&lt;p&gt;&lt;img src=&quot;https://github.com/jts/nanopolish&quot; alt=&quot;Nanopolish&quot; /&gt; is a popular tool suite for working with data produced by the Nanopore sequencing platform. We are pleased to announce that the demanding tools have been integrated into the Galaxy platform and are available on &lt;a href=&quot;https://usegalaxy.eu&quot;&gt;our server&lt;/a&gt;.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.1">Jekyll</generator><link href="https://usegalaxy-eu.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://usegalaxy-eu.github.io/" rel="alternate" type="text/html" /><updated>2018-06-04T15:18:50+02:00</updated><id>https://usegalaxy-eu.github.io/</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">Temporary Quota Issue</title><link href="https://usegalaxy-eu.github.io/posts/2018/06/04/temporary-quota-issue/" rel="alternate" type="text/html" title="Temporary Quota Issue" /><published>2018-06-04T00:00:00+02:00</published><updated>2018-06-04T00:00:00+02:00</updated><id>https://usegalaxy-eu.github.io/posts/2018/06/04/temporary-quota-issue</id><content type="html" xml:base="https://usegalaxy-eu.github.io/posts/2018/06/04/temporary-quota-issue/">&lt;p&gt;We had a temporary quota issue today when one of our developers working on automating &lt;a href=&quot;https://docs.google.com/forms/d/e/1FAIpQLSf9w2MOS6KOlu9XdhRSDqWnCDkzoVBqHJ3zH_My4p8D8ZgkIQ/viewform&quot;&gt;UseGalaxy.eu Quota Increase
+Application&lt;/a&gt;
+made a mistake in the code which resulted in the &lt;code class=&quot;highlighter-rouge&quot;&gt;legacy-users&lt;/code&gt; quota membership being removed.&lt;/p&gt;
+
+&lt;h2 id=&quot;incident-timeline&quot;&gt;Incident Timeline&lt;/h2&gt;
+
+&lt;table class=&quot;table table-striped&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Time&lt;/th&gt;
+      &lt;th&gt;State&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;12:50&lt;/td&gt;
+      &lt;td&gt;Developer noticed mistake as it happened during development, but too late.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;12:51&lt;/td&gt;
+      &lt;td&gt;First user complaint received&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;13:08&lt;/td&gt;
+      &lt;td&gt;Issue resolved&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;root-cause&quot;&gt;Root Cause&lt;/h2&gt;
+
+&lt;p&gt;The script was intended to only synchronize quotas named &lt;code class=&quot;highlighter-rouge&quot;&gt;auto_###&lt;/code&gt;, but due to
+a bug it attempted to synchronize all quota groups. It defaulted to
+synchronizing an empty set of users and completely removed the user
+associations for the &lt;code class=&quot;highlighter-rouge&quot;&gt;legacy-users&lt;/code&gt; quota.&lt;/p&gt;
+
+&lt;h2 id=&quot;resolution&quot;&gt;Resolution&lt;/h2&gt;
+
+&lt;p&gt;We extracted the relevant table from a database dump and proceeded to import
+those rows back into the table. The backup was missing one row but we have
+identified the missing data in admin discussions.&lt;/p&gt;
+
+&lt;p&gt;Going forward we will be deploying a &lt;code class=&quot;highlighter-rouge&quot;&gt;test.usegalaxy.eu&lt;/code&gt; and developing against
+that server to avoid similar problems.&lt;/p&gt;</content><author><name></name></author><category term="devops" /><category term="downtime" /><summary type="html">We had a temporary quota issue today when one of our developers working on automating UseGalaxy.eu Quota Increase Application made a mistake in the code which resulted in the legacy-users quota membership being removed.</summary></entry><entry><title type="html">Nanopolish tools for signal-level analysis of Oxford Nanopore sequencing data is now available in Galaxy</title><link href="https://usegalaxy-eu.github.io/posts/2018/05/30/nanopolish/" rel="alternate" type="text/html" title="Nanopolish tools for signal-level analysis of Oxford Nanopore sequencing data is now available in Galaxy" /><published>2018-05-30T00:00:00+02:00</published><updated>2018-05-30T00:00:00+02:00</updated><id>https://usegalaxy-eu.github.io/posts/2018/05/30/nanopolish</id><content type="html" xml:base="https://usegalaxy-eu.github.io/posts/2018/05/30/nanopolish/">&lt;p&gt;&lt;img src=&quot;https://github.com/jts/nanopolish&quot; alt=&quot;Nanopolish&quot; /&gt; is a popular tool suite for working with data produced by the Nanopore sequencing platform. We are pleased to announce that the demanding tools have been integrated into the Galaxy platform and are available on &lt;a href=&quot;https://usegalaxy.eu&quot;&gt;our server&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Nanopolish can be used to call SNPs and indels with respect to a reference genome, detect base modifications like methylation or creates an improved consensus sequence for a draft genome assembly.&lt;/p&gt;
 
@@ -192,33 +235,4 @@ Participants are selected from the applicants. Apply &lt;a href=&quot;https://dr
   &lt;li&gt;On the last day, Björn gave an admin training with Enis Afgan and Bérénice a metagenomic training.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;These 3 days were quite intense with a lot of talks and interesting discussions and feedbacks. It was a great opportunity to meet the growing community in Africa (44 participants, 7 countries, 12 institutions) and talk about Galaxy and accessible, reproducible analysis of biological data.&lt;/p&gt;</content><author><name></name></author><category term="training" /><category term="talk" /><summary type="html">#usegalaxy Africa is starting!! #GalaxyAfrica pic.twitter.com/6NOy10ITDk&amp;mdash; Bérénice Batut (@bebatut) 3 avril 2018</summary></entry><entry><title type="html">Galaxy User Conference: second and last day</title><link href="https://usegalaxy-eu.github.io/posts/2018/03/16/galaxy-user-conference-second-day/" rel="alternate" type="text/html" title="Galaxy User Conference: second and last day" /><published>2018-03-16T00:00:00+01:00</published><updated>2018-03-16T00:00:00+01:00</updated><id>https://usegalaxy-eu.github.io/posts/2018/03/16/galaxy-user-conference-second-day</id><content type="html" xml:base="https://usegalaxy-eu.github.io/posts/2018/03/16/galaxy-user-conference-second-day/">&lt;p&gt;The Galaxy User Conference in Freiburg just ended!&lt;/p&gt;
-
-&lt;div class=&quot;multiple-img&quot;&gt;
-&lt;a href=&quot;https://flic.kr/s/aHskxLjQmU&quot; title=&quot;Galaxy User Conference&quot;&gt;&lt;img src=&quot;https://farm1.staticflickr.com/805/25968925177_1abd50e835_k.jpg&quot; width=&quot;500&quot; height=&quot;333&quot; alt=&quot;Galaxy User Conference&quot; /&gt;&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-&lt;/div&gt;
-
-&lt;p&gt;After a nice dinner at Martin’s Bräu, the second (and last) day started. We had 13 talks, ranging from Beer and Proteomics to Imaging:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;“The Beerome – Science for the Mind and the Stomach” by Teresa Müller (Freiburg, DE)&lt;/li&gt;
-  &lt;li&gt;“Gene discovery with KnetMiner” by Ajit Singh (Hertfordshire, UK)&lt;/li&gt;
-  &lt;li&gt;“Fruit Fly reproduction” by Ihor Yurkevych (Ivano-Frankivsk, UA)&lt;/li&gt;
-  &lt;li&gt;“Proteomic analyses of mass spectrometry data using OpenMS in Galaxy” by Matthias Fahrner (Freiburg, DE)&lt;/li&gt;
-  &lt;li&gt;“Quality control and analysis of large scale MALDI imaging data of peptides from formalin-fixed paraffin-embedded tissues within the Galaxy environment” by Melanie Föll (Freiburg, DE)&lt;/li&gt;
-  &lt;li&gt;“Galaxy for microscopy image analysis workflows and systematic phenotyping” by Thomas Wollmann (Heidelberg, DE)&lt;/li&gt;
-  &lt;li&gt;“RNA Workbench” by F. Eggenhofer – Freiburg, DE&lt;/li&gt;
-  &lt;li&gt;“Integrated analysis of miRNA-mRNA regulatory networks in chordoma tumors using Galaxy” by Beata Scholz (Debrecen, HU)&lt;/li&gt;
-  &lt;li&gt;“Extracting biological sense from RNA-seq time series in dynamic biological systems” by Daria Onichtchouk (Freiburg, DE)&lt;/li&gt;
-  &lt;li&gt;“Microbiota analysis using Galaxy” by Saskia Hiltemann (Rotterdam, NE)&lt;/li&gt;
-  &lt;li&gt;“Galaxy Australia/USA communities” by Simon Gladman (Melbourne, AU) and Anton Nekrutenko (PSU, USA)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://bebatut.fr/talks/18/03_16_galaxy_user_conf/#/1&quot;&gt;“The Galaxy Training Network”&lt;/a&gt; by Bérénice Batut (Freiburg, DE)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;We are discussing with the different speakers and we hope to add links to the slides soon. We will keep in touch!&lt;/p&gt;
-
-&lt;p&gt;Thanks a lot to all the speakers and participant! See you all in Freiburg in 2019 for GCC!&lt;/p&gt;
-
-&lt;div class=&quot;multiple-img&quot;&gt;
-&lt;a data-flickr-embed=&quot;true&quot; href=&quot;https://www.flickr.com/photos/134305289@N03/25968925417/in/album-72157666749418028/&quot; title=&quot;Galaxy User Conference - Freiburg - 2018 - Day 2&quot;&gt;&lt;img src=&quot;https://farm5.staticflickr.com/4782/25968925417_32689c8941.jpg&quot; width=&quot;333&quot; height=&quot;500&quot; alt=&quot;Galaxy User Conference - Freiburg - 2018 - Day 2&quot; /&gt;&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">The Galaxy User Conference in Freiburg just ended!</summary></entry></feed>
+&lt;p&gt;These 3 days were quite intense with a lot of talks and interesting discussions and feedbacks. It was a great opportunity to meet the growing community in Africa (44 participants, 7 countries, 12 institutions) and talk about Galaxy and accessible, reproducible analysis of biological data.&lt;/p&gt;</content><author><name></name></author><category term="training" /><category term="talk" /><summary type="html">#usegalaxy Africa is starting!! #GalaxyAfrica pic.twitter.com/6NOy10ITDk&amp;mdash; Bérénice Batut (@bebatut) 3 avril 2018</summary></entry></feed>
