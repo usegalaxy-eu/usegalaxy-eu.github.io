@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  <title>Galaxy Europe | Temporary Quota Issue</title>
+  <title>Galaxy Europe | Workshop for Galaxy training material and skills improvement</title>
   <meta name="description" content="The European Galaxy Instance">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="utf-8">
@@ -23,7 +23,7 @@
     
   
 
-  <link rel="canonical" href="https://usegalaxy-eu.github.io/posts/2018/06/04/temporary-quota-issue/">
+  <link rel="canonical" href="https://usegalaxy-eu.github.io/posts/2018/06/05/gtn-hackathon/">
 
   <link rel="alternate" type="application/rss+xml" title="Galaxy Europe" href="https://usegalaxy-eu.github.io/feed.xml">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
@@ -118,20 +118,16 @@
 <section id="news-page">
   <div class="row news-header-row">
     
-    <a class="col-xs-1 text-center" href="https://usegalaxy-eu.github.io/posts/2018/05/30/nanopolish/">
+    <a class="col-xs-1 text-center" href="https://usegalaxy-eu.github.io/posts/2018/06/04/temporary-quota-issue/">
       «
     </a>
     
     <div class="col-xs-10 ">
       <div class="text-center">
-        <h2 class="title">Temporary Quota Issue</h2>
+        <h2 class="title">Workshop for Galaxy training material and skills improvement</h2>
       </div>
       <hr />
     </div>
-    
-    <a class="col-xs-1 text-center" href="https://usegalaxy-eu.github.io/posts/2018/06/05/gtn-hackathon/">
-      »
-    </a>
     
   </div>
   <div class="row post-metadata">
@@ -139,13 +135,13 @@
       <div class="text-right">
         <div>
           <span class="post-date">
-            June 4, 2018
+            June 5, 2018
           </span>
 
           
           <br />
           <span class="post-location">
-              Freiburg, Germany
+              Norwich, UK
           </span>
           
 
@@ -153,9 +149,7 @@
           <br />
           <span class="post-tags">
             
-              <span class="label label-info">devops</span>
-            
-              <span class="label label-info">downtime</span>
+              <span class="label label-info">training</span>
             
           </span>
           
@@ -169,50 +163,45 @@
   <div class="row">
     <div class="col-md-8 col-md-offset-2">
       <div class="news-content">
-        <p>We had a temporary quota issue today when one of our developers working on automating <a href="https://docs.google.com/forms/d/e/1FAIpQLSf9w2MOS6KOlu9XdhRSDqWnCDkzoVBqHJ3zH_My4p8D8ZgkIQ/viewform">UseGalaxy.eu Quota Increase
-Application</a>
-made a mistake in the code which resulted in the <code class="highlighter-rouge">legacy-users</code> quota membership being removed.</p>
+        <div class="jekyll-twitter-plugin"><blockquote class="twitter-tweet"><p lang="en" dir="ltr">The 3 days <a href="https://twitter.com/ELIXIREurope?ref_src=twsrc%5Etfw">@ELIXIREurope</a> workshop for <a href="https://twitter.com/hashtag/usegalaxy?src=hash&amp;ref_src=twsrc%5Etfw">#usegalaxy</a> training material development and skills improvement is starting at <a href="https://twitter.com/EarlhamInst?ref_src=twsrc%5Etfw">@EarlhamInst</a> <a href="https://twitter.com/hashtag/Norwich?src=hash&amp;ref_src=twsrc%5Etfw">#Norwich</a> <a href="https://twitter.com/denbiOffice?ref_src=twsrc%5Etfw">@denbiOffice</a> <a href="https://t.co/g8lJ9ouO0e">pic.twitter.com/g8lJ9ouO0e</a></p>&mdash; Bérénice Batut (@bebatut) <a href="https://twitter.com/bebatut/status/998485131995369472?ref_src=twsrc%5Etfw">May 21, 2018</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
 
-<h2 id="incident-timeline">Incident Timeline</h2>
+<p>From 21st to 23rd of May was held a workshop for Galaxy training material and skills improvement at the <a href="http://www.earlham.ac.uk/">Earlham Institut</a> in Norwich. Bérénice and Björn were there!</p>
 
-<table class="table table-striped">
-  <thead>
-    <tr>
-      <th>Time</th>
-      <th>State</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>12:50</td>
-      <td>Developer noticed mistake as it happened during development, but too late.</td>
-    </tr>
-    <tr>
-      <td>12:51</td>
-      <td>First user complaint received</td>
-    </tr>
-    <tr>
-      <td>13:08</td>
-      <td>Issue resolved</td>
-    </tr>
-  </tbody>
-</table>
+<p>The Monday was dedicated to a Train the Trainer workshop by Sarah Morgan from EBI. We reviewed learning principles and how they apply to training and learned training techniques that can be used to enhance learner engagement and participation.</p>
 
-<h2 id="root-cause">Root Cause</h2>
+<p>On Tuesday, we started with an update on Galaxy features relevant for training. After for the next 2 days, we broke into groups to work on several aspects of the Galaxy training material:</p>
 
-<p>The script was intended to only synchronize quotas named <code class="highlighter-rouge">auto_###</code>, but due to
-a bug it attempted to synchronize all quota groups. It defaulted to
-synchronizing an empty set of users and completely removed the user
-associations for the <code class="highlighter-rouge">legacy-users</code> quota.</p>
+<ul>
+  <li>Improvement and extension the collection of <a href="https://github.com/galaxyproject/training-material">Galaxy training materials</a>:
+    <ul>
+      <li>Integration the admin training slides and tutorials available at <a href="https://github.com/galaxyproject/dagobah-training">Dagobah</a></li>
+      <li>New tutorials
+        <ul>
+          <li>GeneSeqToFamily</li>
+          <li>Analysis of new assemblies</li>
+          <li>Epigenome-wide association studies (EWAS)</li>
+        </ul>
+      </li>
+      <li>Language cleanup</li>
+      <li>Improvement of the tutorials on contribution</li>
+      <li>Addition of a FAQ page</li>
+    </ul>
+  </li>
+  <li>Addition of support for BioSchemas</li>
+  <li>Upload on Zenodo of the collection of datasets used for the tutorials</li>
+  <li>Addition of more functionality (e.g. drop-down boxes)</li>
+  <li>Addition automatic workflow testing</li>
+</ul>
 
-<h2 id="resolution">Resolution</h2>
+<p>It was 3 fruitful days!</p>
 
-<p>We extracted the relevant table from a database dump and proceeded to import
-those rows back into the table. The backup was missing one row but we have
-identified the missing data in admin discussions.</p>
+<h3 id="check-out-more-activity-about-this-event-on-twitter">Check out more activity about this event on Twitter</h3>
 
-<p>Going forward we will be deploying a <code class="highlighter-rouge">test.usegalaxy.eu</code> and developing against
-that server to avoid similar problems.</p>
+<div class="jekyll-twitter-plugin"><a class="twitter-moment" href="https://twitter.com/i/moments/1003947430524661760?ref_src=twsrc%5Etfw">Workshop for Galaxy training material and skills improvement</a>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
 
       </div>
     </div>
