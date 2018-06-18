@@ -1,4 +1,59 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.1">Jekyll</generator><link href="https://usegalaxy-eu.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://usegalaxy-eu.github.io/" rel="alternate" type="text/html" /><updated>2018-06-18T11:10:37+02:00</updated><id>https://usegalaxy-eu.github.io/</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">Data Carpentry workshop and CarpentryCon</title><link href="https://usegalaxy-eu.github.io/posts/2018/06/06/carpentry-con/" rel="alternate" type="text/html" title="Data Carpentry workshop and CarpentryCon" /><published>2018-06-06T00:00:00+02:00</published><updated>2018-06-06T00:00:00+02:00</updated><id>https://usegalaxy-eu.github.io/posts/2018/06/06/carpentry-con</id><content type="html" xml:base="https://usegalaxy-eu.github.io/posts/2018/06/06/carpentry-con/">&lt;div class=&quot;multiple-img&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.1">Jekyll</generator><link href="https://usegalaxy-eu.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://usegalaxy-eu.github.io/" rel="alternate" type="text/html" /><updated>2018-06-18T11:47:43+02:00</updated><id>https://usegalaxy-eu.github.io/</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">Database outage affecting UseGalaxy.eu</title><link href="https://usegalaxy-eu.github.io/posts/2018/06/18/database-outage/" rel="alternate" type="text/html" title="Database outage affecting UseGalaxy.eu" /><published>2018-06-18T00:00:00+02:00</published><updated>2018-06-18T00:00:00+02:00</updated><id>https://usegalaxy-eu.github.io/posts/2018/06/18/database-outage</id><content type="html" xml:base="https://usegalaxy-eu.github.io/posts/2018/06/18/database-outage/">&lt;p&gt;Our database server crashed unexpectedly on friday night and we were down over most of the weekend.&lt;/p&gt;
+
+&lt;h2 id=&quot;incident-timeline&quot;&gt;Incident Timeline&lt;/h2&gt;
+
+&lt;table class=&quot;table table-striped&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Date&lt;/th&gt;
+      &lt;th&gt;Time&lt;/th&gt;
+      &lt;th&gt;State&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2018-06-15&lt;/td&gt;
+      &lt;td&gt;16:20&lt;/td&gt;
+      &lt;td&gt;Database server becomes unresponsive. This additionally takes down a couple of file systems that Galaxy uses&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2018-06-15&lt;/td&gt;
+      &lt;td&gt;16:36&lt;/td&gt;
+      &lt;td&gt;Processes become unresponsive, monitoring data stops coming in&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2018-06-15&lt;/td&gt;
+      &lt;td&gt;17:44&lt;/td&gt;
+      &lt;td&gt;Galaxy stops responding&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2018-06-15&lt;/td&gt;
+      &lt;td&gt;22:56&lt;/td&gt;
+      &lt;td&gt;We notify our database administrator about the issue&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2018-06-17&lt;/td&gt;
+      &lt;td&gt;20:45&lt;/td&gt;
+      &lt;td&gt;Email received that our database admin has finished repairing the server&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2018-06-17&lt;/td&gt;
+      &lt;td&gt;21:04&lt;/td&gt;
+      &lt;td&gt;We manually restart the Galaxy server processes&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2018-06-17&lt;/td&gt;
+      &lt;td&gt;21:15&lt;/td&gt;
+      &lt;td&gt;The first jobs run successfully again&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;resolution&quot;&gt;Resolution&lt;/h2&gt;
+
+&lt;p&gt;We are discussing our long term options to preventing, or at least ameliorating
+similar issues in the future. We are investigating the possibly of keeping
+Galaxy online but read-only, and how this might impact our users.&lt;/p&gt;</content><author><name></name></author><category term="devops" /><category term="downtime" /><summary type="html">Our database server crashed unexpectedly on friday night and we were down over most of the weekend.</summary></entry><entry><title type="html">Data Carpentry workshop and CarpentryCon</title><link href="https://usegalaxy-eu.github.io/posts/2018/06/06/carpentry-con/" rel="alternate" type="text/html" title="Data Carpentry workshop and CarpentryCon" /><published>2018-06-06T00:00:00+02:00</published><updated>2018-06-06T00:00:00+02:00</updated><id>https://usegalaxy-eu.github.io/posts/2018/06/06/carpentry-con</id><content type="html" xml:base="https://usegalaxy-eu.github.io/posts/2018/06/06/carpentry-con/">&lt;div class=&quot;multiple-img&quot;&gt;
     &lt;a data-flickr-embed=&quot;true&quot; data-header=&quot;true&quot; href=&quot;https://www.flickr.com/photos/134305289@N03/42464629032/in/album-72157667641880727/&quot; title=&quot;CarpentryCon2018 @ Dublin&quot;&gt;&lt;img src=&quot;https://farm2.staticflickr.com/1721/42464629032_9e3a6ffaf1_z.jpg&quot; width=&quot;640&quot; height=&quot;427&quot; alt=&quot;CarpentryCon2018 @ Dublin&quot; /&gt;&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
 &lt;/div&gt;
 
@@ -272,36 +327,4 @@ we will be able to direct users to the most reliable one in the future.&lt;/p&gt
 
 &lt;p&gt;We check several hostnames and several DNS providers as we’ve experienced
 similar issues before, e.g. &lt;code class=&quot;highlighter-rouge&quot;&gt;registry.npmjs.org&lt;/code&gt; is checked as BelWü failed to
-respond to it breaking several automated processes. &lt;code class=&quot;highlighter-rouge&quot;&gt;google.com&lt;/code&gt; is checked as a simple sanity-test.&lt;/p&gt;</content><author><name></name></author><category term="devops" /><category term="downtime" /><summary type="html">Google’s DNS stopped responding to requests for usegalaxy.eu for 35 minutes.</summary></entry><entry><title type="html">Fileserver Outage affecting Jobs</title><link href="https://usegalaxy-eu.github.io/posts/2018/04/24/fileserver-outage/" rel="alternate" type="text/html" title="Fileserver Outage affecting Jobs" /><published>2018-04-24T00:00:00+02:00</published><updated>2018-04-24T00:00:00+02:00</updated><id>https://usegalaxy-eu.github.io/posts/2018/04/24/fileserver-outage</id><content type="html" xml:base="https://usegalaxy-eu.github.io/posts/2018/04/24/fileserver-outage/">&lt;p&gt;The university’s home directory server went offline affecting numerous Galaxy jobs.&lt;/p&gt;
-
-&lt;h2 id=&quot;incident-timeline&quot;&gt;Incident Timeline&lt;/h2&gt;
-
-&lt;table class=&quot;table table-striped&quot;&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Time&lt;/th&gt;
-      &lt;th&gt;State&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;11:02&lt;/td&gt;
-      &lt;td&gt;We received a mail from the HPC team that the central Uni Freiburg fileserver was experiencing issues resulting in an outage.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;16:30&lt;/td&gt;
-      &lt;td&gt;Some jobs were still hung and could not recover due to this outage. The UseGalaxy.eu Admin team began discussing possible options.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;17:18&lt;/td&gt;
-      &lt;td&gt;We took the decision to reboot affected hosts as processes could not be killed. This affected a number of jobs unfortunately that were not rescheduled automatically.&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&quot;resolution&quot;&gt;Resolution&lt;/h2&gt;
-
-&lt;p&gt;Killing the affected hosts was not an optimal solution however it was the most
-efficient. Jobs should have been rescheduled and re-run automatically but it
-seems they were often not, so we will be investigating and correcting issues
-with our Galaxy job configuration.&lt;/p&gt;</content><author><name></name></author><category term="devops" /><category term="downtime" /><summary type="html">The university’s home directory server went offline affecting numerous Galaxy jobs.</summary></entry></feed>
+respond to it breaking several automated processes. &lt;code class=&quot;highlighter-rouge&quot;&gt;google.com&lt;/code&gt; is checked as a simple sanity-test.&lt;/p&gt;</content><author><name></name></author><category term="devops" /><category term="downtime" /><summary type="html">Google’s DNS stopped responding to requests for usegalaxy.eu for 35 minutes.</summary></entry></feed>

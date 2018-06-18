@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  <title>Galaxy Europe | Data Carpentry workshop and CarpentryCon</title>
+  <title>Galaxy Europe | Database outage affecting UseGalaxy.eu</title>
   <meta name="description" content="The European Galaxy Instance">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="utf-8">
@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="https://usegalaxy-eu.github.io/assets/css/freiburg.css">
   
 
-  <link rel="canonical" href="https://usegalaxy-eu.github.io/posts/2018/06/06/carpentry-con/">
+  <link rel="canonical" href="https://usegalaxy-eu.github.io/posts/2018/06/18/database-outage/">
 
   <link rel="alternate" type="application/rss+xml" title="Galaxy Europe" href="https://usegalaxy-eu.github.io/feed.xml">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
@@ -124,20 +124,16 @@
 <section id="news-page">
   <div class="row news-header-row">
     
-    <a class="col-xs-1 text-center" href="https://usegalaxy-eu.github.io/posts/2018/06/05/gtn-hackathon/">
+    <a class="col-xs-1 text-center" href="https://usegalaxy-eu.github.io/posts/2018/06/06/carpentry-con/">
       «
     </a>
     
     <div class="col-xs-10 ">
       <div class="text-center">
-        <h2 class="title">Data Carpentry workshop and CarpentryCon</h2>
+        <h2 class="title">Database outage affecting UseGalaxy.eu</h2>
       </div>
       <hr />
     </div>
-    
-    <a class="col-xs-1 text-center" href="https://usegalaxy-eu.github.io/posts/2018/06/18/database-outage/">
-      »
-    </a>
     
   </div>
   <div class="row post-metadata">
@@ -145,13 +141,13 @@
       <div class="text-right">
         <div>
           <span class="post-date">
-            Jun 6, 2018
+            Jun 18, 2018
           </span>
 
           
           <br />
           <span class="post-location">
-              Dublin, Ireland
+              Freiburg, Germany
           </span>
           
 
@@ -159,9 +155,9 @@
           <span class="post-tags">
               <span class="label label-success">Freiburg</span>
             
-              <span class="label label-info">training</span>
+              <span class="label label-info">devops</span>
             
-              <span class="label label-info">talk</span>
+              <span class="label label-info">downtime</span>
             
           </span>
 
@@ -174,44 +170,62 @@
   <div class="row">
     <div class="col-md-8 col-md-offset-2">
       <div class="news-content">
-        <div class="multiple-img">
-    <a data-flickr-embed="true" data-header="true" href="https://www.flickr.com/photos/134305289@N03/42464629032/in/album-72157667641880727/" title="CarpentryCon2018 @ Dublin"><img src="https://farm2.staticflickr.com/1721/42464629032_9e3a6ffaf1_z.jpg" width="640" height="427" alt="CarpentryCon2018 @ Dublin" /></a><script async="" src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-</div>
+        <p>Our database server crashed unexpectedly on friday night and we were down over most of the weekend.</p>
 
-<p>Last week was <a href="http://www.carpentrycon.org/">CarpentryCon</a> at <a href="https://www.ucd.ie/">University College Dublin</a>, Ireland. This event is the key community-building and networking event in <a href="https://carpentries.org/">The Carpentries</a>, an organization teaching foundational computational, coding, and data science skills to researchers worldwide. Bérénice was there to represent Galaxy and the Freiburg Galaxy team.</p>
+<h2 id="incident-timeline">Incident Timeline</h2>
 
-<p>The event started with 2 days (May 28-29) of <a href="https://malvikasharan.github.io/2018-05-28-Dublin/">Computational Skills for Data Analysis (Data Carpentry) workshop</a>. Bérénice, with Jason Williams and Malvika Sharan, trained there: Data Organization, Cloud Genomics, Introduction to Command line and R for Genomics.</p>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Date</th>
+      <th>Time</th>
+      <th>State</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2018-06-15</td>
+      <td>16:20</td>
+      <td>Database server becomes unresponsive. This additionally takes down a couple of file systems that Galaxy uses</td>
+    </tr>
+    <tr>
+      <td>2018-06-15</td>
+      <td>16:36</td>
+      <td>Processes become unresponsive, monitoring data stops coming in</td>
+    </tr>
+    <tr>
+      <td>2018-06-15</td>
+      <td>17:44</td>
+      <td>Galaxy stops responding</td>
+    </tr>
+    <tr>
+      <td>2018-06-15</td>
+      <td>22:56</td>
+      <td>We notify our database administrator about the issue</td>
+    </tr>
+    <tr>
+      <td>2018-06-17</td>
+      <td>20:45</td>
+      <td>Email received that our database admin has finished repairing the server</td>
+    </tr>
+    <tr>
+      <td>2018-06-17</td>
+      <td>21:04</td>
+      <td>We manually restart the Galaxy server processes</td>
+    </tr>
+    <tr>
+      <td>2018-06-17</td>
+      <td>21:15</td>
+      <td>The first jobs run successfully again</td>
+    </tr>
+  </tbody>
+</table>
 
-<div class="jekyll-twitter-plugin"><blockquote class="twitter-tweet"><p lang="en" dir="ltr">The 2 days <a href="https://twitter.com/datacarpentry?ref_src=twsrc%5Etfw">@datacarpentry</a> workshop is starting at <a href="https://twitter.com/ucddublin?ref_src=twsrc%5Etfw">@ucddublin</a> with <a href="https://twitter.com/MalvikaSharan?ref_src=twsrc%5Etfw">@MalvikaSharan</a> introduction <a href="https://twitter.com/thecarpentries?ref_src=twsrc%5Etfw">@thecarpentries</a> <a href="https://twitter.com/denbiOffice?ref_src=twsrc%5Etfw">@denbiOffice</a> <a href="https://twitter.com/emblebi?ref_src=twsrc%5Etfw">@emblebi</a> <a href="https://t.co/0iR4kPfX6n">pic.twitter.com/0iR4kPfX6n</a></p>&mdash; Bérénice Batut (@bebatut) <a href="https://twitter.com/bebatut/status/1001019430694989826?ref_src=twsrc%5Etfw">May 28, 2018</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</div>
+<h2 id="resolution">Resolution</h2>
 
-<p>The conference per se started on Wednesday. The theme of the conference was “Building Locally, Connecting Globally”, a theme that was really present during the whole conference. It started with a first keynote speach “Focus on Allies” by <a href="http://valerieaurora.org/">Valeria Aurora</a>, which taught us all some new strategies to support diversity and inclusion. It was followed by a story Circle Icebreaker and some time for networking.</p>
-
-<div class="multiple-img">
-    <a data-flickr-embed="true" data-header="true" href="https://www.flickr.com/photos/134305289@N03/41614194945/in/album-72157667641880727/" title="CarpentryCon2018 @ Dublin"><img src="https://farm2.staticflickr.com/1757/41614194945_a5f3c31163_z.jpg" width="640" height="427" alt="CarpentryCon2018 @ Dublin" /></a><script async="" src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-</div>
-
-<p>Afterwards, the conference was a combination of 1-hour workshops / intensive discussions on diverse topics (e.g. community building, inclusion, leadership), lightning talks, a poster session and 3 other keynote speaches:</p>
-<ul>
-  <li><a href="http://third-bit.com/2018/05/30/late-nights-thoughts.html">“Late Night Thoughts on Listening to Ike Quebec”</a> by <a href="http://third-bit.com/">Greg Wilson</a> on how to leave</li>
-  <li>“The Clustal Package Since the Late 1980s: Carpentry with Duct Tape and Six Inch Nails” by Desmond Higgins: a recap of bioinformatic software development before Open Source and GitHub</li>
-  <li>“It Takes a (global) Village” by <a href="https://twitter.com/aneldavdw">Anelda van der Walt</a> and the whole African Task Force</li>
-</ul>
-
-<div class="multiple-img">
-    <a data-flickr-embed="true" data-header="true" href="https://www.flickr.com/photos/134305289@N03/albums/72157667641880727" title="The Carpentries"><img src="https://farm2.staticflickr.com/1759/40708342840_c064fe495b_z.jpg" width="640" height="427" alt="The Carpentries" /></a><script async="" src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-</div>
-
-<p>Bérénice was giving a <a href="http://bebatut.fr/talks/18/05_30_carpentry_con/#/1">4’ Lightning talk</a> and presenting a <a href="https://github.com/bebatut/posters/blob/master/18/06_carpentrycon_gtn/poster.png">poster</a> about the Galaxy Training Network (“Community-Driven Training for Biological Data Analysis with the Galaxy Training Network”). She also co-lead a breakout session on <a href="https://github.com/carpentries/carpentrycon/blob/master/Sessions/2018-05-31/11-Breakout-11-Fostering-FAIR-Data-And-Sustainable-Software-Practices/Abstract.md">FAIR science</a>.</p>
-
-<p>This conference was really intense in many ways (discussion, meeting, topics, ideas, etc).</p>
-
-<h3 id="check-out-more-activity-about-this-event-on-twitter">Check out more activity about this event on Twitter</h3>
-
-<div class="jekyll-twitter-plugin"><a class="twitter-moment" href="https://twitter.com/i/moments/1003976432656310282?ref_src=twsrc%5Etfw">CarpentryCon 2018</a>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</div>
+<p>We are discussing our long term options to preventing, or at least ameliorating
+similar issues in the future. We are investigating the possibly of keeping
+Galaxy online but read-only, and how this might impact our users.</p>
 
       </div>
     </div>
