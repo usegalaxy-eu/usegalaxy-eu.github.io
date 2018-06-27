@@ -214,3 +214,14 @@ div.news-header-row a:hover {
 
 section {
   padding: 0px; }
+
+.eu-image-box {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; }
+
+.eu-image {
+  height: 100px;
+  width: auto;
+  padding-left: 1em;
+  padding-right: 1em; }

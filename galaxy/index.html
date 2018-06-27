@@ -24,11 +24,10 @@
   <link rel="canonical" href="https://usegalaxy-eu.github.io/galaxy/">
 
   <link rel="alternate" type="application/rss+xml" title="Galaxy Europe" href="https://usegalaxy-eu.github.io/feed.xml">
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.0/jquery.matchHeight-min.js" integrity="sha256-a/H26zcixe1svu2fYax7ANJMSzGYyJNI52hKKYJTar8=" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha256-U5ZEeKfGNOja007MMD3YBI0A3OSZOQbeG6z2f2Y0hu8=" crossorigin="anonymous"></script>
+  <link href="https://usegalaxy-eu.github.io/assets/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <script src="https://usegalaxy-eu.github.io/assets/js/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
+  <script src="https://usegalaxy-eu.github.io/assets/js/jquery.matchHeight-min.js" integrity="sha256-a/H26zcixe1svu2fYax7ANJMSzGYyJNI52hKKYJTar8=" crossorigin="anonymous"></script>
+  <script src="https://usegalaxy-eu.github.io/assets/js/bootstrap.min.js" integrity="sha256-U5ZEeKfGNOja007MMD3YBI0A3OSZOQbeG6z2f2Y0hu8=" crossorigin="anonymous"></script>
 </head>
 
   <body>
@@ -207,6 +206,20 @@
       </a>
     
       
+      <a class="list-group-item border-erasmusmc" href="https://usegalaxy-eu.github.io/event/2018-06-26-GCC/plain.html">
+        <p class="list-group-item-text">
+        
+        Jun 26, 2018 - Jul 2, 2018
+        
+        </p>
+
+        <h4 class="list-group-item-heading">
+          <i class="fa fa-calendar" aria-hidden="true"></i>
+          Galaxy Community Conference / BOSC
+        </h4>
+      </a>
+    
+      
       <a class="list-group-item border-freiburg" href="https://usegalaxy-eu.github.io/event/2018-04-13-GCC-BOSC/plain.html">
         <p class="list-group-item-text">
         
@@ -220,20 +233,6 @@
         </h4>
       </a>
     
-      
-      <a class="list-group-item border-freiburg" href="https://usegalaxy-eu.github.io/event/2018-04-13-ELIXIR-all-hands/plain.html">
-        <p class="list-group-item-text">
-        
-        Jun 4, 2018 - Jun 7, 2018
-        
-        </p>
-
-        <h4 class="list-group-item-heading">
-          <i class="fa fa-calendar" aria-hidden="true"></i>
-          ELIXIR 2018 All Hands
-        </h4>
-      </a>
-    
   </div>
 </div>
 
@@ -242,7 +241,7 @@
 
 <iframe style="border: 0px" width="100%" height="150px" src="https://stats.usegalaxy.eu/dashboard-solo/db/jobs-dashboard?panelId=1&amp;orgId=1"></iframe>
 
-<div class="carousel slide row" data-ride="carousel" id="splash-box">
+<div class="carousel slide row" data-ride="carousel" id="splash-box" data-interval="9000">
 
   <ol class="carousel-indicators">
     
@@ -267,15 +266,20 @@
 
   <div class="item carousel-item jumbotron active">
   <h2 class="display-3">Data Driven Reseach for Everyone</h2>
-  <p class="lead"></p>
+  <div class="col-md-6">
   <p>Galaxy is an <strong>open, web-based</strong> platform for accessible, reproducible, and transparent computational biological research.</p>
   <ul>
-    <li><strong>Accessible:</strong> Users can easily configure and run tools without the need to write code, all via an user-friendly web-based interface.</li>
-    <li><strong>Reproducible:</strong> Galaxy captures the full metadata required so that any user can not only understand but also reproduce the complete computational analysis.</li>
-    <li><strong>Transparent:</strong> Users can extract, share and publish analyses via interactive, web-based documents that can enhance analyses with user-supplied annotation.</li>
-    <li><strong>Scalable:</strong> Galaxy scales: it can run on a local computer, on a large cluster or on the cloud</li>
+    <li><strong>Accessible:</strong> Users can easily run tools without writing code or using the CLI; all via a user-friendly web interface.</li>
+    <li><strong>Reproducible:</strong> Galaxy captures all the metadata from an analysis, making it completely reproducible.</li>
+    <li><strong>Transparent:</strong> Users share and publish analyses via interactive pages that can enhance analyses with user annotations.</li>
+    <li><strong>Scalable:</strong> Galaxy can run on anything, from a laptop, to large clusters, to the cloud</li>
   </ul>
-  <button type="button" class="btn btn-primary btn-lg" onclick="window.open('https://usegalaxy.eu','_blank')">Try it on useGalaxy.eu</button>
+  <button type="button" class="btn btn-primary btn-lg" onclick="window.open('https://usegalaxy.eu','_blank')">UseGalaxy.eu</button>
+
+  </div>
+  <div class="col-md-6">
+    <img src="https://usegalaxy-eu.github.io/assets/media/usegalaxy-eu-screenshot.png" alt="UseGalaxy.eu home page" style="max-width: 90%;" />
+  </div>
 </div>
 
   <div class="item carousel-item jumbotron">
@@ -293,38 +297,30 @@
 
   <div class="item carousel-item jumbotron">
   <div class="container">
-      <div class="row">
-          <h3>Maintained by:</h3>
-          <div class="col-sm-3 col-md-2">
-              <a href="/freiburg" target="_blank">
-                  <img src="https://usegalaxy-eu.github.io/assets/media/freiburg-galaxy.svg" class="img-responsive" alt="Freiburg Galaxy Logo" />
-              </a>
-          </div>
-          <div class="col-sm-3 col-md-2">
-              <a href="https://galaxyproject.org/teach/gtn/">
-                  <img src="https://usegalaxy-eu.github.io/assets/media/gtn_logo.png" class="img-responsive" alt="Galaxy Training Network Logo" />
-              </a>
-          </div>
+      <h3>Maintained by:</h3>
+      <div class="row eu-image-box">
+          <a href="/freiburg" target="_blank">
+              <img src="https://usegalaxy-eu.github.io/assets/media/freiburg-galaxy.svg" class="img-responsive eu-image" alt="Freiburg Galaxy Logo" />
+          </a>
+          <a href="https://galaxyproject.org/teach/gtn/">
+              <img src="https://usegalaxy-eu.github.io/assets/media/gtn_logo.png" class="img-responsive eu-image" alt="Galaxy Training Network Logo" />
+          </a>
       </div>
-      <div class="row">
-      </div>
-      <div class="row">
-          <h3>Sponsors/Funding:</h3>
-          <div class="col-sm-3 col-md-3">
-              <a href="https://www.dfg.de" target="_blank">
-                  <img src="https://usegalaxy-eu.github.io/assets/media/dfg_logo.svg" class="img-responsive" alt="DFG Logo" />
-              </a>
-          </div>
-          <div class="col-sm-3 col-md-3">
-              <a href="https://www.bmbf.de" target="_blank">
-                  <img src="https://usegalaxy-eu.github.io/assets/media/bmbf_logo.svg" class="img-responsive" alt="BMBF Logo" />
-              </a>
-          </div>
-          <div class="col-sm-3 col-md-3">
-              <a href="https://www.elixir-europe.org" target="_blank">
-                  <img src="https://usegalaxy-eu.github.io/assets/media/elixir_logo.png" class="img-responsive" alt="ELIXIR Logo" />
-              </a>
-          </div>
+
+      <h3>Sponsors/Funding:</h3>
+      <div class="row eu-image-box">
+          <a href="https://www.denbi.de" target="_blank">
+              <img src="https://usegalaxy-eu.github.io/assets/media/deNBI_Logo_rgb.png" class="img-responsive eu-image" alt="de.NBI Logo" />
+          </a>
+          <a href="https://www.dfg.de" target="_blank">
+              <img src="https://usegalaxy-eu.github.io/assets/media/dfg_logo.svg" class="img-responsive eu-image" alt="DFG Logo" />
+          </a>
+          <a href="https://www.bmbf.de" target="_blank">
+              <img src="https://usegalaxy-eu.github.io/assets/media/bmbf_logo.svg" class="img-responsive eu-image" alt="BMBF Logo" />
+          </a>
+          <a href="https://www.elixir-europe.org" target="_blank">
+              <img src="https://usegalaxy-eu.github.io/assets/media/elixir_logo.png" class="img-responsive eu-image" alt="ELIXIR Logo" />
+          </a>
       </div>
   </div>
 </div>
@@ -332,40 +328,63 @@
   <div class="item carousel-item jumbotron">
   <h2 class="display-3">Training</h2>
   <p class="lead"></p>
-  <p>Supporting researchers by educating them in e.g. big data analysis, programming, data management, and Galaxy server administration
-    is one of our goals as we believe that <strong>sharing of knowledge</strong> and the <strong>open science</strong> movement are the key points in future.</p>
 
-  <p>Regular workshops are provided by us: You can check our <a href="https://usegalaxy-eu.github.io//events">calendar</a> to find out where our next workshops are.</p>
+  <div class="col-md-6">
+    <p>
+      We regularly provide workshops
+    </p>
+    <p>
+      <button type="button" class="btn btn-primary btn-lg" onclick="window.open('','_blank')">See the Calendar</button>
 
-  <p>No matter how hard we tried, we could not meet the demand for on-site and hands-on training.
-    For those of you unable to attend one of our training sessions, we offer training materials,
-    freely accessible online at <a href="https://training.galaxyproject.org">https://training.galaxyproject.org</a>.
-  </p>
-  <p>
-    We sincerely hope that our online training material will help you to get started. Please also check our <a href="https://usegalaxy.eu/tours">Galaxy Interactive Tours</a>.
-  </p>
+    </p>
+
+    <p>
+    But we cannot always meet capacity, so we've put all of our training
+    materials online. This has become a community project with people from all
+    over the world contributing training materials.
+    </p>
+
+    <p>
+    Topics include: variant analysis, transcriptomics, metagenomics, epigenetics, and many more!
+    </p>
+
+    <p>
+    <button type="button" class="btn btn-primary btn-lg" onclick="window.open('https://training.galaxyproject.org','_blank')">Visit the Training Material</button>
+
+    <button type="button" class="btn btn-primary btn-lg" onclick="window.open('https://www.biorxiv.org/content/early/2018/04/05/225680','_blank')">View Publication</button>
+
+    </p>
+  </div>
+  <div class="col-md-6">
+    <img src="https://usegalaxy-eu.github.io/assets/media/training.png" alt="Galaxy training materials page" style="max-width: 90%;" />
+  </div>
+
 </div>
 
   <div class="item carousel-item jumbotron">
   <h2 class="display-3">Training Infrastructure as a Service</h2>
-
+  <div class="col-md-6">
   <p>
-  We want to help you conduct your training seminars. Where you provide the
-  training, we can provide you training infrastructure at no cost. Benefits of
-  UseGalaxy.EU training infrastructure:
+  We want to help you conduct your training seminars. You provide the
+  training, we provide you training infrastructure <i>at no cost.</i>
   </p>
   <div>
+    <p>Why use UseGalaxy.eu training infrastructure?</p>
     <ul>
+      <li>Free</li>
       <li>Private queue, no wait times</li>
       <li>No Galaxy Maintenance</li>
       <li>No Galaxy Administration</li>
     </ul>
   </div>
+  </div>
+
+  <div class="col-md-6">
   <p>
   Simply fill out the infrastructure request form and we'll get back to you shortly.
-
-  <button type="button" class="btn btn-primary btn-lg" onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSdoPRDhpYwNFuZSlGRNQj3dDWwfsdemP5yntAdcqhN3YHbqLA/viewform','_blank')">Request Training Infrastructure</button>
   </p>
+  <button type="button" class="btn btn-primary btn-lg" onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSdoPRDhpYwNFuZSlGRNQj3dDWwfsdemP5yntAdcqhN3YHbqLA/viewform','_blank')">Request Training Infrastructure</button>
+  </div>
 </div>
 
   <div class="item carousel-item jumbotron">
