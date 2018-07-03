@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  <title>Galaxy Europe | Database outage affecting UseGalaxy.eu</title>
+  <title>Galaxy Europe | Tool Usage Graphs</title>
   <meta name="description" content="The European Galaxy Instance">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="utf-8">
@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="https://usegalaxy-eu.github.io/assets/css/freiburg.css">
   
 
-  <link rel="canonical" href="https://usegalaxy-eu.github.io/posts/2018/06/18/database-outage/">
+  <link rel="canonical" href="https://usegalaxy-eu.github.io/posts/2018/07/03/tool-usage-graphs/plain.html">
 
   <link rel="alternate" type="application/rss+xml" title="Galaxy Europe" href="https://usegalaxy-eu.github.io/feed.xml">
   <link href="https://usegalaxy-eu.github.io/assets/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
@@ -33,87 +33,6 @@
   <body>
     <div id="wrap">
       <div id="main">
-        <div class="navbar">
-
-  <div class="container">
-    
-    
-
-    
-    
-    
-
-    
-
-    <div class="navbar-header">
-      <div class="navbar-brand">
-        
-        <img alt="galaxy eu logo" src="https://usegalaxy-eu.github.io/assets/media/galaxy-eu-logo.inv.svg" style="height: 20px"/>
-        
-      </div>
-
-      <a class="navbar-brand" href="https://usegalaxy-eu.github.io/" style="padding-left: 6px">
-        Galaxy Europe
-      </a>
-      
-        <div class="navbar-brand" style="color: white">
-        /
-        </div>
-        <a class="navbar-brand" href="https://usegalaxy-eu.github.io/freiburg">
-          Freiburg
-        </a>
-      
-    </div>
-
-      <div class="navbar-collapse collapse">
-        <ul class="nav navbar-nav navbar-right">
-           <li class="dropdown">
-             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Member Sites <span class="caret"></span></a>
-             <ul class="dropdown-menu">
-              
-                <li>
-                  <a class="page-link" href="/freiburg">Freiburg</a>
-                </li>
-              
-                <li>
-                  <a class="page-link" href="/erasmusmc">Erasmus MC</a>
-                </li>
-              
-             </ul>
-           </li>
-
-          
-          
-            <li>
-              <a class="page-link" href="/freiburg/news">News</a>
-            </li>
-          
-            <li>
-              <a class="page-link" href="/freiburg/events">Events</a>
-            </li>
-          
-            <li>
-              <a class="page-link" href="/freiburg/people">People</a>
-            </li>
-          
-            <li>
-              <a class="page-link" href="/freiburg/projects">Projects</a>
-            </li>
-          
-            <li>
-              <a class="page-link" href="/freiburg/services">Services</a>
-            </li>
-          
-            <li>
-              <a class="page-link" href="/freiburg/publications">Publications</a>
-            </li>
-          
-          
-        </ul>
-      </div>
-  </div>
-</div>
-
         <div class="container" id="maincontainer">
           
 
@@ -123,20 +42,16 @@
 <section id="news-page">
   <div class="row news-header-row">
     
-    <a class="col-xs-1 text-center" href="https://usegalaxy-eu.github.io/posts/2018/06/06/carpentry-con/">
+    <a class="col-xs-1 text-center" href="https://usegalaxy-eu.github.io/posts/2018/06/18/database-outage/plain.html">
       «
     </a>
     
     <div class="col-xs-10 ">
       <div class="text-center">
-        <h2 class="title">Database outage affecting UseGalaxy.eu</h2>
+        <h2 class="title">Tool Usage Graphs</h2>
       </div>
       <hr />
     </div>
-    
-    <a class="col-xs-1 text-center" href="https://usegalaxy-eu.github.io/posts/2018/07/03/tool-usage-graphs/">
-      »
-    </a>
     
   </div>
   <div class="row post-metadata">
@@ -144,7 +59,7 @@
       <div class="text-right">
         <div>
           <span class="post-date">
-            Jun 18, 2018
+            Jul 3, 2018
           </span>
 
           
@@ -160,8 +75,6 @@
             
               <span class="label label-info">devops</span>
             
-              <span class="label label-info">downtime</span>
-            
           </span>
 
           
@@ -173,62 +86,30 @@
   <div class="row">
     <div class="col-md-8 col-md-offset-2">
       <div class="news-content">
-        <p>Our database server crashed unexpectedly on friday night and we were down over most of the weekend.</p>
+        <p>We have leveraged the <a href="https://telescope.galaxyproject.org">Galactic Radio Telescope</a> to produce graphs of <a href="https://stats.usegalaxy.eu/d-solo/SDduH5Zik/grt-tool-usage">tool usage over time</a>. You can embed these anywhere, in websites, in tool forms, etc.</p>
 
-<h2 id="incident-timeline">Incident Timeline</h2>
+<h1 id="tool-usage-graphs">Tool Usage Graphs</h1>
 
-<table class="table table-striped">
-  <thead>
-    <tr>
-      <th>Date</th>
-      <th>Time</th>
-      <th>State</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>2018-06-15</td>
-      <td>16:20</td>
-      <td>Database server becomes unresponsive. This additionally takes down a couple of file systems that Galaxy uses</td>
-    </tr>
-    <tr>
-      <td>2018-06-15</td>
-      <td>16:36</td>
-      <td>Processes become unresponsive, monitoring data stops coming in</td>
-    </tr>
-    <tr>
-      <td>2018-06-15</td>
-      <td>17:44</td>
-      <td>Galaxy stops responding</td>
-    </tr>
-    <tr>
-      <td>2018-06-15</td>
-      <td>22:56</td>
-      <td>We notify our database administrator about the issue</td>
-    </tr>
-    <tr>
-      <td>2018-06-17</td>
-      <td>20:45</td>
-      <td>Email received that our database admin has finished repairing the server</td>
-    </tr>
-    <tr>
-      <td>2018-06-17</td>
-      <td>21:04</td>
-      <td>We manually restart the Galaxy server processes</td>
-    </tr>
-    <tr>
-      <td>2018-06-17</td>
-      <td>21:15</td>
-      <td>The first jobs run successfully again</td>
-    </tr>
-  </tbody>
-</table>
+<p>You can produce graphs for a single tool:</p>
 
-<h2 id="resolution">Resolution</h2>
+<iframe src="https://stats.usegalaxy.eu/d-solo/SDduH5Zik/grt-tool-usage?orgId=1&amp;var-tool_id=mothur_align_seqs&amp;var-instance_id=All&amp;var-date_interval=30d&amp;from=now-5y&amp;to=now&amp;panelId=2" width="100%" height="200" frameborder="0"></iframe>
 
-<p>We are discussing our long term options to preventing, or at least ameliorating
-similar issues in the future. We are investigating the possibly of keeping
-Galaxy online but read-only, and how this might impact our users.</p>
+<p>Or a group of tools by just using their prefix like with the HiCExplorer tools:</p>
+
+<iframe src="https://stats.usegalaxy.eu/d-solo/SDduH5Zik/grt-tool-usage?orgId=1&amp;var-tool_id=hicexplorer&amp;var-instance_id=All&amp;var-date_interval=30d&amp;from=now-5y&amp;to=now&amp;panelId=2" width="100%" height="280" frameborder="0"></iframe>
+
+<p>As of writing, these graphs contain data for UseGalaxy.eu and UseGalaxy.org</p>
+
+<h1 id="embedding">Embedding</h1>
+
+<p>Embedding one of these in your own site is easy!</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&lt;iframe width="100%" height="200" frameborder="0"
+	src="https://stats.usegalaxy.eu/d-solo/SDduH5Zik/grt-tool-usage?orgId=1&amp;var-tool_id=YOUR_TOOL_ID_HERE&amp;var-instance_id=All&amp;var-date_interval=30d&amp;from=now-5y&amp;to=now&amp;panelId=2"&gt;&lt;/iframe&gt;
+</code></pre>
+</div>
+
+<p>Copy and paste the above code, replacing <code class="highlighter-rouge">YOUR_TOOL_ID_HERE</code> with the your tool’s ID. To do a group of tools, your tools <em>must</em> all share a common prefix, e.g. <code class="highlighter-rouge">hicexplorer_</code>.</p>
 
       </div>
     </div>
