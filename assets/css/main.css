@@ -68,7 +68,7 @@ ul.contact-info li {
 .table thead > tr > th {
   border-bottom: none; }
 
-p img {
+img {
   max-width: 100%; }
 
 .navbar {
@@ -146,22 +146,8 @@ p img {
   line-height: 1;
   letter-spacing: -1px; }
 
-#news-list .news {
-  margin-top: 35px;
-  padding-bottom: 35px;
-  border-bottom: 1px solid #f1eae0; }
-
 #news-page {
   padding: 25px 0; }
-
-#news-list .news:last-child {
-  border-bottom: none;
-  padding-bottom: 80px; }
-
-#news-list .news .label,
-#news-page .label {
-  margin-bottom: 10px;
-  margin-top: 40px; }
 
 #news-list .news .title,
 #news-page .title {

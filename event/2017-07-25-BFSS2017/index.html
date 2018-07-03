@@ -193,51 +193,34 @@
       </div>
     </div>
 </div>
-
+<div class="row">
+	<div class="col-md-6">
 
   <div class="row">
     <div class="col-md-12">
-        <h3>Location</h3>
-
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css" integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ==" crossorigin=""/>
-<script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js" integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log==" crossorigin=""></script>
-<div id="mapid" style='height: 180px;'></div>
-<script type="text/javascript">
-var map = L.map('mapid').setView([
-	47.8442045,
-	8.0197046
-], 9);
-
-L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
-	attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-}).addTo(map);
-
-var parts = [
-	"",
-	"",
-	"Herzogenhorn Feldberg",
-	"Baden-Württemberg",
-	"Germany",
-].filter(function(x){ return x !== "" });
-
-L.marker([
-	47.8442045,
-	8.0197046
-]).addTo(map)
-	.bindPopup(parts.join(",<br>"))
-	.openPopup();
-
-
-</script>
+		<h3>Location</h3>
+		
+		
+		
+		Herzogenhorn Feldberg,<br/>
+		
+		
+		Baden-Württemberg,<br/>
+		
+		
+		Germany
+		
+	</div>
 
 
 
-    </div>
+
   </div>
 
 
+	</div>
 
-
+</div>
 
 
         </div>

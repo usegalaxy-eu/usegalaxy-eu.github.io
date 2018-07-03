@@ -194,73 +194,53 @@ Computation is an integral part of today’s research as data has grown too larg
       </div>
     </div>
 </div>
-
+<div class="row">
+	<div class="col-md-6">
 
   <div class="row">
     <div class="col-md-12">
-        <h3>Location</h3>
-
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css" integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ==" crossorigin=""/>
-<script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js" integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log==" crossorigin=""></script>
-<div id="mapid" style='height: 180px;'></div>
-<script type="text/javascript">
-var map = L.map('mapid').setView([
-	49.4093582,
-	8.694724
-], 9);
-
-L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
-	attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-}).addTo(map);
-
-var parts = [
-	"",
-	"",
-	"Heidelberg",
-	"",
-	"Germany",
-].filter(function(x){ return x !== "" });
-
-L.marker([
-	49.4093582,
-	8.694724
-]).addTo(map)
-	.bindPopup(parts.join(",<br>"))
-	.openPopup();
-
-
-</script>
+		<h3>Location</h3>
+		
+		
+		
+		Heidelberg,<br/>
+		
+		
+		
+		Germany
+		
+	</div>
 
 
 
-    </div>
+
   </div>
 
 
+	</div>
 
+	<div class="col-md-6">
 
-  <div class="row">
-    <div class="col-md-8 col-md-offset-2">
-      <div class="news-content">
-        <h3>Supported by</h3>
-        <div style="display: flex; align-items: center">
-            
+<div id="supported">
+  <h3>Supported by</h3>
+  <div class="row eu-image-box">
+      
 
-            
-            <div style="padding: 1rem;">
-                
-                  <a href="https://www.denbi.de" target="_blank">
-                    <img alt="de.NBI logo" src="https://usegalaxy-eu.github.io/assets/media/deNBI_Logo_rgb.png" />
-                  </a>
-                
-            </div>
+      
+          
+            <a href="https://www.denbi.de" target="_blank">
+              <img alt="de.NBI logo" src="https://usegalaxy-eu.github.io/assets/media/deNBI_Logo_rgb.png" class="img-responsive eu-image" />
+            </a>
+          
 
-            
-        </div>
-      </div>
-    </div>
+      
   </div>
+</div>
 
+
+	</div>
+
+</div>
 
 
         </div>
