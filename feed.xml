@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.1">Jekyll</generator><link href="https://usegalaxy-eu.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://usegalaxy-eu.github.io/" rel="alternate" type="text/html" /><updated>2018-07-04T22:18:02+02:00</updated><id>https://usegalaxy-eu.github.io/</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">Galaxy HiCExplorer: a web server for reproducible Hi-C data analysis, quality control and visualization</title><link href="https://usegalaxy-eu.github.io/posts/2018/07/04/HiCExplorer-NAR/" rel="alternate" type="text/html" title="Galaxy HiCExplorer: a web server for reproducible Hi-C data analysis, quality control and visualization" /><published>2018-07-04T00:00:00+02:00</published><updated>2018-07-04T00:00:00+02:00</updated><id>https://usegalaxy-eu.github.io/posts/2018/07/04/HiCExplorer-NAR</id><content type="html" xml:base="https://usegalaxy-eu.github.io/posts/2018/07/04/HiCExplorer-NAR/">&lt;p&gt;HiCExplorer - a tool suite for reproducible Hi-C data analysis, quality control and visualization
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.1">Jekyll</generator><link href="https://usegalaxy-eu.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://usegalaxy-eu.github.io/" rel="alternate" type="text/html" /><updated>2018-07-04T22:31:28+02:00</updated><id>https://usegalaxy-eu.github.io/</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">Galaxy HiCExplorer: a web server for reproducible Hi-C data analysis, quality control and visualization</title><link href="https://usegalaxy-eu.github.io/posts/2018/07/04/HiCExplorer-NAR/" rel="alternate" type="text/html" title="Galaxy HiCExplorer: a web server for reproducible Hi-C data analysis, quality control and visualization" /><published>2018-07-04T00:00:00+02:00</published><updated>2018-07-04T00:00:00+02:00</updated><id>https://usegalaxy-eu.github.io/posts/2018/07/04/HiCExplorer-NAR</id><content type="html" xml:base="https://usegalaxy-eu.github.io/posts/2018/07/04/HiCExplorer-NAR/">&lt;p&gt;HiCExplorer - a tool suite for reproducible Hi-C data analysis, quality control and visualization
 was &lt;a href=&quot;https://doi.org/10.1093/nar/gky504&quot;&gt;published a few days ago&lt;/a&gt;. We even made it on the Cover of the latest
 Nucleic Acids Research Webserver issue.&lt;/p&gt;
 
@@ -19,7 +19,60 @@ A/B compartments. Users can create publication ready plots of the contact matrix
 and TADs on a selected genomic locus, along with additional information like gene tracks or ChIP-seq signals.
 Galaxy HiCExplorer is freely usable at: &lt;a href=&quot;https://hicexplorer.usegalaxy.eu&quot;&gt;https://hicexplorer.usegalaxy.eu&lt;/a&gt;
 and is available as a Docker container:
-&lt;a href=&quot;https://github.com/deeptools/docker-galaxy-hicexplorer&quot;&gt;https://github.com/deeptools/docker-galaxy-hicexplorer&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="paper" /><summary type="html">HiCExplorer - a tool suite for reproducible Hi-C data analysis, quality control and visualization was published a few days ago. We even made it on the Cover of the latest Nucleic Acids Research Webserver issue.</summary></entry><entry><title type="html">Tool Usage Graphs</title><link href="https://usegalaxy-eu.github.io/posts/2018/07/03/tool-usage-graphs/" rel="alternate" type="text/html" title="Tool Usage Graphs" /><published>2018-07-03T00:00:00+02:00</published><updated>2018-07-03T00:00:00+02:00</updated><id>https://usegalaxy-eu.github.io/posts/2018/07/03/tool-usage-graphs</id><content type="html" xml:base="https://usegalaxy-eu.github.io/posts/2018/07/03/tool-usage-graphs/">&lt;p&gt;We have leveraged the &lt;a href=&quot;https://telescope.galaxyproject.org&quot;&gt;Galactic Radio Telescope&lt;/a&gt; to produce graphs of &lt;a href=&quot;https://stats.usegalaxy.eu/d/SDduH5Zik/grt-tool-usage&quot;&gt;tool usage over time&lt;/a&gt;. You can embed these anywhere, in websites, in tool forms, etc.&lt;/p&gt;
+&lt;a href=&quot;https://github.com/deeptools/docker-galaxy-hicexplorer&quot;&gt;https://github.com/deeptools/docker-galaxy-hicexplorer&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="paper" /><summary type="html">HiCExplorer - a tool suite for reproducible Hi-C data analysis, quality control and visualization was published a few days ago. We even made it on the Cover of the latest Nucleic Acids Research Webserver issue.</summary></entry><entry><title type="html">Bioconda: sustainable and comprehensive software distribution for the life sciences</title><link href="https://usegalaxy-eu.github.io/posts/2018/07/04/Bioconda/" rel="alternate" type="text/html" title="Bioconda: sustainable and comprehensive software distribution for the life sciences" /><published>2018-07-04T00:00:00+02:00</published><updated>2018-07-04T00:00:00+02:00</updated><id>https://usegalaxy-eu.github.io/posts/2018/07/04/Bioconda</id><content type="html" xml:base="https://usegalaxy-eu.github.io/posts/2018/07/04/Bioconda/">&lt;p&gt;3 years ago the Galaxy community evaluated mechanism to make software installation more robust and we joined
+the Bioconda community, to fix the software deployment problem once and for all.
+Today, we are happy to annouce that the Bioconda manuscript is now published in the latest
+&lt;a href=&quot;https://doi.org/10.1038/s41592-018-0046-7&quot;&gt;Nature Methods issue&lt;/a&gt; (public &lt;a href=&quot;https://rdcu.be/2kbI&quot;&gt;view&lt;/a&gt;).
+usegalaxy.eu and many other Galaxy instance are already powered by Bioconda and you might use it daily
+without knowing :)&lt;/p&gt;
+
+&lt;div class=&quot;multiple-img&quot;&gt;
+    &lt;img src=&quot;https://usegalaxy-eu.github.io/assets/media/bioconda_nmeth.jpg&quot; height=&quot;400px&quot; alt=&quot;Stats from Bioconda&quot; /&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;/h2&gt;
+
+&lt;p&gt;Bioinformatics software comes in a variety of programming languages and requires diverse installation methods.
+This heterogeneity makes management of a software stack complicated, error-prone, and inordinately time-consuming.
+Whereas software deployment has traditionally been handled by administrators, ensuring the reproducibility of
+data analyses1,2,3 requires that the researcher be able to maintain full control of the software environment,
+rapidly modify it without administrative privileges, and reproduce the same software stack on different machines.&lt;/p&gt;
+
+&lt;p&gt;The Conda package manager (https://conda.io) has become an increasingly popular means to overcome these challenges
+for all major operating systems. Conda normalizes software installations across language ecosystems
+by describing each software with a human readable ‘recipe’ that defines meta-information and dependencies,
+as well as a simple ‘build script’ that performs the steps necessary to build and install the software.
+Conda builds software packages in an isolated environment, transforming them into relocatable binaries.
+Importantly, it obviates reliance on system-wide administration privileges by allowing users to generate
+isolated software environments in which they can manage software versions by project, without generating
+incompatibilities and side-effects (Supplementary Results). These environments support reproducibility,
+as they can be rapidly exchanged via files that describe their installation state.
+Conda is tightly integrated into popular solutions for reproducible data analysis such as Galaxy,
+bcbio-nextgen (https://github.com/chapmanb/bcbio-nextgen), and Snakemake.
+To further enhance reproducibility guarantees, Conda can be combined with container or virtual
+machine-based approaches and archive facilities such as Zenodo (Supplementary Results).
+Finally, although Conda provides many commonly used packages by default, it also allows users to
+optionally include additional, community-managed repositories of packages (termed channels).&lt;/p&gt;
+
+&lt;p&gt;To unlock the benefits of Conda for the life sciences, we present the Bioconda project
+(https://bioconda.github.io). The Bioconda project provides over 3,000 &lt;strong&gt;(Updated: 4000!!!)&lt;/strong&gt; Conda
+software packages for Linux and macOS. Rapid turnaround times (Supplementary Results)
+and extensive documentation (https://bioconda.github.io/contributing.html) have led to a growing community
+of over 200 international scientists working in the project (Supplementary Results).
+The project is led by a core team, which is complemented by interest groups for
+particular language ecosystems. Unlimited (in time and space) storage for generated packages
+is donated by Anaconda Inc. All other used infrastructure is free of charge. Bioconda provides
+packages from various language ecosystems such as Python, R (CRAN and Bioconductor), Perl,
+Haskell, Java, and C/C++ (Fig. 1a). Many of the packages have complex dependency structures
+that require various manual steps for installation when not relying on a package manager like
+Conda (Supplementary Results). With over 6.3 million downloads,
+Bioconda has become a backbone of bioinformatics infrastructure that is used heavily
+across all language ecosystems (Fig. 1b). It is complemented by the conda-forge
+project (https://conda-forge.github.io), which hosts software not specifically related to the
+biological sciences. This separation has proven beneficial, because the focused nature
+of the Bioconda community allows for fast turnaround times and support when a user needs
+to contribute packages or fix problems. Nevertheless, the two projects collaborate
+closely, and the Bioconda team maintains over 500 packages hosted by conda-forge.&lt;/p&gt;</content><author><name></name></author><category term="paper" /><summary type="html">3 years ago the Galaxy community evaluated mechanism to make software installation more robust and we joined the Bioconda community, to fix the software deployment problem once and for all. Today, we are happy to annouce that the Bioconda manuscript is now published in the latest Nature Methods issue (public view). usegalaxy.eu and many other Galaxy instance are already powered by Bioconda and you might use it daily without knowing :)</summary></entry><entry><title type="html">Tool Usage Graphs</title><link href="https://usegalaxy-eu.github.io/posts/2018/07/03/tool-usage-graphs/" rel="alternate" type="text/html" title="Tool Usage Graphs" /><published>2018-07-03T00:00:00+02:00</published><updated>2018-07-03T00:00:00+02:00</updated><id>https://usegalaxy-eu.github.io/posts/2018/07/03/tool-usage-graphs</id><content type="html" xml:base="https://usegalaxy-eu.github.io/posts/2018/07/03/tool-usage-graphs/">&lt;p&gt;We have leveraged the &lt;a href=&quot;https://telescope.galaxyproject.org&quot;&gt;Galactic Radio Telescope&lt;/a&gt; to produce graphs of &lt;a href=&quot;https://stats.usegalaxy.eu/d/SDduH5Zik/grt-tool-usage&quot;&gt;tool usage over time&lt;/a&gt;. You can embed these anywhere, in websites, in tool forms, etc.&lt;/p&gt;
 
 &lt;h1 id=&quot;tool-usage-graphs&quot;&gt;Tool Usage Graphs&lt;/h1&gt;
 
@@ -277,48 +330,4 @@ that server to avoid similar problems.&lt;/p&gt;</content><author><name></name><
 
 &lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;/h2&gt;
 
-&lt;p&gt;Galaxy (homepage: https://galaxyproject.org, main public server: https://usegalaxy.org) is a web-based scientific analysis platform used by tens of thousands of scientists across the world to analyze large biomedical datasets such as those found in genomics, proteomics, metabolomics and imaging. Started in 2005, Galaxy continues to focus on three key challenges of data-driven biomedical science: making analyses accessible to all researchers, ensuring analyses are completely reproducible, and making it simple to communicate analyses so that they can be reused and extended. During the last two years, the Galaxy team and the open-source community around Galaxy have made substantial improvements to Galaxy’s core framework, user interface, tools, and training materials. Framework and user interface improvements now enable Galaxy to be used for analyzing tens of thousands of datasets, and &amp;gt;5500 tools are now available from the Galaxy ToolShed. The Galaxy community has led an effort to create numerous high-quality tutorials focused on common types of genomic analyses. The Galaxy developer and user communities continue to grow and be integral to Galaxy’s development. The number of Galaxy public servers, developers contributing to the Galaxy framework and its tools, and users of the main Galaxy server have all increased substantially.&lt;/p&gt;</content><author><name></name></author><category term="paper" /><summary type="html">The Galaxy project has published an 2018 update of the core Galaxy framwork with all the new features of the last two years. The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2018 update.</summary></entry><entry><title type="html">UseGalaxy.eu update to 18.05 and GDPR</title><link href="https://usegalaxy-eu.github.io/posts/2018/05/25/galaxy-1805-and-gdpr/" rel="alternate" type="text/html" title="UseGalaxy.eu update to 18.05 and GDPR" /><published>2018-05-25T00:00:00+02:00</published><updated>2018-05-25T00:00:00+02:00</updated><id>https://usegalaxy-eu.github.io/posts/2018/05/25/galaxy-1805-and-gdpr</id><content type="html" xml:base="https://usegalaxy-eu.github.io/posts/2018/05/25/galaxy-1805-and-gdpr/">&lt;p&gt;We’ve updated our Galaxy server to version 18.05. Additionally we have enabled
-the &lt;code class=&quot;highlighter-rouge&quot;&gt;beta_gdpr_mode&lt;/code&gt; that the Freiburg Galaxy Team implemented in Galaxy.&lt;/p&gt;
-
-&lt;h1 id=&quot;galaxy-upgrade&quot;&gt;Galaxy Upgrade&lt;/h1&gt;
-
-&lt;p&gt;We had planned an all day maintenance but only needed a tiny bit of that time.
-Galaxy was down from 10:30 CEST to 12:45 CEST when we finished the upgrade.&lt;/p&gt;
-
-&lt;p&gt;For a full list of the awesome new features
-please see the &lt;a href=&quot;https://docs.galaxyproject.org/en/release_18.05/releases/18.05_announce.html&quot;&gt;release notes&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;A few highlights (in no particual order)!&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;You can now upload files &amp;gt;2GB through the Galaxy interface. You no longer need to use FTP to upload large files.&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;There is a new, powerful, rule-based data uploader. This will make it
-significantly easier for you to create complex collections that better
-represent your data.&lt;/p&gt;
-
-    &lt;p&gt;To learn how to use the new uploader you can try a tutorial for the new uploader on 
-&lt;a href=&quot;https://galaxyproject.github.io/training-material/topics/introduction/tutorials/galaxy-intro-rules/tutorial.html&quot;&gt;the Training Materials site&lt;/a&gt;.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;If you notice any issues, please do not hesitate to &lt;a href=&quot;mailto:contact@usegalaxy.eu&quot;&gt;let us know&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;gdpr&quot;&gt;GDPR&lt;/h1&gt;
-
-&lt;p&gt;The new European General Data Protection Regulation (GDPR) went into effect on
-May 25, 2018. Our &lt;a href=&quot;https://usegalaxy.eu&quot;&gt;UseGalaxy.eu&lt;/a&gt; service, and
-&lt;code class=&quot;highlighter-rouge&quot;&gt;galaxy.uni-freiburg.de&lt;/code&gt;, and the other galaxy servers we provide are
-all compliant with GDPR.&lt;/p&gt;
-
-&lt;p&gt;The Freiburg Galaxy Team implemented a &lt;a href=&quot;https://github.com/galaxyproject/galaxy/pull/6069&quot;&gt;GDPR compliance
-mode&lt;/a&gt; for all Galaxy server
-administrators to use. There were several changes that were required in order
-to meet compliance with the new EU regulations and generally improved the
-privacy of users.&lt;/p&gt;
-
-&lt;p&gt;We are only required to follow the law for EU users but we will be following
-the law for all of our users as user privacy is important to UseGalaxy.eu
-You can find out more information about our service, the terms of service, how
-we protect our data and who has access to specific pieces of data on our new
-&lt;a href=&quot;https://usegalaxy.eu/terms/&quot;&gt;ToS and GDPR Documentation page&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="release" /><summary type="html">We’ve updated our Galaxy server to version 18.05. Additionally we have enabled the beta_gdpr_mode that the Freiburg Galaxy Team implemented in Galaxy.</summary></entry></feed>
+&lt;p&gt;Galaxy (homepage: https://galaxyproject.org, main public server: https://usegalaxy.org) is a web-based scientific analysis platform used by tens of thousands of scientists across the world to analyze large biomedical datasets such as those found in genomics, proteomics, metabolomics and imaging. Started in 2005, Galaxy continues to focus on three key challenges of data-driven biomedical science: making analyses accessible to all researchers, ensuring analyses are completely reproducible, and making it simple to communicate analyses so that they can be reused and extended. During the last two years, the Galaxy team and the open-source community around Galaxy have made substantial improvements to Galaxy’s core framework, user interface, tools, and training materials. Framework and user interface improvements now enable Galaxy to be used for analyzing tens of thousands of datasets, and &amp;gt;5500 tools are now available from the Galaxy ToolShed. The Galaxy community has led an effort to create numerous high-quality tutorials focused on common types of genomic analyses. The Galaxy developer and user communities continue to grow and be integral to Galaxy’s development. The number of Galaxy public servers, developers contributing to the Galaxy framework and its tools, and users of the main Galaxy server have all increased substantially.&lt;/p&gt;</content><author><name></name></author><category term="paper" /><summary type="html">The Galaxy project has published an 2018 update of the core Galaxy framwork with all the new features of the last two years. The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2018 update.</summary></entry></feed>
