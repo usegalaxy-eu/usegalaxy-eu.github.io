@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  <title>Galaxy Europe | Galaxy HiCExplorer: a web server for reproducible Hi-C data analysis, quality control and visualization</title>
+  <title>Galaxy Europe | Temporarily Held Workflow Invocations</title>
   <meta name="description" content="The European Galaxy Instance">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="utf-8">
@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="https://usegalaxy-eu.github.io/assets/css/freiburg.css">
   
 
-  <link rel="canonical" href="https://usegalaxy-eu.github.io/posts/2018/07/04/HiCExplorer-NAR/plain.html">
+  <link rel="canonical" href="https://usegalaxy-eu.github.io/posts/2018/07/12/workflow-outage/plain.html">
 
   <link rel="alternate" type="application/rss+xml" title="Galaxy Europe" href="https://usegalaxy-eu.github.io/feed.xml">
   <link href="https://usegalaxy-eu.github.io/assets/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
@@ -42,20 +42,16 @@
 <section id="news-page">
   <div class="row news-header-row">
     
-    <a class="col-xs-1 text-center" href="https://usegalaxy-eu.github.io/posts/2018/07/04/Bioconda/plain.html">
+    <a class="col-xs-1 text-center" href="https://usegalaxy-eu.github.io/posts/2018/07/04/HiCExplorer-NAR/plain.html">
       «
     </a>
     
     <div class="col-xs-10 ">
       <div class="text-center">
-        <h2 class="title">Galaxy HiCExplorer: a web server for reproducible Hi-C data analysis, quality control and visualization</h2>
+        <h2 class="title">Temporarily Held Workflow Invocations</h2>
       </div>
       <hr />
     </div>
-    
-    <a class="col-xs-1 text-center" href="https://usegalaxy-eu.github.io/posts/2018/07/12/workflow-outage/plain.html">
-      »
-    </a>
     
   </div>
   <div class="row post-metadata">
@@ -63,16 +59,23 @@
       <div class="text-right">
         <div>
           <span class="post-date">
-            Jul 4, 2018
+            Jul 12, 2018
           </span>
 
+          
+          <br />
+          <span class="post-location">
+              Freiburg, Germany
+          </span>
           
 
           <br />
           <span class="post-tags">
               <span class="label label-success">Freiburg</span>
             
-              <span class="label label-info">paper</span>
+              <span class="label label-info">devops</span>
+            
+              <span class="label label-info">downtime</span>
             
           </span>
 
@@ -85,64 +88,52 @@
   <div class="row">
     <div class="col-md-8 col-md-offset-2">
       <div class="news-content">
-        <p>HiCExplorer - a tool suite for reproducible Hi-C data analysis, quality control and visualization
-was <a href="https://doi.org/10.1093/nar/gky504">published a few days ago</a>.</p>
+        <p>Users reported workflows were not running, we investigated and could not find the root cause but did solve the issue.</p>
 
-<p>Thanks to this amazing team!</p>
+<h2 id="incident-timeline">Incident Timeline</h2>
 
-<div class="multiple-img">
-    <img src="https://usegalaxy-eu.github.io/assets/media/hic_nar.jpeg" height="400px" alt="Graphical abstract for Galaxy HiC Explorer" />
-</div>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Time</th>
+      <th>State</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>12:00</td>
+      <td>Workflows Invocations stop moving from <code class="highlighter-rouge">new</code> state to <code class="highlighter-rouge">scheduled</code> for unknown reasons</td>
+    </tr>
+    <tr>
+      <td>15:43</td>
+      <td>We receive simultaneous reports from multiple users</td>
+    </tr>
+    <tr>
+      <td>17:28</td>
+      <td>We restart handlers and the problem goes away.</td>
+    </tr>
+  </tbody>
+</table>
 
-<p>We even made it on the Cover of the latest Nucleic Acids Research Webserver issue.</p>
+<h2 id="resolution">Resolution</h2>
 
-<div class="jekyll-twitter-plugin"><blockquote class="twitter-tweet"><p lang="en" dir="ltr">The new NAR webserver issue is out! The cover image is generated with HiCExplorer on the new <a href="https://twitter.com/hashtag/usegalaxy?src=hash&amp;ref_src=twsrc%5Etfw">#usegalaxy</a> <a href="https://twitter.com/hashtag/Europe?src=hash&amp;ref_src=twsrc%5Etfw">#Europe</a> server (<a href="https://t.co/9Cx2zNNvHd">https://t.co/9Cx2zNNvHd</a>). Read more about HiC and our tool @ <a href="https://t.co/8QlURDQ2mp">https://t.co/8QlURDQ2mp</a><a href="https://twitter.com/hashtag/denbi?src=hash&amp;ref_src=twsrc%5Etfw">#denbi</a> <a href="https://twitter.com/ELIXIREurope?ref_src=twsrc%5Etfw">@ELIXIREurope</a> <a href="https://t.co/2fujdhXcnb">pic.twitter.com/2fujdhXcnb</a></p>&mdash; Björn Grüning (@bjoerngruening) <a href="https://twitter.com/bjoerngruening/status/1015656020985688066?ref_src=twsrc%5Etfw">July 7, 2018</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</div>
+<p>We have added monitoring for this to identify</p>
 
-<h2 id="abstract">Abstract</h2>
+<p><a href="https://usegalaxy-eu.github.io/assets/media/wf-invok-status.png">
+<img src="https://usegalaxy-eu.github.io/assets/media/wf-invok-status.png" alt="Workflow Invocation Graph" />
+</a></p>
 
-<p>Galaxy HiCExplorer is a web server that facilitates the study of the 3D conformation of chromatin
-by allowing Hi-C data processing, analysis and visualization. With the Galaxy HiCExplorer web server,
-users with little bioinformatic background can perform every step of the analysis in one
-workflow: mapping of the raw sequence data, creation of Hi-C contact matrices, quality assessment,
-correction of contact matrices and identification of topological associated domains (TADs) and
-A/B compartments. Users can create publication ready plots of the contact matrix, A/B compartments,
-and TADs on a selected genomic locus, along with additional information like gene tracks or ChIP-seq signals.
-Galaxy HiCExplorer is freely usable at: <a href="https://hicexplorer.usegalaxy.eu">https://hicexplorer.usegalaxy.eu</a>
-and is available as a Docker container:
-<a href="https://github.com/deeptools/docker-galaxy-hicexplorer">https://github.com/deeptools/docker-galaxy-hicexplorer</a>.</p>
+<p>We have begun monitoring the states of workflows and will receive an alert
+whenever there are more than 10 unscheduled workflows, staying unscheduled for
+at least 30 minutes.</p>
+
+<p>Hopefully this will let us respond significantly more quickly to similar issues in the future</p>
 
       </div>
     </div>
   </div>
 
   
-<div id="supported">
-  <h3>Supported by</h3>
-  <div class="row eu-image-box">
-      
-
-      
-          
-            <a href="https://www.denbi.de" target="_blank">
-              <img alt="de.NBI logo" src="https://usegalaxy-eu.github.io/assets/media/deNBI_Logo_rgb.png" class="img-responsive eu-image" />
-            </a>
-          
-
-      
-
-      
-          
-            <a href="https://www.elixir-europe.org" target="_blank">
-              <img alt="ELIXIR logo" src="https://usegalaxy-eu.github.io/assets/media/elixir_logo_white_background.png" class="img-responsive eu-image" />
-            </a>
-          
-
-      
-  </div>
-</div>
-
 
 </section>
 

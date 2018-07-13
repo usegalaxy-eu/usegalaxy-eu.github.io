@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  <title>Galaxy Europe</title>
+  <title>Galaxy Europe | Temporarily Held Workflow Invocations</title>
   <meta name="description" content="The European Galaxy Instance">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="utf-8">
@@ -18,10 +18,10 @@
 
   <link rel="stylesheet" href="https://usegalaxy-eu.github.io/assets/css/eu.css">
   
-    <link rel="stylesheet" href="https://usegalaxy-eu.github.io/assets/css/error_pages.css">
+    <link rel="stylesheet" href="https://usegalaxy-eu.github.io/assets/css/freiburg.css">
   
 
-  <link rel="canonical" href="https://usegalaxy-eu.github.io/error_pages/500.html">
+  <link rel="canonical" href="https://usegalaxy-eu.github.io/posts/2018/07/12/workflow-outage/">
 
   <link rel="alternate" type="application/rss+xml" title="Galaxy Europe" href="https://usegalaxy-eu.github.io/feed.xml">
   <link href="https://usegalaxy-eu.github.io/assets/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
@@ -59,8 +59,8 @@
         <div class="navbar-brand" style="color: white">
         /
         </div>
-        <a class="navbar-brand" href="https://usegalaxy-eu.github.io/error_pages">
-          
+        <a class="navbar-brand" href="https://usegalaxy-eu.github.io/freiburg">
+          Freiburg
         </a>
       
     </div>
@@ -85,19 +85,27 @@
           
           
             <li>
-              <a class="page-link" href="/news">News</a>
+              <a class="page-link" href="/freiburg/news">News</a>
             </li>
           
             <li>
-              <a class="page-link" href="/events">Events</a>
+              <a class="page-link" href="/freiburg/events">Events</a>
             </li>
           
             <li>
-              <a class="page-link" href="/people">People</a>
+              <a class="page-link" href="/freiburg/people">People</a>
             </li>
           
             <li>
-              <a class="page-link" href="/about">About</a>
+              <a class="page-link" href="/freiburg/projects">Projects</a>
+            </li>
+          
+            <li>
+              <a class="page-link" href="/freiburg/services">Services</a>
+            </li>
+          
+            <li>
+              <a class="page-link" href="/freiburg/publications">Publications</a>
             </li>
           
           
@@ -107,22 +115,108 @@
 </div>
 
         <div class="container" id="maincontainer">
-          <div class="row">
-  <section class="section-content">
-    <div class="col-md-12">
-      <div id="page-404">
-        <h1>500</h1>
-        <p><strong>Internal Server Error</strong></p>
-        <p>Something has gone wrong on the backend. We apologise for the inconvenience.</p>
+          
+
+
+
+
+<section id="news-page">
+  <div class="row news-header-row">
+    
+    <a class="col-xs-1 text-center" href="https://usegalaxy-eu.github.io/posts/2018/07/04/HiCExplorer-NAR/">
+      «
+    </a>
+    
+    <div class="col-xs-10 ">
+      <div class="text-center">
+        <h2 class="title">Temporarily Held Workflow Invocations</h2>
+      </div>
+      <hr />
+    </div>
+    
+  </div>
+  <div class="row post-metadata">
+    <div class="col-md-8 col-md-offset-2">
+      <div class="text-right">
+        <div>
+          <span class="post-date">
+            Jul 12, 2018
+          </span>
+
+          
+          <br />
+          <span class="post-location">
+              Freiburg, Germany
+          </span>
+          
+
+          <br />
+          <span class="post-tags">
+              <span class="label label-success">Freiburg</span>
+            
+              <span class="label label-info">devops</span>
+            
+              <span class="label label-info">downtime</span>
+            
+          </span>
+
+          
+        </div>
       </div>
     </div>
-  </section>
-</div>
+  </div>
 
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2">
+      <div class="news-content">
+        <p>Users reported workflows were not running, we investigated and could not find the root cause but did solve the issue.</p>
 
+<h2 id="incident-timeline">Incident Timeline</h2>
 
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Time</th>
+      <th>State</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>12:00</td>
+      <td>Workflows Invocations stop moving from <code class="highlighter-rouge">new</code> state to <code class="highlighter-rouge">scheduled</code> for unknown reasons</td>
+    </tr>
+    <tr>
+      <td>15:43</td>
+      <td>We receive simultaneous reports from multiple users</td>
+    </tr>
+    <tr>
+      <td>17:28</td>
+      <td>We restart handlers and the problem goes away.</td>
+    </tr>
+  </tbody>
+</table>
 
+<h2 id="resolution">Resolution</h2>
 
+<p>We have added monitoring for this to identify</p>
+
+<p><a href="https://usegalaxy-eu.github.io/assets/media/wf-invok-status.png">
+<img src="https://usegalaxy-eu.github.io/assets/media/wf-invok-status.png" alt="Workflow Invocation Graph" />
+</a></p>
+
+<p>We have begun monitoring the states of workflows and will receive an alert
+whenever there are more than 10 unscheduled workflows, staying unscheduled for
+at least 30 minutes.</p>
+
+<p>Hopefully this will let us respond significantly more quickly to similar issues in the future</p>
+
+      </div>
+    </div>
+  </div>
+
+  
+
+</section>
 
         </div>
       </div>
@@ -137,8 +231,16 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12" style="text-align:center">
-                <p>UseGalaxy.eu is maintained largely by the <a href="/freiburg/">Freiburg Galaxy Team</a> but also collectively by groups and individuals from across Europe. All of the members sites in this repository contribute to the European Galaxy Project.
-All content on this site is available under <a href="https://creativecommons.org/share-your-work/public-domain/cc0/">CC0-1.0</a>, unless otherwise specified.</p>
+                <p>The <a href="/freiburg/people">Freiburg Galaxy Team</a> is headed by Björn Grüning
+and is part of the <a href="http://www.bioinf.uni-freiburg.de">Bioinformatics Group
+Freiburg</a>, headed by Prof. Dr. Rolf
+Backofen.</p>
+
+<p>The team is part of <a href="https://www.denbi.de">de.NBI</a> and
+<a href="https://www.elixir-europe.org">ELIXIR</a> and largely funded by
+<a href="http://dfg.de/">DFG</a> and <a href="https://www.bmbf.de">BMBF</a>. All content on
+this site is available under <a href="https://creativecommons.org/share-your-work/public-domain/cc0/">CC0-1.0</a>,
+unless otherwise specified.</p>
 
             </div>
         </div>
@@ -146,7 +248,7 @@ All content on this site is available under <a href="https://creativecommons.org
             <div class="col-lg-12" style="text-align:center">
                 <ul class="contact-info">
                     
-                      <li><i class="fa fa-envelope"></i><a href="mailto:contact@usegalaxy.eu">contact@usegalaxy.eu</a></li>
+                      <li><i class="fa fa-envelope"></i><a href="mailto:freiburg@usegalaxy.eu">freiburg@usegalaxy.eu</a></li>
                     
                     
                       <li><i class="fa fa-github"></i><a href="https://github.com/usegalaxy-eu">usegalaxy-eu</a></li>
