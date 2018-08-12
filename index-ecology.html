@@ -34,14 +34,17 @@
         <div class="container" id="maincontainer">
           <div class="home">
   
-<h1 id="galaxy-for-ecology">Galaxy for Ecology</h1>
+<p>Welcome to <strong>Galaxy for Ecology</strong> – a web platform to get, process, analyze and visualize ecological data</p>
+
+<p><img src="https://usegalaxy-eu.github.io/assets/media//Galaxy-E-concarneau-team-2018-logo.gif" height="100px" alt="2018 Concarneau Galaxy-E team" /></p>
 
 <ol id="markdown-toc">
-  <li><a href="#galaxy-for-ecology" id="markdown-toc-galaxy-for-ecology">Galaxy for Ecology</a>    <ol>
-      <li><a href="#getting-started" id="markdown-toc-getting-started">Getting started</a></li>
-      <li><a href="#tools" id="markdown-toc-tools">Tools?</a></li>
+  <li><a href="#getting-started" id="markdown-toc-getting-started">Getting started</a></li>
+  <li><a href="#tools" id="markdown-toc-tools">Tools</a>    <ol>
       <li><a href="#tutorials" id="markdown-toc-tutorials">Tutorials</a></li>
-      <li><a href="#workflows" id="markdown-toc-workflows">Workflows?</a></li>
+    </ol>
+  </li>
+  <li><a href="#workflows" id="markdown-toc-workflows">Workflows</a>    <ol>
       <li><a href="#our-data-policy" id="markdown-toc-our-data-policy">Our Data Policy</a></li>
       <li><a href="#references" id="markdown-toc-references">References</a></li>
     </ol>
@@ -55,12 +58,44 @@
 <p>Want to learn about ecology analyses? Check our <a href="#tutorials">tutorials</a> or take one of our guided tour:</p>
 
 <ul>
-  <li></li>
-  <li></li>
-  <li></li>
+  <li>Introduction to species phenology study and abundance index as trends computation.</li>
 </ul>
 
-<h2 id="tools">Tools?</h2>
+<h1 id="tools">Tools</h1>
+
+<p>Almost 140 tools are proposed in this custom Galaxy instance. They were chosen for their use in exploitation of ecology data:</p>
+
+<ul>
+  <li><strong>General tools</strong>
+    <ul>
+      <li><strong>Text Manipulation</strong>: JQ process JSON, Replace Text, cast, melt, Subtract, Complement, Cluster, Replace text in a specific column, Replace parts of text, text reformatting, Text transformation, Unfold columns, Replace column, Add input name as column, Create text files, Sort a row, reverse a file, Compute an expression, Regex replace, Subtract Whole Dataset, Merge Columns, Unique occurences, Add column, Merge Columns together, Convert delimiters to TAB, Change Case, Trim characters, Secure Hash</li>
+      <li><strong>Filter and Sort</strong>: Unique, Unique lines, Sort, Select random lines, Select first lines (head), Select last lines (tail), Remove beginning, Cut columns, Search in textfiles, XPath, Column arrange, Query tabular, Filter data on any column, Sort data, Select lines, Remove columns, Sort Column Order</li>
+      <li><strong>Join, Substract and Group</strong>: Join two files, Multi-Join, Split file, Concatenate datasets, Paste two files side by side, Reverse, Transpose, Datamash, Subtract, Join two Datasets, Compare two Datasets, Group data by a column</li>
+      <li><strong>File conversion</strong>: Tabular to CSV, CSV to Tabular, RData parser, RData reader, SQLite to tabular, Netcdf Read, Netcdf Metadata info, GDAL Translate</li>
+      <li><strong>Graph / Display Data</strong>: Bar chart, Histogram, Histogram w ggplot2, Scatterplot, Scatterplot w ggplot2, Plotting tool for multiple series, Boxplot, heatmap2, Violin plot w ggplot2, Heatmap w ggplot, PCA w ggplot2, rtsne, Visualize hierarchical data with Krona, Venn Diagram</li>
+    </ul>
+  </li>
+  <li><strong>Statistics tools</strong>
+    <ul>
+      <li><strong>Treat Samples</strong>: Generate random samples, Select max values Statistical</li>
+      <li><strong>Pre-process</strong>: Line/Word/Character count, Count, Arithmetic Operations, Feature Selection, Preprocess raw feature vectors</li>
+      <li><strong>Descriptive Stats</strong>: Summary Statistics, Hypothesis testing, Correlation</li>
+      <li><strong>Classification</strong>: Numeric Clustering, Calculate metrics for classification, Nearest Neighbors Classification</li>
+      <li><strong>Multi-dimensional Analysis</strong>: PCA, Kernel CCA, CCA, Generate a Matrix for PCA/LDA, Perform LDA, Draw ROC plot, Multivariate PCA PLS and OPLS</li>
+      <li><strong>Classical Analysis</strong>: Univariate statistics, T Test for Two Samples, ANOVA, Wavelet variance, Evaluate pairwise distance, Sparse Matrix Functions</li>
+      <li><strong>Model-based</strong>: Perform Best-subsets Regression, Hyperparameter Search, Pipeline Builder, Model validation, Generalized linear models, Discriminant analysis, MINE, Calculate metrics for regression performance, Ensemble methods</li>
+    </ul>
+  </li>
+  <li><strong>Ecology tools</strong>
+    <ul>
+      <li><strong>Get Ecological data</strong>: Get species occurences data, Get protocoled data from Vigie-Nature ,Get climatic data from Worldclim</li>
+      <li><strong>Graph / Display Ecological data</strong>: Compare sites</li>
+      <li><strong>Animal Detection on Acoustic Recordings</strong>: Tadarida-d (from wav file to features), Tadarida-c (from features to species), Tadarida data cleaner, Tadarida identification integration, Advanced restitution: raw approach, Advanced restitution: summary</li>
+      <li><strong>Phenology &amp; Trend computation</strong>: Flight curve, Abundance index, Expected temporal trend, Model temporal trend, Autocorrelation test, Linear regression adjusted, Plot abundance</li>
+      <li><strong>GIS objects handling</strong>: GDAL Info, GDLA Translate, GDAL addo, GDAL Build VRT, GDAL Merge, GDAL Warp, OGR Info</li>
+    </ul>
+  </li>
+</ul>
 
 <h2 id="tutorials">Tutorials</h2>
 
@@ -69,12 +104,15 @@
 <p>We then developed <a href="https://galaxyproject.github.io/training-material/topics/ecology/" target="_blank">several tutorials</a> and more will come:</p>
 
 <ul>
-  <li></li>
-  <li></li>
-  <li></li>
+  <li>Introduction to species phenology study and abundance index as trends computation</li>
+  <li>Introduction to Species Distribution Modeling (SDM) using Wallace R Shiny app</li>
 </ul>
 
-<h2 id="workflows">Workflows?</h2>
+<h1 id="workflows">Workflows</h1>
+
+<ul>
+  <li>Phenology study and abundance index as trends computation through regionalGAM</li>
+</ul>
 
 <h2 id="our-data-policy">Our Data Policy</h2>
 
