@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <title>Galaxy Europe</title>
+  <meta name="description" content="The European Galaxy Instance">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <link rel="stylesheet" href="https://usegalaxy-eu.github.io/assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://usegalaxy-eu.github.io/assets/css/galaxy_bootstrap.css">
+  <link rel="stylesheet" href="https://usegalaxy-eu.github.io/assets/css/main.css">
+  <link rel="stylesheet" href="https://usegalaxy-eu.github.io/assets/css/academicons.min.css"/>
+  <link rel="stylesheet" href="https://usegalaxy-eu.github.io/assets/css/carousel.css">
+
+
+
+
+  <link rel="stylesheet" href="https://usegalaxy-eu.github.io/assets/css/eu.css">
+  
+
+  <link rel="canonical" href="https://usegalaxy-eu.github.io/index-clip.html">
+
+  <link rel="alternate" type="application/rss+xml" title="Galaxy Europe" href="https://usegalaxy-eu.github.io/feed.xml">
+  <link href="https://usegalaxy-eu.github.io/assets/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <script src="https://usegalaxy-eu.github.io/assets/js/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
+  <script src="https://usegalaxy-eu.github.io/assets/js/jquery.matchHeight-min.js" integrity="sha256-a/H26zcixe1svu2fYax7ANJMSzGYyJNI52hKKYJTar8=" crossorigin="anonymous"></script>
+  <script src="https://usegalaxy-eu.github.io/assets/js/bootstrap.min.js" integrity="sha256-U5ZEeKfGNOja007MMD3YBI0A3OSZOQbeG6z2f2Y0hu8=" crossorigin="anonymous"></script>
+</head>
+
+  <body>
+    <div id="wrap">
+      <div id="main">
+        <div class="container" id="maincontainer">
+          <div class="home">
+  
+<div class="alert alert-danger" style="margin-top: 0.5em">
+	<h4>Galaxy Downtime</h4>
+	
+	
+	<div>[20 September 2018 18:24] <p>Galaxy is back. We hope it will be stable but we cannot make any
+guarantees. This was an unexpectedly bad failure scenario. We had
+plans which would have decreased the impact of this particular
+incident, but had not yet implemented them.</p>
+</div>
+	
+	<div>[20 September 2018 16:21] <p>We have had significant unplanned downtime today, due to numerous
+unexpected hardware and software problems spanning multiple machines.</p>
+
+<p>We are attempting to triage this to the best of our ability. We will keep
+you updated.</p>
+</div>
+	
+	<div>[20 September 2018 12:00] <p>Galaxy is down</p>
+</div>
+	
+</div>
+
+<h1 id="galaxy-clip-explorer">Galaxy CLIP-Explorer</h1>
+
+<p>Welcome to the Galaxy CLIP-Explorer – a webserver to process, analyse and visualise CLIP-Seq data.</p>
+
+<p><img src="/assets/media/cover_design_clipseq.png" alt="" /></p>
+
+<h2 id="1-getting-started-with-galaxy-clip-explorer">1. Getting Started with Galaxy CLIP-Explorer</h2>
+
+<p>Are you new to Galaxy, or returning after a long time, and looking for help to get started? Take <a target="_parent" href="https://hicexplorer.usegalaxy.eu/tours/core.galaxy_ui">a guided tour</a> through Galaxy’s user interface.</p>
+
+<p>Take a look at the CLIP-Seq data analysis tutorial on the <a target="_parent" href="http://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/clipseq/tutorial.html">Galaxy Training Network</a>  where you can analyse CLIP-Seq data of RBFOX2 from human liver cancer cells (Hep G2). The tutorial will help you to understand the analysis steps and the most important parameters and tools that are used in CLIP-Explorer.</p>
+
+<p>The underlying workflow of the tutorial can be found <a target="_parent" href="https://github.com/galaxyproject/training-material/tree/master/topics/transcriptomics/tutorials/clipseq/workflows/">here</a>.</p>
+
+<p>We recommend to follow the tutorial on <a target="_parent" href="http://galaxyproject.github.io/training-material/topics/sequence-analysis/tutorials/quality-control/tutorial.html">FastQC</a> for quality checks and the tutorial for <a target="_parent" href="http://galaxyproject.github.io/training-material/topics/introduction/tutorials/igv-introduction/tutorial.html">IGV</a> for data inspection.</p>
+
+<p>The Galaxy Training Network tutorial uses eCLIP data from human liver cancer cells (Hep G2) and is hosted on zenodo: <a target="_parent" href="https://zenodo.org/record/1327423"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.1327423.svg" alt="DOI" /></a></p>
+
+<p>Galaxy CLIP-Explorer can process large CLIP-Seq data of eCLIP and iCLIP. We processed eCLIP data with around 20 million reads from <a href="https://doi.org/10.1038/nmeth.3810">Nostrand et al. (2016)</a>. CLIP-Explorer can handle multiplexed and de-multiplexed eCLIP and iCLIP data in FASTQ and FASTA format.</p>
+
+<h2 id="2-galaxy-clip-explorer--many-possibilities">2. Galaxy CLIP-Explorer – Many Possibilities</h2>
+
+<p><img src="/assets/media/content_design_clipseq.png" alt="" />
+ <b>(A)</b> Galaxy CLIP-Explorer workflows and tools; <b>(B)</b> Output of <code class="highlighter-rouge">multiBamSummary</code> and <code class="highlighter-rouge">plotCorrelation</code> comparing two biological replicates of a CLIP-Seq experiment and one control sample. <b>(C)</b> Output of <code class="highlighter-rouge">plotFingerprint</code> that shows the read coverage for the CLIP-Seq and control samples. <b>(D)</b> Output of <code class="highlighter-rouge">CollectInsertSizeMetrics</code> estimating the insert size for the read libraries. <b>(E)</b> Output of <code class="highlighter-rouge">FastQC</code> showing the duplication levels of the read libraries. <b>(F)</b> Sequence motifs of <code class="highlighter-rouge">MEME-Chip</code> (DREME and MEME) from binding sequence motifs that were predicted from potential binding regions (peaks) obtained by a peak caller like <code class="highlighter-rouge">PEAKachu</code>, <code class="highlighter-rouge">Piranha</code> or <code class="highlighter-rouge">PureCLIP</code>. <b>(G-I)</b> Example output of <code class="highlighter-rouge">RCAS</code> (RNA Centric Annotation System); <b>(G)</b> showing the binding coverage for the transcript and the 5’ and 3’ UTR, <b>(H)</b> depicting the binding coverage around the exon-intron boundaries, <b>(I)</b> and a generated target distribution plot which states what kind of RNAs the protein of interest prevalently binds to.</p>
+
+<h2 id="3-workflows">3. Workflows</h2>
+
+<p>We provide the subsequent workflows to automatize the data analysis for iCLIP and eCLIP data. All workflows can be found <a href="https://github.com/Florian-H-Lab/CLIP-Explorer">here</a>. The data needs to be in FASTA or FASTQ format and can be either multiplexed or de-multiplexed. All workflows, except the robust peak analysis, require the data as a list of dataset pairs. A tutorial to create a list of dataset pairs can be found in the CLIP-Seq data analysis <a target="_parent" href="http://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/clipseq/tutorial.html">tutorial</a> or <a href="http://galaxyproject.github.io/training-material/topics/galaxy-data-manipulation/tutorials/collections/tutorial.html">here</a>. Please have in mind that all workflows need additional input files from the user.</p>
+
+<h3 id="31-from-scratch-for-de-multiplexing-fastq-files">3.1 From scratch for de-multiplexing FASTQ files</h3>
+
+<p>If your data is not de-multiplexed yet, then use the following workflows. The user has to provide the in-line barcodes in a tab-delimited tabular format, for example: &lt;/br&gt;
+rep1  TTAG &lt;/br&gt;
+rep2	TGGC &lt;/br&gt;
+rep3	TTAA &lt;/br&gt;
+The raw data needs to be in FASTA or FASTQ format as a list of dataset pairs.</p>
+
+<ul>
+  <li><a href="https://galaxy.uni-freiburg.de/u/heylf/w/1demultiplexeclip">Workflow to de-multiplex eCLIP read library</a></li>
+  <li><a href="https://galaxy.uni-freiburg.de/u/heylf/w/2demultiplexiclip">Workflow to de-multiplex iCLIP read library</a></li>
+</ul>
+
+<h3 id="32-from-scratch-with-de-multiplexed-fastq-files">3.2 From scratch with de-multiplexed FASTQ files</h3>
+
+<p>You can choose between three different types of peak calling for the data analysis of eCLIP and iCLIP data. The data specification of each of the peak calling algorithms is listed below:</p>
+
+<p><strong>Table 1</strong>: Data specification of the different peak calling algorithms.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Tool</th>
+      <th style="text-align: center">Biological Replicates (Yes/No)</th>
+      <th style="text-align: center">Control Data (Yes/No)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://github.com/tbischler/PEAKachu">PEAKachu</a></td>
+      <td style="text-align: center">Yes</td>
+      <td style="text-align: center">Yes</td>
+    </tr>
+    <tr>
+      <td><a href="https://doi.org/10.1186/s13059-017-1364-2">PureCLIP</a></td>
+      <td style="text-align: center">No</td>
+      <td style="text-align: center">Yes</td>
+    </tr>
+    <tr>
+      <td><a href="https://doi.org/10.1093/bioinformatics/bts569">Piranha</a></td>
+      <td style="text-align: center">No</td>
+      <td style="text-align: center">No</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="note-if-you-have-used-the-de-mutliplexing-workflows">Note if you have used the de-mutliplexing workflows:</h4>
+<p>If you used the preceding workflows for de-multiplexing, then remove the steps of <code class="highlighter-rouge">Cutadapt</code> and <code class="highlighter-rouge">UMI-tools extract</code> from the following workflows to analyse your data. Simply, import the workflow into you account, remove the tools and connect the lose end directly to the alignment step.</p>
+
+<h4 id="note-if-you-use-eclip-data-of-nostrand-et-al-2016">Note if you use eCLIP data of Nostrand et al. (2016):</h4>
+<p>The workflow for the eCLIP data of <a href="https://doi.org/10.1038/nmeth.3810">Nostrand et al. (2016)</a> was used to analyse the data of RBFOX2. Beware when using other data of the study of <a href="https://doi.org/10.1038/nmeth.3810">Nostrand et al. (2016)</a>, because the size of the unique molecular identifier (UMI) can be different. The workflow is set to a UMI of five nucleotides. You can change this by importing the workflow into your account and amend the parameter <code class="highlighter-rouge">Cut bases from reads before adapter trimming</code> of the second <code class="highlighter-rouge">Cutadapt</code> step for the CLIP and control data.</p>
+
+<h4 id="eclip">eCLIP</h4>
+<ul>
+  <li><a href="https://galaxy.uni-freiburg.de/u/heylf/w/1clipseq-explorerdemultiplexedpeakachuecliphg19n5-1">Workflow for the eCLIP data of Nostrand et al. (2016)</a></li>
+  <li><a href="https://galaxy.uni-freiburg.de/u/heylf/w/2clipseq-explorerdemultipeakachuecliphg19">Peakcalling with PEAKachu</a></li>
+  <li><a href="https://galaxy.uni-freiburg.de/u/heylf/w/3clipseq-explorerdemultipureclipecliphg19">Peak calling with PureCLIP</a></li>
+  <li><a href="https://galaxy.uni-freiburg.de/u/heylf/w/4clipseq-explorerdemultipiranhaecliphg19">Peak calling with Piranha</a></li>
+</ul>
+
+<h4 id="iclip">iCLIP</h4>
+<ul>
+  <li><a href="https://galaxy.uni-freiburg.de/u/heylf/w/1clipseq-explorerdemultipeakachuicliphg19">Peak calling with PEAKachu</a></li>
+  <li><a href="https://galaxy.uni-freiburg.de/u/heylf/w/2clipseq-explorerdemultipureclipicliphg19">Peak calling with PureCLIP</a></li>
+  <li><a href="https://galaxy.uni-freiburg.de/u/heylf/w/3clipseq-explorerdemultipiranhaicliphg19">Peak calling with Piranha</a></li>
+</ul>
+
+<h3 id="33-further-optional-peak-analysis">3.3 Further optional peak analysis</h3>
+
+<p>The following workflow can be used if you have picked a peak calling algorithm that do not support biological replicated data. The workflow finds and analysis robust binding regions shared between different peak files.</p>
+
+<ul>
+  <li><a href="https://galaxy.uni-freiburg.de/u/heylf/w/robustpeakanalysis">Robust peak analysis</a></li>
+</ul>
+
+<h2 id="4-remarks">4. Remarks</h2>
+
+<p>Please follow the CLIP-Seq data analysis <a target="_parent" href="http://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/clipseq/tutorial.html">tutorial</a> for a deeper understand of the tools of CLIP-Explorer. Changes to the workflows can be done anytime and without any problems. Simply import the workflow into your account and amend the necessary tools. Therefore, keep the following things in mind:</p>
+
+<h3 id="41-adapter-sequences">4.1 Adapter sequences</h3>
+<p>The workflows uses <code class="highlighter-rouge">Cutadapt</code> to remove standard eCLIP and iCLIP adapter sequences. You need to change <code class="highlighter-rouge">Cutadapt</code> parameters if your read library covers other adapter sequences.</p>
+
+<h3 id="42-umi-and-in-line-barcodes">4.2 UMI and in-line barcodes</h3>
+<p>The workflows uses <code class="highlighter-rouge">Cutadapt</code> to trim of the length of the UMI (+ barcode) from one site of the read pair. This depends on the iCLIP, eCLIP and your own protocol. Please check or change the parameter in <code class="highlighter-rouge">Cutadapt</code> based on your UMI and in-line barcode. For more information follow the CLIP-Seq data analysis <a target="_parent" href="http://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/clipseq/tutorial.html">tutorial</a>.&lt;/br&gt;
+CLIP-explorer uses <code class="highlighter-rouge">UMI-tools extract</code> to find the UMIs inside your reads. Change the pattern of <code class="highlighter-rouge">UMI-tools extract</code> based on your read library preparation.</p>
+
+<h3 id="43-read-alignment">4.3 Read alignment</h3>
+<p>Read alignment is done with <code class="highlighter-rouge">STAR</code> which combines genome and transcriptome data. CLIP-Explorer focusses only on uniquely mapped read. Furthermore, <code class="highlighter-rouge">STAR</code> is executed with soft-clipping turned off. For more information follow the CLIP-Seq data analysis <a target="_parent" href="http://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/clipseq/tutorial.html">tutorial</a>.</p>
+
+<h3 id="44-peak-calling-with-peakachu">4.4 Peak calling with PEAKachu</h3>
+<p>You need to specific the insert size of your paired-end reads for <code class="highlighter-rouge">PEAKachu</code>. For that reason, check the output image of <code class="highlighter-rouge">CollectInsertSizeMetric</code> to get an estimate for that parameter.</p>
+
+<h3 id="45-peak-calling-with-pureclip">4.5 Peak calling with PureCLIP</h3>
+<p>PureCLIP works best with only one site of the paired end reads, where the cross linking event occurs. Thus, CLIP-Explorer filters out the other mate before the peak calling. Remove the <code class="highlighter-rouge">Bam filter</code> tool to disable this behavior or change <code class="highlighter-rouge">Bam filter</code> to pick the correct site.</p>
+
+<h3 id="46-extension-of-the-binding-regions">4.6 Extension of the binding regions</h3>
+<p>CLIP-Explorer uses <code class="highlighter-rouge">SlopBED</code> to extend the peaks a few basepairs to the left and right in order to correct for an underestimation of the binding regions of the peak calling algorithms. For more information follow the CLIP-Seq data analysis <a target="_parent" href="http://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/clipseq/tutorial.html">tutorial</a>. Remove the tool or change the parameter of <code class="highlighter-rouge">SlopBED</code> to change this behavior.</p>
+
+<h2 id="our-data-policy">Our Data Policy</h2>
+
+<h3>Registered Users</h3>
+
+<p>User data on UseGalaxy.eu (i.e. datasets, histories) will be available as long
+as they are not deleted by the user. Once marked as deleted the datasets will
+be permanently removed within 14 days. If the user “purges” the dataset in the
+Galaxy, it will be removed immediately, permanently.</p>
+
+<p>An extended quota can be <a href="https://docs.google.com/forms/d/e/1FAIpQLSf9w2MOS6KOlu9XdhRSDqWnCDkzoVBqHJ3zH_My4p8D8ZgkIQ/viewform" target="_blank">requested</a>
+for a limited time period in special cases.</p>
+
+<h3>Unregistered Users</h3>
+
+<p>Processed data will only be accessible during one browser session, using a
+cookie to identify your data. This cookie is not used for any other purposes
+(e.g. tracking or analytics.)</p>
+
+<p>If UseGalaxy.eu service is not accessed for 90 days, those datasets will be
+permanently deleted.</p>
+
+<h3>GDPR Compliance</h3>
+
+<p>The Galaxy service will be compliant to the EU General Data Protection
+Regulation starting May, 25th 2018. You can read more about this on our GDPR
+page: <a href="https://usegalaxy.eu/terms/">usegalaxy.eu/terms</a></p>
+
+<iframe style="border: 0px" width="100%" height="150px" src="https://stats.usegalaxy.eu/dashboard-solo/db/jobs-dashboard?panelId=1&amp;orgId=1"></iframe>
+
+<div class="row">
+
+    <section class="section-content">
+        <div class="col-md-12">
+        </div>
+    </section>
+</div>
+
+
+</div>
+
+        </div>
+      </div>
+    </div>
+    
+
+
+
+
+
+<footer class="navbar-default">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12" style="text-align:center">
+                <p>UseGalaxy.eu is maintained largely by the <a href="/freiburg/">Freiburg Galaxy Team</a> but also collectively by groups and individuals from across Europe. All of the members sites in this repository contribute to the European Galaxy Project.
+All content on this site is available under <a href="https://creativecommons.org/share-your-work/public-domain/cc0/">CC0-1.0</a>, unless otherwise specified.</p>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12" style="text-align:center">
+                <ul class="contact-info">
+                    
+                      <li><i class="fa fa-envelope"></i><a href="mailto:contact@usegalaxy.eu">contact@usegalaxy.eu</a></li>
+                    
+                    
+                      <li><i class="fa fa-github"></i><a href="https://github.com/usegalaxy-eu">usegalaxy-eu</a></li>
+                    
+                    
+                      <li><i class="fa fa-twitter"></i><a href="https://twitter.com/galaxyproject">galaxyproject</a></li>
+                    
+                      <li><i class="fa fa-rss"></i>Subscribe <a href="https://usegalaxy-eu.github.io/feed.xml">via RSS (UseGalaxy.eu Feed)</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+  </body>
+</html>
