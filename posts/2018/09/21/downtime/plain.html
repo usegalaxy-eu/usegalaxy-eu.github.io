@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <title>Galaxy Europe | UseGalaxy.eu Downtime</title>
+  <meta name="description" content="The European Galaxy Instance">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <link rel="stylesheet" href="https://usegalaxy-eu.github.io/assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://usegalaxy-eu.github.io/assets/css/galaxy_bootstrap.css">
+  <link rel="stylesheet" href="https://usegalaxy-eu.github.io/assets/css/main.css">
+  <link rel="stylesheet" href="https://usegalaxy-eu.github.io/assets/css/academicons.min.css"/>
+  <link rel="stylesheet" href="https://usegalaxy-eu.github.io/assets/css/carousel.css">
+
+
+
+
+  <link rel="stylesheet" href="https://usegalaxy-eu.github.io/assets/css/eu.css">
+  
+    <link rel="stylesheet" href="https://usegalaxy-eu.github.io/assets/css/freiburg.css">
+  
+
+  <link rel="canonical" href="https://usegalaxy-eu.github.io/posts/2018/09/21/downtime/plain.html">
+
+  <link rel="alternate" type="application/rss+xml" title="Galaxy Europe" href="https://usegalaxy-eu.github.io/feed.xml">
+  <link href="https://usegalaxy-eu.github.io/assets/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <script src="https://usegalaxy-eu.github.io/assets/js/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
+  <script src="https://usegalaxy-eu.github.io/assets/js/jquery.matchHeight-min.js" integrity="sha256-a/H26zcixe1svu2fYax7ANJMSzGYyJNI52hKKYJTar8=" crossorigin="anonymous"></script>
+  <script src="https://usegalaxy-eu.github.io/assets/js/bootstrap.min.js" integrity="sha256-U5ZEeKfGNOja007MMD3YBI0A3OSZOQbeG6z2f2Y0hu8=" crossorigin="anonymous"></script>
+</head>
+
+  <body>
+    <div id="wrap">
+      <div id="main">
+        <div class="container" id="maincontainer">
+          
+
+
+
+
+<section id="news-page">
+  <div class="row news-header-row">
+    
+    <a class="col-xs-1 text-center" href="https://usegalaxy-eu.github.io/posts/2018/07/25/openpositions/plain.html">
+      «
+    </a>
+    
+    <div class="col-xs-10 ">
+      <div class="text-center">
+        <h2 class="title">UseGalaxy.eu Downtime</h2>
+      </div>
+      <hr />
+    </div>
+    
+  </div>
+  <div class="row post-metadata">
+    <div class="col-md-8 col-md-offset-2">
+      <div class="text-right">
+        <div>
+          <span class="post-date">
+            Sep 21, 2018
+          </span>
+
+          
+          <br />
+          <span class="post-location">
+              Freiburg, Germany
+          </span>
+          
+
+          <br />
+          <span class="post-tags">
+              <span class="label label-success">Freiburg</span>
+            
+              <span class="label label-info">devops</span>
+            
+              <span class="label label-info">downtime</span>
+            
+          </span>
+
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2">
+      <div class="news-content">
+        <p>We had a confluence of unexpected and bad events which resulted in UseGalaxy.eu
+offline for a significant portion of yesterday (2018-09-20) afternoon. No data
+was lost.</p>
+
+<h2 id="incident-timeline">Incident Timeline</h2>
+
+<p>Times are approximate as some of the servers where</p>
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Time</th>
+      <th>State</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>12:00</td>
+      <td>Galaxy’s influence became unresponsive. The uWSGI processes were attempting to compile something, and could not be permanently killed as they automatically respawn.</td>
+    </tr>
+    <tr>
+      <td>12:30</td>
+      <td>We rebooted the Galaxy server. It went into the 30 minute reboot process.</td>
+    </tr>
+    <tr>
+      <td>13:12</td>
+      <td>Helena arrives at the Freiburg compute center in order to attach to server directly and monitor boot process. The server is up at this point.</td>
+    </tr>
+    <tr>
+      <td>13:15</td>
+      <td>After logging in, the serve immediately halts itself and begins rebooting again.</td>
+    </tr>
+    <tr>
+      <td>13:31</td>
+      <td>Node is back up, immediately halts itself again. Despite issuing a <code class="highlighter-rouge">shutdown -c</code>, we could not cancel the shutdown.</td>
+    </tr>
+    <tr>
+      <td>14:18</td>
+      <td>We get the node back up and prevent future shutdowns, but then one of the filesystems fails to mount.</td>
+    </tr>
+    <tr>
+      <td>14:27</td>
+      <td>Stefan identifies a ZFS issue and ends up rebooting that server.</td>
+    </tr>
+    <tr>
+      <td>14:38</td>
+      <td>Workshop is cancelled.</td>
+    </tr>
+    <tr>
+      <td>15:00</td>
+      <td>Björn arrives at the compute center and we attempt to debug the issues and logs we have seen.</td>
+    </tr>
+    <tr>
+      <td>15:15</td>
+      <td>Stefan recovers the ZFS</td>
+    </tr>
+    <tr>
+      <td>16:15</td>
+      <td>Stefan arrives at the compute center. Together all three of us head to the DC. We make a decision that from the log messages we’ve seen we should consider replacing the hardware, migrating the hard drives to a spare enclosure.</td>
+    </tr>
+    <tr>
+      <td>16:27</td>
+      <td>Approximately 1/3rd of the drives providing storage for the old bwCloud die/become inaccessible. This permanently takes down numerous services, including <code class="highlighter-rouge">stats.usegalaxy.eu</code>.</td>
+    </tr>
+    <tr>
+      <td>17:00</td>
+      <td>Helena takes the opportunity to migrate the HTCondor cluster we run in the cloud from the old cloud to the new cloud. At least one thing goes successfully.</td>
+    </tr>
+    <tr>
+      <td>17:35</td>
+      <td>We finally have the replacement head node booting, however it decides to use unexpected names for the ethernet interfaces and networking breaks.</td>
+    </tr>
+    <tr>
+      <td>17:57</td>
+      <td>We finally regain access to our head node. We start galaxy</td>
+    </tr>
+    <tr>
+      <td>18:21</td>
+      <td>Galaxy is back online.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="resolution">Resolution</h2>
+
+<p>This was really a worst case scenario, multiple services, multiple machines all failed within the space of 6 hours. The only good point is that no user data was lost.</p>
+
+<h3 id="offline-galaxy">Offline Galaxy</h3>
+
+<p>We have had plans for some time now that we will run a second Galaxy head node
+which we can fail over to in emergencies like this. We additionally have a
+replacement head node which is not currently utilised. We have not been able to
+migrate to either of these options due to time pressures to migrate to the new
+cloud, which will go down in 7 days, and all data in the old cloud will be
+lost.</p>
+
+<h3 id="zfs">ZFS</h3>
+
+<p>Galaxy can use a “distributed” storage setup where datasets are stored across
+multiple directories. We use this in order to spread data across our three NFS
+servers. Galaxy currently has a hard requirement that all storage directories
+are online when Galaxy boots. Helena
+<a href="https://github.com/galaxyproject/galaxy/issues/4974">proposed</a> a solution to
+this but due to lack of feedback and lack of time, we have not yet implemented
+support for marking these backends as “offline” and allowing Galaxy to start
+despite it.</p>
+
+<h3 id="cloud-storage">Cloud Storage</h3>
+
+<p>We planned for scenarios like this and required that any VM running in the
+cloud be able to be rebuilt within 15 minutes, allowing us to restore service.
+Given the multitude of other issues currently happening, and the service level
+objective (SLO) of the service, we decided not to repair this VM.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>It was a bad day; we were unlucky and unprepared. More time needs to be allocated to service resilliency projects.</p>
+
+      </div>
+    </div>
+  </div>
+
+
+
+</section>
+
+        </div>
+      </div>
+    </div>
+    
+
+
+
+
+
+<footer class="navbar-default">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12" style="text-align:center">
+                <p>The <a href="/freiburg/people">Freiburg Galaxy Team</a> is headed by Björn Grüning
+and is part of the <a href="http://www.bioinf.uni-freiburg.de">Bioinformatics Group
+Freiburg</a>, headed by Prof. Dr. Rolf
+Backofen.</p>
+
+<p>The team is part of <a href="https://www.denbi.de">de.NBI</a> and
+<a href="https://www.elixir-europe.org">ELIXIR</a> and largely funded by
+<a href="http://dfg.de/">DFG</a> and <a href="https://www.bmbf.de">BMBF</a>. All content on
+this site is available under <a href="https://creativecommons.org/share-your-work/public-domain/cc0/">CC0-1.0</a>,
+unless otherwise specified.</p>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12" style="text-align:center">
+                <ul class="contact-info">
+                    
+                      <li><i class="fa fa-envelope"></i><a href="mailto:freiburg@usegalaxy.eu">freiburg@usegalaxy.eu</a></li>
+                    
+                    
+                      <li><i class="fa fa-github"></i><a href="https://github.com/usegalaxy-eu">usegalaxy-eu</a></li>
+                    
+                    
+                      <li><i class="fa fa-twitter"></i><a href="https://twitter.com/galaxyproject">galaxyproject</a></li>
+                    
+                      <li><i class="fa fa-rss"></i>Subscribe <a href="https://usegalaxy-eu.github.io/feed.xml">via RSS (UseGalaxy.eu Feed)</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+  </body>
+</html>

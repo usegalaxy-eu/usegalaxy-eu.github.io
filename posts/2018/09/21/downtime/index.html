@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  <title>Galaxy Europe | Freiburg Galaxy Team has an open position!</title>
+  <title>Galaxy Europe | UseGalaxy.eu Downtime</title>
   <meta name="description" content="The European Galaxy Instance">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="utf-8">
@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="https://usegalaxy-eu.github.io/assets/css/freiburg.css">
   
 
-  <link rel="canonical" href="https://usegalaxy-eu.github.io/posts/2018/07/25/openpositions/">
+  <link rel="canonical" href="https://usegalaxy-eu.github.io/posts/2018/09/21/downtime/">
 
   <link rel="alternate" type="application/rss+xml" title="Galaxy Europe" href="https://usegalaxy-eu.github.io/feed.xml">
   <link href="https://usegalaxy-eu.github.io/assets/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
@@ -123,20 +123,16 @@
 <section id="news-page">
   <div class="row news-header-row">
     
-    <a class="col-xs-1 text-center" href="https://usegalaxy-eu.github.io/posts/2018/07/18/gccbosc/">
+    <a class="col-xs-1 text-center" href="https://usegalaxy-eu.github.io/posts/2018/07/25/openpositions/">
       «
     </a>
     
     <div class="col-xs-10 ">
       <div class="text-center">
-        <h2 class="title">Freiburg Galaxy Team has an open position!</h2>
+        <h2 class="title">UseGalaxy.eu Downtime</h2>
       </div>
       <hr />
     </div>
-    
-    <a class="col-xs-1 text-center" href="https://usegalaxy-eu.github.io/posts/2018/09/21/downtime/">
-      »
-    </a>
     
   </div>
   <div class="row post-metadata">
@@ -144,7 +140,7 @@
       <div class="text-right">
         <div>
           <span class="post-date">
-            Jul 25, 2018
+            Sep 21, 2018
           </span>
 
           
@@ -158,7 +154,9 @@
           <span class="post-tags">
               <span class="label label-success">Freiburg</span>
             
-              <span class="label label-info">job</span>
+              <span class="label label-info">devops</span>
+            
+              <span class="label label-info">downtime</span>
             
           </span>
 
@@ -171,46 +169,123 @@
   <div class="row">
     <div class="col-md-8 col-md-offset-2">
       <div class="news-content">
-        <p>The Freiburg Galaxy Team is looking for a JavaScript developer.</p>
+        <p>We had a confluence of unexpected and bad events which resulted in UseGalaxy.eu
+offline for a significant portion of yesterday (2018-09-20) afternoon. No data
+was lost.</p>
 
-<div class="multiple-img">
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/134305289@N03/31768905991/in/album-72157671198874931/" title="Untitled"><img src="https://farm1.staticflickr.com/366/31768905991_508703bbeb_k.jpg" width="512" height="340" alt="Untitled" /></a><script async="" src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-</div>
+<h2 id="incident-timeline">Incident Timeline</h2>
 
-<p>The Freiburg Galaxy Team is looking for a JavaScript developer (f/m) to support our work on the web-based computational platform Galaxy. The Freiburg Galaxy
-Team offers the service usegalaxy.eu to biomedical and pharmaceutical researchers in Europe. Galaxy is developed as an open source project and the ideal candidate will help us to improve the user interface of Galaxy by transforming the user interface to a new technical basis based on Vue and will implement new features. A collaboration with Galaxy developers from all over the world is expected.</p>
+<p>Times are approximate as some of the servers where</p>
 
-<p>You will be involved in:</p>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Time</th>
+      <th>State</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>12:00</td>
+      <td>Galaxy’s influence became unresponsive. The uWSGI processes were attempting to compile something, and could not be permanently killed as they automatically respawn.</td>
+    </tr>
+    <tr>
+      <td>12:30</td>
+      <td>We rebooted the Galaxy server. It went into the 30 minute reboot process.</td>
+    </tr>
+    <tr>
+      <td>13:12</td>
+      <td>Helena arrives at the Freiburg compute center in order to attach to server directly and monitor boot process. The server is up at this point.</td>
+    </tr>
+    <tr>
+      <td>13:15</td>
+      <td>After logging in, the serve immediately halts itself and begins rebooting again.</td>
+    </tr>
+    <tr>
+      <td>13:31</td>
+      <td>Node is back up, immediately halts itself again. Despite issuing a <code class="highlighter-rouge">shutdown -c</code>, we could not cancel the shutdown.</td>
+    </tr>
+    <tr>
+      <td>14:18</td>
+      <td>We get the node back up and prevent future shutdowns, but then one of the filesystems fails to mount.</td>
+    </tr>
+    <tr>
+      <td>14:27</td>
+      <td>Stefan identifies a ZFS issue and ends up rebooting that server.</td>
+    </tr>
+    <tr>
+      <td>14:38</td>
+      <td>Workshop is cancelled.</td>
+    </tr>
+    <tr>
+      <td>15:00</td>
+      <td>Björn arrives at the compute center and we attempt to debug the issues and logs we have seen.</td>
+    </tr>
+    <tr>
+      <td>15:15</td>
+      <td>Stefan recovers the ZFS</td>
+    </tr>
+    <tr>
+      <td>16:15</td>
+      <td>Stefan arrives at the compute center. Together all three of us head to the DC. We make a decision that from the log messages we’ve seen we should consider replacing the hardware, migrating the hard drives to a spare enclosure.</td>
+    </tr>
+    <tr>
+      <td>16:27</td>
+      <td>Approximately 1/3rd of the drives providing storage for the old bwCloud die/become inaccessible. This permanently takes down numerous services, including <code class="highlighter-rouge">stats.usegalaxy.eu</code>.</td>
+    </tr>
+    <tr>
+      <td>17:00</td>
+      <td>Helena takes the opportunity to migrate the HTCondor cluster we run in the cloud from the old cloud to the new cloud. At least one thing goes successfully.</td>
+    </tr>
+    <tr>
+      <td>17:35</td>
+      <td>We finally have the replacement head node booting, however it decides to use unexpected names for the ethernet interfaces and networking breaks.</td>
+    </tr>
+    <tr>
+      <td>17:57</td>
+      <td>We finally regain access to our head node. We start galaxy</td>
+    </tr>
+    <tr>
+      <td>18:21</td>
+      <td>Galaxy is back online.</td>
+    </tr>
+  </tbody>
+</table>
 
-<ul>
-  <li>Improvement of the user interface of Galaxy</li>
-  <li>Collaborating with Galaxy core developers</li>
-</ul>
+<h2 id="resolution">Resolution</h2>
 
-<p>Required qualifications:</p>
+<p>This was really a worst case scenario, multiple services, multiple machines all failed within the space of 6 hours. The only good point is that no user data was lost.</p>
 
-<ul>
-  <li>B.Sc. Computer Science degree or similar</li>
-  <li>Programming knowledge in JavaScript</li>
-  <li>Experience in Vue</li>
-  <li>Basic experience with HTML5 and CSS3</li>
-  <li>Verbal and written communication skills (English)</li>
-</ul>
+<h3 id="offline-galaxy">Offline Galaxy</h3>
 
-<p>We offer:</p>
+<p>We have had plans for some time now that we will run a second Galaxy head node
+which we can fail over to in emergencies like this. We additionally have a
+replacement head node which is not currently utilised. We have not been able to
+migrate to either of these options due to time pressures to migrate to the new
+cloud, which will go down in 7 days, and all data in the old cloud will be
+lost.</p>
 
-<ul>
-  <li>A full time position (39.5 h / week), part-time position is possible</li>
-  <li>Flexible working times</li>
-  <li>A positive working environment and a flat hierarchy</li>
-  <li>Diversified activities and new challenging tasks</li>
-</ul>
+<h3 id="zfs">ZFS</h3>
 
-<p>Positions are for initially 1 year with the possibility of extension. The salary will be determined in accordance with TVL-E13 (100 %).</p>
+<p>Galaxy can use a “distributed” storage setup where datasets are stored across
+multiple directories. We use this in order to spread data across our three NFS
+servers. Galaxy currently has a hard requirement that all storage directories
+are online when Galaxy boots. Helena
+<a href="https://github.com/galaxyproject/galaxy/issues/4974">proposed</a> a solution to
+this but due to lack of feedback and lack of time, we have not yet implemented
+support for marking these backends as “offline” and allowing Galaxy to start
+despite it.</p>
 
-<p>Further information: <a href="http://www.bioinf.uni-freiburg.de/">Bioinformatics Uni Freiburg</a>, <a href="https://usegalaxy-eu.github.io/freiburg/people">Freiburg Galaxy Team</a></p>
+<h3 id="cloud-storage">Cloud Storage</h3>
 
-<p>Please send your application including a motivation letter, CV, certificates, and 3 references latest until 30.8.2018 via email to Joachim Wolff (wolffj@informatik.uni-freiburg.de)</p>
+<p>We planned for scenarios like this and required that any VM running in the
+cloud be able to be rebuilt within 15 minutes, allowing us to restore service.
+Given the multitude of other issues currently happening, and the service level
+objective (SLO) of the service, we decided not to repair this VM.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>It was a bad day; we were unlucky and unprepared. More time needs to be allocated to service resilliency projects.</p>
 
       </div>
     </div>
