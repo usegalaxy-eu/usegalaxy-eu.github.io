@@ -2,6 +2,11 @@
 <html lang="en">
   <head>
   <title>Galaxy Europe | FIXED: upload jobs not scheduled</title>
+  <meta property="og:title" content="FIXED: upload jobs not scheduled" />
+  <meta property="og:description" content="A subset of upload jobs were hanging. Investigation pointed to a handful of VMs that were recently launched in our cloud which were firewalled off from access. Condor, our job scheduler, needs to be able to reach the VMs in order to send jobs to it. When jobs were scheduled for those VMs, they just hung indefinitely. We have now corrected the issue in code, so we won’t launch any more VMs with this issue.
+
+" />
+  <meta property="og:image" content="https://usegalaxy-eu.github.io/assets/media/galaxy-eu-logo.512.png" />
   <meta name="description" content="The European Galaxy Instance">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="utf-8">
