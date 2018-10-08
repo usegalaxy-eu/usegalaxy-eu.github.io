@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  <title>Galaxy Europe | Tutorial of the Month: Maria Doyle selected "From peaks to genes"</title>
-  <meta property="og:title" content="Tutorial of the Month: Maria Doyle selected "From peaks t..." />
-  <meta property="og:description" content="The Galaxy community is developing and maintaining a coll..." />
+  <title>Galaxy Europe | Initial release of `gxadmin` tool</title>
+  <meta property="og:title" content="Initial release of `gxadmin` tool" />
+  <meta property="og:description" content="We have recently released a small utility we use for help..." />
   <meta property="og:image" content="https://usegalaxy-eu.github.io/assets/media/galaxy-eu-logo.512.png" />
   <meta name="description" content="The European Galaxy Instance">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="https://usegalaxy-eu.github.io/assets/css/freiburg.css">
   
 
-  <link rel="canonical" href="https://usegalaxy-eu.github.io/posts/2018/10/02/totm/plain.html">
+  <link rel="canonical" href="https://usegalaxy-eu.github.io/posts/2018/10/08/gxadmin/plain.html">
   <link rel="shortcut icon" href="https://usegalaxy-eu.github.io/assets/media/galaxy-eu-logo.64.png" type="image/x-icon" />
   <link rel="alternate" type="application/rss+xml" title="Galaxy Europe" href="https://usegalaxy-eu.github.io/feed.xml">
   <link href="https://usegalaxy-eu.github.io/assets/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
@@ -45,20 +45,16 @@
 <section id="news-page">
   <div class="row news-header-row">
     
-    <a class="col-xs-1 text-center" href="https://usegalaxy-eu.github.io/posts/2018/09/24/galaxy-hts-data-analysis-workshop/plain.html">
+    <a class="col-xs-1 text-center" href="https://usegalaxy-eu.github.io/posts/2018/10/02/totm/plain.html">
       «
     </a>
     
     <div class="col-xs-10 ">
       <div class="text-center">
-        <h2 class="title">Tutorial of the Month: Maria Doyle selected &quot;From peaks to genes&quot;</h2>
+        <h2 class="title">Initial release of `gxadmin` tool</h2>
       </div>
       <hr />
     </div>
-    
-    <a class="col-xs-1 text-center" href="https://usegalaxy-eu.github.io/posts/2018/10/08/gxadmin/plain.html">
-      »
-    </a>
     
   </div>
   <div class="row post-metadata">
@@ -66,16 +62,21 @@
       <div class="text-right">
         <div>
           <span class="post-date">
-            Oct 2, 2018
+            Oct 8, 2018
           </span>
 
+          
+          <br />
+          <span class="post-location">
+              Freiburg, Germany
+          </span>
           
 
           <br />
           <span class="post-tags">
               <span class="label label-success">Freiburg</span>
             
-              <span class="label label-info">training</span>
+              <span class="label label-info">devops</span>
             
           </span>
 
@@ -88,7 +89,25 @@
   <div class="row">
     <div class="col-md-8 col-md-offset-2">
       <div class="news-content">
-        <p>The Galaxy community is developing and maintaining a collection of tutorials that are designed to be interactive and are built around Galaxy: <a href="https://training.galaxyproject.org">https://training.galaxyproject.org</a>. To help highlight our tutorials and the training effort of the community, a member of the community will select every month one tutorial and explains in the <em>Galactic Blog</em> why they select this tutorial. This month Maria Doyle has selected the tutorial <a href="https://galaxyproject.github.io/training-material/topics/introduction/tutorials/galaxy-intro-peaks2genes/tutorial.html">“From peaks to genes”</a>, from the topic “Introduction to Galaxy Analyses”.</p>
+        <p>We have recently released a small utility we use for helping manage our Galaxy
+server. It is available on <a href="https://github.com/usegalaxy-eu/gxadmin">GitHub</a>
+and includes many small SQL queries that administrators run every day.</p>
+
+<p>As a Galaxy administrator, you can use it to do things like viewing the queue:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>$ gxadmin query queue
+                            tool_id                                |  state  | count
+-------------------------------------------------------------------+---------+-------
+ toolshed.g2.bx.psu.edu/repos/iuc/unicycler/unicycler/0.4.6.0      | queued  |     9
+ toolshed.g2.bx.psu.edu/repos/iuc/dexseq/dexseq_count/1.24.0.0     | running |     7
+ toolshed.g2.bx.psu.edu/repos/nml/spades/spades/1.2                | queued  |     6
+ ebi_sra_main                                                      | running |     6
+ toolshed.g2.bx.psu.edu/repos/iuc/trinity/trinity/2.8.3            | queued  |     5
+</code></pre>
+</div>
+
+<p>amongst many more queries. We hope that other administrators will find this
+utility useful and can contribute queries that they run often.</p>
 
       </div>
     </div>
