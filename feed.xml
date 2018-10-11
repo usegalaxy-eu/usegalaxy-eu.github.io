@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.1">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2018-10-12T00:27:22+02:00</updated><id>https://galaxyproject.eu/</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">New article “Datenanalyse mit dem Galaxy Server”</title><link href="https://galaxyproject.eu/posts/2018/10/10/Laborjournal/" rel="alternate" type="text/html" title="New article &quot;Datenanalyse mit dem Galaxy Server&quot;" /><published>2018-10-10T00:00:00+02:00</published><updated>2018-10-10T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2018/10/10/Laborjournal</id><content type="html" xml:base="https://galaxyproject.eu/posts/2018/10/10/Laborjournal/">&lt;p&gt;&lt;a href=&quot;https://www.laborjournal.de/rubric/tricks/tricks/trick213.lasso&quot;&gt;“Datenanalyse mit dem Galaxy Server”&lt;/a&gt;, a German article written by The Freiburg Galaxy Team about our service and our work was published in the Laborjournal.&lt;/p&gt;</content><author><name></name></author><category term="paper" /><summary type="html">“Datenanalyse mit dem Galaxy Server”, a German article written by The Freiburg Galaxy Team about our service and our work was published in the Laborjournal.</summary></entry><entry><title type="html">Initial release of `gxadmin` tool</title><link href="https://galaxyproject.eu/posts/2018/10/08/gxadmin/" rel="alternate" type="text/html" title="Initial release of `gxadmin` tool" /><published>2018-10-08T00:00:00+02:00</published><updated>2018-10-08T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2018/10/08/gxadmin</id><content type="html" xml:base="https://galaxyproject.eu/posts/2018/10/08/gxadmin/">&lt;p&gt;We have recently released a small utility we use for helping manage our Galaxy
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.1">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2018-10-12T00:29:21+02:00</updated><id>https://galaxyproject.eu/</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">New article “Datenanalyse mit dem Galaxy Server”</title><link href="https://galaxyproject.eu/posts/2018/10/10/Laborjournal/" rel="alternate" type="text/html" title="New article &quot;Datenanalyse mit dem Galaxy Server&quot;" /><published>2018-10-10T00:00:00+02:00</published><updated>2018-10-10T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2018/10/10/Laborjournal</id><content type="html" xml:base="https://galaxyproject.eu/posts/2018/10/10/Laborjournal/">&lt;p&gt;&lt;a href=&quot;https://www.laborjournal.de/rubric/tricks/tricks/trick213.lasso&quot;&gt;“Datenanalyse mit dem Galaxy Server”&lt;/a&gt;, a German article written by The Freiburg Galaxy Team about our service and our work was published in the Laborjournal.&lt;/p&gt;</content><author><name></name></author><category term="paper" /><summary type="html">“Datenanalyse mit dem Galaxy Server”, a German article written by The Freiburg Galaxy Team about our service and our work was published in the Laborjournal.</summary></entry><entry><title type="html">New Paper on “Endothelial cell mineralocorticoid receptors oppose VEGF-induced gene expression and angiogenesis”</title><link href="https://galaxyproject.eu/posts/2018/10/10/AchimLother/" rel="alternate" type="text/html" title="New Paper on &quot;Endothelial cell mineralocorticoid receptors oppose VEGF-induced gene expression and angiogenesis&quot;" /><published>2018-10-10T00:00:00+02:00</published><updated>2018-10-10T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2018/10/10/AchimLother</id><content type="html" xml:base="https://galaxyproject.eu/posts/2018/10/10/AchimLother/">&lt;p&gt;&lt;a href=&quot;https://doi.org/10.1530/JOE-18-0494&quot;&gt;“Endothelial cell mineralocorticoid receptors oppose VEGF-induced gene expression and angiogenesis”&lt;/a&gt; by Achim Lother et al. was published in Journal of Endocrinology.&lt;/p&gt;
+
+&lt;p&gt;Congratulation to Achim and his team!&lt;/p&gt;</content><author><name></name></author><category term="paper" /><summary type="html">“Endothelial cell mineralocorticoid receptors oppose VEGF-induced gene expression and angiogenesis” by Achim Lother et al. was published in Journal of Endocrinology.</summary></entry><entry><title type="html">Initial release of `gxadmin` tool</title><link href="https://galaxyproject.eu/posts/2018/10/08/gxadmin/" rel="alternate" type="text/html" title="Initial release of `gxadmin` tool" /><published>2018-10-08T00:00:00+02:00</published><updated>2018-10-08T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2018/10/08/gxadmin</id><content type="html" xml:base="https://galaxyproject.eu/posts/2018/10/08/gxadmin/">&lt;p&gt;We have recently released a small utility we use for helping manage our Galaxy
 server. It is available on &lt;a href=&quot;https://github.com/usegalaxy-eu/gxadmin&quot;&gt;GitHub&lt;/a&gt;
 and includes many small SQL queries that administrators run every day.&lt;/p&gt;
 
@@ -274,57 +276,4 @@ A/B compartments. Users can create publication ready plots of the contact matrix
 and TADs on a selected genomic locus, along with additional information like gene tracks or ChIP-seq signals.
 Galaxy HiCExplorer is freely usable at: &lt;a href=&quot;https://hicexplorer.usegalaxy.eu&quot;&gt;https://hicexplorer.usegalaxy.eu&lt;/a&gt;
 and is available as a Docker container:
-&lt;a href=&quot;https://github.com/deeptools/docker-galaxy-hicexplorer&quot;&gt;https://github.com/deeptools/docker-galaxy-hicexplorer&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="paper" /><summary type="html">HiCExplorer - a tool suite for reproducible Hi-C data analysis, quality control and visualization was published a few days ago.</summary></entry><entry><title type="html">Bioconda: sustainable and comprehensive software distribution for the life sciences</title><link href="https://galaxyproject.eu/posts/2018/07/04/Bioconda/" rel="alternate" type="text/html" title="Bioconda: sustainable and comprehensive software distribution for the life sciences" /><published>2018-07-04T00:00:00+02:00</published><updated>2018-07-04T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2018/07/04/Bioconda</id><content type="html" xml:base="https://galaxyproject.eu/posts/2018/07/04/Bioconda/">&lt;p&gt;3 years ago the Galaxy community evaluated mechanism to make software installation more robust and we joined
-the Bioconda community, to fix the software deployment problem once and for all.
-Today, we are happy to annouce that the Bioconda manuscript is now published in the latest
-&lt;a href=&quot;https://doi.org/10.1038/s41592-018-0046-7&quot;&gt;Nature Methods issue&lt;/a&gt; (public &lt;a href=&quot;https://rdcu.be/2kbI&quot;&gt;view&lt;/a&gt;).
-usegalaxy.eu and many other Galaxy instance are already powered by Bioconda and you might use it daily
-without knowing :)&lt;/p&gt;
-
-&lt;div class=&quot;multiple-img&quot;&gt;
-    &lt;img src=&quot;/assets/media/bioconda_nmeth.jpg&quot; height=&quot;400px&quot; alt=&quot;Stats from Bioconda&quot; /&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;/h2&gt;
-
-&lt;p&gt;Bioinformatics software comes in a variety of programming languages and requires diverse installation methods.
-This heterogeneity makes management of a software stack complicated, error-prone, and inordinately time-consuming.
-Whereas software deployment has traditionally been handled by administrators, ensuring the reproducibility of
-data analyses1,2,3 requires that the researcher be able to maintain full control of the software environment,
-rapidly modify it without administrative privileges, and reproduce the same software stack on different machines.&lt;/p&gt;
-
-&lt;p&gt;The Conda package manager (https://conda.io) has become an increasingly popular means to overcome these challenges
-for all major operating systems. Conda normalizes software installations across language ecosystems
-by describing each software with a human readable ‘recipe’ that defines meta-information and dependencies,
-as well as a simple ‘build script’ that performs the steps necessary to build and install the software.
-Conda builds software packages in an isolated environment, transforming them into relocatable binaries.
-Importantly, it obviates reliance on system-wide administration privileges by allowing users to generate
-isolated software environments in which they can manage software versions by project, without generating
-incompatibilities and side-effects (Supplementary Results). These environments support reproducibility,
-as they can be rapidly exchanged via files that describe their installation state.
-Conda is tightly integrated into popular solutions for reproducible data analysis such as Galaxy,
-bcbio-nextgen (https://github.com/chapmanb/bcbio-nextgen), and Snakemake.
-To further enhance reproducibility guarantees, Conda can be combined with container or virtual
-machine-based approaches and archive facilities such as Zenodo (Supplementary Results).
-Finally, although Conda provides many commonly used packages by default, it also allows users to
-optionally include additional, community-managed repositories of packages (termed channels).&lt;/p&gt;
-
-&lt;p&gt;To unlock the benefits of Conda for the life sciences, we present the Bioconda project
-(https://bioconda.github.io). The Bioconda project provides over 3,000 &lt;strong&gt;(Updated: 4000!!!)&lt;/strong&gt; Conda
-software packages for Linux and macOS. Rapid turnaround times (Supplementary Results)
-and extensive documentation (https://bioconda.github.io/contributing.html) have led to a growing community
-of over 200 international scientists working in the project (Supplementary Results).
-The project is led by a core team, which is complemented by interest groups for
-particular language ecosystems. Unlimited (in time and space) storage for generated packages
-is donated by Anaconda Inc. All other used infrastructure is free of charge. Bioconda provides
-packages from various language ecosystems such as Python, R (CRAN and Bioconductor), Perl,
-Haskell, Java, and C/C++ (Fig. 1a). Many of the packages have complex dependency structures
-that require various manual steps for installation when not relying on a package manager like
-Conda (Supplementary Results). With over 6.3 million downloads,
-Bioconda has become a backbone of bioinformatics infrastructure that is used heavily
-across all language ecosystems (Fig. 1b). It is complemented by the conda-forge
-project (https://conda-forge.github.io), which hosts software not specifically related to the
-biological sciences. This separation has proven beneficial, because the focused nature
-of the Bioconda community allows for fast turnaround times and support when a user needs
-to contribute packages or fix problems. Nevertheless, the two projects collaborate
-closely, and the Bioconda team maintains over 500 packages hosted by conda-forge.&lt;/p&gt;</content><author><name></name></author><category term="paper" /><summary type="html">3 years ago the Galaxy community evaluated mechanism to make software installation more robust and we joined the Bioconda community, to fix the software deployment problem once and for all. Today, we are happy to annouce that the Bioconda manuscript is now published in the latest Nature Methods issue (public view). usegalaxy.eu and many other Galaxy instance are already powered by Bioconda and you might use it daily without knowing :)</summary></entry></feed>
+&lt;a href=&quot;https://github.com/deeptools/docker-galaxy-hicexplorer&quot;&gt;https://github.com/deeptools/docker-galaxy-hicexplorer&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="paper" /><summary type="html">HiCExplorer - a tool suite for reproducible Hi-C data analysis, quality control and visualization was published a few days ago.</summary></entry></feed>
