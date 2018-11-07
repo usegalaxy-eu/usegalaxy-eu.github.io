@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  <title>Galaxy Europe | New Paper on "Uncontrolled Diabetes Mellitus Has No Major Influence on the Platelet Transcriptome"</title>
-  <meta property="og:title" content="New Paper on "Uncontrolled Diabetes Mellitus Has No Major..." />
-  <meta property="og:description" content="In a new manuscript Thomas Nührenberg et al. found that
-“..." />
+  <title>Galaxy Europe | Upcoming Server Migration</title>
+  <meta property="og:title" content="Upcoming Server Migration" />
+  <meta property="og:description" content="We will be migrating Galaxy to new hardware. The hardware..." />
   <meta property="og:image" content="/assets/media/galaxy-eu-logo.512.png" />
   <meta name="description" content="The European Galaxy Instance">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,7 +16,7 @@
 
 
 
-  <link rel="canonical" href="https://galaxyproject.eu/posts/2018/11/05/ThomasNuehrenberg/plain.html">
+  <link rel="canonical" href="https://galaxyproject.eu/posts/2018/11/07/migration/plain.html">
   <link rel="shortcut icon" href="/assets/media/galaxy-eu-logo.64.png" type="image/x-icon" />
   <link rel="alternate" type="application/rss+xml" title="Galaxy Europe" href="/feed.xml">
 
@@ -38,20 +37,16 @@
 <section id="news-page">
   <div class="row news-header-row">
     
-    <a class="col-xs-1 text-center" href="/posts/2018/11/02/CarolinRommel/plain.html">
+    <a class="col-xs-1 text-center" href="/posts/2018/11/05/ThomasNuehrenberg/plain.html">
       «
     </a>
     
     <div class="col-xs-10 ">
       <div class="text-center">
-        <h2 class="title">New Paper on &quot;Uncontrolled Diabetes Mellitus Has No Major Influence on the Platelet Transcriptome&quot;</h2>
+        <h2 class="title">Upcoming Server Migration</h2>
       </div>
       <hr />
     </div>
-    
-    <a class="col-xs-1 text-center" href="/posts/2018/11/07/migration/plain.html">
-      »
-    </a>
     
   </div>
   <div class="row post-metadata">
@@ -59,16 +54,21 @@
       <div class="text-right">
         <div>
           <span class="post-date">
-            Nov 5, 2018
+            Nov 7, 2018
           </span>
 
+          
+          <br />
+          <span class="post-location">
+              Freiburg, Germany
+          </span>
           
 
           <br />
           <span class="post-tags">
               <span class="label label-success">Freiburg</span>
             
-              <span class="label label-info">paper</span>
+              <span class="label label-info">devops</span>
             
           </span>
 
@@ -81,36 +81,52 @@
   <div class="row">
     <div class="col-md-8 col-md-offset-2">
       <div class="news-content">
-        <p>In a new manuscript Thomas Nührenberg et al. found that
-<a href="https://doi.org/10.1155/2018/8989252">“Uncontrolled Diabetes Mellitus Has No Major Influence on the Platelet Transcriptome”</a>.</p>
+        <p>We will be migrating Galaxy to new hardware. The hardware acting as the ‘head
+node’ is reaching End-of-Life and needs to be decomissioned.</p>
 
-<p>Thanks for using Galaxy and congratulation to Thomas and his team!</p>
+<p>We plan to execute this migration on <a href="http://arewemeetingyet.com/Berlin/2018-11-12/13:00/UseGalaxy.eu%20Server%20Migration">Monday, 2018-11-12 at around 13 CET</a>.
+This migration <em>should</em> be completely transparent to all end users.</p>
 
-<h2 id="abstract">Abstract</h2>
+<h2 id="migration-plan">Migration Plan</h2>
 
-<p><strong>Background:</strong> Diabetes mellitus (DM) has been associated with increased platelet reactivity as well
-as increased levels of platelet RNAs in plasma. Here, we sought to evaluate whether the platelet
-transcriptome is altered in the presence of uncontrolled DM. Methods. Next-generation sequencing
-(NGS) was performed on platelet RNA for 5 patients with uncontrolled DM (HbA1c 9.0%) and 5 control
-patients (HbA1c 5.5%) with otherwise similar clinical characteristics. RNA was isolated from
-leucocyte-depleted platelet-rich plasma. Libraries of platelet RNAs were created separately
-for long RNAs after ribosomal depletion and for small RNAs from total RNA, followed by
-next-generation sequencing.</p>
+<p>We have deployed the new head node and have been testing it over the past
+months, correcting issues as we have come across them. We had an internal hack
+day where team members tested the new server heavily and identified issues.</p>
 
-<p><strong>Results:</strong> Platelets in both groups demonstrated RNA expression
-profiles characterized by absence of leukocyte-specific transcripts, high expression of
-well-known platelet transcripts, and in total 6,343 consistently detectable transcripts.
-Extensive statistical bioinformatic analysis yielded 12 genes with consistently differential
-expression at a lenient FDR &lt; 0.1, thereof 8 protein-coding genes and 2 genes with known
-expression in platelets (MACF1 and ITGB3BP). Three of the four differentially expressed
-noncoding genes were YRNAs (RNY1, RNY3, and RNY4) which were all downregulated in DM.
-23 miRNAs were differentially expressed between the two groups.
-Of the 13 miRNAs with decreased expression in the diabetic group,
-8 belonged to the DLK1–DIO3 gene region on chromosome 14q32.2.</p>
+<p><strong>Timeline</strong></p>
 
-<p><strong>Conclusions:</strong> In this study, uncontrolled DM had a remote impact on different components of the platelet transcriptome.
-Increased expression of MACF1, together with supporting predicted mRNA-miRNA interactions as well as
-reduced expression of RNYs in platelets, may reflect subclinical platelet activation in uncontrolled DM.</p>
+<table>
+  <thead>
+    <tr>
+      <th>Date</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>November 7</td>
+      <td>We freeze configuration changes and any tool installation in both Galaxies. <a href="https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/">Automated tool installation</a> has been disabled.</td>
+    </tr>
+    <tr>
+      <td>November 8</td>
+      <td>We swap the beta backend server from our testing database to our production database, and run some testing against it.</td>
+    </tr>
+    <tr>
+      <td>November 12</td>
+      <td>We update our proxy to direct traffic to <code class="highlighter-rouge">usegalaxy.eu</code> to the new backend server</td>
+    </tr>
+    <tr>
+      <td>November 19</td>
+      <td>We stop the Galaxy processes on the old head node, retaining it for another few weeks to ensure we have not missed anything</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="backout-plan">Backout Plan</h2>
+
+<p>An extremely important part of any big migration with far reaching impacts is the backout plan. What will we do if something goes wrong? For this migration, the backout plan is extremely simple: we reconfigure the proxy to use the old server as the backend for usegalaxy.eu</p>
+
+<p>This gives us a safe fallback position in the face of any complications. Traffic will temporarily be split between the instances, but since Galaxy maintains session state in the database, this should not present any issues.</p>
 
       </div>
     </div>

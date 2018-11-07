@@ -1,4 +1,49 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.1">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2018-11-07T11:19:31+01:00</updated><id>https://galaxyproject.eu/</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">New Paper on “Uncontrolled Diabetes Mellitus Has No Major Influence on the Platelet Transcriptome”</title><link href="https://galaxyproject.eu/posts/2018/11/05/ThomasNuehrenberg/" rel="alternate" type="text/html" title="New Paper on &quot;Uncontrolled Diabetes Mellitus Has No Major Influence on the Platelet Transcriptome&quot;" /><published>2018-11-05T00:00:00+01:00</published><updated>2018-11-05T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2018/11/05/ThomasNuehrenberg</id><content type="html" xml:base="https://galaxyproject.eu/posts/2018/11/05/ThomasNuehrenberg/">&lt;p&gt;In a new manuscript Thomas Nührenberg et al. found that
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.1">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2018-11-07T11:43:07+01:00</updated><id>https://galaxyproject.eu/</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">Upcoming Server Migration</title><link href="https://galaxyproject.eu/posts/2018/11/07/migration/" rel="alternate" type="text/html" title="Upcoming Server Migration" /><published>2018-11-07T00:00:00+01:00</published><updated>2018-11-07T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2018/11/07/migration</id><content type="html" xml:base="https://galaxyproject.eu/posts/2018/11/07/migration/">&lt;p&gt;We will be migrating Galaxy to new hardware. The hardware acting as the ‘head
+node’ is reaching End-of-Life and needs to be decomissioned.&lt;/p&gt;
+
+&lt;p&gt;We plan to execute this migration on &lt;a href=&quot;http://arewemeetingyet.com/Berlin/2018-11-12/13:00/UseGalaxy.eu%20Server%20Migration&quot;&gt;Monday, 2018-11-12 at around 13 CET&lt;/a&gt;.
+This migration &lt;em&gt;should&lt;/em&gt; be completely transparent to all end users.&lt;/p&gt;
+
+&lt;h2 id=&quot;migration-plan&quot;&gt;Migration Plan&lt;/h2&gt;
+
+&lt;p&gt;We have deployed the new head node and have been testing it over the past
+months, correcting issues as we have come across them. We had an internal hack
+day where team members tested the new server heavily and identified issues.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Timeline&lt;/strong&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Date&lt;/th&gt;
+      &lt;th&gt;Notes&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;November 7&lt;/td&gt;
+      &lt;td&gt;We freeze configuration changes and any tool installation in both Galaxies. &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/&quot;&gt;Automated tool installation&lt;/a&gt; has been disabled.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;November 8&lt;/td&gt;
+      &lt;td&gt;We swap the beta backend server from our testing database to our production database, and run some testing against it.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;November 12&lt;/td&gt;
+      &lt;td&gt;We update our proxy to direct traffic to &lt;code class=&quot;highlighter-rouge&quot;&gt;usegalaxy.eu&lt;/code&gt; to the new backend server&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;November 19&lt;/td&gt;
+      &lt;td&gt;We stop the Galaxy processes on the old head node, retaining it for another few weeks to ensure we have not missed anything&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;backout-plan&quot;&gt;Backout Plan&lt;/h2&gt;
+
+&lt;p&gt;An extremely important part of any big migration with far reaching impacts is the backout plan. What will we do if something goes wrong? For this migration, the backout plan is extremely simple: we reconfigure the proxy to use the old server as the backend for usegalaxy.eu&lt;/p&gt;
+
+&lt;p&gt;This gives us a safe fallback position in the face of any complications. Traffic will temporarily be split between the instances, but since Galaxy maintains session state in the database, this should not present any issues.&lt;/p&gt;</content><author><name></name></author><category term="devops" /><summary type="html">We will be migrating Galaxy to new hardware. The hardware acting as the ‘head node’ is reaching End-of-Life and needs to be decomissioned.</summary></entry><entry><title type="html">New Paper on “Uncontrolled Diabetes Mellitus Has No Major Influence on the Platelet Transcriptome”</title><link href="https://galaxyproject.eu/posts/2018/11/05/ThomasNuehrenberg/" rel="alternate" type="text/html" title="New Paper on &quot;Uncontrolled Diabetes Mellitus Has No Major Influence on the Platelet Transcriptome&quot;" /><published>2018-11-05T00:00:00+01:00</published><updated>2018-11-05T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2018/11/05/ThomasNuehrenberg</id><content type="html" xml:base="https://galaxyproject.eu/posts/2018/11/05/ThomasNuehrenberg/">&lt;p&gt;In a new manuscript Thomas Nührenberg et al. found that
 &lt;a href=&quot;https://doi.org/10.1155/2018/8989252&quot;&gt;“Uncontrolled Diabetes Mellitus Has No Major Influence on the Platelet Transcriptome”&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Thanks for using Galaxy and congratulation to Thomas and his team!&lt;/p&gt;
@@ -95,22 +140,4 @@ a new German article written by The Freiburg Galaxy Team about our service and o
 
 &lt;p&gt;At the same time, the training material for Heinz is also ready in Galaxy training network: &lt;a href=&quot;https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/network-analysis-with-heinz/slides.html&quot;&gt;Slides&lt;/a&gt; and &lt;a href=&quot;https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/network-analysis-with-heinz/tutorial.html&quot;&gt;Tutorial&lt;/a&gt;, which can be used for self-learning or teaching purposes.&lt;/p&gt;</content><author><name></name></author><category term="tools" /><category term="training" /><summary type="html">Heinz is an algorithm for searching an optimal subnetwork from a bigger network. It can be applied to biological networks like gene regulation and protein-protein network to pinpoint the subnetwork of interest. We are pleased to announce that Heinz tools have been integrated into the Galaxy platform and are available on our server.</summary></entry><entry><title type="html">Tutorial of the Month: “Galaxy 101”, selected by Yvan Le Bras</title><link href="https://galaxyproject.eu/posts/2018/10/15/totm/" rel="alternate" type="text/html" title="Tutorial of the Month: &quot;Galaxy 101&quot;, selected by Yvan Le Bras" /><published>2018-10-15T00:00:00+02:00</published><updated>2018-10-15T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2018/10/15/totm</id><content type="html" xml:base="https://galaxyproject.eu/posts/2018/10/15/totm/">&lt;p&gt;The Galaxy community is developing and maintaining a collection of tutorials that are designed to be interactive and are built around Galaxy: &lt;a href=&quot;https://training.galaxyproject.org&quot;&gt;https://training.galaxyproject.org&lt;/a&gt;. To help highlight our tutorials and the training effort of the community, a member of the community will select every month one tutorial and explains in the &lt;em&gt;Galactic Blog&lt;/em&gt; why they select this tutorial. This month, the &lt;a href=&quot;https://galaxyproject.org/blog/2018-10-totm/2018-10-cotm-yvan-le-bras&quot;&gt;Galaxy contributor of the Month!&lt;/a&gt;, Yvan Le Bras, selects and presents a tutorial: &lt;a href=&quot;http://galaxyproject.github.io/training-material/topics/introduction/tutorials/galaxy-intro-101/tutorial.html&quot;&gt;“Galaxy 101”&lt;/a&gt;, from the topic &lt;a href=&quot;http://galaxyproject.github.io/training-material/topics/introduction/&quot;&gt;“Introduction to Galaxy Analyses”&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="training" /><summary type="html">The Galaxy community is developing and maintaining a collection of tutorials that are designed to be interactive and are built around Galaxy: https://training.galaxyproject.org. To help highlight our tutorials and the training effort of the community, a member of the community will select every month one tutorial and explains in the Galactic Blog why they select this tutorial. This month, the Galaxy contributor of the Month!, Yvan Le Bras, selects and presents a tutorial: “Galaxy 101”, from the topic “Introduction to Galaxy Analyses”</summary></entry><entry><title type="html">New article ‘Datenanalyse mit dem Galaxy Server’</title><link href="https://galaxyproject.eu/posts/2018/10/10/Laborjournal/" rel="alternate" type="text/html" title="New article 'Datenanalyse mit dem Galaxy Server'" /><published>2018-10-10T00:00:00+02:00</published><updated>2018-10-10T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2018/10/10/Laborjournal</id><content type="html" xml:base="https://galaxyproject.eu/posts/2018/10/10/Laborjournal/">&lt;p&gt;&lt;a href=&quot;https://www.laborjournal.de/rubric/tricks/tricks/trick213.lasso&quot;&gt;“Datenanalyse mit dem Galaxy Server”&lt;/a&gt;, a German article written by The Freiburg Galaxy Team about our service and our work was published in the Laborjournal.&lt;/p&gt;</content><author><name></name></author><category term="paper" /><summary type="html">“Datenanalyse mit dem Galaxy Server”, a German article written by The Freiburg Galaxy Team about our service and our work was published in the Laborjournal.</summary></entry><entry><title type="html">New Paper on “Endothelial cell mineralocorticoid receptors oppose VEGF-induced gene expression and angiogenesis”</title><link href="https://galaxyproject.eu/posts/2018/10/10/AchimLother/" rel="alternate" type="text/html" title="New Paper on &quot;Endothelial cell mineralocorticoid receptors oppose VEGF-induced gene expression and angiogenesis&quot;" /><published>2018-10-10T00:00:00+02:00</published><updated>2018-10-10T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2018/10/10/AchimLother</id><content type="html" xml:base="https://galaxyproject.eu/posts/2018/10/10/AchimLother/">&lt;p&gt;&lt;a href=&quot;https://doi.org/10.1530/JOE-18-0494&quot;&gt;“Endothelial cell mineralocorticoid receptors oppose VEGF-induced gene expression and angiogenesis”&lt;/a&gt; by Achim Lother et al. was published in Journal of Endocrinology.&lt;/p&gt;
 
-&lt;p&gt;Congratulation to Achim and his team!&lt;/p&gt;</content><author><name></name></author><category term="paper" /><summary type="html">“Endothelial cell mineralocorticoid receptors oppose VEGF-induced gene expression and angiogenesis” by Achim Lother et al. was published in Journal of Endocrinology.</summary></entry><entry><title type="html">Initial release of `gxadmin` tool</title><link href="https://galaxyproject.eu/posts/2018/10/08/gxadmin/" rel="alternate" type="text/html" title="Initial release of `gxadmin` tool" /><published>2018-10-08T00:00:00+02:00</published><updated>2018-10-08T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2018/10/08/gxadmin</id><content type="html" xml:base="https://galaxyproject.eu/posts/2018/10/08/gxadmin/">&lt;p&gt;We have recently released a small utility we use for helping manage our Galaxy
-server. It is available on &lt;a href=&quot;https://github.com/usegalaxy-eu/gxadmin&quot;&gt;GitHub&lt;/a&gt;
-and includes many small SQL queries that administrators run every day.&lt;/p&gt;
-
-&lt;p&gt;As a Galaxy administrator, you can use it to do things like viewing the queue:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ gxadmin query queue
-                            tool_id                                |  state  | count
--------------------------------------------------------------------+---------+-------
- toolshed.g2.bx.psu.edu/repos/iuc/unicycler/unicycler/0.4.6.0      | queued  |     9
- toolshed.g2.bx.psu.edu/repos/iuc/dexseq/dexseq_count/1.24.0.0     | running |     7
- toolshed.g2.bx.psu.edu/repos/nml/spades/spades/1.2                | queued  |     6
- ebi_sra_main                                                      | running |     6
- toolshed.g2.bx.psu.edu/repos/iuc/trinity/trinity/2.8.3            | queued  |     5
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;amongst many more queries. We hope that other administrators will find this
-utility useful and can contribute queries that they run often.&lt;/p&gt;</content><author><name></name></author><category term="devops" /><summary type="html">We have recently released a small utility we use for helping manage our Galaxy server. It is available on GitHub and includes many small SQL queries that administrators run every day.</summary></entry></feed>
+&lt;p&gt;Congratulation to Achim and his team!&lt;/p&gt;</content><author><name></name></author><category term="paper" /><summary type="html">“Endothelial cell mineralocorticoid receptors oppose VEGF-induced gene expression and angiogenesis” by Achim Lother et al. was published in Journal of Endocrinology.</summary></entry></feed>
