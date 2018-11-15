@@ -661,3 +661,17 @@ body.location-erasmusmc .nav > li > a:hover, body.location-erasmusmc .nav > li >
 body.location-erasmusmc .nav .open > a, body.location-erasmusmc .nav .open > a:hover, body.location-erasmusmc .nav .open > a:focus {
   background-color: transparent !important;
   color: black; }
+
+body.location-belgium .navbar {
+  background-color: #1b2944 !important;
+  border: 0px !important; }
+body.location-belgium .navbar .navbar-brand, body.location-belgium .navbar .navbar-nav > li > a {
+  color: white !important; }
+body.location-belgium .navbar .navbar-brand:hover, body.location-belgium .navbar .navbar-brand:focus,
+body.location-belgium .navbar .navbar-nav > li > a:hover, body.location-belgium .navbar .navbar-nav > li > a:focus {
+  color: #aaa !important; }
+body.location-belgium .nav > li > a:hover, body.location-belgium .nav > li > a:focus {
+  background-color: transparent !important; }
+body.location-belgium .nav .open > a, body.location-belgium .nav .open > a:hover, body.location-belgium .nav .open > a:focus {
+  background-color: transparent !important;
+  color: white; }
