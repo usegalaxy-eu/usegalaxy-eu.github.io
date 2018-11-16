@@ -675,3 +675,17 @@ body.location-belgium .nav > li > a:hover, body.location-belgium .nav > li > a:f
 body.location-belgium .nav .open > a, body.location-belgium .nav .open > a:hover, body.location-belgium .nav .open > a:focus {
   background-color: transparent !important;
   color: white; }
+
+body.location-pasteur .navbar {
+  background-color: #7591BE !important;
+  border: 0px !important; }
+body.location-pasteur .navbar .navbar-brand, body.location-pasteur .navbar .navbar-nav > li > a {
+  color: white !important; }
+body.location-pasteur .navbar .navbar-brand:hover, body.location-pasteur .navbar .navbar-brand:focus,
+body.location-pasteur .navbar .navbar-nav > li > a:hover, body.location-pasteur .navbar .navbar-nav > li > a:focus {
+  color: #aaa !important; }
+body.location-pasteur .nav > li > a:hover, body.location-pasteur .nav > li > a:focus {
+  background-color: transparent !important; }
+body.location-pasteur .nav .open > a, body.location-pasteur .nav .open > a:hover, body.location-pasteur .nav .open > a:focus {
+  background-color: transparent !important;
+  color: white; }
