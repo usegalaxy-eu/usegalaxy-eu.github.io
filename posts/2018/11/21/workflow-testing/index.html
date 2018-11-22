@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  <title>Galaxy Europe | Upcoming Server Migration</title>
-  <meta property="og:title" content="Upcoming Server Migration" />
-  <meta property="og:description" content="We will be migrating Galaxy to new hardware. The hardware..." />
+  <title>Galaxy Europe | Automatic workflow testing</title>
+  <meta property="og:title" content="Automatic workflow testing" />
+  <meta property="og:description" content="We have started to test a few of our workflows automatica..." />
   <meta property="og:image" content="/assets/media/galaxy-eu-logo.512.png" />
   <meta name="description" content="The European Galaxy Instance">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,7 +16,7 @@
 
 
 
-  <link rel="canonical" href="https://galaxyproject.eu/posts/2018/11/07/migration/">
+  <link rel="canonical" href="https://galaxyproject.eu/posts/2018/11/21/workflow-testing/">
   <link rel="shortcut icon" href="/assets/media/galaxy-eu-logo.64.png" type="image/x-icon" />
   <link rel="alternate" type="application/rss+xml" title="Galaxy Europe" href="/feed.xml">
 
@@ -131,20 +131,16 @@
 <section id="news-page">
   <div class="row news-header-row">
     
-    <a class="col-xs-1 text-center" href="/posts/2018/11/05/ThomasNuehrenberg/">
+    <a class="col-xs-1 text-center" href="/posts/2018/11/07/migration/">
       «
     </a>
     
     <div class="col-xs-10 ">
       <div class="text-center">
-        <h2 class="title">Upcoming Server Migration</h2>
+        <h2 class="title">Automatic workflow testing</h2>
       </div>
       <hr />
     </div>
-    
-    <a class="col-xs-1 text-center" href="/posts/2018/11/21/workflow-testing/">
-      »
-    </a>
     
   </div>
   <div class="row post-metadata">
@@ -152,7 +148,7 @@
       <div class="text-right">
         <div>
           <span class="post-date">
-            Nov 7, 2018
+            Nov 21, 2018
           </span>
 
           
@@ -179,52 +175,14 @@
   <div class="row">
     <div class="col-md-8 col-md-offset-2">
       <div class="news-content">
-        <p>We will be migrating Galaxy to new hardware. The hardware acting as the ‘head
-node’ is reaching End-of-Life and needs to be decomissioned.</p>
+        <p>We have started to test a few of our workflows automatically against <a href="https://usegalaxy.eu">UseGalaxy.eu</a>.
+This will run all workflows monthly to ensure that the keep working and that our infrastructure works and scales well.</p>
 
-<p>We plan to execute this migration on <a href="http://arewemeetingyet.com/Berlin/2018-11-12/13:00/UseGalaxy.eu%20Server%20Migration">Monday, 2018-11-12 at around 13 CET</a>.
-This migration <em>should</em> be completely transparent to all end users.</p>
+<p>Feel free to contribute workflows to our <a href="https://github.com/usegalaxy-eu/workflow-testing">testing repository</a> or
+propose us workflows via <a href="https://github.com/usegalaxy-eu/workflow-testing/issues/new">opening an issue</a>. Alternatively you can write us at <a href="mailto:contact@usegalaxy.eu">contact@usegalaxy.eu</a>. If you would like us to test these workflows on your server, just get in contact with us and we can do that as well.</p>
 
-<h2 id="migration-plan">Migration Plan</h2>
+<p><img src="/assets/media/workflow_testing.png" height="400px" alt="List of workflows under testing" /></p>
 
-<p>We have deployed the new head node and have been testing it over the past
-months, correcting issues as we have come across them. We had an internal hack
-day where team members tested the new server heavily and identified issues.</p>
-
-<p><strong>Timeline</strong></p>
-
-<table class="table table-striped">
-  <thead>
-    <tr>
-      <th>Date</th>
-      <th>Notes</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>November 7</td>
-      <td>We freeze configuration changes and any tool installation in both Galaxies. <a href="https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/">Automated tool installation</a> has been disabled.</td>
-    </tr>
-    <tr>
-      <td>November 8</td>
-      <td>We swap the beta backend server from our testing database to our production database, and run some testing against it.</td>
-    </tr>
-    <tr>
-      <td>November 12</td>
-      <td>We update our proxy to direct traffic to <code class="highlighter-rouge">usegalaxy.eu</code> to the new backend server</td>
-    </tr>
-    <tr>
-      <td>November 19</td>
-      <td>We stop the Galaxy processes on the old head node, retaining it for another few weeks to ensure we have not missed anything</td>
-    </tr>
-  </tbody>
-</table>
-
-<h2 id="backout-plan">Backout Plan</h2>
-
-<p>An extremely important part of any big migration with far reaching impacts is the backout plan. What will we do if something goes wrong? For this migration, the backout plan is extremely simple: we reconfigure the proxy to use the old server as the backend for usegalaxy.eu</p>
-
-<p>This gives us a safe fallback position in the face of any complications. Traffic will temporarily be split between the instances, but since Galaxy maintains session state in the database, this should not present any issues.</p>
 
       </div>
     </div>
