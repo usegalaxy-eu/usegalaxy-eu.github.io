@@ -689,3 +689,19 @@ body.location-pasteur .nav > li > a:hover, body.location-pasteur .nav > li > a:f
 body.location-pasteur .nav .open > a, body.location-pasteur .nav .open > a:hover, body.location-pasteur .nav .open > a:focus {
   background-color: transparent !important;
   color: white; }
+
+.rna-intro-header {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #000000;
+  background: url(/assets/media/rna_workbench_logo_bg.png) no-repeat center center;
+  background-size: cover; }
+
+.rna-intro-message {
+  position: relative;
+  padding-top: 5%;
+  padding-bottom: 30%;
+  text-align: right; }
+  .rna-intro-message h1 {
+    margin: 0;
+    font-size: 5em; }
