@@ -1,4 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.1">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2018-12-19T11:08:48+01:00</updated><id>https://galaxyproject.eu/</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu update to 18.09</title><link href="https://galaxyproject.eu/posts/2018/12/11/galaxy-18-09/" rel="alternate" type="text/html" title="UseGalaxy.eu update to 18.09" /><published>2018-12-11T00:00:00+01:00</published><updated>2018-12-11T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2018/12/11/galaxy-18-09</id><content type="html" xml:base="https://galaxyproject.eu/posts/2018/12/11/galaxy-18-09/">&lt;p&gt;We’ve updated our Galaxy server to version 18.09. Everything went extremely smoothly.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.1">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2018-12-19T13:20:45+01:00</updated><id>https://galaxyproject.eu/</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">Automatic resubmission of failed Galaxy jobs</title><link href="https://galaxyproject.eu/posts/2018/12/19/autorerun/" rel="alternate" type="text/html" title="Automatic resubmission of failed Galaxy jobs" /><published>2018-12-19T00:00:00+01:00</published><updated>2018-12-19T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2018/12/19/autorerun</id><content type="html" xml:base="https://galaxyproject.eu/posts/2018/12/19/autorerun/">&lt;p&gt;UseGalaxy.eu has now started automatically resubmitting any jobs which fail.&lt;/p&gt;
+
+&lt;h2 id=&quot;automatic-job-resubmission&quot;&gt;Automatic Job Resubmission&lt;/h2&gt;
+
+&lt;p&gt;We noticed that a significant number of the bug reports we receive are for jobs
+which do not have enough memory allocated. We have been working to find a way
+to handle these edge cases. Galaxy has an initiative to allow annotating
+specific tools for error codes and messages which indicate memory issues, but
+we needed something more extensive which would work for all tools, even old
+ones.&lt;/p&gt;
+
+&lt;p&gt;We updated our &lt;a href=&quot;https://github.com/usegalaxy-eu/infrastructure-playbook/commit/6eade5b0c1c3133393df540ff7fff1ad0093a72a&quot;&gt;dynamic job destination&lt;/a&gt;
+to submit things by default to a “normal” destination, and upon failure for any
+reason, it will resubmit the job and request 1.5x the memory.&lt;/p&gt;
+
+&lt;p&gt;There is still an &lt;a href=&quot;https://github.com/galaxyproject/galaxy/issues/7118&quot;&gt;open issue&lt;/a&gt;
+with this system as we cannot automatically resubmit to another destination
+which will request 2x the memory of the original job.&lt;/p&gt;
+
+&lt;p&gt;In general however, this seems to be working well, we have noticed a decrease
+in failed jobs.&lt;/p&gt;</content><author><name></name></author><category term="devops" /><summary type="html">UseGalaxy.eu has now started automatically resubmitting any jobs which fail.</summary></entry><entry><title type="html">UseGalaxy.eu update to 18.09</title><link href="https://galaxyproject.eu/posts/2018/12/11/galaxy-18-09/" rel="alternate" type="text/html" title="UseGalaxy.eu update to 18.09" /><published>2018-12-11T00:00:00+01:00</published><updated>2018-12-11T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2018/12/11/galaxy-18-09</id><content type="html" xml:base="https://galaxyproject.eu/posts/2018/12/11/galaxy-18-09/">&lt;p&gt;We’ve updated our Galaxy server to version 18.09. Everything went extremely smoothly.&lt;/p&gt;
 
 &lt;h1 id=&quot;galaxy-upgrade&quot;&gt;Galaxy Upgrade&lt;/h1&gt;
 
@@ -189,43 +209,4 @@ Of the 13 miRNAs with decreased expression in the diabetic group,
 
 &lt;p&gt;&lt;strong&gt;Conclusions:&lt;/strong&gt; In this study, uncontrolled DM had a remote impact on different components of the platelet transcriptome.
 Increased expression of MACF1, together with supporting predicted mRNA-miRNA interactions as well as
-reduced expression of RNYs in platelets, may reflect subclinical platelet activation in uncontrolled DM.&lt;/p&gt;</content><author><name></name></author><category term="paper" /><summary type="html">In a new manuscript Thomas Nührenberg et al. found that “Uncontrolled Diabetes Mellitus Has No Major Influence on the Platelet Transcriptome”.</summary></entry><entry><title type="html">New Paper on “The Transcription Factor ETV1 Induces Atrial Remodeling and Arrhythmia.”</title><link href="https://galaxyproject.eu/posts/2018/11/02/CarolinRommel/" rel="alternate" type="text/html" title="New Paper on &quot;The Transcription Factor ETV1 Induces Atrial Remodeling and Arrhythmia.&quot;" /><published>2018-11-02T00:00:00+01:00</published><updated>2018-11-02T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2018/11/02/CarolinRommel</id><content type="html" xml:base="https://galaxyproject.eu/posts/2018/11/02/CarolinRommel/">&lt;p&gt;Carolin Rommel et al. found that
-&lt;a href=&quot;https://doi.org/10.1161/CIRCRESAHA.118.313036&quot;&gt;“The Transcription Factor ETV1 Induces Atrial Remodeling and Arrhythmia”&lt;/a&gt;.&lt;/p&gt;
-
-&lt;div class=&quot;multiple-img&quot;&gt;
-    &lt;img src=&quot;/assets/media/Hompage_ETV1-02.png&quot; height=&quot;400px&quot; alt=&quot;The Transcription Factor ETV1 Induces Atrial Remodeling and Arrhythmia&quot; /&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Thanks for using Galaxy and congratulation to Carolin and her team!&lt;/p&gt;
-
-&lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Rationale:&lt;/strong&gt; Structural and electrophysiological remodeling of the atria are recognized consequences of
-sustained atrial arrhythmias, such as atrial fibrillation. The identification of underlying key molecules
-and signaling pathways has been challenging because of the changing cell type composition during structural
-remodeling of the atria.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Objective:&lt;/strong&gt; Thus, the aims of our study were (1) to search for transcription factors and downstream
-target genes, which are involved in atrial structural remodeling, (2) to characterize the significance
-of the transcription factor ETV1 (E twenty-six variant 1) in atrial remodeling and arrhythmia, and (3)
-to identify ETV1-dependent gene regulatory networks in atrial cardiac myocytes.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Methods and results:&lt;/strong&gt; The transcription factor ETV1 was significantly upregulated in atrial tissue from patients with permanent
-atrial fibrillation. Mice with cardiac myocyte-specific overexpression of ETV1 under control of the myosin
-heavy chain promoter developed atrial dilatation, fibrosis, thrombosis, and arrhythmia. Cardiac myocyte-specific
-ablation of ETV1 in mice did not alter cardiac structure and function at baseline.
-Treatment with Ang II (angiotensin II) for 2 weeks elicited atrial remodeling
-and fibrosis in control, but not in ETV1-deficient mice. To identify ETV1-regulated genes,
-cardiac myocytes were isolated and purified from mouse atrial tissue. Active cis-regulatory
-elements in mouse atrial cardiac myocytes were identified by chromatin accessibility
-(assay for transposase-accessible chromatin sequencing) and the active chromatin modification
-H3K27ac (chromatin immunoprecipitation sequencing). One hundred seventy-eight genes
-regulated by Ang II in an ETV1-dependent manner were associated with active
-cis-regulatory elements containing ETV1-binding sites.
-Various genes involved in Ca2+ handling or gap junction formation
-( Ryr2, Jph2, Gja5), potassium channels ( Kcnh2, Kcnk3), and genes implicated in atrial fibrillation
-( Tbx5) were part of this ETV1-driven gene regulatory network. The atrial ETV1-dependent transcriptome
-in mice showed a significant overlap with the human atrial proteome of patients with permanent atrial fibrillation.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Conclusions:&lt;/strong&gt; This study identifies ETV1 as an important component in the pathophysiology
-of atrial remodeling associated with atrial arrhythmias.&lt;/p&gt;</content><author><name></name></author><category term="paper" /><summary type="html">Carolin Rommel et al. found that “The Transcription Factor ETV1 Induces Atrial Remodeling and Arrhythmia”.</summary></entry></feed>
+reduced expression of RNYs in platelets, may reflect subclinical platelet activation in uncontrolled DM.&lt;/p&gt;</content><author><name></name></author><category term="paper" /><summary type="html">In a new manuscript Thomas Nührenberg et al. found that “Uncontrolled Diabetes Mellitus Has No Major Influence on the Platelet Transcriptome”.</summary></entry></feed>

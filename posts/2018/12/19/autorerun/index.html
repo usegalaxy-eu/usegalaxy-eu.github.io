@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  <title>Galaxy Europe | UseGalaxy.eu update to 18.09</title>
-  <meta property="og:title" content="UseGalaxy.eu update to 18.09" />
-  <meta property="og:description" content="We’ve updated our Galaxy server to version 18.09. Everyth..." />
+  <title>Galaxy Europe | Automatic resubmission of failed Galaxy jobs</title>
+  <meta property="og:title" content="Automatic resubmission of failed Galaxy jobs" />
+  <meta property="og:description" content="UseGalaxy.eu has now started automatically resubmitting a..." />
   <meta property="og:image" content="/assets/media/galaxy-eu-logo.512.png" />
   <meta name="description" content="The European Galaxy Instance">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,7 +16,7 @@
 
 
 
-  <link rel="canonical" href="https://galaxyproject.eu/posts/2018/12/11/galaxy-18-09/">
+  <link rel="canonical" href="https://galaxyproject.eu/posts/2018/12/19/autorerun/">
   <link rel="shortcut icon" href="/assets/media/galaxy-eu-logo.64.png" type="image/x-icon" />
   <link rel="alternate" type="application/rss+xml" title="Galaxy Europe" href="/feed.xml">
 
@@ -131,20 +131,16 @@
 <section id="news-page">
   <div class="row news-header-row">
     
-    <a class="col-xs-1 text-center" href="/posts/2018/12/03/gcc-training-nomination/">
+    <a class="col-xs-1 text-center" href="/posts/2018/12/11/galaxy-18-09/">
       «
     </a>
     
     <div class="col-xs-10 ">
       <div class="text-center">
-        <h2 class="title">UseGalaxy.eu update to 18.09</h2>
+        <h2 class="title">Automatic resubmission of failed Galaxy jobs</h2>
       </div>
       <hr />
     </div>
-    
-    <a class="col-xs-1 text-center" href="/posts/2018/12/19/autorerun/">
-      »
-    </a>
     
   </div>
   <div class="row post-metadata">
@@ -152,16 +148,21 @@
       <div class="text-right">
         <div>
           <span class="post-date">
-            Dec 11, 2018
+            Dec 19, 2018
           </span>
 
+          
+          <br />
+          <span class="post-location">
+              Galaxy Europe
+          </span>
           
 
           <br />
           <span class="post-tags">
               <span class="label label-success">Freiburg</span>
             
-              <span class="label label-info">release</span>
+              <span class="label label-info">devops</span>
             
           </span>
 
@@ -174,36 +175,27 @@
   <div class="row">
     <div class="col-md-8 col-md-offset-2">
       <div class="news-content">
-        <p>We’ve updated our Galaxy server to version 18.09. Everything went extremely smoothly.</p>
+        <p>UseGalaxy.eu has now started automatically resubmitting any jobs which fail.</p>
 
-<h1 id="galaxy-upgrade">Galaxy Upgrade</h1>
+<h2 id="automatic-job-resubmission">Automatic Job Resubmission</h2>
 
-<p>Our <a href="../2018-05-25-galaxy-1805-and-gdpr/">previous Galaxy upgrade</a> we scheduled
-an entire day for potential downtime, and completed it with a 2 hour outage of
-Galaxy. For this downtime we scheduled 4 hours of downtime and completed it
-<strong>without</strong> a Galaxy outage.</p>
+<p>We noticed that a significant number of the bug reports we receive are for jobs
+which do not have enough memory allocated. We have been working to find a way
+to handle these edge cases. Galaxy has an initiative to allow annotating
+specific tools for error codes and messages which indicate memory issues, but
+we needed something more extensive which would work for all tools, even old
+ones.</p>
 
-<p>For a full list of the awesome new features
-please see the <a href="https://docs.galaxyproject.org/en/release_18.09/releases/18.09_announce.html">release notes</a></p>
+<p>We updated our <a href="https://github.com/usegalaxy-eu/infrastructure-playbook/commit/6eade5b0c1c3133393df540ff7fff1ad0093a72a">dynamic job destination</a>
+to submit things by default to a “normal” destination, and upon failure for any
+reason, it will resubmit the job and request 1.5x the memory.</p>
 
-<p>A few highlights (in no particual order)!</p>
+<p>There is still an <a href="https://github.com/galaxyproject/galaxy/issues/7118">open issue</a>
+with this system as we cannot automatically resubmit to another destination
+which will request 2x the memory of the original job.</p>
 
-<ul>
-  <li>Workflows saw many enhancements:
-    <ul>
-      <li>You can now run a workflow directly from the “Published Workflows” list</li>
-      <li>The workflow editor supports zooming</li>
-      <li>You can download a workflow directly from the editor (Thanks <a href="/freiburg/people">Anup!</a>)</li>
-    </ul>
-  </li>
-  <li>Subworkflows now allow for setting runtime parameters</li>
-  <li>When pasting data or URLs into the Galaxy upload screen, you can now supply a
-name for this dataset rather than always having to change it afterwards.</li>
-  <li>The rule-based data uploader now supports adding tags to your datasets and collections.</li>
-  <li>Tool search should be working better</li>
-</ul>
-
-<p>If you notice any issues, please do not hesitate to <a href="mailto:contact@usegalaxy.eu">let us know</a></p>
+<p>In general however, this seems to be working well, we have noticed a decrease
+in failed jobs.</p>
 
       </div>
     </div>
