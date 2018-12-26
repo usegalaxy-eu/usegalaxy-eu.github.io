@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  <title>Galaxy Europe | Automatic resubmission of failed Galaxy jobs</title>
-  <meta property="og:title" content="Automatic resubmission of failed Galaxy jobs" />
-  <meta property="og:description" content="UseGalaxy.eu has now started automatically resubmitting a..." />
+  <title>Galaxy Europe | Gajan Kristnaskon kaj bonan novjaron!</title>
+  <meta property="og:title" content="Gajan Kristnaskon kaj bonan novjaron!" />
+  <meta property="og:description" content="We all wish you a Merry Christmas and a Happy New Year.
+E..." />
   <meta property="og:image" content="/assets/media/galaxy-eu-logo.512.png" />
   <meta name="description" content="The European Galaxy Instance">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,7 +17,7 @@
 
 
 
-  <link rel="canonical" href="https://galaxyproject.eu/posts/2018/12/19/autorerun/">
+  <link rel="canonical" href="https://galaxyproject.eu/posts/2018/12/25/merry-christmas/">
   <link rel="shortcut icon" href="/assets/media/galaxy-eu-logo.64.png" type="image/x-icon" />
   <link rel="alternate" type="application/rss+xml" title="Galaxy Europe" href="/feed.xml">
 
@@ -131,20 +132,16 @@
 <section id="news-page">
   <div class="row news-header-row">
     
-    <a class="col-xs-1 text-center" href="/posts/2018/12/11/galaxy-18-09/">
+    <a class="col-xs-1 text-center" href="/posts/2018/12/19/autorerun/">
       «
     </a>
     
     <div class="col-xs-10 ">
       <div class="text-center">
-        <h2 class="title">Automatic resubmission of failed Galaxy jobs</h2>
+        <h2 class="title">Gajan Kristnaskon kaj bonan novjaron!</h2>
       </div>
       <hr />
     </div>
-    
-    <a class="col-xs-1 text-center" href="/posts/2018/12/25/merry-christmas/">
-      »
-    </a>
     
   </div>
   <div class="row post-metadata">
@@ -152,7 +149,7 @@
       <div class="text-right">
         <div>
           <span class="post-date">
-            Dec 19, 2018
+            Dec 25, 2018
           </span>
 
           
@@ -179,27 +176,14 @@
   <div class="row">
     <div class="col-md-8 col-md-offset-2">
       <div class="news-content">
-        <p>UseGalaxy.eu has now started automatically resubmitting any jobs which fail.</p>
+        <p>We all wish you a Merry Christmas and a Happy New Year.
+Enjoy the holiday season with your family and see you all next year. Our dear friend Martin Čech summed it up nicely :)</p>
 
-<h2 id="automatic-job-resubmission">Automatic Job Resubmission</h2>
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Wishing merry Christmas to the whole <a href="https://twitter.com/hashtag/usegalaxy?src=hash&amp;ref_src=twsrc%5Etfw">#usegalaxy</a> community and the next year at least as fruitful as this one. <a href="https://t.co/qfIhK5cyBn">pic.twitter.com/qfIhK5cyBn</a></p>&mdash; Martenson (@martenson) <a href="https://twitter.com/martenson/status/1077305473706217472?ref_src=twsrc%5Etfw">December 24, 2018</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<p>We noticed that a significant number of the bug reports we receive are for jobs
-which do not have enough memory allocated. We have been working to find a way
-to handle these edge cases. Galaxy has an initiative to allow annotating
-specific tools for error codes and messages which indicate memory issues, but
-we needed something more extensive which would work for all tools, even old
-ones.</p>
+<!--img src="/assets/media/for_santa.png" height="400px" alt="Image by Paula Grüning as a present for Santa." /-->
 
-<p>We updated our <a href="https://github.com/usegalaxy-eu/infrastructure-playbook/commit/6eade5b0c1c3133393df540ff7fff1ad0093a72a">dynamic job destination</a>
-to submit things by default to a “normal” destination, and upon failure for any
-reason, it will resubmit the job and request 1.5x the memory.</p>
-
-<p>There is still an <a href="https://github.com/galaxyproject/galaxy/issues/7118">open issue</a>
-with this system as we cannot automatically resubmit to another destination
-which will request 2x the memory of the original job.</p>
-
-<p>In general however, this seems to be working well, we have noticed a decrease
-in failed jobs.</p>
 
       </div>
     </div>

@@ -1,4 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.1">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2018-12-26T17:44:15+01:00</updated><id>https://galaxyproject.eu/</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">Automatic resubmission of failed Galaxy jobs</title><link href="https://galaxyproject.eu/posts/2018/12/19/autorerun/" rel="alternate" type="text/html" title="Automatic resubmission of failed Galaxy jobs" /><published>2018-12-19T00:00:00+01:00</published><updated>2018-12-19T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2018/12/19/autorerun</id><content type="html" xml:base="https://galaxyproject.eu/posts/2018/12/19/autorerun/">&lt;p&gt;UseGalaxy.eu has now started automatically resubmitting any jobs which fail.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.1">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2018-12-27T00:58:32+01:00</updated><id>https://galaxyproject.eu/</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">Gajan Kristnaskon kaj bonan novjaron!</title><link href="https://galaxyproject.eu/posts/2018/12/25/merry-christmas/" rel="alternate" type="text/html" title="Gajan Kristnaskon kaj bonan novjaron!" /><published>2018-12-25T00:00:00+01:00</published><updated>2018-12-25T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2018/12/25/merry-christmas</id><content type="html" xml:base="https://galaxyproject.eu/posts/2018/12/25/merry-christmas/">&lt;p&gt;We all wish you a Merry Christmas and a Happy New Year.
+Enjoy the holiday season with your family and see you all next year. Our dear friend Martin Čech summed it up nicely :)&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;en&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Wishing merry Christmas to the whole &lt;a href=&quot;https://twitter.com/hashtag/usegalaxy?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#usegalaxy&lt;/a&gt; community and the next year at least as fruitful as this one. &lt;a href=&quot;https://t.co/qfIhK5cyBn&quot;&gt;pic.twitter.com/qfIhK5cyBn&lt;/a&gt;&lt;/p&gt;&amp;mdash; Martenson (@martenson) &lt;a href=&quot;https://twitter.com/martenson/status/1077305473706217472?ref_src=twsrc%5Etfw&quot;&gt;December 24, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;!--img src=&quot;/assets/media/for_santa.png&quot; height=&quot;400px&quot; alt=&quot;Image by Paula Grüning as a present for Santa.&quot; /--&gt;</content><author><name></name></author><category term="devops" /><summary type="html">We all wish you a Merry Christmas and a Happy New Year. Enjoy the holiday season with your family and see you all next year. Our dear friend Martin Čech summed it up nicely :)</summary></entry><entry><title type="html">Automatic resubmission of failed Galaxy jobs</title><link href="https://galaxyproject.eu/posts/2018/12/19/autorerun/" rel="alternate" type="text/html" title="Automatic resubmission of failed Galaxy jobs" /><published>2018-12-19T00:00:00+01:00</published><updated>2018-12-19T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2018/12/19/autorerun</id><content type="html" xml:base="https://galaxyproject.eu/posts/2018/12/19/autorerun/">&lt;p&gt;UseGalaxy.eu has now started automatically resubmitting any jobs which fail.&lt;/p&gt;
 
 &lt;h2 id=&quot;automatic-job-resubmission&quot;&gt;Automatic Job Resubmission&lt;/h2&gt;
 
@@ -180,33 +186,4 @@ day where team members tested the new server heavily and identified issues.&lt;/
 
 &lt;p&gt;An extremely important part of any big migration with far reaching impacts is the backout plan. What will we do if something goes wrong? For this migration, the backout plan is extremely simple: we reconfigure the proxy to use the old server as the backend for usegalaxy.eu&lt;/p&gt;
 
-&lt;p&gt;This gives us a safe fallback position in the face of any complications. Traffic will temporarily be split between the instances, but since Galaxy maintains session state in the database, this should not present any issues.&lt;/p&gt;</content><author><name></name></author><category term="devops" /><summary type="html">We will be migrating Galaxy to new hardware. The hardware acting as the ‘head node’ is reaching End-of-Life and needs to be decomissioned.</summary></entry><entry><title type="html">New Paper on “Uncontrolled Diabetes Mellitus Has No Major Influence on the Platelet Transcriptome”</title><link href="https://galaxyproject.eu/posts/2018/11/05/ThomasNuehrenberg/" rel="alternate" type="text/html" title="New Paper on &quot;Uncontrolled Diabetes Mellitus Has No Major Influence on the Platelet Transcriptome&quot;" /><published>2018-11-05T00:00:00+01:00</published><updated>2018-11-05T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2018/11/05/ThomasNuehrenberg</id><content type="html" xml:base="https://galaxyproject.eu/posts/2018/11/05/ThomasNuehrenberg/">&lt;p&gt;In a new manuscript Thomas Nührenberg et al. found that
-&lt;a href=&quot;https://doi.org/10.1155/2018/8989252&quot;&gt;“Uncontrolled Diabetes Mellitus Has No Major Influence on the Platelet Transcriptome”&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Thanks for using Galaxy and congratulation to Thomas and his team!&lt;/p&gt;
-
-&lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Background:&lt;/strong&gt; Diabetes mellitus (DM) has been associated with increased platelet reactivity as well
-as increased levels of platelet RNAs in plasma. Here, we sought to evaluate whether the platelet
-transcriptome is altered in the presence of uncontrolled DM. Methods. Next-generation sequencing
-(NGS) was performed on platelet RNA for 5 patients with uncontrolled DM (HbA1c 9.0%) and 5 control
-patients (HbA1c 5.5%) with otherwise similar clinical characteristics. RNA was isolated from
-leucocyte-depleted platelet-rich plasma. Libraries of platelet RNAs were created separately
-for long RNAs after ribosomal depletion and for small RNAs from total RNA, followed by
-next-generation sequencing.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Results:&lt;/strong&gt; Platelets in both groups demonstrated RNA expression
-profiles characterized by absence of leukocyte-specific transcripts, high expression of
-well-known platelet transcripts, and in total 6,343 consistently detectable transcripts.
-Extensive statistical bioinformatic analysis yielded 12 genes with consistently differential
-expression at a lenient FDR &amp;lt; 0.1, thereof 8 protein-coding genes and 2 genes with known
-expression in platelets (MACF1 and ITGB3BP). Three of the four differentially expressed
-noncoding genes were YRNAs (RNY1, RNY3, and RNY4) which were all downregulated in DM.
-23 miRNAs were differentially expressed between the two groups.
-Of the 13 miRNAs with decreased expression in the diabetic group,
-8 belonged to the DLK1–DIO3 gene region on chromosome 14q32.2.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Conclusions:&lt;/strong&gt; In this study, uncontrolled DM had a remote impact on different components of the platelet transcriptome.
-Increased expression of MACF1, together with supporting predicted mRNA-miRNA interactions as well as
-reduced expression of RNYs in platelets, may reflect subclinical platelet activation in uncontrolled DM.&lt;/p&gt;</content><author><name></name></author><category term="paper" /><summary type="html">In a new manuscript Thomas Nührenberg et al. found that “Uncontrolled Diabetes Mellitus Has No Major Influence on the Platelet Transcriptome”.</summary></entry></feed>
+&lt;p&gt;This gives us a safe fallback position in the face of any complications. Traffic will temporarily be split between the instances, but since Galaxy maintains session state in the database, this should not present any issues.&lt;/p&gt;</content><author><name></name></author><category term="devops" /><summary type="html">We will be migrating Galaxy to new hardware. The hardware acting as the ‘head node’ is reaching End-of-Life and needs to be decomissioned.</summary></entry></feed>
