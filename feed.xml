@@ -1,4 +1,15 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2019-01-11T13:44:59+01:00</updated><id>https://galaxyproject.eu/</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">The European Galaxy Team has open positions!</title><link href="https://galaxyproject.eu/posts/2019/01/10/openpositions/" rel="alternate" type="text/html" title="The European Galaxy Team has open positions!" /><published>2019-01-10T00:00:00+01:00</published><updated>2019-01-10T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2019/01/10/openpositions</id><content type="html" xml:base="https://galaxyproject.eu/posts/2019/01/10/openpositions/">&lt;p&gt;&lt;strong&gt;The &lt;a href=&quot;https://usegalaxy-eu.github.io/freiburg&quot; target=&quot;_blank&quot;&gt;European Galaxy Team&lt;/a&gt; is hiring!&lt;/strong&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2019-01-11T16:23:55+01:00</updated><id>https://galaxyproject.eu/</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">An other European CVMFS mirror is online</title><link href="https://galaxyproject.eu/posts/2019/01/11/cmvs-mirror-online/" rel="alternate" type="text/html" title="An other European CVMFS mirror is online" /><published>2019-01-11T00:00:00+01:00</published><updated>2019-01-11T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2019/01/11/cmvs-mirror-online</id><content type="html" xml:base="https://galaxyproject.eu/posts/2019/01/11/cmvs-mirror-online/">&lt;p&gt;The &lt;a href=&quot;https://cernvm.cern.ch/portal/filesystem&quot; target=&quot;_blank&quot;&gt;CernVM File System (CVMFS)&lt;/a&gt; provides a scalable, reliable and softare and data distribution service.
+It was originally developed to assist High Energy Physics (HEP) collaborations to deploy software on the worldwide-distributed computing infrastructure used to run data processing applications.
+The Galaxy project is using the same technology now to distribute 6TB of reference data and Singularity images to the scientific community.
+This will make analysis more reproducible across Galaxy instances as the reference data is also shared. However, the provided data can be used without Galaxy and for example
+will be available inside the de.NBI cloud.&lt;/p&gt;
+
+&lt;p&gt;Have a look at our &lt;a href=&quot;https://github.com/usegalaxy-eu/cvmfs-example&quot; target=&quot;_blank&quot;&gt;CVMFS example repository&lt;/a&gt; and learn how to use the data and images.&lt;/p&gt;
+
+&lt;p&gt;Today we are proud to announce a new CVMFS mirror under &lt;code class=&quot;highlighter-rouge&quot;&gt;http://cvmfs1-ufr00.galaxyproject.eu/cvmfs/@fqrn@&lt;/code&gt;.
+This will make this service more sustainable and failure-tolerant to our entire community.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/media/cvmfs.png&quot; alt=&quot;CVMFS model&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="devops" /><summary type="html">The CernVM File System (CVMFS) provides a scalable, reliable and softare and data distribution service. It was originally developed to assist High Energy Physics (HEP) collaborations to deploy software on the worldwide-distributed computing infrastructure used to run data processing applications. The Galaxy project is using the same technology now to distribute 6TB of reference data and Singularity images to the scientific community. This will make analysis more reproducible across Galaxy instances as the reference data is also shared. However, the provided data can be used without Galaxy and for example will be available inside the de.NBI cloud.</summary></entry><entry><title type="html">The European Galaxy Team has open positions!</title><link href="https://galaxyproject.eu/posts/2019/01/10/openpositions/" rel="alternate" type="text/html" title="The European Galaxy Team has open positions!" /><published>2019-01-10T00:00:00+01:00</published><updated>2019-01-10T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2019/01/10/openpositions</id><content type="html" xml:base="https://galaxyproject.eu/posts/2019/01/10/openpositions/">&lt;p&gt;&lt;strong&gt;The &lt;a href=&quot;https://usegalaxy-eu.github.io/freiburg&quot; target=&quot;_blank&quot;&gt;European Galaxy Team&lt;/a&gt; is hiring!&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;We have a wide variety of active projects and are searching for a &lt;strong&gt;software engineer&lt;/strong&gt; (100%), &lt;strong&gt;system analysts/administrators&lt;/strong&gt; (100%), &lt;strong&gt;data analyst&lt;/strong&gt; (100%), and a &lt;strong&gt;community and/or research manager&lt;/strong&gt; (100%).&lt;/p&gt;
 
@@ -129,45 +140,4 @@ name for this dataset rather than always having to change it afterwards.&lt;/li&
 
 &lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;a class=&quot;twitter-moment&quot; href=&quot;https://twitter.com/i/moments/1065919249020059648?ref_src=twsrc%5Etfw&quot;&gt;European Galaxy Days&lt;/a&gt;
 &lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="training" /><summary type="html">European Galaxy Days were held 19 and 20 November 2018 in Freiburg, Germany. &amp;gt;40 participants from all Europe and even US meet for this two day gathering.</summary></entry><entry><title type="html">ELIXIR Biohackathon in Paris</title><link href="https://galaxyproject.eu/posts/2018/11/23/biohackathon/" rel="alternate" type="text/html" title="ELIXIR Biohackathon in Paris" /><published>2018-11-23T00:00:00+01:00</published><updated>2018-11-23T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2018/11/23/biohackathon</id><content type="html" xml:base="https://galaxyproject.eu/posts/2018/11/23/biohackathon/">&lt;p&gt;ELIXIR France with the support of the ELIXIR Hub and the ELIXIR interoperability platform and in collaboration with COST CHARME, the National Bioscience Database Center (NBDC) and the Database Center for Life Science (DBCLS), organized last week (November 12th - 16th, 2018) a &lt;a href=&quot;https://bh2018paris.info/index.html&quot;&gt;BioHackathon&lt;/a&gt; in Paris. Bérénice, Helena, Björn, and Saskia were there and represented the Galaxy Freiburg team and ERASMUS MC. The event was a total blast: 5 days in a remote area to work, code, have fun, eat and discuss with the 150 other participants from all Europe (even US)!&lt;/p&gt;
-
-&lt;div class=&quot;multiple-img&quot;&gt;
-&lt;a data-flickr-embed=&quot;true&quot; data-header=&quot;true&quot; data-footer=&quot;true&quot; href=&quot;https://www.flickr.com/gp/134305289@N03/r1705T&quot; title=&quot;Biohackathon&quot;&gt;&lt;img src=&quot;https://farm2.staticflickr.com/1939/44960833595_a064a27d9b_z.jpg&quot; width=&quot;640&quot; height=&quot;427&quot; alt=&quot;Biohackathon&quot; /&gt;&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-&lt;/div&gt;
-
-&lt;p&gt;We worked, discussed and contributed on many projects:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/elixir-europe/BioHackathon/tree/master/tools/Bioconda%20packaging%20of%20the%20%20Regulatory%20Sequence%20Analysis%20Tools%20RSAT&quot;&gt;Bioconda packaging of the Regulatory Sequence Analysis Tools (RSAT)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/elixir-europe/BioHackathon/tree/master/tools/bio.tools%20%26%20EDAM%20drop-in%20hackathon%20%26%20discussions&quot;&gt;bio.tools &amp;amp; EDAM&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/elixir-europe/BioHackathon/tree/master/tools/Development%20of%20BioJS%20components&quot;&gt;Development of BioJS components and their integration into Galaxy&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/elixir-europe/BioHackathon/tree/master/interoperability/Transfer%20of%20Research%20Assets%20between%20FAIRDOM%20SEEKs&quot;&gt;SEEK Galaxy integration&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/elixir-europe/BioHackathon/tree/master/training/Assessing%20the%20FAIRness%20of%20Training%20Materials&quot;&gt;FAIRness of Training Materials&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;But the main projects we worked on were:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://github.com/elixir-europe/BioHackathon/tree/master/tools/Improve%20Shiny%20and%20RStudio%20integration%20within%20Galaxy%20using%20Galaxy%20Interactive%20Environment&quot;&gt;Improve Shiny and RStudio integration within Galaxy using Galaxy Interactive Environment&lt;/a&gt;&lt;/p&gt;
-
-    &lt;p&gt;During the 1,5 days allocated to our project, we completed some work on the GIE framework within Galaxy, developing a new Docker Volume plugin which provides the user’s Galaxy history as a volume. Jupyter and RStudio will become even better with this addition.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://github.com/elixir-europe/BioHackathon/tree/master/training/Galaxy%20training%20material%20improvement%20and%20extension&quot;&gt;Galaxy Training Material&lt;/a&gt;&lt;/p&gt;
-
-    &lt;p&gt;During these 5 days, we added some important functionalities to the &lt;a href=&quot;https://galaxyproject.github.io/training-material/&quot;&gt;Galaxy Training Material&lt;/a&gt;:&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Automatic translation of training material&lt;/li&gt;
-      &lt;li&gt;Support learning path&lt;/li&gt;
-      &lt;li&gt;Add Search on the website&lt;/li&gt;
-      &lt;li&gt;Add a Training Handbook and philosophies&lt;/li&gt;
-    &lt;/ul&gt;
-
-    &lt;p&gt;We also reviewed Pull Requests, update and create new materials, etc.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;check-out-more-activity-about-this-event-on-twitter&quot;&gt;Check out more activity about this event on Twitter&lt;/h3&gt;
-
-&lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;a class=&quot;twitter-moment&quot; href=&quot;https://twitter.com/i/moments/1065915790656978944?ref_src=twsrc%5Etfw&quot;&gt;Biohackathon 2018 Paris&lt;/a&gt;
-&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="training" /><summary type="html">ELIXIR France with the support of the ELIXIR Hub and the ELIXIR interoperability platform and in collaboration with COST CHARME, the National Bioscience Database Center (NBDC) and the Database Center for Life Science (DBCLS), organized last week (November 12th - 16th, 2018) a BioHackathon in Paris. Bérénice, Helena, Björn, and Saskia were there and represented the Galaxy Freiburg team and ERASMUS MC. The event was a total blast: 5 days in a remote area to work, code, have fun, eat and discuss with the 150 other participants from all Europe (even US)!</summary></entry></feed>
+&lt;/div&gt;</content><author><name></name></author><category term="training" /><summary type="html">European Galaxy Days were held 19 and 20 November 2018 in Freiburg, Germany. &amp;gt;40 participants from all Europe and even US meet for this two day gathering.</summary></entry></feed>
