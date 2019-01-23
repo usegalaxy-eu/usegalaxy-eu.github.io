@@ -44,7 +44,11 @@
 
 <ol id="markdown-toc">
   <li><a href="#get-started" id="markdown-toc-get-started">Get started</a></li>
-  <li><a href="#tools" id="markdown-toc-tools">Tools</a></li>
+  <li><a href="#tools" id="markdown-toc-tools">Tools</a>    <ol>
+      <li><a href="#chemical-structure-conversion-and-manipulation-tools" id="markdown-toc-chemical-structure-conversion-and-manipulation-tools">chemical structure conversion and manipulation tools</a></li>
+      <li><a href="#compute-chemical-properties" id="markdown-toc-compute-chemical-properties">compute chemical properties</a></li>
+    </ol>
+  </li>
   <li><a href="#tutorials" id="markdown-toc-tutorials">Tutorials</a></li>
   <li><a href="#workflows" id="markdown-toc-workflows">Workflows</a></li>
   <li><a href="#contributors" id="markdown-toc-contributors">Contributors</a></li>
@@ -65,21 +69,93 @@
 
 <p>Several tools are integrated in this custom Galaxy instance. They were chosen for their use in exploitation of chemical data:</p>
 
-<ul>
-  <li><strong>General tools</strong>
-    <ul>
-      <li><strong>Data retrieval</strong>: PubChem downloader</li>
-      <li><strong>Conversion</strong>:</li>
-      <li><strong>Fingerprint tools</strong>:</li>
-    </ul>
-  </li>
-  <li><strong>MD tools</strong>
-    <ul>
-      <li><strong>Quality control</strong>:</li>
-    </ul>
-  </li>
-  <li><strong>Docking tools</strong></li>
-</ul>
+<h2 id="chemical-structure-conversion-and-manipulation-tools">chemical structure conversion and manipulation tools</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Tool</th>
+      <th>Description</th>
+      <th>Reference</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="/?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_remsmall/openbabel_remSmall/">remSmallMol</a></td>
+      <td>Remove small molecules</td>
+      <td><a href="https://doi.org/10.1186/1758-2946-3-33" target="_blank">N M O’Boyle,2011</a></td>
+    </tr>
+    <tr>
+      <td><a href="/?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_addh/openbabel_addh/">AddH</a></td>
+      <td>Add hydrogen atoms at a certain pH value</td>
+      <td><a href="https://doi.org/10.1186/1758-2946-3-33" target="_blank">N M O’Boyle,2011</a></td>
+    </tr>
+    <tr>
+      <td><a href="/?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_remduplicates/openbabel_remDuplicates/">RemDupMol</a></td>
+      <td>Remove duplicated molecules</td>
+      <td><a href="https://doi.org/10.1186/1758-2946-3-33" target="_blank">N M O’Boyle,2011</a></td>
+    </tr>
+    <tr>
+      <td><a href="/?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_remove_protonation_state/openbabel_remove_protonation_state">remProtState</a></td>
+      <td>Remove protonation state of every atom</td>
+      <td><a href="https://doi.org/10.1186/1758-2946-3-33" target="_blank">N M O’Boyle,2011</a></td>
+    </tr>
+    <tr>
+      <td><a href="/?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert/">comConvert</a></td>
+      <td>Compound Convert Converts various chemistry and molecular modeling data files</td>
+      <td><a href="https://doi.org/10.1186/1758-2946-3-33" target="_blank">N M O’Boyle,2011</a></td>
+    </tr>
+    <tr>
+      <td><a href="/?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_remions/openbabel_remIons/">remConterIons</a></td>
+      <td>Remove counterions and fragments</td>
+      <td><a href="https://doi.org/10.1186/1758-2946-3-33" target="_blank">N M O’Boyle,2011</a></td>
+    </tr>
+    <tr>
+      <td><a href="/?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_change_title/openbabel_change_title">changTitle</a></td>
+      <td>Change Title to meta-data value</td>
+      <td><a href="https://doi.org/10.1186/1758-2946-3-33" target="_blank">N M O’Boyle,2011</a></td>
+    </tr>
+    <tr>
+      <td><a href="/?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_change_title/openbabel_change_title">remCountIo</a></td>
+      <td>Change Title to meta-data value</td>
+      <td><a href="https://doi.org/10.1186/1758-2946-3-33" target="_blank">N M O’Boyle,2011</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 class="table table-striped" id="compute-chemical-properties">compute chemical properties</h2>
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Tool</th>
+      <th>Description</th>
+      <th>Reference</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="/?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_genprop/openbabel_genProp/">genProp</a></td>
+      <td>Compute physico-chemical properties for a set of molecules</td>
+      <td><a href="https://doi.org/10.1186/1758-2946-3-33" target="_blank">N M O’Boyle,2011</a></td>
+    </tr>
+    <tr>
+      <td><a href="/?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/natural_product_likeness/ctb_np-likeness-calculator">NPL</a></td>
+      <td>Natural Product likeness calculator</td>
+      <td><a href="http://dx.doi.org/10.1186/1471-2105-13-106" target="_blank">Jayaseelan, Kalai Vanii, 2012</a></td>
+    </tr>
+    <tr>
+      <td><a href="/??tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/silicos_it/ctb_silicos_qed/0.1">QED</a></td>
+      <td>Drug-likeness quantitative estimation (QED)</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><a href="https://doi.org/10.1038/nchem.1243" target="_blank">Bickerton et al., 2012</a></td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
 
 <h1 id="tutorials">Tutorials</h1>
 
