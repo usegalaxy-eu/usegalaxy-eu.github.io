@@ -1,4 +1,34 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2019-01-25T15:32:54+01:00</updated><id>https://galaxyproject.eu/</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">A successful Galaxy RNA-seq workshop in Belgrade</title><link href="https://galaxyproject.eu/posts/2019/01/19/rna-seq-workshop-belgrade/" rel="alternate" type="text/html" title="A successful Galaxy RNA-seq workshop in Belgrade" /><published>2019-01-19T00:00:00+01:00</published><updated>2019-01-19T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2019/01/19/rna-seq-workshop-belgrade</id><content type="html" xml:base="https://galaxyproject.eu/posts/2019/01/19/rna-seq-workshop-belgrade/">&lt;p&gt;Last week, the Freiburg Galaxy team taught a 2 day course in the beautiful city of Belgrade!&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2019-01-25T15:57:39+01:00</updated><id>https://galaxyproject.eu/</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">Galaxy based introduction to Genomics as part of the Curriculum in Belgrad, by Nevena Veljkovic</title><link href="https://galaxyproject.eu/posts/2019/01/25/feedback-genomics-master-course/" rel="alternate" type="text/html" title="Galaxy based introduction to Genomics as part of the Curriculum in Belgrad, by Nevena Veljkovic" /><published>2019-01-25T00:00:00+01:00</published><updated>2019-01-25T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2019/01/25/feedback-genomics-master-course</id><content type="html" xml:base="https://galaxyproject.eu/posts/2019/01/25/feedback-genomics-master-course/">&lt;p&gt;This semester, the &lt;a href=&quot;http://bg.ac.rs/en/members/faculties/FB.php&quot; target=&quot;_blank&quot;&gt;Faculty of Biology at the University of Belgrade&lt;/a&gt; offered for the first time
+an elective master course &lt;strong&gt;Introduction to Genomics&lt;/strong&gt; which included several hands-on sessions on the Galaxy platform.&lt;/p&gt;
+
+&lt;p&gt;Lectures in this course were open to everyone and soon after the hands-on sessions 
+started, several PhD students joined the 8 master students attending the course. During the classes we worked on RNA-seq analyses and variant calling.&lt;/p&gt;
+
+&lt;p&gt;Students were interested and deeply engaged. In the end, this first generation completed the course
+with excellent marks and was (based on their feedback) satisfied with the perspective in data science 
+that Galaxy has opened to them.&lt;/p&gt;
+
+&lt;p&gt;The European Galaxy project team was very helpful in providing the training resources (via &lt;a href=&quot;https://galaxyproject.eu/tiaas&quot;&gt;TIaaS&lt;/a&gt;)
+and in responding to our questions. Thank you!&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Nevena Veljkovic, lecturer &lt;strong&gt;Introduction to Genomics&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;</content><author><name></name></author><category term="training" /><summary type="html">This semester, the Faculty of Biology at the University of Belgrade offered for the first time an elective master course Introduction to Genomics which included several hands-on sessions on the Galaxy platform.</summary></entry><entry><title type="html">The GOEnrichment tool and tutorial is now available on Galaxy.</title><link href="https://galaxyproject.eu/posts/2019/01/25/GOEnrichment/" rel="alternate" type="text/html" title="The GOEnrichment tool and tutorial is now available on Galaxy." /><published>2019-01-25T00:00:00+01:00</published><updated>2019-01-25T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2019/01/25/GOEnrichment</id><content type="html" xml:base="https://galaxyproject.eu/posts/2019/01/25/GOEnrichment/">&lt;p&gt;&lt;a href=&quot;https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/goenrichment/goenrichment/&quot; target=&quot;_blank&quot;&gt;GOEnrichment&lt;/a&gt; is a tool for performing GO enrichment analysis of gene sets, such as those obtained from RNA-seq or Microarray experiments, to help characterize them at the functional level.
+&lt;a href=&quot;https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/goenrichment/tutorial.html&quot; target=&quot;_blank&quot;&gt;A tutorial&lt;/a&gt; for the tool is also available
+at the &lt;a href=&quot;https://galaxyproject.github.io/training-material/&quot; target=&quot;_blank&quot;&gt;Galaxy Project training website&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/media/goenrichment_example.png&quot; alt=&quot;&quot; target=&quot;_blank&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/goenrichment/goenrichment/&quot; target=&quot;_blank&quot;&gt;GOEnrichment&lt;/a&gt; is flexible in that it allows the user to use any version of the &lt;a href=&quot;http://www.geneontology.org/&quot; target=&quot;_blank&quot;&gt;Gene Ontology&lt;/a&gt; and any &lt;a href=&quot;http://www.geneontology.org/page/download-go-annotations&quot; target=&quot;_blank&quot;&gt;GO annotation&lt;/a&gt; file they desire. To enable the use of &lt;a href=&quot;http://www.geneontology.org/page/go-subset-guide&quot; target=&quot;_blank&quot;&gt;GO slims&lt;/a&gt;,
+it is accompanied by a sister tool &lt;a href=&quot;https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/goslimmer/goslimmer/&quot; target=&quot;_blank&quot;&gt;GOSlimmer&lt;/a&gt;, which can convert annotation files from full GO to any specified GO slim.
+The tool features an optional graph clustering algorithm to reduce the redundancy in the set of enriched GO terms and simplify its output.&lt;/p&gt;
+
+&lt;p&gt;It was developed by the &lt;a href=&quot;https://biodata.pt/&quot; target=&quot;_blank&quot;&gt;BioData.pt/ELIXIR-PT&lt;/a&gt; team at the &lt;a href=&quot;http://www.igc.gulbenkian.pt/&quot; target=&quot;_blank&quot;&gt;Instituto Gulbenkian de Ciência&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;This was also used as a case study to test the full pipeline of integrating a tool in Galaxy:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Integrating the GOEnrichment and GOSlimmer tools in &lt;a href=&quot;https://bioconda.github.io/contribute-a-recipe.html&quot; target=&quot;_blank&quot;&gt;Bioconda&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Wrapping the tools for Galaxy, and integrate them in the &lt;a href=&quot;https://github.com/galaxyproject/tools-iuc/&quot; target=&quot;_blank&quot;&gt;IUC tool collection&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Writing the tutorial and integrate it in the official &lt;a href=&quot;https://github.com/galaxyproject/training-material&quot; target=&quot;_blank&quot;&gt;Galaxy tutorial repository&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="release" /><summary type="html">GOEnrichment is a tool for performing GO enrichment analysis of gene sets, such as those obtained from RNA-seq or Microarray experiments, to help characterize them at the functional level. A tutorial for the tool is also available at the Galaxy Project training website.</summary></entry><entry><title type="html">A successful Galaxy RNA-seq workshop in Belgrade</title><link href="https://galaxyproject.eu/posts/2019/01/19/rna-seq-workshop-belgrade/" rel="alternate" type="text/html" title="A successful Galaxy RNA-seq workshop in Belgrade" /><published>2019-01-19T00:00:00+01:00</published><updated>2019-01-19T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2019/01/19/rna-seq-workshop-belgrade</id><content type="html" xml:base="https://galaxyproject.eu/posts/2019/01/19/rna-seq-workshop-belgrade/">&lt;p&gt;Last week, the Freiburg Galaxy team taught a 2 day course in the beautiful city of Belgrade!&lt;/p&gt;
 
 &lt;div class=&quot;multiple-img&quot;&gt;
 &lt;a data-flickr-embed=&quot;true&quot; data-header=&quot;true&quot; data-footer=&quot;true&quot; href=&quot;https://www.flickr.com/photos/134305289@N03/32922648008/in/shares-7s06ku/&quot; title=&quot;Galaxy RNA-seq workshop @ Belgrad&quot;&gt;&lt;img src=&quot;https://farm8.staticflickr.com/7876/32922648008_1371ba32d5_z.jpg&quot; width=&quot;640&quot; height=&quot;427&quot; alt=&quot;Galaxy RNA-seq workshop @ Belgrad&quot; /&gt;&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
@@ -69,7 +99,8 @@ This will make this service more sustainable and failure-tolerant to our entire 
 
 &lt;div class=&quot;multiple-img&quot;&gt;
 &lt;a data-flickr-embed=&quot;true&quot; href=&quot;https://www.flickr.com/photos/134305289@N03/31768905991/in/album-72157671198874931/&quot; title=&quot;Untitled&quot;&gt;&lt;img src=&quot;https://farm1.staticflickr.com/366/31768905991_508703bbeb_k.jpg&quot; width=&quot;512&quot; height=&quot;340&quot; alt=&quot;Untitled&quot; /&gt;&lt;/a&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="job" /><summary type="html">The European Galaxy Team is hiring!</summary></entry><entry><title type="html">New hardware: 8x1TB memory nodes</title><link href="https://galaxyproject.eu/posts/2019/01/08/new-compute-nodes/" rel="alternate" type="text/html" title="New hardware: 8x1TB memory nodes" /><published>2019-01-08T00:00:00+01:00</published><updated>2019-01-08T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2019/01/08/new-compute-nodes</id><content type="html" xml:base="https://galaxyproject.eu/posts/2019/01/08/new-compute-nodes/">&lt;p&gt;Today we activated our brand new hardware. Thanks to the &lt;a href=&quot;https://www.bmbf.de/en/&quot;&gt;Federal Ministry of Education and Research&lt;/a&gt; we could extend the
+&lt;/div&gt;</content><author><name></name></author><category term="job" /><summary type="html">The European Galaxy Team is hiring!</summary></entry><entry><title type="html">Galaxy HTS Workshop 25.2.-1.3.2019 - fully booked</title><link href="https://galaxyproject.eu/posts/2019/01/10/Galaxyworkshop-full/" rel="alternate" type="text/html" title="Galaxy HTS Workshop 25.2.-1.3.2019 - fully booked" /><published>2019-01-10T00:00:00+01:00</published><updated>2019-01-10T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2019/01/10/Galaxyworkshop-full</id><content type="html" xml:base="https://galaxyproject.eu/posts/2019/01/10/Galaxyworkshop-full/">&lt;p&gt;Our next Galaxy Workshop on HTS data analysis from 25.2.-1.3.2019 in Freiburg is full.
+However, you can assign yourself to our &lt;a href=&quot;https://goo.gl/forms/gDJuKXf3kl7GAndD3&quot;&gt;waiting list&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="training" /><summary type="html">Our next Galaxy Workshop on HTS data analysis from 25.2.-1.3.2019 in Freiburg is full. However, you can assign yourself to our waiting list.</summary></entry><entry><title type="html">New hardware: 8x1TB memory nodes</title><link href="https://galaxyproject.eu/posts/2019/01/08/new-compute-nodes/" rel="alternate" type="text/html" title="New hardware: 8x1TB memory nodes" /><published>2019-01-08T00:00:00+01:00</published><updated>2019-01-08T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2019/01/08/new-compute-nodes</id><content type="html" xml:base="https://galaxyproject.eu/posts/2019/01/08/new-compute-nodes/">&lt;p&gt;Today we activated our brand new hardware. Thanks to the &lt;a href=&quot;https://www.bmbf.de/en/&quot;&gt;Federal Ministry of Education and Research&lt;/a&gt; we could extend the
 &lt;a href=&quot;https://www.denbi.de/cloud&quot;&gt;de.NBI-Cloud&lt;/a&gt; with 8x1TB nodes. This means more high-memory nodes for your memory intensive jobs, less waiting, faster results.
 Enjoy!&lt;/p&gt;
 
@@ -87,53 +118,4 @@ Enjoy the holiday season with your family and see you all next year. Our dear fr
 &lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;en&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Wishing merry Christmas to the whole &lt;a href=&quot;https://twitter.com/hashtag/usegalaxy?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#usegalaxy&lt;/a&gt; community and the next year at least as fruitful as this one. &lt;a href=&quot;https://t.co/qfIhK5cyBn&quot;&gt;pic.twitter.com/qfIhK5cyBn&lt;/a&gt;&lt;/p&gt;&amp;mdash; Martenson (@martenson) &lt;a href=&quot;https://twitter.com/martenson/status/1077305473706217472?ref_src=twsrc%5Etfw&quot;&gt;December 24, 2018&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
 
-&lt;!--img src=&quot;/assets/media/for_santa.png&quot; height=&quot;400px&quot; alt=&quot;Image by Paula Grüning as a present for Santa.&quot; /--&gt;</content><author><name></name></author><category term="devops" /><summary type="html">We all wish you a Merry Christmas and a Happy New Year. Enjoy the holiday season with your family and see you all next year. Our dear friend Martin Čech summed it up nicely :)</summary></entry><entry><title type="html">Automatic resubmission of failed Galaxy jobs</title><link href="https://galaxyproject.eu/posts/2018/12/19/autorerun/" rel="alternate" type="text/html" title="Automatic resubmission of failed Galaxy jobs" /><published>2018-12-19T00:00:00+01:00</published><updated>2018-12-19T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2018/12/19/autorerun</id><content type="html" xml:base="https://galaxyproject.eu/posts/2018/12/19/autorerun/">&lt;p&gt;UseGalaxy.eu has now started automatically resubmitting any jobs which fail.&lt;/p&gt;
-
-&lt;h2 id=&quot;automatic-job-resubmission&quot;&gt;Automatic Job Resubmission&lt;/h2&gt;
-
-&lt;p&gt;We noticed that a significant number of the bug reports we receive are for jobs
-which do not have enough memory allocated. We have been working to find a way
-to handle these edge cases. Galaxy has an initiative to allow annotating
-specific tools for error codes and messages which indicate memory issues, but
-we needed something more extensive which would work for all tools, even old
-ones.&lt;/p&gt;
-
-&lt;p&gt;We updated our &lt;a href=&quot;https://github.com/usegalaxy-eu/infrastructure-playbook/commit/6eade5b0c1c3133393df540ff7fff1ad0093a72a&quot;&gt;dynamic job destination&lt;/a&gt;
-to submit things by default to a “normal” destination, and upon failure for any
-reason, it will resubmit the job and request 1.5x the memory.&lt;/p&gt;
-
-&lt;p&gt;There is still an &lt;a href=&quot;https://github.com/galaxyproject/galaxy/issues/7118&quot;&gt;open issue&lt;/a&gt;
-with this system as we cannot automatically resubmit to another destination
-which will request 2x the memory of the original job.&lt;/p&gt;
-
-&lt;p&gt;In general however, this seems to be working well, we have noticed a decrease
-in failed jobs.&lt;/p&gt;</content><author><name></name></author><category term="devops" /><summary type="html">UseGalaxy.eu has now started automatically resubmitting any jobs which fail.</summary></entry><entry><title type="html">UseGalaxy.eu update to 18.09</title><link href="https://galaxyproject.eu/posts/2018/12/11/galaxy-18-09/" rel="alternate" type="text/html" title="UseGalaxy.eu update to 18.09" /><published>2018-12-11T00:00:00+01:00</published><updated>2018-12-11T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2018/12/11/galaxy-18-09</id><content type="html" xml:base="https://galaxyproject.eu/posts/2018/12/11/galaxy-18-09/">&lt;p&gt;We’ve updated our Galaxy server to version 18.09. Everything went extremely smoothly.&lt;/p&gt;
-
-&lt;h1 id=&quot;galaxy-upgrade&quot;&gt;Galaxy Upgrade&lt;/h1&gt;
-
-&lt;p&gt;Our &lt;a href=&quot;../2018-05-25-galaxy-1805-and-gdpr/&quot;&gt;previous Galaxy upgrade&lt;/a&gt; we scheduled
-an entire day for potential downtime, and completed it with a 2 hour outage of
-Galaxy. For this downtime we scheduled 4 hours of downtime and completed it
-&lt;strong&gt;without&lt;/strong&gt; a Galaxy outage.&lt;/p&gt;
-
-&lt;p&gt;For a full list of the awesome new features
-please see the &lt;a href=&quot;https://docs.galaxyproject.org/en/release_18.09/releases/18.09_announce.html&quot;&gt;release notes&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;A few highlights (in no particual order)!&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Workflows saw many enhancements:
-    &lt;ul&gt;
-      &lt;li&gt;You can now run a workflow directly from the “Published Workflows” list&lt;/li&gt;
-      &lt;li&gt;The workflow editor supports zooming&lt;/li&gt;
-      &lt;li&gt;You can download a workflow directly from the editor (Thanks &lt;a href=&quot;/freiburg/people&quot;&gt;Anup!&lt;/a&gt;)&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Subworkflows now allow for setting runtime parameters&lt;/li&gt;
-  &lt;li&gt;When pasting data or URLs into the Galaxy upload screen, you can now supply a
-name for this dataset rather than always having to change it afterwards.&lt;/li&gt;
-  &lt;li&gt;The rule-based data uploader now supports adding tags to your datasets and collections.&lt;/li&gt;
-  &lt;li&gt;Tool search should be working better&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;If you notice any issues, please do not hesitate to &lt;a href=&quot;mailto:contact@usegalaxy.eu&quot;&gt;let us know&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="release" /><summary type="html">We’ve updated our Galaxy server to version 18.09. Everything went extremely smoothly.</summary></entry><entry><title type="html">Nominate a training for the 2019 Galaxy Community Conference (GCC2019)</title><link href="https://galaxyproject.eu/posts/2018/12/03/gcc-training-nomination/" rel="alternate" type="text/html" title="Nominate a training for the 2019 Galaxy Community Conference (GCC2019)" /><published>2018-12-03T00:00:00+01:00</published><updated>2018-12-03T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2018/12/03/gcc-training-nomination</id><content type="html" xml:base="https://galaxyproject.eu/posts/2018/12/03/gcc-training-nomination/">&lt;p&gt;The 2019 Galaxy Community Conference (GCC2019) will be held in be held in Freiburg, Germany, 1-6 July. The training topics that are offered are determined by the community so &lt;a href=&quot;https://docs.google.com/forms/d/1fBPjEmw7Td52rhBnC0SvflnQCD7Ue5IMJ9RkM0SjnYg/&quot;&gt;BY YOU&lt;/a&gt;!&lt;/p&gt;</content><author><name></name></author><category term="training" /><summary type="html">The 2019 Galaxy Community Conference (GCC2019) will be held in be held in Freiburg, Germany, 1-6 July. The training topics that are offered are determined by the community so BY YOU!</summary></entry></feed>
+&lt;!--img src=&quot;/assets/media/for_santa.png&quot; height=&quot;400px&quot; alt=&quot;Image by Paula Grüning as a present for Santa.&quot; /--&gt;</content><author><name></name></author><category term="devops" /><summary type="html">We all wish you a Merry Christmas and a Happy New Year. Enjoy the holiday season with your family and see you all next year. Our dear friend Martin Čech summed it up nicely :)</summary></entry></feed>
