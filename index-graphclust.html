@@ -52,13 +52,13 @@
 
 <h1 id="get-started">Get started</h1>
 
-<p>Are you new to Galaxy, or returning after a long time, and looking for help to get started? Take <a href="https://metagenomics.usegalaxy.eu/tours/core.galaxy_ui" target="_blank">a guided tour</a> through Galaxy’s user interface.</p>
+<p>Are you new to Galaxy, or returning after a long time, and looking for help to get started? Take <a href="https://metagenomics.usegalaxy.eu/tours/core.galaxy_ui" target="_top">a guided tour</a> through Galaxy’s user interface.</p>
 
 <h3 id="video-tutorial">Video tutorial</h3>
 
 <p><a href="https://www.youtube.com/watch?v=fJ6tUt_6uas">This video tutorial</a> can be helpful to get a visually comprehensive introduction on setting-up and running Galaxy-GraphClust.</p>
 
-<p><a href="https://www.youtube.com/watch?v=fJ6tUt_6uas" target="_blank"><img src="/assets/media/graphclust_video-thumbnail.png" alt="IMAGE ALT TEXT HERE" /></a></p>
+<p><a href="https://www.youtube.com/watch?v=fJ6tUt_6uas" target="_top"><img src="/assets/media/graphclust_video-thumbnail.png" alt="IMAGE ALT TEXT HERE" /></a></p>
 
 <h3 id="interactive-tours">Interactive tours</h3>
 <p>Interactive Tours are available for Galaxy and Galaxy-GraphClust. To run the tours please on top panel go to <strong>Help→Interactive Tours</strong> and click on one of the tours prefixed <strong>GraphClust workflow</strong>. You can check the other tours for a more general introduction to the Galaxy interface.</p>
@@ -68,20 +68,22 @@
 <p>To import or upload an existing workflow, on the top panel go to <strong>Workflow</strong> menu. On top right side of the screen click on <strong>Upload or import workflow</strong> button. You can either upload workflow from your local system or by providing the URL of the workflow. To have an access to workflow menu you must be logged in. You can download workflows from the following links</p>
 
 <ul>
-  <li>MotifFinder : <a href="https://raw.githubusercontent.com/BackofenLab/docker-galaxy-graphclust/master/workflows/GraphClust-MotifFinder.ga">GraphClust-MotifFinder</a></li>
-  <li>Workflow for one round : <a href="https://raw.githubusercontent.com/BackofenLab/docker-galaxy-graphclust/master/workflows/GraphClust_one.ga">GraphClust_one</a></li>
-  <li>Workflow for two rounds : <a href="https://raw.githubusercontent.com/BackofenLab/docker-galaxy-graphclust/master/workflows/GraphClust_two.ga">GraphClust_two</a></li>
+  <li>MotifFinder: <a href="https://graphclust.usegalaxy.eu/u/graphclust2/w/graphclust2--motiffinder">GraphClust-MotifFinder</a></li>
+  <li>Workflow main: <a href="https://graphclust.usegalaxy.eu/u/graphclust2/w/graphclust2--main-1r">GraphClust_1r</a></li>
+  <li>Workflow main, preconfigured for two rounds : <a href="https://graphclust.usegalaxy.eu/u/graphclust2/w/graphclust2--main-2r">GraphClust_2r</a></li>
 </ul>
 
 <h1 id="graphclust-pipeline-overview">GraphClust pipeline overview</h1>
 
-<p>GraphClust pipeline for clustering similar RNA sequences together is a complex pipeline, for details please check GraphClust publication. Overall it consists of three major phases: a) sequence based pre-clustering b) encoding predicted RNA structures as graph features c) iterative fast candidate clustering then refinement</p>
+<p>GraphClust pipeline for clustering similar RNA sequences together is a multi-step rather complex pipeline. Overall it consists of three major phases: a) sequence based pre-clustering b) encoding predicted RNA structures as graph features c) iterative fast candidate clustering then refinement</p>
 
-<p><img src="/assets/media/graphclust_pipeline.png" alt="GraphClust pipeline overview (Heyne et al. 2012)" /></p>
+<!-- ![GraphClust pipeline overview (Heyne et al. 2012)](./assets/img/graphclust_pipeline.png)
 
-<p><em>GraphClust pipeline overview (Heyne et al. 2012)</em></p>
+*GraphClust pipeline overview (Heyne et al. 2012)*
+ -->
+<p><img src="https://github.com/BackofenLab/GraphClust-2/blob/master/assets/img/figure-pipeline_zigzag.png" alt="GraphClust-2 workflow overview" /></p>
 
-<p>Below is the correspondence list of Galaxy-GraphClust tool names with each step of GraphClust:</p>
+<p>Below is a coarse-grained correspondence list of GraphClust2 tool names with each step:</p>
 
 <table class="table table-striped">
   <thead>
@@ -94,42 +96,42 @@
   <tbody>
     <tr>
       <td style="text-align: center">1</td>
-      <td style="text-align: left"><a href="https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/rnateam/graphclust_preprocessing/preproc/0.5" target="_blank">Preprocessing</a></td>
+      <td style="text-align: left"><a href="https://graphclust.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/rnateam/graphclust_preprocessing/preproc/0.5" target="_top">Preprocessing</a></td>
       <td style="text-align: left">Input preprocessing (fragmentation)</td>
     </tr>
     <tr>
       <td style="text-align: center">2</td>
-      <td style="text-align: left"><a href="https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/rnateam/graphclust_fasta_to_gspan/gspan/0.4" target="_blank">fasta_to_gspan</a></td>
+      <td style="text-align: left"><a href="https://graphclust.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/rnateam/graphclust_fasta_to_gspan/gspan/0.4" target="_top">fasta_to_gspan</a></td>
       <td style="text-align: left">Generation of structures via RNAshapes and conversion into graphs</td>
     </tr>
     <tr>
       <td style="text-align: center">3</td>
-      <td style="text-align: left"><a href="https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/rnateam/graphclust_nspdk/nspdk_sparse/9.2.3" target="_blank">NSPDK_sparseVect</a></td>
+      <td style="text-align: left"><a href="https://graphclust.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/rnateam/graphclust_nspdk/nspdk_sparse/9.2.3" target="_top">NSPDK_sparseVect</a></td>
       <td style="text-align: left">Generation of graph features via NSPDK</td>
     </tr>
     <tr>
       <td style="text-align: center">4</td>
-      <td style="text-align: left"><a href="https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/rnateam/graphclust_nspdk/NSPDK_candidateClust/9.2.3" target="_blank">NSPDK_candidateClusters</a></td>
+      <td style="text-align: left"><a href="https://graphclust.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/rnateam/graphclust_nspdk/NSPDK_candidateClust/9.2.3" target="_top">NSPDK_candidateClusters</a></td>
       <td style="text-align: left">min-hash based clustering of all feature vectors, output top dense candidate clusters</td>
     </tr>
     <tr>
       <td style="text-align: center">5</td>
-      <td style="text-align: left">premLocarana,locarana_best_subtree, CMfinder</td>
-      <td style="text-align: left">Locarna based clustering of each candidate cluster, all-vs-all pairwise alignments, create multiple alignments along guide tree, select best subtree,</td>
+      <td style="text-align: left"><a href="https://graphclust.usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu/repos/rnateam/graphclust_prepocessing_for_mlocarna/preMloc/0.4" target="_top">PGMA_locarna</a>,<a href="https://graphclust.usegalaxy.eu/tool_runner?tool_id=toolshed.g2.bx.psu.edu/repos/rnateam/graphclust_mlocarna/locarna_best_subtree/0.4" target="_top">locarna</a>, <a href="https://graphclust.usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu/repos/rnateam/graphclust_cmfinder/cmFinder/0.4" target="_top">CMfinder</a></td>
+      <td style="text-align: left">Locarna based clustering of each candidate cluster, all-vs-all pairwise alignments, create multiple alignments along guide tree, select best subtree, and refine alignment.</td>
     </tr>
     <tr>
       <td style="text-align: center">6</td>
-      <td style="text-align: left"><a href="https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/infernal/infernal_cmbuild/1.1.0.2" target="_blank">Build covariance models</a></td>
+      <td style="text-align: left"><a href="https://graphclust.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/infernal/infernal_cmbuild/1.1.0.2" target="_top">Build covariance models</a></td>
       <td style="text-align: left">create candidate model</td>
     </tr>
     <tr>
       <td style="text-align: center">7</td>
-      <td style="text-align: left"><a href="https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/infernal/infernal_cmsearch/1.1.0.2" target="_blank">Search covariance models</a></td>
+      <td style="text-align: left"><a href="https://graphclust.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/infernal/infernal_cmsearch/1.1.0.2" target="_top">Search covariance models</a></td>
       <td style="text-align: left">Scan full input sequences with Infernal’s cmsearch to find missing cluster members</td>
     </tr>
     <tr>
       <td style="text-align: center">8,9</td>
-      <td style="text-align: left">Report results</td>
+      <td style="text-align: left"><a href="https://graphclust.usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu/repos/rnateam/graphclust_postprocessing/glob_report/0.5">Report results</a> and <a href="https://graphclust.usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu/repos/rnateam%2Fgraphclust_aggregate_alignments/graphclust_aggregate_alignments/0.1">conservation evaluations</a></td>
       <td style="text-align: left">Collect final clusters and create example alignments of top cluster members</td>
     </tr>
   </tbody>
