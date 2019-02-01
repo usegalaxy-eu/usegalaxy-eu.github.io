@@ -37,24 +37,15 @@
 
 
 
-  <div class="container rna-intro-header" style="">
-    <div class="row">
-        <div class="col-lg-12">
-            <div class="rna-intro-message">
-                <h1>Welcome to <bold>RNA Galaxy</bold></h1>
-                <h3>The <a href="http://bgruening.github.io/galaxy-rna-workbench" target="_blank">RNA workbench</a> developed by the de.NBI RNA Bioinformatics Center</h3>
-            </div>
-        </div>
-    </div>
-</div>
+  <h1 class="no_toc" id="welcome-to-the-rna-galaxy-workbench">Welcome to the RNA Galaxy workbench</h1>
 
-<h1 class="no_toc" id="about-the-rna-galaxy-workbench">About the RNA Galaxy workbench</h1>
+<p><img src="/assets/media/rna_workbench_logo_bg.png" alt="RNA Galaxy" class="rna-intro-right" /></p>
 
 <p>The RNA Galaxy workbench is a comprehensive set of analysis tools and consolidated workflows. The workbench is based on the Galaxy framework, which guarantees simple access, easy extension, flexible adaption to personal and security needs, and sophisticated analyses independent of command-line knowledge.</p>
 
 <p>The current implementation comprises more than 50 bioinformatics tools dedicated to different research areas of RNA biology, including RNA structure analysis, RNA alignment, RNA annotation, RNA-protein interaction, ribosome profiling, RNA-Seq analysis, and RNA target prediction.</p>
 
-<p>The workbench is developed by the RNA Bioinformatics Center (RBC). This center is one of the eight service units of the <a href="http://www.denbi.de">German Network for Bioinformatics Infrastructure</a>, running the German <a href="https://www.elixir-europe.org/">ELIXIR Node</a>.</p>
+<p>The workbench is developed by the <a href="https://www.denbi.de/network/rna-bioinformatics-center-rbc" target="_blank">RNA Bioinformatics Center (RBC)</a>. This center is one of the eight service units of the <a href="http://www.denbi.de" target="_blank">German Network for Bioinformatics Infrastructure (de.NBI)</a>, running the German <a href="https://www.elixir-europe.org/" target="_blank">ELIXIR Node</a>.</p>
 
 <h1 class="no_toc" id="content">Content</h1>
 
@@ -78,7 +69,7 @@
 
 <p>Are you new to Galaxy, or returning after a long time, and looking for help to get started? Take <a href="https://rna.usegalaxy.eu/tours/core.galaxy_ui" target="_blank">a guided tour</a> through Galaxy’s user interface.</p>
 
-<p><strong>Want to learn more about RNA analyses? Take one of our guided tour or check our tutorials</strong></p>
+<p><strong>Want to learn more about RNA analyses? Take one of our guided tour or check out the following hands-on tutorials from <a href="https://galaxyproject.github.io/training-material/">the Galaxy Training Network</a>.</strong></p>
 
 <table class="table table-striped">
   <thead>
@@ -118,7 +109,7 @@
       <td><a href="https://zenodo.org/record/1327423" target="_blank"><i class="fa fa-files-o" aria-hidden="true"></i></a></td>
       <td><a href="https://rna.usegalaxy.eu/workflows/run?id=f5be5bcf9b9f171c" target="_blank"><i class="fa fa-share-alt" aria-hidden="true"></i></a></td>
       <td> </td>
-      <td> </td>
+      <td><a href="https://rna.usegalaxy.eu/u/joerg-fallmann/h/eclipworkflow" target="_blank"><i class="fa fa-list-ul" aria-hidden="true"></i></a></td>
     </tr>
     <tr>
       <td>De novo transcriptome reconstruction with RNA-Seq</td>
@@ -154,7 +145,7 @@
       <td> </td>
       <td><a href="https://rna.usegalaxy.eu/workflows/run?id=a108b575b16e6cb9" target="_blank"><i class="fa fa-share-alt" aria-hidden="true"></i></a></td>
       <td> </td>
-      <td> </td>
+      <td><a href="https://rna.usegalaxy.eu/u/joerg-fallmann/h/parclipworkflow" target="_blank"><i class="fa fa-list-ul" aria-hidden="true"></i></a></td>
     </tr>
     <tr>
       <td>Reference-based RNA-Seq data analysis</td>
@@ -226,7 +217,7 @@
       <td> </td>
       <td> </td>
       <td><a href="https://rna.usegalaxy.eu/tours/rnateam.viennarna" target="_blank"><i class="fa fa-magic" aria-hidden="true"></i></a></td>
-      <td> </td>
+      <td><a href="https://rna.usegalaxy.eu//u/joerg-fallmann/h/viennarnaintroduction" target="_blank"><i class="fa fa-list-ul" aria-hidden="true"></i></a></td>
     </tr>
   </tbody>
 </table>
@@ -237,7 +228,7 @@
 
 <h2 id="rna-structure-prediction-and-analysis">RNA structure prediction and analysis</h2>
 
-<table class="table table-striped">
+<table class="table table-striped tooltable">
   <thead>
     <tr>
       <th>Tool</th>
@@ -252,7 +243,7 @@
       <td><a href="https://doi.org/10.1093/bioinformatics/btv319" target="_blank">Kleinkauf et al. 2015</a></td>
     </tr>
     <tr>
-      <td><a href="https://rna.usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Frnateam%2Fviennarna_rnacofold" target="_top">CoFold</a></td>
+      <td>CoFold</td>
       <td>A thermodynamics-based RNA secondary structure folding algorithm</td>
       <td><a href="https://doi.org/10.1093/nar/gkt174" target="_blank">Proctor and Meyer, 2015</a></td>
     </tr>
@@ -291,7 +282,7 @@
 
 <h2 id="rna-alignment">RNA alignment</h2>
 
-<table class="table table-striped">
+<table class="table table-striped tooltable">
   <thead>
     <tr>
       <th>Tool</th>
@@ -316,12 +307,12 @@
       <td><a href="https://doi.org/10.1093/bioinformatics/btw108" target="_blank">Katoh and Standley, 2016</a></td>
     </tr>
     <tr>
-      <td><a href="https://rna.usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Frnateam%2Frnalien" target="_top">RNAlien</a></td>
+      <td><a href="https://rna.usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Frnateam%2Frnalien%2FRNAlien" target="_top">RNAlien</a></td>
       <td>A tool for RNA family model construction</td>
       <td><a href="https://doi.org/10.1093/nar/gkw558" target="_blank">Eggenhofer et al. 2016</a></td>
     </tr>
     <tr>
-      <td><a href="https://rna.usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Frnateam%cmv" target="_top">CMV</a></td>
+      <td><a href="https://rna.usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Frnateam%2Fcmv%2Fcmv" target="_top">CMV</a></td>
       <td>RNA family model visualisation</td>
       <td><a href="https://doi.org/10.1093/bioinformatics/bty158" target="_blank">Eggenhofer et al. 2018</a></td>
     </tr>
@@ -330,7 +321,7 @@
 
 <h2 id="rna-annotation">RNA annotation</h2>
 
-<table class="table table-striped">
+<table class="table table-striped tooltable">
   <thead>
     <tr>
       <th>Tool</th>
@@ -345,7 +336,7 @@
       <td><a href="https://doi.org/10.1093/nar/gkh152" target="_blank">Laslett and Canback, 2004</a></td>
     </tr>
     <tr>
-      <td><a href="https://rna.usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fyhoogstrate%2Ffuma" target="_top">Fusion Matcher (FuMa)</a></td>
+      <td><a href="https://rna.usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fyhoogstrate%2Ffuma%2Ffuma" target="_top">Fusion Matcher (FuMa)</a></td>
       <td>A tool that reports identical fusion genes based on gene-name annotations</td>
       <td><a href="https://doi.org/10.1093/bioinformatics/btv721" target="_blank">Hoogstrate et al. 2016</a></td>
     </tr>
@@ -355,7 +346,7 @@
       <td><a href="https://doi.org/10.1093/nar/gkn1084" target="_blank">Hertel et al. 2009</a></td>
     </tr>
     <tr>
-      <td><a href="https://rna.usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Finfernal" target="_top">INFERNAL</a></td>
+      <td>INFERNAL</td>
       <td>A tool searching DNA sequence databases for RNA structure and sequence similarities</td>
       <td><a href="https://doi.org/10.1093/nar/gku1063" target="_blank">Nawrocki et al. 2015</a></td>
     </tr>
@@ -368,11 +359,6 @@
       <td><a href="https://rna.usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Frnateam%2Frnacode%2Frbc_rnacode" target="_top">RNAcode</a></td>
       <td>Predicts protein coding regions in a a set of homologous nucleotide sequences</td>
       <td><a href="https://doi.org/10.1261/rna.2536111" target="_blank">Washietl et al. 2011</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://rna.usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Flionelguy%2Frnammer" target="_top">RNAmmer</a></td>
-      <td>Predicts 5s/8s, 16s/18s, and 23s/28s ribosomal RNA in full genome sequences</td>
-      <td><a href="https://doi.org/10.1093/nar/gkm160" target="_blank">Lagesen et al. 2007</a></td>
     </tr>
     <tr>
       <td><a href="https://rna.usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Ftrna_prediction%2Ftrnascan" target="_top">tRNAscan</a></td>
@@ -389,7 +375,7 @@
 
 <h2 id="rna-protein-interaction">RNA-protein interaction</h2>
 
-<table class="table table-striped">
+<table class="table table-striped tooltable">
   <thead>
     <tr>
       <th>Tool</th>
@@ -399,7 +385,7 @@
   </thead>
   <tbody>
     <tr>
-      <td><a href="https://rna.usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Frnateam%2Faresite2" target="_blank">AREsite2</a></td>
+      <td>AREsite2</td>
       <td>A database for AU-/GU-/U-rich elements in human and model organisms</td>
       <td><a href="https://doi.org/10.1093/nar/gkv1238" target="_blank">Fallmann et al. 2016</a></td>
     </tr>
@@ -423,7 +409,7 @@
 
 <h2 id="rna-target-prediction">RNA target prediction</h2>
 
-<table class="table table-striped">
+<table class="table table-striped tooltable">
   <thead>
     <tr>
       <th>Tool</th>
@@ -433,7 +419,7 @@
   </thead>
   <tbody>
     <tr>
-      <td><a href="https://rna.usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Frnateam%2Ftargetfinder" target="_top">TargetFinder</a></td>
+      <td>TargetFinder</td>
       <td>A tool to predict small RNA binding sites on target transcripts from a sequence database</td>
       <td>-</td>
     </tr>
@@ -444,7 +430,7 @@
 
 <h3 id="preprocessing">Preprocessing</h3>
 
-<table class="table table-striped">
+<table class="table table-striped tooltable">
   <thead>
     <tr>
       <th>Tool</th>
@@ -468,7 +454,7 @@
 
 <h3 id="rna-seq">RNA-Seq</h3>
 
-<table class="table table-striped">
+<table class="table table-striped tooltable">
   <thead>
     <tr>
       <th>Tool</th>
@@ -483,7 +469,7 @@
       <td><a href="https://doi.org/10.1093/bioinformatics/btu270" target="_blank">Videm et al. 2014</a></td>
     </tr>
     <tr>
-      <td><a href="https://rna.usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fyhoogstrate%2Fflaimapper" target="_top">FlaiMapper</a></td>
+      <td><a href="https://rna.usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fyhoogstrate%2Fflaimapper%2Fflaimapper" target="_top">FlaiMapper</a></td>
       <td>A tool for computational annotation of small ncRNA-derived fragments using RNA-seq data</td>
       <td><a href="https://doi.org/10.1093/bioinformatics/btu696" target="_blank">Hoogstrate et al. 2015</a></td>
     </tr>
@@ -493,12 +479,12 @@
       <td><a href="https://doi.org/10.1038/nbt1394" target="_blank">Friedländer et al. 2008</a></td>
     </tr>
     <tr>
-      <td><a href="https://rna.usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Frnateam%2Fnastiseq" target="_top">NASTIseq</a></td>
+      <td><a href="https://rna.usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Frnateam%2Fnastiseq%2Fnastiseq" target="_top">NASTIseq</a></td>
       <td>A method that incorporates the inherent variable efficiency of generating perfectly strand-specific libraries</td>
       <td><a href="https://doi.org/10.1101/gr.149310.112" target="_blank">Li et al. 2013</a></td>
     </tr>
     <tr>
-      <td><a href="https://rna.usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Frnateam%2Fpipmir" target="_top">PIPmiR</a></td>
+      <td><a href="https://rna.usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Frnateam%2Fpipmir%2Fpipmir" target="_top">PIPmiR</a></td>
       <td>An algorithm to identify novel plant miRNA genes from a combination of deep sequencing data and genomic features</td>
       <td><a href="https://doi.org/10.1101/gr.123547.111" target="_blank">Breakfield et al. 2011</a></td>
     </tr>
@@ -512,7 +498,7 @@
 
 <h3 id="read-mapping">Read Mapping</h3>
 
-<table class="table table-striped">
+<table class="table table-striped tooltable">
   <thead>
     <tr>
       <th>Tool</th>
@@ -522,12 +508,12 @@
   </thead>
   <tbody>
     <tr>
-      <td><a href="https://rna.usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fhisat2%2Fhisat" target="_top">HISAT2</a></td>
+      <td><a href="https://rna.usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fhisat2%2Fhisat2" target="_top">HISAT2</a></td>
       <td>Hierarchical indexing for spliced alignment of transcripts</td>
       <td><a href="https://doi.org/10.1038/nprot.2016.095" target="_blank">Pertea et al. 2016</a></td>
     </tr>
     <tr>
-      <td><a href="https://rna.usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Frgrnastar%2Frna_star" target="_top">STAR</a></td>
+      <td><a href="https://rna.usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Frgrnastar%2Frna_star" target="_top">RNA STAR</a></td>
       <td>Rapid spliced aligner for RNA-seq data</td>
       <td><a href="https://academic.oup.com/bioinformatics/article/29/1/15/272537/STAR-ultrafast-universal-RNA-seq-aligner" target="_blank">Dobin et al. 2013</a></td>
     </tr>
@@ -551,7 +537,7 @@
 
 <h3 id="transcript-assembly">Transcript Assembly</h3>
 
-<table class="table table-striped">
+<table class="table table-striped tooltable">
   <thead>
     <tr>
       <th>Tool</th>
@@ -570,7 +556,7 @@
 
 <h3 id="quantification">Quantification</h3>
 
-<table class="table table-striped">
+<table class="table table-striped tooltable">
   <thead>
     <tr>
       <th>Tool</th>
@@ -604,7 +590,7 @@
 
 <h3 id="differential-expression-analysis">Differential expression analysis</h3>
 
-<table class="table table-striped">
+<table class="table table-striped tooltable">
   <thead>
     <tr>
       <th>Tool</th>
@@ -623,7 +609,7 @@
 
 <h3 id="utilities">Utilities</h3>
 
-<table class="table table-striped">
+<table class="table table-striped tooltable">
   <thead>
     <tr>
       <th>Tool</th>
@@ -652,7 +638,7 @@
 
 <h2 id="ribosome-profiling">Ribosome profiling</h2>
 
-<table class="table table-striped">
+<table class="table table-striped tooltable">
   <thead>
     <tr>
       <th>Tool</th>
@@ -662,7 +648,7 @@
   </thead>
   <tbody>
     <tr>
-      <td><a href="https://rna.usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Frnateam%2Fribotaper" target="_top">RiboTaper</a></td>
+      <td>RiboTaper</td>
       <td>An analysis pipeline for Ribo-Seq experiments, exploiting the triplet periodicity of ribosomal footprints to call translated regions</td>
       <td><a href="https://doi.org/10.1038/nmeth.3688" target="_blank">Calviello et al. 2016</a></td>
     </tr>
