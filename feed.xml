@@ -1,4 +1,86 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2019-02-10T17:44:19+01:00</updated><id>https://galaxyproject.eu/</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">Vote for the Training during the next Galaxy Community Conference</title><link href="https://galaxyproject.eu/posts/2019/01/27/GCC-training-vote/" rel="alternate" type="text/html" title="Vote for the Training during the next Galaxy Community Conference" /><published>2019-01-27T00:00:00+01:00</published><updated>2019-01-27T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2019/01/27/GCC-training-vote</id><content type="html" xml:base="https://galaxyproject.eu/posts/2019/01/27/GCC-training-vote/">&lt;p&gt;The Galaxy Community Conference starts with training but also continues with training throughout the conference.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2019-02-11T11:39:20+01:00</updated><id>https://galaxyproject.eu/</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">Tool Quest: Do you know the answer?</title><link href="https://galaxyproject.eu/posts/2019/02/09/tool-quest/" rel="alternate" type="text/html" title="Tool Quest: Do you know the answer?" /><published>2019-02-09T00:00:00+01:00</published><updated>2019-02-09T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2019/02/09/tool-quest</id><content type="html" xml:base="https://galaxyproject.eu/posts/2019/02/09/tool-quest/">&lt;p&gt;Last week we got a request from on of our users with a tricky question:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;I need a tool that:&lt;/p&gt;
+  &lt;ul&gt;
+    &lt;li&gt;reads two files (&lt;code class=&quot;highlighter-rouge&quot;&gt;parent&lt;/code&gt;, and &lt;code class=&quot;highlighter-rouge&quot;&gt;subset&lt;/code&gt;)&lt;/li&gt;
+    &lt;li&gt;I need to pick out random lines from the &lt;code class=&quot;highlighter-rouge&quot;&gt;parent&lt;/code&gt;
+      &lt;ul&gt;
+        &lt;li&gt;but it should ignore lines in the &lt;code class=&quot;highlighter-rouge&quot;&gt;subset&lt;/code&gt;.
+And the number of random lines to be picked should be equal to the number of lines in the subset file.&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+
+  &lt;p&gt;Two example files are attached:&lt;/p&gt;
+
+  &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Parent&lt;/code&gt;:&lt;/p&gt;
+
+  &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;abcd
+bcde
+cdef
+defg
+efgh
+fghi
+ghij
+hijk
+ijkl
+jklm
+klmn
+lmno
+mnop
+nopq
+opqr
+pqrs
+qrst
+rstu
+stuv
+tuvw
+uvwx
+vwxy
+wxyz
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;  &lt;/div&gt;
+
+  &lt;p&gt;And &lt;code class=&quot;highlighter-rouge&quot;&gt;subset&lt;/code&gt; (is a subset of the parent file):&lt;/p&gt;
+
+  &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;hijk
+ijkl
+jklm
+opqr
+pqrs
+qrst
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Any idea how to solve that? It is possible with the normal Galaxy tools :)&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;We proposed the following solution:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_easyjoin_tool/&quot;&gt;“Join two files”&lt;/a&gt;
+  to filter out the lines that are in the &lt;code class=&quot;highlighter-rouge&quot;&gt;subset&lt;/code&gt; file &lt;strong&gt;and&lt;/strong&gt; the &lt;code class=&quot;highlighter-rouge&quot;&gt;parent&lt;/code&gt; file. You should have now a new &lt;code class=&quot;highlighter-rouge&quot;&gt;parent&lt;/code&gt; file without those line from the &lt;code class=&quot;highlighter-rouge&quot;&gt;subset&lt;/code&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/&quot;&gt;“Sort”&lt;/a&gt;
+  the new file with the option &lt;code class=&quot;highlighter-rouge&quot;&gt;Random order (-R)&lt;/code&gt;. Sort has indeed a random sorting option, somehow unintuitive - but useful.&lt;br /&gt;
+  Now we have a random sorted file without the unwanted lines. What needs to be done is to extract N lines, where N is the length of the &lt;code class=&quot;highlighter-rouge&quot;&gt;subset&lt;/code&gt; file.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://usegalaxy.eu/root?tool_id=addValue&quot;&gt;“Add column to an existing dataset”&lt;/a&gt; with the &lt;code class=&quot;highlighter-rouge&quot;&gt;iterate&lt;/code&gt; option enabled. This you need to do
+  for both files the initial &lt;code class=&quot;highlighter-rouge&quot;&gt;subset&lt;/code&gt; file and the new random sorted partent from step 2.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Now use &lt;a href=&quot;https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_easyjoin_tool/&quot;&gt;“Join two files”&lt;/a&gt;
+  again, but this time on the newly created datasets with the additional column. This will give you exactly N lines where N is the amount of
+  lines in the &lt;code class=&quot;highlighter-rouge&quot;&gt;subset&lt;/code&gt; file.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;(Optional) If needed, remove the additional column with the &lt;a href=&quot;https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/1.1.0&quot;&gt;Cut tool&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;</content><author><name></name></author><category term="training" /><summary type="html">Last week we got a request from on of our users with a tricky question:</summary></entry><entry><title type="html">Vote for the Training during the next Galaxy Community Conference</title><link href="https://galaxyproject.eu/posts/2019/01/27/GCC-training-vote/" rel="alternate" type="text/html" title="Vote for the Training during the next Galaxy Community Conference" /><published>2019-01-27T00:00:00+01:00</published><updated>2019-01-27T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2019/01/27/GCC-training-vote</id><content type="html" xml:base="https://galaxyproject.eu/posts/2019/01/27/GCC-training-vote/">&lt;p&gt;The Galaxy Community Conference starts with training but also continues with training throughout the conference.
 The community proposed some topics and now &lt;strong&gt;you need to vote&lt;/strong&gt; to select the ones offered at GCC2019!
 &lt;strong&gt;Please take a few minutes to vote which ones should be offered at GCC2019! Thank you!&lt;/strong&gt;&lt;/p&gt;</content><author><name></name></author><category term="training" /><summary type="html">The Galaxy Community Conference starts with training but also continues with training throughout the conference. The community proposed some topics and now you need to vote to select the ones offered at GCC2019! Please take a few minutes to vote which ones should be offered at GCC2019! Thank you!</summary></entry><entry><title type="html">Learn how the NASA uses Galaxy!</title><link href="https://galaxyproject.eu/posts/2019/01/26/NASA-Galaxy-and-training/" rel="alternate" type="text/html" title="Learn how the NASA uses Galaxy!" /><published>2019-01-26T00:00:00+01:00</published><updated>2019-01-26T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2019/01/26/NASA-Galaxy-and-training</id><content type="html" xml:base="https://galaxyproject.eu/posts/2019/01/26/NASA-Galaxy-and-training/">&lt;p&gt;&lt;a href=&quot;https://galaxyproject.org/people/dave-bouvier/&quot;&gt;Dave B&lt;/a&gt; pointed us to this nice article about
 “Exploring the Effects of Spaceflight on Mouse Physiology using the Open Access NASA GeneLab Platform”.&lt;/p&gt;
@@ -107,10 +189,4 @@ This will make this service more sustainable and failure-tolerant to our entire 
 &lt;div class=&quot;multiple-img&quot;&gt;
 &lt;a data-flickr-embed=&quot;true&quot; href=&quot;https://www.flickr.com/photos/134305289@N03/31768905991/in/album-72157671198874931/&quot; title=&quot;Untitled&quot;&gt;&lt;img src=&quot;https://farm1.staticflickr.com/366/31768905991_508703bbeb_k.jpg&quot; width=&quot;512&quot; height=&quot;340&quot; alt=&quot;Untitled&quot; /&gt;&lt;/a&gt;
 &lt;/div&gt;</content><author><name></name></author><category term="job" /><summary type="html">The European Galaxy Team is hiring!</summary></entry><entry><title type="html">Galaxy HTS Workshop 25.2.-1.3.2019 - fully booked</title><link href="https://galaxyproject.eu/posts/2019/01/10/Galaxyworkshop-full/" rel="alternate" type="text/html" title="Galaxy HTS Workshop 25.2.-1.3.2019 - fully booked" /><published>2019-01-10T00:00:00+01:00</published><updated>2019-01-10T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2019/01/10/Galaxyworkshop-full</id><content type="html" xml:base="https://galaxyproject.eu/posts/2019/01/10/Galaxyworkshop-full/">&lt;p&gt;Our next Galaxy Workshop on HTS data analysis from 25.2.-1.3.2019 in Freiburg is full.
-However, you can assign yourself to our &lt;a href=&quot;https://goo.gl/forms/gDJuKXf3kl7GAndD3&quot;&gt;waiting list&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="training" /><summary type="html">Our next Galaxy Workshop on HTS data analysis from 25.2.-1.3.2019 in Freiburg is full. However, you can assign yourself to our waiting list.</summary></entry><entry><title type="html">New hardware: 8x1TB memory nodes</title><link href="https://galaxyproject.eu/posts/2019/01/08/new-compute-nodes/" rel="alternate" type="text/html" title="New hardware: 8x1TB memory nodes" /><published>2019-01-08T00:00:00+01:00</published><updated>2019-01-08T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2019/01/08/new-compute-nodes</id><content type="html" xml:base="https://galaxyproject.eu/posts/2019/01/08/new-compute-nodes/">&lt;p&gt;Today we activated our brand new hardware. Thanks to the &lt;a href=&quot;https://www.bmbf.de/en/&quot;&gt;Federal Ministry of Education and Research&lt;/a&gt; we could extend the
-&lt;a href=&quot;https://www.denbi.de/cloud&quot;&gt;de.NBI-Cloud&lt;/a&gt; with 8x1TB nodes. This means more high-memory nodes for your memory intensive jobs, less waiting, faster results.
-Enjoy!&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/media/2019-01-09-new-nodes.png&quot; alt=&quot;Graph showing decrease in queued jobs with new nodes&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Shortly after introducing the new nodes, we were able to completely empty the queue with these additional resources.&lt;/p&gt;</content><author><name></name></author><category term="devops" /><category term="release" /><summary type="html">Today we activated our brand new hardware. Thanks to the Federal Ministry of Education and Research we could extend the de.NBI-Cloud with 8x1TB nodes. This means more high-memory nodes for your memory intensive jobs, less waiting, faster results. Enjoy!</summary></entry></feed>
+However, you can assign yourself to our &lt;a href=&quot;https://goo.gl/forms/gDJuKXf3kl7GAndD3&quot;&gt;waiting list&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="training" /><summary type="html">Our next Galaxy Workshop on HTS data analysis from 25.2.-1.3.2019 in Freiburg is full. However, you can assign yourself to our waiting list.</summary></entry></feed>
