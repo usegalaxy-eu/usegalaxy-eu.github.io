@@ -44,7 +44,10 @@
 <p>GraphClust2 is a  workflow for scalable clustering of RNAs based on sequence and secondary structures feature. GraphClust2 is implemented within the Galaxy framework and consists a set of integrated Galaxy tools and flavors of the linear-time clustering workflow.</p>
 
 <ol id="markdown-toc">
-  <li><a href="#get-started" id="markdown-toc-get-started">Get started</a></li>
+  <li><a href="#get-started" id="markdown-toc-get-started">Get started</a>    <ol>
+      <li><a href="#results-from-the-paper-shared-histories" id="markdown-toc-results-from-the-paper-shared-histories">Results from the paper, shared histories</a></li>
+    </ol>
+  </li>
   <li><a href="#graphclust-pipeline-overview" id="markdown-toc-graphclust-pipeline-overview">GraphClust pipeline overview</a></li>
   <li><a href="#support--bug-reports" id="markdown-toc-support--bug-reports">Support &amp; Bug Reports</a></li>
   <li><a href="#references" id="markdown-toc-references">References</a></li>
@@ -85,6 +88,29 @@ You can check the other tours for a more general introduction to the Galaxy inte
 
 <h3 id="import-or-upload-a-workflow">Import or upload a workflow</h3>
 <p>To import or upload additional workflow flavors (e.g. from workflows directory), on the top panel go to <em>Workflow</em> menu. On top right side of the screen click on “Upload or import workflow” button. You can either upload workflow from your local system or by providing the URL of the workflow. Log in is necessary to access into the workflow menu. The docker galaxy instance has a pre-configured <em>easy!</em> info that can be found by following the interactive tour. You can download workflows from the following links</p>
+
+<h2 id="results-from-the-paper-shared-histories">Results from the paper, shared histories</h2>
+<p>The histories shared and linked below, corresponds to the clustering analsyis and evaluations that are performed and presented in the GraphClust2 paper.</p>
+
+<h3 id="lncrna-structure-conservation-analsyis">lncRNA structure conservation analsyis</h3>
+<ul>
+  <li><a href="https://graphclust.usegalaxy.eu/u/graphclust2/h/neat1">NEAT1</a></li>
+  <li><a href="https://graphclust.usegalaxy.eu/u/graphclust2/h/malat1">MALAT1</a></li>
+  <li><a href="https://graphclust.usegalaxy.eu/u/graphclust2/h/hotair">HOTAIR</a></li>
+  <li><a href="https://graphclust.usegalaxy.eu/u/graphclust2/h/xist">XIST</a></li>
+  <li><a href="https://graphclust.usegalaxy.eu/u/graphclust2/h/ftl">FTL</a></li>
+</ul>
+
+<h3 id="orthologous-genomic-sequence-extraction-of-lncrnas">Orthologous genomic sequence extraction of lncRNAs</h3>
+<ul>
+  <li><a href="https://graphclust.usegalaxy.eu/u/graphclust2/h/maf-conversion-lncrnas">MAF to fasta conversions</a></li>
+</ul>
+
+<h3 id="clip-motif-finder">CLIP motif finder</h3>
+<ul>
+  <li><a href="https://graphclust.usegalaxy.eu/u/graphclust2/h/slbp">SLBP</a></li>
+  <li><a href="https://graphclust.usegalaxy.eu/u/graphclust2/h/roquin1">Roquin1</a></li>
+</ul>
 
 <h1 id="graphclust-pipeline-overview">GraphClust pipeline overview</h1>
 
@@ -164,7 +190,7 @@ Please refer to the in-wrapper help descriptions the tools documentations and th
 <p>The manuscript is currently under prepration/revision. If you find this resource useful, please cite the zenodo DOI of the repo or contact us.</p>
 
 <ul>
-  <li>M. Miladi, E. Sokhoyan, T. Houwaart, S. Heyne, F. Costa, R. Backofen and B. Gruening; Empowering the annotation and discovery of structured RNAs with scalable and accessible integrative clustering (under preparation/revision)</li>
+  <li>Miladi, Milad, Eteri Sokhoyan, Torsten Houwaart, Steffen Heyne, Fabrizio Costa, Bjoern Gruening, and Rolf Backofen. “Empowering the annotation and discovery of structured RNAs with scalable and accessible integrative clustering.” bioRxiv (2019): 550335. doi: <a href="https://doi.org/10.1101/550335">https://doi.org/10.1101/550335</a></li>
   <li>Milad Miladi, Björn Grüning, &amp; Eteri Sokhoyan. BackofenLab/GraphClust-2: Zenodo. http://doi.org/10.5281/zenodo.1135094</li>
   <li>The GraphClust-2 alignment-free approach is based on GraphClust methodology (S. Heyne, F. Costa, D. Rose, R. Backofen;
 GraphClust: alignment-free structural clustering of local RNA secondary structures; Bioinformatics, 2012) available at http://www.bioinf.uni-freiburg.de/Software/GraphClust/</li>
