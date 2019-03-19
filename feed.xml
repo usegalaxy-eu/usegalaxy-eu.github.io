@@ -1,4 +1,129 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2019-03-19T17:44:28+01:00</updated><id>https://galaxyproject.eu/</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">New Paper - Biomolecular Reaction and Interaction Dynamics Global Environment (BRIDGE)</title><link href="https://galaxyproject.eu/posts/2019/03/15/bridge/" rel="alternate" type="text/html" title="New Paper - Biomolecular Reaction and Interaction Dynamics Global Environment (BRIDGE)" /><published>2019-03-15T00:00:00+01:00</published><updated>2019-03-15T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2019/03/15/bridge</id><content type="html" xml:base="https://galaxyproject.eu/posts/2019/03/15/bridge/">&lt;p&gt;In collaboration with our cooperation partner at the Scientific Computing Research Unit, University of Cape Town, we have recently published &lt;a href=&quot;https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btz107/5317160&quot;&gt;“Biomolecular Reaction and Interaction Dynamics Global Environment (BRIDGE)”&lt;/a&gt;. This publication provides a basis for performing molecular dynamics simulations and analysis through Galaxy, using a number of commonly used packages, such as NAMD, GROMACS and CHARMM (for simulation) and Bio3D and MDAnalysis (for analysis).&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2019-03-19T18:59:56+01:00</updated><id>https://galaxyproject.eu/</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu update to 19.01</title><link href="https://galaxyproject.eu/posts/2019/03/19/galaxy-1901/" rel="alternate" type="text/html" title="UseGalaxy.eu update to 19.01" /><published>2019-03-19T00:00:00+01:00</published><updated>2019-03-19T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2019/03/19/galaxy-1901</id><content type="html" xml:base="https://galaxyproject.eu/posts/2019/03/19/galaxy-1901/">&lt;p&gt;We’ve updated our Galaxy server to version 19.01.&lt;/p&gt;
+
+&lt;h1 id=&quot;galaxy-upgrade&quot;&gt;Galaxy Upgrade&lt;/h1&gt;
+
+&lt;p&gt;We had expected this to be a short downtime since upgrades have been
+increasingly smooth since 18.09. Unfortunately for reasons we are still
+investigating the upgraded version did not funtion with our server setup. We
+have updated our system to respond to this, and after some downtime Galaxy is
+again online. We apologise for the inconvenience this has caused.&lt;/p&gt;
+
+&lt;h2 id=&quot;new-features&quot;&gt;New Features&lt;/h2&gt;
+
+&lt;p&gt;The latest Galaxy release includes lots of awesome new features:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Revised UI Style&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The Galaxy styling has been substantially reworked resulting in the largest visual refresh to Galaxy in years. It should provide a much cleaner and more consistent interface.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/media/19.01-revised-ui.png&quot; alt=&quot;Revised UI style cleans up the UI to be more consistent and clear&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;More Colourful Tags&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Whenever you use dataset name tags (&lt;code class=&quot;highlighter-rouge&quot;&gt;#tag&lt;/code&gt;), they will randomly be assigned a color. The colors are consistent; anywhere that tag with the same text appears in your history, it will have the same color. This should increase visual distinction between similarly shaped words, making it easier to track data flow in complex analyses.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/media/19.01-colourful-tags.png&quot; alt=&quot;Tags are now randomly assigned a consistent colour, helping you to distinguish between similarly shaped words&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Extensive Workflow Enhancements&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The workflow editor now features new tool-like inputs which provide non-file data (such as numbers, text, true/false, colors) which can be connected to tool inputs. You are no longer restricted to only using files as inputs to tools!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/media/19.01-new-wf-inputs.png&quot; alt=&quot;Workflow inputs are available at the top of the workflow editor menu, under &amp;quot;Inputs&amp;quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The workflow editor allows you to specify that specific inputs should be exposed, and can thus be connected to the new workflow inputs.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/media/19.01-new-wf-types.png&quot; alt=&quot;The new inputs can be assigned a data type&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;New Help Site&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;There’s a new discussion forum to replace Biostars. It is accessible under the ‘Help’ menu on some Galaxies, or at https://help.galaxyproject.org&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/media/19.01-help-site.png&quot; alt=&quot;Galaxy's new help forum which replaces biostars&quot; /&gt;&lt;/p&gt;</content><author><name>erasche</name></author><category term="release" /><summary type="html">We’ve updated our Galaxy server to version 19.01.</summary></entry><entry><title type="html">UseGalaxy.eu Downtime on 18th March</title><link href="https://galaxyproject.eu/posts/2019/03/18/galaxy-downtime/" rel="alternate" type="text/html" title="UseGalaxy.eu Downtime on 18th March" /><published>2019-03-18T00:00:00+01:00</published><updated>2019-03-18T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2019/03/18/galaxy-downtime</id><content type="html" xml:base="https://galaxyproject.eu/posts/2019/03/18/galaxy-downtime/">&lt;p&gt;A normal upgrade went awry and we had to restore some data from backup. We had a total downtime of around 20 hours.&lt;/p&gt;
+
+&lt;h2 id=&quot;incident-timeline&quot;&gt;Incident Timeline&lt;/h2&gt;
+
+&lt;table class=&quot;table table-striped&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Date&lt;/th&gt;
+      &lt;th&gt;Time&lt;/th&gt;
+      &lt;th&gt;State&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;March 18&lt;/td&gt;
+      &lt;td&gt;16:00&lt;/td&gt;
+      &lt;td&gt;We began the upgrade procedure, expecting it to proceed smoothly&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;March 18&lt;/td&gt;
+      &lt;td&gt;18:45&lt;/td&gt;
+      &lt;td&gt;A database migration fails in a bad way. Attempts to recover the situation were not successful. We decide to restore from backup.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;March 18&lt;/td&gt;
+      &lt;td&gt;19:45&lt;/td&gt;
+      &lt;td&gt;Backup restore finishes. It was made minutes too late. We decide to re-restore from the most recent backup, and manually extract the needed table from the previous backup.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;March 18&lt;/td&gt;
+      &lt;td&gt;20:30&lt;/td&gt;
+      &lt;td&gt;We updated our website to reflect the current situation.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;March 18&lt;/td&gt;
+      &lt;td&gt;21:00&lt;/td&gt;
+      &lt;td&gt;We manage to get the database in a partially functional state and debug a problem with zerglings where they refuse to serve 19.01.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;March 18&lt;/td&gt;
+      &lt;td&gt;22:00&lt;/td&gt;
+      &lt;td&gt;Due to stress of the incident, Helena identifies that it is likely her error rate will increase if she continues working, maybe with disastrous consequences and stops for the evening.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;March 19&lt;/td&gt;
+      &lt;td&gt;08:00&lt;/td&gt;
+      &lt;td&gt;Helena recovers the broken table and manually applies the database migration.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;March 19&lt;/td&gt;
+      &lt;td&gt;10:00&lt;/td&gt;
+      &lt;td&gt;We discover additional issues with the new options, namely some upstream bugs we accidentally triggered. The server is kept closed until these issues are resolved.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;March 19&lt;/td&gt;
+      &lt;td&gt;11:40&lt;/td&gt;
+      &lt;td&gt;UseGalaxy.eu is back online&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;workflow_step_connection&lt;/code&gt; table was partially corrupted as part of the
+failed migration. It is likely that had we not tried to re-run upgrades, and
+had not tried to manually apply the table changes, we could have prevented the
+small loss of any new workflow connections created on Monday. We cannot say
+this for certain, but it is probably. In the future we can do a lot to
+safeguard against similar errors.&lt;/p&gt;
+
+&lt;h2 id=&quot;resolution&quot;&gt;Resolution&lt;/h2&gt;
+
+&lt;p&gt;We have planned since some time that we will have a test Galaxy where we can
+test out these upgrades ahead of time, but unfortunately it has not been
+possible to allocate time to this project, given the current priority/urgency
+matrix. This task will be re-prioritised following this incident.&lt;/p&gt;
+
+&lt;p&gt;We will adjust our backup procedures before upgrades. Currently given the
+extremely positive experiences and relative safety of database migrations in
+the past years of running UseGalaxy.eu, we do not make backups before an
+upgrade, and rely only on the normal daily backups. We will investigate the
+possibility to trigger a backup immediately before any database changes, to
+prevent similar issues in the future.&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;This was a significant interruption to our services for what should have been a
+simple upgrade. We apologise for the inconvenience this has caused.&lt;/p&gt;</content><author><name>erasche</name></author><category term="devops" /><category term="downtime" /><summary type="html">A normal upgrade went awry and we had to restore some data from backup. We had a total downtime of around 20 hours.</summary></entry><entry><title type="html">New Paper - Biomolecular Reaction and Interaction Dynamics Global Environment (BRIDGE)</title><link href="https://galaxyproject.eu/posts/2019/03/15/bridge/" rel="alternate" type="text/html" title="New Paper - Biomolecular Reaction and Interaction Dynamics Global Environment (BRIDGE)" /><published>2019-03-15T00:00:00+01:00</published><updated>2019-03-15T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2019/03/15/bridge</id><content type="html" xml:base="https://galaxyproject.eu/posts/2019/03/15/bridge/">&lt;p&gt;In collaboration with our cooperation partner at the Scientific Computing Research Unit, University of Cape Town, we have recently published &lt;a href=&quot;https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btz107/5317160&quot;&gt;“Biomolecular Reaction and Interaction Dynamics Global Environment (BRIDGE)”&lt;/a&gt;. This publication provides a basis for performing molecular dynamics simulations and analysis through Galaxy, using a number of commonly used packages, such as NAMD, GROMACS and CHARMM (for simulation) and Bio3D and MDAnalysis (for analysis).&lt;/p&gt;
 
 &lt;p&gt;Concurrently, we are publishing a new flavor of Galaxy for computational chemistry (located &lt;a href=&quot;https://cheminformatics.usegalaxy.eu/&quot;&gt;here&lt;/a&gt;) which we will continue to develop by adding further molecular dynamics and cheminformatics tools. We hope you find it useful - any feedback is appreciated!&lt;/p&gt;
 
@@ -184,22 +309,4 @@ qrst
   &lt;/li&gt;
 &lt;/ol&gt;</content><author><name></name></author><category term="training" /><summary type="html">Last week we got a request from on of our users with a tricky question:</summary></entry><entry><title type="html">Vote for the Training during the next Galaxy Community Conference</title><link href="https://galaxyproject.eu/posts/2019/01/27/GCC-training-vote/" rel="alternate" type="text/html" title="Vote for the Training during the next Galaxy Community Conference" /><published>2019-01-27T00:00:00+01:00</published><updated>2019-01-27T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2019/01/27/GCC-training-vote</id><content type="html" xml:base="https://galaxyproject.eu/posts/2019/01/27/GCC-training-vote/">&lt;p&gt;The Galaxy Community Conference starts with training but also continues with training throughout the conference.
 The community proposed some topics and now &lt;strong&gt;you need to vote&lt;/strong&gt; to select the ones offered at GCC2019!
-&lt;strong&gt;Please take a few minutes to vote which ones should be offered at GCC2019! Thank you!&lt;/strong&gt;&lt;/p&gt;</content><author><name></name></author><category term="training" /><summary type="html">The Galaxy Community Conference starts with training but also continues with training throughout the conference. The community proposed some topics and now you need to vote to select the ones offered at GCC2019! Please take a few minutes to vote which ones should be offered at GCC2019! Thank you!</summary></entry><entry><title type="html">Learn how the NASA uses Galaxy!</title><link href="https://galaxyproject.eu/posts/2019/01/26/NASA-Galaxy-and-training/" rel="alternate" type="text/html" title="Learn how the NASA uses Galaxy!" /><published>2019-01-26T00:00:00+01:00</published><updated>2019-01-26T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2019/01/26/NASA-Galaxy-and-training</id><content type="html" xml:base="https://galaxyproject.eu/posts/2019/01/26/NASA-Galaxy-and-training/">&lt;p&gt;&lt;a href=&quot;https://galaxyproject.org/people/dave-bouvier/&quot;&gt;Dave B&lt;/a&gt; pointed us to this nice article about
-“Exploring the Effects of Spaceflight on Mouse Physiology using the Open Access NASA GeneLab Platform”.&lt;/p&gt;
-
-&lt;p&gt;The “Open Access NASA GeneLab Platform” is a Galaxy instance and they referencing the &lt;a href=&quot;http://training.galaxyproject.org/&quot;&gt;Galaxy Project Training Material&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;NASA and Galaxy Project - what a nice match!&lt;/p&gt;</content><author><name></name></author><category term="training" /><summary type="html">Dave B pointed us to this nice article about “Exploring the Effects of Spaceflight on Mouse Physiology using the Open Access NASA GeneLab Platform”.</summary></entry><entry><title type="html">Galaxy enhances Introduction to Genomics as part of Master program in Belgrade, by Nevena Veljkovic</title><link href="https://galaxyproject.eu/posts/2019/01/25/feedback-genomics-master-course/" rel="alternate" type="text/html" title="Galaxy enhances Introduction to Genomics as part of Master program in Belgrade, by Nevena Veljkovic" /><published>2019-01-25T00:00:00+01:00</published><updated>2019-01-25T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2019/01/25/feedback-genomics-master-course</id><content type="html" xml:base="https://galaxyproject.eu/posts/2019/01/25/feedback-genomics-master-course/">&lt;p&gt;This semester, the &lt;a href=&quot;http://bg.ac.rs/en/members/faculties/FB.php&quot; target=&quot;_blank&quot;&gt;Faculty of Biology at the University of Belgrade&lt;/a&gt; offered for the first time
-an elective master course &lt;strong&gt;Introduction to Genomics&lt;/strong&gt; which included several hands-on sessions on the Galaxy platform.&lt;/p&gt;
-
-&lt;p&gt;Lectures in this course were open to everyone and soon after the hands-on sessions 
-started, several PhD students joined the 8 master students attending the course. During the classes we worked on RNA-seq analyses and variant calling.&lt;/p&gt;
-
-&lt;p&gt;Students were interested and deeply engaged. In the end, this first generation completed the course
-with excellent marks and was (based on their feedback) satisfied with the perspective in data science 
-that Galaxy has opened to them.&lt;/p&gt;
-
-&lt;p&gt;The European Galaxy project team was very helpful in providing the training resources (via &lt;a href=&quot;https://galaxyproject.eu/tiaas&quot;&gt;TIaaS&lt;/a&gt;)
-and in responding to our questions. Thank you!&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Nevena Veljkovic, lecturer &lt;strong&gt;Introduction to Genomics&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;</content><author><name></name></author><category term="training" /><summary type="html">This semester, the Faculty of Biology at the University of Belgrade offered for the first time an elective master course Introduction to Genomics which included several hands-on sessions on the Galaxy platform.</summary></entry></feed>
+&lt;strong&gt;Please take a few minutes to vote which ones should be offered at GCC2019! Thank you!&lt;/strong&gt;&lt;/p&gt;</content><author><name></name></author><category term="training" /><summary type="html">The Galaxy Community Conference starts with training but also continues with training throughout the conference. The community proposed some topics and now you need to vote to select the ones offered at GCC2019! Please take a few minutes to vote which ones should be offered at GCC2019! Thank you!</summary></entry></feed>

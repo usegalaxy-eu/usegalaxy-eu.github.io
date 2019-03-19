@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  <title>Galaxy Europe | New Paper - Biomolecular Reaction and Interaction Dynamics Global Environment (BRIDGE)</title>
-  <meta property="og:title" content="New Paper - Biomolecular Reaction and Interaction Dynamic..." />
-  <meta property="og:description" content="In collaboration with our cooperation partner at the Scie..." />
+  <title>Galaxy Europe | UseGalaxy.eu Downtime on 18th March</title>
+  <meta property="og:title" content="UseGalaxy.eu Downtime on 18th March" />
+  <meta property="og:description" content="A normal upgrade went awry and we had to restore some dat..." />
   <meta property="og:image" content="/assets/media/galaxy-eu-logo.512.png" />
   <meta name="description" content="The European Galaxy Instance">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,7 +16,7 @@
 
 
 
-  <link rel="canonical" href="https://galaxyproject.eu/posts/2019/03/15/bridge/">
+  <link rel="canonical" href="https://galaxyproject.eu/posts/2019/03/18/galaxy-downtime/">
   <link rel="shortcut icon" href="/assets/media/galaxy-eu-logo.64.png" type="image/x-icon" />
   <link rel="alternate" type="application/rss+xml" title="Galaxy Europe" href="/feed.xml">
 
@@ -131,18 +131,18 @@
 <section id="news-page">
   <div class="row news-header-row">
     
-    <a class="col-xs-1 text-center" href="/posts/2019/03/14/chimera-and-the-cyborg/">
+    <a class="col-xs-1 text-center" href="/posts/2019/03/15/bridge/">
       «
     </a>
     
     <div class="col-xs-10 ">
       <div class="text-center">
-        <h2 class="title">New Paper - Biomolecular Reaction and Interaction Dynamics Global Environment (BRIDGE)</h2>
+        <h2 class="title">UseGalaxy.eu Downtime on 18th March</h2>
       </div>
       <hr />
     </div>
     
-    <a class="col-xs-1 text-center" href="/posts/2019/03/18/galaxy-downtime/">
+    <a class="col-xs-1 text-center" href="/posts/2019/03/19/galaxy-1901/">
       »
     </a>
     
@@ -153,25 +153,75 @@
         <div class="col-md-6">
             
 
+
+
+
+
+
+
+
+
+
+
+By: <a href="/people/#erasche">
+    <img src="https://avatars.githubusercontent.com/erasche" style="height: 2em">
+    Helena Rasche
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         </div>
         <div class="col-md-6 text-right">
           <div>
             <span class="post-date">
-              Mar 15, 2019
+              Mar 18, 2019
             </span>
 
+            
+            <br />
+            <span class="post-location">
+                UseGalaxy.eu
+            </span>
             
 
             <br />
             <span class="post-tags">
                 <span class="label label-success">Freiburg</span>
               
-                <span class="label label-info">paper</span>
+                <span class="label label-info">devops</span>
               
+                <span class="label label-info">downtime</span>
               
-                <a href="https://dx.doi.org/10.1093/bioinformatics/btz107">
-                <span class="label label-warning">DOI:10.1093/bioinformatics/btz107</span>
-                </a>
               
             </span>
 
@@ -185,71 +235,97 @@
   <div class="row">
     <div class="col-md-8 col-md-offset-2">
       <div class="news-content">
-        <p>In collaboration with our cooperation partner at the Scientific Computing Research Unit, University of Cape Town, we have recently published <a href="https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btz107/5317160">“Biomolecular Reaction and Interaction Dynamics Global Environment (BRIDGE)”</a>. This publication provides a basis for performing molecular dynamics simulations and analysis through Galaxy, using a number of commonly used packages, such as NAMD, GROMACS and CHARMM (for simulation) and Bio3D and MDAnalysis (for analysis).</p>
+        <p>A normal upgrade went awry and we had to restore some data from backup. We had a total downtime of around 20 hours.</p>
 
-<p>Concurrently, we are publishing a new flavor of Galaxy for computational chemistry (located <a href="https://cheminformatics.usegalaxy.eu/">here</a>) which we will continue to develop by adding further molecular dynamics and cheminformatics tools. We hope you find it useful - any feedback is appreciated!</p>
+<h2 id="incident-timeline">Incident Timeline</h2>
 
-<h2 id="abstract">Abstract</h2>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Date</th>
+      <th>Time</th>
+      <th>State</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>March 18</td>
+      <td>16:00</td>
+      <td>We began the upgrade procedure, expecting it to proceed smoothly</td>
+    </tr>
+    <tr>
+      <td>March 18</td>
+      <td>18:45</td>
+      <td>A database migration fails in a bad way. Attempts to recover the situation were not successful. We decide to restore from backup.</td>
+    </tr>
+    <tr>
+      <td>March 18</td>
+      <td>19:45</td>
+      <td>Backup restore finishes. It was made minutes too late. We decide to re-restore from the most recent backup, and manually extract the needed table from the previous backup.</td>
+    </tr>
+    <tr>
+      <td>March 18</td>
+      <td>20:30</td>
+      <td>We updated our website to reflect the current situation.</td>
+    </tr>
+    <tr>
+      <td>March 18</td>
+      <td>21:00</td>
+      <td>We manage to get the database in a partially functional state and debug a problem with zerglings where they refuse to serve 19.01.</td>
+    </tr>
+    <tr>
+      <td>March 18</td>
+      <td>22:00</td>
+      <td>Due to stress of the incident, Helena identifies that it is likely her error rate will increase if she continues working, maybe with disastrous consequences and stops for the evening.</td>
+    </tr>
+    <tr>
+      <td>March 19</td>
+      <td>08:00</td>
+      <td>Helena recovers the broken table and manually applies the database migration.</td>
+    </tr>
+    <tr>
+      <td>March 19</td>
+      <td>10:00</td>
+      <td>We discover additional issues with the new options, namely some upstream bugs we accidentally triggered. The server is kept closed until these issues are resolved.</td>
+    </tr>
+    <tr>
+      <td>March 19</td>
+      <td>11:40</td>
+      <td>UseGalaxy.eu is back online</td>
+    </tr>
+  </tbody>
+</table>
 
-<blockquote>
-  <p><strong>Motivation</strong></p>
+<p>The <code class="highlighter-rouge">workflow_step_connection</code> table was partially corrupted as part of the
+failed migration. It is likely that had we not tried to re-run upgrades, and
+had not tried to manually apply the table changes, we could have prevented the
+small loss of any new workflow connections created on Monday. We cannot say
+this for certain, but it is probably. In the future we can do a lot to
+safeguard against similar errors.</p>
 
-  <p>The pathway from genomics through proteomics and onto a molecular description of biochemical processes makes the discovery of drugs and biomaterials possible. A research framework common to genomics and proteomics is needed to conduct biomolecular simulations that will connect biological data to the dynamic molecular mechanisms of enzymes and proteins. Novice biomolecular modelers are faced with the daunting task of complex setups and a myriad of possible choices preventing their use of molecular simulations and their ability to conduct reliable and reproducible computations that can be shared with collaborators and verified for procedural accuracy.</p>
+<h2 id="resolution">Resolution</h2>
 
-  <p><strong>Results</strong></p>
+<p>We have planned since some time that we will have a test Galaxy where we can
+test out these upgrades ahead of time, but unfortunately it has not been
+possible to allocate time to this project, given the current priority/urgency
+matrix. This task will be re-prioritised following this incident.</p>
 
-  <p>We present the foundations of Biomolecular Reaction and Interaction Dynamics Global Environment (BRIDGE) developed on the Galaxy platform that makes possible fundamental molecular dynamics of proteins through workflows and pipelines via commonly used packages, such as NAMD, GROMACS and CHARMM. BRIDGE can be used to set up and simulate biological macromolecules, perform conformational analysis from trajectory data and conduct data analytics of large scale protein motions using statistical rigor. We illustrate the basic BRIDGE simulation and analytics capabilities on a previously reported CBH1 protein simulation.</p>
+<p>We will adjust our backup procedures before upgrades. Currently given the
+extremely positive experiences and relative safety of database migrations in
+the past years of running UseGalaxy.eu, we do not make backups before an
+upgrade, and rely only on the normal daily backups. We will investigate the
+possibility to trigger a backup immediately before any database changes, to
+prevent similar issues in the future.</p>
 
-  <p><strong>Availability and implementation</strong></p>
+<h2 id="conclusion">Conclusion</h2>
 
-  <p>Publicly available at https://github.com/scientificomputing/BRIDGE and https://usegalaxy.eu</p>
-
-  <p><strong>Supplementary information</strong></p>
-
-  <p>Supplementary data are available at Bioinformatics online.</p>
-</blockquote>
-
+<p>This was a significant interruption to our services for what should have been a
+simple upgrade. We apologise for the inconvenience this has caused.</p>
 
       </div>
     </div>
   </div>
 
-
-<div id="supported">
-    
-  <h3>Supported by</h3>
-    
-  <div class="row eu-image-box">
-      
-      <div>
-      
-          
-            <a href="https://www.denbi.de" target="_blank">
-              <img alt="de.NBI logo" src="/assets/media/deNBI_Logo_rgb_small.png" class="img-responsive eu-image"/>
-            </a>
-          
-      </div>
-      
-      <div>
-      
-          
-            <a href="https://www.elixir-europe.org" target="_blank">
-              <img alt="ELIXIR logo" src="/assets/media/elixir_logo_white_background.png" class="img-responsive eu-image" />
-            </a>
-          
-      </div>
-      
-      <div>
-      
-          
-            <a href="https://www.alwr-bw.de/kooperationen/vice/" target="_blank">
-              <img alt="ViCE logo" src="/assets/media/Logo_VICE.png" class="img-responsive eu-image" />
-            </a>
-          
-      </div>
-      
-  </div>
-</div>
 
 
 </section>
@@ -285,7 +361,7 @@ unless otherwise specified.</p>
         <div class="row">
             <div class="col-lg-12" style="text-align:center">
                 <ul class="contact-info">
-                    <li><i class="fa fa-github"></i><a href="https://github.com/usegalaxy-eu/website/tree/master/_posts/2019-03-15-bridge.md">Edit this page on GitHub</a></li>
+                    <li><i class="fa fa-github"></i><a href="https://github.com/usegalaxy-eu/website/tree/master/_posts/2019-03-18-galaxy-downtime.md">Edit this page on GitHub</a></li>
                     
                       <li><i class="fa fa-envelope"></i><a href="mailto:freiburg@usegalaxy.eu">freiburg@usegalaxy.eu</a></li>
                     
