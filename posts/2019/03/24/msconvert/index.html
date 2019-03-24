@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  <title>Galaxy Europe | UseGalaxy.eu update to 19.01</title>
-  <meta property="og:title" content="UseGalaxy.eu update to 19.01" />
-  <meta property="og:description" content="We’ve updated our Galaxy server to version 19.01.
-
-" />
+  <title>Galaxy Europe | Convert mass spectrometry data file formats with msconvert</title>
+  <meta property="og:title" content="Convert mass spectrometry data file formats with msconvert" />
+  <meta property="og:description" content="msconvert is a tool to
+convert mass spectrometry data fil..." />
   <meta property="og:image" content="/assets/media/galaxy-eu-logo.512.png" />
   <meta name="description" content="The European Galaxy Instance">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,7 +17,7 @@
 
 
 
-  <link rel="canonical" href="https://galaxyproject.eu/posts/2019/03/19/galaxy-1901/">
+  <link rel="canonical" href="https://galaxyproject.eu/posts/2019/03/24/msconvert/">
   <link rel="shortcut icon" href="/assets/media/galaxy-eu-logo.64.png" type="image/x-icon" />
   <link rel="alternate" type="application/rss+xml" title="Galaxy Europe" href="/feed.xml">
 
@@ -133,20 +132,16 @@
 <section id="news-page">
   <div class="row news-header-row">
     
-    <a class="col-xs-1 text-center" href="/posts/2019/03/18/galaxy-downtime/">
+    <a class="col-xs-1 text-center" href="/posts/2019/03/19/galaxy-1901/">
       «
     </a>
     
     <div class="col-xs-10 ">
       <div class="text-center">
-        <h2 class="title">UseGalaxy.eu update to 19.01</h2>
+        <h2 class="title">Convert mass spectrometry data file formats with msconvert</h2>
       </div>
       <hr />
     </div>
-    
-    <a class="col-xs-1 text-center" href="/posts/2019/03/24/msconvert/">
-      »
-    </a>
     
   </div>
   <div class="row post-metadata">
@@ -155,60 +150,18 @@
         <div class="col-md-6">
             
 
-
-
-
-
-
-
-
-
-
-
-By: <a href="/people/#erasche">
-    <img src="https://avatars.githubusercontent.com/erasche" style="height: 2em">
-    Helena Rasche
-</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         </div>
         <div class="col-md-6 text-right">
           <div>
             <span class="post-date">
-              Mar 19, 2019
+              Mar 24, 2019
             </span>
 
+            
+            <br />
+            <span class="post-location">
+                Galaxy Europe
+            </span>
             
 
             <br />
@@ -230,52 +183,57 @@ By: <a href="/people/#erasche">
   <div class="row">
     <div class="col-md-8 col-md-offset-2">
       <div class="news-content">
-        <p>We’ve updated our Galaxy server to version 19.01.</p>
+        <p><a href="https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/galaxyp/msconvert/msconvert/3.0.19052.0" target="_blank">msconvert</a> is a tool to
+convert mass spectrometry data file formats.</p>
 
-<h1 id="galaxy-upgrade">Galaxy Upgrade</h1>
+<p>A list of supported file formats is given below:</p>
 
-<p>We had expected this to be a short downtime since upgrades have been
-increasingly smooth since 18.09. Unfortunately for reasons we are still
-investigating the upgraded version did not funtion with our server setup. We
-have updated our system to respond to this, and after some downtime Galaxy is
-again online. We apologise for the inconvenience this has caused.</p>
+<ul>
+  <li>agilentbrukeryep.d.tar</li>
+  <li>agilentmasshunter.d.tar</li>
+  <li>brukerbaf.d.tar</li>
+  <li>brukertdf.d.tar</li>
+  <li>watersmasslynx.raw.tar</li>
+  <li>thermo.raw</li>
+  <li>wiff</li>
+  <li>wiff.tar</li>
+  <li>mzml</li>
+  <li>mzxml</li>
+  <li>mz5</li>
+  <li>mgf</li>
+  <li>ms2</li>
+</ul>
 
-<h2 id="new-features">New Features</h2>
+<p>This tool is special in multiple ways. At first its one of the few tools that only runs in a very special Container, created by Dr. Matt Chambers, including
+<a href="https://www.winehq.org/">Wine</a> and <a href="http://www.proteowizard.org/">Proteowizard</a>. This is because many of the underlying libraries do need a Windows runtime environment
+and Matt found a way to make this available in a Container so Galaxy Europe and all others can use it on there Cloud systems.</p>
 
-<p>The latest Galaxy release includes lots of awesome new features:</p>
+<p>Because <a href="https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/galaxyp/msconvert/msconvert/3.0.19052.0" target="_blank">msconvert</a> is part of
+<a href="http://www.proteowizard.org/">Proteowizard</a> you need to agree with the <a href="http://www.proteowizard.org/licenses.html">vendor licenses</a> before you can use this tool.</p>
 
-<p><strong>Revised UI Style</strong></p>
-
-<p>The Galaxy styling has been substantially reworked resulting in the largest visual refresh to Galaxy in years. It should provide a much cleaner and more consistent interface.</p>
-
-<p><img src="/assets/media/19.01-revised-ui.png" alt="Revised UI style cleans up the UI to be more consistent and clear" /></p>
-
-<p><strong>More Colourful Tags</strong></p>
-
-<p>Whenever you use dataset name tags (<code class="highlighter-rouge">#tag</code>), they will randomly be assigned a color. The colors are consistent; anywhere that tag with the same text appears in your history, it will have the same color. This should increase visual distinction between similarly shaped words, making it easier to track data flow in complex analyses.</p>
-
-<p><img src="/assets/media/19.01-colourful-tags.png" alt="Tags are now randomly assigned a consistent colour, helping you to distinguish between similarly shaped words" /></p>
-
-<p><strong>Extensive Workflow Enhancements</strong></p>
-
-<p>The workflow editor now features new tool-like inputs which provide non-file data (such as numbers, text, true/false, colors) which can be connected to tool inputs. You are no longer restricted to only using files as inputs to tools!</p>
-
-<p><img src="/assets/media/19.01-new-wf-inputs.png" alt="Workflow inputs are available at the top of the workflow editor menu, under &quot;Inputs&quot;" /></p>
-
-<p>The workflow editor allows you to specify that specific inputs should be exposed, and can thus be connected to the new workflow inputs.</p>
-
-<p><img src="/assets/media/19.01-new-wf-types.png" alt="The new inputs can be assigned a data type" /></p>
-
-<p><strong>New Help Site</strong></p>
-
-<p>There’s a new discussion forum to replace Biostars. It is accessible under the ‘Help’ menu on some Galaxies, or at https://help.galaxyproject.org</p>
-
-<p><img src="/assets/media/19.01-help-site.png" alt="Galaxy's new help forum which replaces biostars" /></p>
 
       </div>
     </div>
   </div>
 
+
+<div id="supported">
+    
+  <h3>Supported by</h3>
+    
+  <div class="row eu-image-box">
+      
+      <div>
+      
+          
+            <a href="https://www.elixir-europe.org" target="_blank">
+              <img alt="ELIXIR logo" src="/assets/media/elixir_logo_white_background.png" class="img-responsive eu-image" />
+            </a>
+          
+      </div>
+      
+  </div>
+</div>
 
 
 </section>
@@ -311,7 +269,7 @@ unless otherwise specified.</p>
         <div class="row">
             <div class="col-lg-12" style="text-align:center">
                 <ul class="contact-info">
-                    <li><i class="fa fa-github"></i><a href="https://github.com/usegalaxy-eu/website/tree/master/_posts/2019-03-19-galaxy-1901.md">Edit this page on GitHub</a></li>
+                    <li><i class="fa fa-github"></i><a href="https://github.com/usegalaxy-eu/website/tree/master/_posts/2019-03-24-msconvert.md">Edit this page on GitHub</a></li>
                     
                       <li><i class="fa fa-envelope"></i><a href="mailto:freiburg@usegalaxy.eu">freiburg@usegalaxy.eu</a></li>
                     

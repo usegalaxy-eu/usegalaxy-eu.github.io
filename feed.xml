@@ -1,4 +1,30 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2019-03-23T17:44:21+01:00</updated><id>https://galaxyproject.eu/</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu update to 19.01</title><link href="https://galaxyproject.eu/posts/2019/03/19/galaxy-1901/" rel="alternate" type="text/html" title="UseGalaxy.eu update to 19.01" /><published>2019-03-19T00:00:00+01:00</published><updated>2019-03-19T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2019/03/19/galaxy-1901</id><content type="html" xml:base="https://galaxyproject.eu/posts/2019/03/19/galaxy-1901/">&lt;p&gt;We’ve updated our Galaxy server to version 19.01.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2019-03-24T13:11:17+01:00</updated><id>https://galaxyproject.eu/</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">Convert mass spectrometry data file formats with msconvert</title><link href="https://galaxyproject.eu/posts/2019/03/24/msconvert/" rel="alternate" type="text/html" title="Convert mass spectrometry data file formats with msconvert" /><published>2019-03-24T00:00:00+01:00</published><updated>2019-03-24T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2019/03/24/msconvert</id><content type="html" xml:base="https://galaxyproject.eu/posts/2019/03/24/msconvert/">&lt;p&gt;&lt;a href=&quot;https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/galaxyp/msconvert/msconvert/3.0.19052.0&quot; target=&quot;_blank&quot;&gt;msconvert&lt;/a&gt; is a tool to
+convert mass spectrometry data file formats.&lt;/p&gt;
+
+&lt;p&gt;A list of supported file formats is given below:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;agilentbrukeryep.d.tar&lt;/li&gt;
+  &lt;li&gt;agilentmasshunter.d.tar&lt;/li&gt;
+  &lt;li&gt;brukerbaf.d.tar&lt;/li&gt;
+  &lt;li&gt;brukertdf.d.tar&lt;/li&gt;
+  &lt;li&gt;watersmasslynx.raw.tar&lt;/li&gt;
+  &lt;li&gt;thermo.raw&lt;/li&gt;
+  &lt;li&gt;wiff&lt;/li&gt;
+  &lt;li&gt;wiff.tar&lt;/li&gt;
+  &lt;li&gt;mzml&lt;/li&gt;
+  &lt;li&gt;mzxml&lt;/li&gt;
+  &lt;li&gt;mz5&lt;/li&gt;
+  &lt;li&gt;mgf&lt;/li&gt;
+  &lt;li&gt;ms2&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This tool is special in multiple ways. At first its one of the few tools that only runs in a very special Container, created by Dr. Matt Chambers, including
+&lt;a href=&quot;https://www.winehq.org/&quot;&gt;Wine&lt;/a&gt; and &lt;a href=&quot;http://www.proteowizard.org/&quot;&gt;Proteowizard&lt;/a&gt;. This is because many of the underlying libraries do need a Windows runtime environment
+and Matt found a way to make this available in a Container so Galaxy Europe and all others can use it on there Cloud systems.&lt;/p&gt;
+
+&lt;p&gt;Because &lt;a href=&quot;https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/galaxyp/msconvert/msconvert/3.0.19052.0&quot; target=&quot;_blank&quot;&gt;msconvert&lt;/a&gt; is part of
+&lt;a href=&quot;http://www.proteowizard.org/&quot;&gt;Proteowizard&lt;/a&gt; you need to agree with the &lt;a href=&quot;http://www.proteowizard.org/licenses.html&quot;&gt;vendor licenses&lt;/a&gt; before you can use this tool.&lt;/p&gt;</content><author><name></name></author><category term="release" /><summary type="html">msconvert is a tool to convert mass spectrometry data file formats.</summary></entry><entry><title type="html">UseGalaxy.eu update to 19.01</title><link href="https://galaxyproject.eu/posts/2019/03/19/galaxy-1901/" rel="alternate" type="text/html" title="UseGalaxy.eu update to 19.01" /><published>2019-03-19T00:00:00+01:00</published><updated>2019-03-19T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2019/03/19/galaxy-1901</id><content type="html" xml:base="https://galaxyproject.eu/posts/2019/03/19/galaxy-1901/">&lt;p&gt;We’ve updated our Galaxy server to version 19.01.&lt;/p&gt;
 
 &lt;h1 id=&quot;galaxy-upgrade&quot;&gt;Galaxy Upgrade&lt;/h1&gt;
 
@@ -307,6 +333,4 @@ qrst
   &lt;li&gt;
     &lt;p&gt;(Optional) If needed, remove the additional column with the &lt;a href=&quot;https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/1.1.0&quot;&gt;Cut tool&lt;/a&gt;.&lt;/p&gt;
   &lt;/li&gt;
-&lt;/ol&gt;</content><author><name></name></author><category term="training" /><summary type="html">Last week we got a request from on of our users with a tricky question:</summary></entry><entry><title type="html">Vote for the Training during the next Galaxy Community Conference</title><link href="https://galaxyproject.eu/posts/2019/01/27/GCC-training-vote/" rel="alternate" type="text/html" title="Vote for the Training during the next Galaxy Community Conference" /><published>2019-01-27T00:00:00+01:00</published><updated>2019-01-27T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2019/01/27/GCC-training-vote</id><content type="html" xml:base="https://galaxyproject.eu/posts/2019/01/27/GCC-training-vote/">&lt;p&gt;The Galaxy Community Conference starts with training but also continues with training throughout the conference.
-The community proposed some topics and now &lt;strong&gt;you need to vote&lt;/strong&gt; to select the ones offered at GCC2019!
-&lt;strong&gt;Please take a few minutes to vote which ones should be offered at GCC2019! Thank you!&lt;/strong&gt;&lt;/p&gt;</content><author><name></name></author><category term="training" /><summary type="html">The Galaxy Community Conference starts with training but also continues with training throughout the conference. The community proposed some topics and now you need to vote to select the ones offered at GCC2019! Please take a few minutes to vote which ones should be offered at GCC2019! Thank you!</summary></entry></feed>
+&lt;/ol&gt;</content><author><name></name></author><category term="training" /><summary type="html">Last week we got a request from on of our users with a tricky question:</summary></entry></feed>
