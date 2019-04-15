@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <title>Galaxy Europe | FASTQC jobs and very long reads</title>
+  <meta property="og:title" content="FASTQC jobs and very long reads" />
+  <meta property="og:description" content="Over the past few weeks we saw many FASTQC jobs running f..." />
+  <meta property="og:image" content="/assets/media/galaxy-eu-logo.512.png" />
+  <meta name="description" content="The European Galaxy Instance">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+
+
+
+
+  <link rel="canonical" href="https://galaxyproject.eu/posts/2019/04/14/fastqc-long-reads/plain.html">
+  <link rel="shortcut icon" href="/assets/media/galaxy-eu-logo.64.png" type="image/x-icon" />
+  <link rel="alternate" type="application/rss+xml" title="Galaxy Europe" href="/feed.xml">
+
+  <link href="/assets/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <script src="/assets/js/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
+  <script src="/assets/js/bootstrap.min.js" integrity="sha256-U5ZEeKfGNOja007MMD3YBI0A3OSZOQbeG6z2f2Y0hu8=" crossorigin="anonymous"></script>
+</head>
+
+  <body>
+    <div id="wrap">
+      <div id="main">
+        <div class="container" id="maincontainer">
+          
+
+
+
+
+<section id="news-page">
+  <div class="row news-header-row">
+    
+    <a class="col-xs-1 text-center" href="/posts/2019/04/06/tool-update/plain.html">
+      «
+    </a>
+    
+    <div class="col-xs-10 ">
+      <div class="text-center">
+        <h2 class="title">FASTQC jobs and very long reads</h2>
+      </div>
+      <hr />
+    </div>
+    
+  </div>
+  <div class="row post-metadata">
+    <div class="col-md-8 col-md-offset-2">
+      <div class="row">
+        <div class="col-md-6">
+            
+
+        </div>
+        <div class="col-md-6 text-right">
+          <div>
+            <span class="post-date">
+              Apr 14, 2019
+            </span>
+
+            
+            <br />
+            <span class="post-location">
+                Galaxy Europe
+            </span>
+            
+
+            <br />
+            <span class="post-tags">
+                <span class="label label-success">Freiburg</span>
+              
+                <span class="label label-info">devops</span>
+              
+                <span class="label label-info">tools</span>
+              
+              
+            </span>
+
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2">
+      <div class="news-content">
+        <p>Over the past few weeks we saw many <a href="/?tool_id=toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.72">FASTQC</a> jobs running for days or even longer, which is not normal.
+We investigated this and saw that all of those jobs are processing files with unusually long reads.</p>
+
+<p>We are excited to see that our instance is used more and more for processing data from fourth-generation DNA sequencing technology!</p>
+
+<p>However, FASTQC seems to have a problem with that so we updated the tool and tried to understand what is going on.
+We finally found that FASTQC has a hard-coded parameter (-Xmx250m) to restrict the Java virtual machine to a certain amount of memory.
+Increasing this value made all of our tests much faster for very long reads and we hope to speed up your computation from days to minutes.</p>
+
+<p>We will kill long running jobs that do not finish in a few days, all that you need to do is restart the job and it should finish way faster.
+Please get in <a href="mailto:contact@usegalaxy.eu">contact</a> with us, if you still see problems with FASTQC.</p>
+
+<p>Please also have a look at <a href="/?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/">fastp</a> as an alternative tool, that also
+provides some quality metrics.</p>
+
+<p>Finally, if you have data with very long reads have a look in your tool panel - there should be a Nanopore section with a lot of useful tools for ONT data.</p>
+
+      </div>
+    </div>
+  </div>
+
+
+
+</section>
+
+        </div>
+      </div>
+    </div>
+    
+
+
+
+
+
+<footer class="navbar-default">
+    <div class="container">
+        <div class="row">
+        </div>
+        <div class="row">
+            <div class="col-lg-12" style="text-align:center">
+                <p>The <a href="/freiburg/people">Freiburg Galaxy Team</a> is headed by Björn Grüning
+and is part of the <a href="http://www.bioinf.uni-freiburg.de">Bioinformatics Group
+Freiburg</a>, headed by Prof. Dr. Rolf
+Backofen.</p>
+
+<p>The team is part of <a href="https://www.denbi.de">de.NBI</a> and
+<a href="https://www.elixir-europe.org">ELIXIR</a> and largely funded by
+<a href="http://dfg.de/">DFG</a> and <a href="https://www.bmbf.de">BMBF</a>. All content on
+this site is available under <a href="https://creativecommons.org/share-your-work/public-domain/cc0/">CC0-1.0</a>,
+unless otherwise specified.</p>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12" style="text-align:center">
+                <ul class="contact-info">
+                    <li><i class="fa fa-github"></i><a href="https://github.com/usegalaxy-eu/website/tree/master/_posts_plain/2019-04-14-fastqc-long-reads.md">Edit this page on GitHub</a></li>
+                    
+                      <li><i class="fa fa-envelope"></i><a href="mailto:freiburg@usegalaxy.eu">freiburg@usegalaxy.eu</a></li>
+                    
+                    
+                      <li><i class="fa fa-github"></i><a href="https://github.com/usegalaxy-eu">usegalaxy-eu</a></li>
+                    
+                    
+                      <li><i class="fa fa-twitter"></i><a href="https://twitter.com/galaxyproject">galaxyproject</a></li>
+                    
+                      <li><i class="fa fa-rss"></i>Subscribe <a href="/feed.xml">via RSS (UseGalaxy.eu Feed)</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+  </body>
+</html>
