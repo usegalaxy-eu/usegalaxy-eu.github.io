@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2019-05-15T17:44:33+02:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">The RNA workbench 2.0: next generation RNA data analysis</title><link href="https://galaxyproject.eu/posts/2019/05/10/rna-workbench-2/" rel="alternate" type="text/html" title="The RNA workbench 2.0: next generation RNA data analysis" /><published>2019-05-10T00:00:00+02:00</published><updated>2019-05-10T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2019/05/10/rna-workbench-2</id><content type="html" xml:base="https://galaxyproject.eu/posts/2019/05/10/rna-workbench-2/">&lt;p&gt;A new significant update of our RNA workbench was released! You can access the new tools, workflows, tours and tutorials at &lt;a href=&quot;http://rna.usegalaxy.eu/&quot;&gt;http://rna.usegalaxy.eu/&lt;/a&gt;.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2019-05-16T09:35:51+02:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">Galaxy Workshop registration open!</title><link href="https://galaxyproject.eu/posts/2019/05/10/Galaxy-HTS-registration/" rel="alternate" type="text/html" title="Galaxy Workshop registration open!" /><published>2019-05-10T00:00:00+02:00</published><updated>2019-05-10T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2019/05/10/Galaxy-HTS-registration</id><content type="html" xml:base="https://galaxyproject.eu/posts/2019/05/10/Galaxy-HTS-registration/">&lt;p&gt;The registration for our next Galaxy Workshop on HTS data analysis from 23-27 September 2019 in Freiburg is open.
+We have 30 places. More information can be found in &lt;a href=&quot;https://galaxyproject.eu/event/2019-05-08-GalaxyHTS.Freiburg.September2019/&quot;&gt;events&lt;/a&gt; on our homepage.&lt;/p&gt;</content><author><name></name></author><category term="training" /><summary type="html">The registration for our next Galaxy Workshop on HTS data analysis from 23-27 September 2019 in Freiburg is open. We have 30 places. More information can be found in events on our homepage.</summary></entry><entry><title type="html">The RNA workbench 2.0: next generation RNA data analysis</title><link href="https://galaxyproject.eu/posts/2019/05/10/rna-workbench-2/" rel="alternate" type="text/html" title="The RNA workbench 2.0: next generation RNA data analysis" /><published>2019-05-10T00:00:00+02:00</published><updated>2019-05-10T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2019/05/10/rna-workbench-2</id><content type="html" xml:base="https://galaxyproject.eu/posts/2019/05/10/rna-workbench-2/">&lt;p&gt;A new significant update of our RNA workbench was released! You can access the new tools, workflows, tours and tutorials at &lt;a href=&quot;http://rna.usegalaxy.eu/&quot;&gt;http://rna.usegalaxy.eu/&lt;/a&gt;.
 Check out our &lt;a href=&quot;https://doi.org/10.1093/nar/gkz353&quot;&gt;new paper&lt;/a&gt; to get more information.&lt;/p&gt;
 
 &lt;p&gt;Thanks to the entire de.NBI-RBC team, Maria Doyle, Tomas Klingstrom and all others that have contributed in the last years.&lt;/p&gt;
@@ -1373,44 +1374,4 @@ convert mass spectrometry data file formats.&lt;/p&gt;
 and Matt found a way to make this available in a Container so Galaxy Europe and all others can use it on there Cloud systems.&lt;/p&gt;
 
 &lt;p&gt;Because &lt;a href=&quot;https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/galaxyp/msconvert/msconvert/3.0.19052.0&quot; target=&quot;_blank&quot;&gt;msconvert&lt;/a&gt; is part of
-&lt;a href=&quot;http://www.proteowizard.org/&quot;&gt;Proteowizard&lt;/a&gt; you need to agree with the &lt;a href=&quot;http://www.proteowizard.org/licenses.html&quot;&gt;vendor licenses&lt;/a&gt; before you can use this tool.&lt;/p&gt;</content><author><name></name></author><category term="release" /><summary type="html">msconvert is a tool to convert mass spectrometry data file formats.</summary></entry><entry><title type="html">UseGalaxy.eu update to 19.01</title><link href="https://galaxyproject.eu/posts/2019/03/19/galaxy-1901/" rel="alternate" type="text/html" title="UseGalaxy.eu update to 19.01" /><published>2019-03-19T00:00:00+01:00</published><updated>2019-03-19T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2019/03/19/galaxy-1901</id><content type="html" xml:base="https://galaxyproject.eu/posts/2019/03/19/galaxy-1901/">&lt;p&gt;We’ve updated our Galaxy server to version 19.01.&lt;/p&gt;
-
-&lt;h1 id=&quot;galaxy-upgrade&quot;&gt;Galaxy Upgrade&lt;/h1&gt;
-
-&lt;p&gt;We had expected this to be a short downtime since upgrades have been
-increasingly smooth since 18.09. Unfortunately for reasons we are still
-investigating the upgraded version did not funtion with our server setup. We
-have updated our system to respond to this, and after some downtime Galaxy is
-again online. We apologise for the inconvenience this has caused.&lt;/p&gt;
-
-&lt;h2 id=&quot;new-features&quot;&gt;New Features&lt;/h2&gt;
-
-&lt;p&gt;The latest Galaxy release includes lots of awesome new features:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Revised UI Style&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;The Galaxy styling has been substantially reworked resulting in the largest visual refresh to Galaxy in years. It should provide a much cleaner and more consistent interface.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/media/19.01-revised-ui.png&quot; alt=&quot;Revised UI style cleans up the UI to be more consistent and clear&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;More Colourful Tags&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Whenever you use dataset name tags (&lt;code class=&quot;highlighter-rouge&quot;&gt;#tag&lt;/code&gt;), they will randomly be assigned a color. The colors are consistent; anywhere that tag with the same text appears in your history, it will have the same color. This should increase visual distinction between similarly shaped words, making it easier to track data flow in complex analyses.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/media/19.01-colourful-tags.png&quot; alt=&quot;Tags are now randomly assigned a consistent colour, helping you to distinguish between similarly shaped words&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Extensive Workflow Enhancements&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;The workflow editor now features new tool-like inputs which provide non-file data (such as numbers, text, true/false, colors) which can be connected to tool inputs. You are no longer restricted to only using files as inputs to tools!&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/media/19.01-new-wf-inputs.png&quot; alt=&quot;Workflow inputs are available at the top of the workflow editor menu, under &amp;quot;Inputs&amp;quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The workflow editor allows you to specify that specific inputs should be exposed, and can thus be connected to the new workflow inputs.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/media/19.01-new-wf-types.png&quot; alt=&quot;The new inputs can be assigned a data type&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;New Help Site&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;There’s a new discussion forum to replace Biostars. It is accessible under the ‘Help’ menu on some Galaxies, or at https://help.galaxyproject.org&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/media/19.01-help-site.png&quot; alt=&quot;Galaxy's new help forum which replaces biostars&quot; /&gt;&lt;/p&gt;</content><author><name>erasche</name></author><category term="release" /><summary type="html">We’ve updated our Galaxy server to version 19.01.</summary></entry></feed>
+&lt;a href=&quot;http://www.proteowizard.org/&quot;&gt;Proteowizard&lt;/a&gt; you need to agree with the &lt;a href=&quot;http://www.proteowizard.org/licenses.html&quot;&gt;vendor licenses&lt;/a&gt; before you can use this tool.&lt;/p&gt;</content><author><name></name></author><category term="release" /><summary type="html">msconvert is a tool to convert mass spectrometry data file formats.</summary></entry></feed>
