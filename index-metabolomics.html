@@ -16,7 +16,7 @@
 
 
 
-  <link rel="canonical" href="https://galaxyproject.eu/">
+  <link rel="canonical" href="https://galaxyproject.eu/index-metabolomics.html">
   <link rel="shortcut icon" href="/assets/media/galaxy-eu-logo.64.png" type="image/x-icon" />
   <link rel="alternate" type="application/rss+xml" title="Galaxy Europe" href="/feed.xml">
 
@@ -25,91 +25,299 @@
   <script src="/assets/js/bootstrap.min.js" integrity="sha256-U5ZEeKfGNOja007MMD3YBI0A3OSZOQbeG6z2f2Y0hu8=" crossorigin="anonymous"></script>
 </head>
 
-
-    
-    
-    
-
-  <body class="">
+  <body>
     <div id="wrap">
       <div id="main">
-        <div class="navbar">
-
-  <div class="container">
-    
-    
-
-    
-    
-    
-
-    
-
-    <div class="navbar-header">
-      <div class="navbar-brand">
-        
-        <img alt="galaxy eu logo" src="/assets/media/galaxy-eu-logo.svg" style="height: 20px"/>
-        
-      </div>
-
-      <a class="navbar-brand" href="/" style="padding-left: 6px">
-        Galaxy Europe
-      </a>
-      
-    </div>
-
-      <div class="navbar-collapse collapse">
-        <ul class="nav navbar-nav navbar-right">
-           <li class="dropdown">
-             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Member Sites <span class="caret"></span></a>
-             <ul class="dropdown-menu">
-              
-                <li>
-                  <a class="page-link" href="/freiburg/">Freiburg</a>
-                </li>
-              
-                <li>
-                  <a class="page-link" href="/erasmusmc/">Erasmus MC</a>
-                </li>
-              
-                <li>
-                  <a class="page-link" href="/belgium/">Belgium</a>
-                </li>
-              
-                <li>
-                  <a class="page-link" href="/pasteur/">Pasteur</a>
-                </li>
-              
-             </ul>
-           </li>
-
-          
-          
-            <li>
-              <a class="page-link" href="/news">News</a>
-            </li>
-          
-            <li>
-              <a class="page-link" href="/events">Events</a>
-            </li>
-          
-            <li>
-              <a class="page-link" href="/people">People</a>
-            </li>
-          
-            <li>
-              <a class="page-link" href="/about">About</a>
-            </li>
-          
-          
-        </ul>
-      </div>
-  </div>
-</div>
-
         <div class="container" id="maincontainer">
           <div class="home">
-  <div class="row" id="carousel-eu-container">
+
+
+
+
+
+
+
+
+
+
+<div class="alert alert-success" style="margin-top: 0.5em">
+	<h4>GCC Registration Open!</h4>
+	
+	
+	<div>[3 May 2019 11:21] <p>Galaxy Community Conference (GCC) 2019 will be held in Freiburg, Germany 1-6 July and <a href="https://galaxyproject.org/events/gcc2019/">registration is now open</a>.
+The GCC aims at bringing together Galaxy Users, Developers and Administrators to learn from each other.
+Tell us about your use case, how we can improve Galaxy, present your work or attend one of the many training sessions.
+<a href="https://galaxyproject.org/events/gcc2019/registration/">Register now</a>!</p>
+</div>
+	
+</div>
+
+
+
+
+
+  <script>
+  ((window.gitter = {}).chat = {}).options = {
+    room: 'usegalaxy-eu/Lobby'
+  };
+</script>
+
+<script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async="" defer=""></script>
+
+<p><br /></p>
+
+<h1 class="no_toc" id="welcome-to-usegalaxyeu-metabolomics">Welcome to <strong>UseGalaxy.EU Metabolomics</strong></h1>
+
+<p><strong>Metabolomics.UseGalaxy.eu</strong> is a community driven metabolomics Galaxy service. The main aim is to give people a public space to discover and run metabolomics tools. If there is something that should be added, please let us know on <a href="https://gitter.im/usegalaxy-eu/Lobby">Gitter</a>.</p>
+
+<p>During the <a href="https://galaxyproject.org/events/gcc2019/">2019 Galaxy Community Conference</a> (GCC2019) metabolomics users and developers are invited to meet during a Birds of a Feather (BoF) event to plan the aims of this service.</p>
+
+<h1 class="no_toc" id="content">Content</h1>
+
+<ol id="markdown-toc">
+  <li><a href="#get-started" id="markdown-toc-get-started">Get started</a></li>
+  <li><a href="#training" id="markdown-toc-training">Training</a></li>
+  <li><a href="#available-tools" id="markdown-toc-available-tools">Available Tools</a>    <ol>
+      <li><a href="#workflow4metabolomics-tools" id="markdown-toc-workflow4metabolomics-tools">Workflow4Metabolomics Tools</a></li>
+      <li><a href="#workflow4metabolomics-related-tools" id="markdown-toc-workflow4metabolomics-related-tools">Workflow4Metabolomics Related Tools</a></li>
+    </ol>
+  </li>
+  <li><a href="#gateways" id="markdown-toc-gateways">Gateways</a></li>
+  <li><a href="#news-and-events" id="markdown-toc-news-and-events">News and Events</a></li>
+  <li><a href="#contributors" id="markdown-toc-contributors">Contributors</a></li>
+</ol>
+
+<h1 id="get-started">Get started</h1>
+
+<p>Are you new to Galaxy, or returning after a long time, and looking for help to get started? Take <a href="/tours/core.galaxy_ui" target="_blank">a guided tour</a> through Galaxy’s user interface.</p>
+
+<h1 id="training">Training</h1>
+
+<p>Want to learn more about metabolomics? Check out the following lesson tutorials from the <a href="https://galaxyproject.github.io/training-material/topics/metabolomics/" target="_blank">Galaxy Trainings Network</a>:</p>
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Lesson</th>
+      <th>Slides</th>
+      <th>Hands-on</th>
+      <th>Input dataset</th>
+      <th>Workflows</th>
+      <th>Galaxy tour</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Introduction to Metabolomics</td>
+      <td><a href="https://galaxyproject.github.io/training-material/topics/metabolomics/slides/introduction.html" target="_blank"><i class="fa fa-slideshare" aria-hidden="true"></i></a></td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Mass spectrometry imaging: Examining the spatial distribution of analytes</td>
+      <td> </td>
+      <td><a href="https://galaxyproject.github.io/training-material/topics/metabolomics/tutorials/msi-analyte-distribution/tutorial.html" target="_blank"><i class="fa fa-laptop" aria-hidden="true"></i></a></td>
+      <td><a href="https://zenodo.org/record/484496" target="_blank"><i class="topic-icon" aria-hidden="true"></i></a></td>
+      <td><a href="https://github.com/galaxyproject/training-material/tree/master/topics/metabolomics/tutorials/msi-analyte-distribution/workflows/" target="_blank"><i class="fa fa-share-alt" aria-hidden="true"></i></a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Mass spectrometry imaging: Examining the spatial distribution of analytes</td>
+      <td> </td>
+      <td><a href="https://galaxyproject.github.io/training-material/topics/metabolomics/tutorials/msi-finding-nglycans/tutorial.html" target="_blank"><i class="fa fa-laptop" aria-hidden="true"></i></a></td>
+      <td><a href="https://zenodo.org/record/2628280" target="_blank"><i class="topic-icon" aria-hidden="true"></i></a></td>
+      <td><a href="https://github.com/galaxyproject/training-material/tree/master/topics/metabolomics/tutorials/msi-finding-nglycans/workflows/" target="_blank"><i class="fa fa-share-alt" aria-hidden="true"></i></a></td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h1 id="available-tools">Available Tools</h1>
+
+<h2 id="workflow4metabolomics-tools">Workflow4Metabolomics Tools</h2>
+
+<table class="table table-striped tooltable">
+  <thead>
+    <tr>
+      <th>Tool</th>
+      <th>Descirption</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://github.com/workflow4metabolomics/xcms">xcms_xcmsset</a></td>
+      <td>[W4M][LC-MS] XCMS R Package - Preprocessing - peaks calling in NetCDF/mzXML files</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/workflow4metabolomics/xcms">xcms_group</a></td>
+      <td>[W4M][LC-MS] XCMS R Package - Preprocessing - Group peaks from different samples together</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/workflow4metabolomics/xcms">xcms_retcor</a></td>
+      <td>[W4M][LC-MS] XCMS R Package - Preprocessing - Correct retention time from different samples</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/workflow4metabolomics/tool-bank-lipidmaps.git">lipidmaps_textsearch</a></td>
+      <td>[W4M][LC-MS] LIPID MAPS Structure Database (LMSD) - Annotation - Returns annotation results from LIPID MAPS Structure Database and its Text/Ontology-based search engine.</td>
+    </tr>
+    <tr>
+      <td><a href="https://toolshed.g2.bx.psu.edu/view/mmonsoor/probmetab">probmetab</a></td>
+      <td>[W4M][LC-MS] ProbMetab - automatic probabilistic LC-MS based metabolome annotation</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/workflow4metabolomics/profia.git">profia</a></td>
+      <td>[W4M][FIA-HRMS] Preprocessing of Flow Injection Analysis coupled to High-Resolution Mass Spectrometry (FIA-HRMS) data.</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/workflow4metabolomics/xcms">xcms_fillpeaks</a></td>
+      <td>[W4M][LC-MS] XCMS R Package - Preprocessing - Integrate areas of missing peaks</td>
+    </tr>
+    <tr>
+      <td><a href="https://toolshed.g2.bx.psu.edu/view/lecorguille/camera_annotate">camera_annotate</a></td>
+      <td>[W4M][LC-MS] CAMERA R Package - Annotation - Returns annotation results (isotope peaks, adducts and fragments)</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/workflow4metabolomics/xcms">xcms_merge</a></td>
+      <td>[W4M][LC-MS] XCMS R Package - Preprocessing - Merge individual xcmsSet outputs</td>
+    </tr>
+    <tr>
+      <td><a href="https://toolshed.g2.bx.psu.edu/view/melpetera/generic_filter">generic_filter</a></td>
+      <td>[W4M][Utils] Filtering according to specific variables</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/workflow4metabolomics/xcms">xcms_summary</a></td>
+      <td>[W4M][LC-MS] XCMS R Package - Preprocessing - HTML Summary for XCMS and CAMERA analysis</td>
+    </tr>
+    <tr>
+      <td><a href="https://toolshed.g2.bx.psu.edu/view/mmonsoor/camera_combinexsannos">camera_combinexsannos</a></td>
+      <td>[W4M][LC-MS] CAMERA R Package - Annotation - combinexsAnnos Check CAMERA ion species annotation due to matching with opposite ion mode</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/workflow4metabolomics/batchcorrection.git">batchcorrection</a></td>
+      <td>[W4M][LC-MS] Correction of data intensities for signal drift and batch-effects.</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/workflow4metabolomics/qualitymetrics.git">qualitymetrics</a></td>
+      <td>[W4M][LC-MS] Metrics and graphics to check the quality of the data.</td>
+    </tr>
+    <tr>
+      <td><a href="https://toolshed.g2.bx.psu.edu/view/fgiacomoni/hmdb_ms_search">hmdb_ms_search</a></td>
+      <td>[W4M][LC-MS] HMDB database MS Search Package - Annotation - Returns annotation results (adducts and metabolites) from The Human Metabolome Database.</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/workflow4metabolomics/univariate.git">univariate</a></td>
+      <td>[W4M][LC-MS][GC-MS][NMR] Univariate statistics.</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/workflow4metabolomics/lcmsmatching.git">lcmsmatching</a></td>
+      <td>[W4M][LC-MS] Annotate LCMS spectrum using an in-house spectra database.</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/workflow4metabolomics/biosigner.git">biosigner</a></td>
+      <td>[W4M][LC-MS][GC-MS][NMR] Discovery of significant signatures from omics data.</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/workflow4metabolomics/multivariate.git">multivariate</a></td>
+      <td>[W4M][LC-MS][GC-MS][NMR] Multivariate analysis by PCA, PLS(-DA), and OPLS(-DA).</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/workflow4metabolomics/metaMS">metams_rungc</a></td>
+      <td>[W4M][GC-MS] metaMS R Package - GC-MS data preprocessing using metaMS package</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/workflow4metabolomics">withinvariation</a></td>
+      <td>[W4M][Statistics] mixOmics R package withinVariation function for repeated mesurement design</td>
+    </tr>
+    <tr>
+      <td><a href="https://toolshed.g2.bx.psu.edu/view/marie-tremblay-metatoul/nmr_preprocessing">nmr_preprocessing</a></td>
+      <td>[W4M][NMR] NMR Preprocessing - Preprocessing (from FID to baseline correction)</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/workflow4metabolomics/nmr_alignment">nmr_alignment</a></td>
+      <td>[W4M][NMR] NMR Alignment - Alignment of NMR spectra based on the Cluster-based Peak Alignment (CluPA) algorithm</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/workflow4metabolomics/nmr_bucketing">nmr_bucketing</a></td>
+      <td>[W4M][NMR] NMR Bucketing - Bucketing / Binning (spectra segmentation in fixed-size windows) and integration (sum of absolute intensities inside each bucket) to preprocess NMR data</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/workflow4metabolomics/nmr_normalization">nmr_normalization</a></td>
+      <td>[W4M][NMR] NMR Normalization - Normalization (operation applied on each individual spectrum) of bucketed and integrated NMR data</td>
+    </tr>
+    <tr>
+      <td><a href="https://toolshed.g2.bx.psu.edu/view/marie-tremblay-metatoul/normalization">normalization</a></td>
+      <td>Normalization (operation applied on each individual spectrum) of preprocessed data</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/workflow4metabolomics/transformation.git">transformation</a></td>
+      <td>[W4M][LC-MS][GC-MS][NMR] Transforms the dataMatrix intensity values.</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/workflow4metabolomics/tool-bank-golm-lib_search.git">golm_ws_lib_search</a></td>
+      <td>[W4M][GC-MS] Golm Metabolome Database search spectrum</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/workflow4metabolomics/checkformat.git">checkformat</a></td>
+      <td>[W4M][LC-MS][GC-MS][NMR] Checks the formats of the dataMatrix, sampleMetadata, and variableMetadata files.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="workflow4metabolomics-related-tools">Workflow4Metabolomics Related Tools</h2>
+
+<table class="table table-striped tooltable">
+  <thead>
+    <tr>
+      <th>Tool</th>
+      <th>Descirption</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://github.com/HegemanLab/w4mclassfilter_galaxy_wrapper/tree/master">w4mclassfilter</a></td>
+      <td>Filter W4M data by values or metadata</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/HegemanLab/w4mjoinpn_galaxy_wrapper/tree/master">w4mjoinpn</a></td>
+      <td>Join positive- and negative-mode W4M datasets</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/HegemanLab/w4mcorcov_galaxy_wrapper/tree/master">w4mcorcov</a></td>
+      <td>OPLS-DA Contrasts of Univariate Results</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h1 id="gateways">Gateways</h1>
+
+<p>Other metabolomics specialized Galaxy servers:</p>
+
+<table class="table table-striped tooltable">
+  <thead>
+    <tr>
+      <th>Servers</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://workflow4metabolomics.org/">Workflow4Metabolomics</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://portal.phenomenal-h2020.eu/home">PhenoMeNal</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h1 id="news-and-events">News and Events</h1>
+<div class="row" id="carousel-eu-container">
   <div class="col-sm-12" id="carousel-eu">
      <div class="carousel slide row" data-ride="carousel" id="splash-box" data-interval="9000">
 
@@ -723,10 +931,6 @@ a .domain-button:hover {
   </div>
 </div>
 
-  
-
-
-
 <div class="row">
   <div class="col-sm-6">
     <h2><a href="news">News</a></h2>
@@ -1066,7 +1270,50 @@ a .domain-button:hover {
   </div>
 </div>
 
-  <div class="row">
+<hr />
+
+<h1 id="contributors">Contributors</h1>
+
+<ul>
+  <li><a href="https://github.com/eslerm">Mark Esler</a></li>
+  <li><a href="https://github.com/eschen42">Art Eschenlauer</a></li>
+</ul>
+
+<p><a href="https://galaxyp.org"><img src="/assets/media/GalaxyP_logo.png" width="350px" alt="GalaxyP logo" /></a></p>
+
+<hr />
+
+
+<h2>Our Data Policy</h2>
+
+<h3>Registered Users</h3>
+
+User data on UseGalaxy.eu (i.e. datasets, histories) will be available as long
+as they are not deleted by the user. Once marked as deleted the datasets will
+be permanently removed within 14 days. If the user "purges" the dataset in the
+Galaxy, it will be removed immediately, permanently.
+
+An extended quota can be <a href="https://docs.google.com/forms/d/e/1FAIpQLSf9w2MOS6KOlu9XdhRSDqWnCDkzoVBqHJ3zH_My4p8D8ZgkIQ/viewform" target="_blank">requested</a>
+for a limited time period in special cases.
+
+<h3>Unregistered Users</h3>
+
+Processed data will only be accessible during one browser session, using a
+cookie to identify your data. This cookie is not used for any other purposes
+(e.g. tracking or analytics.)
+
+If UseGalaxy.eu service is not accessed for 90 days, those datasets will be
+permanently deleted.
+
+<h3>GDPR Compliance</h3>
+
+The Galaxy service complies with the EU General Data Protection Regulation
+(GDPR). You can read more about this on our
+<a href="https://usegalaxy.eu/terms/">Terms and Conditions</a>.
+
+<iframe style="border: 0px" width="100%" height="150px" src="https://stats.galaxyproject.eu/dashboard-solo/db/jobs-dashboard?panelId=1&orgId=1" ></iframe>
+
+<div class="row">
 
     <section class="section-content">
         <div class="col-md-12">
@@ -1074,8 +1321,8 @@ a .domain-button:hover {
     </section>
 </div>
 
-</div>
 
+</div>
 
         </div>
       </div>
@@ -1100,7 +1347,7 @@ All content on this site is available under <a href="https://creativecommons.org
         <div class="row">
             <div class="col-lg-12" style="text-align:center">
                 <ul class="contact-info">
-                    <li><i class="fa fa-github"></i><a href="https://github.com/usegalaxy-eu/website/tree/master/index.md">Edit this page on GitHub</a></li>
+                    <li><i class="fa fa-github"></i><a href="https://github.com/usegalaxy-eu/website/tree/master/index-metabolomics.md">Edit this page on GitHub</a></li>
                     
                       <li><i class="fa fa-envelope"></i><a href="mailto:contact@usegalaxy.eu">contact@usegalaxy.eu</a></li>
                     
