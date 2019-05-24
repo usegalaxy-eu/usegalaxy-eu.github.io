@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  <title>Galaxy Europe | Another successful Galaxy workshop in Melbourne</title>
-  <meta property="og:title" content="Another successful Galaxy workshop in Melbourne" />
-  <meta property="og:description" content="Recently we ran another Galaxy workshop using UseGalaxy.e..." />
+  <title>Galaxy Europe | Queue changes during GCC</title>
+  <meta property="og:title" content="Queue changes during GCC" />
+  <meta property="og:description" content="As Freiburg is hosting the Galaxy Community Conference th..." />
   <meta property="og:image" content="/assets/media/galaxy-eu-logo.512.png" />
   <meta name="description" content="The European Galaxy Instance">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,7 +16,7 @@
 
 
 
-  <link rel="canonical" href="https://galaxyproject.eu/posts/2019/05/20/tiaas-feedback/plain.html">
+  <link rel="canonical" href="https://galaxyproject.eu/posts/2019/05/24/gcc-queue/">
   <link rel="shortcut icon" href="/assets/media/galaxy-eu-logo.64.png" type="image/x-icon" />
   <link rel="alternate" type="application/rss+xml" title="Galaxy Europe" href="/feed.xml">
 
@@ -25,9 +25,103 @@
   <script src="/assets/js/bootstrap.min.js" integrity="sha256-U5ZEeKfGNOja007MMD3YBI0A3OSZOQbeG6z2f2Y0hu8=" crossorigin="anonymous"></script>
 </head>
 
-  <body>
+
+    
+    
+    
+
+  <body class="location-freiburg">
     <div id="wrap">
       <div id="main">
+        <div class="navbar">
+
+  <div class="container">
+    
+    
+
+    
+    
+    
+
+    
+
+    <div class="navbar-header">
+      <div class="navbar-brand">
+        
+        <img alt="galaxy eu logo" src="/assets/media/galaxy-eu-logo.inv.svg" style="height: 20px"/>
+        
+      </div>
+
+      <a class="navbar-brand" href="/" style="padding-left: 6px">
+        Galaxy Europe
+      </a>
+      
+        <span class="navbar-brand" style="color: white">
+        /
+        </span>
+        <a class="navbar-brand" href="https://galaxyproject.eu/freiburg">
+          Freiburg
+        </a>
+      
+    </div>
+
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+           <li class="dropdown">
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Member Sites <span class="caret"></span></a>
+             <ul class="dropdown-menu">
+              
+                <li>
+                  <a class="page-link" href="/freiburg/">Freiburg</a>
+                </li>
+              
+                <li>
+                  <a class="page-link" href="/erasmusmc/">Erasmus MC</a>
+                </li>
+              
+                <li>
+                  <a class="page-link" href="/belgium/">Belgium</a>
+                </li>
+              
+                <li>
+                  <a class="page-link" href="/pasteur/">Pasteur</a>
+                </li>
+              
+             </ul>
+           </li>
+
+          
+          
+            <li>
+              <a class="page-link" href="/freiburg/news">News</a>
+            </li>
+          
+            <li>
+              <a class="page-link" href="/freiburg/events">Events</a>
+            </li>
+          
+            <li>
+              <a class="page-link" href="/freiburg/people">People</a>
+            </li>
+          
+            <li>
+              <a class="page-link" href="/freiburg/projects">Projects</a>
+            </li>
+          
+            <li>
+              <a class="page-link" href="/freiburg/services">Services</a>
+            </li>
+          
+            <li>
+              <a class="page-link" href="/freiburg/publications">Publications</a>
+            </li>
+          
+          
+        </ul>
+      </div>
+  </div>
+</div>
+
         <div class="container" id="maincontainer">
           
 
@@ -37,20 +131,16 @@
 <section id="news-page">
   <div class="row news-header-row">
     
-    <a class="col-xs-1 text-center" href="/posts/2019/05/10/rna-workbench-2/plain.html">
+    <a class="col-xs-1 text-center" href="/posts/2019/05/20/tiaas-feedback/">
       «
     </a>
     
     <div class="col-xs-10 ">
       <div class="text-center">
-        <h2 class="title">Another successful Galaxy workshop in Melbourne</h2>
+        <h2 class="title">Queue changes during GCC</h2>
       </div>
       <hr />
     </div>
-    
-    <a class="col-xs-1 text-center" href="/posts/2019/05/24/gcc-queue/plain.html">
-      »
-    </a>
     
   </div>
   <div class="row post-metadata">
@@ -63,7 +153,7 @@
         <div class="col-md-6 text-right">
           <div>
             <span class="post-date">
-              May 20, 2019
+              May 24, 2019
             </span>
 
             
@@ -72,9 +162,7 @@
             <span class="post-tags">
                 <span class="label label-success">Freiburg</span>
               
-                <span class="label label-info">training</span>
-              
-                <span class="label label-info">tiaas</span>
+                <span class="label label-info">devops</span>
               
               
             </span>
@@ -89,12 +177,17 @@
   <div class="row">
     <div class="col-md-8 col-md-offset-2">
       <div class="news-content">
-        <p>Recently we ran another Galaxy workshop using UseGalaxy.eu’s Training infrastructure as a Service <a href="https://galaxyproject.eu/tiaas">(TIaaS)</a>. The workshop was an “Introduction to Galaxy and RNA-seq” run over two afternoons at the Peter MacCallum Cancer Centre in Melbourne, Australia. The attendees were a mix of students and postdocs and their feedback was good, they liked the hands-on, practical nature of the course. Thanks to the Galaxy EU team for enabling the course through providing the convenience of the TIaaS service.</p>
+        <p>As Freiburg is hosting the <a href="https://gcc2019.sched.com/">Galaxy Community Conference</a> this year, we will be allocating a lot of extra resources for training and events during the conference. To accomplish this, we will decrease the size of the main queue, and re-allocate these resources to the conference. You may notice that jobs take longer to run in the weeks before/during/after the conference, please be patient with us during this time. After the conclusion of the conference things will return to normal.</p>
 
       </div>
     </div>
   </div>
 
+
+	<div class="col-md-2">
+	</div>
+<div class="row">
+	<div class="col-md-8 col-sm-12">
 
 <div id="supported">
     
@@ -111,18 +204,14 @@
           
       </div>
       
-      <div>
-      
-          
-            <a href="https://galaxyproject.eu/tiaas" target="_blank">
-              <img alt="TIaaS Logo" src="/assets/media/tiaas-logo.png" class="img-responsive eu-image" />
-            </a>
-          
-      </div>
-      
   </div>
 </div>
 
+
+	</div>
+	<div class="col-md-2">
+	</div>
+</div>
 
 </section>
 
@@ -157,7 +246,7 @@ unless otherwise specified.</p>
         <div class="row">
             <div class="col-lg-12" style="text-align:center">
                 <ul class="contact-info">
-                    <li><i class="fa fa-github"></i><a href="https://github.com/usegalaxy-eu/website/tree/master/_posts_plain/2019-05-20-tiaas-feedback.md">Edit this page on GitHub</a></li>
+                    <li><i class="fa fa-github"></i><a href="https://github.com/usegalaxy-eu/website/tree/master/_posts/2019-05-24-gcc-queue.md">Edit this page on GitHub</a></li>
                     
                       <li><i class="fa fa-envelope"></i><a href="mailto:freiburg@usegalaxy.eu">freiburg@usegalaxy.eu</a></li>
                     
