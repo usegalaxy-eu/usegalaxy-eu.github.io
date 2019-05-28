@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  <title>Galaxy Europe | FASTQC jobs and very long reads</title>
-  <meta property="og:title" content="FASTQC jobs and very long reads" />
-  <meta property="og:description" content="Over the past few weeks we saw many FASTQC jobs running f..." />
+  <title>Galaxy Europe | Visit from Macromolecular Crystallography Group (Diamond Synchrotron)</title>
+  <meta property="og:title" content="Visit from Macromolecular Crystallography Group (Diamond ..." />
+  <meta property="og:description" content="Recently, we have started working with the (Macromolecula..." />
   <meta property="og:image" content="/assets/media/galaxy-eu-logo.512.png" />
   <meta name="description" content="The European Galaxy Instance">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,7 +16,7 @@
 
 
 
-  <link rel="canonical" href="https://galaxyproject.eu/posts/2019/04/14/fastqc-long-reads/">
+  <link rel="canonical" href="https://galaxyproject.eu/posts/2019/04/23/diamond/">
   <link rel="shortcut icon" href="/assets/media/galaxy-eu-logo.64.png" type="image/x-icon" />
   <link rel="alternate" type="application/rss+xml" title="Galaxy Europe" href="/feed.xml">
 
@@ -131,18 +131,18 @@
 <section id="news-page">
   <div class="row news-header-row">
     
-    <a class="col-xs-1 text-center" href="/posts/2019/04/06/tool-update/">
+    <a class="col-xs-1 text-center" href="/posts/2019/04/14/fastqc-long-reads/">
       «
     </a>
     
     <div class="col-xs-10 ">
       <div class="text-center">
-        <h2 class="title">FASTQC jobs and very long reads</h2>
+        <h2 class="title">Visit from Macromolecular Crystallography Group (Diamond Synchrotron)</h2>
       </div>
       <hr />
     </div>
     
-    <a class="col-xs-1 text-center" href="/posts/2019/04/23/diamond/">
+    <a class="col-xs-1 text-center" href="/posts/2019/04/23/tool-update/">
       »
     </a>
     
@@ -157,23 +157,16 @@
         <div class="col-md-6 text-right">
           <div>
             <span class="post-date">
-              Apr 14, 2019
+              Apr 23, 2019
             </span>
 
-            
-            <br />
-            <span class="post-location">
-                Galaxy Europe
-            </span>
             
 
             <br />
             <span class="post-tags">
                 <span class="label label-success">Freiburg</span>
               
-                <span class="label label-info">devops</span>
-              
-                <span class="label label-info">tools</span>
+                <span class="label label-info">collaboration</span>
               
               
             </span>
@@ -188,26 +181,43 @@
   <div class="row">
     <div class="col-md-8 col-md-offset-2">
       <div class="news-content">
-        <p>Over the past few weeks we saw many <a href="https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.72" target="_blank">FASTQC</a> jobs running for days or even longer, which is not normal.
-We investigated this and saw that all of those jobs are processing files with unusually long reads.</p>
+        <p>Recently, we have started working with the (Macromolecular Crystallography group)[https://www.diamond.ac.uk/Instruments/Mx.html], which is based at the <a href="https://www.diamond.ac.uk">Diamond synchrotron</a> in Didcot, UK. We have a common interest in enabling reproducible, user-friendly data analysis in cheminformatics and computational chemistry. As part of their <a href="https://www.diamond.ac.uk/Instruments/Mx/Fragment-Screening.html">XChem project</a>, they are developing computational workflows to assist in designing follow-up compounds from fragment screening hits. Diamond is working with <a href="https://www.informaticsmatters.com/">Informatics Matters</a> to develop (Squonk)[https://squonk.it], a computational notebook with similar aims to the <a href="http://cheminformatics.usegalaxy.eu">ChemicalToolbox</a> we are working on. We were interested in investigating how Squonk and Galaxy could be integrated.</p>
 
-<p>We are excited to see that our instance is used more and more for processing data from fourth-generation DNA sequencing technology!</p>
-
-<p>However, FASTQC seems to have a problem with that so we updated the tool and tried to understand what is going on.
-We finally found that FASTQC has a hard-coded parameter (-Xmx250m) to restrict the Java virtual machine to a certain amount of memory.
-Increasing this value made all of our tests much faster for very long reads and we hope to speed up your computation from days to minutes.</p>
-
-<p>We will kill long running jobs that do not finish in a few days, all that you need to do is restart the job and it should finish way faster.
-Please get in <a href="mailto:contact@usegalaxy.eu">contact</a> with us, if you still see problems with FASTQC.</p>
-
-<p>Please also have a look at <a href="https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/" target="_blank">fastp</a> as an alternative tool, that also provides some quality metrics.</p>
-
-<p>Finally, if you have data with very long reads have a look in your tool panel - there should be a Nanopore section with a lot of useful tools for ONT data.</p>
+<p>Recently, <a href="https://www.linkedin.com/in/timdudgeon/">Tim Dudgeon</a> from Informatics Matters and <a href="https://www.diamond.ac.uk/Instruments/Mx/Fragment-Screening/XChem-team/Skyner.html">Rachael Skyner</a> from Diamond visited Freiburg to find out more about Galaxy. We spent two days discussing and together developed a new Galaxy tool which can be used as part of a protein-ligand docking workflow. The aim is to get a Galaxy instance running at Diamond in the near future, and eventually, we hope to create a common base of tools for computational chemistry that can be utilized by both of our platforms.</p>
 
       </div>
     </div>
   </div>
 
+
+	<div class="col-md-2">
+	</div>
+<div class="row">
+	<div class="col-md-8 col-sm-12">
+
+<div id="supported">
+    
+  <h3>Supported by</h3>
+    
+  <div class="row eu-image-box">
+      
+      <div>
+      
+          
+            <a href="https://www.eosc-portal.eu/" target="_blank">
+              <img alt="EOSC Logo" src="/assets/media/EOSC_logo.png" class="img-responsive eu-image" />
+            </a>
+          
+      </div>
+      
+  </div>
+</div>
+
+
+	</div>
+	<div class="col-md-2">
+	</div>
+</div>
 
 </section>
 
@@ -242,7 +252,7 @@ unless otherwise specified.</p>
         <div class="row">
             <div class="col-lg-12" style="text-align:center">
                 <ul class="contact-info">
-                    <li><i class="fa fa-github"></i><a href="https://github.com/usegalaxy-eu/website/tree/master/_posts/2019-04-14-fastqc-long-reads.md">Edit this page on GitHub</a></li>
+                    <li><i class="fa fa-github"></i><a href="https://github.com/usegalaxy-eu/website/tree/master/_posts/2019-04-23-diamond.md">Edit this page on GitHub</a></li>
                     
                       <li><i class="fa fa-envelope"></i><a href="mailto:freiburg@usegalaxy.eu">freiburg@usegalaxy.eu</a></li>
                     
