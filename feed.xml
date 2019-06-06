@@ -1,4 +1,36 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2019-06-06T13:09:17+02:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2019-06-06</title><link href="https://galaxyproject.eu/posts/2019/06/06/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2019-06-06" /><published>2019-06-06T00:00:00+02:00</published><updated>2019-06-06T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2019/06/06/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2019/06/06/tool-update/">&lt;p&gt;On 2019-06-06, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/106/&quot;&gt;Jenkins Build 106&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2019-06-06T13:54:33+02:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu update to 19.05</title><link href="https://galaxyproject.eu/posts/2019/06/06/galaxy-upgrade/" rel="alternate" type="text/html" title="UseGalaxy.eu update to 19.05" /><published>2019-06-06T00:00:00+02:00</published><updated>2019-06-06T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2019/06/06/galaxy-upgrade</id><content type="html" xml:base="https://galaxyproject.eu/posts/2019/06/06/galaxy-upgrade/">&lt;p&gt;We’ve updated our Galaxy server to version 19.05 and now use EU blue in celebration of European Unity, ahead of us hosting this year’s &lt;a href=&quot;https://galaxyproject.org/events/gcc2019/&quot;&gt;Galaxy Community Conference&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;galaxy-upgrade&quot;&gt;Galaxy Upgrade&lt;/h1&gt;
+
+&lt;p&gt;Other than an issue resulting from high system load, the upgrade went quite smoothly.&lt;/p&gt;
+
+&lt;h2 id=&quot;new-features&quot;&gt;New Features&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Tool Favorites&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Tools can now be marked as favorites, and then they’ll be easily accessible from the star button in your tool panel.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://docs.galaxyproject.org/en/latest/_images/19.05-favs.gif&quot; alt=&quot;Adding a favourite tool&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Workflow Editor Connection Feedback&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The editor now provides feedback on why connections are invalid, so you aren’t left wondering why two tools won’t connect. For complex data pipelines this should greatly simplify your life!&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Workflow editor connections provide feedback on why they won't connect.&quot; src=&quot;https://docs.galaxyproject.org/en/latest/_images/19.05-wf-hints.gif&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Data Dialog for Tool Form&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;There is a new way to select datasets when running tools! It is a very simple method to select any number of files from both your History and Data Libraries.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Data dialog for selecting dataset in the tool form.&quot; src=&quot;https://docs.galaxyproject.org/en/latest/_images/19.05-inputs.gif&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Additionally the selector implements a highly requested feature, the ability to run tools on arbitrary datasets from a collection&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Selecting datasets from within a collection.&quot; src=&quot;https://docs.galaxyproject.org/en/latest/_images/19.05-input-collection.gif&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;History Export/Import Reworked&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;These features used to be clumsy in the past but do not despair since in this release they got a revamp and their reliability skyrocketed! Moving historic object across Galaxies should now be easier than ever. Rocketfuel included.&lt;/p&gt;</content><author><name>erasche</name></author><category term="release" /><summary type="html">We’ve updated our Galaxy server to version 19.05 and now use EU blue in celebration of European Unity, ahead of us hosting this year’s Galaxy Community Conference</summary></entry><entry><title type="html">UseGalaxy.eu Tool Updates for 2019-06-06</title><link href="https://galaxyproject.eu/posts/2019/06/06/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2019-06-06" /><published>2019-06-06T00:00:00+02:00</published><updated>2019-06-06T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2019/06/06/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2019/06/06/tool-update/">&lt;p&gt;On 2019-06-06, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/106/&quot;&gt;Jenkins Build 106&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;mothur&quot;&gt;Mothur&lt;/h2&gt;
 
@@ -788,18 +820,4 @@ for providing compute and storage resources. Thanks to Helena Rasche and Manuel 
 &lt;ul&gt;
   &lt;li&gt;stacks_cstacks was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/stacks_cstacks/5bd1418f4227&quot;&gt;5bd1418f4227&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;stacks_denovomap was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/stacks_denovomap/b8827c571fbd&quot;&gt;b8827c571fbd&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">Tool Updates</summary></entry><entry><title type="html">FASTQC jobs and very long reads</title><link href="https://galaxyproject.eu/posts/2019/04/14/fastqc-long-reads/" rel="alternate" type="text/html" title="FASTQC jobs and very long reads" /><published>2019-04-14T00:00:00+02:00</published><updated>2019-04-14T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2019/04/14/fastqc-long-reads</id><content type="html" xml:base="https://galaxyproject.eu/posts/2019/04/14/fastqc-long-reads/">&lt;p&gt;Over the past few weeks we saw many &lt;a href=&quot;https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.72&quot; target=&quot;_blank&quot;&gt;FASTQC&lt;/a&gt; jobs running for days or even longer, which is not normal.
-We investigated this and saw that all of those jobs are processing files with unusually long reads.&lt;/p&gt;
-
-&lt;p&gt;We are excited to see that our instance is used more and more for processing data from fourth-generation DNA sequencing technology!&lt;/p&gt;
-
-&lt;p&gt;However, FASTQC seems to have a problem with that so we updated the tool and tried to understand what is going on.
-We finally found that FASTQC has a hard-coded parameter (-Xmx250m) to restrict the Java virtual machine to a certain amount of memory.
-Increasing this value made all of our tests much faster for very long reads and we hope to speed up your computation from days to minutes.&lt;/p&gt;
-
-&lt;p&gt;We will kill long running jobs that do not finish in a few days, all that you need to do is restart the job and it should finish way faster.
-Please get in &lt;a href=&quot;mailto:contact@usegalaxy.eu&quot;&gt;contact&lt;/a&gt; with us, if you still see problems with FASTQC.&lt;/p&gt;
-
-&lt;p&gt;Please also have a look at &lt;a href=&quot;https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/&quot; target=&quot;_blank&quot;&gt;fastp&lt;/a&gt; as an alternative tool, that also provides some quality metrics.&lt;/p&gt;
-
-&lt;p&gt;Finally, if you have data with very long reads have a look in your tool panel - there should be a Nanopore section with a lot of useful tools for ONT data.&lt;/p&gt;</content><author><name></name></author><category term="devops" /><category term="tools" /><summary type="html">Over the past few weeks we saw many FASTQC jobs running for days or even longer, which is not normal. We investigated this and saw that all of those jobs are processing files with unusually long reads.</summary></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">Tool Updates</summary></entry></feed>

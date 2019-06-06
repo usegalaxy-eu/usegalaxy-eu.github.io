@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  <title>Galaxy Europe | Queue changes during GCC</title>
-  <meta property="og:title" content="Queue changes during GCC" />
-  <meta property="og:description" content="As Freiburg is hosting the Galaxy Community Conference th..." />
+  <title>Galaxy Europe | UseGalaxy.eu update to 19.05</title>
+  <meta property="og:title" content="UseGalaxy.eu update to 19.05" />
+  <meta property="og:description" content="We’ve updated our Galaxy server to version 19.05 and now ..." />
   <meta property="og:image" content="/assets/media/galaxy-eu-logo.512.png" />
   <meta name="description" content="The European Galaxy Instance">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,7 +16,7 @@
 
 
 
-  <link rel="canonical" href="https://galaxyproject.eu/posts/2019/05/24/gcc-queue/">
+  <link rel="canonical" href="https://galaxyproject.eu/posts/2019/06/06/galaxy-upgrade/">
   <link rel="shortcut icon" href="/assets/media/galaxy-eu-logo.64.png" type="image/x-icon" />
   <link rel="alternate" type="application/rss+xml" title="Galaxy Europe" href="/feed.xml">
 
@@ -131,18 +131,18 @@
 <section id="news-page">
   <div class="row news-header-row">
     
-    <a class="col-xs-1 text-center" href="/posts/2019/05/20/tiaas-feedback/">
+    <a class="col-xs-1 text-center" href="/posts/2019/05/24/gcc-queue/">
       «
     </a>
     
     <div class="col-xs-10 ">
       <div class="text-center">
-        <h2 class="title">Queue changes during GCC</h2>
+        <h2 class="title">UseGalaxy.eu update to 19.05</h2>
       </div>
       <hr />
     </div>
     
-    <a class="col-xs-1 text-center" href="/posts/2019/06/06/galaxy-upgrade/">
+    <a class="col-xs-1 text-center" href="/posts/2019/06/06/tool-update/">
       »
     </a>
     
@@ -153,11 +153,62 @@
         <div class="col-md-6">
             
 
+
+
+
+
+
+
+
+
+
+
+By: <a href="/people/#erasche">
+    <img src="https://avatars.githubusercontent.com/erasche" style="height: 2em">
+    Helena Rasche
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         </div>
         <div class="col-md-6 text-right">
           <div>
             <span class="post-date">
-              May 24, 2019
+              Jun 6, 2019
             </span>
 
             
@@ -166,7 +217,7 @@
             <span class="post-tags">
                 <span class="label label-success">Freiburg</span>
               
-                <span class="label label-info">devops</span>
+                <span class="label label-info">release</span>
               
               
             </span>
@@ -181,41 +232,44 @@
   <div class="row">
     <div class="col-md-8 col-md-offset-2">
       <div class="news-content">
-        <p>As Freiburg is hosting the <a href="https://gcc2019.sched.com/">Galaxy Community Conference</a> this year, we will be allocating a lot of extra resources for training and events during the conference. To accomplish this, we will decrease the size of the main queue, and re-allocate these resources to the conference. You may notice that jobs take longer to run in the weeks before/during/after the conference, please be patient with us during this time. After the conclusion of the conference things will return to normal.</p>
+        <p>We’ve updated our Galaxy server to version 19.05 and now use EU blue in celebration of European Unity, ahead of us hosting this year’s <a href="https://galaxyproject.org/events/gcc2019/">Galaxy Community Conference</a></p>
+
+<h1 id="galaxy-upgrade">Galaxy Upgrade</h1>
+
+<p>Other than an issue resulting from high system load, the upgrade went quite smoothly.</p>
+
+<h2 id="new-features">New Features</h2>
+
+<p><strong>Tool Favorites</strong></p>
+
+<p>Tools can now be marked as favorites, and then they’ll be easily accessible from the star button in your tool panel.</p>
+
+<p><img src="https://docs.galaxyproject.org/en/latest/_images/19.05-favs.gif" alt="Adding a favourite tool" /></p>
+
+<p><strong>Workflow Editor Connection Feedback</strong></p>
+
+<p>The editor now provides feedback on why connections are invalid, so you aren’t left wondering why two tools won’t connect. For complex data pipelines this should greatly simplify your life!</p>
+
+<p><img alt="Workflow editor connections provide feedback on why they won't connect." src="https://docs.galaxyproject.org/en/latest/_images/19.05-wf-hints.gif" /></p>
+
+<p><strong>Data Dialog for Tool Form</strong></p>
+
+<p>There is a new way to select datasets when running tools! It is a very simple method to select any number of files from both your History and Data Libraries.</p>
+
+<p><img alt="Data dialog for selecting dataset in the tool form." src="https://docs.galaxyproject.org/en/latest/_images/19.05-inputs.gif" /></p>
+
+<p>Additionally the selector implements a highly requested feature, the ability to run tools on arbitrary datasets from a collection</p>
+
+<p><img alt="Selecting datasets from within a collection." src="https://docs.galaxyproject.org/en/latest/_images/19.05-input-collection.gif" /></p>
+
+<p><strong>History Export/Import Reworked</strong></p>
+
+<p>These features used to be clumsy in the past but do not despair since in this release they got a revamp and their reliability skyrocketed! Moving historic object across Galaxies should now be easier than ever. Rocketfuel included.</p>
 
       </div>
     </div>
   </div>
 
-
-	<div class="col-md-2">
-	</div>
-<div class="row">
-	<div class="col-md-8 col-sm-12">
-
-<div id="supported">
-    
-  <h3>Supported by</h3>
-    
-  <div class="row eu-image-box">
-      
-      <div>
-      
-          
-            <a href="https://usegalaxy-eu.github.io" target="_blank">
-              <img alt="European Galaxy Team Logo" src="/assets/media/galaxy-eu.png" class="img-responsive eu-image" />
-            </a>
-          
-      </div>
-      
-  </div>
-</div>
-
-
-	</div>
-	<div class="col-md-2">
-	</div>
-</div>
 
 </section>
 
@@ -250,7 +304,7 @@ unless otherwise specified.</p>
         <div class="row">
             <div class="col-lg-12" style="text-align:center">
                 <ul class="contact-info">
-                    <li><i class="fa fa-github"></i><a href="https://github.com/usegalaxy-eu/website/tree/master/_posts/2019-05-24-gcc-queue.md">Edit this page on GitHub</a></li>
+                    <li><i class="fa fa-github"></i><a href="https://github.com/usegalaxy-eu/website/tree/master/_posts/2019-06-06-galaxy-upgrade.md">Edit this page on GitHub</a></li>
                     
                       <li><i class="fa fa-envelope"></i><a href="mailto:freiburg@usegalaxy.eu">freiburg@usegalaxy.eu</a></li>
                     
