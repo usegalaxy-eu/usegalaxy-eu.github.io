@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  <title>Galaxy Europe | Training Infrastructure Feedback from Nevena Veljkovic</title>
-  <meta property="og:title" content="Training Infrastructure Feedback from Nevena Veljkovic" />
-  <meta property="og:description" content="In the spring semester, the Molecular Biology, a three-ye..." />
+  <title>Galaxy Europe | Native support for Elixir-AAI in Galaxy v.19.05</title>
+  <meta property="og:title" content="Native support for Elixir-AAI in Galaxy v.19.05" />
+  <meta property="og:description" content="As of Galaxy version 19.05 released last month, Galaxy ca..." />
   <meta property="og:image" content="/assets/media/galaxy-eu-logo.512.png" />
   <meta name="description" content="The European Galaxy Instance">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,7 +16,7 @@
 
 
 
-  <link rel="canonical" href="https://galaxyproject.eu/posts/2019/06/10/tiaas-feedback/plain.html">
+  <link rel="canonical" href="https://galaxyproject.eu/posts/2019/06/13/elixir-aai-done/plain.html">
   <link rel="shortcut icon" href="/assets/media/galaxy-eu-logo.64.png" type="image/x-icon" />
   <link rel="alternate" type="application/rss+xml" title="Galaxy Europe" href="/feed.xml">
 
@@ -37,20 +37,16 @@
 <section id="news-page">
   <div class="row news-header-row">
     
-    <a class="col-xs-1 text-center" href="/posts/2019/06/08/tool-update/plain.html">
+    <a class="col-xs-1 text-center" href="/posts/2019/06/10/tiaas-feedback/plain.html">
       «
     </a>
     
     <div class="col-xs-10 ">
       <div class="text-center">
-        <h2 class="title">Training Infrastructure Feedback from Nevena Veljkovic</h2>
+        <h2 class="title">Native support for Elixir-AAI in Galaxy v.19.05</h2>
       </div>
       <hr />
     </div>
-    
-    <a class="col-xs-1 text-center" href="/posts/2019/06/13/elixir-aai-done/plain.html">
-      »
-    </a>
     
   </div>
   <div class="row post-metadata">
@@ -63,7 +59,7 @@
         <div class="col-md-6 text-right">
           <div>
             <span class="post-date">
-              Jun 10, 2019
+              Jun 13, 2019
             </span>
 
             
@@ -72,9 +68,7 @@
             <span class="post-tags">
                 <span class="label label-success">Freiburg</span>
               
-                <span class="label label-info">training</span>
-              
-                <span class="label label-info">tiaas</span>
+                <span class="label label-info">release</span>
               
               
             </span>
@@ -89,19 +83,23 @@
   <div class="row">
     <div class="col-md-8 col-md-offset-2">
       <div class="news-content">
-        <p>In the spring semester, the Molecular Biology, a three-year PhD programme by the 
-<a href="http://bg.ac.rs/en/members/faculties/FB.php">Faculty of Biology in Belgrade</a>
-offered an elective course Genomics. This year 7 students attended this course.</p>
+        <p>As of Galaxy version 19.05 released last month, Galaxy can easily be configured to use Elixir-AAI service for authenticating users! As the first publicly available Galaxy instance, the <a href="https://usegalaxy.eu/">European Galaxy Server</a> hosted by Elixir Germany is now ready to accept logins from users using their Elixir AAI identity for authentication.</p>
 
-<p>We organized several hands-on sessions on the Galaxy platform. Particularly interesting were new
-tutorials on machine learning.
-We are thankful to the Galaxy community for developing and maintaining excellent
-Training Materials with illustrative use cases.</p>
+<p>The Elixir AAI integration into Galaxy main source code is one of the deliverables in the Elixir Galaxy Community Implementation Study (reference/link), and was achieved through  collaboration between Elixir Norway, Elixir Germany, Elixir Finland, Elixir Czech Republic and the Galaxy core developers.</p>
 
-<p>The Freiburg Galaxy project team was very helpful in providing the training infrastructure.<br />
-Thank you!</p>
+<p>The integration is based upon the OpenID Connect functionality in Galaxy, implemented through the Python Social Auth library. Galaxy users with a registered Elixir AAI user profile, simply login by following the “Login with Elixir” button:</p>
 
-<p>Nevena Veljkovic, lecturer Genomics</p>
+<p><img src="/assets/media/elixir_aai.png" alt="ELIXIR AAI Integration" /></p>
+
+<p><a href="https://galaxyproject.org/authnz/use/oidc/idps/elixir-aai/">User</a> and <a href="https://galaxyproject.org/authnz/config/oidc/idps/elixir-aai/">Admin</a> documentation is available on the Galaxy Hub.</p>
+
+<p>If other Galaxy instances also would like to accept Elixir AAI logins, they need to register with Elixir AAI as a Service Provider and configure their Galaxy instance accordingly. Documentation for the admin setup is provided.</p>
+
+<p><a href="https://galaxyproject.org/authnz/config/oidc/idps/elixir-aai/">Admin documentation</a> at galaxyproject.org official Galaxy documentation site.</p>
+
+<p>The Elixir Galaxy Community is working on organizing a training WS
+on configuring your Galaxy for <a href="https://elixir-europe.org/services/compute/aai">Elixir AAI</a> authentication during <a href="https://gcc2019.sched.com/event/MDTY/elixir-galaxy-aai-authentication-and-authorisation-infrastructure">GCC 2019</a>, so stay tuned!</p>
+
 
       </div>
     </div>
@@ -117,8 +115,8 @@ Thank you!</p>
       <div>
       
           
-            <a href="https://usegalaxy-eu.github.io" target="_blank">
-              <img alt="European Galaxy Team Logo" src="/assets/media/galaxy-eu.png" class="img-responsive eu-image" />
+            <a href="https://www.elixir-europe.org" target="_blank">
+              <img alt="ELIXIR logo" src="/assets/media/elixir_logo_white_background.png" class="img-responsive eu-image" />
             </a>
           
       </div>
@@ -126,8 +124,8 @@ Thank you!</p>
       <div>
       
           
-            <a href="https://galaxyproject.eu/tiaas" target="_blank">
-              <img alt="TIaaS Logo" src="/assets/media/tiaas-logo.png" class="img-responsive eu-image" />
+            <a href="https://www.denbi.de" target="_blank">
+              <img alt="de.NBI logo" src="/assets/media/deNBI_Logo_rgb_small.png" class="img-responsive eu-image"/>
             </a>
           
       </div>
@@ -169,7 +167,7 @@ unless otherwise specified.</p>
         <div class="row">
             <div class="col-lg-12" style="text-align:center">
                 <ul class="contact-info">
-                    <li><i class="fa fa-github"></i><a href="https://github.com/usegalaxy-eu/website/tree/master/_posts_plain/2019-06-10-tiaas-feedback.md">Edit this page on GitHub</a></li>
+                    <li><i class="fa fa-github"></i><a href="https://github.com/usegalaxy-eu/website/tree/master/_posts_plain/2019-06-13-elixir-aai-done.md">Edit this page on GitHub</a></li>
                     
                       <li><i class="fa fa-envelope"></i><a href="mailto:freiburg@usegalaxy.eu">freiburg@usegalaxy.eu</a></li>
                     
