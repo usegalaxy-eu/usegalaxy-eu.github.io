@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <title>Galaxy Europe</title>
+  <meta property="og:title" content="" />
+  <meta property="og:description" content="" />
+  <meta property="og:image" content="/assets/media/galaxy-eu-logo.512.png" />
+  <meta name="description" content="The European Galaxy Instance">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+
+
+
+
+  <link rel="canonical" href="https://galaxyproject.eu/index-humancellatlas.html">
+  <link rel="shortcut icon" href="/assets/media/galaxy-eu-logo.64.png" type="image/x-icon" />
+  <link rel="alternate" type="application/rss+xml" title="Galaxy Europe" href="/feed.xml">
+
+  <link href="/assets/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <script src="/assets/js/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
+  <script src="/assets/js/bootstrap.min.js" integrity="sha256-U5ZEeKfGNOja007MMD3YBI0A3OSZOQbeG6z2f2Y0hu8=" crossorigin="anonymous"></script>
+</head>
+
+  <body>
+    <div id="wrap">
+      <div id="main">
+        <div class="container" id="maincontainer">
+          <div class="home">
+
+
+
+
+
+
+
+
+
+
+<div class="alert alert-success" style="margin-top: 0.5em">
+	<h4>GCC Registration Open!</h4>
+	
+	
+	<div>[3 May 2019 11:21] <p>Galaxy Community Conference (GCC) 2019 will be held in Freiburg, Germany 1-6 July and <a href="https://galaxyproject.org/events/gcc2019/">registration is now open</a>.
+The GCC aims at bringing together Galaxy Users, Developers and Administrators to learn from each other.
+Tell us about your use case, how we can improve Galaxy, present your work or attend one of the many training sessions.
+<a href="https://galaxyproject.org/events/gcc2019/registration/">Register now</a>!</p>
+</div>
+	
+</div>
+
+
+
+
+
+  <h1 class="no_toc" id="welcome-to-the-galaxy-human-cell-atlas-project">Welcome to the Galaxy Human Cell Atlas project</h1>
+
+<p><img src="/assets/media/hca.png" alt="Human Cell Atlas" /></p>
+
+<p>Text … the <a href="https://www.ebi.ac.uk" target="_blank">EMBL-EBI</a>, <a href="https://gbcs.embl.de" target="_blank">EMBL</a></p>
+
+<h1 class="no_toc" id="cite">Cite</h1>
+
+<p>If you find this resource useful, please cite <a href="https://doi.org/10.1093/nar/gkz353" target="_blank">some citation</a>.</p>
+
+<h1 class="no_toc" id="content">Content</h1>
+
+<ol id="markdown-toc">
+  <li><a href="#get-started" id="markdown-toc-get-started">Get started</a></li>
+  <li><a href="#available-tools" id="markdown-toc-available-tools">Available tools</a>    <ol>
+      <li><a href="#rna-structure-prediction-and-analysis" id="markdown-toc-rna-structure-prediction-and-analysis">RNA structure prediction and analysis</a></li>
+      <li><a href="#rna-alignment" id="markdown-toc-rna-alignment">RNA alignment</a></li>
+      <li><a href="#rna-seq-and-hts-analysis" id="markdown-toc-rna-seq-and-hts-analysis">RNA Seq and HTS analysis</a></li>
+    </ol>
+  </li>
+  <li><a href="#contributors" id="markdown-toc-contributors">Contributors</a></li>
+</ol>
+
+<h1 id="get-started">Get started</h1>
+
+<p>Are you new to Galaxy, or returning after a long time, and looking for help to get started? Take <a href="https://humancellatlas.usegalaxy.eu/tours/core.galaxy_ui" target="_blank">a guided tour</a> through Galaxy’s user interface.</p>
+
+<h1 id="available-tools">Available tools</h1>
+
+<p>In this section we list all tools that have been integrated in the RNA workbench. The list is likely to grow as soon as further tools and workflows are contributed. To ease readability, we divided them into categories.</p>
+
+<h2 id="rna-structure-prediction-and-analysis">RNA structure prediction and analysis</h2>
+
+<table class="table table-striped tooltable">
+  <thead>
+    <tr>
+      <th>Tool</th>
+      <th>Description</th>
+      <th>Reference</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://humancellatlas.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/rnateam/antarna/antarna" target="_top">antaRNA</a></td>
+      <td>Possibility of inverse RNA structure folding and a specification of a GC value constraint</td>
+      <td><a href="https://doi.org/10.1093/bioinformatics/btv319" target="_blank">Kleinkauf et al. 2015</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://humancellatlas.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/rnateam/cofold/cofold" target="_top">CoFold</a></td>
+      <td>A thermodynamics-based RNA secondary structure folding algorithm</td>
+      <td><a href="https://doi.org/10.1093/nar/gkt174" target="_blank">Proctor and Meyer, 2015</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://humancellatlas.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/rnateam/kinwalker/rbc_kinwalker" target="_top">Kinwalker</a></td>
+      <td>Algorithm for cotranscriptional folding of RNAs to obtain the min. free energy structure</td>
+      <td><a href="https://doi.org/10.1016/j.jmb.2008.02.064" target="_blank">Geis et al. 2008</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://humancellatlas.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/rnateam/mea/mea" target="_top">MEA</a></td>
+      <td>Prediction of maximum expected accuracy RNA secondary structures</td>
+      <td><a href="https://doi.org/10.1007/978-3-319-02624-4_1" target="_blank">Amman et al. 2013</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://humancellatlas.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/rnateam/rnashapes/RNAshapes" target="_top">RNAshapes</a></td>
+      <td>Structures to a tree-like domain of shapes, retaining adjacency and nesting of structural features</td>
+      <td><a href="https://doi.org/10.1093/bioinformatics/btu649" target="_blank">Janssen and Giergerich, 2014</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://humancellatlas.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/rnaz/rnaz" target="_top">RNAz</a></td>
+      <td>Predicts structurally conserved and therm. stable RNA secondary structures in mult. seq. alignments</td>
+      <td><a href="https://doi.org/10.1073/pnas.0409169102" target="_blank">Washietl et al. 2005</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://humancellatlas.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/yhoogstrate/segmentation_fold/segmentation_fold" target="_top">segmentation-fold</a></td>
+      <td>An application that predicts RNA 2D-structure with an extended version of the Zuker algorithm</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>ViennaRNA</td>
+      <td>A tool compilation for prediction and comparison of RNA secondary structures</td>
+      <td><a href="https://doi.org/10.1186/1748-7188-6-26" target="_blank">Lorenz et al. 2011</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="rna-alignment">RNA alignment</h2>
+
+<table class="table table-striped tooltable">
+  <thead>
+    <tr>
+      <th>Tool</th>
+      <th>Description</th>
+      <th>Reference</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://humancellatlas.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/rnateam/compalignp/compalignp" target="_top">Compalignp</a></td>
+      <td>An RNA counterpart of the protein specific “Benchmark Alignment Database”</td>
+      <td><a href="https://doi.org/10.1186/1748-7188-1-19" target="_blank">Wilm et al. 2006</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://humancellatlas.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/rnateam/mlocarna/mlocarna" target="_top">LocARNA</a></td>
+      <td>A tool for multiple alignment of RNA molecules</td>
+      <td><a href="https://doi.org/10.1261/rna.029041.111" target="_blank">Will et al. 2012</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://humancellatlas.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/rnateam/mafft/rbc_mafft" target="_top">MAFFT</a></td>
+      <td>A multiple sequence alignment program for unix-like operating systems</td>
+      <td><a href="https://doi.org/10.1093/bioinformatics/btw108" target="_blank">Katoh and Standley, 2016</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://humancellatlas.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/rnateam/rnalien/RNAlien" target="_top">RNAlien</a></td>
+      <td>A tool for RNA family model construction</td>
+      <td><a href="https://doi.org/10.1093/nar/gkw558" target="_blank">Eggenhofer et al. 2016</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://humancellatlas.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/rnateam/cmv/cmv" target="_top">CMV</a></td>
+      <td>RNA family model visualisation</td>
+      <td><a href="https://doi.org/10.1093/bioinformatics/bty158" target="_blank">Eggenhofer et al. 2018</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="rna-seq-and-hts-analysis">RNA Seq and HTS analysis</h2>
+
+<h3 id="preprocessing">Preprocessing</h3>
+
+<table class="table table-striped tooltable">
+  <thead>
+    <tr>
+      <th>Tool</th>
+      <th>Description</th>
+      <th>Reference</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://humancellatlas.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc" target="_top">FastQC</a></td>
+      <td>A quality control tool for high throughput sequence data</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><b>Unknown Tool</b></td>
+      <td>Automatic quality and adapter trimming as well as quality control</td>
+      <td>-</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="rna-seq">RNA-Seq</h3>
+
+<table class="table table-striped tooltable">
+  <thead>
+    <tr>
+      <th>Tool</th>
+      <th>Description</th>
+      <th>Reference</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://humancellatlas.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/rnateam/blockclust/blockclust" target="_top">BlockClust</a></td>
+      <td>Small non-coding RNA clustering from deep sequencing read profiles</td>
+      <td><a href="https://doi.org/10.1093/bioinformatics/btu270" target="_blank">Videm et al. 2014</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://humancellatlas.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/yhoogstrate/flaimapper/flaimapper" target="_top">FlaiMapper</a></td>
+      <td>A tool for computational annotation of small ncRNA-derived fragments using RNA-seq data</td>
+      <td><a href="https://doi.org/10.1093/bioinformatics/btu696" target="_blank">Hoogstrate et al. 2015</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://humancellatlas.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/rnateam/mirdeep2/rbc_mirdeep2" target="_top">MiRDeep2</a></td>
+      <td>Discovers microRNA genes by analyzing sequenced RNAs</td>
+      <td><a href="https://doi.org/10.1038/nbt1394" target="_blank">Friedländer et al. 2008</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://humancellatlas.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/rnateam/nastiseq/nastiseq" target="_top">NASTIseq</a></td>
+      <td>A method that incorporates the inherent variable efficiency of generating perfectly strand-specific libraries</td>
+      <td><a href="https://doi.org/10.1101/gr.149310.112" target="_blank">Li et al. 2013</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://humancellatlas.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/rnateam/pipmir/pipmir" target="_top">PIPmiR</a></td>
+      <td>An algorithm to identify novel plant miRNA genes from a combination of deep sequencing data and genomic features</td>
+      <td><a href="https://doi.org/10.1101/gr.123547.111" target="_blank">Breakfield et al. 2011</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://humancellatlas.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/rnateam/sortmerna/bg_sortmerna" target="_top">SortMeRNA</a></td>
+      <td>A tool for filtering, mapping and OTU-picking NGS reads in metatranscriptomic and -genomic data</td>
+      <td><a href="https://doi.org/10.1093/bioinformatics/bts611" target="_blank">Kopylova et al. 2011</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="read-mapping">Read Mapping</h3>
+
+<table class="table table-striped tooltable">
+  <thead>
+    <tr>
+      <th>Tool</th>
+      <th>Description</th>
+      <th>Reference</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://humancellatlas.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/hisat2/hisat2" target="_top">HISAT2</a></td>
+      <td>Hierarchical indexing for spliced alignment of transcripts</td>
+      <td><a href="https://doi.org/10.1038/nprot.2016.095" target="_blank">Pertea et al. 2016</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://humancellatlas.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/rgrnastar/rna_star" target="_top">RNA STAR</a></td>
+      <td>Rapid spliced aligner for RNA-seq data</td>
+      <td><a href="https://academic.oup.com/bioinformatics/article/29/1/15/272537/STAR-ultrafast-universal-RNA-seq-aligner" target="_blank">Dobin et al. 2013</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://humancellatlas.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/star_fusion/star_fusion" target="_top">STAR-fusion</a></td>
+      <td>Fast fusion gene finder</td>
+      <td><a href="https://www.biorxiv.org/content/early/2017/03/24/120295" target="_blank">Haas et al. 2017</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://humancellatlas.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2" target="_top">Bowtie2</a></td>
+      <td>Fast and sensitive read alignment</td>
+      <td><a href="https://doi.org/10.1038/nmeth.1923" target="_blank">Langmead et al. 2012</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://humancellatlas.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa" target="_top">BWA</a></td>
+      <td>Software package for mapping low-divergent sequences against a large reference genome</td>
+      <td><a href="https://doi.org/10.1093/bioinformatics/btp324" target="_blank">Li and Durbin 2009</a>, <a href="https://doi.org/10.1093/bioinformatics/btp698" target="_blank">Li and Durbin 2010</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="utilities">Utilities</h3>
+
+<table class="table table-striped tooltable">
+  <thead>
+    <tr>
+      <th>Tool</th>
+      <th>Description</th>
+      <th>Reference</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>SAMtools</td>
+      <td>Utilities for manipulating alignments in the SAM format</td>
+      <td><a href="https://doi.org/10.1093/bioinformatics/btp352" target="_blank">Heng et al. 2009</a></td>
+    </tr>
+    <tr>
+      <td>BEDTools</td>
+      <td>Utilities for genome arithmetic</td>
+      <td><a href="https://doi.org/10.1093/bioinformatics/btq033" target="_blank">Quinlan and Hall 2010</a></td>
+    </tr>
+    <tr>
+      <td>deepTools</td>
+      <td>Tools for exploring deep-sequencing data</td>
+      <td><a href="https://doi.org/10.1093/nar/gku365" target="_blank">Ramirez et al. 2014</a>, <a href="https://doi.org/10.1093/nar/gkw257" target="_blank">Ramirez et al. 2016</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 id="contributors">Contributors</h1>
+
+<ul>
+  <li><a href="https://github.com/pcm32">Pablo Moreno</a></li>
+  <li><a href="https://github.com/nh3">Ni Huang</a></li>
+  <li><a href="https://github.com/pinin4fjords">Jonathan Manning</a></li>
+</ul>
+
+
+<h2>Our Data Policy</h2>
+
+<h3>Registered Users</h3>
+
+User data on UseGalaxy.eu (i.e. datasets, histories) will be available as long
+as they are not deleted by the user. Once marked as deleted the datasets will
+be permanently removed within 14 days. If the user "purges" the dataset in the
+Galaxy, it will be removed immediately, permanently.
+
+An extended quota can be <a href="https://docs.google.com/forms/d/e/1FAIpQLSf9w2MOS6KOlu9XdhRSDqWnCDkzoVBqHJ3zH_My4p8D8ZgkIQ/viewform" target="_blank">requested</a>
+for a limited time period in special cases.
+
+<h3>Unregistered Users</h3>
+
+Processed data will only be accessible during one browser session, using a
+cookie to identify your data. This cookie is not used for any other purposes
+(e.g. tracking or analytics.)
+
+If UseGalaxy.eu service is not accessed for 90 days, those datasets will be
+permanently deleted.
+
+<h3>GDPR Compliance</h3>
+
+The Galaxy service complies with the EU General Data Protection Regulation
+(GDPR). You can read more about this on our
+<a href="https://usegalaxy.eu/terms/">Terms and Conditions</a>.
+
+<div>
+<iframe style="border: 0px" width="100%" height="150px" src="https://stats.galaxyproject.eu/dashboard-solo/db/jobs-dashboard?panelId=1&refresh=1m&orgId=1" ></iframe>
+</div>
+<div>
+<!--<iframe style="border: 0px" width="33%" height="100px" src="https://stats.galaxyproject.eu/d-solo/000000034/jobs-dashboard?orgId=1&refresh=1m&panelId=3" ></iframe>-->
+</div>
+
+<div class="row">
+
+    <section class="section-content">
+        <div class="col-md-12">
+        </div>
+    </section>
+</div>
+
+
+</div>
+
+        </div>
+      </div>
+    </div>
+    
+
+
+
+
+
+<footer class="navbar-default">
+    <div class="container">
+        <div class="row">
+        </div>
+        <div class="row">
+            <div class="col-lg-12" style="text-align:center">
+                <p>UseGalaxy.eu is maintained largely by the <a href="/freiburg/">Freiburg Galaxy Team</a> but also collectively by groups and individuals from across Europe. All of the members sites in this repository contribute to the European Galaxy Project.
+All content on this site is available under <a href="https://creativecommons.org/share-your-work/public-domain/cc0/">CC0-1.0</a>, unless otherwise specified.</p>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12" style="text-align:center">
+                <ul class="contact-info">
+                    <li><i class="fa fa-github"></i><a href="https://github.com/usegalaxy-eu/website/tree/master/index-humancellatlas.md">Edit this page on GitHub</a></li>
+                    
+                      <li><i class="fa fa-envelope"></i><a href="mailto:contact@usegalaxy.eu">contact@usegalaxy.eu</a></li>
+                    
+                    
+                      <li><i class="fa fa-github"></i><a href="https://github.com/usegalaxy-eu">usegalaxy-eu</a></li>
+                    
+                    
+                      <li><i class="fa fa-twitter"></i><a href="https://twitter.com/galaxyproject">galaxyproject</a></li>
+                    
+                      <li><i class="fa fa-rss"></i>Subscribe <a href="/feed.xml">via RSS (UseGalaxy.eu Feed)</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+  </body>
+</html>
