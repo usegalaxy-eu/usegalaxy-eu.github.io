@@ -56,31 +56,32 @@ Tell us about your use case, how we can improve Galaxy, present your work or att
 
 
 
-  <h1 class="no_toc" id="welcome-to-the-climate-science-community">Welcome to the climate science community</h1>
+  <h1 id="welcome-to-the-climate-science-community">Welcome to the climate science community</h1>
 
-<p>The Climate Science workbench is a comprehensive set of analysis tools and consolidated workflows.
+<p><img src="/assets/media/Galaxy-climate-logo.png" height="100px" alt="Galaxy Climate" /></p>
+
+<p class="no_toc">The Climate Science workbench is a comprehensive set of analysis tools and consolidated workflows.
 The workbench is based on the <a href="https://galaxyproject.org" target="_blank">Galaxy framework</a>,
 which guarantees simple access, easy extension, flexible adaption to personal and security needs,
 and sophisticated analyses independent of command-line knowledge.</p>
 
-<p>The current implementation comprises more than X tools dedicated to different research areas of climate science.</p>
+<p>The current implementation comprises a few tools dedicated to different research areas of climate science. More tools are coming soon!</p>
 
-<p>This service is maintained by Anne!!!</p>
+<p>The list of tools is maintained by <a href="https://github.com/annefou">Anne</a>!!!</p>
 
 <h1 class="no_toc" id="content">Content</h1>
 
 <ol id="markdown-toc">
+  <li><a href="#welcome-to-the-climate-science-community" id="markdown-toc-welcome-to-the-climate-science-community">Welcome to the climate science community</a></li>
   <li><a href="#get-started" id="markdown-toc-get-started">Get started</a></li>
   <li><a href="#training" id="markdown-toc-training">Training</a></li>
   <li><a href="#available-tools" id="markdown-toc-available-tools">Available tools</a>    <ol>
-      <li><a href="#preprocessing" id="markdown-toc-preprocessing">Preprocessing</a></li>
-      <li><a href="#read-mapping" id="markdown-toc-read-mapping">Read Mapping</a></li>
-      <li><a href="#quantification" id="markdown-toc-quantification">Quantification</a></li>
-      <li><a href="#differential-expression-analysis" id="markdown-toc-differential-expression-analysis">Differential expression analysis</a></li>
-      <li><a href="#utilities" id="markdown-toc-utilities">Utilities</a></li>
+      <li><a href="#climate-analysis" id="markdown-toc-climate-analysis">Climate Analysis</a></li>
+      <li><a href="#gis-data-handling" id="markdown-toc-gis-data-handling">GIS data handling</a></li>
     </ol>
   </li>
-  <li><a href="#contributors" id="markdown-toc-contributors">Contributors</a></li>
+  <li><a href="#acknowledgments" id="markdown-toc-acknowledgments">Acknowledgments</a></li>
+  <li><a href="#citation" id="markdown-toc-citation">Citation</a></li>
 </ol>
 
 <h1 id="get-started">Get started</h1>
@@ -89,76 +90,13 @@ and sophisticated analyses independent of command-line knowledge.</p>
 
 <h1 id="training">Training</h1>
 
-<p><strong>Want to learn more about single cell analyses? Check out the following hands-on tutorials from <a href="https://galaxyproject.github.io/training-material/">the Galaxy Training Network</a>.</strong></p>
+<p><strong>Want to learn more about Galaxy? Check out the following hands-on tutorials from <a href="https://galaxyproject.github.io/training-material/">the Galaxy Training Network</a>.</strong></p>
 
 <p>We are passionate about training. So we are working in close collaboration with the <a href="https://galaxyproject.org/teach/gtn/" target="_blank">Galaxy Training Network (GTN)</a> to develop training materials of data analyses based on Galaxy <a class="citation" href="#batut2017community">(Batut <i>et al.</i>, 2017)</a>. These materials hosted on the GTN GitHub repository are available online at <a href="https://training.galaxyproject.org" target="_blank">https://training.galaxyproject.org</a>.</p>
 
-<table class="table table-striped">
-  <thead>
-    <tr>
-      <th>Lesson</th>
-      <th>Slides</th>
-      <th>Hands-on</th>
-      <th>Input dataset</th>
-      <th>Workflows</th>
-      <th>Galaxy tour</th>
-      <th>Galaxy History</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Introduction to Transcriptomics</td>
-      <td><a href="https://galaxyproject.github.io/training-material/topics/transcriptomics/slides/introduction.html" target="_blank"><i class="fa fa-slideshare" aria-hidden="true"></i></a></td>
-      <td> </td>
-      <td> </td>
-      <td> </td>
-      <td> </td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td>Plates, Batches, and Barcodes</td>
-      <td><a href="https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna-plates-batches-barcodes/slides.html" target="_blank"><i class="fa fa-slideshare" aria-hidden="true"></i></a></td>
-      <td> </td>
-      <td> </td>
-      <td> </td>
-      <td> </td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td>Understanding Barcodes</td>
-      <td> </td>
-      <td><a href="https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna-umis/tutorial.html" target="_blank"><i class="fa fa-laptop" aria-hidden="true"></i></a></td>
-      <td><a href="https://zenodo.org/record/2573177" target="_blank"><i class="fa fa-files-o" aria-hidden="true"></i></a></td>
-      <td> </td>
-      <td> </td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td>Pre-processing of Single-Cell RNA Data</td>
-      <td> </td>
-      <td><a href="https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna_preprocessing/tutorial.html" target="_blank"><i class="fa fa-laptop" aria-hidden="true"></i></a></td>
-      <td><a href="https://zenodo.org/record/2573175" target="_blank"><i class="fa fa-files-o" aria-hidden="true"></i></a></td>
-      <td><a href="https://climate.usegalaxy.eu/workflows/run?id=49073a24429d93d6" target="_blank"><i class="fa fa-share-alt" aria-hidden="true"></i></a> <a href="https://climate.usegalaxy.eu/workflows/run?id=76a6330d5fc241c7" target="_blank"><i class="fa fa-share-alt" aria-hidden="true"></i></a></td>
-      <td> </td>
-      <td><a href="https://climate.usegalaxy.eu/u/mehmet-tekman/h/celseq2-single-batch-mm10" target="_blank"><i class="fa fa-list-ul" aria-hidden="true"></i></a> <a href="https://climate.usegalaxy.eu/u/mehmet-tekman/h/celseq2-multi-batch-workflow" target="_blank"><i class="fa fa-list-ul" aria-hidden="true"></i></a></td>
-    </tr>
-    <tr>
-      <td>Downstream single-cell RNA analysis with RaceID</td>
-      <td> </td>
-      <td><a href="https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna-raceid/tutorial.html" target="_blank"><i class="fa fa-laptop" aria-hidden="true"></i></a></td>
-      <td><a href="https://zenodo.org/record/1511582" target="_blank"><i class="fa fa-files-o" aria-hidden="true"></i></a></td>
-      <td><a href="https://climate.usegalaxy.eu/workflows/run?id=2f8d9fb85242eca7" target="_blank"><i class="fa fa-share-alt" aria-hidden="true"></i></a></td>
-      <td> </td>
-      <td><a href="https://climate.usegalaxy.eu/u/mehmet-tekman/h/raceid-training-material" target="_blank"><i class="fa fa-list-ul" aria-hidden="true"></i></a></td>
-    </tr>
-  </tbody>
-</table>
-
 <h1 id="available-tools">Available tools</h1>
 
-<p>In this section we list all tools that have been integrated in the the single cell workbench. The list is likely to grow as soon as further tools and workflows are contributed. To ease readability, we divided them into categories.</p>
-
-<h2 id="preprocessing">Preprocessing</h2>
+<h2 id="climate-analysis">Climate Analysis</h2>
 
 <table class="table table-striped tooltable">
   <thead>
@@ -170,29 +108,29 @@ and sophisticated analyses independent of command-line knowledge.</p>
   </thead>
   <tbody>
     <tr>
-      <td><a href="https://climate.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc" target="_top">FastQC</a></td>
-      <td>A quality control tool for high throughput sequence data</td>
+      <td><b>Unknown Tool</b></td>
+      <td><a href="https://cds.climate.copernicus.eu/cdsapp#!/dataset/ecv-for-climate-change?tab=overview">Copernicus Essential climate variables for assessment of climate variability from 1979 to present</a></td>
       <td>-</td>
     </tr>
     <tr>
-      <td><a href="https://climate.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/" target="_top">MultiQC</a></td>
-      <td>MultiQC aggregate results from bioinformatics analyses into a single report</td>
-      <td><a href="https://doi.org/10.1093/bioinformatics/btw354" target="_blank">Ewels et al. 2016</a></td>
+      <td><b>Unknown Tool</b></td>
+      <td>Shift longitude range in netCDF data file from 0-&gt;360 to -180-&gt;180 degrees</td>
+      <td>-</td>
     </tr>
     <tr>
-      <td><a href="https://climate.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/" target="_top">fastp</a></td>
-      <td>fast all-in-one preprocessing for FASTQ files</td>
-      <td><a href="https://doi.org/10.1101/274100" target="_blank">Shifu et al. 2018</a></td>
+      <td><b>Unknown Tool</b></td>
+      <td>Visualization on a geographical map with psyplot</td>
+      <td>-</td>
     </tr>
     <tr>
-      <td><a href="https://climate.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/scpipe/scpipe/" target="_top">scPipe</a></td>
-      <td>preprocessing pipeline for single cell RNA-seq</td>
-      <td><a href="https://doi.org/10.1371/journal.pcbi.1006361" target="_blank">Tian et al. 2018</a></td>
+      <td><b>Unknown Tool</b></td>
+      <td>Plot zonal statistics from a raster and shapefile on a geographical map</td>
+      <td>-</td>
     </tr>
   </tbody>
 </table>
 
-<h2 id="read-mapping">Read Mapping</h2>
+<h2 id="gis-data-handling">GIS data handling</h2>
 
 <table class="table table-striped tooltable">
   <thead>
@@ -204,146 +142,60 @@ and sophisticated analyses independent of command-line knowledge.</p>
   </thead>
   <tbody>
     <tr>
-      <td><a href="https://climate.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/hisat2/hisat2" target="_top">HISAT2</a></td>
-      <td>Hierarchical indexing for spliced alignment of transcripts</td>
-      <td><a href="https://doi.org/10.1038/nprot.2016.095" target="_blank">Pertea et al. 2016</a></td>
+      <td><b>Unknown Tool</b></td>
+      <td><a href="https://gdal.org/programs/gdalinfo.html">Lists information about a raster dataset</a></td>
+      <td>-</td>
     </tr>
     <tr>
-      <td><a href="https://climate.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/rgrnastar/rna_star" target="_top">RNA STAR</a></td>
-      <td>Rapid spliced aligner for RNA-seq data</td>
-      <td><a href="https://academic.oup.com/bioinformatics/article/29/1/15/272537/STAR-ultrafast-universal-RNA-seq-aligner" target="_blank">Dobin et al. 2013</a></td>
+      <td><b>Unknown Tool</b></td>
+      <td><a href="https://gdal.org/programs/gdaladdo.html">Builds or rebuilds overview images</a></td>
+      <td>-</td>
     </tr>
     <tr>
-      <td><a href="https://climate.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/star_fusion/star_fusion" target="_top">STAR-fusion</a></td>
-      <td>Fast fusion gene finder</td>
-      <td><a href="https://www.biorxiv.org/content/early/2017/03/24/120295" target="_blank">Haas et al. 2017</a></td>
+      <td><b>Unknown Tool</b></td>
+      <td><a href="https://gdal.org/programs/gdalbuildvrt.html">Builds a VRT (Virtual Dataset) from a list of datasets</a></td>
+      <td>-</td>
     </tr>
     <tr>
-      <td><a href="https://climate.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2" target="_top">Bowtie2</a></td>
-      <td>Fast and sensitive read alignment</td>
-      <td><a href="https://doi.org/10.1038/nmeth.1923" target="_blank">Langmead et al. 2012</a></td>
+      <td><b>Unknown Tool</b></td>
+      <td><a href="https://gdal.org/programs/gdal_merge.html">Mosaic a set of images</a></td>
+      <td>-</td>
     </tr>
     <tr>
-      <td><a href="https://climate.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/" target="_top">BWA-MEM</a></td>
-      <td>Software package for mapping low-divergent sequences against a large reference genome</td>
-      <td><a href="https://doi.org/10.1093/bioinformatics/btp324" target="_blank">Li and Durbin 2009</a>, <a href="https://doi.org/10.1093/bioinformatics/btp698" target="_blank">Li and Durbin 2010</a></td>
+      <td><b>Unknown Tool</b></td>
+      <td><a href="https://gdal.org/programs/gdal_translate.html">Convert raster data between different formats</a></td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><b>Unknown Tool</b></td>
+      <td><a href="https://gdal.org/programs/gdalwarp.html">Image reprojection and warping utility</a></td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><b>Unknown Tool</b></td>
+      <td><a href="https://gdal.org/programs/ogr2ogr.html">Converts simple features data between file formats</a></td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><b>Unknown Tool</b></td>
+      <td><a href="https://gdal.org/programs/ogrinfo.html">Lists information about an OGR-supported data source</a></td>
+      <td>-</td>
     </tr>
   </tbody>
 </table>
 
-<h2 id="quantification">Quantification</h2>
+<h1 id="acknowledgments">Acknowledgments</h1>
 
-<table class="table table-striped tooltable">
-  <thead>
-    <tr>
-      <th>Tool</th>
-      <th>Description</th>
-      <th>Reference</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><a href="https://climate.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/featurecounts/featurecounts" target="_top">featureCounts</a></td>
-      <td>Ultrafast and accurate read summarization program</td>
-      <td><a href="http://dx.doi.org/10.1093/bioinformatics/btt656" target="_blank">Liao et al. 2014</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://climate.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/lparsons/htseq_count/htseq_count" target="_top">htseq-count</a></td>
-      <td>Tool for counting reads in features</td>
-      <td><a href="https://doi.org/10.1093%2Fbioinformatics%2Fbtu638" target="_blank">Anders et al. 2015</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://climate.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/sailfish/sailfish" target="_top">Sailfish</a></td>
-      <td>Rapid Alignment-free Quantification of Isoform Abundance</td>
-      <td><a href="http://dx.doi.org/10.1038/nbt.2862" target="_blank">Patro et al. 2014</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://climate.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/salmon/salmon" target="_top">Salmon</a></td>
-      <td>Fast, accurate and bias-aware transcript quantification</td>
-      <td><a href="http://dx.doi.org/10.1038/nmeth.4197" target="_blank">Patro et al. 2017</a></td>
-    </tr>
-  </tbody>
-</table>
+<p>The authors would like to thank Bérénice Batut,  Björn Grüning, Anup Kumar and @galaxyproject</p>
 
-<h2 id="differential-expression-analysis">Differential expression analysis</h2>
+<h1 id="citation">Citation</h1>
 
-<table class="table table-striped tooltable">
-  <thead>
-    <tr>
-      <th>Tool</th>
-      <th>Description</th>
-      <th>Reference</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><a href="https://climate.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/deseq2/deseq2" target="_top">DESeq2</a></td>
-      <td>Differential gene expression analysis based on the negative binomial distribution</td>
-      <td><a href="http://doi.org/10.1186/s13059-014-0550-8" target="_blank">Love et al. 2014</a></td>
-    </tr>
-  </tbody>
-</table>
+<p>Please add the following when using the <a href="https://climate.usegalaxy.eu">climate.usegalaxy.eu</a> Galaxy portal:</p>
 
-<h2 id="utilities">Utilities</h2>
+<p><em>The Galaxy server that was used for some calculations is in part funded by Collaborative Research Centre 992 Medical Epigenetics (DFG grant SFB 992/1 2012) and 
+German Federal Ministry of Education and Research (BMBF grants 031 A538A/A538C RBC, 031L0101B/031L0101C de.NBI-epi, 031L0106 de.STAIR (de.NBI)).</em></p>
 
-<table class="table table-striped tooltable">
-  <thead>
-    <tr>
-      <th>Tool</th>
-      <th>Description</th>
-      <th>Reference</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>SAMtools</td>
-      <td>Utilities for manipulating alignments in the SAM format</td>
-      <td><a href="https://doi.org/10.1093/bioinformatics/btp352" target="_blank">Heng et al. 2009</a></td>
-    </tr>
-    <tr>
-      <td>BEDTools</td>
-      <td>Utilities for genome arithmetic</td>
-      <td><a href="https://doi.org/10.1093/bioinformatics/btq033" target="_blank">Quinlan and Hall 2010</a></td>
-    </tr>
-    <tr>
-      <td>deepTools</td>
-      <td>Tools for exploring deep-sequencing data</td>
-      <td><a href="https://doi.org/10.1093/nar/gku365" target="_blank">Ramirez et al. 2014</a>, <a href="https://doi.org/10.1093/nar/gkw257" target="_blank">Ramirez et al. 2016</a></td>
-    </tr>
-    <tr>
-      <td>UMI-tools</td>
-      <td>Modeling sequencing errors in Unique Molecular Identifiers to improve quantification accuracy</td>
-      <td><a href="https://doi.org/10.1101/gr.209601.116" target="_blank">Smith et al. 2017</a></td>
-    </tr>
-    <tr>
-      <td>Je</td>
-      <td>A versatile suite to handle multiplexed NGS libraries with unique molecular identifiers</td>
-      <td><a href="https://doi.org/10.1186/s12859-016-1284-2">Girardot at al. 2016</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://climate.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/raceid_clustering/raceid_clustering/" target="_top">RaceID</a></td>
-      <td>Clustering using RaceID performs clustering, outlier detection, dimensional reduction</td>
-      <td><a href="https://doi.org/10.1038/nmeth.4662">Josip, at al. 2018</a></td>
-    </tr>
-    <tr>
-      <td>AnnData tools</td>
-      <td>Import, Export, Modify, Inspect and Convert AnnData files.</td>
-      <td><a href="https://anndata.readthedocs.io/en/latest/">AnnData Documentation</a></td>
-    </tr>
-    <tr>
-      <td>Scanpy</td>
-      <td>Single-Cell Analysis in Python</td>
-      <td><a href="https://doi.org/10.1186/s13059-017-1382-0">Wolf at al. 2018</a></td>
-    </tr>
-  </tbody>
-</table>
-
-<h1 id="contributors">Contributors</h1>
-
-<ul>
-  <li><a href="https://github.com/annefou">Anne Fouilloux</a></li>
-</ul>
-
+<p>More information on <a href="https://galaxyproject.org/citing-galaxy/">how to cite Galaxy</a>.</p>
 
 
 <h2>Our Data Policy</h2>
