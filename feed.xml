@@ -1,4 +1,51 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2019-07-01T11:22:04+02:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2019-06-30</title><link href="https://galaxyproject.eu/posts/2019/06/30/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2019-06-30" /><published>2019-06-30T00:00:00+02:00</published><updated>2019-06-30T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2019/06/30/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2019/06/30/tool-update/">&lt;p&gt;On 2019-06-30, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#116/&quot;&gt;Jenkins Build #116&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2019-07-01T12:35:38+02:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">GCC2019 will be livestreamed</title><link href="https://galaxyproject.eu/posts/2019/06/30/livestream/" rel="alternate" type="text/html" title="GCC2019 will be livestreamed" /><published>2019-06-30T00:00:00+02:00</published><updated>2019-06-30T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2019/06/30/livestream</id><content type="html" xml:base="https://galaxyproject.eu/posts/2019/06/30/livestream/">&lt;p&gt;This year’s GCC is live streamed! If you couldn’t make it to Germany, come check out some of the talks and trainings taking place in Freiburg this week.&lt;/p&gt;
+
+&lt;script type=&quot;text/javascript&quot; src=&quot;https://content.jwplatform.com/libraries/POjuZXXt.js&quot;&gt;&lt;/script&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+	&lt;div class=&quot;col-sm-6 col-xs-12&quot;&gt;
+		&lt;div id=&quot;mobilemz&quot;&gt;&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;col-sm-6 col-xs-12&quot;&gt;
+		&lt;div id=&quot;mobilerz&quot;&gt;&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;
+jwplayer(&quot;mobilemz&quot;).setup({
+	width: &quot;100%&quot;,
+	aspectratio: &quot;16:9&quot;,
+	image: &quot;https://www.streaming.uni-freiburg.de/Bilder/playerbackground.jpg&quot;,
+	sources: [{
+				file: &quot;https://wowza.ub.uni-freiburg.de/live/smil:mobilemz.smil/playlist.m3u8&quot;
+			}, {
+				file: &quot;rtmps://wowza.ub.uni-freiburg.de/live/smil:mobilemz.smil&quot;
+			}, {
+				file: &quot;rtmp://wowza.ub.uni-freiburg.de:1935/live/mobilemz&quot;
+			}],
+	rtmp: {
+		bufferlength: 0.3
+	},
+	proxyType: &quot;best&quot;
+});
+
+jwplayer(&quot;mobilerz&quot;).setup({
+	width: &quot;100%&quot;,
+	aspectratio: &quot;16:9&quot;,
+	image: &quot;https://www.streaming.uni-freiburg.de/Bilder/playerbackground.jpg&quot;,
+	sources: [{
+				file: &quot;https://wowza.ub.uni-freiburg.de/live/smil:mobilerz.smil/playlist.m3u8&quot;
+			}, {
+				file: &quot;rtmps://wowza.ub.uni-freiburg.de/live/smil:mobilerz.smil&quot;
+			}, {
+				file: &quot;rtmp://wowza.ub.uni-freiburg.de:1935/live/mobilerz&quot;
+			}],
+	rtmp: {
+		bufferlength: 0.3
+	},
+	proxyType: &quot;best&quot;
+});
+&lt;/script&gt;</content><author><name>erasche</name></author><category term="release" /><category term="talk" /><category term="video" /><summary type="html">This year’s GCC is live streamed! If you couldn’t make it to Germany, come check out some of the talks and trainings taking place in Freiburg this week.</summary></entry><entry><title type="html">UseGalaxy.eu Tool Updates for 2019-06-30</title><link href="https://galaxyproject.eu/posts/2019/06/30/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2019-06-30" /><published>2019-06-30T00:00:00+02:00</published><updated>2019-06-30T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2019/06/30/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2019/06/30/tool-update/">&lt;p&gt;On 2019-06-30, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#116/&quot;&gt;Jenkins Build #116&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;metabolomics&quot;&gt;Metabolomics&lt;/h2&gt;
 
@@ -265,36 +312,4 @@ Thank you!&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;dropletutils was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/dropletutils/4cd9f0008d9c&quot;&gt;4cd9f0008d9c&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">Tool Updates</summary></entry><entry><title type="html">UseGalaxy.eu update to 19.05</title><link href="https://galaxyproject.eu/posts/2019/06/06/galaxy-upgrade/" rel="alternate" type="text/html" title="UseGalaxy.eu update to 19.05" /><published>2019-06-06T00:00:00+02:00</published><updated>2019-06-06T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2019/06/06/galaxy-upgrade</id><content type="html" xml:base="https://galaxyproject.eu/posts/2019/06/06/galaxy-upgrade/">&lt;p&gt;We’ve updated our Galaxy server to version 19.05 and now use EU blue in celebration of European Unity, ahead of us hosting this year’s &lt;a href=&quot;https://galaxyproject.org/events/gcc2019/&quot;&gt;Galaxy Community Conference&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;galaxy-upgrade&quot;&gt;Galaxy Upgrade&lt;/h1&gt;
-
-&lt;p&gt;Other than an issue resulting from high system load, the upgrade went quite smoothly.&lt;/p&gt;
-
-&lt;h2 id=&quot;new-features&quot;&gt;New Features&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Tool Favorites&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Tools can now be marked as favorites, and then they’ll be easily accessible from the star button in your tool panel.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://docs.galaxyproject.org/en/latest/_images/19.05-favs.gif&quot; alt=&quot;Adding a favourite tool&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Workflow Editor Connection Feedback&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;The editor now provides feedback on why connections are invalid, so you aren’t left wondering why two tools won’t connect. For complex data pipelines this should greatly simplify your life!&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt=&quot;Workflow editor connections provide feedback on why they won't connect.&quot; src=&quot;https://docs.galaxyproject.org/en/latest/_images/19.05-wf-hints.gif&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Data Dialog for Tool Form&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;There is a new way to select datasets when running tools! It is a very simple method to select any number of files from both your History and Data Libraries.&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt=&quot;Data dialog for selecting dataset in the tool form.&quot; src=&quot;https://docs.galaxyproject.org/en/latest/_images/19.05-inputs.gif&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Additionally the selector implements a highly requested feature, the ability to run tools on arbitrary datasets from a collection&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt=&quot;Selecting datasets from within a collection.&quot; src=&quot;https://docs.galaxyproject.org/en/latest/_images/19.05-input-collection.gif&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;History Export/Import Reworked&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;These features used to be clumsy in the past but do not despair since in this release they got a revamp and their reliability skyrocketed! Moving historic object across Galaxies should now be easier than ever. Rocketfuel included.&lt;/p&gt;</content><author><name>erasche</name></author><category term="release" /><summary type="html">We’ve updated our Galaxy server to version 19.05 and now use EU blue in celebration of European Unity, ahead of us hosting this year’s Galaxy Community Conference</summary></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">Tool Updates</summary></entry></feed>
