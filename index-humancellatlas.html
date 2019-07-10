@@ -41,20 +41,29 @@
 
 <p><img src="/assets/media/hca.png" alt="Human Cell Atlas" /></p>
 
-<p>Text … the <a href="https://www.ebi.ac.uk" target="_blank">EMBL-EBI</a>, <a href="https://gbcs.embl.de" target="_blank">EMBL</a></p>
+<p>The <a href="https://www.humancellatlas.org" target="_blank">Human Cell Atlas</a> Galaxy setup comprises of analysis tools and workflows for the analysis of Single Cell RNA-Seq data. It includes a module that connects to the Matrix Service API of the HCA’s Data Coordination Platform that enables retrieval of gene expression matrices from any data sets in the Human Cell Atlas. The instance is based on the Galaxy framework, which guarantees simple access, easy extension, flexible adaption to personal and security needs, and sophisticated analyses independent of command-line knowledge.</p>
 
-<h1 class="no_toc" id="cite">Cite</h1>
+<p>This setup aims to give users access to as much granularity as possible in terms
+of the downstream analysis steps provided by the major software for
+single cell data analysis: Scanpy, SC3, Scater and Seurat. For each of these tools,
+this Galaxy instance has decomposed modules for each the main functionalities:
+ingestion from 10x/loom, filtering (by cells or genes), scaling, normalisation,
+clustering, marker genes, and dimensionality reduction, among others. In the short
+term we expect to have interoperability between these tools through the Loom exchange format.
+Additionally, we provide specialised viewers for single cell clustering data:
+UCSC CellBrowser (currently active) and cellxgene (coming up soon).</p>
 
-<p>If you find this resource useful, please cite <a href="https://doi.org/10.1093/nar/gkz353" target="_blank">some citation</a>.</p>
+<p>Tools available under HCA-Single Cell section on the left where mainly brought to Galaxy by
+the <a href="https://www.ebi.ac.uk/about/people/irene-papatheodorou" target="_blank">Gene Expression Team</a>
+at <a href="https://www.ebi.ac.uk" target="_blank">EMBL-EBI</a> and the <a href="https://www.sanger.ac.uk/science/groups/teichmann-group" target="_blank">Teichmann Team</a> at the <a href="https://www.sanger.ac.uk/" target="_blank">Wellcome Sanger Institute</a>.</p>
 
 <h1 class="no_toc" id="content">Content</h1>
 
 <ol id="markdown-toc">
   <li><a href="#get-started" id="markdown-toc-get-started">Get started</a></li>
+  <li><a href="#available-workflows" id="markdown-toc-available-workflows">Available Workflows</a></li>
   <li><a href="#available-tools" id="markdown-toc-available-tools">Available tools</a>    <ol>
-      <li><a href="#rna-structure-prediction-and-analysis" id="markdown-toc-rna-structure-prediction-and-analysis">RNA structure prediction and analysis</a></li>
-      <li><a href="#rna-alignment" id="markdown-toc-rna-alignment">RNA alignment</a></li>
-      <li><a href="#rna-seq-and-hts-analysis" id="markdown-toc-rna-seq-and-hts-analysis">RNA Seq and HTS analysis</a></li>
+      <li><a href="#single-cell-galaxy-tools-developed-for-the-human-cell-atlas" id="markdown-toc-single-cell-galaxy-tools-developed-for-the-human-cell-atlas">Single Cell Galaxy Tools developed for the Human Cell Atlas</a></li>
     </ol>
   </li>
   <li><a href="#contributors" id="markdown-toc-contributors">Contributors</a></li>
@@ -64,11 +73,38 @@
 
 <p>Are you new to Galaxy, or returning after a long time, and looking for help to get started? Take <a href="https://humancellatlas.usegalaxy.eu/tours/core.galaxy_ui" target="_blank">a guided tour</a> through Galaxy’s user interface.</p>
 
+<h1 id="available-workflows">Available Workflows</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Workflow</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://humancellatlas.usegalaxy.eu/u/pmoreno/w/humancellatlas-scanpy-cellbrowser" target="_blank">Human Cell Atlas - Scanpy - CellBrowser</a></td>
+      <td>Retrieve data from the Human Cell Atlas matrix service, analysis with Scanpy and visualisation with UCSC CellBrowser</td>
+    </tr>
+    <tr>
+      <td><a href="https://humancellatlas.usegalaxy.eu/u/pmoreno/w/atlas-scanpy-cellbrowser-imported-from-uploaded-file" target="_blank">EBI Single Cell Expression Atlas - Scanpy - CellBrowser</a></td>
+      <td>Retrieve expression matrices from Single Cell Expression Atlas, analysis with Scanpy and visualisation with UCSC CellBrowser</td>
+    </tr>
+    <tr>
+      <td><a href="https://humancellatlas.usegalaxy.eu/u/pmoreno/w/scanpy-prod-13-smart-imported-from-uploaded-file" target="_blank">EBI Single Cell Expression Atlas Scanpy Prod 1.3</a></td>
+      <td>Workflow used for clustering data in the <a href="https://www.ebi.ac.uk/gxa/sc/release-notes.html" target="_blank">release 6</a> of <a href="https://www.ebi.ac.uk/gxa/sc/home" target="_blank">Single Cell Expression Atlas</a></td>
+    </tr>
+  </tbody>
+</table>
+
 <h1 id="available-tools">Available tools</h1>
 
 <p>In this section we list all tools that have been integrated in the RNA workbench. The list is likely to grow as soon as further tools and workflows are contributed. To ease readability, we divided them into categories.</p>
 
-<h2 id="rna-structure-prediction-and-analysis">RNA structure prediction and analysis</h2>
+<h2 id="single-cell-galaxy-tools-developed-for-the-human-cell-atlas">Single Cell Galaxy Tools developed for the Human Cell Atlas</h2>
+
+<h3 id="data-retrieval-from-single-cell-data-repositories">Data retrieval from Single Cell data Repositories</h3>
 
 <table class="table table-striped tooltable">
   <thead>
@@ -80,49 +116,42 @@
   </thead>
   <tbody>
     <tr>
-      <td><a href="https://humancellatlas.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/rnateam/antarna/antarna" target="_top">antaRNA</a></td>
-      <td>Possibility of inverse RNA structure folding and a specification of a GC value constraint</td>
-      <td><a href="https://doi.org/10.1093/bioinformatics/btv319" target="_blank">Kleinkauf et al. 2015</a></td>
+      <td><b>Unknown Tool</b></td>
+      <td>Human Cell Atlas Matrix Downloader retrieves expression matrices and metadata from the Human Cell Atlas.</td>
+      <td><a href="https://arxiv.org/abs/1810.05192" target="_blank">Regev et al. 2018</a></td>
     </tr>
     <tr>
-      <td><a href="https://humancellatlas.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/rnateam/cofold/cofold" target="_top">CoFold</a></td>
-      <td>A thermodynamics-based RNA secondary structure folding algorithm</td>
-      <td><a href="https://doi.org/10.1093/nar/gkt174" target="_blank">Proctor and Meyer, 2015</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://humancellatlas.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/rnateam/kinwalker/rbc_kinwalker" target="_top">Kinwalker</a></td>
-      <td>Algorithm for cotranscriptional folding of RNAs to obtain the min. free energy structure</td>
-      <td><a href="https://doi.org/10.1016/j.jmb.2008.02.064" target="_blank">Geis et al. 2008</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://humancellatlas.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/rnateam/mea/mea" target="_top">MEA</a></td>
-      <td>Prediction of maximum expected accuracy RNA secondary structures</td>
-      <td><a href="https://doi.org/10.1007/978-3-319-02624-4_1" target="_blank">Amman et al. 2013</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://humancellatlas.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/rnateam/rnashapes/RNAshapes" target="_top">RNAshapes</a></td>
-      <td>Structures to a tree-like domain of shapes, retaining adjacency and nesting of structural features</td>
-      <td><a href="https://doi.org/10.1093/bioinformatics/btu649" target="_blank">Janssen and Giergerich, 2014</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://humancellatlas.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/rnaz/rnaz" target="_top">RNAz</a></td>
-      <td>Predicts structurally conserved and therm. stable RNA secondary structures in mult. seq. alignments</td>
-      <td><a href="https://doi.org/10.1073/pnas.0409169102" target="_blank">Washietl et al. 2005</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://humancellatlas.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/yhoogstrate/segmentation_fold/segmentation_fold" target="_top">segmentation-fold</a></td>
-      <td>An application that predicts RNA 2D-structure with an extended version of the Zuker algorithm</td>
-      <td>-</td>
-    </tr>
-    <tr>
-      <td>ViennaRNA</td>
-      <td>A tool compilation for prediction and comparison of RNA secondary structures</td>
-      <td><a href="https://doi.org/10.1186/1748-7188-6-26" target="_blank">Lorenz et al. 2011</a></td>
+      <td><b>Unknown Tool</b></td>
+      <td>EBI SCXA Data Retrieval downloads expression matrices and metadata from the EBI Single Cell Expression Atlas (SCXA)</td>
+      <td><a href="https://doi.org/10.1093/nar/gkx1158" target="_blank">Papatheodorou et al. 2018</a></td>
     </tr>
   </tbody>
 </table>
 
-<h2 id="rna-alignment">RNA alignment</h2>
+<p>10x files produced by these tools can be consumed by 10x reader modules in the tools below.</p>
+
+<h3 id="visualisation">Visualisation</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Tool</th>
+      <th>Description</th>
+      <th>Reference</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>Unknown Tool</b></td>
+      <td>UCSC Cell Browser displays single-cell clusterized data in an interactive web application.</td>
+      <td><a href="LINK_ucsc_LINK" target="_blank">CIT_ucsc_CIT</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="scanpy">Scanpy</h3>
+
+<p>Granular tools for accessing the main Scanpy functionalities.</p>
 
 <table class="table table-striped tooltable">
   <thead>
@@ -134,36 +163,71 @@
   </thead>
   <tbody>
     <tr>
-      <td><a href="https://humancellatlas.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/rnateam/compalignp/compalignp" target="_top">Compalignp</a></td>
-      <td>An RNA counterpart of the protein specific “Benchmark Alignment Database”</td>
-      <td><a href="https://doi.org/10.1186/1748-7188-1-19" target="_blank">Wilm et al. 2006</a></td>
+      <td><b>Unknown Tool</b></td>
+      <td>Scanpy Read10x into hdf5 object handled by scanpy</td>
+      <td><a href="https://doi.org/10.1186/s13059-017-1382-0" target="_blank">Wolf et al. 2018</a></td>
     </tr>
     <tr>
-      <td><a href="https://humancellatlas.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/rnateam/mlocarna/mlocarna" target="_top">LocARNA</a></td>
-      <td>A tool for multiple alignment of RNA molecules</td>
-      <td><a href="https://doi.org/10.1261/rna.029041.111" target="_blank">Will et al. 2012</a></td>
+      <td><b>Unknown Tool</b></td>
+      <td>Scanpy FilterGenes based on counts and numbers of cells expressed</td>
+      <td><a href="https://doi.org/10.1186/s13059-017-1382-0" target="_blank">Wolf et al. 2018</a></td>
     </tr>
     <tr>
-      <td><a href="https://humancellatlas.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/rnateam/mafft/rbc_mafft" target="_top">MAFFT</a></td>
-      <td>A multiple sequence alignment program for unix-like operating systems</td>
-      <td><a href="https://doi.org/10.1093/bioinformatics/btw108" target="_blank">Katoh and Standley, 2016</a></td>
+      <td><b>Unknown Tool</b></td>
+      <td>Scanpy FilterCells based on counts and numbers of genes expressed</td>
+      <td><a href="https://doi.org/10.1186/s13059-017-1382-0" target="_blank">Wolf et al. 2018</a></td>
     </tr>
     <tr>
-      <td><a href="https://humancellatlas.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/rnateam/rnalien/RNAlien" target="_top">RNAlien</a></td>
-      <td>A tool for RNA family model construction</td>
-      <td><a href="https://doi.org/10.1093/nar/gkw558" target="_blank">Eggenhofer et al. 2016</a></td>
+      <td><b>Unknown Tool</b></td>
+      <td>Scanpy NormaliseData to make all cells having the same total expression</td>
+      <td><a href="https://doi.org/10.1186/s13059-017-1382-0" target="_blank">Wolf et al. 2018</a></td>
     </tr>
     <tr>
-      <td><a href="https://humancellatlas.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/rnateam/cmv/cmv" target="_top">CMV</a></td>
-      <td>RNA family model visualisation</td>
-      <td><a href="https://doi.org/10.1093/bioinformatics/bty158" target="_blank">Eggenhofer et al. 2018</a></td>
+      <td><b>Unknown Tool</b></td>
+      <td>Scanpy FindVariableGenes based on normalised dispersion of expression</td>
+      <td><a href="https://doi.org/10.1186/s13059-017-1382-0" target="_blank">Wolf et al. 2018</a></td>
+    </tr>
+    <tr>
+      <td><b>Unknown Tool</b></td>
+      <td>Scanpy ScaleData to make expression variance the same for all genes</td>
+      <td><a href="https://doi.org/10.1186/s13059-017-1382-0" target="_blank">Wolf et al. 2018</a></td>
+    </tr>
+    <tr>
+      <td><b>Unknown Tool</b></td>
+      <td>Scanpy RunPCA for dimensionality reduction</td>
+      <td><a href="https://doi.org/10.1186/s13059-017-1382-0" target="_blank">Wolf et al. 2018</a></td>
+    </tr>
+    <tr>
+      <td><b>Unknown Tool</b></td>
+      <td>Scanpy ComputeGraph to derive kNN graph</td>
+      <td><a href="https://doi.org/10.1186/s13059-017-1382-0" target="_blank">Wolf et al. 2018</a></td>
+    </tr>
+    <tr>
+      <td><b>Unknown Tool</b></td>
+      <td>Scanpy FindCluster based on community detection on KNN graph</td>
+      <td><a href="https://doi.org/10.1186/s13059-017-1382-0" target="_blank">Wolf et al. 2018</a></td>
+    </tr>
+    <tr>
+      <td><b>Unknown Tool</b></td>
+      <td>Scanpy FindMarkers to find differentially expressed genes between groups</td>
+      <td><a href="https://doi.org/10.1186/s13059-017-1382-0" target="_blank">Wolf et al. 2018</a></td>
+    </tr>
+    <tr>
+      <td><b>Unknown Tool</b></td>
+      <td>Scanpy RunTSNE visualise cell clusters using tSNE</td>
+      <td><a href="https://doi.org/10.1186/s13059-017-1382-0" target="_blank">Wolf et al. 2018</a></td>
+    </tr>
+    <tr>
+      <td><b>Unknown Tool</b></td>
+      <td>Scanpy RunUMAP visualise cell clusters using UMAP</td>
+      <td><a href="https://doi.org/10.1186/s13059-017-1382-0" target="_blank">Wolf et al. 2018</a></td>
     </tr>
   </tbody>
 </table>
 
-<h2 id="rna-seq-and-hts-analysis">RNA Seq and HTS analysis</h2>
+<h3 id="seurat">Seurat</h3>
 
-<h3 id="preprocessing">Preprocessing</h3>
+<p>Granular tools for accessing the main Seurat functionalities. These tools received contributions from Maria Doyle <a href="https://github.com/mblue9">@mblue9</a>.</p>
 
 <table class="table table-striped tooltable">
   <thead>
@@ -175,19 +239,71 @@
   </thead>
   <tbody>
     <tr>
-      <td><a href="https://humancellatlas.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc" target="_top">FastQC</a></td>
-      <td>A quality control tool for high throughput sequence data</td>
-      <td>-</td>
+      <td><b>Unknown Tool</b></td>
+      <td>Seurat Read10x Loads 10x data into a serialized seurat R object</td>
+      <td><a href="https://doi.org/10.1038/nbt.3192" target="_blank">Satija et al. 2015</a></td>
     </tr>
     <tr>
-      <td><a href="https://humancellatlas.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/trim_galore/trim_galore" target="_top">Trim Galore!</a></td>
-      <td>Automatic quality and adapter trimming as well as quality control</td>
-      <td>-</td>
+      <td><b>Unknown Tool</b></td>
+      <td>Seurat CreateSeuratObject create a Seurat object</td>
+      <td><a href="https://doi.org/10.1038/nbt.3192" target="_blank">Satija et al. 2015</a></td>
+    </tr>
+    <tr>
+      <td><b>Unknown Tool</b></td>
+      <td>Seurat FilterCells filter cells in a Seurat object</td>
+      <td><a href="https://doi.org/10.1038/nbt.3192" target="_blank">Satija et al. 2015</a></td>
+    </tr>
+    <tr>
+      <td><b>Unknown Tool</b></td>
+      <td>Seurat NormaliseData normalise data</td>
+      <td><a href="https://doi.org/10.1038/nbt.3192" target="_blank">Satija et al. 2015</a></td>
+    </tr>
+    <tr>
+      <td><b>Unknown Tool</b></td>
+      <td>Seurat FindVariableGenes identify variable genes</td>
+      <td><a href="https://doi.org/10.1038/nbt.3192" target="_blank">Satija et al. 2015</a></td>
+    </tr>
+    <tr>
+      <td><b>Unknown Tool</b></td>
+      <td>Seurat ScaleData scale and center genes</td>
+      <td><a href="https://doi.org/10.1038/nbt.3192" target="_blank">Satija et al. 2015</a></td>
+    </tr>
+    <tr>
+      <td><b>Unknown Tool</b></td>
+      <td>Seurat RunPCA run a PCA dimensionality reduction</td>
+      <td><a href="https://doi.org/10.1038/nbt.3192" target="_blank">Satija et al. 2015</a></td>
+    </tr>
+    <tr>
+      <td><b>Unknown Tool</b></td>
+      <td>Seurat FindClusters find clusters of cells</td>
+      <td><a href="https://doi.org/10.1038/nbt.3192" target="_blank">Satija et al. 2015</a></td>
+    </tr>
+    <tr>
+      <td><b>Unknown Tool</b></td>
+      <td>Seurat FindMarkers find markers (differentially expressed genes)</td>
+      <td><a href="https://doi.org/10.1038/nbt.3192" target="_blank">Satija et al. 2015</a></td>
+    </tr>
+    <tr>
+      <td><b>Unknown Tool</b></td>
+      <td>Seurat Plot dimension reduction graphs the output of a dimensional reduction technique (PCA by default). Cells are colored by their identity class.</td>
+      <td><a href="https://doi.org/10.1038/nbt.3192" target="_blank">Satija et al. 2015</a></td>
+    </tr>
+    <tr>
+      <td><b>Unknown Tool</b></td>
+      <td>Seurat RunTSNE run t-SNE dimensionality reduction</td>
+      <td><a href="https://doi.org/10.1038/nbt.3192" target="_blank">Satija et al. 2015</a></td>
+    </tr>
+    <tr>
+      <td><b>Unknown Tool</b></td>
+      <td>Seurat Export2CellBrowser produces files for UCSC CellBrowser import.</td>
+      <td><a href="https://doi.org/10.1038/nbt.3192" target="_blank">Satija et al. 2015</a></td>
     </tr>
   </tbody>
 </table>
 
-<h3 id="rna-seq">RNA-Seq</h3>
+<h3 id="scater">Scater</h3>
+
+<p>Granular tools for accessing the main Scater functionalities. Normally used in combination with SC3.</p>
 
 <table class="table table-striped tooltable">
   <thead>
@@ -199,39 +315,41 @@
   </thead>
   <tbody>
     <tr>
-      <td><a href="https://humancellatlas.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/rnateam/blockclust/blockclust" target="_top">BlockClust</a></td>
-      <td>Small non-coding RNA clustering from deep sequencing read profiles</td>
-      <td><a href="https://doi.org/10.1093/bioinformatics/btu270" target="_blank">Videm et al. 2014</a></td>
+      <td><b>Unknown Tool</b></td>
+      <td>Scater read 10x data Loads 10x data into a serialized scater R object</td>
+      <td><a href="https://doi.org/10.1093/bioinformatics/btw777" target="_blank">McCarthy et al. 2017</a></td>
     </tr>
     <tr>
-      <td><a href="https://humancellatlas.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/yhoogstrate/flaimapper/flaimapper" target="_top">FlaiMapper</a></td>
-      <td>A tool for computational annotation of small ncRNA-derived fragments using RNA-seq data</td>
-      <td><a href="https://doi.org/10.1093/bioinformatics/btu696" target="_blank">Hoogstrate et al. 2015</a></td>
+      <td><b>Unknown Tool</b></td>
+      <td>Scater CalculateQcMetrics based on expression values and experiment information</td>
+      <td><a href="https://doi.org/10.1093/bioinformatics/btw777" target="_blank">McCarthy et al. 2017</a></td>
     </tr>
     <tr>
-      <td><a href="https://humancellatlas.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/rnateam/mirdeep2/rbc_mirdeep2" target="_top">MiRDeep2</a></td>
-      <td>Discovers microRNA genes by analyzing sequenced RNAs</td>
-      <td><a href="https://doi.org/10.1038/nbt1394" target="_blank">Friedländer et al. 2008</a></td>
+      <td><b>Unknown Tool</b></td>
+      <td>Scater Filter cells and genes based on pre-calculated stats and QC metrics</td>
+      <td><a href="https://doi.org/10.1093/bioinformatics/btw777" target="_blank">McCarthy et al. 2017</a></td>
     </tr>
     <tr>
-      <td><a href="https://humancellatlas.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/rnateam/nastiseq/nastiseq" target="_top">NASTIseq</a></td>
-      <td>A method that incorporates the inherent variable efficiency of generating perfectly strand-specific libraries</td>
-      <td><a href="https://doi.org/10.1101/gr.149310.112" target="_blank">Li et al. 2013</a></td>
+      <td><b>Unknown Tool</b></td>
+      <td>Scater DetectOutlier cells based on expression metrics</td>
+      <td><a href="https://doi.org/10.1093/bioinformatics/btw777" target="_blank">McCarthy et al. 2017</a></td>
     </tr>
     <tr>
-      <td><a href="https://humancellatlas.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/rnateam/pipmir/pipmir" target="_top">PIPmiR</a></td>
-      <td>An algorithm to identify novel plant miRNA genes from a combination of deep sequencing data and genomic features</td>
-      <td><a href="https://doi.org/10.1101/gr.123547.111" target="_blank">Breakfield et al. 2011</a></td>
+      <td><b>Unknown Tool</b></td>
+      <td>Scater CalculateCPM from raw counts</td>
+      <td><a href="https://doi.org/10.1093/bioinformatics/btw777" target="_blank">McCarthy et al. 2017</a></td>
     </tr>
     <tr>
-      <td><a href="https://humancellatlas.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/rnateam/sortmerna/bg_sortmerna" target="_top">SortMeRNA</a></td>
-      <td>A tool for filtering, mapping and OTU-picking NGS reads in metatranscriptomic and -genomic data</td>
-      <td><a href="https://doi.org/10.1093/bioinformatics/bts611" target="_blank">Kopylova et al. 2011</a></td>
+      <td><b>Unknown Tool</b></td>
+      <td>Scater Normalise expression values by library size in log2 scale</td>
+      <td><a href="https://doi.org/10.1093/bioinformatics/btw777" target="_blank">McCarthy et al. 2017</a></td>
     </tr>
   </tbody>
 </table>
 
-<h3 id="read-mapping">Read Mapping</h3>
+<h3 id="sc3">SC3</h3>
+
+<p>Granular tools for accessing the main SC3 functionalities. Normally used in combination with Scater.</p>
 
 <table class="table table-striped tooltable">
   <thead>
@@ -243,61 +361,44 @@
   </thead>
   <tbody>
     <tr>
-      <td><a href="https://humancellatlas.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/hisat2/hisat2" target="_top">HISAT2</a></td>
-      <td>Hierarchical indexing for spliced alignment of transcripts</td>
-      <td><a href="https://doi.org/10.1038/nprot.2016.095" target="_blank">Pertea et al. 2016</a></td>
+      <td><b>Unknown Tool</b></td>
+      <td>SC3 Prepare a sc3 SingleCellExperiment object</td>
+      <td><a href="https://doi.org/10.1038/nmeth.4236" target="_blank">Kisilev et al. 2017</a></td>
     </tr>
     <tr>
-      <td><a href="https://humancellatlas.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/rgrnastar/rna_star" target="_top">RNA STAR</a></td>
-      <td>Rapid spliced aligner for RNA-seq data</td>
-      <td><a href="https://academic.oup.com/bioinformatics/article/29/1/15/272537/STAR-ultrafast-universal-RNA-seq-aligner" target="_blank">Dobin et al. 2013</a></td>
+      <td><b>Unknown Tool</b></td>
+      <td>SC3 Calculate Consensus from multiple runs of k-means clustering</td>
+      <td><a href="https://doi.org/10.1038/nmeth.4236" target="_blank">Kisilev et al. 2017</a></td>
     </tr>
     <tr>
-      <td><a href="https://humancellatlas.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/star_fusion/star_fusion" target="_top">STAR-fusion</a></td>
-      <td>Fast fusion gene finder</td>
-      <td><a href="https://www.biorxiv.org/content/early/2017/03/24/120295" target="_blank">Haas et al. 2017</a></td>
+      <td><b>Unknown Tool</b></td>
+      <td>SC3 Calculate Transformations of distances using PCA and graph Laplacian</td>
+      <td><a href="https://doi.org/10.1038/nmeth.4236" target="_blank">Kisilev et al. 2017</a></td>
     </tr>
     <tr>
-      <td><a href="https://humancellatlas.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2" target="_top">Bowtie2</a></td>
-      <td>Fast and sensitive read alignment</td>
-      <td><a href="https://doi.org/10.1038/nmeth.1923" target="_blank">Langmead et al. 2012</a></td>
+      <td><b>Unknown Tool</b></td>
+      <td>SC3 DiffExp calculates DE genes, marker genes and cell outliers</td>
+      <td><a href="https://doi.org/10.1038/nmeth.4236" target="_blank">Kisilev et al. 2017</a></td>
     </tr>
     <tr>
-      <td><a href="https://humancellatlas.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa" target="_top">BWA</a></td>
-      <td>Software package for mapping low-divergent sequences against a large reference genome</td>
-      <td><a href="https://doi.org/10.1093/bioinformatics/btp324" target="_blank">Li and Durbin 2009</a>, <a href="https://doi.org/10.1093/bioinformatics/btp698" target="_blank">Li and Durbin 2010</a></td>
+      <td><b>Unknown Tool</b></td>
+      <td>SC3 Estimate the number of clusters for k-means clustering</td>
+      <td><a href="https://doi.org/10.1038/nmeth.4236" target="_blank">Kisilev et al. 2017</a></td>
+    </tr>
+    <tr>
+      <td><b>Unknown Tool</b></td>
+      <td>SC3 Calculate Distances between cells</td>
+      <td><a href="https://doi.org/10.1038/nmeth.4236" target="_blank">Kisilev et al. 2017</a></td>
+    </tr>
+    <tr>
+      <td><b>Unknown Tool</b></td>
+      <td>SC3 K-Means perform k-means clustering</td>
+      <td><a href="https://doi.org/10.1038/nmeth.4236" target="_blank">Kisilev et al. 2017</a></td>
     </tr>
   </tbody>
 </table>
 
-<h3 id="utilities">Utilities</h3>
-
-<table class="table table-striped tooltable">
-  <thead>
-    <tr>
-      <th>Tool</th>
-      <th>Description</th>
-      <th>Reference</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>SAMtools</td>
-      <td>Utilities for manipulating alignments in the SAM format</td>
-      <td><a href="https://doi.org/10.1093/bioinformatics/btp352" target="_blank">Heng et al. 2009</a></td>
-    </tr>
-    <tr>
-      <td>BEDTools</td>
-      <td>Utilities for genome arithmetic</td>
-      <td><a href="https://doi.org/10.1093/bioinformatics/btq033" target="_blank">Quinlan and Hall 2010</a></td>
-    </tr>
-    <tr>
-      <td>deepTools</td>
-      <td>Tools for exploring deep-sequencing data</td>
-      <td><a href="https://doi.org/10.1093/nar/gku365" target="_blank">Ramirez et al. 2014</a>, <a href="https://doi.org/10.1093/nar/gkw257" target="_blank">Ramirez et al. 2016</a></td>
-    </tr>
-  </tbody>
-</table>
+<p>…plus all the great tools normally available at the <a href="https://usegalaxy.eu/">usegalaxy.eu</a>.</p>
 
 <h1 id="contributors">Contributors</h1>
 
@@ -305,6 +406,12 @@
   <li><a href="https://github.com/pcm32">Pablo Moreno</a></li>
   <li><a href="https://github.com/nh3">Ni Huang</a></li>
   <li><a href="https://github.com/pinin4fjords">Jonathan Manning</a></li>
+  <li><a href="https://github.com/cartal">Carlos Talavera-Lopez</a></li>
+  <li><a href="https://github.com/suhaibMo">Suhaib Mohammed</a></li>
+  <li><a href="https://twitter.com/irenepapatheodo">Irene Papatheodorou</a></li>
+  <li><a href="https://github.com/bgruening/">Björn Gruening</a></li>
+  <li><a href="https://github.com/ktpolanski">Krzysztof Polanski</a></li>
+  <li><a href="https://github.com/mblue9/">Maria Doyle</a></li>
 </ul>
 
 
