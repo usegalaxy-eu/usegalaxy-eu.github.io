@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  <title>Galaxy Europe | UseGalaxy.eu Tool Updates for 2019-07-27</title>
-  <meta property="og:title" content="UseGalaxy.eu Tool Updates for 2019-07-27" />
-  <meta property="og:description" content="On 2019-07-27, the tools on UseGalaxy.eu were updated by ..." />
+  <title>Galaxy Europe | MaxQuant goes Galaxy</title>
+  <meta property="og:title" content="MaxQuant goes Galaxy" />
+  <meta property="og:description" content="After lots of requests for a more up-to-date MaxQuant too..." />
   <meta property="og:image" content="/assets/media/galaxy-eu-logo.512.png" />
   <meta name="description" content="The European Galaxy Instance">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,7 +16,7 @@
 
 
 
-  <link rel="canonical" href="https://galaxyproject.eu/posts/2019/07/27/tool-update/">
+  <link rel="canonical" href="https://galaxyproject.eu/posts/2019/08/02/max-quant/">
   <link rel="shortcut icon" href="/assets/media/galaxy-eu-logo.64.png" type="image/x-icon" />
   <link rel="alternate" type="application/rss+xml" title="Galaxy Europe" href="/feed.xml">
 
@@ -131,20 +131,16 @@
 <section id="news-page">
   <div class="row news-header-row">
     
-    <a class="col-xs-1 text-center" href="/posts/2019/07/20/7000-users-10M-datasets/">
+    <a class="col-xs-1 text-center" href="/posts/2019/07/27/tool-update/">
       «
     </a>
     
     <div class="col-xs-10 ">
       <div class="text-center">
-        <h2 class="title">UseGalaxy.eu Tool Updates for 2019-07-27</h2>
+        <h2 class="title">MaxQuant goes Galaxy</h2>
       </div>
       <hr />
     </div>
-    
-    <a class="col-xs-1 text-center" href="/posts/2019/08/02/max-quant/">
-      »
-    </a>
     
   </div>
   <div class="row post-metadata">
@@ -157,7 +153,7 @@
         <div class="col-md-6 text-right">
           <div>
             <span class="post-date">
-              Jul 27, 2019
+              Aug 2, 2019
             </span>
 
             
@@ -181,90 +177,23 @@
   <div class="row">
     <div class="col-md-8 col-md-offset-2">
       <div class="news-content">
-        <p>On 2019-07-27, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in <a href="https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#127/">Jenkins Build #127</a></p>
+        <p>After lots of requests for a more up-to-date MaxQuant tool it finally is there! The European Galaxy server now contains two MaxQuant tools.
+<a href="https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/1.6.3.4">One</a> features options for SILAC and label free
+quantification and also the possibility to process
+fractioned data by uploading an experimental design template.
+<a href="https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant_mqpar/maxquant_mqpar/1.6.3.4">The other one</a> operates on a parameter
+file uploaded by the user. This enables the usage of all the features of MaxQuant, but might be less convenient to use.</p>
 
-<h2 id="statistics">Statistics</h2>
+<p>Those tools have been developed by Damian Glaetzer and Friedel Drepper from the University of Freiburg and are available in the Galaxy ToolShed for everyone.
+Thanks a lot Damian and Friedel!</p>
 
-<ul>
-  <li>mine was updated to <a href="https://toolshed.g2.bx.psu.edu/view/devteam/mine/5e2c89443c44">5e2c89443c44</a></li>
-</ul>
-
-<h2 id="convert-formats">Convert Formats</h2>
-
-<ul>
-  <li>bam_to_scidx was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/bam_to_scidx/11fc60f0e942">11fc60f0e942</a></li>
-</ul>
-
-<h2 id="graphdisplay-data">Graph/Display Data</h2>
-
-<ul>
-  <li>scatterplot was updated to <a href="https://toolshed.g2.bx.psu.edu/view/devteam/scatterplot/efda9a4a50e7">efda9a4a50e7</a></li>
-</ul>
-
-<h2 id="imaging">Imaging</h2>
-
-<ul>
-  <li>2d_auto_threshold was updated to <a href="https://toolshed.g2.bx.psu.edu/view/imgteam/2d_auto_threshold/4853fc2b50bf">4853fc2b50bf</a></li>
-  <li>2d_local_threshold was updated to <a href="https://toolshed.g2.bx.psu.edu/view/imgteam/2d_local_threshold/c90b91f4a07b">c90b91f4a07b</a></li>
-  <li>detection_viz was updated to <a href="https://toolshed.g2.bx.psu.edu/view/imgteam/detection_viz/f46f64f9590d">f46f64f9590d</a></li>
-  <li>image_info was updated to <a href="https://toolshed.g2.bx.psu.edu/view/imgteam/image_info/7b6d9412c7f8">7b6d9412c7f8</a></li>
-</ul>
-
-<h2 id="variant-calling">Variant Calling</h2>
-
-<ul>
-  <li>vcf2tsv was updated to <a href="https://toolshed.g2.bx.psu.edu/view/devteam/vcf2tsv/77e1141bbd29">77e1141bbd29</a></li>
-</ul>
-
-<h2 id="metagenomic-analyses">Metagenomic analyses</h2>
-
-<ul>
-  <li>vegan_fisher_alpha was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/vegan_fisher_alpha/d6b92ca3a9a1">d6b92ca3a9a1</a></li>
-</ul>
-
+<p>The work was presented at the <a href="https://galaxyproject.org/events/gcc2019/">GCC2019</a> and the <a href="https://f1000research.com/slides/8-1162">slides</a> and the 
+<a href="/assets/media/Poster_15C_GCC2019_MaxQuant_Galaxy_20190701_print.pdf">poster</a> are available.</p>
 
       </div>
     </div>
   </div>
 
-
-	<div class="col-md-2">
-	</div>
-<div class="row">
-	<div class="col-md-8 col-sm-12">
-
-<div id="supported">
-    
-  <h3>Supported by</h3>
-    
-  <div class="row eu-image-box">
-      
-      <div>
-      
-          
-            <a href="https://www.denbi.de" target="_blank">
-              <img alt="de.NBI logo" src="/assets/media/deNBI_Logo_rgb_small.png" class="img-responsive eu-image"/>
-            </a>
-          
-      </div>
-      
-      <div>
-      
-          
-            <a href="https://www.elixir-europe.org" target="_blank">
-              <img alt="ELIXIR logo" src="/assets/media/elixir_logo_white_background.png" class="img-responsive eu-image" />
-            </a>
-          
-      </div>
-      
-  </div>
-</div>
-
-
-	</div>
-	<div class="col-md-2">
-	</div>
-</div>
 
 </section>
 
@@ -299,7 +228,7 @@ unless otherwise specified.</p>
         <div class="row">
             <div class="col-lg-12" style="text-align:center">
                 <ul class="contact-info">
-                    <li><i class="fa fa-github"></i><a href="https://github.com/usegalaxy-eu/website/tree/master/_posts/2019-07-27-tool-update.md">Edit this page on GitHub</a></li>
+                    <li><i class="fa fa-github"></i><a href="https://github.com/usegalaxy-eu/website/tree/master/_posts/2019-08-02-max-quant.md">Edit this page on GitHub</a></li>
                     
                       <li><i class="fa fa-envelope"></i><a href="mailto:freiburg@usegalaxy.eu">freiburg@usegalaxy.eu</a></li>
                     
