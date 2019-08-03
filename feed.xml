@@ -1,4 +1,38 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2019-08-02T17:01:51+02:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">MaxQuant goes Galaxy</title><link href="https://galaxyproject.eu/posts/2019/08/02/max-quant/" rel="alternate" type="text/html" title="MaxQuant goes Galaxy" /><published>2019-08-02T00:00:00+02:00</published><updated>2019-08-02T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2019/08/02/max-quant</id><content type="html" xml:base="https://galaxyproject.eu/posts/2019/08/02/max-quant/">&lt;p&gt;After lots of requests for a more up-to-date MaxQuant tool it finally is there! The European Galaxy server now contains two MaxQuant tools.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2019-08-03T15:12:00+02:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2019-08-03</title><link href="https://galaxyproject.eu/posts/2019/08/03/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2019-08-03" /><published>2019-08-03T00:00:00+02:00</published><updated>2019-08-03T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2019/08/03/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2019/08/03/tool-update/">&lt;p&gt;On 2019-08-03, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#128/&quot;&gt;Jenkins Build #128&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;rna-analysis&quot;&gt;RNA Analysis&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;cummerbund was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/cummerbund/f3012521ea79&quot;&gt;f3012521ea79&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;deseq2 was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/deseq2/d983d19fbbab&quot;&gt;d983d19fbbab&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;quality-control&quot;&gt;Quality Control&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;fastq_to_fasta was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/fastq_to_fasta/186b8d913e6c&quot;&gt;186b8d913e6c&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;imaging&quot;&gt;Imaging&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;permutate_axis was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/imgteam/permutate_axis/0bbe34198e24&quot;&gt;0bbe34198e24&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;epigenetics&quot;&gt;Epigenetics&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;bwameth was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bwameth/f7094efef903&quot;&gt;f7094efef903&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;sam-tools&quot;&gt;SAM Tools&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;samtool_filter2 was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/samtool_filter2/a7add3e93cc5&quot;&gt;a7add3e93cc5&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;samtools_bedcov was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/samtools_bedcov/9149ad20699a&quot;&gt;9149ad20699a&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;samtools_idxstats was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/samtools_idxstats/811fc2d75ad4&quot;&gt;811fc2d75ad4&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;samtools_split was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/samtools_split/135c85f4cfaf&quot;&gt;135c85f4cfaf&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2019-08-03, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #128</summary></entry><entry><title type="html">MaxQuant goes Galaxy</title><link href="https://galaxyproject.eu/posts/2019/08/02/max-quant/" rel="alternate" type="text/html" title="MaxQuant goes Galaxy" /><published>2019-08-02T00:00:00+02:00</published><updated>2019-08-02T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2019/08/02/max-quant</id><content type="html" xml:base="https://galaxyproject.eu/posts/2019/08/02/max-quant/">&lt;p&gt;After lots of requests for a more up-to-date MaxQuant tool it finally is there! The European Galaxy server now contains two MaxQuant tools.
 &lt;a href=&quot;https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/galaxyp/maxquant/maxquant/1.6.3.4&quot;&gt;One&lt;/a&gt; features options for SILAC and label free
 quantification and also the possibility to process
 fractioned data by uploading an experimental design template.
@@ -427,24 +461,4 @@ jwplayer(&quot;mobilerz&quot;).setup({
 	},
 	proxyType: &quot;best&quot;
 });
-&lt;/script&gt;</content><author><name>erasche</name></author><category term="release" /><category term="talk" /><category term="video" /><summary type="html">This year’s GCC is live streamed! If you couldn’t make it to Germany, come check out some of the talks and trainings taking place in Freiburg this week.</summary></entry><entry><title type="html">Tool Recommendation: What do I do next?</title><link href="https://galaxyproject.eu/posts/2019/06/27/tool-prediction/" rel="alternate" type="text/html" title="Tool Recommendation: What do I do next?" /><published>2019-06-27T00:00:00+02:00</published><updated>2019-06-27T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2019/06/27/tool-prediction</id><content type="html" xml:base="https://galaxyproject.eu/posts/2019/06/27/tool-prediction/">&lt;p&gt;If you’ve done interactive data analysis, it’s likely at least once you were
-faced with the question “&lt;em&gt;What do I do next?&lt;/em&gt;” Maybe you’re following the
-publicly available parts of a protocol, maybe you’re doing a novel analysis,
-maybe you just want to add a new graph and some extra pizzaz to the reporting
-workflow you built for your project.&lt;/p&gt;
-
-&lt;p&gt;UseGalaxy.eu’s users have faced this issue many times before and together we
-developed something to maybe give you a push in the right direction: &lt;strong&gt;offering
-you a list of tools you could run next.&lt;/strong&gt; A big thank you to our &lt;a href=&quot;/people#anuprulez&quot;&gt;Anup Kumar&lt;/a&gt; who implemented this feature!&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/media/tool-prediction.gif&quot; alt=&quot;&amp;quot;A list of tools that you can run next in a workflow&amp;quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;These tool recommendations are based on machine learning run on workflows
-previously executed by users across UseGalaxy.*, extracting the common chains
-of one tool, to the next, to the next. This data was processed and now we can
-make some guesses about what tools you might include next, and offer these as
-suggestions to you.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/media/tool-prediction.png&quot; alt=&quot;&amp;quot;A set of suggestions after interactive usage&amp;quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Check it out today!&lt;/p&gt;</content><author><name>erasche</name></author><category term="devops" /><category term="release" /><summary type="html">If you’ve done interactive data analysis, it’s likely at least once you were faced with the question “What do I do next?” Maybe you’re following the publicly available parts of a protocol, maybe you’re doing a novel analysis, maybe you just want to add a new graph and some extra pizzaz to the reporting workflow you built for your project.</summary></entry></feed>
+&lt;/script&gt;</content><author><name>erasche</name></author><category term="release" /><category term="talk" /><category term="video" /><summary type="html">This year’s GCC is live streamed! If you couldn’t make it to Germany, come check out some of the talks and trainings taking place in Freiburg this week.</summary></entry></feed>
