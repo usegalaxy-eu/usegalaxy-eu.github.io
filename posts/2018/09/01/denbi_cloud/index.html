@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  <title>Galaxy Europe | UseGalaxy.eu Downtime</title>
-  <meta property="og:title" content="UseGalaxy.eu Downtime" />
-  <meta property="og:description" content="We had a confluence of unexpected and bad events which re..." />
+  <title>Galaxy Europe | Galaxy on de.NBI cloud now with more power</title>
+  <meta property="og:title" content="Galaxy on de.NBI cloud now with more power" />
+  <meta property="og:description" content="We are one out of five German de.NBI cloud centers that p..." />
   <meta property="og:image" content="/assets/media/galaxy-eu-logo.512.png" />
   <meta name="description" content="The European Galaxy Instance">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,7 +16,7 @@
 
 
 
-  <link rel="canonical" href="https://galaxyproject.eu/posts/2018/09/21/downtime/">
+  <link rel="canonical" href="https://galaxyproject.eu/posts/2018/09/01/denbi_cloud/">
   <link rel="shortcut icon" href="/assets/media/galaxy-eu-logo.64.png" type="image/x-icon" />
   <link rel="alternate" type="application/rss+xml" title="Galaxy Europe" href="/feed.xml">
 
@@ -131,18 +131,18 @@
 <section id="news-page">
   <div class="row news-header-row">
     
-    <a class="col-xs-1 text-center" href="/posts/2018/09/01/denbi_cloud/">
+    <a class="col-xs-1 text-center" href="/posts/2018/07/25/openpositions/">
       «
     </a>
     
     <div class="col-xs-10 ">
       <div class="text-center">
-        <h2 class="title">UseGalaxy.eu Downtime</h2>
+        <h2 class="title">Galaxy on de.NBI cloud now with more power</h2>
       </div>
       <hr />
     </div>
     
-    <a class="col-xs-1 text-center" href="/posts/2018/09/24/galaxy-hts-data-analysis-workshop/">
+    <a class="col-xs-1 text-center" href="/posts/2018/09/21/downtime/">
       »
     </a>
     
@@ -157,14 +157,9 @@
         <div class="col-md-6 text-right">
           <div>
             <span class="post-date">
-              Sep 21, 2018
+              Sep 1, 2018
             </span>
 
-            
-            <br />
-            <span class="post-location">
-                Freiburg, Germany
-            </span>
             
 
             <br />
@@ -172,8 +167,6 @@
                 <span class="label label-success">Freiburg</span>
               
                 <span class="label label-info">devops</span>
-              
-                <span class="label label-info">downtime</span>
               
               
             </span>
@@ -188,130 +181,63 @@
   <div class="row">
     <div class="col-md-8 col-md-offset-2">
       <div class="news-content">
-        <p>We had a confluence of unexpected and bad events which resulted in UseGalaxy.eu
-offline for a significant portion of yesterday (2018-09-20) afternoon. No data
-was lost.</p>
+        <p>We are one out of five German <a href="www.denbi.de/cloud">de.NBI cloud</a> centers that provides storage and compute resources for the life science community. Thanks to a new <a href="https://www.denbi.de">de.NBI</a> grant, the European Galaxy Server now has extended CPU memory and storage resources. Expect less waiting time in the queue, smoother big training events and more power for your research!</p>
 
-<h2 id="incident-timeline">Incident Timeline</h2>
+<p>Thanks to our local <a href="http://www.hpc.uni-freiburg.de/">compute center</a> for all their help on our way!</p>
 
-<table class="table table-striped">
-  <thead>
-    <tr>
-      <th>Time</th>
-      <th>State</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>12:00</td>
-      <td>Galaxy’s influence became unresponsive. The uWSGI processes were attempting to compile something, and could not be permanently killed as they automatically respawn.</td>
-    </tr>
-    <tr>
-      <td>12:30</td>
-      <td>We rebooted the Galaxy server. It went into the 30 minute reboot process.</td>
-    </tr>
-    <tr>
-      <td>13:12</td>
-      <td>Helena arrives at the Freiburg compute center in order to attach to server directly and monitor boot process. The server is up at this point.</td>
-    </tr>
-    <tr>
-      <td>13:15</td>
-      <td>After logging in, the server immediately halts itself and begins rebooting again.</td>
-    </tr>
-    <tr>
-      <td>13:31</td>
-      <td>Node is back up, immediately halts itself again. Despite issuing a <code class="highlighter-rouge">shutdown -c</code>, we could not cancel the shutdown.</td>
-    </tr>
-    <tr>
-      <td>14:18</td>
-      <td>We get the node back up and prevent future shutdowns, but then one of the filesystems fails to mount.</td>
-    </tr>
-    <tr>
-      <td>14:27</td>
-      <td>Stefan identifies a ZFS issue and ends up rebooting that server.</td>
-    </tr>
-    <tr>
-      <td>14:38</td>
-      <td>Workshop is cancelled.</td>
-    </tr>
-    <tr>
-      <td>15:00</td>
-      <td>Björn arrives at the compute center and we attempt to debug the issues and logs we have seen.</td>
-    </tr>
-    <tr>
-      <td>15:15</td>
-      <td>Stefan recovers the ZFS</td>
-    </tr>
-    <tr>
-      <td>16:15</td>
-      <td>Stefan arrives at the compute center. Together all three of us head to the DC. We make a decision that from the log messages we’ve seen we should consider replacing the hardware, migrating the hard drives to a spare enclosure.</td>
-    </tr>
-    <tr>
-      <td>16:27</td>
-      <td>Approximately 1/3rd of the drives providing storage for the old bwCloud die/become inaccessible. This permanently takes down numerous services, including <code class="highlighter-rouge">stats.usegalaxy.eu</code>.</td>
-    </tr>
-    <tr>
-      <td>17:00</td>
-      <td>Helena takes the opportunity to migrate the HTCondor cluster we run in the cloud from the old cloud to the new cloud. At least one thing goes successfully.</td>
-    </tr>
-    <tr>
-      <td>17:35</td>
-      <td>We finally have the replacement head node booting, however it decides to use unexpected names for the ethernet interfaces and networking breaks.</td>
-    </tr>
-    <tr>
-      <td>17:57</td>
-      <td>We finally regain access to our head node. We start galaxy</td>
-    </tr>
-    <tr>
-      <td>18:21</td>
-      <td>Galaxy is back online.</td>
-    </tr>
-  </tbody>
-</table>
-
-<h2 id="resolution">Resolution</h2>
-
-<p>This was really a worst case scenario, multiple services, multiple machines all failed within the space of 6 hours. The only good point is that no user data was lost.</p>
-
-<h3 id="offline-galaxy">Offline Galaxy</h3>
-
-<p>We have had plans for some time now that we will run a second Galaxy head node
-which we can fail over to in emergencies like this. We additionally have a
-replacement head node which is not currently utilised. We have not been able to
-migrate to either of these options due to time pressures to migrate to the new
-cloud, which will go down in 7 days, and all data in the old cloud will be
-lost.</p>
-
-<h3 id="zfs">ZFS</h3>
-
-<p>Galaxy can use a “distributed” storage setup where datasets are stored across
-multiple directories. We use this in order to spread data across our three NFS
-servers. Galaxy currently has a hard requirement that all storage directories
-are online when Galaxy boots. Helena
-<a href="https://github.com/galaxyproject/galaxy/issues/4974">proposed</a> a solution to
-this but due to lack of feedback and lack of time, we have not yet implemented
-support for marking these backends as “offline” and allowing Galaxy to start
-despite it.</p>
-
-<h3 id="cloud-storage">Cloud Storage</h3>
-
-<p>We planned for scenarios like this and required that any VM running in the
-cloud be able to be rebuilt within 15 minutes, allowing us to restore service.
-Given the multitude of other issues currently happening, and the service level
-objective (SLO) of the service, we decided not to repair this VM.</p>
-
-<h2 id="conclusion">Conclusion</h2>
-
-<p>This was a significant interruption to our services, and to the workflows of
-you, our end users. We apologise for the inconvenience this has caused.</p>
-
-<p>It was a bad day; we were unlucky and unprepared. More time needs to be
-allocated to service resilliency projects.</p>
+<p>More information about the de.NBI cloud can be found <a href="https://www.denbi.de/cloud">here</a>.</p>
 
       </div>
     </div>
   </div>
 
+
+	<div class="col-md-2">
+	</div>
+<div class="row">
+	<div class="col-md-8 col-sm-12">
+
+<div id="supported">
+    
+  <h3>Supported by</h3>
+    
+  <div class="row eu-image-box">
+      
+      <div>
+      
+          
+            <a href="http://uni-freiburg.de/" target="_blank">
+              <img alt="University of Freiburg Logo" src="/assets/media/Logo_Uni_Freiburg.png" class="img-responsive eu-image" />
+            </a>
+          
+      </div>
+      
+      <div>
+      
+          
+            <a href="https://www.denbi.de" target="_blank">
+              <img alt="de.NBI logo" src="/assets/media/deNBI_Logo_rgb_small.png" class="img-responsive eu-image"/>
+            </a>
+          
+      </div>
+      
+      <div>
+      
+          
+            <a href="https://www.elixir-europe.org" target="_blank">
+              <img alt="ELIXIR logo" src="/assets/media/elixir_logo.png" class="img-responsive eu-image" />
+            </a>
+          
+      </div>
+      
+  </div>
+</div>
+
+
+	</div>
+	<div class="col-md-2">
+	</div>
+</div>
 
 </section>
 
@@ -346,7 +272,7 @@ unless otherwise specified.</p>
         <div class="row">
             <div class="col-lg-12" style="text-align:center">
                 <ul class="contact-info">
-                    <li><i class="fa fa-github"></i><a href="https://github.com/usegalaxy-eu/website/tree/master/_posts/2018-09-21-downtime.md">Edit this page on GitHub</a></li>
+                    <li><i class="fa fa-github"></i><a href="https://github.com/usegalaxy-eu/website/tree/master/_posts/2018-09-01-denbi_cloud.md">Edit this page on GitHub</a></li>
                     
                       <li><i class="fa fa-envelope"></i><a href="mailto:freiburg@usegalaxy.eu">freiburg@usegalaxy.eu</a></li>
                     
