@@ -1,27 +1,57 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2019-08-18T05:36:14+02:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2019-08-18</title><link href="https://galaxyproject.eu/posts/2019/08/18/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2019-08-18" /><published>2019-08-18T00:00:00+02:00</published><updated>2019-08-18T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2019/08/18/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2019/08/18/tool-update/">&lt;p&gt;On 2019-08-18, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#133/&quot;&gt;Jenkins Build #133&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2019-08-18T09:36:05+02:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2019-08-18</title><link href="https://galaxyproject.eu/posts/2019/08/18/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2019-08-18" /><published>2019-08-18T00:00:00+02:00</published><updated>2019-08-18T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2019/08/18/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2019/08/18/tool-update/">&lt;p&gt;On 2019-08-18, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#133/&quot;&gt;Jenkins Build #133&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;annotation&quot;&gt;Annotation&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;abricate was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/abricate/862f5a86854d&quot;&gt;862f5a86854d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;goseq was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/goseq/67c29afac85f&quot;&gt;67c29afac85f&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;transtermhp was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/transtermhp/1d8ad7599f02&quot;&gt;1d8ad7599f02&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h2 id=&quot;proteomics&quot;&gt;Proteomics&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;proteomics_moff was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/proteomics_moff/226287d75d96&quot;&gt;226287d75d96&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Maxquant was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/maxquant/175e062b6a17&quot;&gt;175e062b6a17&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;graphdisplay-data&quot;&gt;Graph/Display Data&lt;/h2&gt;
+&lt;h2 id=&quot;variant-calling&quot;&gt;Variant Calling&lt;/h2&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;xy_plot was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/xy_plot/319fa5a9fc1b&quot;&gt;319fa5a9fc1b&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;varscan_mpileup was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/varscan_mpileup/e3f170cc4f95&quot;&gt;e3f170cc4f95&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;varscan_copynumber was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/varscan_copynumber/0bc56f894766&quot;&gt;0bc56f894766&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;varscan_copynumber was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/varscan_somatic/4e97191a1ff7&quot;&gt;4e97191a1ff7&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;get-data&quot;&gt;Get Data&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;sra_tools was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/sra_tools/c38286ea7047&quot;&gt;c38286ea7047&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;annotation&quot;&gt;Annotation&lt;/h2&gt;
+&lt;h2 id=&quot;annotation-1&quot;&gt;Annotation&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;hmmer3 was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hmmer3/54b6b4d0613a&quot;&gt;54b6b4d0613a&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;crispr_studio was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/crispr_studio/7346619ad005&quot;&gt;7346619ad005&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;tbprofiler was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/tbprofiler/19793eecc9f0&quot;&gt;19793eecc9f0&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;chemicaltoolbox&quot;&gt;ChemicalToolBox&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;fpocket was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/fpocket/2063e965531c&quot;&gt;2063e965531c&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;mapping&quot;&gt;Mapping&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;RNA Star was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/rgrnastar/41929aa1e7f3&quot;&gt;41929aa1e7f3&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;single-cell&quot;&gt;Single Cell&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;RaceID clustering was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/raceid_clustering/ee0bbc160cb1&quot;&gt;ee0bbc160cb1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;RaceID filtnormconf was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/raceid_filtnormconf/5d5b14dbd092&quot;&gt;5d5b14dbd092&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;RaceID inspectclusters clustering was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/raceid_inspectclusters/20f522154663&quot;&gt;20f522154663&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;RaceID inspecttrajectory was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/raceid_inspecttrajectory/86e2358cf273&quot;&gt;86e2358cf273&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;RaceID trajectory was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/raceid_trajectory/3e5bb16abb55&quot;&gt;3e5bb16abb55&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;RNA StarSolo was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/rna_starsolo/e613048778d9&quot;&gt;e613048778d9&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2019-08-18, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #133</summary></entry><entry><title type="html">UseGalaxy.eu Tool Updates for 2019-08-10</title><link href="https://galaxyproject.eu/posts/2019/08/10/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2019-08-10" /><published>2019-08-10T00:00:00+02:00</published><updated>2019-08-10T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2019/08/10/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2019/08/10/tool-update/">&lt;p&gt;On 2019-08-10, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#128/&quot;&gt;Jenkins Build #128&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;epigenetics&quot;&gt;Epigenetics&lt;/h2&gt;
