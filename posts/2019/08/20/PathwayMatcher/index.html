@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  <title>Galaxy Europe | UseGalaxy.eu Tool Updates for 2019-08-18</title>
-  <meta property="og:title" content="UseGalaxy.eu Tool Updates for 2019-08-18" />
-  <meta property="og:description" content="On 2019-08-18, the tools on UseGalaxy.eu were updated by ..." />
+  <title>Galaxy Europe | PathwayMatcher published and running on usegalaxy.eu</title>
+  <meta property="og:title" content="PathwayMatcher published and running on usegalaxy.eu" />
+  <meta property="og:description" content="PathwayMatcher builds a protein-protein interaction netwo..." />
   <meta property="og:image" content="/assets/media/galaxy-eu-logo.512.png" />
   <meta name="description" content="The European Galaxy Instance">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,7 +16,7 @@
 
 
 
-  <link rel="canonical" href="https://galaxyproject.eu/posts/2019/08/18/tool-update/">
+  <link rel="canonical" href="https://galaxyproject.eu/posts/2019/08/20/PathwayMatcher/">
   <link rel="shortcut icon" href="/assets/media/galaxy-eu-logo.64.png" type="image/x-icon" />
   <link rel="alternate" type="application/rss+xml" title="Galaxy Europe" href="/feed.xml">
 
@@ -131,20 +131,16 @@
 <section id="news-page">
   <div class="row news-header-row">
     
-    <a class="col-xs-1 text-center" href="/posts/2019/08/17/Slamdunk/">
+    <a class="col-xs-1 text-center" href="/posts/2019/08/18/tool-update/">
       «
     </a>
     
     <div class="col-xs-10 ">
       <div class="text-center">
-        <h2 class="title">UseGalaxy.eu Tool Updates for 2019-08-18</h2>
+        <h2 class="title">PathwayMatcher published and running on usegalaxy.eu</h2>
       </div>
       <hr />
     </div>
-    
-    <a class="col-xs-1 text-center" href="/posts/2019/08/20/PathwayMatcher/">
-      »
-    </a>
     
   </div>
   <div class="row post-metadata">
@@ -157,7 +153,7 @@
         <div class="col-md-6 text-right">
           <div>
             <span class="post-date">
-              Aug 18, 2019
+              Aug 20, 2019
             </span>
 
             
@@ -181,104 +177,29 @@
   <div class="row">
     <div class="col-md-8 col-md-offset-2">
       <div class="news-content">
-        <p>On 2019-08-18, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in <a href="https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#133/">Jenkins Build #133</a></p>
+        <p><a href="https://doi.org/10.1093/gigascience/giz088">PathwayMatcher</a> builds a protein-protein interaction network from the Reactome pathway database.
+Users can query this network with multiple types of omics data as input, and PathwayMatcher outputs the possibly affected
+biochemical reactions, subnetworks, and pathways.</p>
 
-<h2 id="annotation">Annotation</h2>
+<p>PathwayMatcher enables refining the network representation of pathways by including proteoforms defined as
+protein isoforms with posttranslational modifications, hence, it becomes possible to distinguish interactions between different forms of the same protein.</p>
 
-<ul>
-  <li>abricate was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/abricate/862f5a86854d">862f5a86854d</a></li>
-  <li>goseq was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/goseq/67c29afac85f">67c29afac85f</a></li>
-  <li>transtermhp was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/transtermhp/1d8ad7599f02">1d8ad7599f02</a></li>
-</ul>
+<p>The PathwayMatcher project has been conducted at the University of Bergen, Norway, and the EMBL-EBI, U.K.,
+in collaboration with the Reactome team.
+The main developer of the application is Luis Francisco Hernández Sánchez. PathwayMatcher is released under the Apache 2.0 license and the source code
+is available in <a href="https://github.com/PathwayAnalysisPlatform/PathwayMatcher">GitHub</a>.
+The Galaxy tool has been implemented by Carlos Horro and is available in the 
+<a href="https://toolshed.g2.bx.psu.edu/view/galaxyp/reactome_pathwaymatcher/a2ab72e994dc">Galaxy ToolShed</a> for everyone.</p>
 
-<h2 id="proteomics">Proteomics</h2>
+<p>Try it out on <a href="https://usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fgalaxyp%2Freactome_pathwaymatcher%2Freactome_pathwaymatcher">usegalaxy.eu</a>!</p>
 
-<ul>
-  <li>proteomics_moff was updated to <a href="https://toolshed.g2.bx.psu.edu/view/galaxyp/proteomics_moff/226287d75d96">226287d75d96</a></li>
-  <li>Maxquant was updated to <a href="https://toolshed.g2.bx.psu.edu/view/galaxyp/maxquant/175e062b6a17">175e062b6a17</a></li>
-</ul>
+<embed src="https://academic.oup.com/gigascience/article-pdf/8/8/giz088/29020604/giz088.pdf" width="100%" height="700" type="application/pdf" />
 
-<h2 id="variant-calling">Variant Calling</h2>
-
-<ul>
-  <li>varscan_mpileup was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/varscan_mpileup/e3f170cc4f95">e3f170cc4f95</a></li>
-  <li>varscan_copynumber was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/varscan_copynumber/0bc56f894766">0bc56f894766</a></li>
-  <li>varscan_copynumber was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/varscan_somatic/4e97191a1ff7">4e97191a1ff7</a></li>
-</ul>
-
-<h2 id="annotation-1">Annotation</h2>
-
-<ul>
-  <li>hmmer3 was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/hmmer3/54b6b4d0613a">54b6b4d0613a</a></li>
-  <li>crispr_studio was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/crispr_studio/7346619ad005">7346619ad005</a></li>
-  <li>tbprofiler was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/tbprofiler/19793eecc9f0">19793eecc9f0</a></li>
-</ul>
-
-<h2 id="chemicaltoolbox">ChemicalToolBox</h2>
-
-<ul>
-  <li>fpocket was updated to <a href="https://toolshed.g2.bx.psu.edu/view/bgruening/fpocket/2063e965531c">2063e965531c</a></li>
-</ul>
-
-<h2 id="mapping">Mapping</h2>
-
-<ul>
-  <li>RNA Star was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/rgrnastar/41929aa1e7f3">41929aa1e7f3</a></li>
-</ul>
-
-<h2 id="single-cell">Single Cell</h2>
-
-<ul>
-  <li>RaceID clustering was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/raceid_clustering/ee0bbc160cb1">ee0bbc160cb1</a></li>
-  <li>RaceID filtnormconf was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/raceid_filtnormconf/5d5b14dbd092">5d5b14dbd092</a></li>
-  <li>RaceID inspectclusters clustering was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/raceid_inspectclusters/20f522154663">20f522154663</a></li>
-  <li>RaceID inspecttrajectory was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/raceid_inspecttrajectory/86e2358cf273">86e2358cf273</a></li>
-  <li>RaceID trajectory was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/raceid_trajectory/3e5bb16abb55">3e5bb16abb55</a></li>
-  <li>RNA StarSolo was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/rna_starsolo/e613048778d9">e613048778d9</a></li>
-</ul>
 
       </div>
     </div>
   </div>
 
-
-	<div class="col-md-2">
-	</div>
-<div class="row">
-	<div class="col-md-8 col-sm-12">
-
-<div id="supported">
-    
-  <h3>Supported by</h3>
-    
-  <div class="row eu-image-box">
-      
-      <div>
-      
-          
-            <a href="https://www.denbi.de" target="_blank">
-              <img alt="de.NBI logo" src="/assets/media/deNBI_Logo_rgb_small.png" class="img-responsive eu-image"/>
-            </a>
-          
-      </div>
-      
-      <div>
-      
-          
-            <a href="https://www.elixir-europe.org" target="_blank">
-              <img alt="ELIXIR logo" src="/assets/media/elixir_logo.png" class="img-responsive eu-image" />
-            </a>
-          
-      </div>
-      
-  </div>
-</div>
-
-
-	</div>
-	<div class="col-md-2">
-	</div>
-</div>
 
 </section>
 
@@ -313,7 +234,7 @@ unless otherwise specified.</p>
         <div class="row">
             <div class="col-lg-12" style="text-align:center">
                 <ul class="contact-info">
-                    <li><i class="fa fa-github"></i><a href="https://github.com/usegalaxy-eu/website/tree/master/_posts/2019-08-18-tool-update.md">Edit this page on GitHub</a></li>
+                    <li><i class="fa fa-github"></i><a href="https://github.com/usegalaxy-eu/website/tree/master/_posts/2019-08-20-PathwayMatcher.md">Edit this page on GitHub</a></li>
                     
                       <li><i class="fa fa-envelope"></i><a href="mailto:freiburg@usegalaxy.eu">freiburg@usegalaxy.eu</a></li>
                     
