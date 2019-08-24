@@ -1,4 +1,78 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2019-08-23T17:44:26+02:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">PathwayMatcher published and running on usegalaxy.eu</title><link href="https://galaxyproject.eu/posts/2019/08/20/PathwayMatcher/" rel="alternate" type="text/html" title="PathwayMatcher published and running on usegalaxy.eu" /><published>2019-08-20T00:00:00+02:00</published><updated>2019-08-20T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2019/08/20/PathwayMatcher</id><content type="html" xml:base="https://galaxyproject.eu/posts/2019/08/20/PathwayMatcher/">&lt;p&gt;&lt;a href=&quot;https://doi.org/10.1093/gigascience/giz088&quot;&gt;PathwayMatcher&lt;/a&gt; builds a protein-protein interaction network from the Reactome pathway database.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2019-08-24T15:18:38+02:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2019-08-24</title><link href="https://galaxyproject.eu/posts/2019/08/24/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2019-08-24" /><published>2019-08-24T00:00:00+02:00</published><updated>2019-08-24T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2019/08/24/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2019/08/24/tool-update/">&lt;p&gt;On 2019-08-24, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#134/&quot;&gt;Jenkins Build #134&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;phylogenetics&quot;&gt;Phylogenetics&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;hyphy_absrel was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_absrel/5c87e4907e08&quot;&gt;5c87e4907e08&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hyphy_bgm was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_bgm/bf97cacc1a55&quot;&gt;bf97cacc1a55&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hyphy_busted was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_busted/b678fe748dc5&quot;&gt;b678fe748dc5&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hyphy_fade was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_fade/6164d9298db9&quot;&gt;6164d9298db9&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hyphy_fel was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_fel/6c3ece5fb602&quot;&gt;6c3ece5fb602&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hyphy_fubar was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_fubar/0f108ee932ea&quot;&gt;0f108ee932ea&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hyphy_gard was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_gard/1942d02039c2&quot;&gt;1942d02039c2&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hyphy_meme was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_meme/7b3f9c78cf6d&quot;&gt;7b3f9c78cf6d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hyphy_relax was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_relax/551616a65f8f&quot;&gt;551616a65f8f&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hyphy_slac was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_slac/c2bed8cc8fc1&quot;&gt;c2bed8cc8fc1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hyphy_sm19 was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_sm19/ae7c42d49717&quot;&gt;ae7c42d49717&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;peak-calling&quot;&gt;Peak Calling&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;genrich was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/genrich/db50f51a2952&quot;&gt;db50f51a2952&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;mapping&quot;&gt;Mapping&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;bowtie2 was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/bowtie2/749c918495f7&quot;&gt;749c918495f7&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;multiple-alignments&quot;&gt;Multiple Alignments&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;pipelign was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/pipelign/cd9d1eccda7e&quot;&gt;cd9d1eccda7e&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;graphdisplay-data&quot;&gt;Graph/Display Data&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;ggplot2_violin was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/ggplot2_violin/637cf21db396&quot;&gt;637cf21db396&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;pygenometracks was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/pygenometracks/c171f2b7d76e&quot;&gt;c171f2b7d76e&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;sam-tools&quot;&gt;SAM Tools&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;samtools_rmdup was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/samtools_rmdup/586f9e1cdb2b&quot;&gt;586f9e1cdb2b&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;samtools_sort was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/samtools_sort/80fffde691eb&quot;&gt;80fffde691eb&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;chemicaltoolbox&quot;&gt;ChemicalToolBox&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;openbabel_addh was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/openbabel_addh/0691e5e97cd5&quot;&gt;0691e5e97cd5&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openbabel_change_title was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/openbabel_change_title/f924a1728291&quot;&gt;f924a1728291&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openbabel_compound_convert was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/openbabel_compound_convert/a072cb207571&quot;&gt;a072cb207571&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openbabel_filter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/openbabel_filter/a9ea2eac7300&quot;&gt;a9ea2eac7300&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openbabel_genprop was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/openbabel_genprop/a26f96c1f061&quot;&gt;a26f96c1f061&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openbabel_obgrep was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/openbabel_obgrep/14712e15f196&quot;&gt;14712e15f196&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openbabel_remduplicates was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/openbabel_remduplicates/39895aff0dd7&quot;&gt;39895aff0dd7&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openbabel_remions was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/openbabel_remions/76bbd52058ab&quot;&gt;76bbd52058ab&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openbabel_remove_protonation_state was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/openbabel_remove_protonation_state/0bf5331f62ef&quot;&gt;0bf5331f62ef&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openbabel_remsmall was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/openbabel_remsmall/ac9567d307a2&quot;&gt;ac9567d307a2&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openbabel_spectrophore_search was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/openbabel_spectrophore_search/63a121e6f224&quot;&gt;63a121e6f224&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openbabel_subsearch was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/openbabel_subsearch/202e3a64859b&quot;&gt;202e3a64859b&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openbabel_svg_depiction was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/openbabel_svg_depiction/3ec5e9a716ac&quot;&gt;3ec5e9a716ac&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;padel was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/padel/30c673b5b061&quot;&gt;30c673b5b061&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;prepare_ligands_for_docking was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/prepare_ligands_for_docking/2ba07316c7e0&quot;&gt;2ba07316c7e0&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;annotation&quot;&gt;Annotation&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;roary was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/roary/15ca041134a9&quot;&gt;15ca041134a9&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2019-08-24, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #134</summary></entry><entry><title type="html">PathwayMatcher published and running on usegalaxy.eu</title><link href="https://galaxyproject.eu/posts/2019/08/20/PathwayMatcher/" rel="alternate" type="text/html" title="PathwayMatcher published and running on usegalaxy.eu" /><published>2019-08-20T00:00:00+02:00</published><updated>2019-08-20T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2019/08/20/PathwayMatcher</id><content type="html" xml:base="https://galaxyproject.eu/posts/2019/08/20/PathwayMatcher/">&lt;p&gt;&lt;a href=&quot;https://doi.org/10.1093/gigascience/giz088&quot;&gt;PathwayMatcher&lt;/a&gt; builds a protein-protein interaction network from the Reactome pathway database.
 Users can query this network with multiple types of omics data as input, and PathwayMatcher outputs the possibly affected
 biochemical reactions, subnetworks, and pathways.&lt;/p&gt;
 
@@ -471,43 +545,4 @@ file uploaded by the user. This enables the usage of all the features of MaxQuan
 Thanks a lot Damian and Friedel!&lt;/p&gt;
 
 &lt;p&gt;The work was presented at the &lt;a href=&quot;https://galaxyproject.org/events/gcc2019/&quot;&gt;GCC2019&lt;/a&gt; and the &lt;a href=&quot;https://f1000research.com/slides/8-1162&quot;&gt;slides&lt;/a&gt; and the 
-&lt;a href=&quot;/assets/media/Poster_15C_GCC2019_MaxQuant_Galaxy_20190701_print.pdf&quot;&gt;poster&lt;/a&gt; are available.&lt;/p&gt;</content><author><name></name></author><category term="tools" /><summary type="html">After lots of requests for a more up-to-date MaxQuant tool it finally is there! The European Galaxy server now contains two MaxQuant tools. One features options for SILAC and label free quantification and also the possibility to process fractioned data by uploading an experimental design template. The other one operates on a parameter file uploaded by the user. This enables the usage of all the features of MaxQuant, but might be less convenient to use.</summary></entry><entry><title type="html">Galactic News</title><link href="https://galaxyproject.eu/posts/2019/08/01/galactic-news/" rel="alternate" type="text/html" title="Galactic News" /><published>2019-08-01T00:00:00+02:00</published><updated>2019-08-01T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2019/08/01/galactic-news</id><content type="html" xml:base="https://galaxyproject.eu/posts/2019/08/01/galactic-news/">&lt;p&gt;The August 2019 Galactic News is here!&lt;/p&gt;</content><author><name></name></author><category term="galaxy" /><summary type="html">The August 2019 Galactic News is here!</summary></entry><entry><title type="html">UseGalaxy.eu Tool Updates for 2019-07-27</title><link href="https://galaxyproject.eu/posts/2019/07/27/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2019-07-27" /><published>2019-07-27T00:00:00+02:00</published><updated>2019-07-27T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2019/07/27/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2019/07/27/tool-update/">&lt;p&gt;On 2019-07-27, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#127/&quot;&gt;Jenkins Build #127&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;statistics&quot;&gt;Statistics&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;mine was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/mine/5e2c89443c44&quot;&gt;5e2c89443c44&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;convert-formats&quot;&gt;Convert Formats&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;bam_to_scidx was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bam_to_scidx/11fc60f0e942&quot;&gt;11fc60f0e942&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;graphdisplay-data&quot;&gt;Graph/Display Data&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;scatterplot was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/scatterplot/efda9a4a50e7&quot;&gt;efda9a4a50e7&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;imaging&quot;&gt;Imaging&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;2d_auto_threshold was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/imgteam/2d_auto_threshold/4853fc2b50bf&quot;&gt;4853fc2b50bf&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;2d_local_threshold was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/imgteam/2d_local_threshold/c90b91f4a07b&quot;&gt;c90b91f4a07b&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;detection_viz was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/imgteam/detection_viz/f46f64f9590d&quot;&gt;f46f64f9590d&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;image_info was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/imgteam/image_info/7b6d9412c7f8&quot;&gt;7b6d9412c7f8&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;variant-calling&quot;&gt;Variant Calling&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;vcf2tsv was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/vcf2tsv/77e1141bbd29&quot;&gt;77e1141bbd29&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;metagenomic-analyses&quot;&gt;Metagenomic analyses&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;vegan_fisher_alpha was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/vegan_fisher_alpha/d6b92ca3a9a1&quot;&gt;d6b92ca3a9a1&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2019-07-27, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #127</summary></entry></feed>
+&lt;a href=&quot;/assets/media/Poster_15C_GCC2019_MaxQuant_Galaxy_20190701_print.pdf&quot;&gt;poster&lt;/a&gt; are available.&lt;/p&gt;</content><author><name></name></author><category term="tools" /><summary type="html">After lots of requests for a more up-to-date MaxQuant tool it finally is there! The European Galaxy server now contains two MaxQuant tools. One features options for SILAC and label free quantification and also the possibility to process fractioned data by uploading an experimental design template. The other one operates on a parameter file uploaded by the user. This enables the usage of all the features of MaxQuant, but might be less convenient to use.</summary></entry><entry><title type="html">Galactic News</title><link href="https://galaxyproject.eu/posts/2019/08/01/galactic-news/" rel="alternate" type="text/html" title="Galactic News" /><published>2019-08-01T00:00:00+02:00</published><updated>2019-08-01T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2019/08/01/galactic-news</id><content type="html" xml:base="https://galaxyproject.eu/posts/2019/08/01/galactic-news/">&lt;p&gt;The August 2019 Galactic News is here!&lt;/p&gt;</content><author><name></name></author><category term="galaxy" /><summary type="html">The August 2019 Galactic News is here!</summary></entry></feed>
