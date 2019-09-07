@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  <title>Galaxy Europe | First ATACseq training material!</title>
-  <meta property="og:title" content="First ATACseq training material!" />
-  <meta property="og:description" content="Many people are waiting for it! We are proud to present t..." />
+  <title>Galaxy Europe | UseGalaxy.eu Tool Updates for 2019-09-07</title>
+  <meta property="og:title" content="UseGalaxy.eu Tool Updates for 2019-09-07" />
+  <meta property="og:description" content="On 2019-09-07, the tools on UseGalaxy.eu were updated by ..." />
   <meta property="og:image" content="/assets/media/galaxy-eu-logo.512.png" />
   <meta name="description" content="The European Galaxy Instance">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,7 +16,7 @@
 
 
 
-  <link rel="canonical" href="https://galaxyproject.eu/posts/2019/09/06/ATACseqTutorial/">
+  <link rel="canonical" href="https://galaxyproject.eu/posts/2019/09/07/tool-update/">
   <link rel="shortcut icon" href="/assets/media/galaxy-eu-logo.64.png" type="image/x-icon" />
   <link rel="alternate" type="application/rss+xml" title="Galaxy Europe" href="/feed.xml">
 
@@ -131,20 +131,16 @@
 <section id="news-page">
   <div class="row news-header-row">
     
-    <a class="col-xs-1 text-center" href="/posts/2019/08/31/tool-update/">
+    <a class="col-xs-1 text-center" href="/posts/2019/09/06/ATACseqTutorial/">
       «
     </a>
     
     <div class="col-xs-10 ">
       <div class="text-center">
-        <h2 class="title">First ATACseq training material!</h2>
+        <h2 class="title">UseGalaxy.eu Tool Updates for 2019-09-07</h2>
       </div>
       <hr />
     </div>
-    
-    <a class="col-xs-1 text-center" href="/posts/2019/09/07/tool-update/">
-      »
-    </a>
     
   </div>
   <div class="row post-metadata">
@@ -157,7 +153,7 @@
         <div class="col-md-6 text-right">
           <div>
             <span class="post-date">
-              Sep 6, 2019
+              Sep 7, 2019
             </span>
 
             
@@ -166,7 +162,7 @@
             <span class="post-tags">
                 <span class="label label-success">Freiburg</span>
               
-                <span class="label label-info">training</span>
+                <span class="label label-info">tools</span>
               
               
             </span>
@@ -181,15 +177,84 @@
   <div class="row">
     <div class="col-md-8 col-md-offset-2">
       <div class="news-content">
-        <p>Many people are waiting for it! We are proud to present the first Galaxy training material on <a href="https://training.galaxyproject.org/training-material/topics/epigenetics/tutorials/atac-seq/tutorial.html">ATACseq</a> data analysis.</p>
+        <p>On 2019-09-07, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in <a href="https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#136/">Jenkins Build #136</a></p>
 
-<p>ATAC-Seq (Assay for Transposase-Accessible Chromatin using sequencing) is a method to investigate the accessibility of chromatin and thus a method to determine regulatory mechanisms of gene expression.</p>
+<h2 id="gemini-tools">Gemini Tools</h2>
 
-<p>This training material was started during the CoFest at <a href="https://galaxyproject.org/events/gcc2019">GCC2019</a> and is developed by Lucille Delisle, Maria Doyle, and Florian Heyl. Thanks a lot for your contribution to Galaxy training material!</p>
+<ul>
+  <li>gemini_interactions was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/gemini_interactions/2ddee6cd4a5a">2ddee6cd4a5a</a></li>
+</ul>
 
-<p><img src="/assets/media/ATACseq_WF.png" alt="ATACseq Workflow" /></p>
+<h2 id="epigenetics">Epigenetics</h2>
 
-<p>All our Galaxy training materials can be found on the <a href="https://training.galaxyproject.org">GTN website</a>.</p>
+<ul>
+  <li>moabs was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/moabs/26d7ec4af119">26d7ec4af119</a></li>
+</ul>
+
+<h2 id="operate-on-genomic-intervals">Operate on Genomic Intervals</h2>
+
+<ul>
+  <li>bedtools was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/bedtools/b28e0cfa7ba1">b28e0cfa7ba1</a></li>
+</ul>
+
+<h2 id="proteomics">Proteomics</h2>
+
+<ul>
+  <li>cardinal_quality_report was updated to <a href="https://toolshed.g2.bx.psu.edu/view/galaxyp/cardinal_quality_report/f0d1f3e97303">f0d1f3e97303</a></li>
+</ul>
+
+<h2 id="fastafastq-manipulation">FASTA/FASTQ manipulation</h2>
+
+<ul>
+  <li>seqtk was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/seqtk/288f7f69fe25">288f7f69fe25</a></li>
+  <li>sickle was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/sickle/6756c87dc2d4">6756c87dc2d4</a></li>
+</ul>
+
+<h2 id="sam-tools">SAM Tools</h2>
+
+<ul>
+  <li>samtools_flagstat was updated to <a href="https://toolshed.g2.bx.psu.edu/view/devteam/samtools_flagstat/22970df7a40e">22970df7a40e</a></li>
+  <li>samtools_idxstats was updated to <a href="https://toolshed.g2.bx.psu.edu/view/devteam/samtools_idxstats/7a6034296ae9">7a6034296ae9</a></li>
+  <li>samtools_stats was updated to <a href="https://toolshed.g2.bx.psu.edu/view/devteam/samtools_stats/47035d167365">47035d167365</a></li>
+</ul>
+
+<h2 id="metabolomics">Metabolomics</h2>
+
+<ul>
+  <li>batchcorrection was updated to <a href="https://toolshed.g2.bx.psu.edu/view/melpetera/batchcorrection/73892ef177e3">73892ef177e3</a></li>
+</ul>
+
+<h2 id="rna-analysis">RNA Analysis</h2>
+
+<ul>
+  <li>featurecounts was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/featurecounts/a37612abf7f9">a37612abf7f9</a></li>
+  <li>trinity_run_de_analysis was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/trinity_run_de_analysis/1563554bb3f0">1563554bb3f0</a></li>
+</ul>
+
+<h2 id="annotation">Annotation</h2>
+
+<ul>
+  <li>goseq was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/goseq/8b3e3657034e">8b3e3657034e</a></li>
+</ul>
+
+<h2 id="single-cell">Single-cell</h2>
+
+<ul>
+  <li>dropletutils was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/dropletutils/a8aa294401be">a8aa294401be</a></li>
+  <li>scater_create_qcmetric_ready_sce was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/scater_create_qcmetric_ready_sce/fd808de478b1">fd808de478b1</a></li>
+  <li>scater_filter was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/scater_filter/b7ea9f09c02f">b7ea9f09c02f</a></li>
+  <li>scater_normalize was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/scater_normalize/946179ef029c">946179ef029c</a></li>
+  <li>scater_plot_dist_scatter was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/scater_plot_dist_scatter/2e41b35b5bdd">2e41b35b5bdd</a></li>
+  <li>scater_plot_exprs_freq was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/scater_plot_exprs_freq/058b40656107">058b40656107</a></li>
+  <li>scater_plot_pca was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/scater_plot_pca/46fc6751d746">46fc6751d746</a></li>
+</ul>
+
+<h2 id="metagenomic-analyses">Metagenomic analyses</h2>
+
+<ul>
+  <li>vegan_diversity was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/vegan_diversity/c58e19ff504a">c58e19ff504a</a></li>
+</ul>
+
 
       </div>
     </div>
@@ -210,8 +275,8 @@
       <div>
       
           
-            <a href="https://usegalaxy-eu.github.io" target="_blank">
-              <img alt="European Galaxy Team Logo" src="/assets/media/galaxy-eu.png" class="img-responsive eu-image" />
+            <a href="https://www.denbi.de" target="_blank">
+              <img alt="de.NBI logo" src="/assets/media/deNBI_Logo_rgb_small.png" class="img-responsive eu-image"/>
             </a>
           
       </div>
@@ -221,15 +286,6 @@
           
             <a href="https://www.elixir-europe.org" target="_blank">
               <img alt="ELIXIR logo" src="/assets/media/elixir_logo.png" class="img-responsive eu-image" />
-            </a>
-          
-      </div>
-      
-      <div>
-      
-          
-            <a href="https://www.denbi.de" target="_blank">
-              <img alt="de.NBI logo" src="/assets/media/deNBI_Logo_rgb_small.png" class="img-responsive eu-image"/>
             </a>
           
       </div>
@@ -276,7 +332,7 @@ unless otherwise specified.</p>
         <div class="row">
             <div class="col-lg-12" style="text-align:center">
                 <ul class="contact-info">
-                    <li><i class="fa fa-github"></i><a href="https://github.com/usegalaxy-eu/website/tree/master/_posts/2019-09-06-ATACseqTutorial.md">Edit this page on GitHub</a></li>
+                    <li><i class="fa fa-github"></i><a href="https://github.com/usegalaxy-eu/website/tree/master/_posts/2019-09-07-tool-update.md">Edit this page on GitHub</a></li>
                     
                       <li><i class="fa fa-envelope"></i><a href="mailto:freiburg@usegalaxy.eu">freiburg@usegalaxy.eu</a></li>
                     

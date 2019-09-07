@@ -1,4 +1,80 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2019-09-06T17:44:24+02:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">First ATACseq training material!</title><link href="https://galaxyproject.eu/posts/2019/09/06/ATACseqTutorial/" rel="alternate" type="text/html" title="First ATACseq training material!" /><published>2019-09-06T00:00:00+02:00</published><updated>2019-09-06T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2019/09/06/ATACseqTutorial</id><content type="html" xml:base="https://galaxyproject.eu/posts/2019/09/06/ATACseqTutorial/">&lt;p&gt;Many people are waiting for it! We are proud to present the first Galaxy training material on &lt;a href=&quot;https://training.galaxyproject.org/training-material/topics/epigenetics/tutorials/atac-seq/tutorial.html&quot;&gt;ATACseq&lt;/a&gt; data analysis.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2019-09-07T12:39:55+02:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2019-09-07</title><link href="https://galaxyproject.eu/posts/2019/09/07/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2019-09-07" /><published>2019-09-07T00:00:00+02:00</published><updated>2019-09-07T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2019/09/07/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2019/09/07/tool-update/">&lt;p&gt;On 2019-09-07, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#136/&quot;&gt;Jenkins Build #136&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;gemini-tools&quot;&gt;Gemini Tools&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;gemini_interactions was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/gemini_interactions/2ddee6cd4a5a&quot;&gt;2ddee6cd4a5a&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;epigenetics&quot;&gt;Epigenetics&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;moabs was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/moabs/26d7ec4af119&quot;&gt;26d7ec4af119&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;operate-on-genomic-intervals&quot;&gt;Operate on Genomic Intervals&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;bedtools was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bedtools/b28e0cfa7ba1&quot;&gt;b28e0cfa7ba1&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;proteomics&quot;&gt;Proteomics&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;cardinal_quality_report was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/cardinal_quality_report/f0d1f3e97303&quot;&gt;f0d1f3e97303&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;fastafastq-manipulation&quot;&gt;FASTA/FASTQ manipulation&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;seqtk was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/seqtk/288f7f69fe25&quot;&gt;288f7f69fe25&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;sickle was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/sickle/6756c87dc2d4&quot;&gt;6756c87dc2d4&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;sam-tools&quot;&gt;SAM Tools&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;samtools_flagstat was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/samtools_flagstat/22970df7a40e&quot;&gt;22970df7a40e&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;samtools_idxstats was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/samtools_idxstats/7a6034296ae9&quot;&gt;7a6034296ae9&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;samtools_stats was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/samtools_stats/47035d167365&quot;&gt;47035d167365&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;metabolomics&quot;&gt;Metabolomics&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;batchcorrection was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/melpetera/batchcorrection/73892ef177e3&quot;&gt;73892ef177e3&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;rna-analysis&quot;&gt;RNA Analysis&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;featurecounts was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/featurecounts/a37612abf7f9&quot;&gt;a37612abf7f9&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;trinity_run_de_analysis was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/trinity_run_de_analysis/1563554bb3f0&quot;&gt;1563554bb3f0&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;annotation&quot;&gt;Annotation&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;goseq was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/goseq/8b3e3657034e&quot;&gt;8b3e3657034e&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;single-cell&quot;&gt;Single-cell&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;dropletutils was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/dropletutils/a8aa294401be&quot;&gt;a8aa294401be&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scater_create_qcmetric_ready_sce was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/scater_create_qcmetric_ready_sce/fd808de478b1&quot;&gt;fd808de478b1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scater_filter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/scater_filter/b7ea9f09c02f&quot;&gt;b7ea9f09c02f&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scater_normalize was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/scater_normalize/946179ef029c&quot;&gt;946179ef029c&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scater_plot_dist_scatter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/scater_plot_dist_scatter/2e41b35b5bdd&quot;&gt;2e41b35b5bdd&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scater_plot_exprs_freq was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/scater_plot_exprs_freq/058b40656107&quot;&gt;058b40656107&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scater_plot_pca was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/scater_plot_pca/46fc6751d746&quot;&gt;46fc6751d746&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;metagenomic-analyses&quot;&gt;Metagenomic analyses&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;vegan_diversity was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/vegan_diversity/c58e19ff504a&quot;&gt;c58e19ff504a&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2019-09-07, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #136</summary></entry><entry><title type="html">First ATACseq training material!</title><link href="https://galaxyproject.eu/posts/2019/09/06/ATACseqTutorial/" rel="alternate" type="text/html" title="First ATACseq training material!" /><published>2019-09-06T00:00:00+02:00</published><updated>2019-09-06T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2019/09/06/ATACseqTutorial</id><content type="html" xml:base="https://galaxyproject.eu/posts/2019/09/06/ATACseqTutorial/">&lt;p&gt;Many people are waiting for it! We are proud to present the first Galaxy training material on &lt;a href=&quot;https://training.galaxyproject.org/training-material/topics/epigenetics/tutorials/atac-seq/tutorial.html&quot;&gt;ATACseq&lt;/a&gt; data analysis.&lt;/p&gt;
 
 &lt;p&gt;ATAC-Seq (Assay for Transposase-Accessible Chromatin using sequencing) is a method to investigate the accessibility of chromatin and thus a method to determine regulatory mechanisms of gene expression.&lt;/p&gt;
 
@@ -315,123 +391,4 @@ The Galaxy tool has been implemented by Carlos Horro and is available in the
 
 &lt;ul&gt;
   &lt;li&gt;khmer_abundance_distribution was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/khmer_abundance_distribution/a02efb62565b&quot;&gt;a02efb62565b&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2019-08-10, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #128</summary></entry><entry><title type="html">Galaxy Community Conference - a brief summary!</title><link href="https://galaxyproject.eu/posts/2019/08/06/gcc/" rel="alternate" type="text/html" title="Galaxy Community Conference - a brief summary!" /><published>2019-08-06T00:00:00+02:00</published><updated>2019-08-06T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2019/08/06/gcc</id><content type="html" xml:base="https://galaxyproject.eu/posts/2019/08/06/gcc/">&lt;p&gt;The &lt;a href=&quot;https://galaxyproject.org/events/gcc2019&quot;&gt;2019 Galaxy Community Conference (GCC2019)&lt;/a&gt; was held in Freiburg, Germany, 1-8 July. 2019 was the largest GCC ever with 231 participants, 39 Galaxy training courses, 65 talks, 54 posters,
-13 demos, and more than 30 different BoFs. Our participants came from 27 different countries of Eastern- and Western Europe,
-North America, Asia, Oceania and Sub-saharan Africa.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/media/gcc2019/gcc_logo_blue_bg.png&quot; alt=&quot;GCC2019 Logo&quot; /&gt;
-&lt;img src=&quot;/assets/media/gcc2019/grouppicture.jpg&quot; alt=&quot;Group Picture&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;GCC2019 offered several new features in the &lt;a href=&quot;https://gcc2019.sched.com/&quot;&gt;schedule&lt;/a&gt;.  We still started with a day of dual-track training and ended with up to four days of CollaborationFest, but the main meeting:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Expanded from two days to three days.&lt;/li&gt;
-  &lt;li&gt;Offered dual presentation tracks most of the time&lt;/li&gt;
-  &lt;li&gt;Intermixed training and presentation sessions.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;These changes supported the record amount of content that was offered this year and they made the meeting more interactive than in past years.
-The meeting featured plenary &amp;amp; parallel sessions; invited, accepted, and lightning talks; &lt;a href=&quot;https://gcc2019.sched.com/overview/type/C.+Posters+%2F+Demos+%2F+Sponsors/Posters&quot;&gt;poster&lt;/a&gt; and &lt;a href=&quot;https://gcc2019.sched.com/overview/type/C.+Posters+%2F+Demos+%2F+Sponsors/Demos&quot;&gt;demo&lt;/a&gt; sessions;
-&lt;a href=&quot;https://gcc2019.sched.com/overview/type/D.+Break+%2F+Social+%2F+Networking+%2F+Meal/BoFs&quot;&gt;birds-of-a-feather&lt;/a&gt; meetups; &lt;a href=&quot;https://gcc2019.sched.com/overview/type/D.+Break+%2F+Social+%2F+Networking+%2F+Meal&quot;&gt;social events&lt;/a&gt;; and training sessions every day.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/media/gcc2019/GCC2019_stats.png&quot; alt=&quot;Stats&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Have a look at our &lt;a href=&quot;https://github.com/usegalaxy-eu/gcc2019/raw/master/com/program/book.pdf&quot;&gt;conference book&lt;/a&gt; to get all information.&lt;/p&gt;
-
-&lt;p&gt;GCC2019 started on &lt;a href=&quot;https://gcc2019.sched.com/2019-07-01/overview&quot;&gt;Monday&lt;/a&gt;, July 1st, with a dedicated training day for Galaxy beginners offering a user-centric track with &lt;a href=&quot;https://gcc2019.sched.com/event/Lud9/introduction-to-using-galaxy-galaxy-101&quot;&gt;“Introduction to using Galaxy”&lt;/a&gt; in parallel to the admin and developer focused &lt;a href=&quot;https://gcc2019.sched.com/event/LudC/introduction-to-galaxy-administration-i&quot;&gt;“Introduction to Galaxy Administration”&lt;/a&gt;. Participants interested in long read sequencing and wet-lab work could visit &lt;a href=&quot;https://gcc2019.sched.com/event/QZzb/nanopore-loading-zone&quot;&gt;Nanopore loading zone&lt;/a&gt; and try the Oxford Nanopore MinION. In the evening, the first Birds-of-a-Feather (BoFs) were offered for attendees interested in Single Cell data analysis, Genome Annotation, and Computational Chemistry.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/media/gcc2019/sched_mon.png&quot; alt=&quot;Schedule Monday&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;GCC2019 was officially opened on &lt;a href=&quot;https://gcc2019.sched.com/2019-07-02/overview&quot;&gt;Tuesday&lt;/a&gt;, July 2nd, by Björn Grüning and Anika Erxleben. One of our Galaxy power users, Claudia Isabelle Keller Valsecchi, was invited to present her impressive data on &lt;a href=&quot;https://gcc2019.sched.com/event/PSGJ/invited-talk-evolution-of-x-chromosome-recognition-during-drosophila-dosage-compensation#&quot;&gt;“Evolution of X chromosome recognition during Drosophila Dosage Compensation”&lt;/a&gt;. After several talks on &lt;a href=&quot;https://gcc2019.sched.com/event/PSGM/galaxy-australia-inside-the-national-vision-of-a-data-commons&quot;&gt;Galaxy Australia&lt;/a&gt;, &lt;a href=&quot;https://gcc2019.sched.com/event/PSGP/a-machine-learning-tool-suite-for-galaxy&quot;&gt;Machine learning&lt;/a&gt;, and &lt;a href=&quot;https://gcc2019.sched.com/event/PSGS/an-update-on-galaxy-workflows-more-accessible-expressive-robust-and-scalable&quot;&gt;Galaxy Workflows&lt;/a&gt;, talks and workshops were offered in two tracks, one more user-driven, the other more admin-related. Galaxy is used across so many fields of research, as we heard e.g. from Anne Fouilloux talking about &lt;a href=&quot;https://gcc2019.sched.com/event/PSGY/climate-analysis-with-galaxy&quot;&gt;Climate analysis&lt;/a&gt; with Galaxy. During the afternoon break, the participants could discover interesting Galaxy projects in the poster and demo session. The Epigenetics sessions showed how to perform &lt;a href=&quot;https://gcc2019.sched.com/event/Luez/16s-analysis-with-mothur&quot;&gt;16S analysis with mothur&lt;/a&gt;, &lt;a href=&quot;https://gcc2019.sched.com/event/Lue7/chip-seq-data-analysis&quot;&gt;ChIPseq data analysis&lt;/a&gt; and &lt;a href=&quot;https://gcc2019.sched.com/event/LueP/hi-c-analysis&quot;&gt;HiC data analysis&lt;/a&gt;. Beside &lt;a href=&quot;https://gcc2019.sched.com/event/LufH/metatranscriptomics-and-multi-omics-functional-microbiome-analysis&quot;&gt;multi-omics&lt;/a&gt; data analysis in Galaxy, &lt;a href=&quot;https://gcc2019.sched.com/event/MDTA/machine-learning-with-galaxy-predict-age-from-rna-seq-dataset&quot;&gt;Machine learning&lt;/a&gt; with Galaxy was presented for the first time.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/media/gcc2019/sched_tue.png&quot; alt=&quot;Schedule Tuesday&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://gcc2019.sched.com/2019-07-03/overview&quot;&gt;Wednesday's&lt;/a&gt; Galaxy user track was dedicated to transcriptomics and genomics data analysis. The demand for single cell RNA-seq data analysis was very obvious in the presentations by &lt;a href=&quot;https://gcc2019.sched.com/event/PSeu/single-cell-rna-analysis-in-galaxy-on-10x-datasets&quot;&gt;Mehmet&lt;/a&gt;, &lt;a href=&quot;https://gcc2019.sched.com/event/PSex/biology-driven-classification-of-single-cells-rnaseq-data-in-galaxy&quot;&gt;Christophe&lt;/a&gt;, and &lt;a href=&quot;https://gcc2019.sched.com/event/PSfF/galaxy-container-for-hinxton-single-cell-interactive-analysis-portal-hisciap&quot;&gt;Jonathan&lt;/a&gt;. Running Galaxy for annotation with e.g. &lt;a href=&quot;https://gcc2019.sched.com/event/PSfO/visual-refinement-of-genome-annotations-with-apollo-in-a-community-environment&quot;&gt;Apollo&lt;/a&gt;, &lt;a href=&quot;https://gcc2019.sched.com/event/PSfR/architectural-and-systems-improvements-to-g-onramp-a-collaborative-eukaryotic-genome-annotation-platform&quot;&gt;G-ONRamp&lt;/a&gt;, and &lt;a href=&quot;https://gcc2019.sched.com/event/PSfU/chira-an-integrated-framework-for-chimeric-read-annotation&quot;&gt;ChiRA&lt;/a&gt; was successfully shown in talks, posters, trainings, and demos. Galaxy also now runs on &lt;a href=&quot;https://gcc2019.sched.com/event/LufN/running-galaxy-on-kubernetes&quot;&gt;Kubernetes&lt;/a&gt;. Before the conference dinner, a public science project was presented by the &lt;a href=&quot;https://gcc2019.sched.com/event/PSfv/street-science-community-make-science-tangible-accessible-by-bringing-it-to-the-street-with-open-science-workshops&quot;&gt;Street Science Community&lt;/a&gt;. More than 150 people joined us for the conference dinner in &lt;a href=&quot;http://www.augustiner-freiburg.de&quot;&gt;Augustiner im Bankepeter&lt;/a&gt;. We spent an amazing evening in the beer garden with our friends and colleagues. Thank you all!&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/media/gcc2019/sched_wed.png&quot; alt=&quot;Schedule Wednesday&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Proteomics, metabolomics, metagenomics, and variant calling data analysis were presented on &lt;a href=&quot;https://gcc2019.sched.com/2019-07-04/overview/&quot;&gt;Thursday&lt;/a&gt; in various talks, workshops, demos, and posters, such as &lt;a href=&quot;https://gcc2019.sched.com/event/PSqT/metaproteomics-powered-by-metatranscriptomics-towards-a-multi-omic-functional-microbiome-analysis-within-galaxy&quot;&gt;microbiome&lt;/a&gt; data, &lt;a href=&quot;https://gcc2019.sched.com/event/PSqZ/proteore-a-galaxy-based-platform-for-the-annotation-and-the-interpretation-of-proteomics-data-in-biomedical-research&quot;&gt;ProteoRE&lt;/a&gt;, &lt;a href=&quot;https://gcc2019.sched.com/event/PSqu/the-irida-platform-for-microbial-genomics&quot;&gt;IRIDA&lt;/a&gt;, and &lt;a href=&quot;https://gcc2019.sched.com/event/PSqr/workflow4metabolomics-an-international-computing-infrastructure-for-metabolomics&quot;&gt;Workflow4Metabolomics&lt;/a&gt;. With &lt;a href=&quot;https://gcc2019.sched.com/event/PSq5/invited-talk-data-visualisation-by-citizen-science-participants-the-case-of-birds-and-bats-monitoring-schemes-and-galaxy-e&quot;&gt;Galaxy-E&lt;/a&gt; Yvan brought our “Wonderful World” a bit closer, he presented the Galaxy Ecology project with new, dedicated Galaxy Europe &lt;a href=&quot;https://ecology.usegalaxy.eu&quot;&gt;subdomain&lt;/a&gt;. Before closing the conference, Bérénice gave an update on the &lt;a href=&quot;https://gcc2019.sched.com/event/PSrC/galaxy-and-training-2019-updates-from-the-galaxy-training-network&quot;&gt;Galaxy training network&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;The GCC2019 core conference days were followed by 4 days of &lt;a href=&quot;https://gcc2019.sched.com/event/Luga/collaborationfest-core&quot;&gt;CollaborationFest&lt;/a&gt;. During these 4 days ~100 people worked on library enhancements, Galaxy packages, development of an ATAC-seq tutorial, support for select parameters in workflows, tool menu style, EDAM in Galaxy, Training development kit, and on a lot of work on usegalaxy.*.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/media/gcc2019/sched_thu.png&quot; alt=&quot;Schedule Thursday&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;freiburg-challenge&quot;&gt;Freiburg Challenge&lt;/h2&gt;
-
-&lt;p&gt;A great opportunity to get to know the beautiful city of Freiburg was taking part in the Freiburg challenge. Hereby we ask the participants to find or do something in Freiburg and prove it by taking a picture. Many participants had lots of fun and successfully had e.g. a swing on the Dreisam, walked into a Bächle to cool down, did the “I am the king of the world” pose on top of the Schlossbergturm ot ate a Lange Rote at the Münsterplatz. The winners were awarded by a typical Freiburg Bächleboat.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/media/gcc2019/freiburg_challenge.png&quot; alt=&quot;Group Picture&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;thank-you-scientific-program-committee&quot;&gt;Thank you: Scientific Program Committee&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Matthias Bernt, Helmholtz Centre for Environmental Research – UFZ&lt;/li&gt;
-  &lt;li&gt;Dan Blankenberg, Cleveland Clinic Lerner Research Institute&lt;/li&gt;
-  &lt;li&gt;Gildas Le Corguillé, Station Biologique de Roscoff&lt;/li&gt;
-  &lt;li&gt;Maria Doyle, Peter MacCallum Cancer Centre&lt;/li&gt;
-  &lt;li&gt;Anika Erxleben, University of Freiburg&lt;/li&gt;
-  &lt;li&gt;Melanie Föll, University of Freiburg&lt;/li&gt;
-  &lt;li&gt;Anne Claire Fouilloux, University of Oslo&lt;/li&gt;
-  &lt;li&gt;Carrie Ganote, Indiana University&lt;/li&gt;
-  &lt;li&gt;Jeremy Goecks, Oregon Health &amp;amp; Science University&lt;/li&gt;
-  &lt;li&gt;Björn Grüning, University of Freiburg&lt;/li&gt;
-  &lt;li&gt;Jennifer Hillman-Jackson, Penn State University&lt;/li&gt;
-  &lt;li&gt;Saskia Hiltemann, ErasmusMC&lt;/li&gt;
-  &lt;li&gt;Hans-Rudolf Hotz, Friedrich Miescher Institute for Biomedical Research&lt;/li&gt;
-  &lt;li&gt;Nancy Ide, Vassar College&lt;/li&gt;
-  &lt;li&gt;Pratik Jagtap, University of Minnesota&lt;/li&gt;
-  &lt;li&gt;Yvan Le Bras, Muséum national d’histoire naturelle&lt;/li&gt;
-  &lt;li&gt;Thomas Manke, Max Planck Institute of Immunobiology and Epigenetics&lt;/li&gt;
-  &lt;li&gt;Pablo Moreno, EMBL-EBI&lt;/li&gt;
-  &lt;li&gt;Anton Nekrutenko, Penn State University&lt;/li&gt;
-  &lt;li&gt;Krzysztof Poterlowicz, University of Bradford&lt;/li&gt;
-  &lt;li&gt;Helena Rasche, University of Freiburg&lt;/li&gt;
-  &lt;li&gt;Devon Ryan, Max Planck Institute of Immunobiology and Epigenetics&lt;/li&gt;
-  &lt;li&gt;Beata Scholz, University of Debrecen&lt;/li&gt;
-  &lt;li&gt;Nicola Soranzo, Earlham Institute&lt;/li&gt;
-  &lt;li&gt;Peter van Heusden, University of the Western Cape, South African National Bioinformatics Institute (SANBI)&lt;/li&gt;
-  &lt;li&gt;Ralf Weber, University of Birmingham&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;thank-you-organizers&quot;&gt;Thank you: Organizers&lt;/h2&gt;
-
-&lt;h3 id=&quot;conference&quot;&gt;Conference&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Bérénice Batut, University of Freiburg&lt;/li&gt;
-  &lt;li&gt;Dave Clements, Johns Hopkins University&lt;/li&gt;
-  &lt;li&gt;Frederik Coppens, VIB, UGent, ELIXIR Belgium&lt;/li&gt;
-  &lt;li&gt;Monika Degen-Hellmuth, University of Freiburg&lt;/li&gt;
-  &lt;li&gt;Rolf Backofen, University of Freiburg&lt;/li&gt;
-  &lt;li&gt;Anika Erxleben, University of Freiburg&lt;/li&gt;
-  &lt;li&gt;Björn Grüning, University of Freiburg&lt;/li&gt;
-  &lt;li&gt;Mo Heydarian, Johns Hopkins University&lt;/li&gt;
-  &lt;li&gt;Helena Rasche, University of Freiburg&lt;/li&gt;
-  &lt;li&gt;Devon Ryan, Max Planck Institute of Immunobiology and Epigenetics&lt;/li&gt;
-  &lt;li&gt;Jenn Vessio, Johns Hopkins University&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;cofest&quot;&gt;CoFest&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Dannon Baker, Johns Hopkins University&lt;/li&gt;
-  &lt;li&gt;Frederik Coppens, VIB and ELIXIR Belgium&lt;/li&gt;
-  &lt;li&gt;Maria Doyle, Peter MacCallum Cancer Centre&lt;/li&gt;
-  &lt;li&gt;Mo Heydarian, Johns Hopkins University&lt;/li&gt;
-  &lt;li&gt;Jennifer Hillman-Jackson, Penn State University&lt;/li&gt;
-  &lt;li&gt;Brad Langhorst, New England Biolabs&lt;/li&gt;
-  &lt;li&gt;Marius van den Beek, Institut Curie&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;thank-you-to-all-our-sponsors&quot;&gt;Thank you to All our sponsors:&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.limagrain.com/en/&quot;&gt;Limagrain&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.kws.com/&quot;&gt;KWS&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://elixir-europe.org/&quot;&gt;ELIXIR&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://academic.oup.com/gigascience&quot;&gt;GigaScience&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://elifesciences.org/labs&quot;&gt;eLIFE&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://f1000research.com/&quot;&gt;F1000Research&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.denbi.de/&quot;&gt;de.NBI&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.dfg.de/en&quot;&gt;DFG&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="training" /><category term="tiaas" /><category term="gcc" /><summary type="html">The 2019 Galaxy Community Conference (GCC2019) was held in Freiburg, Germany, 1-8 July. 2019 was the largest GCC ever with 231 participants, 39 Galaxy training courses, 65 talks, 54 posters, 13 demos, and more than 30 different BoFs. Our participants came from 27 different countries of Eastern- and Western Europe, North America, Asia, Oceania and Sub-saharan Africa.</summary></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2019-08-10, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #128</summary></entry></feed>
