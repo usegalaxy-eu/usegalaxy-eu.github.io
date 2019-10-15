@@ -1,4 +1,38 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2019-10-15T08:32:18+02:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2019-10-12</title><link href="https://galaxyproject.eu/posts/2019/10/12/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2019-10-12" /><published>2019-10-12T00:00:00+02:00</published><updated>2019-10-12T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2019/10/12/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2019/10/12/tool-update/">&lt;p&gt;On 2019-10-12, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#143/&quot;&gt;Jenkins Build #143&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2019-10-15T10:03:20+02:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">Training Infrastructure Feedback from Charles Girardot</title><link href="https://galaxyproject.eu/posts/2019/10/15/tiaas-feedback-embl-course/" rel="alternate" type="text/html" title="Training Infrastructure Feedback from Charles Girardot" /><published>2019-10-15T00:00:00+02:00</published><updated>2019-10-15T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2019/10/15/tiaas-feedback-embl-course</id><content type="html" xml:base="https://galaxyproject.eu/posts/2019/10/15/tiaas-feedback-embl-course/">&lt;p&gt;In early September this year, the European Molecular Biology Laboratory (EMBL) organized a week long course entitled
+&lt;a href=&quot;https://www.embl.de/training/events/2019/EPI19-01/index.html&quot;&gt;Chromatin Signatures During Differentiation: Integrated Omics&lt;/a&gt;. 
+This high-quality course was limited to 16 participants and gathered scientists from all around the world.&lt;/p&gt;
+
+&lt;p&gt;The Friday was devoted to data analysis using the Galaxy platform (for the genomics part). We 
+(&lt;a href=&quot;http://gbcs.embl.de&quot;&gt;Genome Biology Computational Support team&lt;/a&gt;) maintain a local Galaxy platform for 
+everyday analysis and we usually use it to run our data analysis trainings but not this time!&lt;/p&gt;
+
+&lt;p&gt;After attending GCC 2019 in Freiburg this year, we wanted to try the new GTN + TIaaS option as it solves (at
+least on paper) a number of issues compared to using our local Galaxy:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;First, we cannot dedicate and reserve resources on our HPC for a training session. TIaaS just offers this.&lt;/li&gt;
+  &lt;li&gt;Second, we used to develop our own training material and this takes a lot (I mean a LOT) of time. 
+Creation of the test data, ensuring that the envisioned data analysis runs on this data, that the tools 
+are available and working properly on our instance etc. GTN with TIaaS on usegalaxy.eu solves all that!&lt;/li&gt;
+  &lt;li&gt;Third, our Galaxy instance is not public. This is not an issue for running the training as we 
+are on the same network but this means that external users (i.e. most of the trainees) won’t have access to 
+our Galaxy and their work after the training. Using the TIaaS solution completely solves the issue and lets trainees 
+continue self-learning using all the GTN resources.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;so-how-did-it-go&quot;&gt;So! How did it go?&lt;/h2&gt;
+
+&lt;p&gt;Setting up the training took less than 4 hours in total. We followed the 
+&lt;a href=&quot;https://training.galaxyproject.org/training-material/topics/epigenetics/tutorials/formation_of_super-structures_on_xi/tutorial.html&quot;&gt;Formation of the Super-Structures on the Inactive X&lt;/a&gt;
+training from Friederike Dündar, Anika Erxleben, Bérénice Batut, Vivek Bhardwaj, Fidel Ramirez and Leily Rabbani. 
+We were allocated more than enough resources so the training went super smooth and we had a great feedback from the trainees.&lt;/p&gt;
+
+&lt;p&gt;Bjoern and the Freibug team were super helpfull and responsive. The combination of the TIaaS and the GTN is just
+wonderful, as anticipated. Really enormous congratulations to all of the Freiburg team to put these services up.&lt;/p&gt;
+
+&lt;p&gt;Jelle Scholtalbers and Charles Girardot&lt;/p&gt;
+
+&lt;p&gt;PS: I almost forgot. It is free…&lt;/p&gt;</content><author><name></name></author><category term="training" /><category term="tiaas" /><summary type="html">In early September this year, the European Molecular Biology Laboratory (EMBL) organized a week long course entitled Chromatin Signatures During Differentiation: Integrated Omics. This high-quality course was limited to 16 participants and gathered scientists from all around the world.</summary></entry><entry><title type="html">UseGalaxy.eu Tool Updates for 2019-10-12</title><link href="https://galaxyproject.eu/posts/2019/10/12/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2019-10-12" /><published>2019-10-12T00:00:00+02:00</published><updated>2019-10-12T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2019/10/12/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2019/10/12/tool-update/">&lt;p&gt;On 2019-10-12, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#143/&quot;&gt;Jenkins Build #143&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;climate-analysis&quot;&gt;Climate Analysis&lt;/h2&gt;
 
@@ -293,5 +327,4 @@ join one of &lt;a href=&quot;https://globalclimatestrike.net/#map&quot;&gt;the h
 &lt;p&gt;Read the entire &lt;a href=&quot;https://www.nature.com/articles/s41559-019-0979-y&quot;&gt;article&lt;/a&gt; and join us next week (20th September)
 for the &lt;a href=&quot;https://globalclimatestrike.net&quot;&gt;Global Climate Strike&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;More information needed? Please visit: &lt;a href=&quot;https://www.scientists4future.org&quot;&gt;https://www.scientists4future.org&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="s4f" /><summary type="html">From a recent Nature article:</summary></entry><entry><title type="html">The European Galaxy server is part of the EOSC marketplace</title><link href="https://galaxyproject.eu/posts/2019/09/15/Galaxy-part-of-EOSC-marketplace/" rel="alternate" type="text/html" title="The European Galaxy server is part of the EOSC marketplace" /><published>2019-09-15T00:00:00+02:00</published><updated>2019-09-15T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2019/09/15/Galaxy-part-of-EOSC-marketplace</id><content type="html" xml:base="https://galaxyproject.eu/posts/2019/09/15/Galaxy-part-of-EOSC-marketplace/">&lt;p&gt;Since a few days, the European Galaxy server is part of the &lt;a href=&quot;https://marketplace.eosc-portal.eu/services/european-galaxy-server&quot;&gt;European Open Science Cloud marketplace&lt;/a&gt;.
-The Freiburg Galaxy team is an official EOSC member and are helping researchers worldwide.&lt;/p&gt;</content><author><name></name></author><category term="tools" /><summary type="html">Since a few days, the European Galaxy server is part of the European Open Science Cloud marketplace. The Freiburg Galaxy team is an official EOSC member and are helping researchers worldwide.</summary></entry></feed>
+&lt;p&gt;More information needed? Please visit: &lt;a href=&quot;https://www.scientists4future.org&quot;&gt;https://www.scientists4future.org&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="s4f" /><summary type="html">From a recent Nature article:</summary></entry></feed>
