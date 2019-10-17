@@ -1,4 +1,67 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2019-10-16T19:03:55+02:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">Training Infrastructure Feedback from Charles Girardot</title><link href="https://galaxyproject.eu/posts/2019/10/15/tiaas-feedback-embl-course/" rel="alternate" type="text/html" title="Training Infrastructure Feedback from Charles Girardot" /><published>2019-10-15T00:00:00+02:00</published><updated>2019-10-15T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2019/10/15/tiaas-feedback-embl-course</id><content type="html" xml:base="https://galaxyproject.eu/posts/2019/10/15/tiaas-feedback-embl-course/">&lt;p&gt;In early September this year, the European Molecular Biology Laboratory (EMBL) organized a week long course entitled
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2019-10-17T03:12:53+02:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2019-10-17</title><link href="https://galaxyproject.eu/posts/2019/10/17/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2019-10-17" /><published>2019-10-17T00:00:00+02:00</published><updated>2019-10-17T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2019/10/17/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2019/10/17/tool-update/">&lt;p&gt;On 2019-10-17, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#145/&quot;&gt;Jenkins Build #145&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;hca-single-cell&quot;&gt;HCA-Single Cell&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;retrieve_scxa was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/retrieve_scxa/cc21614b6693&quot;&gt;cc21614b6693&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_compute_graph was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_compute_graph/e7fd6981c0f0&quot;&gt;e7fd6981c0f0&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_filter_cells was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_filter_cells/dcfb23758646&quot;&gt;dcfb23758646&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_filter_genes was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_filter_genes/7aebd6265a97&quot;&gt;7aebd6265a97&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_find_cluster was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_find_cluster/ee181563bae7&quot;&gt;ee181563bae7&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_find_markers was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_find_markers/71668dd2d47b&quot;&gt;71668dd2d47b&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_find_variable_genes was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_find_variable_genes/b089f4a55e6b&quot;&gt;b089f4a55e6b&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_normalise_data was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_normalise_data/e541f264fad2&quot;&gt;e541f264fad2&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_read_10x was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_read_10x/3faf577f3e40&quot;&gt;3faf577f3e40&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_run_pca was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_run_pca/7798c318e7d7&quot;&gt;7798c318e7d7&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_run_tsne was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_run_tsne/2e74fd7b5f45&quot;&gt;2e74fd7b5f45&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_run_umap was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_run_umap/0ac2f9f2313b&quot;&gt;0ac2f9f2313b&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_scale_data was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_scale_data/9acb5f068e6b&quot;&gt;9acb5f068e6b&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;ucsc_cell_browser was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/ucsc_cell_browser/679dfd1dd63b&quot;&gt;679dfd1dd63b&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;mapping&quot;&gt;Mapping&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;rna_starsolo was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/rna_starsolo/c23da6257d6a&quot;&gt;c23da6257d6a&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;variant-calling&quot;&gt;Variant Calling&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;snpeff was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/snpeff/de67e5082c48&quot;&gt;de67e5082c48&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;rna-analysis&quot;&gt;RNA Analysis&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;alevin was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/alevin/e53f19161c59&quot;&gt;e53f19161c59&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;salmon was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/salmon/7fdb9d1591e2&quot;&gt;7fdb9d1591e2&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;salmonquantmerge was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/salmonquantmerge/178ebdfe5a7e&quot;&gt;178ebdfe5a7e&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;dexseq was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/dexseq/4ca0e679f21e&quot;&gt;4ca0e679f21e&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;chemicaltoolbox&quot;&gt;ChemicalToolBox&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;bio3d_rmsf was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/bio3d_rmsf/e838317708a6&quot;&gt;e838317708a6&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;gmx_sim was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/gmx_sim/1a5960636405&quot;&gt;1a5960636405&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;single-cell&quot;&gt;Single-cell&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;anndata_export was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/anndata_export/a9ab1b0a00dd&quot;&gt;a9ab1b0a00dd&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;anndata_import was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/anndata_import/a61350ab6563&quot;&gt;a61350ab6563&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;anndata_inspect was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/anndata_inspect/05304c5c195d&quot;&gt;05304c5c195d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;anndata_manipulate was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/anndata_manipulate/19592ec717ef&quot;&gt;19592ec717ef&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;dropletutils was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/dropletutils/f0de368eabca&quot;&gt;f0de368eabca&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_cluster_reduce_dimension was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/scanpy_cluster_reduce_dimension/20cfb9f3dded&quot;&gt;20cfb9f3dded&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_filter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/scanpy_filter/6a76b60e05f5&quot;&gt;6a76b60e05f5&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_inspect was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/scanpy_inspect/a755eaa1cc32&quot;&gt;a755eaa1cc32&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_normalize was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/scanpy_normalize/a9f14e2d1655&quot;&gt;a9f14e2d1655&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_plot was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/scanpy_plot/e4c0f5ee8e17&quot;&gt;e4c0f5ee8e17&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_remove_confounders was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/scanpy_remove_confounders/a89ee42625ad&quot;&gt;a89ee42625ad&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2019-10-17, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #145</summary></entry><entry><title type="html">Training Infrastructure Feedback from Charles Girardot</title><link href="https://galaxyproject.eu/posts/2019/10/15/tiaas-feedback-embl-course/" rel="alternate" type="text/html" title="Training Infrastructure Feedback from Charles Girardot" /><published>2019-10-15T00:00:00+02:00</published><updated>2019-10-15T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2019/10/15/tiaas-feedback-embl-course</id><content type="html" xml:base="https://galaxyproject.eu/posts/2019/10/15/tiaas-feedback-embl-course/">&lt;p&gt;In early September this year, the European Molecular Biology Laboratory (EMBL) organized a week long course entitled
 &lt;a href=&quot;https://www.embl.de/training/events/2019/EPI19-01/index.html&quot;&gt;Chromatin Signatures During Differentiation: Integrated Omics&lt;/a&gt;. 
 This high-quality course was limited to 16 participants and gathered scientists from all around the world.&lt;/p&gt;
 
@@ -314,17 +377,4 @@ join one of &lt;a href=&quot;https://globalclimatestrike.net/#map&quot;&gt;the h
 &lt;a href=&quot;https://ec.europa.eu/research/openscience/index.cfm?pg=open-science-cloud&quot;&gt;EOSC&lt;/a&gt; and the Freiburg &lt;a href=&quot;http://www.med.uni-freiburg.de&quot;&gt;Faculty of Medicine&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Thanks to all our users and people that have contributed to this project! Special thankts our partner sites &lt;a href=&quot;https://galaxyproject.eu/erasmusmc/&quot;&gt;Erasmus MC&lt;/a&gt;,
-&lt;a href=&quot;https://galaxyproject.eu/belgium/&quot;&gt;Belgium&lt;/a&gt; and &lt;a href=&quot;https://galaxyproject.eu/pasteur/&quot;&gt;Pasteur&lt;/a&gt; and the &lt;a href=&quot;https://galaxyproject.org/community/&quot;&gt;Galaxy community&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="devops" /><summary type="html">This week we are celebrating already 11 million datasets, 6 million jobs run on UseGalaxy.EU and 8 thousand users. Wow!!</summary></entry><entry><title type="html">Scientists must act on our own warnings to humanity</title><link href="https://galaxyproject.eu/posts/2019/09/16/Scientists-must-act-on-our-own-warnings-to-humanity/" rel="alternate" type="text/html" title="Scientists must act on our own warnings to humanity" /><published>2019-09-16T00:00:00+02:00</published><updated>2019-09-16T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2019/09/16/Scientists-must-act-on-our-own-warnings-to-humanity</id><content type="html" xml:base="https://galaxyproject.eu/posts/2019/09/16/Scientists-must-act-on-our-own-warnings-to-humanity/">&lt;p&gt;From a recent &lt;a href=&quot;https://www.nature.com/articles/s41559-019-0979-y&quot;&gt;Nature article&lt;/a&gt;:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;We face interconnected planetary emergencies threatening our climate and ecosystems. Charlie J. Gardner and Claire F. R. Wordley argue that scientists should join civil disobedience movements to fight these unprecedented crises.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Non-violent civil disobedience — the active refusal of a citizen to obey certain laws, orders or commands of a government or occupying power — is demonstrably effective at initiating political change. Many of the most profound political and social changes of the past century were brought about in this way, and leading practitioners, such as Rosa Parks, Emmeline Pankhurst, Martin Luther King and Mohandas Ghandi, once reviled as dangerous dissenters, are today revered as heroes. Moreover, civil disobedience requires relatively few people to be effective, with sustained action by &lt;strong&gt;3.5%&lt;/strong&gt; of the population sufficient even to topple dictatorial regimes (E. Chenoweth and M. J. Stephan, Why Civil Resistance Works: The Strategic Logic of Nonviolent Conflict; Columbia Univ. Press, 2012).&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Read the entire &lt;a href=&quot;https://www.nature.com/articles/s41559-019-0979-y&quot;&gt;article&lt;/a&gt; and join us next week (20th September)
-for the &lt;a href=&quot;https://globalclimatestrike.net&quot;&gt;Global Climate Strike&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;More information needed? Please visit: &lt;a href=&quot;https://www.scientists4future.org&quot;&gt;https://www.scientists4future.org&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="s4f" /><summary type="html">From a recent Nature article:</summary></entry></feed>
+&lt;a href=&quot;https://galaxyproject.eu/belgium/&quot;&gt;Belgium&lt;/a&gt; and &lt;a href=&quot;https://galaxyproject.eu/pasteur/&quot;&gt;Pasteur&lt;/a&gt; and the &lt;a href=&quot;https://galaxyproject.org/community/&quot;&gt;Galaxy community&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="devops" /><summary type="html">This week we are celebrating already 11 million datasets, 6 million jobs run on UseGalaxy.EU and 8 thousand users. Wow!!</summary></entry></feed>
