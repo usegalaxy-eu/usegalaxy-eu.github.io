@@ -1,0 +1,1152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <title>Galaxy Europe | Use the power of pandas / numpy to transform tabular datasets in a myriad of ways with our new Table Compute tool.</title>
+  <meta property="og:title" content="Use the power of pandas / numpy to transform tabular data..." />
+  <meta property="og:description" content="With Table Compute
+you can:
+
+  drop or duplicate given ro..." />
+  <meta property="og:image" content="/assets/media/galaxy-eu-logo.512.png" />
+  <meta name="description" content="The European Galaxy Instance">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+
+
+
+
+  <link rel="canonical" href="https://galaxyproject.eu/posts/2019/10/23/pandas-in-galaxy/">
+  <link rel="shortcut icon" href="/assets/media/galaxy-eu-logo.64.png" type="image/x-icon" />
+  <link rel="alternate" type="application/rss+xml" title="Galaxy Europe" href="/feed.xml">
+
+  <link href="/assets/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <script src="/assets/js/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
+  <script src="/assets/js/bootstrap.min.js" integrity="sha256-U5ZEeKfGNOja007MMD3YBI0A3OSZOQbeG6z2f2Y0hu8=" crossorigin="anonymous"></script>
+</head>
+
+
+    
+    
+    
+
+  <body class="location-freiburg">
+    <div id="wrap">
+      <div id="main">
+        <div class="navbar">
+
+  <div class="container">
+    
+    
+
+    
+    
+    
+
+    
+
+    <div class="navbar-header">
+      <div class="navbar-brand">
+        
+        <img alt="galaxy eu logo" src="/assets/media/galaxy-eu-logo.inv.svg" style="height: 20px"/>
+        
+      </div>
+
+      <a class="navbar-brand" href="/" style="padding-left: 6px">
+        Galaxy Europe
+      </a>
+      
+        <span class="navbar-brand" style="color: white">
+        /
+        </span>
+        <a class="navbar-brand" href="https://galaxyproject.eu/freiburg">
+          Freiburg
+        </a>
+      
+    </div>
+
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+           <li class="dropdown">
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Member Sites <span class="caret"></span></a>
+             <ul class="dropdown-menu">
+              
+                <li>
+                  <a class="page-link" href="/freiburg/">Freiburg</a>
+                </li>
+              
+                <li>
+                  <a class="page-link" href="/erasmusmc/">Erasmus MC</a>
+                </li>
+              
+                <li>
+                  <a class="page-link" href="/belgium/">Belgium</a>
+                </li>
+              
+                <li>
+                  <a class="page-link" href="/pasteur/">Pasteur</a>
+                </li>
+              
+             </ul>
+           </li>
+
+          
+          
+            <li>
+              <a class="page-link" href="/freiburg/news">News</a>
+            </li>
+          
+            <li>
+              <a class="page-link" href="/freiburg/events">Events</a>
+            </li>
+          
+            <li>
+              <a class="page-link" href="/freiburg/people">People</a>
+            </li>
+          
+            <li>
+              <a class="page-link" href="/freiburg/projects">Projects</a>
+            </li>
+          
+            <li>
+              <a class="page-link" href="/freiburg/services">Services</a>
+            </li>
+          
+            <li>
+              <a class="page-link" href="/freiburg/jobs">Jobs</a>
+            </li>
+          
+            <li>
+              <a class="page-link" href="/freiburg/publications">Publications</a>
+            </li>
+          
+          
+        </ul>
+      </div>
+  </div>
+</div>
+
+        <div class="container" id="maincontainer">
+          
+
+
+
+
+<section id="news-page">
+  <div class="row news-header-row">
+    
+    <a class="col-xs-1 text-center" href="/posts/2019/10/19/tool-update/">
+      «
+    </a>
+    
+    <div class="col-xs-10 ">
+      <div class="text-center">
+        <h2 class="title">Use the power of pandas / numpy to transform tabular datasets in a myriad of ways with our new Table Compute tool.</h2>
+      </div>
+      <hr />
+    </div>
+    
+  </div>
+  <div class="row post-metadata">
+    <div class="col-md-8 col-md-offset-2">
+      <div class="row">
+        <div class="col-md-6">
+            
+
+        </div>
+        <div class="col-md-6 text-right">
+          <div>
+            <span class="post-date">
+              Oct 23, 2019
+            </span>
+
+            
+
+            <br />
+            <span class="post-tags">
+                <span class="label label-success">Freiburg</span>
+              
+                <span class="label label-info">tools</span>
+              
+              
+            </span>
+
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2">
+      <div class="news-content">
+        <p>With <a href="https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/table_compute/table_compute/0.9.2">Table Compute</a>
+you can:</p>
+<ul>
+  <li>drop or duplicate given rows or columns from a tabular dataset</li>
+  <li>filter rows or columns on their properties</li>
+  <li>replace or transform table elements</li>
+  <li>compute tables of summary statistics across rows or columns</li>
+</ul>
+
+<p>It is even possible to manipulate individual tables or combine multiple ones using pandas/numpy-based custom expressions!</p>
+
+<p>In short, whatever functionality for manipulating tabular data you may have missed in Galaxy is likely provided by this
+tool, so give it a try in your next analysis. We are looking forward to your feedback!</p>
+
+<p>Some ideas what you may use the tool for include</p>
+<ul>
+  <li>transpose a tabular dataset</li>
+  <li>log-transform the data, but add a small offset to zero-values first</li>
+  <li>subtract a table from another</li>
+  <li>normalize rows or columns</li>
+</ul>
+
+<p>To get you started, here are some concrete step-by-step examples taken directly from the help section of the tool:</p>
+
+<blockquote>
+  <h2 id="example-1-sub-selecting-from-a-table">Example 1: Sub-selecting from a table</h2>
+
+  <p>We have the following table:</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th> </th>
+        <th>c1</th>
+        <th>c2</th>
+        <th>c3</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>g1</td>
+        <td>10</td>
+        <td>20</td>
+        <td>30</td>
+      </tr>
+      <tr>
+        <td>g2</td>
+        <td>3</td>
+        <td>6</td>
+        <td>9</td>
+      </tr>
+      <tr>
+        <td>g3</td>
+        <td>4</td>
+        <td>8</td>
+        <td>12</td>
+      </tr>
+      <tr>
+        <td>g4</td>
+        <td>81</td>
+        <td>6</td>
+        <td>3</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p>and we want to duplicate c1 and remove c2. Also select g1 to g3 and add
+g2 at the end as well. This would result in the output table:</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th> </th>
+        <th>c1</th>
+        <th>c1</th>
+        <th>c3</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>g1</td>
+        <td>10</td>
+        <td>10</td>
+        <td>30</td>
+      </tr>
+      <tr>
+        <td>g2</td>
+        <td>3</td>
+        <td>3</td>
+        <td>9</td>
+      </tr>
+      <tr>
+        <td>g3</td>
+        <td>4</td>
+        <td>4</td>
+        <td>12</td>
+      </tr>
+      <tr>
+        <td>g2</td>
+        <td>3</td>
+        <td>3</td>
+        <td>9</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p>In Galaxy we would select the following:</p>
+
+  <ul>
+    <li><em>Input Single or Multiple Tables</em> → <strong>Single Table</strong></li>
+    <li><em>Column names on first row?</em> → <strong>Yes</strong></li>
+    <li><em>Row names on first column?</em> → <strong>Yes</strong></li>
+    <li><em>Type of table operation</em> → <strong>Drop, keep or duplicate rows and
+columns</strong>
+      <ul>
+        <li><em>List of columns to select</em> → <strong>1,1,3</strong></li>
+        <li><em>List of rows to select</em> → <strong>1:3,2</strong></li>
+        <li><em>Keep duplicate columns</em> → <strong>Yes</strong></li>
+        <li><em>Keep duplicate rows</em> → <strong>Yes</strong></li>
+      </ul>
+    </li>
+  </ul>
+
+  <h2 id="example-2-filter-for-rows-with-row-sums-less-than-50">Example 2: Filter for rows with row sums less than 50</h2>
+
+  <p>We have the following table:</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th> </th>
+        <th>c1</th>
+        <th>c2</th>
+        <th>c3</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>g1</td>
+        <td>10</td>
+        <td>20</td>
+        <td>30</td>
+      </tr>
+      <tr>
+        <td>g2</td>
+        <td>3</td>
+        <td>6</td>
+        <td>9</td>
+      </tr>
+      <tr>
+        <td>g3</td>
+        <td>4</td>
+        <td>8</td>
+        <td>12</td>
+      </tr>
+      <tr>
+        <td>g4</td>
+        <td>81</td>
+        <td>6</td>
+        <td>3</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p>and we want:</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th> </th>
+        <th>c1</th>
+        <th>c2</th>
+        <th>c3</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>g2</td>
+        <td>3</td>
+        <td>6</td>
+        <td>9</td>
+      </tr>
+      <tr>
+        <td>g3</td>
+        <td>4</td>
+        <td>8</td>
+        <td>12</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p>In Galaxy we would select the following:</p>
+
+  <ul>
+    <li><em>Input Single or Multiple Tables</em> → <strong>Single Table</strong></li>
+    <li><em>Column names on first row?</em> → <strong>Yes</strong></li>
+    <li><em>Row names on first column?</em> → <strong>Yes</strong></li>
+    <li><em>Type of table operation</em> → <strong>Filter rows or columns by their
+properties</strong>
+      <ul>
+        <li><em>Filter</em> → <strong>Rows</strong></li>
+        <li><em>Filter Criterion</em> → <strong>Result of function applied to
+columns/rows</strong>
+          <ul>
+            <li><em>Keep column/row if its observed</em> → <strong>Sum</strong></li>
+            <li><em>is</em> → <strong>&lt; (Less Than)</strong></li>
+            <li><em>this value</em> → <strong>50</strong></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+
+  <h2 id="example-3-count-the-number-of-values-per-row-smaller-than-a-specified-value">Example 3: Count the number of values per row smaller than a specified value</h2>
+
+  <table>
+    <tbody>
+      <tr>
+        <td>We have the</td>
+        <td>following table:</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table>
+    <thead>
+      <tr>
+        <th> </th>
+        <th>c1</th>
+        <th>c2</th>
+        <th>c3</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>g1</td>
+        <td>10</td>
+        <td>20</td>
+        <td>30</td>
+      </tr>
+      <tr>
+        <td>g2</td>
+        <td>3</td>
+        <td>6</td>
+        <td>9</td>
+      </tr>
+      <tr>
+        <td>g3</td>
+        <td>4</td>
+        <td>8</td>
+        <td>12</td>
+      </tr>
+      <tr>
+        <td>g4</td>
+        <td>81</td>
+        <td>6</td>
+        <td>3</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p>and we want to count how many elements in each row are smaller than 10,
+i.e., we want to obtain the following results table:</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th> </th>
+        <th>vec</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>g1</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td>g2</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>g3</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>g4</td>
+        <td>2</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p>In Galaxy we would select the following:</p>
+
+  <ul>
+    <li><em>Input Single or Multiple Tables</em> → <strong>Single Table</strong></li>
+    <li><em>Column names on first row?</em> → <strong>Yes</strong></li>
+    <li><em>Row names on first column?</em> → <strong>Yes</strong></li>
+    <li><em>Type of table operation</em> → <strong>Manipulate selected table elements</strong>
+      <ul>
+        <li><em>Operation to perform</em> → <strong>Custom</strong>
+          <ul>
+            <li><em>Custom Expression on ‘elem’</em> → <strong>elem &lt; 10</strong></li>
+          </ul>
+        </li>
+        <li><em>Operate on elements</em> → <strong>All</strong></li>
+      </ul>
+    </li>
+  </ul>
+
+  <p><strong>Note:</strong> <em>There are actually simpler ways to achieve our purpose, but
+here we are demonstrating the use of a custom expression.</em></p>
+
+  <p>After executing, we would then be presented with a table like so:</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th> </th>
+        <th>c1</th>
+        <th>c2</th>
+        <th>c3</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>g1</td>
+        <td>False</td>
+        <td>False</td>
+        <td>False</td>
+      </tr>
+      <tr>
+        <td>g2</td>
+        <td>True</td>
+        <td>True</td>
+        <td>True</td>
+      </tr>
+      <tr>
+        <td>g3</td>
+        <td>True</td>
+        <td>True</td>
+        <td>False</td>
+      </tr>
+      <tr>
+        <td>g4</td>
+        <td>False</td>
+        <td>True</td>
+        <td>True</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p>To get to our desired table, we would then process this table with the
+tool again:</p>
+
+  <ul>
+    <li><em>Input Single or Multiple Tables</em> → <strong>Single Table</strong></li>
+    <li><em>Column names on first row?</em> → <strong>Yes</strong></li>
+    <li><em>Row names on first column?</em> → <strong>Yes</strong></li>
+    <li><em>Type of table operation</em> → <strong>Compute Expression across Rows or
+Columns</strong>
+      <ul>
+        <li><em>Calculate</em> → <strong>Sum</strong></li>
+        <li><em>For each</em> → <strong>Row</strong></li>
+      </ul>
+    </li>
+  </ul>
+
+  <p>Executing this will sum all the ‘True’ values in each row. Note that the
+values must have no extra whitespace in them for this to work (e.g.
+‘True ‘ or ‘ True’ will not be parsed correctly).</p>
+
+  <h2 id="example-4-perform-a-scaled-log-transformation-conditionally">Example 4: Perform a scaled log-transformation conditionally</h2>
+
+  <p>We want to perform a scaled log transformation on all values greater
+than 5, and set all other values to 1.</p>
+
+  <p>We have the following table:</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th> </th>
+        <th>c1</th>
+        <th>c2</th>
+        <th>c3</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>g1</td>
+        <td>0</td>
+        <td>20</td>
+        <td>30</td>
+      </tr>
+      <tr>
+        <td>g2</td>
+        <td>3</td>
+        <td>0</td>
+        <td>9</td>
+      </tr>
+      <tr>
+        <td>g3</td>
+        <td>4</td>
+        <td>8</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td>g4</td>
+        <td>81</td>
+        <td>0</td>
+        <td>0</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p>and we want:</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th> </th>
+        <th>c1</th>
+        <th>c2</th>
+        <th>c3</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>g1</td>
+        <td>1.00000000</td>
+        <td>0.1497866</td>
+        <td>0.1133732</td>
+      </tr>
+      <tr>
+        <td>g2</td>
+        <td>1.00000000</td>
+        <td>1.0000000</td>
+        <td>0.2441361</td>
+      </tr>
+      <tr>
+        <td>g3</td>
+        <td>1.00000000</td>
+        <td>0.2599302</td>
+        <td>1.0000000</td>
+      </tr>
+      <tr>
+        <td>g4</td>
+        <td>0.05425246</td>
+        <td>1.0000000</td>
+        <td>1.0000000</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p>In Galaxy we would select the following:</p>
+
+  <ul>
+    <li><em>Input Single or Multiple Tables</em> → <strong>Single Table</strong></li>
+    <li><em>Column names on first row?</em> → <strong>Yes</strong></li>
+    <li><em>Row names on first column?</em> → <strong>Yes</strong></li>
+    <li><em>Type of table operation</em> → <strong>Manipulate selected table elements</strong>
+      <ul>
+        <li><em>Operation to perform</em> → <strong>Custom</strong>
+          <ul>
+            <li>
+              <p><em>Custom Expression</em> → :</p>
+
+              <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(math.log(elem) / elem) if (elem &gt; 5) else 1
+</code></pre></div>              </div>
+            </li>
+            <li>
+              <p><em>Operate on elements</em> → <strong>All</strong></p>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+
+  <h2 id="example-5-perform-a-full-table-operation">Example 5: Perform a Full table operation</h2>
+
+  <p>We have the following table:</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th> </th>
+        <th>c1</th>
+        <th>c2</th>
+        <th>c3</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>g1</td>
+        <td>10</td>
+        <td>20</td>
+        <td>30</td>
+      </tr>
+      <tr>
+        <td>g2</td>
+        <td>3</td>
+        <td>10</td>
+        <td>9</td>
+      </tr>
+      <tr>
+        <td>g3</td>
+        <td>4</td>
+        <td>8</td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td>g4</td>
+        <td>81</td>
+        <td>10</td>
+        <td>10</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p>and we want to subtract from each column the mean of that column divided
+by the standard deviation of it to yield:</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th> </th>
+        <th>c1</th>
+        <th>c2</th>
+        <th>c3</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>g1</td>
+        <td>9.351737</td>
+        <td>17.784353</td>
+        <td>28.550737</td>
+      </tr>
+      <tr>
+        <td>g2</td>
+        <td>2.351737</td>
+        <td>7.784353</td>
+        <td>7.550737</td>
+      </tr>
+      <tr>
+        <td>g3</td>
+        <td>3.351737</td>
+        <td>5.784353</td>
+        <td>8.550737</td>
+      </tr>
+      <tr>
+        <td>g4</td>
+        <td>80.351737</td>
+        <td>7.784353</td>
+        <td>8.550737</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p>In Galaxy we would select the following:</p>
+
+  <ul>
+    <li><em>Input Single or Multiple Tables</em> → <strong>Single Table</strong></li>
+    <li><em>Column names on first row?</em> → <strong>Yes</strong></li>
+    <li><em>Row names on first column?</em> → <strong>Yes</strong></li>
+    <li><em>Type of table operation</em> → <strong>Perform a Full Table Operation</strong>
+      <ul>
+        <li><em>Operation</em> → <strong>Custom</strong></li>
+        <li>
+          <p><em>Custom Expression on ‘table’ along axis (0 or 1)</em> → :</p>
+
+          <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>table - table.mean(0)/table.std(0)
+</code></pre></div>          </div>
+        </li>
+      </ul>
+    </li>
+  </ul>
+
+  <h2 id="example-6-perform-operations-on-multiple-tables">Example 6: Perform operations on multiple tables</h2>
+
+  <p>We have the following three input tables:</p>
+
+  <p>Table 1</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th> </th>
+        <th>c1</th>
+        <th>c2</th>
+        <th>c3</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>g1</td>
+        <td>10</td>
+        <td>20</td>
+        <td>30</td>
+      </tr>
+      <tr>
+        <td>g2</td>
+        <td>3</td>
+        <td>10</td>
+        <td>9</td>
+      </tr>
+      <tr>
+        <td>g3</td>
+        <td>4</td>
+        <td>8</td>
+        <td>10</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p>Table 2</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th> </th>
+        <th>c1</th>
+        <th>c2</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>g1</td>
+        <td>1</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>g2</td>
+        <td>3</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td>g3</td>
+        <td>6</td>
+        <td>5</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p>Table 3</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th> </th>
+        <th>c1</th>
+        <th>c2</th>
+        <th>c3</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>g1</td>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>g2</td>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p><em>Note that the dimensions of these tables do not match.</em></p>
+
+  <dl>
+    <dt>Dimensions:</dt>
+    <dd>
+      <ul>
+        <li>Table1 [3,3]</li>
+        <li>Table2 [3,2]</li>
+        <li>Table3 [2,3]</li>
+      </ul>
+    </dd>
+  </dl>
+
+  <p>In order to perform simple operations between Tables, they must be of
+the same dimensions.</p>
+
+  <p>To add Table2 to Table3 we would have to transpose one of the tables
+using the in-built T method:</p>
+
+  <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>table2 + table3.T
+</code></pre></div>  </div>
+
+  <p>or:</p>
+
+  <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>table2.T + table3
+</code></pre></div>  </div>
+
+  <p>We can also perform more general operations using all 3 tables, such as
+taking the minimum value of the maximum values of Table2 and Table3, and
+dividing the Table1 values by it:</p>
+
+  <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>table1 / min(table2.values.max(), table3.values.max())
+</code></pre></div>  </div>
+
+  <p>To perform these types of operations in Galaxy we would select the
+following:</p>
+
+  <ul>
+    <li><em>Input Single or Multiple Tables</em> → <strong>Multiple Tables</strong></li>
+    <li>
+      <dl>
+        <dt><em>(For each inserted table)</em></dt>
+        <dd>
+          <ul>
+            <li><em>Column names on first row?</em> → <strong>Yes</strong></li>
+            <li><em>Row names on first column?</em> → <strong>Yes</strong></li>
+          </ul>
+        </dd>
+      </dl>
+    </li>
+    <li>
+      <p><em>Custom Expression</em> → :</p>
+
+      <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;insert your desired function&gt;
+</code></pre></div>      </div>
+    </li>
+  </ul>
+
+  <p>Please note that the last example shown above was chosen to illustrate
+the limitations of the tool. Nested attributes like table2.values.max
+are disallowed in expressions in the tool so the above would have to be
+replaced with the harder to read workaround:</p>
+
+  <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>table1 / min(np.max(np.max(table2)), np.max(np.max(table3)))
+</code></pre></div>  </div>
+
+  <p>Also note that, currently min(), max() and sum() are the only built-in
+Python functions that can be used inside expressions. If you want to use
+additional functions, these have to be qualified functions from the
+math, np or pd libraries.</p>
+
+  <h2 id="example-7-melt">Example 7: Melt</h2>
+
+  <p>We have the following table</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th> </th>
+        <th>A</th>
+        <th>B</th>
+        <th>C</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>0</td>
+        <td>a</td>
+        <td>B</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>b</td>
+        <td>B</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>c</td>
+        <td>B</td>
+        <td>5</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p>and we want:</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th> </th>
+        <th>A</th>
+        <th>variable</th>
+        <th>value</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>0</td>
+        <td>a</td>
+        <td>B</td>
+        <td>B</td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>b</td>
+        <td>B</td>
+        <td>B</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>c</td>
+        <td>B</td>
+        <td>B</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>a</td>
+        <td>C</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>b</td>
+        <td>C</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>c</td>
+        <td>C</td>
+        <td>5</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p>In Galaxy we would select the following:</p>
+
+  <ul>
+    <li><em>Input Single or Multiple Tables</em> → <strong>Single Table</strong></li>
+    <li><em>Column names on first row?</em> → <strong>Yes</strong></li>
+    <li><em>Row names on first column?</em> → <strong>Yes</strong></li>
+    <li><em>Type of table operation</em> → <strong>Perform a Full Table Operation</strong>
+      <ul>
+        <li><em>Operation</em> → <strong>Melt</strong></li>
+        <li><em>Variable IDs</em> → “A”</li>
+        <li><em>Unpivoted IDs</em> → “B,C”</li>
+      </ul>
+    </li>
+  </ul>
+
+  <p>This converts the “B” and “C” columns into variables.</p>
+
+  <h2 id="example-8-pivot">Example 8: Pivot</h2>
+
+  <p>We have the following table</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th> </th>
+        <th>foo</th>
+        <th>bar</th>
+        <th>baz</th>
+        <th>zoo</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>0</td>
+        <td>one</td>
+        <td>A</td>
+        <td>1</td>
+        <td>x</td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>one</td>
+        <td>B</td>
+        <td>2</td>
+        <td>y</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>one</td>
+        <td>C</td>
+        <td>3</td>
+        <td>z</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>two</td>
+        <td>A</td>
+        <td>4</td>
+        <td>q</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>two</td>
+        <td>B</td>
+        <td>5</td>
+        <td>w</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>two</td>
+        <td>C</td>
+        <td>6</td>
+        <td>t</td>
+      </tr>
+    </tbody>
+  </table>
+
+</blockquote>
+
+
+      </div>
+    </div>
+  </div>
+
+
+</section>
+
+        </div>
+      </div>
+    </div>
+    
+
+
+
+
+
+<footer class="navbar-default">
+    <div class="container">
+        <div class="row">
+        </div>
+        <div class="row">
+            <div class="col-lg-12" style="text-align:center">
+                <p>The <a href="/freiburg/people">Freiburg Galaxy Team</a> is headed by Björn Grüning
+and is part of the <a href="http://www.bioinf.uni-freiburg.de">Bioinformatics Group
+Freiburg</a>, headed by Prof. Dr. Rolf
+Backofen.</p>
+
+<p>The team is part of <a href="https://www.denbi.de">de.NBI</a> and
+<a href="https://www.elixir-europe.org">ELIXIR</a> and largely funded by
+<a href="http://dfg.de/">DFG</a> and <a href="https://www.bmbf.de">BMBF</a>. All content on
+this site is available under <a href="https://creativecommons.org/share-your-work/public-domain/cc0/">CC0-1.0</a>,
+unless otherwise specified.</p>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12" style="text-align:center">
+                <ul class="contact-info">
+                    <li><i class="fa fa-github"></i><a href="https://github.com/usegalaxy-eu/website/tree/master/_posts/2019-10-23-pandas-in-galaxy.md">Edit this page on GitHub</a></li>
+                    
+                      <li><i class="fa fa-envelope"></i><a href="mailto:freiburg@usegalaxy.eu">freiburg@usegalaxy.eu</a></li>
+                    
+                    
+                      <li><i class="fa fa-github"></i><a href="https://github.com/usegalaxy-eu">usegalaxy-eu</a></li>
+                    
+                    
+                      <li><i class="fa fa-twitter"></i><a href="https://twitter.com/galaxyproject">galaxyproject</a></li>
+                    
+                      <li><i class="fa fa-rss"></i>Subscribe <a href="/feed.xml">via RSS (UseGalaxy.eu Feed)</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+  </body>
+</html>
