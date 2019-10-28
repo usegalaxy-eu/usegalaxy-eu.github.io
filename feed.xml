@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2019-10-27T20:21:58+01:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">Use the power of pandas / numpy to transform tabular datasets in a myriad of ways with our new Table Compute tool.</title><link href="https://galaxyproject.eu/posts/2019/10/23/pandas-in-galaxy/" rel="alternate" type="text/html" title="Use the power of pandas / numpy to transform tabular datasets in a myriad of ways with our new Table Compute tool." /><published>2019-10-23T00:00:00+02:00</published><updated>2019-10-23T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2019/10/23/pandas-in-galaxy</id><content type="html" xml:base="https://galaxyproject.eu/posts/2019/10/23/pandas-in-galaxy/">&lt;p&gt;With &lt;a href=&quot;https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/table_compute/table_compute/0.9.2&quot; target=&quot;_self&quot;&gt;Table Compute&lt;/a&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2019-10-28T12:05:01+01:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">Use the power of pandas / numpy to transform tabular datasets in a myriad of ways with our new Table Compute tool.</title><link href="https://galaxyproject.eu/posts/2019/10/23/pandas-in-galaxy/" rel="alternate" type="text/html" title="Use the power of pandas / numpy to transform tabular datasets in a myriad of ways with our new Table Compute tool." /><published>2019-10-23T00:00:00+02:00</published><updated>2019-10-23T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2019/10/23/pandas-in-galaxy</id><content type="html" xml:base="https://galaxyproject.eu/posts/2019/10/23/pandas-in-galaxy/">&lt;p&gt;With &lt;a href=&quot;https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/table_compute/table_compute/0.9.2&quot; target=&quot;_top&quot;&gt;Table Compute&lt;/a&gt;
 you can:&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;drop or duplicate given rows or columns from a tabular dataset&lt;/li&gt;
@@ -22,12 +22,11 @@ tool, so give it a try in your next analysis. We are looking forward to your fee
 
 &lt;p&gt;To get you started, here are some concrete step-by-step examples taken directly from the help section of the tool:&lt;/p&gt;
 
-&lt;p&gt;Example 1: Sub-selecting from a table
- ————————————-&lt;/p&gt;
+&lt;h2 id=&quot;example-1-sub-selecting-from-a-table&quot;&gt;Example 1: Sub-selecting from a table&lt;/h2&gt;
 
 &lt;p&gt;We have the following table:&lt;/p&gt;
 
-&lt;table&gt;
+&lt;table class=&quot;table&quot;&gt;
   &lt;thead&gt;
     &lt;tr&gt;
       &lt;th&gt; &lt;/th&gt;
@@ -65,9 +64,9 @@ tool, so give it a try in your next analysis. We are looking forward to your fee
 &lt;/table&gt;
 
 &lt;p&gt;and we want to duplicate c1 and remove c2. Also select g1 to g3 and add
- g2 at the end as well. This would result in the output table:&lt;/p&gt;
+g2 at the end as well. This would result in the output table:&lt;/p&gt;
 
-&lt;table&gt;
+&lt;table class=&quot;table&quot;&gt;
   &lt;thead&gt;
     &lt;tr&gt;
       &lt;th&gt; &lt;/th&gt;
@@ -121,12 +120,11 @@ columns&lt;/strong&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Example 2: Filter for rows with row sums less than 50
- —————————————————–&lt;/p&gt;
+&lt;h2 id=&quot;example-2-filter-for-rows-with-row-sums-less-than-50&quot;&gt;Example 2: Filter for rows with row sums less than 50&lt;/h2&gt;
 
 &lt;p&gt;We have the following table:&lt;/p&gt;
 
-&lt;table&gt;
+&lt;table class=&quot;table&quot;&gt;
   &lt;thead&gt;
     &lt;tr&gt;
       &lt;th&gt; &lt;/th&gt;
@@ -165,7 +163,7 @@ columns&lt;/strong&gt;
 
 &lt;p&gt;and we want:&lt;/p&gt;
 
-&lt;table&gt;
+&lt;table class=&quot;table&quot;&gt;
   &lt;thead&gt;
     &lt;tr&gt;
       &lt;th&gt; &lt;/th&gt;
@@ -212,8 +210,7 @@ columns/rows&lt;/strong&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Example 3: Count the number of values per row smaller than a specified value
- —————————————————————————-&lt;/p&gt;
+&lt;h2 id=&quot;example-3-count-the-number-of-values-per-row-smaller-than-a-specified-value&quot;&gt;Example 3: Count the number of values per row smaller than a specified value&lt;/h2&gt;
 
 &lt;table&gt;
   &lt;tbody&gt;
@@ -224,18 +221,47 @@ columns/rows&lt;/strong&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;|  |  c1 |  c2  | c3|
-----| ----| ----| ----|
-g1  | 10 |  20 |  30|
-g2  | 3  |  6 |   9|
-g3  | 4   | 8 |   12|
-g4  | 81   |6|    3|
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;table class=&quot;table&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt;c1&lt;/th&gt;
+      &lt;th&gt;c2&lt;/th&gt;
+      &lt;th&gt;c3&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;g1&lt;/td&gt;
+      &lt;td&gt;10&lt;/td&gt;
+      &lt;td&gt;20&lt;/td&gt;
+      &lt;td&gt;30&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;g2&lt;/td&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;6&lt;/td&gt;
+      &lt;td&gt;9&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;g3&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;8&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;g4&lt;/td&gt;
+      &lt;td&gt;81&lt;/td&gt;
+      &lt;td&gt;6&lt;/td&gt;
+      &lt;td&gt;3&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 
 &lt;p&gt;and we want to count how many elements in each row are smaller than 10,
- i.e., we want to obtain the following results table:&lt;/p&gt;
+i.e., we want to obtain the following results table:&lt;/p&gt;
 
-&lt;table&gt;
+&lt;table class=&quot;table&quot;&gt;
   &lt;thead&gt;
     &lt;tr&gt;
       &lt;th&gt; &lt;/th&gt;
@@ -281,20 +307,49 @@ g4  | 81   |6|    3|
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; &lt;em&gt;There are actually simpler ways to achieve our purpose, but
- here we are demonstrating the use of a custom expression.&lt;/em&gt;&lt;/p&gt;
+here we are demonstrating the use of a custom expression.&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;After executing, we would then be presented with a table like so:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;|   | c1    |  c2    |  c3     |
-----| ------| ------- |-------|
-g1  | False |  False   |False|
-g2  | True  |  True   | True|
-g3  | True  |  True  |  False|
-g4  | False |  True |   True|
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;table class=&quot;table&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt;c1&lt;/th&gt;
+      &lt;th&gt;c2&lt;/th&gt;
+      &lt;th&gt;c3&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;g1&lt;/td&gt;
+      &lt;td&gt;False&lt;/td&gt;
+      &lt;td&gt;False&lt;/td&gt;
+      &lt;td&gt;False&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;g2&lt;/td&gt;
+      &lt;td&gt;True&lt;/td&gt;
+      &lt;td&gt;True&lt;/td&gt;
+      &lt;td&gt;True&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;g3&lt;/td&gt;
+      &lt;td&gt;True&lt;/td&gt;
+      &lt;td&gt;True&lt;/td&gt;
+      &lt;td&gt;False&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;g4&lt;/td&gt;
+      &lt;td&gt;False&lt;/td&gt;
+      &lt;td&gt;True&lt;/td&gt;
+      &lt;td&gt;True&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 
 &lt;p&gt;To get to our desired table, we would then process this table with the
- tool again:&lt;/p&gt;
+tool again:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;em&gt;Input Single or Multiple Tables&lt;/em&gt; → &lt;strong&gt;Single Table&lt;/strong&gt;&lt;/li&gt;
@@ -310,18 +365,17 @@ Columns&lt;/strong&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Executing this will sum all the ‘True’ values in each row. Note that the
- values must have no extra whitespace in them for this to work (e.g.
- ‘True ‘ or ‘ True’ will not be parsed correctly).&lt;/p&gt;
+values must have no extra whitespace in them for this to work (e.g.
+‘True ‘ or ‘ True’ will not be parsed correctly).&lt;/p&gt;
 
-&lt;p&gt;Example 4: Perform a scaled log-transformation conditionally
- ————————————————————&lt;/p&gt;
+&lt;h2 id=&quot;example-4-perform-a-scaled-log-transformation-conditionally&quot;&gt;Example 4: Perform a scaled log-transformation conditionally&lt;/h2&gt;
 
 &lt;p&gt;We want to perform a scaled log transformation on all values greater
- than 5, and set all other values to 1.&lt;/p&gt;
+than 5, and set all other values to 1.&lt;/p&gt;
 
 &lt;p&gt;We have the following table:&lt;/p&gt;
 
-&lt;table&gt;
+&lt;table class=&quot;table&quot;&gt;
   &lt;thead&gt;
     &lt;tr&gt;
       &lt;th&gt; &lt;/th&gt;
@@ -360,7 +414,7 @@ Columns&lt;/strong&gt;
 
 &lt;p&gt;and we want:&lt;/p&gt;
 
-&lt;table&gt;
+&lt;table class=&quot;table&quot;&gt;
   &lt;thead&gt;
     &lt;tr&gt;
       &lt;th&gt; &lt;/th&gt;
@@ -422,12 +476,11 @@ Columns&lt;/strong&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Example 5: Perform a Full table operation
- —————————————–&lt;/p&gt;
+&lt;h2 id=&quot;example-5-perform-a-full-table-operation&quot;&gt;Example 5: Perform a Full table operation&lt;/h2&gt;
 
 &lt;p&gt;We have the following table:&lt;/p&gt;
 
-&lt;table&gt;
+&lt;table class=&quot;table&quot;&gt;
   &lt;thead&gt;
     &lt;tr&gt;
       &lt;th&gt; &lt;/th&gt;
@@ -465,9 +518,9 @@ Columns&lt;/strong&gt;
 &lt;/table&gt;
 
 &lt;p&gt;and we want to subtract from each column the mean of that column divided
- by the standard deviation of it to yield:&lt;/p&gt;
+by the standard deviation of it to yield:&lt;/p&gt;
 
-&lt;table&gt;
+&lt;table class=&quot;table&quot;&gt;
   &lt;thead&gt;
     &lt;tr&gt;
       &lt;th&gt; &lt;/th&gt;
@@ -523,14 +576,13 @@ Columns&lt;/strong&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Example 6: Perform operations on multiple tables
- ————————————————&lt;/p&gt;
+&lt;h2 id=&quot;example-6-perform-operations-on-multiple-tables&quot;&gt;Example 6: Perform operations on multiple tables&lt;/h2&gt;
 
 &lt;p&gt;We have the following three input tables:&lt;/p&gt;
 
 &lt;p&gt;Table 1&lt;/p&gt;
 
-&lt;table&gt;
+&lt;table class=&quot;table&quot;&gt;
   &lt;thead&gt;
     &lt;tr&gt;
       &lt;th&gt; &lt;/th&gt;
@@ -563,7 +615,7 @@ Columns&lt;/strong&gt;
 
 &lt;p&gt;Table 2&lt;/p&gt;
 
-&lt;table&gt;
+&lt;table class=&quot;table&quot;&gt;
   &lt;thead&gt;
     &lt;tr&gt;
       &lt;th&gt; &lt;/th&gt;
@@ -592,7 +644,7 @@ Columns&lt;/strong&gt;
 
 &lt;p&gt;Table 3&lt;/p&gt;
 
-&lt;table&gt;
+&lt;table class=&quot;table&quot;&gt;
   &lt;thead&gt;
     &lt;tr&gt;
       &lt;th&gt; &lt;/th&gt;
@@ -631,28 +683,28 @@ Columns&lt;/strong&gt;
 &lt;/dl&gt;
 
 &lt;p&gt;In order to perform simple operations between Tables, they must be of
- the same dimensions.&lt;/p&gt;
+the same dimensions.&lt;/p&gt;
 
 &lt;p&gt;To add Table2 to Table3 we would have to transpose one of the tables
- using the in-built T method:&lt;/p&gt;
+using the in-built T method:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; table2 + table3.T
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;table2 + table3.T
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;or:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; table2.T + table3
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;table2.T + table3
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;We can also perform more general operations using all 3 tables, such as
- taking the minimum value of the maximum values of Table2 and Table3, and
- dividing the Table1 values by it:&lt;/p&gt;
+taking the minimum value of the maximum values of Table2 and Table3, and
+dividing the Table1 values by it:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; table1 / min(table2.values.max(), table3.values.max())
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;table1 / min(table2.values.max(), table3.values.max())
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;To perform these types of operations in Galaxy we would select the
- following:&lt;/p&gt;
+following:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;em&gt;Input Single or Multiple Tables&lt;/em&gt; → &lt;strong&gt;Multiple Tables&lt;/strong&gt;&lt;/li&gt;
@@ -676,24 +728,23 @@ Columns&lt;/strong&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Please note that the last example shown above was chosen to illustrate
- the limitations of the tool. Nested attributes like table2.values.max
- are disallowed in expressions in the tool so the above would have to be
- replaced with the harder to read workaround:&lt;/p&gt;
+the limitations of the tool. Nested attributes like table2.values.max
+are disallowed in expressions in the tool so the above would have to be
+replaced with the harder to read workaround:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; table1 / min(np.max(np.max(table2)), np.max(np.max(table3)))
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;table1 / min(np.max(np.max(table2)), np.max(np.max(table3)))
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Also note that, currently min(), max() and sum() are the only built-in
- Python functions that can be used inside expressions. If you want to use
- additional functions, these have to be qualified functions from the
- math, np or pd libraries.&lt;/p&gt;
+Python functions that can be used inside expressions. If you want to use
+additional functions, these have to be qualified functions from the
+math, np or pd libraries.&lt;/p&gt;
 
-&lt;p&gt;Example 7: Melt
- —————&lt;/p&gt;
+&lt;h2 id=&quot;example-7-melt&quot;&gt;Example 7: Melt&lt;/h2&gt;
 
 &lt;p&gt;We have the following table&lt;/p&gt;
 
-&lt;table&gt;
+&lt;table class=&quot;table&quot;&gt;
   &lt;thead&gt;
     &lt;tr&gt;
       &lt;th&gt; &lt;/th&gt;
@@ -726,7 +777,7 @@ Columns&lt;/strong&gt;
 
 &lt;p&gt;and we want:&lt;/p&gt;
 
-&lt;table&gt;
+&lt;table class=&quot;table&quot;&gt;
   &lt;thead&gt;
     &lt;tr&gt;
       &lt;th&gt; &lt;/th&gt;
@@ -792,12 +843,11 @@ Columns&lt;/strong&gt;
 
 &lt;p&gt;This converts the “B” and “C” columns into variables.&lt;/p&gt;
 
-&lt;p&gt;Example 8: Pivot
- —————-&lt;/p&gt;
+&lt;h2 id=&quot;example-8-pivot&quot;&gt;Example 8: Pivot&lt;/h2&gt;
 
 &lt;p&gt;We have the following table&lt;/p&gt;
 
-&lt;table&gt;
+&lt;table class=&quot;table&quot;&gt;
   &lt;thead&gt;
     &lt;tr&gt;
       &lt;th&gt; &lt;/th&gt;

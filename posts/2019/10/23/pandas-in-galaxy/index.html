@@ -184,7 +184,7 @@ you can:
   <div class="row">
     <div class="col-md-8 col-md-offset-2">
       <div class="news-content">
-        <p>With <a href="https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/table_compute/table_compute/0.9.2" target="_self">Table Compute</a>
+        <p>With <a href="https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/table_compute/table_compute/0.9.2" target="_top">Table Compute</a>
 you can:</p>
 <ul>
   <li>drop or duplicate given rows or columns from a tabular dataset</li>
@@ -208,12 +208,11 @@ tool, so give it a try in your next analysis. We are looking forward to your fee
 
 <p>To get you started, here are some concrete step-by-step examples taken directly from the help section of the tool:</p>
 
-<p>Example 1: Sub-selecting from a table
- ————————————-</p>
+<h2 id="example-1-sub-selecting-from-a-table">Example 1: Sub-selecting from a table</h2>
 
 <p>We have the following table:</p>
 
-<table>
+<table class="table">
   <thead>
     <tr>
       <th> </th>
@@ -251,9 +250,9 @@ tool, so give it a try in your next analysis. We are looking forward to your fee
 </table>
 
 <p>and we want to duplicate c1 and remove c2. Also select g1 to g3 and add
- g2 at the end as well. This would result in the output table:</p>
+g2 at the end as well. This would result in the output table:</p>
 
-<table>
+<table class="table">
   <thead>
     <tr>
       <th> </th>
@@ -307,12 +306,11 @@ columns</strong>
   </li>
 </ul>
 
-<p>Example 2: Filter for rows with row sums less than 50
- —————————————————–</p>
+<h2 id="example-2-filter-for-rows-with-row-sums-less-than-50">Example 2: Filter for rows with row sums less than 50</h2>
 
 <p>We have the following table:</p>
 
-<table>
+<table class="table">
   <thead>
     <tr>
       <th> </th>
@@ -351,7 +349,7 @@ columns</strong>
 
 <p>and we want:</p>
 
-<table>
+<table class="table">
   <thead>
     <tr>
       <th> </th>
@@ -398,8 +396,7 @@ columns/rows</strong>
   </li>
 </ul>
 
-<p>Example 3: Count the number of values per row smaller than a specified value
- —————————————————————————-</p>
+<h2 id="example-3-count-the-number-of-values-per-row-smaller-than-a-specified-value">Example 3: Count the number of values per row smaller than a specified value</h2>
 
 <table>
   <tbody>
@@ -410,18 +407,47 @@ columns/rows</strong>
   </tbody>
 </table>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>|  |  c1 |  c2  | c3|
-----| ----| ----| ----|
-g1  | 10 |  20 |  30|
-g2  | 3  |  6 |   9|
-g3  | 4   | 8 |   12|
-g4  | 81   |6|    3|
-</code></pre></div></div>
+<table class="table">
+  <thead>
+    <tr>
+      <th> </th>
+      <th>c1</th>
+      <th>c2</th>
+      <th>c3</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>g1</td>
+      <td>10</td>
+      <td>20</td>
+      <td>30</td>
+    </tr>
+    <tr>
+      <td>g2</td>
+      <td>3</td>
+      <td>6</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <td>g3</td>
+      <td>4</td>
+      <td>8</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <td>g4</td>
+      <td>81</td>
+      <td>6</td>
+      <td>3</td>
+    </tr>
+  </tbody>
+</table>
 
 <p>and we want to count how many elements in each row are smaller than 10,
- i.e., we want to obtain the following results table:</p>
+i.e., we want to obtain the following results table:</p>
 
-<table>
+<table class="table">
   <thead>
     <tr>
       <th> </th>
@@ -467,20 +493,49 @@ g4  | 81   |6|    3|
 </ul>
 
 <p><strong>Note:</strong> <em>There are actually simpler ways to achieve our purpose, but
- here we are demonstrating the use of a custom expression.</em></p>
+here we are demonstrating the use of a custom expression.</em></p>
 
 <p>After executing, we would then be presented with a table like so:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>|   | c1    |  c2    |  c3     |
-----| ------| ------- |-------|
-g1  | False |  False   |False|
-g2  | True  |  True   | True|
-g3  | True  |  True  |  False|
-g4  | False |  True |   True|
-</code></pre></div></div>
+<table class="table">
+  <thead>
+    <tr>
+      <th> </th>
+      <th>c1</th>
+      <th>c2</th>
+      <th>c3</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>g1</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>g2</td>
+      <td>True</td>
+      <td>True</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>g3</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>g4</td>
+      <td>False</td>
+      <td>True</td>
+      <td>True</td>
+    </tr>
+  </tbody>
+</table>
 
 <p>To get to our desired table, we would then process this table with the
- tool again:</p>
+tool again:</p>
 
 <ul>
   <li><em>Input Single or Multiple Tables</em> → <strong>Single Table</strong></li>
@@ -496,18 +551,17 @@ Columns</strong>
 </ul>
 
 <p>Executing this will sum all the ‘True’ values in each row. Note that the
- values must have no extra whitespace in them for this to work (e.g.
- ‘True ‘ or ‘ True’ will not be parsed correctly).</p>
+values must have no extra whitespace in them for this to work (e.g.
+‘True ‘ or ‘ True’ will not be parsed correctly).</p>
 
-<p>Example 4: Perform a scaled log-transformation conditionally
- ————————————————————</p>
+<h2 id="example-4-perform-a-scaled-log-transformation-conditionally">Example 4: Perform a scaled log-transformation conditionally</h2>
 
 <p>We want to perform a scaled log transformation on all values greater
- than 5, and set all other values to 1.</p>
+than 5, and set all other values to 1.</p>
 
 <p>We have the following table:</p>
 
-<table>
+<table class="table">
   <thead>
     <tr>
       <th> </th>
@@ -546,7 +600,7 @@ Columns</strong>
 
 <p>and we want:</p>
 
-<table>
+<table class="table">
   <thead>
     <tr>
       <th> </th>
@@ -608,12 +662,11 @@ Columns</strong>
   </li>
 </ul>
 
-<p>Example 5: Perform a Full table operation
- —————————————–</p>
+<h2 id="example-5-perform-a-full-table-operation">Example 5: Perform a Full table operation</h2>
 
 <p>We have the following table:</p>
 
-<table>
+<table class="table">
   <thead>
     <tr>
       <th> </th>
@@ -651,9 +704,9 @@ Columns</strong>
 </table>
 
 <p>and we want to subtract from each column the mean of that column divided
- by the standard deviation of it to yield:</p>
+by the standard deviation of it to yield:</p>
 
-<table>
+<table class="table">
   <thead>
     <tr>
       <th> </th>
@@ -709,14 +762,13 @@ Columns</strong>
   </li>
 </ul>
 
-<p>Example 6: Perform operations on multiple tables
- ————————————————</p>
+<h2 id="example-6-perform-operations-on-multiple-tables">Example 6: Perform operations on multiple tables</h2>
 
 <p>We have the following three input tables:</p>
 
 <p>Table 1</p>
 
-<table>
+<table class="table">
   <thead>
     <tr>
       <th> </th>
@@ -749,7 +801,7 @@ Columns</strong>
 
 <p>Table 2</p>
 
-<table>
+<table class="table">
   <thead>
     <tr>
       <th> </th>
@@ -778,7 +830,7 @@ Columns</strong>
 
 <p>Table 3</p>
 
-<table>
+<table class="table">
   <thead>
     <tr>
       <th> </th>
@@ -817,28 +869,28 @@ Columns</strong>
 </dl>
 
 <p>In order to perform simple operations between Tables, they must be of
- the same dimensions.</p>
+the same dimensions.</p>
 
 <p>To add Table2 to Table3 we would have to transpose one of the tables
- using the in-built T method:</p>
+using the in-built T method:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> table2 + table3.T
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>table2 + table3.T
 </code></pre></div></div>
 
 <p>or:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> table2.T + table3
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>table2.T + table3
 </code></pre></div></div>
 
 <p>We can also perform more general operations using all 3 tables, such as
- taking the minimum value of the maximum values of Table2 and Table3, and
- dividing the Table1 values by it:</p>
+taking the minimum value of the maximum values of Table2 and Table3, and
+dividing the Table1 values by it:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> table1 / min(table2.values.max(), table3.values.max())
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>table1 / min(table2.values.max(), table3.values.max())
 </code></pre></div></div>
 
 <p>To perform these types of operations in Galaxy we would select the
- following:</p>
+following:</p>
 
 <ul>
   <li><em>Input Single or Multiple Tables</em> → <strong>Multiple Tables</strong></li>
@@ -862,24 +914,23 @@ Columns</strong>
 </ul>
 
 <p>Please note that the last example shown above was chosen to illustrate
- the limitations of the tool. Nested attributes like table2.values.max
- are disallowed in expressions in the tool so the above would have to be
- replaced with the harder to read workaround:</p>
+the limitations of the tool. Nested attributes like table2.values.max
+are disallowed in expressions in the tool so the above would have to be
+replaced with the harder to read workaround:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> table1 / min(np.max(np.max(table2)), np.max(np.max(table3)))
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>table1 / min(np.max(np.max(table2)), np.max(np.max(table3)))
 </code></pre></div></div>
 
 <p>Also note that, currently min(), max() and sum() are the only built-in
- Python functions that can be used inside expressions. If you want to use
- additional functions, these have to be qualified functions from the
- math, np or pd libraries.</p>
+Python functions that can be used inside expressions. If you want to use
+additional functions, these have to be qualified functions from the
+math, np or pd libraries.</p>
 
-<p>Example 7: Melt
- —————</p>
+<h2 id="example-7-melt">Example 7: Melt</h2>
 
 <p>We have the following table</p>
 
-<table>
+<table class="table">
   <thead>
     <tr>
       <th> </th>
@@ -912,7 +963,7 @@ Columns</strong>
 
 <p>and we want:</p>
 
-<table>
+<table class="table">
   <thead>
     <tr>
       <th> </th>
@@ -978,12 +1029,11 @@ Columns</strong>
 
 <p>This converts the “B” and “C” columns into variables.</p>
 
-<p>Example 8: Pivot
- —————-</p>
+<h2 id="example-8-pivot">Example 8: Pivot</h2>
 
 <p>We have the following table</p>
 
-<table>
+<table class="table">
   <thead>
     <tr>
       <th> </th>
@@ -1038,7 +1088,6 @@ Columns</strong>
     </tr>
   </tbody>
 </table>
-
 
       </div>
     </div>
