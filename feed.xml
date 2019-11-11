@@ -1,4 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2019-11-10T17:43:41+01:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2019-11-10</title><link href="https://galaxyproject.eu/posts/2019/11/10/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2019-11-10" /><published>2019-11-10T00:00:00+01:00</published><updated>2019-11-10T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2019/11/10/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2019/11/10/tool-update/">&lt;p&gt;On 2019-11-10, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#158/&quot;&gt;Jenkins Build #158&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2019-11-11T13:21:38+01:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">SINA available in Galaxy - Accurate high-throughput multiple sequence alignment of ribosomal RNA genes</title><link href="https://galaxyproject.eu/posts/2019/11/11/sina/" rel="alternate" type="text/html" title="SINA available in Galaxy - Accurate high-throughput multiple sequence alignment of ribosomal RNA genes" /><published>2019-11-11T00:00:00+01:00</published><updated>2019-11-11T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2019/11/11/sina</id><content type="html" xml:base="https://galaxyproject.eu/posts/2019/11/11/sina/">&lt;p&gt;SILVA Incremental Aligner (SINA) is avaiable in &lt;a href=&quot;https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/sina/sina/&quot;&gt;Galaxy&lt;/a&gt;!&lt;/p&gt;
+
+&lt;p&gt;SINA uses a combination of k-mer searching and partial order alignment (POA) to maintain very high alignment accuracy while satisfying high throughput performance demands. SINA was evaluated in comparison with the commonly used high throughput MSA programs PyNAST and mothur and was able to achieve higher accuracy in all performed benchmarks.&lt;/p&gt;
+
+&lt;p&gt;Using multiple reference sequences as a basis for the alignment of the candidate sequences significantly improves alignment quality. Dynamically selecting a low, fixed number of sequences from which the alignment template is constructed rather than basing the alignment on a global template built from all reference sequences allows the use of very large reference MSAs, lowering the number of bases remaining unaligned because they do not occur in the reference MSA.&lt;/p&gt;
+
+&lt;p&gt;Available reference databases of the &lt;a href=&quot;https://www.arb-silva.de/&quot;&gt;SILVA&lt;/a&gt; project can be integrated.&lt;/p&gt;
+
+&lt;embed src=&quot;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3389763/pdf/bts252.pdf&quot; width=&quot;100%&quot; height=&quot;700&quot; type=&quot;application/pdf&quot; /&gt;</content><author><name></name></author><category term="tools" /><summary type="html">SILVA Incremental Aligner (SINA) is avaiable in Galaxy!</summary></entry><entry><title type="html">UseGalaxy.eu Tool Updates for 2019-11-10</title><link href="https://galaxyproject.eu/posts/2019/11/10/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2019-11-10" /><published>2019-11-10T00:00:00+01:00</published><updated>2019-11-10T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2019/11/10/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2019/11/10/tool-update/">&lt;p&gt;On 2019-11-10, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#158/&quot;&gt;Jenkins Build #158&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;statistics&quot;&gt;Statistics&lt;/h2&gt;
 
@@ -2380,79 +2388,4 @@ wonderful, as anticipated. Really enormous congratulations to all of the Freibur
 
 &lt;p&gt;Jelle Scholtalbers and Charles Girardot&lt;/p&gt;
 
-&lt;p&gt;PS: I almost forgot. It is free…&lt;/p&gt;</content><author><name></name></author><category term="training" /><category term="tiaas" /><summary type="html">In early September this year, the European Molecular Biology Laboratory (EMBL) organized a week long course entitled Chromatin Signatures During Differentiation: Integrated Omics. This high-quality course was limited to 16 participants and gathered scientists from all around the world.</summary></entry><entry><title type="html">UseGalaxy.eu Tool Updates for 2019-10-12</title><link href="https://galaxyproject.eu/posts/2019/10/12/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2019-10-12" /><published>2019-10-12T00:00:00+02:00</published><updated>2019-10-12T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2019/10/12/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2019/10/12/tool-update/">&lt;p&gt;On 2019-10-12, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#143/&quot;&gt;Jenkins Build #143&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;climate-analysis&quot;&gt;Climate Analysis&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;climate_stripes was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/climate/climate_stripes/fec3147b0206&quot;&gt;fec3147b0206&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;convert-formats&quot;&gt;Convert Formats&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;bax2bam was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bax2bam/4445939cacc9&quot;&gt;4445939cacc9&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;filter-and-sort&quot;&gt;Filter and Sort&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;sample_seqs was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/peterjc/sample_seqs/7c40a1fbc82e&quot;&gt;7c40a1fbc82e&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;variant-calling&quot;&gt;Variant Calling&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;mixcr_analyze was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mixcr_analyze/d38cfb922f95&quot;&gt;d38cfb922f95&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;tb_variant_filter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/tb_variant_filter/3b1e7c170b10&quot;&gt;3b1e7c170b10&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;metabolomics&quot;&gt;Metabolomics&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;genform was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/workflow4metabolomics/genform/963722c4e1da&quot;&gt;963722c4e1da&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;chemicaltoolbox&quot;&gt;ChemicalToolBox&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;rdock_rbdock was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/rdock_rbdock/5f291eef9ef3&quot;&gt;5f291eef9ef3&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;The entire sucos tool suite&lt;/li&gt;
-  &lt;li&gt;The entire GROMACS tool suite&lt;/li&gt;
-  &lt;li&gt;packmol was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/packmol/539fb45630e6&quot;&gt;539fb45630e6&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;The entire MDAanalysis suite&lt;/li&gt;
-  &lt;li&gt;bio3d_rmsf was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/bio3d_rmsf/6bcb804a54c3&quot;&gt;6bcb804a54c3&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bio3d_rmsd was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/bio3d_rmsd/77e28e1da9f4&quot;&gt;77e28e1da9f4&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bio3d_pca_visualize was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/bio3d_pca_visualize/f61a718993fd&quot;&gt;f61a718993fd&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bio3d_dccm was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/bio3d_dccm/c9ae0c833ded&quot;&gt;c9ae0c833ded&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;ambertools_acpype was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/ambertools_acpype/597ee2f97479&quot;&gt;597ee2f97479&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;ambertools_antechamber was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/ambertools_antechamber/59a0424937cc&quot;&gt;59a0424937cc&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;ambertools_parmchk2 was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/ambertools_parmchk2/00ff41b1d49a&quot;&gt;00ff41b1d49a&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;sam-tools&quot;&gt;SAM tools&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;qualimap_bamqc was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/qualimap_bamqc/ac607906f10a&quot;&gt;ac607906f10a&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;qualimap_multi_bamqc was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/qualimap_multi_bamqc/613e6446ea5d&quot;&gt;613e6446ea5d&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;rna-analysis&quot;&gt;RNA analysis&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;qualimap_rnaseq was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/qualimap_rnaseq/ac607906f10a&quot;&gt;ac607906f10a&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;qualimap_counts was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/qualimap_counts/e020be4f281b&quot;&gt;e020be4f281b&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;collection-operations&quot;&gt;Collection Operations&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;split_file_to_collection was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/split_file_to_collection/e77b954f0da5&quot;&gt;e77b954f0da5&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;annotation&quot;&gt;Annotation&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;maker was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/maker/5e96efe6e6c6&quot;&gt;5e96efe6e6c6&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;abricate was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/abricate/1bb2ba6d3d96&quot;&gt;1bb2ba6d3d96&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2019-10-12, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #143</summary></entry></feed>
+&lt;p&gt;PS: I almost forgot. It is free…&lt;/p&gt;</content><author><name></name></author><category term="training" /><category term="tiaas" /><summary type="html">In early September this year, the European Molecular Biology Laboratory (EMBL) organized a week long course entitled Chromatin Signatures During Differentiation: Integrated Omics. This high-quality course was limited to 16 participants and gathered scientists from all around the world.</summary></entry></feed>
