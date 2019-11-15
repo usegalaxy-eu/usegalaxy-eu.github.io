@@ -1,4 +1,162 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2019-11-14T17:43:37+01:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">SINA available in Galaxy - Accurate high-throughput multiple sequence alignment of ribosomal RNA genes</title><link href="https://galaxyproject.eu/posts/2019/11/11/sina/" rel="alternate" type="text/html" title="SINA available in Galaxy - Accurate high-throughput multiple sequence alignment of ribosomal RNA genes" /><published>2019-11-11T00:00:00+01:00</published><updated>2019-11-11T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2019/11/11/sina</id><content type="html" xml:base="https://galaxyproject.eu/posts/2019/11/11/sina/">&lt;p&gt;SILVA Incremental Aligner (SINA) is avaiable in &lt;a href=&quot;https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/sina/sina/&quot;&gt;Galaxy&lt;/a&gt;!&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2019-11-15T01:40:55+01:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2019-11-15</title><link href="https://galaxyproject.eu/posts/2019/11/15/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2019-11-15" /><published>2019-11-15T00:00:00+01:00</published><updated>2019-11-15T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2019/11/15/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2019/11/15/tool-update/">&lt;p&gt;On 2019-11-15, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#161/&quot;&gt;Jenkins Build #161&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;chemicaltoolbox&quot;&gt;ChemicalToolBox&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;autodock_vina was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/autodock_vina/65ffed035ca8&quot;&gt;65ffed035ca8&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;autodock_vina_prepare_ligand was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/autodock_vina_prepare_ligand/965badb456d4&quot;&gt;965badb456d4&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;gmx_fep was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/gmx_fep/19d1d4c30402&quot;&gt;19d1d4c30402&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;convert-formats&quot;&gt;Convert Formats&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;gffread was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/gffread/4dea02886337&quot;&gt;4dea02886337&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;bam_to_scidx was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bam_to_scidx/408520e1ae1a&quot;&gt;408520e1ae1a&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;fastafastq&quot;&gt;FASTA/FASTQ&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;fasta_filter_by_length was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/fasta_filter_by_length/c8cd0a03db49&quot;&gt;c8cd0a03db49&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;gemini&quot;&gt;Gemini&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;gemini_dump was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/gemini_dump/187b57debbba&quot;&gt;187b57debbba&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;gemini_fusions was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/gemini_fusions/8295781a3c27&quot;&gt;8295781a3c27&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;gemini_gene_wise was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/gemini_gene_wise/99d6e7b1b7f1&quot;&gt;99d6e7b1b7f1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;gemini_interactions was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/gemini_interactions/527c8e4a356f&quot;&gt;527c8e4a356f&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;gemini_load was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/gemini_load/269c40fdcccb&quot;&gt;269c40fdcccb&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;gemini_lof_sieve was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/gemini_lof_sieve/be7ac09bc2fa&quot;&gt;be7ac09bc2fa&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;gemini_mendel_errors was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/gemini_mendel_errors/dd963f00f297&quot;&gt;dd963f00f297&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;gemini_pathways was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/gemini_pathways/66bc68095012&quot;&gt;66bc68095012&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;gemini_qc was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/gemini_qc/a875f940d8fd&quot;&gt;a875f940d8fd&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;gemini_query was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/gemini_query/ab195e756e5e&quot;&gt;ab195e756e5e&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;gemini_recessive_and_dominant was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/gemini_recessive_and_dominant/69ec574f6f41&quot;&gt;69ec574f6f41&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;gemini_region was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/gemini_region/bb4a5f979906&quot;&gt;bb4a5f979906&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;gemini_roh was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/gemini_roh/91b4db3e6df4&quot;&gt;91b4db3e6df4&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;gemini_roh was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/gemini_roh/93967598e18e&quot;&gt;93967598e18e&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;gemini_set_somatic was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/gemini_set_somatic/230c975e7759&quot;&gt;230c975e7759&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;gemini_stats was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/gemini_stats/ac761838cdaf&quot;&gt;ac761838cdaf&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;proteomics&quot;&gt;Proteomics&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;eggnog_mapper was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/eggnog_mapper/a5a3bdd0954b&quot;&gt;a5a3bdd0954b&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hardklor was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/hardklor/539f157784e7&quot;&gt;539f157784e7&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;get-data&quot;&gt;Get Data&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;ebi_metagenomics_run_downloader was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/ebi_metagenomics_run_downloader/e2e9fae080ad&quot;&gt;e2e9fae080ad&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;mapping&quot;&gt;Mapping&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;rgrnastar was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/rgrnastar/41929aa1e7f3&quot;&gt;41929aa1e7f3&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;text-manipulation&quot;&gt;Text Manipulation&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;split_file_on_column was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/split_file_on_column/b60f2452580e&quot;&gt;b60f2452580e&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;nanopore&quot;&gt;Nanopore&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;nanopolish_eventalign was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/nanopolish_eventalign/0938217b3221&quot;&gt;0938217b3221&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;nanopolish_methylation was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/nanopolish_methylation/02e3c674d917&quot;&gt;02e3c674d917&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;nanopolish_variants was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/nanopolish_variants/639b3a5bb415&quot;&gt;639b3a5bb415&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;nanopolish_variants was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/nanopolish_variants/bc79b5b0fe04&quot;&gt;bc79b5b0fe04&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;graphdisplay-data&quot;&gt;Graph/Display Data&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;fasta_nucleotide_color_plot was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/fasta_nucleotide_color_plot/0fba45ac3987&quot;&gt;0fba45ac3987&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;hca_sc_utils_viz&quot;&gt;hca_sc_utils_viz&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;dropletutils_read_10x was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/dropletutils_read_10x/f25f42dc256a&quot;&gt;f25f42dc256a&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;data-managers&quot;&gt;Data Managers&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;data_manager_salmon_index_builder was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/data_manager_salmon_index_builder/6b0f2bdcc1b7&quot;&gt;6b0f2bdcc1b7&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;variant-calling&quot;&gt;Variant Calling&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;bcftools_call was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_call/01fd33bc2e75&quot;&gt;01fd33bc2e75&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;bcftools_call was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_call/3296c3680d96&quot;&gt;3296c3680d96&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;snpeff was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/snpeff/36dc3690a82c&quot;&gt;36dc3690a82c&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;rna-analysis&quot;&gt;RNA Analysis&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;deseq2 was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/deseq2/e5c8afac22a7&quot;&gt;e5c8afac22a7&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;trinity_abundance_estimates_to_matrix was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/trinity_abundance_estimates_to_matrix/08326e2e82f1&quot;&gt;08326e2e82f1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;trinity_contig_exn50_statistic was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/trinity_contig_exn50_statistic/3cdcd5753218&quot;&gt;3cdcd5753218&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;trinity_filter_low_expr_transcripts was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/trinity_filter_low_expr_transcripts/42f93482524f&quot;&gt;42f93482524f&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;trinity_run_de_analysis was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/trinity_run_de_analysis/f3924bd07cba&quot;&gt;f3924bd07cba&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;trinity_super_transcripts was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/trinity_super_transcripts/6723249ce1bd&quot;&gt;6723249ce1bd&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;ncbi-blast&quot;&gt;NCBI Blast&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;taxonomy_krona_chart was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/crs4/taxonomy_krona_chart/020b3087d0b7&quot;&gt;020b3087d0b7&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;rad-seq&quot;&gt;RAD-seq&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;stacks_assembleperead was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/stacks_assembleperead/bc108981ca68&quot;&gt;bc108981ca68&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;stacks_cstacks was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/stacks_cstacks/5bd1418f4227&quot;&gt;5bd1418f4227&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;stacks_cstacks was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/stacks_cstacks/dab92afa0c98&quot;&gt;dab92afa0c98&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;stacks_denovomap was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/stacks_denovomap/2b1dd7ab69f7&quot;&gt;2b1dd7ab69f7&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;stacks_genotypes was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/stacks_genotypes/00f4a4e553ae&quot;&gt;00f4a4e553ae&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;stacks_procrad was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/stacks_procrad/57910d476be9&quot;&gt;57910d476be9&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;stacks_pstacks was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/stacks_pstacks/7ebc7d229deb&quot;&gt;7ebc7d229deb&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;stacks_refmap was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/stacks_refmap/4ee074ca88fb&quot;&gt;4ee074ca88fb&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;stacks_rxstacks was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/stacks_rxstacks/2360d8cf42f7&quot;&gt;2360d8cf42f7&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;stacks_sstacks was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/stacks_sstacks/95e37a28704b&quot;&gt;95e37a28704b&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;stacks_ustacks was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/stacks_ustacks/b6de94f2edc0&quot;&gt;b6de94f2edc0&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;annotation&quot;&gt;Annotation&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;gprofiler_convert was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/gprofiler_convert/e219aca2f9fc&quot;&gt;e219aca2f9fc&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;gprofiler_gost was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/gprofiler_gost/51916b7025ba&quot;&gt;51916b7025ba&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;gprofiler_orth was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/gprofiler_orth/89cf0828d89d&quot;&gt;89cf0828d89d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;gprofiler_random was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/gprofiler_random/39a063071667&quot;&gt;39a063071667&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;gprofiler_snpense was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/gprofiler_snpense/f83a08dff6f0&quot;&gt;f83a08dff6f0&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;roary was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/roary/809e42326fc2&quot;&gt;809e42326fc2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;sambam&quot;&gt;SAM/BAM&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;bam_to_sam was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/bam_to_sam/f57df915aa10&quot;&gt;f57df915aa10&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;bamtools_filter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/bamtools_filter/4fe8a75334c8&quot;&gt;4fe8a75334c8&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;sam_to_bam was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/sam_to_bam/b77f7b516b17&quot;&gt;b77f7b516b17&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;samtool_filter2 was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/samtool_filter2/b7aa423007bf&quot;&gt;b7aa423007bf&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;samtools_phase was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/samtools_phase/b5c3b1856370&quot;&gt;b5c3b1856370&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;samtools_rmdup was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/samtools_rmdup/586f9e1cdb2b&quot;&gt;586f9e1cdb2b&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;ngsutils_bam_filter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/ngsutils_bam_filter/49bf71fbc574&quot;&gt;49bf71fbc574&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2019-11-15, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #161</summary></entry><entry><title type="html">SINA available in Galaxy - Accurate high-throughput multiple sequence alignment of ribosomal RNA genes</title><link href="https://galaxyproject.eu/posts/2019/11/11/sina/" rel="alternate" type="text/html" title="SINA available in Galaxy - Accurate high-throughput multiple sequence alignment of ribosomal RNA genes" /><published>2019-11-11T00:00:00+01:00</published><updated>2019-11-11T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2019/11/11/sina</id><content type="html" xml:base="https://galaxyproject.eu/posts/2019/11/11/sina/">&lt;p&gt;SILVA Incremental Aligner (SINA) is avaiable in &lt;a href=&quot;https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/sina/sina/&quot;&gt;Galaxy&lt;/a&gt;!&lt;/p&gt;
 
 &lt;p&gt;SINA uses a combination of k-mer searching and partial order alignment (POA) to maintain very high alignment accuracy while satisfying high throughput performance demands. SINA was evaluated in comparison with the commonly used high throughput MSA programs PyNAST and mothur and was able to achieve higher accuracy in all performed benchmarks.&lt;/p&gt;
 
@@ -2354,38 +2512,4 @@ This may also be the perfect time to start enjoying your weekend!&lt;/p&gt;
   &lt;li&gt;scanpy_normalize was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/scanpy_normalize/a9f14e2d1655&quot;&gt;a9f14e2d1655&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;scanpy_plot was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/scanpy_plot/e4c0f5ee8e17&quot;&gt;e4c0f5ee8e17&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;scanpy_remove_confounders was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/scanpy_remove_confounders/a89ee42625ad&quot;&gt;a89ee42625ad&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2019-10-17, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #145</summary></entry><entry><title type="html">Training Infrastructure Feedback from Charles Girardot</title><link href="https://galaxyproject.eu/posts/2019/10/15/tiaas-feedback-embl-course/" rel="alternate" type="text/html" title="Training Infrastructure Feedback from Charles Girardot" /><published>2019-10-15T00:00:00+02:00</published><updated>2019-10-15T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2019/10/15/tiaas-feedback-embl-course</id><content type="html" xml:base="https://galaxyproject.eu/posts/2019/10/15/tiaas-feedback-embl-course/">&lt;p&gt;In early September this year, the European Molecular Biology Laboratory (EMBL) organized a week long course entitled
-&lt;a href=&quot;https://www.embl.de/training/events/2019/EPI19-01/index.html&quot;&gt;Chromatin Signatures During Differentiation: Integrated Omics&lt;/a&gt;. 
-This high-quality course was limited to 16 participants and gathered scientists from all around the world.&lt;/p&gt;
-
-&lt;p&gt;The Friday was devoted to data analysis using the Galaxy platform (for the genomics part). We 
-(&lt;a href=&quot;http://gbcs.embl.de&quot;&gt;Genome Biology Computational Support team&lt;/a&gt;) maintain a local Galaxy platform for 
-everyday analysis and we usually use it to run our data analysis trainings but not this time!&lt;/p&gt;
-
-&lt;p&gt;After attending GCC 2019 in Freiburg this year, we wanted to try the new GTN + TIaaS option as it solves (at
-least on paper) a number of issues compared to using our local Galaxy:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;First, we cannot dedicate and reserve resources on our HPC for a training session. TIaaS just offers this.&lt;/li&gt;
-  &lt;li&gt;Second, we used to develop our own training material and this takes a lot (I mean a LOT) of time. 
-Creation of the test data, ensuring that the envisioned data analysis runs on this data, that the tools 
-are available and working properly on our instance etc. GTN with TIaaS on usegalaxy.eu solves all that!&lt;/li&gt;
-  &lt;li&gt;Third, our Galaxy instance is not public. This is not an issue for running the training as we 
-are on the same network but this means that external users (i.e. most of the trainees) won’t have access to 
-our Galaxy and their work after the training. Using the TIaaS solution completely solves the issue and lets trainees 
-continue self-learning using all the GTN resources.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;so-how-did-it-go&quot;&gt;So! How did it go?&lt;/h2&gt;
-
-&lt;p&gt;Setting up the training took less than 4 hours in total. We followed the 
-&lt;a href=&quot;https://training.galaxyproject.org/training-material/topics/epigenetics/tutorials/formation_of_super-structures_on_xi/tutorial.html&quot;&gt;Formation of the Super-Structures on the Inactive X&lt;/a&gt;
-training from Friederike Dündar, Anika Erxleben, Bérénice Batut, Vivek Bhardwaj, Fidel Ramirez and Leily Rabbani. 
-We were allocated more than enough resources so the training went super smooth and we had a great feedback from the trainees.&lt;/p&gt;
-
-&lt;p&gt;Bjoern and the Freibug team were super helpfull and responsive. The combination of the TIaaS and the GTN is just
-wonderful, as anticipated. Really enormous congratulations to all of the Freiburg team to put these services up.&lt;/p&gt;
-
-&lt;p&gt;Jelle Scholtalbers and Charles Girardot&lt;/p&gt;
-
-&lt;p&gt;PS: I almost forgot. It is free…&lt;/p&gt;</content><author><name></name></author><category term="training" /><category term="tiaas" /><summary type="html">In early September this year, the European Molecular Biology Laboratory (EMBL) organized a week long course entitled Chromatin Signatures During Differentiation: Integrated Omics. This high-quality course was limited to 16 participants and gathered scientists from all around the world.</summary></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2019-10-17, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #145</summary></entry></feed>
