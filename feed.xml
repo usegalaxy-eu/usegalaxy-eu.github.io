@@ -1,65 +1,36 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2019-11-23T17:43:27+01:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2019-11-23</title><link href="https://galaxyproject.eu/posts/2019/11/23/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2019-11-23" /><published>2019-11-23T00:00:00+01:00</published><updated>2019-11-23T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2019/11/23/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2019/11/23/tool-update/">&lt;p&gt;On 2019-11-23, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#164/&quot;&gt;Jenkins Build #164&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;assembly&quot;&gt;Assembly&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;spades was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/nml/spades/b8c00ce5dfa0&quot;&gt;b8c00ce5dfa0&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2019-11-23T18:08:43+01:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2019-11-23</title><link href="https://galaxyproject.eu/posts/2019/11/23/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2019-11-23" /><published>2019-11-23T00:00:00+01:00</published><updated>2019-11-23T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2019/11/23/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2019/11/23/tool-update/">&lt;p&gt;On 2019-11-23, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#165/&quot;&gt;Jenkins Build #165&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;hca_sc_scanpy_tools&quot;&gt;hca_sc_scanpy_tools&lt;/h2&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;scanpy_compute_graph was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_compute_graph/53e6944bd162&quot;&gt;53e6944bd162&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;scanpy_compute_graph was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_compute_graph/aada17e5da75&quot;&gt;aada17e5da75&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;scanpy_filter_cells was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_filter_cells/9024cf7a9a13&quot;&gt;9024cf7a9a13&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;variant-calling&quot;&gt;Variant Calling&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;gatk4_mutect2 was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/gatk4_mutect2/fd2d6e035c3f&quot;&gt;fd2d6e035c3f&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;rna-analysis&quot;&gt;RNA Analysis&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;trinity_run_de_analysis was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/trinity_run_de_analysis/55cf05b65ad5&quot;&gt;55cf05b65ad5&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;chemicaltoolbox&quot;&gt;ChemicalToolBox&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;alchemical_analysis was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/alchemical_analysis/5f136e371f44&quot;&gt;5f136e371f44&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;gmx_em was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/gmx_em/6b79ed3d924d&quot;&gt;6b79ed3d924d&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;gmx_fep was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/gmx_fep/453311042f29&quot;&gt;453311042f29&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;gmx_merge_topology_files was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/gmx_merge_topology_files/19d4b07e7ca7&quot;&gt;19d4b07e7ca7&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;gmx_setup was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/gmx_setup/c7bcae9fe040&quot;&gt;c7bcae9fe040&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;gmx_sim was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/gmx_sim/5642f48f5698&quot;&gt;5642f48f5698&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;gmx_solvate was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/gmx_solvate/645139abefae&quot;&gt;645139abefae&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;md_converter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/md_converter/1c25c23ff450&quot;&gt;1c25c23ff450&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_filter_genes was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_filter_genes/0bba942e0869&quot;&gt;0bba942e0869&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_find_cluster was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_find_cluster/ab7a3bb8a622&quot;&gt;ab7a3bb8a622&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_find_markers was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_find_markers/23939bfeee92&quot;&gt;23939bfeee92&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_find_variable_genes was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_find_variable_genes/258e13397a8a&quot;&gt;258e13397a8a&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_normalise_data was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_normalise_data/1442daff0c7c&quot;&gt;1442daff0c7c&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_parameter_iterator was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_parameter_iterator/1a30a61effea&quot;&gt;1a30a61effea&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_parameter_iterator was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_parameter_iterator/ec800d531617&quot;&gt;ec800d531617&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_plot_embed was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_plot_embed/b2410da4e381&quot;&gt;b2410da4e381&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_plot_trajectory was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_plot_trajectory/63cbe6d65e67&quot;&gt;63cbe6d65e67&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_read_10x was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_read_10x/741d50b6dc78&quot;&gt;741d50b6dc78&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_regress_variable was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_regress_variable/2131ec9d52e2&quot;&gt;2131ec9d52e2&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_run_diffmap was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_run_diffmap/8e45c89adab2&quot;&gt;8e45c89adab2&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_run_dpt was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_run_dpt/202e28c59b59&quot;&gt;202e28c59b59&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_run_fdg was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_run_fdg/d929261bc28c&quot;&gt;d929261bc28c&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_run_paga was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_run_paga/fa114efdb1e7&quot;&gt;fa114efdb1e7&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_run_pca was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_run_pca/c990e40fbd46&quot;&gt;c990e40fbd46&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_run_tsne was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_run_tsne/45674f057a31&quot;&gt;45674f057a31&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_run_umap was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_run_umap/01750c193a83&quot;&gt;01750c193a83&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_run_umap was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_run_umap/3bd1152dd854&quot;&gt;3bd1152dd854&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_scale_data was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_scale_data/3a0d4bebabc5&quot;&gt;3a0d4bebabc5&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_scale_data was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_scale_data/c8f196ccf34a&quot;&gt;c8f196ccf34a&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;rad-seq&quot;&gt;RAD-seq&lt;/h2&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;stacks_assembleperead was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/stacks_assembleperead/b08cd32d03ad&quot;&gt;b08cd32d03ad&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;stacks_cstacks was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/stacks_cstacks/5bd1418f4227&quot;&gt;5bd1418f4227&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;annotation&quot;&gt;Annotation&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;gff_to_prot was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/gff_to_prot/b12ff7a3ee41&quot;&gt;b12ff7a3ee41&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;gprofiler_convert was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/gprofiler_convert/8ee097f1763d&quot;&gt;8ee097f1763d&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;gprofiler_gost was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/gprofiler_gost/bf39cdd007f5&quot;&gt;bf39cdd007f5&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;gprofiler_orth was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/gprofiler_orth/727e7e114f9d&quot;&gt;727e7e114f9d&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;gprofiler_random was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/gprofiler_random/7d18814397a7&quot;&gt;7d18814397a7&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;gprofiler_snpense was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/gprofiler_snpense/74385d563652&quot;&gt;74385d563652&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;transit_gumbel was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/transit_gumbel/ecce0cbe659f&quot;&gt;ecce0cbe659f&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;transit_hmm was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/transit_hmm/a15f2773a7d7&quot;&gt;a15f2773a7d7&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;transit_resampling was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/transit_resampling/0e0618c96ca4&quot;&gt;0e0618c96ca4&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;transit_tn5gaps was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/transit_tn5gaps/c68753eedf72&quot;&gt;c68753eedf72&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2019-11-23, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #164</summary></entry><entry><title type="html">Enough talking - time to act!</title><link href="https://galaxyproject.eu/posts/2019/11/23/we-are-striking-really/" rel="alternate" type="text/html" title="Enough talking - time to act!" /><published>2019-11-23T00:00:00+01:00</published><updated>2019-11-23T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2019/11/23/we-are-striking-really</id><content type="html" xml:base="https://galaxyproject.eu/posts/2019/11/23/we-are-striking-really/">&lt;p&gt;November 29 will see the next global climate strike and this time The Freiburg
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2019-11-23, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #165</summary></entry><entry><title type="html">Enough talking - time to act!</title><link href="https://galaxyproject.eu/posts/2019/11/23/we-are-striking-really/" rel="alternate" type="text/html" title="Enough talking - time to act!" /><published>2019-11-23T00:00:00+01:00</published><updated>2019-11-23T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2019/11/23/we-are-striking-really</id><content type="html" xml:base="https://galaxyproject.eu/posts/2019/11/23/we-are-striking-really/">&lt;p&gt;November 29 will see the next global climate strike and this time The Freiburg
 Galaxy Team is going to express its support more directly:&lt;/p&gt;
 
 &lt;p&gt;The team will be striking like last time but, in addition, &lt;strong&gt;we will not
