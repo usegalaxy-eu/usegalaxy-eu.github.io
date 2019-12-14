@@ -1,4 +1,371 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2019-12-14T17:44:21+01:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">Training Infrastructure Feedback from the Gallantries Project</title><link href="https://galaxyproject.eu/posts/2019/12/10/gallantries-popup/" rel="alternate" type="text/html" title="Training Infrastructure Feedback from the Gallantries Project" /><published>2019-12-10T00:00:00+01:00</published><updated>2019-12-10T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2019/12/10/gallantries-popup</id><content type="html" xml:base="https://galaxyproject.eu/posts/2019/12/10/gallantries-popup/">&lt;p&gt;The &lt;a href=&quot;https://galaxy-carpentries.github.io/gallantries/&quot;&gt;Gallantries Project&lt;/a&gt; recently had their final meeting in Thessaloniki, Greece!&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2019-12-14T22:23:34+01:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2019-12-14</title><link href="https://galaxyproject.eu/posts/2019/12/14/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2019-12-14" /><published>2019-12-14T00:00:00+01:00</published><updated>2019-12-14T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2019/12/14/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2019/12/14/tool-update/">&lt;p&gt;On 2019-12-14, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#169/&quot;&gt;Jenkins Build #169&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;statistics&quot;&gt;Statistics&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;graphembed was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/graphembed/f28678233baf&quot;&gt;f28678233baf&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;assembly&quot;&gt;Assembly&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;abyss was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/abyss/3ce74eab308b&quot;&gt;3ce74eab308b&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;convert-formats&quot;&gt;Convert Formats&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;resize_coordinate_window was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/resize_coordinate_window/4eb3cc1f8466&quot;&gt;4eb3cc1f8466&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;mothur&quot;&gt;Mothur&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;mothur_align_check was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_align_check/0399e5aeaac6&quot;&gt;0399e5aeaac6&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_align_seqs was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_align_seqs/152ae632ab19&quot;&gt;152ae632ab19&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_amova was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_amova/a781ac710ec3&quot;&gt;a781ac710ec3&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_amova was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_amova/d0074e20ae76&quot;&gt;d0074e20ae76&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_anosim was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_anosim/947036da99f2&quot;&gt;947036da99f2&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_anosim was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_anosim/98687b00be79&quot;&gt;98687b00be79&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_bin_seqs was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_bin_seqs/4bf939e17fa4&quot;&gt;4bf939e17fa4&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_chimera_bellerophon was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_chimera_bellerophon/b6ddaa19dba3&quot;&gt;b6ddaa19dba3&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_chimera_bellerophon was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_chimera_bellerophon/cf1db89b0fda&quot;&gt;cf1db89b0fda&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_chimera_ccode was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_chimera_ccode/6e2e58e07e0f&quot;&gt;6e2e58e07e0f&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_chimera_ccode was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_chimera_ccode/b6e0f8a9bc6b&quot;&gt;b6e0f8a9bc6b&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_chimera_check was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_chimera_check/4b57c3241cbc&quot;&gt;4b57c3241cbc&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_chimera_perseus was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_chimera_perseus/0f3baac24045&quot;&gt;0f3baac24045&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_chimera_pintail was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_chimera_pintail/93b61db8bdb6&quot;&gt;93b61db8bdb6&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_chimera_slayer was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_chimera_slayer/753321ddded9&quot;&gt;753321ddded9&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_chimera_uchime was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_chimera_uchime/ac246f061fd5&quot;&gt;ac246f061fd5&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_chimera_uchime was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_chimera_uchime/f1742cf23d95&quot;&gt;f1742cf23d95&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_chop_seqs was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_chop_seqs/29f963e785a0&quot;&gt;29f963e785a0&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_classify_otu was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_classify_otu/c384c39c9c27&quot;&gt;c384c39c9c27&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_classify_otu was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_classify_otu/ec7c3ecca41a&quot;&gt;ec7c3ecca41a&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_classify_seqs was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_classify_seqs/2f5d4d86eb9a&quot;&gt;2f5d4d86eb9a&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_classify_tree was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_classify_tree/9046e85ccaf6&quot;&gt;9046e85ccaf6&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_classify_tree was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_classify_tree/fec1c905cb22&quot;&gt;fec1c905cb22&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_clearcut was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_clearcut/7ad44d831a1f&quot;&gt;7ad44d831a1f&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_cluster was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_cluster/5ea1f1f9d801&quot;&gt;5ea1f1f9d801&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_cluster_classic was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_cluster_classic/2825bfdfee39&quot;&gt;2825bfdfee39&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_cluster_classic was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_cluster_classic/a649d3ca67b7&quot;&gt;a649d3ca67b7&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_cluster_fragments was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_cluster_fragments/5fa9b6d481f6&quot;&gt;5fa9b6d481f6&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_cluster_split was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_cluster_split/a9924d4f538f&quot;&gt;a9924d4f538f&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_collect_shared was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_collect_shared/44d5c9ba72e6&quot;&gt;44d5c9ba72e6&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_collect_single was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_collect_single/ba873a97b0ac&quot;&gt;ba873a97b0ac&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_collect_single was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_collect_single/d3b196069f6f&quot;&gt;d3b196069f6f&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_consensus_seqs was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_consensus_seqs/b114aeea6c4c&quot;&gt;b114aeea6c4c&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_consensus_seqs was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_consensus_seqs/bc2b62823fcc&quot;&gt;bc2b62823fcc&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_cooccurrence was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_cooccurrence/0e05f58541d0&quot;&gt;0e05f58541d0&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_corr_axes was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_corr_axes/0c76942a61e2&quot;&gt;0c76942a61e2&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_corr_axes was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_corr_axes/1ba1fe2a0438&quot;&gt;1ba1fe2a0438&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_count_groups was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_count_groups/28867c3771e1&quot;&gt;28867c3771e1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_count_seqs was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_count_seqs/59a962f57cb5&quot;&gt;59a962f57cb5&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_create_database was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_create_database/319884cd49a3&quot;&gt;319884cd49a3&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_degap_seqs was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_degap_seqs/104cea550c2f&quot;&gt;104cea550c2f&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_degap_seqs was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_degap_seqs/2393ecc7387c&quot;&gt;2393ecc7387c&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_deunique_seqs was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_deunique_seqs/73aeeac872d7&quot;&gt;73aeeac872d7&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_deunique_tree was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_deunique_tree/2b96ca0b44c0&quot;&gt;2b96ca0b44c0&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_deunique_tree was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_deunique_tree/ec5e03c0f18e&quot;&gt;ec5e03c0f18e&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_dist_seqs was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_dist_seqs/502323efbd82&quot;&gt;502323efbd82&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_dist_shared was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_dist_shared/1a899fec55e1&quot;&gt;1a899fec55e1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_fastq_info was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_fastq_info/1edab4936153&quot;&gt;1edab4936153&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_filter_seqs was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_filter_seqs/b587a3a485b8&quot;&gt;b587a3a485b8&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_filter_shared was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_filter_shared/007311ce6297&quot;&gt;007311ce6297&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_get_communitytype was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_get_communitytype/4e708ec53432&quot;&gt;4e708ec53432&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_get_coremicrobiome was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_get_coremicrobiome/42244e3619cf&quot;&gt;42244e3619cf&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_get_dists was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_get_dists/4d0f7df5a8f8&quot;&gt;4d0f7df5a8f8&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_get_dists was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_get_dists/c8fbbada97dc&quot;&gt;c8fbbada97dc&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_get_group was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_get_group/081d0fbf9751&quot;&gt;081d0fbf9751&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_get_groups was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_get_groups/cfeef38a433e&quot;&gt;cfeef38a433e&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_get_groups was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_get_groups/e4d70a26c19f&quot;&gt;e4d70a26c19f&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_get_label was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_get_label/78e5065b27bd&quot;&gt;78e5065b27bd&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_get_label was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_get_label/80b791e2a7bd&quot;&gt;80b791e2a7bd&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_get_lineage was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_get_lineage/563718e09fa8&quot;&gt;563718e09fa8&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_get_mimarkspackage was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_get_mimarkspackage/49f2db40374d&quot;&gt;49f2db40374d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_get_mimarkspackage was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_get_mimarkspackage/6dbc31423c24&quot;&gt;6dbc31423c24&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_get_otulabels was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_get_otulabels/b847275dfdf2&quot;&gt;b847275dfdf2&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_get_otulabels was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_get_otulabels/fd62ac4a6b84&quot;&gt;fd62ac4a6b84&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_get_otulist was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_get_otulist/a68c119c37c5&quot;&gt;a68c119c37c5&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_get_otulist was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_get_otulist/f0cf508cdc98&quot;&gt;f0cf508cdc98&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_get_oturep was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_get_oturep/782220733828&quot;&gt;782220733828&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_get_oturep was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_get_oturep/f821624d355c&quot;&gt;f821624d355c&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_get_otus was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_get_otus/8a67e60260ca&quot;&gt;8a67e60260ca&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_get_rabund was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_get_rabund/08a740b388d8&quot;&gt;08a740b388d8&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_get_rabund was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_get_rabund/bd695645069f&quot;&gt;bd695645069f&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_get_relabund was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_get_relabund/b07e7be6326a&quot;&gt;b07e7be6326a&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_get_sabund was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_get_sabund/0bc1dc0c6aad&quot;&gt;0bc1dc0c6aad&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_get_sabund was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_get_sabund/a41ba5f5f6b8&quot;&gt;a41ba5f5f6b8&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_get_seqs was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_get_seqs/32a95d4cd850&quot;&gt;32a95d4cd850&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_get_seqs was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_get_seqs/8b8c7cf6738c&quot;&gt;8b8c7cf6738c&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_get_sharedseqs was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_get_sharedseqs/67faa6dacbae&quot;&gt;67faa6dacbae&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_heatmap_bin was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_heatmap_bin/83d3c6dba0b1&quot;&gt;83d3c6dba0b1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_heatmap_sim was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_heatmap_sim/2f93c7bba6f8&quot;&gt;2f93c7bba6f8&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_heatmap_sim was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_heatmap_sim/c2dead9d38c4&quot;&gt;c2dead9d38c4&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_homova was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_homova/948d5731dbe0&quot;&gt;948d5731dbe0&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_indicator was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_indicator/39750697d7a6&quot;&gt;39750697d7a6&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_lefse was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_lefse/c98e47f7b233&quot;&gt;c98e47f7b233&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_lefse was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_lefse/d47a909185ef&quot;&gt;d47a909185ef&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_libshuff was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_libshuff/45a78bb8819d&quot;&gt;45a78bb8819d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_list_otulabels was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_list_otulabels/72c4cd2b5b74&quot;&gt;72c4cd2b5b74&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_list_otulabels was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_list_otulabels/e643cc6c39cb&quot;&gt;e643cc6c39cb&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_list_seqs was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_list_seqs/0ad4a88e6314&quot;&gt;0ad4a88e6314&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_list_seqs was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_list_seqs/9b600578c108&quot;&gt;9b600578c108&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_make_biom was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_make_biom/cfdfa41e01a4&quot;&gt;cfdfa41e01a4&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_make_biom was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_make_biom/e29c05b88096&quot;&gt;e29c05b88096&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_make_contigs was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_make_contigs/c3203178c41f&quot;&gt;c3203178c41f&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_make_contigs was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_make_contigs/f65c34178487&quot;&gt;f65c34178487&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_make_design was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_make_design/4405d0fbfada&quot;&gt;4405d0fbfada&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_make_fastq was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_make_fastq/1684157db3c1&quot;&gt;1684157db3c1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_make_group was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_make_group/182b471ed56b&quot;&gt;182b471ed56b&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_make_lefse was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_make_lefse/2da52b4bf3dc&quot;&gt;2da52b4bf3dc&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_make_lefse was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_make_lefse/88be2167f369&quot;&gt;88be2167f369&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_make_shared was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_make_shared/60f0853e33f3&quot;&gt;60f0853e33f3&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_make_sra was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_make_sra/afa357a7b58a&quot;&gt;afa357a7b58a&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_make_sra was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_make_sra/bf608ff56ecf&quot;&gt;bf608ff56ecf&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_mantel was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_mantel/3179a29d3b70&quot;&gt;3179a29d3b70&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_mantel was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_mantel/bcc475f1af4a&quot;&gt;bcc475f1af4a&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_merge_files was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_merge_files/21a9274337f5&quot;&gt;21a9274337f5&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_merge_groups was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_merge_groups/47d3c31340d7&quot;&gt;47d3c31340d7&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_merge_groups was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_merge_groups/f170676a1d12&quot;&gt;f170676a1d12&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_merge_sfffiles was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_merge_sfffiles/0778c4b6a300&quot;&gt;0778c4b6a300&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_merge_sfffiles was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_merge_sfffiles/26ddda2d2462&quot;&gt;26ddda2d2462&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_merge_taxsummary was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_merge_taxsummary/3a2ee62cb710&quot;&gt;3a2ee62cb710&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_metastats was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_metastats/f50fa0018f6f&quot;&gt;f50fa0018f6f&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_metastats was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_metastats/fe9f4a0d61d3&quot;&gt;fe9f4a0d61d3&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_mimarks_attributes was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_mimarks_attributes/7986e1c4bc23&quot;&gt;7986e1c4bc23&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_mimarks_attributes was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_mimarks_attributes/8354a02a83e1&quot;&gt;8354a02a83e1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_nmds was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_nmds/3cc04a065490&quot;&gt;3cc04a065490&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_normalize_shared was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_normalize_shared/5a00f7d92dc2&quot;&gt;5a00f7d92dc2&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_normalize_shared was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_normalize_shared/a8bc62f05cfa&quot;&gt;a8bc62f05cfa&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_otu_association was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_otu_association/12af8c375bb8&quot;&gt;12af8c375bb8&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_otu_association was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_otu_association/a2511c40e7b8&quot;&gt;a2511c40e7b8&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_otu_hierarchy was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_otu_hierarchy/693fbc55f70e&quot;&gt;693fbc55f70e&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_pairwise_seqs was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_pairwise_seqs/39c7213ca279&quot;&gt;39c7213ca279&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_pairwise_seqs was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_pairwise_seqs/4a73df58d56b&quot;&gt;4a73df58d56b&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_parse_list was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_parse_list/59906aed724a&quot;&gt;59906aed724a&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_parse_list was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_parse_list/99579d05a632&quot;&gt;99579d05a632&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_parsimony was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_parsimony/da7f70ebfb4c&quot;&gt;da7f70ebfb4c&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_parsimony was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_parsimony/fd6cebeaa143&quot;&gt;fd6cebeaa143&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_pca was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_pca/74d1b765843b&quot;&gt;74d1b765843b&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_pcoa was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_pcoa/1c1d69d94f7d&quot;&gt;1c1d69d94f7d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_pcoa was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_pcoa/485e149a8aba&quot;&gt;485e149a8aba&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_pcr_seqs was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_pcr_seqs/0a23bfe005be&quot;&gt;0a23bfe005be&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_phylo_diversity was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_phylo_diversity/c7d41770f4ce&quot;&gt;c7d41770f4ce&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_phylotype was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_phylotype/249cdeb3cdb1&quot;&gt;249cdeb3cdb1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_phylotype was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_phylotype/551a2d9c0aa7&quot;&gt;551a2d9c0aa7&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_pre_cluster was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_pre_cluster/baba9fff9dba&quot;&gt;baba9fff9dba&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_pre_cluster was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_pre_cluster/d848e23e9343&quot;&gt;d848e23e9343&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_primer_design was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_primer_design/487977c2c586&quot;&gt;487977c2c586&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_rarefaction_shared was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_rarefaction_shared/325ecaad64c0&quot;&gt;325ecaad64c0&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_rarefaction_shared was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_rarefaction_shared/50312cd2fc7a&quot;&gt;50312cd2fc7a&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_rarefaction_single was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_rarefaction_single/5c2157147393&quot;&gt;5c2157147393&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_rarefaction_single was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_rarefaction_single/b5bcc4bf53d1&quot;&gt;b5bcc4bf53d1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_remove_dists was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_remove_dists/11795a719c90&quot;&gt;11795a719c90&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_remove_groups was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_remove_groups/2d5258c52be0&quot;&gt;2d5258c52be0&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_remove_groups was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_remove_groups/3fac82ad3f01&quot;&gt;3fac82ad3f01&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_remove_lineage was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_remove_lineage/2a4d6c3d9b6d&quot;&gt;2a4d6c3d9b6d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_remove_otulabels was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_remove_otulabels/2cbf56d15f4b&quot;&gt;2cbf56d15f4b&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_remove_otulabels was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_remove_otulabels/5133ef623148&quot;&gt;5133ef623148&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_remove_otus was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_remove_otus/38c03ac3d622&quot;&gt;38c03ac3d622&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_remove_rare was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_remove_rare/2531a323f0c2&quot;&gt;2531a323f0c2&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_remove_seqs was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_remove_seqs/92eb629218e1&quot;&gt;92eb629218e1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_remove_seqs was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_remove_seqs/eec15ff2d3c9&quot;&gt;eec15ff2d3c9&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_reverse_seqs was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_reverse_seqs/db762c766b89&quot;&gt;db762c766b89&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_reverse_seqs was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_reverse_seqs/f7f5cd1ae299&quot;&gt;f7f5cd1ae299&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_screen_seqs was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_screen_seqs/595419d427b6&quot;&gt;595419d427b6&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_screen_seqs was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_screen_seqs/a136fc12b26a&quot;&gt;a136fc12b26a&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_sens_spec was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_sens_spec/084dc4e8caae&quot;&gt;084dc4e8caae&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_sens_spec was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_sens_spec/c3f0b847dc40&quot;&gt;c3f0b847dc40&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_seq_error was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_seq_error/2851c368b879&quot;&gt;2851c368b879&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_shhh_flows was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_shhh_flows/4e6cdbeaf3b5&quot;&gt;4e6cdbeaf3b5&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_shhh_seqs was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_shhh_seqs/151a711dec84&quot;&gt;151a711dec84&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_shhh_seqs was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_shhh_seqs/aa189387c19c&quot;&gt;aa189387c19c&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_sort_seqs was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_sort_seqs/2f6a9498447e&quot;&gt;2f6a9498447e&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_sort_seqs was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_sort_seqs/334476d3e35d&quot;&gt;334476d3e35d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_split_abund was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_split_abund/3a364dd93195&quot;&gt;3a364dd93195&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_split_abund was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_split_abund/fa40dca23957&quot;&gt;fa40dca23957&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_split_groups was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_split_groups/627cf4d36194&quot;&gt;627cf4d36194&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_split_groups was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_split_groups/99c44fc3cd32&quot;&gt;99c44fc3cd32&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_sub_sample was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_sub_sample/0f4dfa0332e8&quot;&gt;0f4dfa0332e8&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_summary_qual was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_summary_qual/11be0e5f3ebb&quot;&gt;11be0e5f3ebb&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_summary_seqs was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_summary_seqs/4041dc69af62&quot;&gt;4041dc69af62&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_summary_shared was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_summary_shared/47370a4efc95&quot;&gt;47370a4efc95&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_summary_shared was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_summary_shared/81df36f90a1b&quot;&gt;81df36f90a1b&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_summary_single was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_summary_single/72be09dfd803&quot;&gt;72be09dfd803&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_summary_tax was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_summary_tax/4db7f1329d0e&quot;&gt;4db7f1329d0e&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_summary_tax was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_summary_tax/c07510858fb0&quot;&gt;c07510858fb0&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_tree_shared was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_tree_shared/73dd30cbca20&quot;&gt;73dd30cbca20&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_tree_shared was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_tree_shared/af2b5be87d4f&quot;&gt;af2b5be87d4f&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_trim_flows was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_trim_flows/45f3904bfdd2&quot;&gt;45f3904bfdd2&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_trim_seqs was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_trim_seqs/dc318dec8b86&quot;&gt;dc318dec8b86&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_unifrac_unweighted was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_unifrac_unweighted/46ba42ec466b&quot;&gt;46ba42ec466b&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_unifrac_unweighted was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_unifrac_unweighted/6a622b34394a&quot;&gt;6a622b34394a&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_unifrac_weighted was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_unifrac_weighted/20bc6be9e1df&quot;&gt;20bc6be9e1df&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_unifrac_weighted was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_unifrac_weighted/7cb9b120fd44&quot;&gt;7cb9b120fd44&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_unique_seqs was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_unique_seqs/84722a5b79af&quot;&gt;84722a5b79af&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_venn was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_venn/200defe4c42b&quot;&gt;200defe4c42b&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;proteomics&quot;&gt;Proteomics&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;cardinal_classification was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/cardinal_classification/42f6e30b00f2&quot;&gt;42f6e30b00f2&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;cardinal_combine was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/cardinal_combine/b41107d8fe89&quot;&gt;b41107d8fe89&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;cardinal_data_exporter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/cardinal_data_exporter/90d2e00e1304&quot;&gt;90d2e00e1304&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;cardinal_filtering was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/cardinal_filtering/528fb09022be&quot;&gt;528fb09022be&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;cardinal_mz_images was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/cardinal_mz_images/27a4c660bbca&quot;&gt;27a4c660bbca&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;cardinal_mz_images was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/cardinal_mz_images/4a05e47cd0ea&quot;&gt;4a05e47cd0ea&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;cardinal_preprocessing was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/cardinal_preprocessing/ed9ed1e6cca2&quot;&gt;ed9ed1e6cca2&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;cardinal_quality_report was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/cardinal_quality_report/19f68d9ae773&quot;&gt;19f68d9ae773&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;cardinal_segmentations was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/cardinal_segmentations/b16b64ca7b7c&quot;&gt;b16b64ca7b7c&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;cardinal_spectra_plots was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/cardinal_spectra_plots/f17b01ec5c22&quot;&gt;f17b01ec5c22&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;motif-tools&quot;&gt;Motif Tools&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;meme_fimo was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/meme_fimo/0c5239d1aa65&quot;&gt;0c5239d1aa65&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;meme_meme was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/meme_meme/3f0dd362b755&quot;&gt;3f0dd362b755&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;meme_psp_gen was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/meme_psp_gen/ff2f53a32d0e&quot;&gt;ff2f53a32d0e&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;metagenomic-analysis&quot;&gt;Metagenomic Analysis&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;cat_add_names was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/cat_add_names/13192095fd5a&quot;&gt;13192095fd5a&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;cat_bins was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/cat_bins/0094893f5001&quot;&gt;0094893f5001&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;cat_contigs was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/cat_contigs/11a61934bfb3&quot;&gt;11a61934bfb3&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;cat_prepare was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/cat_prepare/b6c5e7343617&quot;&gt;b6c5e7343617&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;cat_summarise was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/cat_summarise/db1360aae489&quot;&gt;db1360aae489&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;dada2_assigntaxonomyaddspecies was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/dada2_assigntaxonomyaddspecies/4d89978c6188&quot;&gt;4d89978c6188&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;dada2_dada was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/dada2_dada/6b4ddc3b64bd&quot;&gt;6b4ddc3b64bd&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;dada2_filterandtrim was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/dada2_filterandtrim/777f9846c56d&quot;&gt;777f9846c56d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;dada2_learnerrors was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/dada2_learnerrors/39638e0aff59&quot;&gt;39638e0aff59&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;dada2_makesequencetable was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/dada2_makesequencetable/9ccec6ed8e82&quot;&gt;9ccec6ed8e82&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;dada2_mergepairs was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/dada2_mergepairs/b1e55c248f17&quot;&gt;b1e55c248f17&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;dada2_plotcomplexity was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/dada2_plotcomplexity/498d57610fcd&quot;&gt;498d57610fcd&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;dada2_plotqualityprofile was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/dada2_plotqualityprofile/fa11922f3d91&quot;&gt;fa11922f3d91&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;dada2_removebimeradenovo was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/dada2_removebimeradenovo/7f8f0e9fcb37&quot;&gt;7f8f0e9fcb37&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;dada2_seqcounts was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/dada2_seqcounts/4cc834cce4fb&quot;&gt;4cc834cce4fb&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;get-data&quot;&gt;Get Data&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;ncbi_acc_download was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/ncbi_acc_download/1c58de56d587&quot;&gt;1c58de56d587&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;rad-seq&quot;&gt;RAD-seq&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;stacks2_cstacks was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/stacks2_cstacks/c541e62d6c56&quot;&gt;c541e62d6c56&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;graphdisplay-data&quot;&gt;Graph/Display Data&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;bandage was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bandage/b2860df42e16&quot;&gt;b2860df42e16&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;circos was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/circos/fd59d783248a&quot;&gt;fd59d783248a&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;newick_utils was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/newick_utils/b4163d2f64ab&quot;&gt;b4163d2f64ab&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;dna-metabarcoding&quot;&gt;DNA Metabarcoding&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;obi_annotate was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/obi_annotate/3021b9f5809f&quot;&gt;3021b9f5809f&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;obi_clean was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/obi_clean/7d16de45c021&quot;&gt;7d16de45c021&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;obi_convert was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/obi_convert/4d705e3443a7&quot;&gt;4d705e3443a7&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;obi_grep was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/obi_grep/e9e49cf06b42&quot;&gt;e9e49cf06b42&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;obi_illumina_pairend was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/obi_illumina_pairend/94f412098ac8&quot;&gt;94f412098ac8&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;obi_ngsfilter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/obi_ngsfilter/76e69de726b2&quot;&gt;76e69de726b2&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;obi_sort was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/obi_sort/12b9e285ca1c&quot;&gt;12b9e285ca1c&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;obi_stat was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/obi_stat/39320fee9d70&quot;&gt;39320fee9d70&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;obi_tab was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/obi_tab/3299c7d5268f&quot;&gt;3299c7d5268f&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;obi_uniq was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/obi_uniq/c0f7b58b4ce4&quot;&gt;c0f7b58b4ce4&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;data-managers&quot;&gt;Data Managers&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;data_manager_cat was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/data_manager_cat/cffd8e2382cf&quot;&gt;cffd8e2382cf&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;data_manager_salmon_index_builder was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/data_manager_salmon_index_builder/57274fe5e01a&quot;&gt;57274fe5e01a&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;variant-calling&quot;&gt;Variant Calling&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;snippy was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/snippy/32f2211eeec3&quot;&gt;32f2211eeec3&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;variant_analyzer was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/variant_analyzer/3556001ff2db&quot;&gt;3556001ff2db&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;rna-analysis&quot;&gt;RNA Analysis&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;masigpro was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/masigpro/83f8b5ceff43&quot;&gt;83f8b5ceff43&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;migmap was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/migmap/587fa797ede9&quot;&gt;587fa797ede9&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;seurat was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/seurat/7319f83ae734&quot;&gt;7319f83ae734&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;tximport was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/tximport/206a71a69161&quot;&gt;206a71a69161&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;ncbi-blast&quot;&gt;NCBI Blast&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;taxonomy_krona_chart was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/crs4/taxonomy_krona_chart/1334cb4c6b68&quot;&gt;1334cb4c6b68&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;kraken was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/kraken/aec58624706f&quot;&gt;aec58624706f&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;kraken_filter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/kraken_filter/3d6570bffdb1&quot;&gt;3d6570bffdb1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;kraken_report was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/kraken_report/1902d3de4a4f&quot;&gt;1902d3de4a4f&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;kraken_translate was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/kraken_translate/9a5be5b1a5c9&quot;&gt;9a5be5b1a5c9&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;emboss&quot;&gt;EMBOSS&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;emboss_5 was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/emboss_5/dba489bfcd62&quot;&gt;dba489bfcd62&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;genome-diversity&quot;&gt;Genome Diversity&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;fasttree was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/fasttree/ef46a404db96&quot;&gt;ef46a404db96&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;annotation&quot;&gt;Annotation&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;repeat_masker was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/repeat_masker/d7540a923c7b&quot;&gt;d7540a923c7b&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;prokka was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/crs4/prokka/3a0bd09a41dd&quot;&gt;3a0bd09a41dd&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;fargene was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/fargene/239ce9f24386&quot;&gt;239ce9f24386&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;fargene was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/fargene/6f743c615c41&quot;&gt;6f743c615c41&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;single-cell&quot;&gt;Single-cell&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;anndata_export was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/anndata_export/e0395cca2c57&quot;&gt;e0395cca2c57&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;anndata_import was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/anndata_import/e175d4067b00&quot;&gt;e175d4067b00&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;anndata_inspect was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/anndata_inspect/6a1a3dab235a&quot;&gt;6a1a3dab235a&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;anndata_manipulate was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/anndata_manipulate/a56baceb1900&quot;&gt;a56baceb1900&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_cluster_reduce_dimension was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/scanpy_cluster_reduce_dimension/ac8e59e87ce3&quot;&gt;ac8e59e87ce3&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_cluster_reduce_dimension was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/scanpy_cluster_reduce_dimension/dc2de14881ba&quot;&gt;dc2de14881ba&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_filter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/scanpy_filter/0a6de5e65992&quot;&gt;0a6de5e65992&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_filter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/scanpy_filter/e62673c32a5d&quot;&gt;e62673c32a5d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_inspect was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/scanpy_inspect/7d22964a8639&quot;&gt;7d22964a8639&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_inspect was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/scanpy_inspect/cc0deb593fc8&quot;&gt;cc0deb593fc8&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_normalize was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/scanpy_normalize/8e0f141c8c66&quot;&gt;8e0f141c8c66&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_normalize was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/scanpy_normalize/d7ea9b5e6df1&quot;&gt;d7ea9b5e6df1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_plot was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/scanpy_plot/4bfb75bb7c8e&quot;&gt;4bfb75bb7c8e&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_plot was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/scanpy_plot/a8f865950ac4&quot;&gt;a8f865950ac4&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_remove_confounders was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/scanpy_remove_confounders/00305dc2dd6f&quot;&gt;00305dc2dd6f&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_remove_confounders was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/scanpy_remove_confounders/94c8f42efc47&quot;&gt;94c8f42efc47&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;sambam&quot;&gt;SAM/BAM&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;bamtools was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/bamtools/4d343c1f606b&quot;&gt;4d343c1f606b&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;bamtools_split was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/bamtools_split/9676127a1ed2&quot;&gt;9676127a1ed2&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;samtool_filter2 was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/samtool_filter2/649a225999a5&quot;&gt;649a225999a5&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2019-12-14, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #169</summary></entry><entry><title type="html">Training Infrastructure Feedback from the Gallantries Project</title><link href="https://galaxyproject.eu/posts/2019/12/10/gallantries-popup/" rel="alternate" type="text/html" title="Training Infrastructure Feedback from the Gallantries Project" /><published>2019-12-10T00:00:00+01:00</published><updated>2019-12-10T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2019/12/10/gallantries-popup</id><content type="html" xml:base="https://galaxyproject.eu/posts/2019/12/10/gallantries-popup/">&lt;p&gt;The &lt;a href=&quot;https://galaxy-carpentries.github.io/gallantries/&quot;&gt;Gallantries Project&lt;/a&gt; recently had their final meeting in Thessaloniki, Greece!&lt;/p&gt;
 
 &lt;p&gt;During this meeting we &lt;a href=&quot;https://github.com/galaxyproject/training-material/pull/1672&quot;&gt;refactored the lessons for R, and RStudio&lt;/a&gt;. Following feedback from previous workshops, we knew that these lessons needed some more real life testing in order to smooth out their rough edges, ensuring that the content would approachable for everyone. There were several folks at &lt;a href=&quot;http://www2.inab.certh.gr&quot;&gt;INAB CERTH&lt;/a&gt;, the host for our meeting, who were interested in this topic. So we decided to give a last minute pop-up course on making volcano plots in R!&lt;/p&gt;
 
@@ -250,34 +617,4 @@ to talk about research as well :)&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;stacks_cstacks was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/stacks_cstacks/5bd1418f4227&quot;&gt;5bd1418f4227&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2019-11-23, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #165</summary></entry><entry><title type="html">gProfiler is published and running on usegalaxy.eu</title><link href="https://galaxyproject.eu/posts/2019/11/20/gProfiler/" rel="alternate" type="text/html" title="gProfiler is published and running on usegalaxy.eu" /><published>2019-11-20T00:00:00+01:00</published><updated>2019-11-20T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2019/11/20/gProfiler</id><content type="html" xml:base="https://galaxyproject.eu/posts/2019/11/20/gProfiler/">&lt;p&gt;&lt;a href=&quot;https://biit.cs.ut.ee/gprofiler&quot;&gt;gProfiler&lt;/a&gt; is a toolset for functional enrichment analysis and conversions of gene lists.&lt;/p&gt;
-
-&lt;p&gt;Biological data analysis often deals with lists of genes arising from various studies. The gProfiler toolset is widely used for finding biological categories enriched in gene lists, conversions between gene identifiers and mappings to their orthologs. The mission of gProfiler is to provide a reliable service based on up-to-date high quality data in a convenient manner across many evidence types, identifier spaces and organisms.&lt;/p&gt;
-
-&lt;p&gt;gProfiler relies on data retrieved from Ensembl database and fungi, plants or metazoa specific versions of Ensembl Genomes, and parasite specific data from WormBase ParaSite. In addition to Gene Ontology, supported data sources include KEGG, Reactome, WikiPathways, TRANSFAC, miRTarBase, Human Protein Atlas, CORUM and HP.&lt;/p&gt;
-
-&lt;p&gt;gProfiler supports close to &lt;a href=&quot;https://biit.cs.ut.ee/gprofiler/page/organism-list&quot;&gt;500 organisms&lt;/a&gt; and accepts &lt;a href=&quot;https://biit.cs.ut.ee/gprofiler/page/namespaces-list&quot;&gt;hundreds of identifier types&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;gProfiler has been supporting developers by offering a standardized access through public APIs. The usage of APIs was simplified by wrapping them into Python and R packages. The latter, &lt;a href=&quot;https://CRAN.R-project.org/package=gprofiler2&quot;&gt;gprofiler2&lt;/a&gt; (which was published as a Conda Forge package named &lt;a href=&quot;https://anaconda.org/conda-forge/r-gprofiler2&quot;&gt;r-gprofiler2&lt;/a&gt;), was wrapped to be used as a set of Galaxy tools:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/gprofiler_gost/gprofiler_gost/&quot;&gt;gProfiler GOSt&lt;/a&gt; performs functional enrichment analysis, also known as over-representation analysis (ORA) or gene set enrichment analysis, on input gene list; in addition to the detailed tabular results, it can also create a Plotly graph with the Manhattan plot very similar to the one shown by the &lt;a href=&quot;https://biit.cs.ut.ee/gprofiler/&quot;&gt;web tool&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/gprofiler_convert/gprofiler_convert/&quot;&gt;gProfiler Convert&lt;/a&gt; enables to convert between various gene, protein, microarray probe and numerous other types of namespaces&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/gprofiler_orth/gprofiler_orth/&quot;&gt;gProfiler Orth&lt;/a&gt; translates gene identifiers between organisms&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/gprofiler_snpense/gprofiler_snpense/&quot;&gt;gProfiler SNPense&lt;/a&gt; maps SNP rs-codes to gene names, chromosomal coordinates and variant effects&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/gprofiler_random/gprofiler_random/&quot;&gt;gProfiler Random&lt;/a&gt; fetches a (not actually random) list of gene identifiers; useful for testing purposes.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;gProfiler Galaxy toolset was admitted to the &lt;a href=&quot;https://galaxyproject.org/iuc&quot;&gt;Galaxy Tools IUC&lt;/a&gt;. It is distributed via the ToolShed and can be installed as a bundle with the &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/suite_gprofiler/&quot;&gt;gProfiler tool suite&lt;/a&gt; repository.&lt;/p&gt;
-
-&lt;div class=&quot;multiple-img&quot;&gt;
-    &lt;img src=&quot;/assets/media/2019-11-20-gProfiler.png&quot; width=&quot;800px&quot; alt=&quot;gProfile graphical abstract&quot; /&gt;
-&lt;/div&gt;
-
-&lt;p&gt;gProfiler is part of the ELIXIR infrastructure. It belongs to the portfolio of &lt;a href=&quot;https://elixir-europe.org/platforms/interoperability/rirs&quot;&gt;ELIXIR Recommended Interoperability Resources&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;gProfiler is developed and maintained in Estonia, at the &lt;a href=&quot;https://www.ut.ee/en&quot;&gt;University of Tartu&lt;/a&gt;, &lt;a href=&quot;https://www.cs.ut.ee/en&quot;&gt;Institute of Computer Science&lt;/a&gt;, &lt;a href=&quot;https://biit.cs.ut.ee&quot;&gt;BIIT research group&lt;/a&gt;. It is an &lt;a href=&quot;https://elixir.ut.ee&quot;&gt;ELIXIR Estonia&lt;/a&gt; service.&lt;/p&gt;
-
-&lt;h2 id=&quot;credit&quot;&gt;Credit&lt;/h2&gt;
-
-&lt;embed src=&quot;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6602461/pdf/gkz369.pdf&quot; width=&quot;100%&quot; height=&quot;700&quot; type=&quot;application/pdf&quot; /&gt;</content><author><name></name></author><category term="tools" /><summary type="html">gProfiler is a toolset for functional enrichment analysis and conversions of gene lists.</summary></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2019-11-23, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #165</summary></entry></feed>
