@@ -1,4 +1,34 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2019-12-27T17:44:04+01:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2019-12-21</title><link href="https://galaxyproject.eu/posts/2019/12/21/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2019-12-21" /><published>2019-12-21T00:00:00+01:00</published><updated>2019-12-21T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2019/12/21/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2019/12/21/tool-update/">&lt;p&gt;On 2019-12-21, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#171/&quot;&gt;Jenkins Build #171&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2019-12-28T04:12:10+01:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2019-12-28</title><link href="https://galaxyproject.eu/posts/2019/12/28/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2019-12-28" /><published>2019-12-28T00:00:00+01:00</published><updated>2019-12-28T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2019/12/28/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2019/12/28/tool-update/">&lt;p&gt;On 2019-12-28, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#172/&quot;&gt;Jenkins Build #172&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;variant-calling&quot;&gt;Variant Calling&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;bcftools_call was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_call/5801eff9ac7e&quot;&gt;5801eff9ac7e&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;bcftools_cnv was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_cnv/b2d1b7dda2b7&quot;&gt;b2d1b7dda2b7&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;bcftools_consensus was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_consensus/e522022137f6&quot;&gt;e522022137f6&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;bcftools_csq was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_csq/f10f5b4e7854&quot;&gt;f10f5b4e7854&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;bcftools_norm was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_norm/a62e934346f5&quot;&gt;a62e934346f5&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;bcftools_plugin_color_chrs was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_plugin_color_chrs/71dfde92fd57&quot;&gt;71dfde92fd57&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;bcftools_plugin_frameshifts was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_plugin_frameshifts/48ac4d611e92&quot;&gt;48ac4d611e92&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;multiple-alignments&quot;&gt;Multiple Alignments&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;sina was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/sina/49b937f12aa4&quot;&gt;49b937f12aa4&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;evolution&quot;&gt;Evolution&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;codeml was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/codeml/66228e9c29d9&quot;&gt;66228e9c29d9&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;rad-seq&quot;&gt;RAD-seq&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;stacks2_cstacks was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/stacks2_cstacks/c541e62d6c56&quot;&gt;c541e62d6c56&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2019-12-28, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #172</summary></entry><entry><title type="html">UseGalaxy.eu Tool Updates for 2019-12-21</title><link href="https://galaxyproject.eu/posts/2019/12/21/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2019-12-21" /><published>2019-12-21T00:00:00+01:00</published><updated>2019-12-21T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2019/12/21/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2019/12/21/tool-update/">&lt;p&gt;On 2019-12-21, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#171/&quot;&gt;Jenkins Build #171&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;convert-formats&quot;&gt;Convert Formats&lt;/h2&gt;
 
@@ -737,21 +767,4 @@ North Grafton, Massachusetts&lt;br /&gt;&lt;/p&gt;</content><author><name></name
   &lt;li&gt;kobas was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/kobas/20f1b45dea63&quot;&gt;20f1b45dea63&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;tetyper was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/tetyper/8bc80c2a15b3&quot;&gt;8bc80c2a15b3&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;sistr_cmd was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/nml/sistr_cmd/5c8ff92e38a9&quot;&gt;5c8ff92e38a9&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2019-11-30, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #167</summary></entry><entry><title type="html">Enough talking - time to act!</title><link href="https://galaxyproject.eu/posts/2019/11/23/we-are-striking-really/" rel="alternate" type="text/html" title="Enough talking - time to act!" /><published>2019-11-23T00:00:00+01:00</published><updated>2019-11-23T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2019/11/23/we-are-striking-really</id><content type="html" xml:base="https://galaxyproject.eu/posts/2019/11/23/we-are-striking-really/">&lt;p&gt;November 29 will see the next global climate strike and this time The Freiburg
-Galaxy Team is going to express its support more directly:&lt;/p&gt;
-
-&lt;p&gt;The team will be striking like last time but, in addition, &lt;strong&gt;we will not
-schedule new jobs on the European Galaxy server for the whole day&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;Running jobs will not be interrupted, but no new jobs will start to run. They will stay grey
-for the entire day.&lt;/p&gt;
-
-&lt;p&gt;Again, we encourage all of you to join one of the huge number of strikes
-&lt;a href=&quot;https://fridaysforfuture.org/statistics/map?d=2019-11-29&quot;&gt;that will be taking place world-wide&lt;/a&gt; on this day!&lt;/p&gt;
-
-&lt;p&gt;We will be striking in Freiburg, if you are nearby join us - and maybe we will find time
-to talk about research as well :)&lt;/p&gt;
-
-&lt;div class=&quot;multiple-img&quot;&gt;
-    &lt;iframe width=&quot;1000&quot; height=&quot;600&quot; src=&quot;https://globalclimatestrike.net/#map&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="s4f" /><summary type="html">November 29 will see the next global climate strike and this time The Freiburg Galaxy Team is going to express its support more directly:</summary></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2019-11-30, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #167</summary></entry></feed>
