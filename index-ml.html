@@ -61,12 +61,12 @@ running the German <a href="https://www.elixir-europe.org/" target="_blank">ELIX
   <li><a href="#get-started" id="markdown-toc-get-started">Get started</a></li>
   <li><a href="#training" id="markdown-toc-training">Training</a></li>
   <li><a href="#available-tools" id="markdown-toc-available-tools">Available tools</a>    <ol>
-      <li><a href="#rna-structure-prediction-and-analysis" id="markdown-toc-rna-structure-prediction-and-analysis">RNA structure prediction and analysis</a></li>
-      <li><a href="#rna-alignment" id="markdown-toc-rna-alignment">RNA alignment</a></li>
-      <li><a href="#rna-annotation" id="markdown-toc-rna-annotation">RNA annotation</a></li>
-      <li><a href="#rna-protein-interaction" id="markdown-toc-rna-protein-interaction">RNA-protein interaction</a></li>
-      <li><a href="#rna-target-prediction" id="markdown-toc-rna-target-prediction">RNA target prediction</a></li>
-      <li><a href="#rna-seq-and-hts-analysis" id="markdown-toc-rna-seq-and-hts-analysis">RNA Seq and HTS analysis</a></li>
+      <li><a href="#classification" id="markdown-toc-classification">Classification</a></li>
+      <li><a href="#regression" id="markdown-toc-regression">Regression</a></li>
+      <li><a href="#clustering" id="markdown-toc-clustering">Clustering</a></li>
+      <li><a href="#dimensionality-reduction" id="markdown-toc-dimensionality-reduction">Dimensionality reduction</a></li>
+      <li><a href="#model-selection" id="markdown-toc-model-selection">Model selection</a></li>
+      <li><a href="#preprocessing" id="markdown-toc-preprocessing">Preprocessing</a></li>
       <li><a href="#ribosome-profiling" id="markdown-toc-ribosome-profiling">Ribosome profiling</a></li>
     </ol>
   </li>
@@ -295,9 +295,13 @@ We developed several tutorials together with the <a href="https://galaxyproject.
 
 <h1 id="available-tools">Available tools</h1>
 
-<p>In this section we list all tools that have been integrated in the RNA workbench. The list is likely to grow as soon as further tools and workflows are contributed. To ease readability, we divided them into categories.</p>
+<p>In this section we list the most important tools that have been integrated in the Machine Learning workbench.
+There are many more tools available so please have a more detailed look into the tool panel.
+To ease readability, we divided them into categories.</p>
 
-<h2 id="rna-structure-prediction-and-analysis">RNA structure prediction and analysis</h2>
+<h2 id="classification">Classification</h2>
+
+<p>Identifying which category an object belongs to.</p>
 
 <table class="table table-striped tooltable">
   <thead>
@@ -351,7 +355,9 @@ We developed several tutorials together with the <a href="https://galaxyproject.
   </tbody>
 </table>
 
-<h2 id="rna-alignment">RNA alignment</h2>
+<h2 id="regression">Regression</h2>
+
+<p>Predicting a continuous-valued attribute associated with an object.</p>
 
 <table class="table table-striped tooltable">
   <thead>
@@ -390,7 +396,9 @@ We developed several tutorials together with the <a href="https://galaxyproject.
   </tbody>
 </table>
 
-<h2 id="rna-annotation">RNA annotation</h2>
+<h2 id="clustering">Clustering</h2>
+
+<p>Automatic grouping of similar objects into sets.</p>
 
 <table class="table table-striped tooltable">
   <thead>
@@ -444,7 +452,9 @@ We developed several tutorials together with the <a href="https://galaxyproject.
   </tbody>
 </table>
 
-<h2 id="rna-protein-interaction">RNA-protein interaction</h2>
+<h2 id="dimensionality-reduction">Dimensionality reduction</h2>
+
+<p>Reducing the number of random variables to consider.</p>
 
 <table class="table table-striped tooltable">
   <thead>
@@ -478,7 +488,9 @@ We developed several tutorials together with the <a href="https://galaxyproject.
   </tbody>
 </table>
 
-<h2 id="rna-target-prediction">RNA target prediction</h2>
+<h2 id="model-selection">Model selection</h2>
+
+<p>Comparing, validating and choosing parameters and models.</p>
 
 <table class="table table-striped tooltable">
   <thead>
@@ -497,9 +509,9 @@ We developed several tutorials together with the <a href="https://galaxyproject.
   </tbody>
 </table>
 
-<h2 id="rna-seq-and-hts-analysis">RNA Seq and HTS analysis</h2>
+<h2 id="preprocessing">Preprocessing</h2>
 
-<h3 id="preprocessing">Preprocessing</h3>
+<p>Feature extraction and normalization.</p>
 
 <table class="table table-striped tooltable">
   <thead>
@@ -523,162 +535,9 @@ We developed several tutorials together with the <a href="https://galaxyproject.
   </tbody>
 </table>
 
-<h3 id="rna-seq">RNA-Seq</h3>
-
-<table class="table table-striped tooltable">
-  <thead>
-    <tr>
-      <th>Tool</th>
-      <th>Description</th>
-      <th>Reference</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><a href="https://ml.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/rnateam/blockclust/blockclust" target="_top">BlockClust</a></td>
-      <td>Small non-coding RNA clustering from deep sequencing read profiles</td>
-      <td><a href="https://doi.org/10.1093/bioinformatics/btu270" target="_blank">Videm et al. 2014</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://ml.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/yhoogstrate/flaimapper/flaimapper" target="_top">FlaiMapper</a></td>
-      <td>A tool for computational annotation of small ncRNA-derived fragments using RNA-seq data</td>
-      <td><a href="https://doi.org/10.1093/bioinformatics/btu696" target="_blank">Hoogstrate et al. 2015</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://ml.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/rnateam/mirdeep2/rbc_mirdeep2" target="_top">MiRDeep2</a></td>
-      <td>Discovers microRNA genes by analyzing sequenced RNAs</td>
-      <td><a href="https://doi.org/10.1038/nbt1394" target="_blank">Friedländer et al. 2008</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://ml.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/rnateam/nastiseq/nastiseq" target="_top">NASTIseq</a></td>
-      <td>A method that incorporates the inherent variable efficiency of generating perfectly strand-specific libraries</td>
-      <td><a href="https://doi.org/10.1101/gr.149310.112" target="_blank">Li et al. 2013</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://ml.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/rnateam/pipmir/pipmir" target="_top">PIPmiR</a></td>
-      <td>An algorithm to identify novel plant miRNA genes from a combination of deep sequencing data and genomic features</td>
-      <td><a href="https://doi.org/10.1101/gr.123547.111" target="_blank">Breakfield et al. 2011</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://ml.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/rnateam/sortmerna/bg_sortmerna" target="_top">SortMeRNA</a></td>
-      <td>A tool for filtering, mapping and OTU-picking NGS reads in metatranscriptomic and -genomic data</td>
-      <td><a href="https://doi.org/10.1093/bioinformatics/bts611" target="_blank">Kopylova et al. 2011</a></td>
-    </tr>
-  </tbody>
-</table>
-
-<h3 id="read-mapping">Read Mapping</h3>
-
-<table class="table table-striped tooltable">
-  <thead>
-    <tr>
-      <th>Tool</th>
-      <th>Description</th>
-      <th>Reference</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><a href="https://ml.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/hisat2/hisat2" target="_top">HISAT2</a></td>
-      <td>Hierarchical indexing for spliced alignment of transcripts</td>
-      <td><a href="https://doi.org/10.1038/nprot.2016.095" target="_blank">Pertea et al. 2016</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://ml.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/rgrnastar/rna_star" target="_top">RNA STAR</a></td>
-      <td>Rapid spliced aligner for RNA-seq data</td>
-      <td><a href="https://academic.oup.com/bioinformatics/article/29/1/15/272537/STAR-ultrafast-universal-RNA-seq-aligner" target="_blank">Dobin et al. 2013</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://ml.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/star_fusion/star_fusion" target="_top">STAR-fusion</a></td>
-      <td>Fast fusion gene finder</td>
-      <td><a href="https://www.biorxiv.org/content/early/2017/03/24/120295" target="_blank">Haas et al. 2017</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://ml.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2" target="_top">Bowtie2</a></td>
-      <td>Fast and sensitive read alignment</td>
-      <td><a href="https://doi.org/10.1038/nmeth.1923" target="_blank">Langmead et al. 2012</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://ml.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa" target="_top">BWA</a></td>
-      <td>Software package for mapping low-divergent sequences against a large reference genome</td>
-      <td><a href="https://doi.org/10.1093/bioinformatics/btp324" target="_blank">Li and Durbin 2009</a>, <a href="https://doi.org/10.1093/bioinformatics/btp698" target="_blank">Li and Durbin 2010</a></td>
-    </tr>
-  </tbody>
-</table>
-
-<h3 id="transcript-assembly">Transcript Assembly</h3>
-
-<table class="table table-striped tooltable">
-  <thead>
-    <tr>
-      <th>Tool</th>
-      <th>Description</th>
-      <th>Reference</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><a href="https://ml.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/trinity/trinity" target="_top">Trinity</a></td>
-      <td>De novo transcript sequence reconstruction from RNA-Seq</td>
-      <td><a href="https://doi.org/10.1038%2Fnprot.2013.084" target="_blank">Haas et al. 2013</a></td>
-    </tr>
-  </tbody>
-</table>
-
-<h3 id="quantification">Quantification</h3>
-
-<table class="table table-striped tooltable">
-  <thead>
-    <tr>
-      <th>Tool</th>
-      <th>Description</th>
-      <th>Reference</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><a href="https://ml.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/featurecounts/featurecounts" target="_top">featureCounts</a></td>
-      <td>Ultrafast and accurate read summarization program</td>
-      <td><a href="http://dx.doi.org/10.1093/bioinformatics/btt656" target="_blank">Liao et al. 2014</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://ml.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/lparsons/htseq_count/htseq_count" target="_top">htseq-count</a></td>
-      <td>Tool for counting reads in features</td>
-      <td><a href="https://doi.org/10.1093%2Fbioinformatics%2Fbtu638" target="_blank">Anders et al. 2015</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://ml.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/sailfish/sailfish" target="_top">Sailfish</a></td>
-      <td>Rapid Alignment-free Quantification of Isoform Abundance</td>
-      <td><a href="http://dx.doi.org/10.1038/nbt.2862" target="_blank">Patro et al. 2014</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://ml.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/salmon/salmon" target="_top">Salmon</a></td>
-      <td>Fast, accurate and bias-aware transcript quantification</td>
-      <td><a href="http://dx.doi.org/10.1038/nmeth.4197" target="_blank">Patro et al. 2017</a></td>
-    </tr>
-  </tbody>
-</table>
-
-<h3 id="differential-expression-analysis">Differential expression analysis</h3>
-
-<table class="table table-striped tooltable">
-  <thead>
-    <tr>
-      <th>Tool</th>
-      <th>Description</th>
-      <th>Reference</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><a href="https://ml.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/deseq2/deseq2" target="_top">DESeq2</a></td>
-      <td>Differential gene expression analysis based on the negative binomial distribution</td>
-      <td><a href="http://doi.org/10.1186/s13059-014-0550-8" target="_blank">Love et al. 2014</a></td>
-    </tr>
-  </tbody>
-</table>
-
 <h3 id="utilities">Utilities</h3>
+
+<p>General data manipulation tools</p>
 
 <table class="table table-striped tooltable">
   <thead>
