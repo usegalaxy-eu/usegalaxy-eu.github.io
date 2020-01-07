@@ -1,4 +1,60 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2020-01-07T08:25:18+01:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2020-01-04</title><link href="https://galaxyproject.eu/posts/2020/01/04/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2020-01-04" /><published>2020-01-04T00:00:00+01:00</published><updated>2020-01-04T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2020/01/04/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/01/04/tool-update/">&lt;p&gt;On 2020-01-04, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#173/&quot;&gt;Jenkins Build #173&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2020-01-07T12:09:37+01:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">Massively Multiplayer Online Science in Galaxy to help Ecologists - a citizen science project.</title><link href="https://galaxyproject.eu/posts/2020/01/07/mmos/" rel="alternate" type="text/html" title="Massively Multiplayer Online Science in Galaxy to help Ecologists - a citizen science project." /><published>2020-01-07T00:00:00+01:00</published><updated>2020-01-07T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2020/01/07/mmos</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/01/07/mmos/">&lt;p&gt;A few years back the “webhook” concept was contributed to the Galaxy codebase.
+Webhooks have enabled custom modifications to the Galaxy User Interface (UI) without changing the Galaxy source code directly.
+The advantage is that the maintenance of custom changes is a lot easier. You can think of it as a plugin concept for the Galaxy UI.
+Webhooks are powering the so much-loved XKCD or PhD comics that you see when you submit jobs or workflows for example - but this was just the first step…&lt;/p&gt;
+
+&lt;p&gt;Today we are proud to announce an extension that enables &lt;strong&gt;you&lt;/strong&gt; to help our ecology community to annotate existing datasets by classifying hoverflies into males and females.
+This information will help ecologist in further data analysis, for example, to train future machine learning models. &lt;a href=&quot;https://usegalaxy.eu/gapars-experiment&quot;&gt;Try it!&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;multiple-img&quot;&gt;
+    &lt;img src=&quot;/assets/media/mmos_flies.png&quot; alt=&quot;classification of marmelade hoverflies&quot; /&gt;
+    &lt;i&gt;SPIPOLL datasets and first MMOS task on usegalaxy.eu&lt;/i&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h4 id=&quot;crowdsourcing-in-science-is-hard&quot;&gt;Crowdsourcing in science is hard&lt;/h4&gt;
+
+&lt;p&gt;Crowdsourcing in science is hard. Nevertheless, there are tremendous opportunities where we all can advance science and help our colleagues. Here we are trying to overcome the challenges by embedding the crowdsourcing tasks into Galaxy.&lt;/p&gt;
+
+&lt;p&gt;The idea is to provide a simple framework to create and manage tasks and data via the &lt;a href=&quot;http://mmos.ch&quot;&gt;MMOS platform&lt;/a&gt;,
+together with a simple &lt;a href=&quot;https://usegalaxy.eu/gapars-experiment&quot;&gt;UI&lt;/a&gt; and integrate this into &lt;a href=&quot;https://usegalaxy.eu&quot;&gt;Galaxy Europe&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;For us, it made a lot of sense to offer the hoverfly images after you execute a job or a workflow. Usually, you need to wait a few seconds until your job is processed and you can study the results. During this time you can now classify marmalade hoverflies as a means to procrastinate - but in a very meaningful way and the
+good feeling to have helped our colleagues from ecology :)&lt;/p&gt;
+
+&lt;p&gt;The work done by &lt;strong&gt;you&lt;/strong&gt; with this new Galaxy feature allows ecologist to extend metadata on already captured data
+and will open new ways to analyse them. For example by
+training machine learning models or taking into account new factors (here the sex of the flies) in statistical modelling.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h4 id=&quot;how-it-works-and-how-to-create-new-plugins-of-this-kind&quot;&gt;How it works and how to create new plugins of this kind&lt;/h4&gt;
+
+&lt;p&gt;The &lt;a href=&quot;https://www.spipoll.org&quot;&gt;SPIPOLL&lt;/a&gt; citizen science project collects images from different species, in our case from &lt;a href=&quot;https://en.wikipedia.org/wiki/Episyrphus_balteatus&quot;&gt;Episyrphus balteatus&lt;/a&gt;, also called marmalade hoverfly. In a second step, a project manager prepares certain tasks and seeks for community contribution to help to classify the images.
+As a first project, we have chosen to help with the task to classify ~5000 hoverfly images and identify the sex by looking at their relative eyes position.&lt;/p&gt;
+
+&lt;p&gt;To make it really simple for &lt;strong&gt;you&lt;/strong&gt; to contribute to such a crowdsourcing project we teamed up with the project &lt;a href=&quot;http://gapars.mmos.ch&quot;&gt;Massively Multiplayer Online Science&lt;/a&gt;, which is a citizen science platform connecting scientific research to citizen through notably video games! :)&lt;/p&gt;
+
+&lt;p&gt;On the MMOS side, we had to populate the developer portal with pictures and provide all mandatory metadata. We then had to create a simple webpage that could be embedded into Galaxy. This site displays the task (our hoverfly image) and allows submitting an answer to the MMOS server.&lt;/p&gt;
+
+&lt;p&gt;The hoverfly example can be found on &lt;a href=&quot;https://github.com/galaxyecology/webhook_SPIPOLL_Flash/blob/master/templates/guess.html&quot;&gt;GitHub&lt;/a&gt;.
+This is a very simple example, with a single picture displayed as a task, but you can imagine many other possibilities and not only pictures!&lt;/p&gt;
+
+&lt;p&gt;If you have a task where you need the help of thousands of researchers, talk to us and we will figure out together how we can treat your data in a similar way as our marmalade flies!&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h4 id=&quot;have-a-lot-of-fun-during-your-research&quot;&gt;Have a lot of fun during your research!&lt;/h4&gt;
+
+&lt;p&gt;Have much fun classifying flies and let us know if you have similar use-cases!
+Thanks a lot to all contributors, particularly &lt;a href=&quot;https://github.com/rplanel/&quot;&gt;Rémi Planel&lt;/a&gt;, &lt;a href=&quot;https://github.com/erasche/&quot;&gt;Helena Rasche&lt;/a&gt;,
+the MMOS project and &lt;a href=&quot;https://github.com/yvanlebras/&quot;&gt;Yvan Le Bras&lt;/a&gt;!&lt;/p&gt;
+
+&lt;p&gt;This work is a collaborative effort between &lt;a href=&quot;https://www.mnhn.fr/en&quot;&gt;French National Museum of Natural History&lt;/a&gt;, UseGalaxy.eu (&lt;a href=&quot;https::/denbi.de/&quot;&gt;de.NBI&lt;/a&gt;, &lt;a href=&quot;https://elixir-europe.org&quot;&gt;ELIXIR&lt;/a&gt;) and the &lt;a href=&quot;http://mmos.ch&quot;&gt;MMOS&lt;/a&gt; company. This project has also received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement Nr 732703”&lt;/p&gt;
+
+&lt;p&gt;If you want to read more about crowdsourcing citizen science data on UseGalaxy.eu have a look at the &lt;a href=&quot;https://galaxyproject.org/blog/2020+++++++++/&quot;&gt;new blog post by Yvan&lt;/a&gt;!&lt;/p&gt;
+
+&lt;div class=&quot;multiple-img&quot;&gt;
+    &lt;iframe width=&quot;750&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/U6mu3QrK9Ao&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="galaxy" /><category term="mmos" /><category term="devops" /><summary type="html">A few years back the “webhook” concept was contributed to the Galaxy codebase. Webhooks have enabled custom modifications to the Galaxy User Interface (UI) without changing the Galaxy source code directly. The advantage is that the maintenance of custom changes is a lot easier. You can think of it as a plugin concept for the Galaxy UI. Webhooks are powering the so much-loved XKCD or PhD comics that you see when you submit jobs or workflows for example - but this was just the first step…</summary></entry><entry><title type="html">UseGalaxy.eu Tool Updates for 2020-01-04</title><link href="https://galaxyproject.eu/posts/2020/01/04/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2020-01-04" /><published>2020-01-04T00:00:00+01:00</published><updated>2020-01-04T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2020/01/04/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/01/04/tool-update/">&lt;p&gt;On 2020-01-04, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#173/&quot;&gt;Jenkins Build #173&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;metabolomics&quot;&gt;Metabolomics&lt;/h2&gt;
 
@@ -700,26 +756,4 @@
 
 &lt;p&gt;This success would not be possible without the support of &lt;a href=&quot;https://www.denbi.de/&quot;&gt;de.NBI&lt;/a&gt;, &lt;a href=&quot;http://elixir-europe.org/&quot;&gt;ELIXIR&lt;/a&gt;, &lt;a href=&quot;https://www.eosc-portal.eu/eosc-life&quot;&gt;EOSC-life&lt;/a&gt; and the Freiburg &lt;a href=&quot;http://www.med.uni-freiburg.de&quot;&gt;Faculty of Medicine&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;A big thank you to all our users and people that have contributed to this project! Special thanks to our partner sites &lt;a href=&quot;https://galaxyproject.eu/erasmusmc/&quot;&gt;Erasmus MC&lt;/a&gt;, &lt;a href=&quot;https://galaxyproject.eu/vib/&quot;&gt;Belgium&lt;/a&gt;, and &lt;a href=&quot;https://galaxyproject.eu/pasteur/&quot;&gt;Pasteur&lt;/a&gt; and the whole &lt;a href=&quot;https://galaxyproject.org/community/&quot;&gt;Galaxy community&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="devops" /><summary type="html">This week we have reached a huge milestone!</summary></entry><entry><title type="html">Training Infrastructure Feedback from Giovanni Widmer</title><link href="https://galaxyproject.eu/posts/2019/12/01/tiaas-feedback-aracatuba/" rel="alternate" type="text/html" title="Training Infrastructure Feedback from Giovanni Widmer" /><published>2019-12-01T00:00:00+01:00</published><updated>2019-12-01T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2019/12/01/tiaas-feedback-aracatuba</id><content type="html" xml:base="https://galaxyproject.eu/posts/2019/12/01/tiaas-feedback-aracatuba/">&lt;p&gt;Hi &lt;a href=&quot;https://galaxyproject.eu/freiburg/&quot;&gt;Galaxy team&lt;/a&gt;!&lt;/p&gt;
-
-&lt;p&gt;This is the second year I run a 1-week workshop in bioinformatics at &lt;a href=&quot;https://www.international.unesp.br&quot;&gt;São Paulo State University’s (UNESP)&lt;/a&gt;
-veterinary school in Araçatuba, Brazil.
-The goal of this short course is to demystify the analysis and visualization of complex data sets as generated by 16S amplicon sequencing,
-RNA-Seq and multi-locus genotyping. Nineteen Master and PhD students signed up this year.
-By coincidence, I learned about Galaxy Europe’s TIaaS program, so a few months ago I applied for a private Galaxy queue.&lt;/p&gt;
-
-&lt;p&gt;We were able to run a basic RNA-Seq pipeline without experiencing any delays and demonstrating other tools was a breeze;
-submit job, wait a few seconds to minutes and done! Thanks to the Galaxy Europe team,
-also for uploading the Bos taurus genome following a last-minute request.
-Other than programs in Galaxy, we also practiced the command line with mothur and used GenAlEx for visualization.
-My research being focused on eukaryotic pathogens, we performed additional analyses in EupathDB.&lt;/p&gt;
-
-&lt;p&gt;Here is a picture of the smiling workshop participants - myself included, back row, 2nd from left.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/media/unesp.jpg&quot; width=&quot;800px&quot; alt=&quot;Training participants.&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Giovanni Widmer&lt;br /&gt;
-Professor&lt;br /&gt;
-Cummings School of Veterinary Medicine&lt;br /&gt;
-Tufts University&lt;br /&gt;
-North Grafton, Massachusetts&lt;br /&gt;&lt;/p&gt;</content><author><name></name></author><category term="training" /><category term="tiaas" /><summary type="html">Hi Galaxy team!</summary></entry></feed>
+&lt;p&gt;A big thank you to all our users and people that have contributed to this project! Special thanks to our partner sites &lt;a href=&quot;https://galaxyproject.eu/erasmusmc/&quot;&gt;Erasmus MC&lt;/a&gt;, &lt;a href=&quot;https://galaxyproject.eu/vib/&quot;&gt;Belgium&lt;/a&gt;, and &lt;a href=&quot;https://galaxyproject.eu/pasteur/&quot;&gt;Pasteur&lt;/a&gt; and the whole &lt;a href=&quot;https://galaxyproject.org/community/&quot;&gt;Galaxy community&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="devops" /><summary type="html">This week we have reached a huge milestone!</summary></entry></feed>
