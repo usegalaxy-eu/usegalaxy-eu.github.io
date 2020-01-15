@@ -39,17 +39,17 @@
 
   <h1 class="no_toc" id="welcome-to-the-galaxy-machine-learning-workbench">Welcome to the Galaxy Machine Learning workbench</h1>
 
-<p><img src="/assets/media/machine_learning_logo.png" alt="RNA Galaxy" class="rna-intro-right" /></p>
+<p><img src="/assets/media/machine_learning_logo.png" alt="ML Galaxy" class="rna-intro-right" /></p>
 
 <p>The Galaxy Machine Learning workbench is a comprehensive set of data preprocessing, machine learning, deep learning and visualisation tools, consolidated workflows for end-to-end machine learning analysis and training materials to showcase the usage of these tools.
 The workbench is available on the <a href="https://galaxyproject.org" target="_blank">Galaxy framework</a>, which guarantees simple access, easy extension, flexible adaption to personal and security needs, and sophisticated machine learning analyses independent of command-line knowledge.</p>
 
-<p>The workbench provides you with the a Swiss Army knife of <a href="https://scikit-learn.org" target="_blank">scikit-learn</a>,
+<p>The workbench provides you with a Swiss Army knife of <a href="https://scikit-learn.org" target="_blank">scikit-learn</a>,
 <a href="https://keras.io" target="_blank">Keras</a> (a deep learning library based on <a href="https://www.tensorflow.org" target="_blank">TensorFlow</a>) and various other tools to transform, learn and predict and plot your data.</p>
 
 <p>The workbench is currently developed by the <a href="https://goeckslab.org">Goecks Lab</a> and the <a href="https://galaxyproject.eu/" target="_blank">European Galaxy project</a>.
 The <a href="http://www.denbi.de" target="_blank">German Network for Bioinformatics Infrastructure (de.NBI)</a>,
-which runs the German <a href="https://www.elixir-europe.org/" target="_blank">ELIXIR Node</a>, provides the necessary compute clusters with CPUs and GPUs.</p>
+which runs the German <a href="https://www.elixir-europe.org/" target="_blank">ELIXIR Node</a>, provides the necessary compute clusters with CPUs and GPU resources.</p>
 
 <p>The project is a community effort, please jump in, ask questions, and contribute to the development of new tools, workflows or trainings!</p>
 
@@ -62,9 +62,11 @@ which runs the German <a href="https://www.elixir-europe.org/" target="_blank">E
       <li><a href="#classification" id="markdown-toc-classification">Classification</a></li>
       <li><a href="#regression" id="markdown-toc-regression">Regression</a></li>
       <li><a href="#clustering" id="markdown-toc-clustering">Clustering</a></li>
-      <li><a href="#model-selection" id="markdown-toc-model-selection">Model selection</a></li>
-      <li><a href="#preprocessing" id="markdown-toc-preprocessing">Preprocessing</a></li>
+      <li><a href="#model-building" id="markdown-toc-model-building">Model building</a></li>
+      <li><a href="#model-evaluation" id="markdown-toc-model-evaluation">Model evaluation</a></li>
+      <li><a href="#preprocessing-and-feature-selection" id="markdown-toc-preprocessing-and-feature-selection">Preprocessing and feature selection</a></li>
       <li><a href="#deep-learning" id="markdown-toc-deep-learning">Deep learning</a></li>
+      <li><a href="#visualization" id="markdown-toc-visualization">Visualization</a></li>
       <li><a href="#utilities" id="markdown-toc-utilities">Utilities</a></li>
       <li><a href="#interactive-environments" id="markdown-toc-interactive-environments">Interactive Environments</a></li>
     </ol>
@@ -84,8 +86,7 @@ Take <a href="https://ml.usegalaxy.eu/tours/core.galaxy_ui" target="_blank">a gu
 based on Galaxy <a class="citation" href="#batut2017community">(Batut <i>et al.</i>, 2017)</a>. These materials hosted on the GTN GitHub
 repository are available online at <a href="https://training.galaxyproject.org" target="_blank">https://training.galaxyproject.org</a>.</p>
 
-<p>Want to learn more about machine learning? Take one of our guided tours or check out the following hands-on tutorials.
-We have developed several tutorials together with the <a href="https://galaxyproject.org/teach/gtn/">GTN community</a>.</p>
+<p>Want to learn more about machine learning? Take one of our guided tours or check out the following hands-on tutorials, developed together with the <a href="https://galaxyproject.org/teach/gtn/">GTN community</a>.</p>
 
 <table class="table table-striped">
   <thead>
@@ -132,8 +133,8 @@ We have developed several tutorials together with the <a href="https://galaxypro
 
 <h1 id="available-tools">Available tools</h1>
 
-<p>In this section we list the most important tools that have been integrated in the Machine Learning workbench.
-There are many more tools available so please have a more detailed look into the tool panel.
+<p>In this section we list the most important tools that have been integrated into the Machine Learning workbench.
+There are many more tools available so please have a more detailed look at the tool panel.
 For better readability, we have divided them into categories.</p>
 
 <h2 id="classification">Classification</h2>
@@ -151,7 +152,7 @@ For better readability, we have divided them into categories.</p>
   <tbody>
     <tr>
       <td><a href="https://ml.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_svm_classifier/sklearn_svm_classifier" target="_top">SVM Classifier</a></td>
-      <td>Support Vector Machine (SVM) classifier</td>
+      <td>Support vector machines (SVMs) for classification</td>
       <td><a href="http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html" target="_blank">Pedregosa et al. 2011</a></td>
     </tr>
     <tr>
@@ -161,72 +162,22 @@ For better readability, we have divided them into categories.</p>
     </tr>
     <tr>
       <td><a href="https://ml.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_ensemble/sklearn_ensemble" target="_top">Ensemble classification</a></td>
-      <td>Ensemble methods for classification</td>
+      <td>Ensemble methods for classification and regression</td>
       <td><a href="http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html" target="_blank">Pedregosa et al. 2011</a></td>
     </tr>
     <tr>
       <td><a href="https://ml.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_discriminant_classifier/sklearn_discriminant_classifier" target="_top">Discriminant Classifier</a></td>
-      <td>Linear and Quadratic Discriminant Analysis are two classic classifiers with a linear and a quadratic decision surface respectively</td>
+      <td>Linear and Quadratic Discriminant Analysis</td>
       <td><a href="http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html" target="_blank">Pedregosa et al. 2011</a></td>
     </tr>
     <tr>
       <td><a href="https://ml.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_generalized_linear/sklearn_generalized_linear" target="_top">Generalized linear</a></td>
-      <td>Generalized linear models for classification</td>
+      <td>Generalized linear models for classification and regression</td>
       <td><a href="http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html" target="_blank">Pedregosa et al. 2011</a></td>
     </tr>
     <tr>
-      <td><a href="https://ml.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_train_test_eval/sklearn_train_test_eval" target="_top">Train/Test evaluation</a></td>
-      <td>Train, Test and Evaluation fit a model using part of dataset and evaluate using the rest</td>
-      <td><a href="http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html" target="_blank">Pedregosa et al. 2011</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://ml.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/model_prediction/model_prediction" target="_top">Model Prediction</a></td>
-      <td>Model Prediction predicts on new data using a prefitted model</td>
-      <td><a href="https://keras.io" target="_blank">Chollet et al. 2011</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://ml.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_sample_generator/sklearn_sample_generator" target="_top">Sample Generator</a></td>
-      <td>Generate random samples with controlled size and complexity</td>
-      <td><a href="http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html" target="_blank">Pedregosa et al. 2011</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://ml.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_estimator_attributes/sklearn_estimator_attributes" target="_top">Estimator Attributes</a></td>
-      <td>Estimator attributes get important attributes from an estimator or scikit object</td>
-      <td><a href="http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html" target="_blank">Pedregosa et al. 2011</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://ml.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_stacking_ensemble_models/sklearn_stacking_ensemble_models" target="_top">Stacking Ensemble Models</a></td>
-      <td>Stacking Ensembles builds stacking, voting ensemble models with numerous base options</td>
-      <td><a href="http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html" target="_blank">Pedregosa et al. 2011</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://ml.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_searchcv/sklearn_searchcv" target="_top">Search CV</a></td>
-      <td>Hyperparameter Search performs hyperparameter optimization using various SearchCVs</td>
-      <td><a href="http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html" target="_blank">Pedregosa et al. 2011</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://ml.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_build_pipeline/sklearn_build_pipeline" target="_top">Build Pipeline</a></td>
-      <td>Pipeline Builder an all-in-one platform to build pipeline, single estimator, preprocessor and custom wrappers</td>
-      <td><a href="http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html" target="_blank">Pedregosa et al. 2011</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://ml.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_feature_selection/sklearn_feature_selection" target="_top">Feature selection</a></td>
-      <td>Feature Selection module, including univariate filter selection methods and recursive feature elimination algorithm</td>
-      <td><a href="http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html" target="_blank">Pedregosa et al. 2011</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://ml.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_fitted_model_eval/sklearn_fitted_model_eval" target="_top">Fitted model evaluation</a></td>
-      <td>Evaluate a Fitted Model using a new batch of labeled data</td>
-      <td><a href="http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html" target="_blank">Pedregosa et al. 2011</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://ml.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_model_fit/sklearn_model_fit" target="_top">Model fitting</a></td>
-      <td>Fit a Pipeline, Ensemble or other models using a labeled dataset</td>
-      <td><a href="http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html" target="_blank">Pedregosa et al. 2011</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://ml.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_train_test_split/sklearn_train_test_split" target="_top">Train/Test splitting</a></td>
-      <td>Split Dataset into training and test subsets</td>
+      <td><a href="https://ml.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_clf_metrics/sklearn_clf_metrics" target="_top">CLF Metrics</a></td>
+      <td>Calculate metrics for classification performance</td>
       <td><a href="http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html" target="_blank">Pedregosa et al. 2011</a></td>
     </tr>
   </tbody>
@@ -247,12 +198,17 @@ For better readability, we have divided them into categories.</p>
   <tbody>
     <tr>
       <td><a href="https://ml.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_ensemble/sklearn_ensemble" target="_top">Ensemble regression</a></td>
-      <td>Ensemble methods for regression</td>
+      <td>Ensemble methods for classification and regression</td>
       <td><a href="http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html" target="_blank">Pedregosa et al. 2011</a></td>
     </tr>
     <tr>
       <td><a href="https://ml.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_generalized_linear/sklearn_generalized_linear" target="_top">Generalized linear</a></td>
-      <td>Generalized linear models for regression</td>
+      <td>Generalized linear models for classification and regression</td>
+      <td><a href="http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html" target="_blank">Pedregosa et al. 2011</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://ml.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_regression_metrics/sklearn_regression_metrics" target="_top">Regression metrics</a></td>
+      <td>Calculate metrics for regression performance</td>
       <td><a href="http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html" target="_blank">Pedregosa et al. 2011</a></td>
     </tr>
   </tbody>
@@ -279,9 +235,45 @@ For better readability, we have divided them into categories.</p>
   </tbody>
 </table>
 
-<h2 id="model-selection">Model selection</h2>
+<h2 id="model-building">Model building</h2>
 
-<p>Comparing, validating and choosing parameters and models.</p>
+<p>Building general machine learning models.</p>
+
+<table class="table table-striped tooltable">
+  <thead>
+    <tr>
+      <th>Tool</th>
+      <th>Description</th>
+      <th>Reference</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://ml.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_estimator_attributes/sklearn_estimator_attributes" target="_top">Estimator Attributes</a></td>
+      <td>Estimator attributes to get all attributes from an estimator or scikit object</td>
+      <td><a href="http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html" target="_blank">Pedregosa et al. 2011</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://ml.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_stacking_ensemble_models/sklearn_stacking_ensemble_models" target="_top">Stacking Ensemble Models</a></td>
+      <td>Stacking Ensembles to build stacking, voting ensemble models with numerous base options</td>
+      <td><a href="http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html" target="_blank">Pedregosa et al. 2011</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://ml.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_searchcv/sklearn_searchcv" target="_top">Search CV</a></td>
+      <td>Hyperparameter Search performs hyperparameter optimization using various SearchCVs</td>
+      <td><a href="http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html" target="_blank">Pedregosa et al. 2011</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://ml.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_build_pipeline/sklearn_build_pipeline" target="_top">Build Pipeline</a></td>
+      <td>Pipeline Builder as an all-in-one platform to build pipeline, single estimator, preprocessor and custom wrappers</td>
+      <td><a href="http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html" target="_blank">Pedregosa et al. 2011</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="model-evaluation">Model evaluation</h2>
+
+<p>Evaluation, validating and choosing parameters and models.</p>
 
 <table class="table table-striped tooltable">
   <thead>
@@ -298,26 +290,36 @@ For better readability, we have divided them into categories.</p>
       <td><a href="http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html" target="_blank">Pedregosa et al. 2011</a></td>
     </tr>
     <tr>
-      <td><a href="https://ml.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_clf_metrics/sklearn_clf_metrics" target="_top">CLF Metrics</a></td>
-      <td>Calculate metrics for classification performance</td>
-      <td><a href="http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html" target="_blank">Pedregosa et al. 2011</a></td>
-    </tr>
-    <tr>
       <td><a href="https://ml.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_pairwise_metrics/sklearn_pairwise_metrics" target="_top">Pairwise Metrics</a></td>
       <td>Evaluate pairwise distances or compute affinity or kernel for sets of samples</td>
       <td><a href="http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html" target="_blank">Pedregosa et al. 2011</a></td>
     </tr>
     <tr>
-      <td><a href="https://ml.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_regression_metrics/sklearn_regression_metrics" target="_top">Regression metrics</a></td>
-      <td>Calculate metrics for regression performance</td>
+      <td><a href="https://ml.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_train_test_eval/sklearn_train_test_eval" target="_top">Train/Test evaluation</a></td>
+      <td>Train, Test and Evaluation to fit a model using part of dataset and evaluate using the rest</td>
+      <td><a href="http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html" target="_blank">Pedregosa et al. 2011</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://ml.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/model_prediction/model_prediction" target="_top">Model Prediction</a></td>
+      <td>Model Prediction predicts on new data using a preffited model</td>
+      <td><a href="https://keras.io" target="_blank">Chollet et al. 2011</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://ml.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_fitted_model_eval/sklearn_fitted_model_eval" target="_top">Fitted model evaluation</a></td>
+      <td>Evaluate a Fitted Model using a new batch of labeled data</td>
+      <td><a href="http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html" target="_blank">Pedregosa et al. 2011</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://ml.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_model_fit/sklearn_model_fit" target="_top">Model fitting</a></td>
+      <td>Fit a Pipeline, Ensemble or other models using a labeled dataset</td>
       <td><a href="http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html" target="_blank">Pedregosa et al. 2011</a></td>
     </tr>
   </tbody>
 </table>
 
-<h2 id="preprocessing">Preprocessing</h2>
+<h2 id="preprocessing-and-feature-selection">Preprocessing and feature selection</h2>
 
-<p>Feature extraction and normalization.</p>
+<p>Feature selection and preprocessing.</p>
 
 <table class="table table-striped tooltable">
   <thead>
@@ -333,12 +335,17 @@ For better readability, we have divided them into categories.</p>
       <td>Preprocess raw feature vectors into standardized datasets</td>
       <td><a href="http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html" target="_blank">Pedregosa et al. 2011</a></td>
     </tr>
+    <tr>
+      <td><a href="https://ml.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_feature_selection/sklearn_feature_selection" target="_top">Feature selection</a></td>
+      <td>Feature Selection module, including univariate filter selection methods and recursive feature elimination algorithm</td>
+      <td><a href="http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html" target="_blank">Pedregosa et al. 2011</a></td>
+    </tr>
   </tbody>
 </table>
 
 <h2 id="deep-learning">Deep learning</h2>
 
-<p>Build and use deep learning neural networks.</p>
+<p>Build and use deep neural networks.</p>
 
 <table class="table table-striped tooltable">
   <thead>
@@ -372,9 +379,9 @@ For better readability, we have divided them into categories.</p>
   </tbody>
 </table>
 
-<h2 id="utilities">Utilities</h2>
+<h2 id="visualization">Visualization</h2>
 
-<p>General data manipulation tools.</p>
+<p>Plotting and visualization.</p>
 
 <table class="table table-striped tooltable">
   <thead>
@@ -386,24 +393,60 @@ For better readability, we have divided them into categories.</p>
   </thead>
   <tbody>
     <tr>
-      <td><b>Unknown Tool</b></td>
-      <td>The power of the pandas data library for manipulating and computing expressions upon tabular data and matrices.</td>
+      <td><a href="https://ml.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/plotly_regression_performance_plots/plotly_regression_performance_plots" target="_top">Regression performance plots</a></td>
+      <td>Plot actual vs predicted curves and residual plots of tabular data</td>
       <td> </td>
     </tr>
     <tr>
-      <td><a href="https://ml.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops" target="_top">datamash operations</a></td>
-      <td>datamash operations on tabular data</td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td><a href="https://ml.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/datamash_transpose/datamash_transpose" target="_top">datamash transpose</a></td>
-      <td>Transpose rows/columns in a tabular file</td>
+      <td><a href="https://ml.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/plotly_ml_performance_plots/plotly_ml_performance_plots" target="_top">ML performance plots</a></td>
+      <td>Plot confusion matrix, precision, recall and ROC and AUC curves of tabular data</td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://ml.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/ml_visualization_ex/ml_visualization_ex" target="_top">Visualization</a></td>
       <td>Machine Learning Visualization Extension includes several types of plotting for machine learning</td>
       <td><a href="https://keras.io" target="_blank">Chollet et al. 2011</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="utilities">Utilities</h2>
+
+<p>General data and table manipulation tools.</p>
+
+<table class="table table-striped tooltable">
+  <thead>
+    <tr>
+      <th>Tool</th>
+      <th>Description</th>
+      <th>Reference</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://ml.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/table_compute/table_compute" target="_top">Table compute</a></td>
+      <td>The power of the pandas data library for manipulating and computing expressions upon tabular data and matrices.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://ml.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops" target="_top">Datamash operations</a></td>
+      <td>Datamash operations on tabular data</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://ml.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/datamash_transpose/datamash_transpose" target="_top">Datamash transpose</a></td>
+      <td>Transpose rows/columns in a tabular file</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://ml.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_sample_generator/sklearn_sample_generator" target="_top">Sample Generator</a></td>
+      <td>Generate random samples with controlled size and complexity</td>
+      <td><a href="http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html" target="_blank">Pedregosa et al. 2011</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://ml.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/sklearn_train_test_split/sklearn_train_test_split" target="_top">Train/Test splitting</a></td>
+      <td>Split Dataset into training and test subsets</td>
+      <td><a href="http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html" target="_blank">Pedregosa et al. 2011</a></td>
     </tr>
   </tbody>
 </table>
