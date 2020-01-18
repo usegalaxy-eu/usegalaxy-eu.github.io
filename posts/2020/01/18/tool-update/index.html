@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  <title>Galaxy Europe | Human multi-omics data from UK Personal Genome Project accessible through UseGalaxy.eu</title>
-  <meta property="og:title" content="Human multi-omics data from UK Personal Genome Project ac..." />
-  <meta property="og:description" content="The Personal Genome Project UK (PGP-UK)
-provides unproces..." />
+  <title>Galaxy Europe | UseGalaxy.eu Tool Updates for 2020-01-18</title>
+  <meta property="og:title" content="UseGalaxy.eu Tool Updates for 2020-01-18" />
+  <meta property="og:description" content="On 2020-01-18, the tools on UseGalaxy.eu were updated by ..." />
   <meta property="og:image" content="/assets/media/galaxy-eu-logo.512.png" />
   <meta name="description" content="The European Galaxy Instance">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,7 +16,7 @@ provides unproces..." />
 
 
 
-  <link rel="canonical" href="https://galaxyproject.eu/posts/2020/01/16/pgp/">
+  <link rel="canonical" href="https://galaxyproject.eu/posts/2020/01/18/tool-update/">
   <link rel="shortcut icon" href="/assets/media/galaxy-eu-logo.64.png" type="image/x-icon" />
   <link rel="alternate" type="application/rss+xml" title="Galaxy Europe" href="/feed.xml">
 
@@ -136,20 +135,16 @@ provides unproces..." />
 <section id="news-page">
   <div class="row news-header-row">
     
-    <a class="col-xs-1 text-center" href="/posts/2020/01/11/tool-update/">
+    <a class="col-xs-1 text-center" href="/posts/2020/01/16/pgp/">
       «
     </a>
     
     <div class="col-xs-10 ">
       <div class="text-center">
-        <h2 class="title">Human multi-omics data from UK Personal Genome Project accessible through UseGalaxy.eu</h2>
+        <h2 class="title">UseGalaxy.eu Tool Updates for 2020-01-18</h2>
       </div>
       <hr />
     </div>
-    
-    <a class="col-xs-1 text-center" href="/posts/2020/01/18/tool-update/">
-      »
-    </a>
     
   </div>
   <div class="row post-metadata">
@@ -162,7 +157,7 @@ provides unproces..." />
         <div class="col-md-6 text-right">
           <div>
             <span class="post-date">
-              Jan 16, 2020
+              Jan 18, 2020
             </span>
 
             
@@ -171,11 +166,7 @@ provides unproces..." />
             <span class="post-tags">
                 <span class="label label-success">Freiburg</span>
               
-                <span class="label label-info">training</span>
-              
-                <span class="label label-info">pgp</span>
-              
-                <span class="label label-info">open-data</span>
+                <span class="label label-info">tools</span>
               
               
             </span>
@@ -190,59 +181,78 @@ provides unproces..." />
   <div class="row">
     <div class="col-md-8 col-md-offset-2">
       <div class="news-content">
-        <p>The <a href="https://www.personalgenomes.org.uk/">Personal Genome Project UK</a> (PGP-UK)
-provides unprocessed genome, methylome and transcriptome data of
-participants, together with phenotypic data and pregenerated standardized
-analysis results and reports, through their
-<a href="https://www.personalgenomes.org.uk/data">data portal</a>.</p>
+        <p>On 2020-01-18, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in <a href="https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#175/">Jenkins Build #175</a></p>
 
-<p>PGP-UK is one of few projects world-wide to recruit all participants under open
-consent which enables them to provide all patient data under open access.
-As such, this data collection is not only an excellent resource for researchers
-that want to develop and evaluate tools and algorithms for the analysis of such
-*omics data, but also offers a great opportunity to train yourself and/or
-others in the analysis of large human *omics data.</p>
-
-<p><strong>Data accessible on Galaxy Europe</strong></p>
-
-<p>As announced also in the project’s
-<a href="https://pgpukblog.wordpress.com/2019/12/18/reaching-for-the-stars-pgp-uk-multi-omics-data-now-also-available-on-galaxy-europe/">blog post</a>
-the so-called <em>multi-omics reference panel</em> described in
-<a href="https://doi.org/10.1038/s41597-019-0205-4">Chervova, <em>et al.</em>, Sci Data 6, 257 (2019)</a>
-is now accessible directly on Galaxy Europe.</p>
-
-<p>By this we mean that the complete panel, consisting of the unprocessed data,
-but also pregenerated results, from the 10 participants with complete -
-whole-genome, methylome and transcriptome - multi-omics data is available to
-you as a public
-<a href="https://usegalaxy.eu/library/list#/folders/F43c642051145b1b6">shared data library</a>
-for importing into histories without download delay and without having the data
-count towards your user quota!</p>
-
-<p>We encourage all interested users of Galaxy Europe to use the data</p>
+<h2 id="rna-analysis">RNA Analysis</h2>
 
 <ul>
-  <li>for trainings</li>
-  <li>to put their own data analysis skills to the test</li>
-  <li>to establish new analysis workflows</li>
-  <li><em>etc.</em></li>
+  <li>qualimap_counts was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/qualimap_counts/d696cf0a9622">d696cf0a9622</a></li>
+  <li>qualimap_rnaseq was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/qualimap_rnaseq/43a1c3e1a4d0">43a1c3e1a4d0</a></li>
 </ul>
 
-<p>The <a href="https://training.galaxyproject.org/">Galaxy Training Network</a> provides
-hands-on tutorials to get you started with the analysis of this kind of data,
-specifically, under the topics of
-<a href="https://training.galaxyproject.org/training-material/topics/variant-analysis/">Variant analysis</a>,
-<a href="https://training.galaxyproject.org/training-material/topics/epigenetics/">Epigenetics</a>
-and
-<a href="https://training.galaxyproject.org/training-material/topics/transcriptomics/">Transcriptomics</a>
-, and we would love to get feedback from you regarding the usefulness of the
-tutorials for analyzing real-world human data.</p>
+<h2 id="graphdisplay-data">Graph/Display Data</h2>
+
+<ul>
+  <li>plotly_ml_performance_plots was updated to <a href="https://toolshed.g2.bx.psu.edu/view/bgruening/plotly_ml_performance_plots/62e3a4e8c54c">62e3a4e8c54c</a></li>
+</ul>
+
+<h2 id="rad-seq">RAD-seq</h2>
+
+<ul>
+  <li>stacks2_cstacks was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/stacks2_cstacks/c541e62d6c56">c541e62d6c56</a></li>
+  <li>stacks_pstacks was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/stacks_pstacks/7ebc7d229deb">7ebc7d229deb</a></li>
+</ul>
+
+<h2 id="sambam">SAM/BAM</h2>
+
+<ul>
+  <li>qualimap_bamqc was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/qualimap_bamqc/e7fd6754d093">e7fd6754d093</a></li>
+  <li>qualimap_multi_bamqc was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/qualimap_multi_bamqc/e38af83df163">e38af83df163</a></li>
+</ul>
 
 
       </div>
     </div>
   </div>
 
+
+	<div class="col-md-2">
+	</div>
+<div class="row">
+	<div class="col-md-8 col-sm-12">
+
+<div id="supported">
+    
+  <h3>Supported by</h3>
+    
+  <div class="row eu-image-box">
+      
+      <div>
+      
+          
+            <a href="https://www.denbi.de" target="_blank">
+              <img alt="de.NBI logo" src="/assets/media/deNBI_Logo_rgb_small.png" class="img-responsive eu-image"/>
+            </a>
+          
+      </div>
+      
+      <div>
+      
+          
+            <a href="https://www.elixir-europe.org" target="_blank">
+              <img alt="ELIXIR logo" src="/assets/media/elixir_logo.png" class="img-responsive eu-image" />
+            </a>
+          
+      </div>
+      
+  </div>
+</div>
+
+
+	</div>
+	<div class="col-md-2">
+	</div>
+</div>
 
 </section>
 
@@ -279,7 +289,7 @@ unless otherwise specified.</p>
         <div class="row">
             <div class="col-lg-12" style="text-align:center">
                 <ul class="contact-info">
-                    <li><i class="fa fa-github"></i><a href="https://github.com/usegalaxy-eu/website/tree/master/_posts/2020-01-16-pgp.md">Edit this page on GitHub</a></li>
+                    <li><i class="fa fa-github"></i><a href="https://github.com/usegalaxy-eu/website/tree/master/_posts/2020-01-18-tool-update.md">Edit this page on GitHub</a></li>
                     
                       <li><i class="fa fa-envelope"></i><a href="mailto:freiburg@usegalaxy.eu">freiburg@usegalaxy.eu</a></li>
                     
