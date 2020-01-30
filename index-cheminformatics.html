@@ -37,20 +37,23 @@
 
 
 
-  <h1 id="cheminformatics-with-galaxy">Cheminformatics with Galaxy</h1>
+  <h1 id="computational-chemistry-with-galaxy">Computational chemistry with Galaxy</h1>
 
 <p><br />
 <img src="/assets/media/cheminformatics.png" height="300px" alt="Cheminformatics" align="right" /></p>
 
-<p>Welcome to our <strong>Computational Chemistry</strong> flavour of UseGalaxy.eu – a webserver for processing, analysing and visualising chemical data, and performing molecular simulations.</p>
+<p>Welcome to the <strong>ChemicalToolbox</strong> – a webserver for processing, analysing and visualising chemical data, and performing molecular simulations. This server is a flavor of the European Galaxy instance, usegalaxy.eu.</p>
 
 <ol id="markdown-toc">
-  <li><a href="#cheminformatics-with-galaxy" id="markdown-toc-cheminformatics-with-galaxy">Cheminformatics with Galaxy</a></li>
+  <li><a href="#computational-chemistry-with-galaxy" id="markdown-toc-computational-chemistry-with-galaxy">Computational chemistry with Galaxy</a></li>
   <li><a href="#get-started" id="markdown-toc-get-started">Get started</a></li>
   <li><a href="#tools" id="markdown-toc-tools">Tools</a>    <ol>
+      <li><a href="#get-data" id="markdown-toc-get-data">Get data</a></li>
       <li><a href="#chemical-structure-conversion-and-manipulation-tools" id="markdown-toc-chemical-structure-conversion-and-manipulation-tools">Chemical structure conversion and manipulation tools</a></li>
       <li><a href="#compute-chemical-properties" id="markdown-toc-compute-chemical-properties">Compute chemical properties</a></li>
-      <li><a href="#molecular-dynamics-tools" id="markdown-toc-molecular-dynamics-tools">Molecular dynamics tools</a></li>
+      <li><a href="#docking" id="markdown-toc-docking">Docking</a></li>
+      <li><a href="#molecular-dynamics-simulation" id="markdown-toc-molecular-dynamics-simulation">Molecular dynamics simulation</a></li>
+      <li><a href="#molecular-dynamics-analysis" id="markdown-toc-molecular-dynamics-analysis">Molecular dynamics analysis</a></li>
     </ol>
   </li>
   <li><a href="#tutorials" id="markdown-toc-tutorials">Tutorials</a></li>
@@ -63,13 +66,42 @@
 
 <p>Are you new to Galaxy, or returning after a long time, and looking for help to get started? Take <a href="https://cheminformatics.usegalaxy.eu/tours/core.galaxy_ui" target="_blank">a guided tour</a> through Galaxy’s user interface.</p>
 
-<p>A good place to start is our <a href="#tutorials">tutorials</a>, which provide an introduction to the molecular dynamics tools in Galaxy.</p>
+<p>A good place to start is our <a href="#tutorials">tutorials</a>, which provide an introduction to the cheminformatics and molecular dynamics tools in Galaxy.</p>
 
 <p>You can also check out the standard but customizable <a href="#workflows">workflows</a> available there.</p>
 
 <h1 id="tools">Tools</h1>
 
-<p>Several tools are integrated in this custom Galaxy instance. They were chosen for their use in exploitation of chemical data:</p>
+<p>Almost a hundred different tools for cheminformatics and molecular dynamics have been integrated into the ChemicalToolbox. A selection are displayed below.</p>
+
+<h2 id="get-data">Get data</h2>
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Tool</th>
+      <th>Description</th>
+      <th>Reference</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/get_pubchem/ctb_pubchem_download_as_smiles" target="_top">pubchem</a></td>
+      <td>Download all compounds from PubChem</td>
+      <td><a href="https://dx.doi.org/10.1093%2Fnar%2Fgkv951" target="_blank">Kim et al., 2016</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/chembl/chembl" target="_top">chembl</a></td>
+      <td>Download molecules from ChEMBL</td>
+      <td><a href="https://doi.org/10.1093/nar/gkv352" target="_blank">Davies et al, 2015</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/get_pdb/get_pdb" target="_top">pdb</a></td>
+      <td>Download a file from the Protein Data Bank</td>
+      <td><a href="http://dx.doi.org/10.1093/nar/28.1.235" target="_blank">Berman, 2000</a></td>
+    </tr>
+  </tbody>
+</table>
 
 <h2 id="chemical-structure-conversion-and-manipulation-tools">Chemical structure conversion and manipulation tools</h2>
 
@@ -117,11 +149,6 @@
       <td>Change Title to meta-data value</td>
       <td><a href="https://doi.org/10.1186/1758-2946-3-33" target="_blank">N M O’Boyle,2011</a></td>
     </tr>
-    <tr>
-      <td><a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_change_title/openbabel_change_title" target="_top">remCountIo</a></td>
-      <td>Change Title to meta-data value</td>
-      <td><a href="https://doi.org/10.1186/1758-2946-3-33" target="_blank">N M O’Boyle,2011</a></td>
-    </tr>
   </tbody>
 </table>
 
@@ -143,7 +170,7 @@
     </tr>
     <tr>
       <td><a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/natural_product_likeness/ctb_np-likeness-calculator" target="_top">NPL</a></td>
-      <td>Natural Product likeness calculator</td>
+      <td>Natural product likeness calculator</td>
       <td><a href="http://dx.doi.org/10.1186/1471-2105-13-106" target="_blank">Jayaseelan, Kalai Vanii, 2012</a></td>
     </tr>
     <tr>
@@ -151,10 +178,64 @@
       <td>Drug-likeness quantitative estimation (QED)</td>
       <td><a href="https://doi.org/10.1038/nchem.1243" target="_blank">Bickerton et al., 2012</a></td>
     </tr>
+    <tr>
+      <td><a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/mordred/ctb_mordred_descriptors" target="_top">mordred</a></td>
+      <td>Molecular descriptor calculator</td>
+      <td><a href="https://doi.org/10.1186/s13321-018-0258-y" target="_blank">Moriwaki et al., 2018</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/chemfp/ctb_sdf2fps" target="_top">chemfp</a></td>
+      <td>Fingerprints with chemfp</td>
+      <td><a href="https://doi.org/10.1186/1758-2946-5-s1-p36" target="_blank">Dalke, 2013</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/chemfp/ctb_chemfp_butina_clustering" target="_top">tbClust</a></td>
+      <td>Taylor-Butina clustering</td>
+      <td><a href="https://doi.org/10.1186/1758-2946-5-s1-p36" target="_blank">Dalke, 2013</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/chemfp/ctb_chemfp_nxn_clustering" target="_top">nxnClust</a></td>
+      <td>NXN clustering</td>
+      <td><a href="https://doi.org/10.1186/1758-2946-5-s1-p36" target="_blank">Dalke, 2013</a></td>
+    </tr>
   </tbody>
 </table>
 
-<h2 id="molecular-dynamics-tools">Molecular dynamics tools</h2>
+<h2 id="docking">Docking</h2>
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Tool</th>
+      <th>Description</th>
+      <th>Reference</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/autodock_vina/docking" target="_top">vina</a></td>
+      <td>Docking with AutoDock Vina</td>
+      <td><a href="https://doi.org/10.1002/jcc.21334" target="_blank">Trott et al., 2009</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/rdock_rbdock/rdock_rbdock" target="_top">rbdock</a></td>
+      <td>Docking with rDock</td>
+      <td><a href="https://doi.org/10.1371/journal.pcbi.1003571" target="_blank">Ruiz-Carmona et al., 2014</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/sucos_docking_scoring/sucos_docking_scoring" target="_top">sucos</a></td>
+      <td>Score docked poses using SuCOS</td>
+      <td><a href="https://doi.org/10.26434/chemrxiv.8100203.v1" target="_blank">Leung et al., 2019</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/fpocket/fpocket" target="_top">fpocket</a></td>
+      <td>Search a protein for potential binding sites</td>
+      <td><a href="https://doi.org/10.1093/nar/gkq383" target="_blank">Schmitdke et al., 2010</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="molecular-dynamics-simulation">Molecular dynamics simulation</h2>
 
 <table class="table table-striped">
   <thead>
@@ -181,20 +262,64 @@
       <td><a href="https://doi.org/10.1016/j.softx.2015.06.001" target="_blank">Abraham et al., 2015</a></td>
     </tr>
     <tr>
-      <td><a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/chemteam/gmx_nvt/gmx_nvt/" target="_top">gmxNVT</a></td>
-      <td>NVT equilibration using GROMACS</td>
+      <td><a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/chemteam/gmx_sim/gmx_sim/" target="_top">gmxSim</a></td>
+      <td>MD simulation using GROMACS</td>
       <td><a href="https://doi.org/10.1016/j.softx.2015.06.001" target="_blank">Abraham et al., 2015</a></td>
     </tr>
     <tr>
-      <td><a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/chemteam/gmx_npt/gmx_npt/" target="_top">gmxNPT</a></td>
-      <td>NPT equilibration using GROMACS</td>
+      <td><a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/chemteam/gmx_restraints/gmx_restraints/" target="_top">gmxRestraints</a></td>
+      <td>Calculate position restraints using GROMACS</td>
       <td><a href="https://doi.org/10.1016/j.softx.2015.06.001" target="_blank">Abraham et al., 2015</a></td>
     </tr>
     <tr>
-      <td><a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/chemteam/gmx_md/gmx_md/" target="_top">gmxMD</a></td>
-      <td>Production simulation using GROMACS</td>
+      <td><a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/chemteam/gmx_makendx/gmx_makendx/" target="_top">gmxMakeNDX</a></td>
+      <td>Create an index file using GROMACS</td>
       <td><a href="https://doi.org/10.1016/j.softx.2015.06.001" target="_blank">Abraham et al., 2015</a></td>
     </tr>
+    <tr>
+      <td><a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/chemteam/gmx_energy/gmx_energy/" target="_top">gmxEnergy</a></td>
+      <td>Extract energy components using GROMACS</td>
+      <td><a href="https://doi.org/10.1016/j.softx.2015.06.001" target="_blank">Abraham et al., 2015</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/chemteam/gmx_trj/gmx_trj/" target="_top">gmxTrj</a></td>
+      <td>Process MD trajectories using GROMACS</td>
+      <td><a href="https://doi.org/10.1016/j.softx.2015.06.001" target="_blank">Abraham et al., 2015</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/chemteam/gmx_editconf/gmx_editconf/" target="_top">gmxEditconf</a></td>
+      <td>Structure configuration using GROMACS</td>
+      <td><a href="https://doi.org/10.1016/j.softx.2015.06.001" target="_blank">Abraham et al., 2015</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/chemteam/gmx_fep/gmx_fep/" target="_top">gmxFEP</a></td>
+      <td>Alchemical free energy simulations using GROMACS</td>
+      <td><a href="https://doi.org/10.1016/j.softx.2015.06.001" target="_blank">Abraham et al., 2015</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/chemteam/ambertools_antechamber/ambertools_antechamber" target="_top">antechamber</a></td>
+      <td>Process input files with AmberTools</td>
+      <td><a href="https://doi.org/10.1002/jcc.20290" target="_blank">Case et al., 2005</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/chemteam/ambertools_acpype/ambertools_acpype" target="_top">acpype</a></td>
+      <td>Produce GROMACS topologies with acpype</td>
+      <td><a href="https://doi.org/10.1186/1756-0500-5-367" target="_blank">Sousa da Silva et al., 2012</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="molecular-dynamics-analysis">Molecular dynamics analysis</h2>
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Tool</th>
+      <th>Description</th>
+      <th>Reference</th>
+    </tr>
+  </thead>
+  <tbody>
     <tr>
       <td><a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_distance/mdanalysis_distance/" target="_top">mdaDistance</a></td>
       <td>Distance analysis using MDAnalysis</td>
@@ -254,7 +379,7 @@
 
 <p>To orchestrate tools and help users with their analyses, several workflows are available. They formally orchestrate tools in a defined order and with defined parameters, but they are customizable (tools, order, parameters).</p>
 
-<p>The workflows are available in the <a href="https://cheminformatics.usegalaxy.eu/workflows/list_published">Shared Workflows</a>, with the label “<strong><em>cheminformatics</em></strong>”.</p>
+<p>The workflows are available in the <a href="https://cheminformatics.usegalaxy.eu/workflows/list_published">Shared Workflows</a>, with the labels “<strong><em>cheminformatics</em></strong>” or “<strong>moleculardynamics</strong>”.</p>
 
 <table class="table table-striped">
   <thead>
@@ -264,6 +389,22 @@
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td><a href="https://usegalaxy.eu/u/sbray/w/library-download-final-2">Library preparation</a></td>
+      <td>Preparation of ligand library using PubChem, ChEMBL and ZINC</td>
+    </tr>
+    <tr>
+      <td><a href="https://cheminformatics.usegalaxy.eu/u/sbray/w/protein-ligand-docking-final">Protein-ligand docking</a></td>
+      <td>Docking with AutoDock Vina</td>
+    </tr>
+    <tr>
+      <td><a href="https://cheminformatics.usegalaxy.eu/u/sbray/w/hf080120">Hole filling</a></td>
+      <td>Expanding a library into gaps in the chemical space</td>
+    </tr>
+    <tr>
+      <td><a href="https://cheminformatics.usegalaxy.eu/u/sbray/w/cheminformatics-ml">Cheminformatics-ML</a></td>
+      <td>Machine learning for predicting small molecule protein interactions</td>
+    </tr>
     <tr>
       <td><a href="https://cheminformatics.usegalaxy.eu/u/simonbray/w/molecular-dynamics-1">GROMACS</a></td>
       <td>Molecular dynamics simulation with GROMACS</td>
@@ -281,6 +422,8 @@
   <li><a href="https://github.com/simonbray">Simon Bray</a></li>
   <li><a href="https://github.com/tsenapathi">Tharindu Senapathi</a></li>
   <li><a href="https://github.com/chrisbarnettster">Chris Barnett</a></li>
+  <li><a href="https://github.com/anuprulez">Anup Kumar</a></li>
+  <li>Xavier Lucas</li>
   <li><a href="https://github.com/bgruening">Björn Grüning</a></li>
 </ul>
 
