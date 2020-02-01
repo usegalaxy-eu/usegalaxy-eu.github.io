@@ -1,4 +1,98 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2020-01-31T17:43:21+01:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">Galaxy Training Survey</title><link href="https://galaxyproject.eu/posts/2020/01/29/gtn-survey/" rel="alternate" type="text/html" title="Galaxy Training Survey" /><published>2020-01-29T00:00:00+01:00</published><updated>2020-01-29T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2020/01/29/gtn-survey</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/01/29/gtn-survey/">&lt;p&gt;We need your feedback!&lt;/p&gt;</content><author><name></name></author><category term="galaxy" /><category term="training" /><summary type="html">We need your feedback!</summary></entry><entry><title type="html">UseGalaxy.eu Tool Updates for 2020-01-25</title><link href="https://galaxyproject.eu/posts/2020/01/25/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2020-01-25" /><published>2020-01-25T00:00:00+01:00</published><updated>2020-01-25T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2020/01/25/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/01/25/tool-update/">&lt;p&gt;On 2020-01-25, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#177/&quot;&gt;Jenkins Build #177&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2020-02-01T05:36:39+01:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2020-02-01</title><link href="https://galaxyproject.eu/posts/2020/02/01/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2020-02-01" /><published>2020-02-01T00:00:00+01:00</published><updated>2020-02-01T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2020/02/01/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/02/01/tool-update/">&lt;p&gt;On 2020-02-01, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#178/&quot;&gt;Jenkins Build #178&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;evolution&quot;&gt;Evolution&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;iqtree was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/iqtree/973a28be3b7f&quot;&gt;973a28be3b7f&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;assembly&quot;&gt;Assembly&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;miniasm was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/miniasm/2dcd07f40204&quot;&gt;2dcd07f40204&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;fastafastq&quot;&gt;FASTA/FASTQ&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;fasta_nucleotide_changer was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/fasta_nucleotide_changer/ec0b5076173a&quot;&gt;ec0b5076173a&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;fastq_quality_boxplot was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/fastq_quality_boxplot/7cf5b1d072b5&quot;&gt;7cf5b1d072b5&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;fastq_quality_filter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/fastq_quality_filter/ce9cd02d5b88&quot;&gt;ce9cd02d5b88&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;fastq_to_fasta was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/fastq_to_fasta/e282bc27be9a&quot;&gt;e282bc27be9a&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;fastx_artifacts_filter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/fastx_artifacts_filter/d5e9e83cd3d8&quot;&gt;d5e9e83cd3d8&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;fastx_clipper was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/fastx_clipper/b8658f852bc7&quot;&gt;b8658f852bc7&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;fastx_nucleotides_distribution was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/fastx_nucleotides_distribution/ad116ae3f4d9&quot;&gt;ad116ae3f4d9&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;fastx_renamer was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/fastx_renamer/b29d37ca9e41&quot;&gt;b29d37ca9e41&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;fastx_reverse_complement was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/fastx_reverse_complement/6027ef51ef91&quot;&gt;6027ef51ef91&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;fastx_trimmer was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/fastx_trimmer/61b4cedc8934&quot;&gt;61b4cedc8934&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;hca_sc_monocle3_tools&quot;&gt;hca_sc_monocle3_tools&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;monocle3_create was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/monocle3_create/a34f243f55a4&quot;&gt;a34f243f55a4&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;monocle3_diffexp was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/monocle3_diffexp/f91ddb6bc4ff&quot;&gt;f91ddb6bc4ff&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;monocle3_learngraph was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/monocle3_learngraph/98e99ab36505&quot;&gt;98e99ab36505&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;monocle3_ordercells was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/monocle3_ordercells/e17c3123cdb5&quot;&gt;e17c3123cdb5&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;monocle3_partition was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/monocle3_partition/426e1a869cb3&quot;&gt;426e1a869cb3&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;monocle3_plotcells was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/monocle3_plotcells/3e737c810a54&quot;&gt;3e737c810a54&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;monocle3_preprocess was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/monocle3_preprocess/0869b0264af1&quot;&gt;0869b0264af1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;monocle3_reducedim was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/monocle3_reducedim/004a86dffd79&quot;&gt;004a86dffd79&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;graphdisplay-data&quot;&gt;Graph/Display Data&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;jbrowse was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/jbrowse/edb534491f92&quot;&gt;edb534491f92&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;variant-calling&quot;&gt;Variant Calling&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;lofreq_alnqual was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/lofreq_alnqual/2953c43180c0&quot;&gt;2953c43180c0&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;lofreq_call was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/lofreq_call/03627f24605f&quot;&gt;03627f24605f&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;lofreq_filter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/lofreq_filter/fdba1586551d&quot;&gt;fdba1586551d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;lofreq_indelqual was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/lofreq_indelqual/2ae554b4bcca&quot;&gt;2ae554b4bcca&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;lofreq_viterbi was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/lofreq_viterbi/ecd80c7c3886&quot;&gt;ecd80c7c3886&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;snippy was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/snippy/3fe8ef358d66&quot;&gt;3fe8ef358d66&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;chemicaltoolbox&quot;&gt;ChemicalToolBox&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;fastpca was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/fastpca/dd195f7a791c&quot;&gt;dd195f7a791c&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;gmx_editconf was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/gmx_editconf/e69ce1e7fb6a&quot;&gt;e69ce1e7fb6a&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;gmx_energy was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/gmx_energy/b4a47b4ed264&quot;&gt;b4a47b4ed264&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;gmx_makendx was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/gmx_makendx/01a435922dd5&quot;&gt;01a435922dd5&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;gmx_restraints was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/gmx_restraints/f79f4671eaf2&quot;&gt;f79f4671eaf2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;rad-seq&quot;&gt;RAD-seq&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;stacks2_cstacks was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/stacks2_cstacks/c541e62d6c56&quot;&gt;c541e62d6c56&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;annotation&quot;&gt;Annotation&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;gff_to_prot was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/gff_to_prot/2aea122fbd25&quot;&gt;2aea122fbd25&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;transit_gumbel was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/transit_gumbel/f50807720df1&quot;&gt;f50807720df1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;transit_hmm was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/transit_hmm/532a84f0de1e&quot;&gt;532a84f0de1e&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;transit_resampling was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/transit_resampling/ad4d42fabf32&quot;&gt;ad4d42fabf32&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;transit_tn5gaps was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/transit_tn5gaps/4aaabd55eab8&quot;&gt;4aaabd55eab8&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;single-cell&quot;&gt;Single-cell&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;dropletutils was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/dropletutils/cdf4443d5625&quot;&gt;cdf4443d5625&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;raceid_clustering was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/raceid_clustering/7e014059a88d&quot;&gt;7e014059a88d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;raceid_filtnormconf was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/raceid_filtnormconf/7608d5faee41&quot;&gt;7608d5faee41&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;raceid_inspectclusters was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/raceid_inspectclusters/37a47c4fd84d&quot;&gt;37a47c4fd84d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;raceid_inspecttrajectory was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/raceid_inspecttrajectory/69018f285aa3&quot;&gt;69018f285aa3&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;raceid_trajectory was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/raceid_trajectory/44b935f2271b&quot;&gt;44b935f2271b&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2020-02-01, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #178</summary></entry><entry><title type="html">Galaxy Training Survey</title><link href="https://galaxyproject.eu/posts/2020/01/29/gtn-survey/" rel="alternate" type="text/html" title="Galaxy Training Survey" /><published>2020-01-29T00:00:00+01:00</published><updated>2020-01-29T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2020/01/29/gtn-survey</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/01/29/gtn-survey/">&lt;p&gt;We need your feedback!&lt;/p&gt;</content><author><name></name></author><category term="galaxy" /><category term="training" /><summary type="html">We need your feedback!</summary></entry><entry><title type="html">UseGalaxy.eu Tool Updates for 2020-01-25</title><link href="https://galaxyproject.eu/posts/2020/01/25/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2020-01-25" /><published>2020-01-25T00:00:00+01:00</published><updated>2020-01-25T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2020/01/25/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/01/25/tool-update/">&lt;p&gt;On 2020-01-25, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#177/&quot;&gt;Jenkins Build #177&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;statistics&quot;&gt;Statistics&lt;/h2&gt;
 
@@ -455,10 +549,4 @@ the MMOS project and &lt;a href=&quot;https://github.com/yvanlebras/&quot;&gt;Yv
 
 &lt;div class=&quot;multiple-img&quot;&gt;
     &lt;iframe width=&quot;750&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/U6mu3QrK9Ao&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="galaxy" /><category term="mmos" /><category term="devops" /><summary type="html">A few years back the “webhook” concept was contributed to the Galaxy codebase. Webhooks have enabled custom modifications to the Galaxy User Interface (UI) without changing the Galaxy source code directly. The advantage is that the maintenance of custom changes is a lot easier. You can think of it as a plugin concept for the Galaxy UI. Webhooks are powering the so much-loved XKCD or PhD comics that you see when you submit jobs or workflows for example - but this was just the first step…</summary></entry><entry><title type="html">UseGalaxy.eu Tool Updates for 2020-01-04</title><link href="https://galaxyproject.eu/posts/2020/01/04/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2020-01-04" /><published>2020-01-04T00:00:00+01:00</published><updated>2020-01-04T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2020/01/04/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/01/04/tool-update/">&lt;p&gt;On 2020-01-04, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#173/&quot;&gt;Jenkins Build #173&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;metabolomics&quot;&gt;Metabolomics&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;w4mclassfilter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/eschen42/w4mclassfilter/87ec0d3c2266&quot;&gt;87ec0d3c2266&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2020-01-04, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #173</summary></entry></feed>
+&lt;/div&gt;</content><author><name></name></author><category term="galaxy" /><category term="mmos" /><category term="devops" /><summary type="html">A few years back the “webhook” concept was contributed to the Galaxy codebase. Webhooks have enabled custom modifications to the Galaxy User Interface (UI) without changing the Galaxy source code directly. The advantage is that the maintenance of custom changes is a lot easier. You can think of it as a plugin concept for the Galaxy UI. Webhooks are powering the so much-loved XKCD or PhD comics that you see when you submit jobs or workflows for example - but this was just the first step…</summary></entry></feed>
