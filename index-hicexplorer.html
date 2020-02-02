@@ -41,7 +41,7 @@
 
 <p>Welcome to the Galaxy HiCExplorer – a webserver to process, analyse and visualize Hi-C, capture Hi-C, HiChIP and single-cell Hi-C data.</p>
 
-<p><img src="https://raw.githubusercontent.com/deeptools/HiCExplorer/master/docs/images/hicex2.png" alt="" /></p>
+<p><img src="https://raw.githubusercontent.com/deeptools/HiCExplorer/master/docs/images/hicex3.png" alt="" /></p>
 
 <h2 id="get-started-with-galaxy-hicexplorer">Get started with Galaxy HiCExplorer</h2>
 
@@ -65,7 +65,8 @@
 <h3 id="capture-hi-c-and-hichip">Capture Hi-C and HiChIP</h3>
 
 <p>The new chic*-modules of HiCExplorer provide powerful tools to analyse capture Hi-C and HiChIP data. 
-We recommend to follow the tutorial on <a target="_parent" href="https://hicexplorer.readthedocs.io/en/latest/content/capture-Hi-C.html">hicexplorer.readthedocs.io<a></a> for an introduction to the analysis pipeline.</a></p>
+We recommend to follow the tutorial on <a target="_parent" href="https://hicexplorer.readthedocs.io/en/latest/content/capture-Hi-C.html">hicexplorer.readthedocs.io<a></a> for an introduction to the analysis pipeline.
+A preprocessed cHi-C history with data from <a href="https://doi.org/10.1101/gr.213066.116">Andrey et al. 2017.</a> is provided <a target="_parent" href="https://hicexplorer.usegalaxy.eu/u/joachim-wolff/h/chi-c"> here</a>.</a></p>
 
 <h3 id="single-cell-hi-c">Single-cell Hi-C</h3>
 
@@ -129,6 +130,18 @@ We recommend to follow the tutorial on <a target="_parent" href="https://hicexpl
   <li><a href="https://hicexplorer.usegalaxy.eu/u/joachim-wolff/w/plot-tads">Plot TADs</a></li>
   <li><a href="https://hicexplorer.usegalaxy.eu/u/joachim-wolff/w/plot-tads-and-pc">Plot TADs and PC</a></li>
 </ul>
+
+<h3 id="single-cell-hi-c-1">Single-cell Hi-C</h3>
+
+<p>Use the following workflow for an existing mcool matrix with QC and normalization:</p>
+
+<ul>
+  <li>&lt; href=”https://hicexplorer.usegalaxy.eu/u/joachim-wolff/w/single-cell-hi-c”&gt;SVL dimension reduction&lt;/a&gt;</li>
+</ul>
+
+<h2 id="python-api-access">Python API access</h2>
+
+<p>With the <a href="https://bioblend.readthedocs.io/en/latest/">bioblend API</a> it is possible to use the Galaxy HiCExplorer via a script written in Python. A small example on the usage is provided here as an <a href="https://github.com/deeptools/HiCExplorer/blob/master/examples/hicexplorer.usegalaxy.eu%20API%20access.ipynb">ipython notebook.</a> It is shown how to upload a dataset, run bowtie2 and to download the mapped file to the local computer. Please notice the options offered by the bioblend API are extensive and go way beyond this example.</p>
 
 <h2 id="known-pitfalls">Known pitfalls</h2>
 
