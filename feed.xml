@@ -1,16 +1,28 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2020-02-08T03:59:34+01:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">Tool Update</title><link href="https://galaxyproject.eu/posts/2020/02/08/tool-update/" rel="alternate" type="text/html" title="Tool Update" /><published>2020-02-08T00:00:00+01:00</published><updated>2020-02-08T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2020/02/08/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/02/08/tool-update/"></content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">UseGalaxy.eu Tool Updates for 2020-02-06</title><link href="https://galaxyproject.eu/posts/2020/02/06/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2020-02-06" /><published>2020-02-06T00:00:00+01:00</published><updated>2020-02-06T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2020/02/06/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/02/06/tool-update/">&lt;p&gt;On 2020-02-06, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#179/&quot;&gt;Jenkins Build #179&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2020-02-08T10:25:08+01:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">Tool Update</title><link href="https://galaxyproject.eu/posts/2020/02/08/tool-update/" rel="alternate" type="text/html" title="Tool Update" /><published>2020-02-08T00:00:00+01:00</published><updated>2020-02-08T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2020/02/08/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/02/08/tool-update/"></content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Accessible and reproducible mass spectrometry imaging data analysis in Galaxy</title><link href="https://galaxyproject.eu/posts/2020/02/06/paper-ms-imaging/" rel="alternate" type="text/html" title="Accessible and reproducible mass spectrometry imaging data analysis in Galaxy" /><published>2020-02-06T00:00:00+01:00</published><updated>2020-02-06T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2020/02/06/paper-ms-imaging</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/02/06/paper-ms-imaging/">&lt;p&gt;Congratulation to our friend and colleague Melanie Föll from the University of Freiburg
+&lt;a href=&quot;https://www.mol-med.uni-freiburg.de/mom/schilling&quot;&gt;Oliver Schilling lab&lt;/a&gt; to her great
+&lt;a href=&quot;https://academic.oup.com/gigascience/article/8/12/giz143/5670614&quot;&gt;article&lt;/a&gt; on the analysis of mass spectrometry imaging data.
+She has integrated 18 tools dedicated to mass spectrometry imaging into our Galaxy framework.
+Thanks a lot for making your tools available to the proteomics and imaging community!&lt;/p&gt;
 
-&lt;h2 id=&quot;climate-analysis&quot;&gt;Climate Analysis&lt;/h2&gt;
+&lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;/h2&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;psy_maps was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/climate/psy_maps/706666d912d5&quot;&gt;706666d912d5&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;Mass spectrometry imaging is increasingly used in biological and translational research because it has the
+ability to determine the spatial distribution of hundreds of analytes in a sample. Being at the interface of
+proteomics/metabolomics and imaging, the acquired datasets are large and complex and often analyzed with
+proprietary software or in-house scripts, which hinders reproducibility. Open source software solutions
+that enable reproducible data analysis often require programming skills and are therefore not accessible to many mass spectrometry imaging (MSI) researchers.&lt;/p&gt;
 
-&lt;h2 id=&quot;rad-seq&quot;&gt;RAD-seq&lt;/h2&gt;
+&lt;p&gt;We have integrated 18 dedicated mass spectrometry imaging tools into the Galaxy framework to allow accessible,
+reproducible, and transparent data analysis. Our tools are based on Cardinal, MALDIquant, and scikit-image and
+enable all major MSI analysis steps such as quality control, visualization, preprocessing, statistical analysis,
+and image co-registration. Furthermore, we created hands-on training material for use cases in proteomics and metabolomics.
+To demonstrate the utility of our tools, we re-analyzed a publicly available N-linked glycan imaging dataset.
+By providing the entire analysis history online, we highlight how the Galaxy framework fosters transparent and reproducible research.&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;stacks2_cstacks was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/stacks2_cstacks/c541e62d6c56&quot;&gt;c541e62d6c56&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2020-02-06, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #179</summary></entry><entry><title type="html">UseGalaxy.eu Tool Updates for 2020-02-01</title><link href="https://galaxyproject.eu/posts/2020/02/01/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2020-02-01" /><published>2020-02-01T00:00:00+01:00</published><updated>2020-02-01T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2020/02/01/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/02/01/tool-update/">&lt;p&gt;On 2020-02-01, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#178/&quot;&gt;Jenkins Build #178&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The Galaxy framework has emerged as a powerful analysis platform for the analysis of MSI data with ease of use and access,
+together with high levels of reproducibility and transparency.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/media/MSimaging.jpeg&quot; alt=&quot;mass spectrometry imaging data analysis&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="paper" /><summary type="html">Congratulation to our friend and colleague Melanie Föll from the University of Freiburg Oliver Schilling lab to her great article on the analysis of mass spectrometry imaging data. She has integrated 18 tools dedicated to mass spectrometry imaging into our Galaxy framework. Thanks a lot for making your tools available to the proteomics and imaging community!</summary></entry><entry><title type="html">UseGalaxy.eu Tool Updates for 2020-02-01</title><link href="https://galaxyproject.eu/posts/2020/02/01/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2020-02-01" /><published>2020-02-01T00:00:00+01:00</published><updated>2020-02-01T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2020/02/01/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/02/01/tool-update/">&lt;p&gt;On 2020-02-01, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#178/&quot;&gt;Jenkins Build #178&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;evolution&quot;&gt;Evolution&lt;/h2&gt;
 
@@ -77,6 +89,12 @@
   &lt;li&gt;gmx_energy was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/gmx_energy/b4a47b4ed264&quot;&gt;b4a47b4ed264&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;gmx_makendx was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/gmx_makendx/01a435922dd5&quot;&gt;01a435922dd5&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;gmx_restraints was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/gmx_restraints/f79f4671eaf2&quot;&gt;f79f4671eaf2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;climate-analysis&quot;&gt;Climate Analysis&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;psy_maps was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/climate/psy_maps/706666d912d5&quot;&gt;706666d912d5&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;rad-seq&quot;&gt;RAD-seq&lt;/h2&gt;
