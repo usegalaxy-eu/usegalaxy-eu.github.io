@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  <title>Galaxy Europe | Accessible and reproducible mass spectrometry imaging data analysis in Galaxy</title>
-  <meta property="og:title" content="Accessible and reproducible mass spectrometry imaging dat..." />
-  <meta property="og:description" content="Congratulation to our friend and colleague Melanie Föll f..." />
+  <title>Galaxy Europe | CORBEL staff visit program: Integration IDR - Galaxy</title>
+  <meta property="og:title" content="CORBEL staff visit program: Integration IDR - Galaxy" />
+  <meta property="og:description" content="As part of the training program in Work Package 9, CORBEL..." />
   <meta property="og:image" content="/assets/media/galaxy-eu-logo.512.png" />
   <meta name="description" content="The European Galaxy Instance">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,7 +16,7 @@
 
 
 
-  <link rel="canonical" href="https://galaxyproject.eu/posts/2020/02/06/paper-ms-imaging/plain.html">
+  <link rel="canonical" href="https://galaxyproject.eu/posts/2020/02/08/idr-galaxy-hackathon/plain.html">
   <link rel="shortcut icon" href="/assets/media/galaxy-eu-logo.64.png" type="image/x-icon" />
   <link rel="alternate" type="application/rss+xml" title="Galaxy Europe" href="/feed.xml">
 
@@ -37,18 +37,18 @@
 <section id="news-page">
   <div class="row news-header-row">
     
-    <a class="col-xs-1 text-center" href="/posts/2020/02/01/tool-update/plain.html">
+    <a class="col-xs-1 text-center" href="/posts/2020/02/06/paper-ms-imaging/plain.html">
       «
     </a>
     
     <div class="col-xs-10 ">
       <div class="text-center">
-        <h2 class="title">Accessible and reproducible mass spectrometry imaging data analysis in Galaxy</h2>
+        <h2 class="title">CORBEL staff visit program: Integration IDR - Galaxy</h2>
       </div>
       <hr />
     </div>
     
-    <a class="col-xs-1 text-center" href="/posts/2020/02/08/idr-galaxy-hackathon/plain.html">
+    <a class="col-xs-1 text-center" href="/posts/2020/02/08/tool-update/plain.html">
       »
     </a>
     
@@ -63,7 +63,7 @@
         <div class="col-md-6 text-right">
           <div>
             <span class="post-date">
-              Feb 6, 2020
+              Feb 8, 2020
             </span>
 
             
@@ -72,12 +72,8 @@
             <span class="post-tags">
                 <span class="label label-success">Freiburg</span>
               
-                <span class="label label-info">paper</span>
+                <span class="label label-info">tools</span>
               
-              
-                <a href="https://dx.doi.org/10.1093/gigascience/giz143">
-                <span class="label label-warning">DOI:10.1093/gigascience/giz143</span>
-                </a>
               
             </span>
 
@@ -91,31 +87,22 @@
   <div class="row">
     <div class="col-md-8 col-md-offset-2">
       <div class="news-content">
-        <p>Congratulation to our friend and colleague Melanie Föll from the University of Freiburg
-<a href="https://www.mol-med.uni-freiburg.de/mom/schilling">Oliver Schilling lab</a> to her great
-<a href="https://academic.oup.com/gigascience/article/8/12/giz143/5670614">article</a> on the analysis of mass spectrometry imaging data.
-She has integrated 18 tools dedicated to mass spectrometry imaging into our Galaxy framework.
-Thanks a lot for making your tools available to the proteomics and imaging community!</p>
+        <p>As part of the training program in Work Package 9, <a href="https://www.corbel-project.eu/home.html">CORBEL</a> offers staff visits across research infrastructures.
+In this frame, <a href="https://www.eurobioimaging.eu/">EuroBioimaging</a> and <a href="https://elixir-europe.org/">ELIXIR</a> members met during three days with the <a href="https://galaxyproject.eu/freiburg/">European Galaxy team</a> in Freiburg (Germany)
+to make image data from the <a href="https://idr.openmicroscopy.org/">Image Data Resource</a> (IDR) accessible through the Galaxy interface.</p>
 
-<h2 id="abstract">Abstract</h2>
+<p>With this integration, Galaxy users would be able to access the images stored at the IDR and automatically
+download them to their Galaxy workspace to run an imaging workflow afterwards.</p>
 
-<p>Mass spectrometry imaging is increasingly used in biological and translational research because it has the
-ability to determine the spatial distribution of hundreds of analytes in a sample. Being at the interface of
-proteomics/metabolomics and imaging, the acquired datasets are large and complex and often analyzed with
-proprietary software or in-house scripts, which hinders reproducibility. Open source software solutions
-that enable reproducible data analysis often require programming skills and are therefore not accessible to many mass spectrometry imaging (MSI) researchers.</p>
+<p>This integration benefits the life science communities making images easily accessible and reusable
+for every user. It also tightens the collaboration between <a href="https://www.eosc-life.eu/">EOSC-Life</a> Work Package 1 on FAIR data resources,
+Work Package 2 on tools collaboratory and the Demonstrator 6 as part of Work Package 3.</p>
 
-<p>We have integrated 18 dedicated mass spectrometry imaging tools into the Galaxy framework to allow accessible,
-reproducible, and transparent data analysis. Our tools are based on Cardinal, MALDIquant, and scikit-image and
-enable all major MSI analysis steps such as quality control, visualization, preprocessing, statistical analysis,
-and image co-registration. Furthermore, we created hands-on training material for use cases in proteomics and metabolomics.
-To demonstrate the utility of our tools, we re-analyzed a publicly available N-linked glycan imaging dataset.
-By providing the entire analysis history online, we highlight how the Galaxy framework fosters transparent and reproducible research.</p>
+<p>The first outcome of this hackathon is a</p>
 
-<p>The Galaxy framework has emerged as a powerful analysis platform for the analysis of MSI data with ease of use and access,
-together with high levels of reproducibility and transparency.</p>
+<p><a href="https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/idr_download_by_ids/idr_download_by_ids">Galaxy tool for automated retrieval of images from IDR</a>.</p>
 
-<p><img src="/assets/media/MSimaging.jpeg" alt="mass spectrometry imaging data analysis" /></p>
+<p><img src="/assets/media/idr_hackathon_2020.jpeg" alt="IDR Galaxy Hackathon" /></p>
 
       </div>
     </div>
@@ -142,6 +129,42 @@ together with high levels of reproducibility and transparency.</p>
           
             <a href="https://www.elixir-europe.org" target="_blank">
               <img alt="ELIXIR logo" src="/assets/media/elixir_logo.png" class="img-responsive eu-image" />
+            </a>
+          
+      </div>
+      
+      <div>
+      
+          
+            <a href="https://www.corbel-project.eu" target="_blank">
+              <img alt="CORBEL logo" src="/assets/media/corbel_logo.png" class="img-responsive eu-image"/>
+            </a>
+          
+      </div>
+      
+      <div>
+      
+          
+            <a href="https://idr.openmicroscopy.org/" target="_blank">
+              <img alt="IDR logo" src="/assets/media/idr_logo.png" class="img-responsive eu-image"/>
+            </a>
+          
+      </div>
+      
+      <div>
+      
+          
+            <a href="https://www.eosc-portal.eu/" target="_blank">
+              <img alt="EOSC Logo" src="/assets/media/EOSC_logo.png" class="img-responsive eu-image" />
+            </a>
+          
+      </div>
+      
+      <div>
+      
+          
+            <a href="https://www.eurobioimaging.eu" target="_blank">
+              <img alt="EuBI logo" src="/assets/media/eubi_logo.png" class="img-responsive eu-image"/>
             </a>
           
       </div>
@@ -185,7 +208,7 @@ unless otherwise specified.</p>
         <div class="row">
             <div class="col-lg-12" style="text-align:center">
                 <ul class="contact-info">
-                    <li><i class="fa fa-github"></i><a href="https://github.com/usegalaxy-eu/website/tree/master/_posts_plain/2020-02-06-paper-ms-imaging.md">Edit this page on GitHub</a></li>
+                    <li><i class="fa fa-github"></i><a href="https://github.com/usegalaxy-eu/website/tree/master/_posts_plain/2020-02-08-idr-galaxy-hackathon.md">Edit this page on GitHub</a></li>
                     
                       <li><i class="fa fa-envelope"></i><a href="mailto:galaxy@informatik.uni-freiburg.de">galaxy@informatik.uni-freiburg.de</a></li>
                     

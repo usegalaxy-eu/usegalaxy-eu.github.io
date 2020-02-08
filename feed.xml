@@ -1,4 +1,19 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2020-02-08T19:55:48+01:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2020-02-08</title><link href="https://galaxyproject.eu/posts/2020/02/08/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2020-02-08" /><published>2020-02-08T00:00:00+01:00</published><updated>2020-02-08T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2020/02/08/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/02/08/tool-update/">&lt;p&gt;On 2020-02-08, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#181/&quot;&gt;Jenkins Build #181&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2020-02-08T22:10:49+01:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">CORBEL staff visit program: Integration IDR - Galaxy</title><link href="https://galaxyproject.eu/posts/2020/02/08/idr-galaxy-hackathon/" rel="alternate" type="text/html" title="CORBEL staff visit program: Integration IDR - Galaxy" /><published>2020-02-08T00:00:00+01:00</published><updated>2020-02-08T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2020/02/08/idr-galaxy-hackathon</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/02/08/idr-galaxy-hackathon/">&lt;p&gt;As part of the training program in Work Package 9, &lt;a href=&quot;https://www.corbel-project.eu/home.html&quot;&gt;CORBEL&lt;/a&gt; offers staff visits across research infrastructures.
+In this frame, &lt;a href=&quot;https://www.eurobioimaging.eu/&quot;&gt;EuroBioimaging&lt;/a&gt; and &lt;a href=&quot;https://elixir-europe.org/&quot;&gt;ELIXIR&lt;/a&gt; members met during three days with the &lt;a href=&quot;https://galaxyproject.eu/freiburg/&quot;&gt;European Galaxy team&lt;/a&gt; in Freiburg (Germany)
+to make image data from the &lt;a href=&quot;https://idr.openmicroscopy.org/&quot;&gt;Image Data Resource&lt;/a&gt; (IDR) accessible through the Galaxy interface.&lt;/p&gt;
+
+&lt;p&gt;With this integration, Galaxy users would be able to access the images stored at the IDR and automatically
+download them to their Galaxy workspace to run an imaging workflow afterwards.&lt;/p&gt;
+
+&lt;p&gt;This integration benefits the life science communities making images easily accessible and reusable
+for every user. It also tightens the collaboration between &lt;a href=&quot;https://www.eosc-life.eu/&quot;&gt;EOSC-Life&lt;/a&gt; Work Package 1 on FAIR data resources,
+Work Package 2 on tools collaboratory and the Demonstrator 6 as part of Work Package 3.&lt;/p&gt;
+
+&lt;p&gt;The first outcome of this hackathon is a&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/idr_download_by_ids/idr_download_by_ids&quot;&gt;Galaxy tool for automated retrieval of images from IDR&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/media/idr_hackathon_2020.jpeg&quot; alt=&quot;IDR Galaxy Hackathon&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="tools" /><summary type="html">As part of the training program in Work Package 9, CORBEL offers staff visits across research infrastructures. In this frame, EuroBioimaging and ELIXIR members met during three days with the European Galaxy team in Freiburg (Germany) to make image data from the Image Data Resource (IDR) accessible through the Galaxy interface.</summary></entry><entry><title type="html">UseGalaxy.eu Tool Updates for 2020-02-08</title><link href="https://galaxyproject.eu/posts/2020/02/08/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2020-02-08" /><published>2020-02-08T00:00:00+01:00</published><updated>2020-02-08T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2020/02/08/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/02/08/tool-update/">&lt;p&gt;On 2020-02-08, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#181/&quot;&gt;Jenkins Build #181&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;data-source&quot;&gt;Data source&lt;/h2&gt;
 
@@ -577,71 +592,4 @@ specifically, under the topics of
 and
 &lt;a href=&quot;https://training.galaxyproject.org/training-material/topics/transcriptomics/&quot;&gt;Transcriptomics&lt;/a&gt;
 , and we would love to get feedback from you regarding the usefulness of the
-tutorials for analyzing real-world human data.&lt;/p&gt;</content><author><name></name></author><category term="training" /><category term="pgp" /><category term="open-data" /><summary type="html">The Personal Genome Project UK (PGP-UK) provides unprocessed genome, methylome and transcriptome data of participants, together with phenotypic data and pregenerated standardized analysis results and reports, through their data portal.</summary></entry><entry><title type="html">UseGalaxy.eu Tool Updates for 2020-01-11</title><link href="https://galaxyproject.eu/posts/2020/01/11/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2020-01-11" /><published>2020-01-11T00:00:00+01:00</published><updated>2020-01-11T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2020/01/11/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/01/11/tool-update/">&lt;p&gt;On 2020-01-11, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#174/&quot;&gt;Jenkins Build #174&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;metagenomic-analysis&quot;&gt;Metagenomic Analysis&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;cat_add_names was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/cat_add_names/8dfc90f35aba&quot;&gt;8dfc90f35aba&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;cat_bins was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/cat_bins/18676df0cb3a&quot;&gt;18676df0cb3a&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;cat_contigs was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/cat_contigs/c6c77d840993&quot;&gt;c6c77d840993&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;cat_prepare was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/cat_prepare/8315b5cebb82&quot;&gt;8315b5cebb82&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;cat_summarise was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/cat_summarise/7f1aaa1932d8&quot;&gt;7f1aaa1932d8&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;staramr was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/nml/staramr/5f43703968cf&quot;&gt;5f43703968cf&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;mapping&quot;&gt;Mapping&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;star_fusion was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/star_fusion/137942fac417&quot;&gt;137942fac417&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;graphdisplay-data&quot;&gt;Graph/Display Data&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;circos was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/circos/184dfd9e113d&quot;&gt;184dfd9e113d&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;pygenometracks was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/pygenometracks/eca03db4f612&quot;&gt;eca03db4f612&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;chemicaltoolbox&quot;&gt;ChemicalToolBox&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;gmx_sim was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/gmx_sim/171ce1253b19&quot;&gt;171ce1253b19&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;apollo&quot;&gt;Apollo&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;apollo_create_account was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/gga/apollo_create_account/a46a509386d3&quot;&gt;a46a509386d3&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;apollo_create_or_update was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/gga/apollo_create_or_update/d72192ec8e39&quot;&gt;d72192ec8e39&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;apollo_delete_features was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/gga/apollo_delete_features/df0e4eb2dfa5&quot;&gt;df0e4eb2dfa5&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;apollo_delete_organism was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/gga/apollo_delete_organism/dd63c6e11a95&quot;&gt;dd63c6e11a95&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;apollo_export was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/gga/apollo_export/c3b5bc8b4080&quot;&gt;c3b5bc8b4080&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;apollo_feat_from_gff3 was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/gga/apollo_feat_from_gff3/5d1cf95ade8a&quot;&gt;5d1cf95ade8a&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;apollo_fetch_jbrowse was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/gga/apollo_fetch_jbrowse/dca2fb399ee6&quot;&gt;dca2fb399ee6&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;apollo_iframe was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/gga/apollo_iframe/c6172b538caf&quot;&gt;c6172b538caf&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;apollo_list_organism was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/gga/apollo_list_organism/bc2b80fc7e30&quot;&gt;bc2b80fc7e30&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;rad-seq&quot;&gt;RAD-seq&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;stacks2_cstacks was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/stacks2_cstacks/c541e62d6c56&quot;&gt;c541e62d6c56&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;annotation&quot;&gt;Annotation&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;augustus was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/augustus/ca6d970d931c&quot;&gt;ca6d970d931c&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;augustus_training was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/augustus_training/6519ebe25019&quot;&gt;6519ebe25019&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;single-cell&quot;&gt;Single-cell&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;anndata_export was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/anndata_export/8623710d083c&quot;&gt;8623710d083c&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;anndata_import was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/anndata_import/b5c7ba11401d&quot;&gt;b5c7ba11401d&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;anndata_inspect was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/anndata_inspect/286a24ac079c&quot;&gt;286a24ac079c&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;anndata_manipulate was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/anndata_manipulate/6db1b06e6bbb&quot;&gt;6db1b06e6bbb&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;modify_loom was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/modify_loom/c8e4d0b9ae8c&quot;&gt;c8e4d0b9ae8c&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2020-01-11, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #174</summary></entry></feed>
+tutorials for analyzing real-world human data.&lt;/p&gt;</content><author><name></name></author><category term="training" /><category term="pgp" /><category term="open-data" /><summary type="html">The Personal Genome Project UK (PGP-UK) provides unprocessed genome, methylome and transcriptome data of participants, together with phenotypic data and pregenerated standardized analysis results and reports, through their data portal.</summary></entry></feed>
