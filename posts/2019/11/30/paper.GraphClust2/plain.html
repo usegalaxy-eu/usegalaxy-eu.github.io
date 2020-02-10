@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  <title>Galaxy Europe | UseGalaxy.eu Tool Updates for 2019-11-30</title>
-  <meta property="og:title" content="UseGalaxy.eu Tool Updates for 2019-11-30" />
-  <meta property="og:description" content="On 2019-11-30, the tools on UseGalaxy.eu were updated by ..." />
+  <title>Galaxy Europe | GraphClust2: Annotation and discovery of structured RNAs with scalable and accessible integrative clustering</title>
+  <meta property="og:title" content="GraphClust2: Annotation and discovery of structured RNAs ..." />
+  <meta property="og:description" content="Going back to the roots of the Prof. Backofen lab, our co..." />
   <meta property="og:image" content="/assets/media/galaxy-eu-logo.512.png" />
   <meta name="description" content="The European Galaxy Instance">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,7 +16,7 @@
 
 
 
-  <link rel="canonical" href="https://galaxyproject.eu/posts/2019/11/30/tool-update/plain.html">
+  <link rel="canonical" href="https://galaxyproject.eu/posts/2019/11/30/paper.GraphClust2/plain.html">
   <link rel="shortcut icon" href="/assets/media/galaxy-eu-logo.64.png" type="image/x-icon" />
   <link rel="alternate" type="application/rss+xml" title="Galaxy Europe" href="/feed.xml">
 
@@ -37,18 +37,18 @@
 <section id="news-page">
   <div class="row news-header-row">
     
-    <a class="col-xs-1 text-center" href="/posts/2019/11/30/paper.GraphClust2/plain.html">
+    <a class="col-xs-1 text-center" href="/posts/2019/11/30/denbi.elixirtraining.paper/plain.html">
       «
     </a>
     
     <div class="col-xs-10 ">
       <div class="text-center">
-        <h2 class="title">UseGalaxy.eu Tool Updates for 2019-11-30</h2>
+        <h2 class="title">GraphClust2: Annotation and discovery of structured RNAs with scalable and accessible integrative clustering</h2>
       </div>
       <hr />
     </div>
     
-    <a class="col-xs-1 text-center" href="/posts/2019/12/01/tiaas-feedback-aracatuba/plain.html">
+    <a class="col-xs-1 text-center" href="/posts/2019/11/30/tool-update/plain.html">
       »
     </a>
     
@@ -72,8 +72,12 @@
             <span class="post-tags">
                 <span class="label label-success">Freiburg</span>
               
-                <span class="label label-info">tools</span>
+                <span class="label label-info">paper</span>
               
+              
+                <a href="https://dx.doi.org/10.1093/gigascience/giz150">
+                <span class="label label-warning">DOI:10.1093/gigascience/giz150</span>
+                </a>
               
             </span>
 
@@ -87,59 +91,17 @@
   <div class="row">
     <div class="col-md-8 col-md-offset-2">
       <div class="news-content">
-        <p>On 2019-11-30, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in <a href="https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#167/">Jenkins Build #167</a></p>
+        <p>Going back to the roots of the <a href="http://www.bioinf.uni-freiburg.de/?en">Prof. Backofen lab</a>, our colleague Milad has published a paper on annotation and discovery of structured RNAs with scalable and accessible integrative clustering with GraphClust2. We are happy that we were able to support Milad to integrate GraphClust2 into Galaxy and make it available to our RNA community. Congratulations to Milad and colleagues!</p>
 
-<h2 id="assembly">Assembly</h2>
+<h2 id="abstract">Abstract</h2>
 
-<ul>
-  <li>abyss was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/abyss/f4fb67b97a63">f4fb67b97a63</a></li>
-</ul>
+<p>RNA plays essential roles in all known forms of life. Clustering RNA sequences with common sequence and structure is an essential step towards studying RNA function. With the advent of high-throughput sequencing techniques, experimental and genomic data are expanding to complement the predictive methods. However, the existing methods do not effectively utilize and cope with the immense amount of data becoming available.</p>
 
-<h2 id="convert-formats">Convert Formats</h2>
+<p>Hundreds of thousands of non-coding RNAs have been detected; however, their annotation is lagging behind. Here we present GraphClust2, a comprehensive approach for scalable clustering of RNAs based on sequence and structural similarities. GraphClust2 bridges the gap between high-throughput sequencing and structural RNA analysis and provides an integrative solution by incorporating diverse experimental and genomic data in an accessible manner via the Galaxy framework. GraphClust2 can efficiently cluster and annotate large datasets of RNAs and supports structure-probing data. We demonstrate that the annotation performance of clustering functional RNAs can be considerably improved. Furthermore, an off-the-shelf procedure is introduced for identifying locally conserved structure candidates in long RNAs. We suggest the presence and the sparseness of phylogenetically conserved local structures for a collection of long non-coding RNAs.</p>
 
-<ul>
-  <li>graphicsmagick_image_convert was updated to <a href="https://toolshed.g2.bx.psu.edu/view/bgruening/graphicsmagick_image_convert/eb09d7e6d727">eb09d7e6d727</a></li>
-  <li>bax2bam was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/bax2bam/ee356d7a5518">ee356d7a5518</a></li>
-</ul>
+<p>By clustering data from 2 cross-linking immunoprecipitation experiments, we demonstrate the benefits of GraphClust2 for motif discovery under the presence of biological and methodological biases. Finally, we uncover prominent targets of double-stranded RNA binding protein Roquin-1, such as BCOR’s 3′ untranslated region that contains multiple binding stem-loops that are evolutionary conserved.</p>
 
-<h2 id="hca_sc_scanpy_tools">hca_sc_scanpy_tools</h2>
-
-<ul>
-  <li>scanpy_compute_graph was updated to <a href="https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_compute_graph/53e6944bd162">53e6944bd162</a></li>
-  <li>scanpy_compute_graph was updated to <a href="https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_compute_graph/7ad420b1be89">7ad420b1be89</a></li>
-  <li>scanpy_filter_cells was updated to <a href="https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_filter_cells/8d97bee137b5">8d97bee137b5</a></li>
-  <li>scanpy_filter_genes was updated to <a href="https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_filter_genes/4bc377096eea">4bc377096eea</a></li>
-  <li>scanpy_find_cluster was updated to <a href="https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_find_cluster/2784759ad631">2784759ad631</a></li>
-  <li>scanpy_find_markers was updated to <a href="https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_find_markers/67fa4288eee5">67fa4288eee5</a></li>
-  <li>scanpy_find_variable_genes was updated to <a href="https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_find_variable_genes/7558a3d8338e">7558a3d8338e</a></li>
-  <li>scanpy_normalise_data was updated to <a href="https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_normalise_data/9681ec095ed5">9681ec095ed5</a></li>
-  <li>scanpy_parameter_iterator was updated to <a href="https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_parameter_iterator/1a30a61effea">1a30a61effea</a></li>
-  <li>scanpy_parameter_iterator was updated to <a href="https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_parameter_iterator/d574549f9dee">d574549f9dee</a></li>
-  <li>scanpy_plot_embed was updated to <a href="https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_plot_embed/dba78f1681b1">dba78f1681b1</a></li>
-  <li>scanpy_plot_trajectory was updated to <a href="https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_plot_trajectory/4e666c43b6e3">4e666c43b6e3</a></li>
-</ul>
-
-<h2 id="mapping">Mapping</h2>
-
-<ul>
-  <li>rgrnastar was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/rgrnastar/b9e04854e2bb">b9e04854e2bb</a></li>
-  <li>rna_starsolo was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/rna_starsolo/178bdbdb6d24">178bdbdb6d24</a></li>
-</ul>
-
-<h2 id="rad-seq">RAD-seq</h2>
-
-<ul>
-  <li>stacks2_cstacks was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/stacks2_cstacks/c541e62d6c56">c541e62d6c56</a></li>
-</ul>
-
-<h2 id="annotation">Annotation</h2>
-
-<ul>
-  <li>kobas was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/kobas/20f1b45dea63">20f1b45dea63</a></li>
-  <li>tetyper was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/tetyper/8bc80c2a15b3">8bc80c2a15b3</a></li>
-  <li>sistr_cmd was updated to <a href="https://toolshed.g2.bx.psu.edu/view/nml/sistr_cmd/5c8ff92e38a9">5c8ff92e38a9</a></li>
-</ul>
-
+<p><img src="/assets/media/GraphClust2.jpeg" alt="GraphClust2 workflow" /></p>
 
       </div>
     </div>
@@ -209,7 +171,7 @@ unless otherwise specified.</p>
         <div class="row">
             <div class="col-lg-12" style="text-align:center">
                 <ul class="contact-info">
-                    <li><i class="fa fa-github"></i><a href="https://github.com/usegalaxy-eu/website/tree/master/_posts_plain/2019-11-30-tool-update.md">Edit this page on GitHub</a></li>
+                    <li><i class="fa fa-github"></i><a href="https://github.com/usegalaxy-eu/website/tree/master/_posts_plain/2019-11-30-paper.GraphClust2.md">Edit this page on GitHub</a></li>
                     
                       <li><i class="fa fa-envelope"></i><a href="mailto:galaxy@informatik.uni-freiburg.de">galaxy@informatik.uni-freiburg.de</a></li>
                     

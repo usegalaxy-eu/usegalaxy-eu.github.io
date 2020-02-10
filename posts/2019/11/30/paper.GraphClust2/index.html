@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  <title>Galaxy Europe | The de.NBI / ELIXIR-DE training platform - Bioinformatics training in Germany and across Europe within ELIXIR</title>
-  <meta property="og:title" content="The de.NBI / ELIXIR-DE training platform - Bioinformatics..." />
-  <meta property="og:description" content="The Galaxy Team is part of the German Network of Bioinfor..." />
+  <title>Galaxy Europe | GraphClust2: Annotation and discovery of structured RNAs with scalable and accessible integrative clustering</title>
+  <meta property="og:title" content="GraphClust2: Annotation and discovery of structured RNAs ..." />
+  <meta property="og:description" content="Going back to the roots of the Prof. Backofen lab, our co..." />
   <meta property="og:image" content="/assets/media/galaxy-eu-logo.512.png" />
   <meta name="description" content="The European Galaxy Instance">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,7 +16,7 @@
 
 
 
-  <link rel="canonical" href="https://galaxyproject.eu/posts/2019/11/30/denbi.elixirtraining.paper/">
+  <link rel="canonical" href="https://galaxyproject.eu/posts/2019/11/30/paper.GraphClust2/">
   <link rel="shortcut icon" href="/assets/media/galaxy-eu-logo.64.png" type="image/x-icon" />
   <link rel="alternate" type="application/rss+xml" title="Galaxy Europe" href="/feed.xml">
 
@@ -135,18 +135,18 @@
 <section id="news-page">
   <div class="row news-header-row">
     
-    <a class="col-xs-1 text-center" href="/posts/2019/11/23/we-are-striking-really/">
+    <a class="col-xs-1 text-center" href="/posts/2019/11/30/denbi.elixirtraining.paper/">
       «
     </a>
     
     <div class="col-xs-10 ">
       <div class="text-center">
-        <h2 class="title">The de.NBI / ELIXIR-DE training platform - Bioinformatics training in Germany and across Europe within ELIXIR</h2>
+        <h2 class="title">GraphClust2: Annotation and discovery of structured RNAs with scalable and accessible integrative clustering</h2>
       </div>
       <hr />
     </div>
     
-    <a class="col-xs-1 text-center" href="/posts/2019/11/30/paper.GraphClust2/">
+    <a class="col-xs-1 text-center" href="/posts/2019/11/30/tool-update/">
       »
     </a>
     
@@ -172,11 +172,9 @@
               
                 <span class="label label-info">paper</span>
               
-                <span class="label label-info">training</span>
               
-              
-                <a href="https://dx.doi.org/10.12688/f1000research.20244.1">
-                <span class="label label-warning">DOI:10.12688/f1000research.20244.1</span>
+                <a href="https://dx.doi.org/10.1093/gigascience/giz150">
+                <span class="label label-warning">DOI:10.1093/gigascience/giz150</span>
                 </a>
               
             </span>
@@ -191,18 +189,17 @@
   <div class="row">
     <div class="col-md-8 col-md-offset-2">
       <div class="news-content">
-        <p>The Galaxy Team is part of the <a href="https://www.denbi.de">German Network of Bioinformatics infrastructure</a> (de.NBI)
-and <a href="https://elixir-europe.org">ELIXIR</a>, both networks have a strong focus on training and education.
-As you know we are passionate about training life scientists in data analysis and offer
-<a href="https://galaxyproject.eu/events">hundrets of workshops</a> and the infrastructure to scale your training with 
-<a href="https://galaxyproject.eu/tiaas">TIaaS</a>. Now, de.NBI has published a 
-<a href="https://f1000research.com/articles/8-1877/v1">paper</a> to introduce our activities within these large networks. Enjoy reading!</p>
+        <p>Going back to the roots of the <a href="http://www.bioinf.uni-freiburg.de/?en">Prof. Backofen lab</a>, our colleague Milad has published a paper on annotation and discovery of structured RNAs with scalable and accessible integrative clustering with GraphClust2. We are happy that we were able to support Milad to integrate GraphClust2 into Galaxy and make it available to our RNA community. Congratulations to Milad and colleagues!</p>
 
 <h2 id="abstract">Abstract</h2>
 
-<p>The German Network for Bioinformatics Infrastructure (de.NBI) is a national and academic infrastructure funded by the German Federal Ministry of Education and Research (BMBF). The de.NBI provides (i) service, (ii) training, and (iii) cloud computing to users in life sciences research and biomedicine in Germany and Europe and (iv) fosters the cooperation of the German bioinformatics community with international network structures. The de.NBI members also run the German node (ELIXIR-DE) within the European ELIXIR network. The de.NBI / ELIXIR-DE training platform, also known as special interest group 3 (SIG 3) ‘Training &amp; Education’, coordinates the bioinformatics training of de.NBI and the German ELIXIR node. The network provides a high-quality, coherent, timely, and impactful training program across its eight service centers. Life scientists learn how to handle and analyze biological big data more effectively by applying tools, standards and compute services provided by de.NBI. Since 2015, more than 250 training courses were carried out with more than 5,200 participants and these courses received recommendation rates of almost 90% (status as of October 2019). In addition to face-to-face training courses, online training was introduced on the de.NBI website in 2016 and guidelines for the preparation of e-learning material were established in 2018. In 2016, ELIXIR-DE joined the ELIXIR training platform. Here, the de.NBI / ELIXIR-DE training platform collaborates with ELIXIR in training activities, advertising training courses via TeSS and discussions on the exchange of data for training events essential for quality assessment on both the technical and administrative levels. The de.NBI training program trained thousands of scientists from Germany and beyond in many different areas of bioinformatics.</p>
+<p>RNA plays essential roles in all known forms of life. Clustering RNA sequences with common sequence and structure is an essential step towards studying RNA function. With the advent of high-throughput sequencing techniques, experimental and genomic data are expanding to complement the predictive methods. However, the existing methods do not effectively utilize and cope with the immense amount of data becoming available.</p>
 
-<p><img src="/assets/media/trainingpaper.gif" alt="de.NBI and Elixir training" /></p>
+<p>Hundreds of thousands of non-coding RNAs have been detected; however, their annotation is lagging behind. Here we present GraphClust2, a comprehensive approach for scalable clustering of RNAs based on sequence and structural similarities. GraphClust2 bridges the gap between high-throughput sequencing and structural RNA analysis and provides an integrative solution by incorporating diverse experimental and genomic data in an accessible manner via the Galaxy framework. GraphClust2 can efficiently cluster and annotate large datasets of RNAs and supports structure-probing data. We demonstrate that the annotation performance of clustering functional RNAs can be considerably improved. Furthermore, an off-the-shelf procedure is introduced for identifying locally conserved structure candidates in long RNAs. We suggest the presence and the sparseness of phylogenetically conserved local structures for a collection of long non-coding RNAs.</p>
+
+<p>By clustering data from 2 cross-linking immunoprecipitation experiments, we demonstrate the benefits of GraphClust2 for motif discovery under the presence of biological and methodological biases. Finally, we uncover prominent targets of double-stranded RNA binding protein Roquin-1, such as BCOR’s 3′ untranslated region that contains multiple binding stem-loops that are evolutionary conserved.</p>
+
+<p><img src="/assets/media/GraphClust2.jpeg" alt="GraphClust2 workflow" /></p>
 
       </div>
     </div>
@@ -282,7 +279,7 @@ unless otherwise specified.</p>
         <div class="row">
             <div class="col-lg-12" style="text-align:center">
                 <ul class="contact-info">
-                    <li><i class="fa fa-github"></i><a href="https://github.com/usegalaxy-eu/website/tree/master/_posts/2019-11-30-denbi.elixirtraining.paper.md">Edit this page on GitHub</a></li>
+                    <li><i class="fa fa-github"></i><a href="https://github.com/usegalaxy-eu/website/tree/master/_posts/2019-11-30-paper.GraphClust2.md">Edit this page on GitHub</a></li>
                     
                       <li><i class="fa fa-envelope"></i><a href="mailto:galaxy@informatik.uni-freiburg.de">galaxy@informatik.uni-freiburg.de</a></li>
                     
