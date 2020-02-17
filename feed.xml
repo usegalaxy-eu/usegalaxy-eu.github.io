@@ -1,4 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2020-02-17T21:36:53+01:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2020-02-17</title><link href="https://galaxyproject.eu/posts/2020/02/17/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2020-02-17" /><published>2020-02-17T00:00:00+01:00</published><updated>2020-02-17T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2020/02/17/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/02/17/tool-update/">&lt;p&gt;On 2020-02-17, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#183/&quot;&gt;Jenkins Build #183&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2020-02-17T21:44:04+01:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2020-02-17</title><link href="https://galaxyproject.eu/posts/2020/02/17/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2020-02-17" /><published>2020-02-17T00:00:00+01:00</published><updated>2020-02-17T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2020/02/17/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/02/17/tool-update/">&lt;p&gt;On 2020-02-17, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#182/&quot;&gt;Jenkins Build #182&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;epigenetics&quot;&gt;Epigenetics&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;seacr was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/seacr/c8ff96b9fb97&quot;&gt;c8ff96b9fb97&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h2 id=&quot;phylogenetics&quot;&gt;Phylogenetics&lt;/h2&gt;
 
@@ -22,6 +28,54 @@
   &lt;li&gt;picard was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/picard/9ffcddf6f9c0&quot;&gt;9ffcddf6f9c0&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;h2 id=&quot;graphdisplay-data&quot;&gt;Graph/Display Data&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;jbrowse was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/jbrowse/667e17248bfe&quot;&gt;667e17248bfe&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;pygenometracks was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/pygenometracks/5cec5fb749f0&quot;&gt;5cec5fb749f0&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;hicexplorer&quot;&gt;HiCExplorer&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;schicexplorer_schiccorrectmatrices was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/schicexplorer_schiccorrectmatrices/104bedd292cd&quot;&gt;104bedd292cd&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;variant-calling&quot;&gt;Variant Calling&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;bcftools_merge was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_merge/9473302f4588&quot;&gt;9473302f4588&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;lofreq_call was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/lofreq_call/dfadc322b065&quot;&gt;dfadc322b065&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;rna-analysis&quot;&gt;RNA Analysis&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;trinity was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/trinity/d84caa5a98ad&quot;&gt;d84caa5a98ad&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;trinity_abundance_estimates_to_matrix was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/trinity_abundance_estimates_to_matrix/59fff1388bc2&quot;&gt;59fff1388bc2&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;trinity_align_and_estimate_abundance was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/trinity_align_and_estimate_abundance/56162e446004&quot;&gt;56162e446004&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;trinity_contig_exn50_statistic was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/trinity_contig_exn50_statistic/62b05e565a45&quot;&gt;62b05e565a45&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;trinity_filter_low_expr_transcripts was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/trinity_filter_low_expr_transcripts/42c5172815f7&quot;&gt;42c5172815f7&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;trinity_run_de_analysis was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/trinity_run_de_analysis/04936df18de3&quot;&gt;04936df18de3&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;trinity_super_transcripts was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/trinity_super_transcripts/6f480aee5877&quot;&gt;6f480aee5877&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;chemicaltoolbox&quot;&gt;ChemicalToolBox&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;ambertools_acpype was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/ambertools_acpype/0d640d752e8a&quot;&gt;0d640d752e8a&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;ambertools_antechamber was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/ambertools_antechamber/d3cdf6fe972a&quot;&gt;d3cdf6fe972a&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;ambertools_parmchk2 was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/ambertools_parmchk2/3549852f413f&quot;&gt;3549852f413f&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;gmx_trj was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/gmx_trj/e9cc595562b8&quot;&gt;e9cc595562b8&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;rad-seq&quot;&gt;RAD-seq&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;stacks2_cstacks was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/stacks2_cstacks/c541e62d6c56&quot;&gt;c541e62d6c56&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;stacks2_populations was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/stacks2_populations/38942a7e3801&quot;&gt;38942a7e3801&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;h2 id=&quot;metagenomic-analysis&quot;&gt;Metagenomic Analysis&lt;/h2&gt;
 
 &lt;ul&gt;
@@ -29,11 +83,17 @@
   &lt;li&gt;mash_sketch was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mash_sketch/68084b06ae83&quot;&gt;68084b06ae83&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;rad-seq&quot;&gt;RAD-seq&lt;/h2&gt;
+&lt;h2 id=&quot;single-cell&quot;&gt;Single-cell&lt;/h2&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;stacks2_cstacks was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/stacks2_cstacks/c541e62d6c56&quot;&gt;c541e62d6c56&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2020-02-17, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #183</summary></entry><entry><title type="html">12,000 users - 6,900,000 jobs - 13,300,000 datasets</title><link href="https://galaxyproject.eu/posts/2020/02/12/sab2020-stats/" rel="alternate" type="text/html" title="12,000 users - 6,900,000 jobs - 13,300,000 datasets" /><published>2020-02-12T00:00:00+01:00</published><updated>2020-02-12T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2020/02/12/sab2020-stats</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/02/12/sab2020-stats/">&lt;p&gt;In the next days we will attend our yearly de.NBI SAB meeting. Time to look at some statistics.&lt;/p&gt;
+  &lt;li&gt;anndata_manipulate was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/anndata_manipulate/d4af736e7b83&quot;&gt;d4af736e7b83&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_cluster_reduce_dimension was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/scanpy_cluster_reduce_dimension/6f2d2c7f77ee&quot;&gt;6f2d2c7f77ee&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_filter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/scanpy_filter/8b9610ab366a&quot;&gt;8b9610ab366a&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_inspect was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/scanpy_inspect/08192eebb47d&quot;&gt;08192eebb47d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_normalize was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/scanpy_normalize/ec32793ce1dd&quot;&gt;ec32793ce1dd&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_plot was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/scanpy_plot/8599fd07d140&quot;&gt;8599fd07d140&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_remove_confounders was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/scanpy_remove_confounders/524aa62a6066&quot;&gt;524aa62a6066&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2020-02-17, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #182</summary></entry><entry><title type="html">12,000 users - 6,900,000 jobs - 13,300,000 datasets</title><link href="https://galaxyproject.eu/posts/2020/02/12/sab2020-stats/" rel="alternate" type="text/html" title="12,000 users - 6,900,000 jobs - 13,300,000 datasets" /><published>2020-02-12T00:00:00+01:00</published><updated>2020-02-12T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2020/02/12/sab2020-stats</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/02/12/sab2020-stats/">&lt;p&gt;In the next days we will attend our yearly de.NBI SAB meeting. Time to look at some statistics.&lt;/p&gt;
 
 &lt;p&gt;There are now &lt;strong&gt;12,300 Galaxy users&lt;/strong&gt; on https://usegalaxy.eu; you all have run &lt;strong&gt;6,900,000&lt;/strong&gt; jobs
 on the European Galaxy server, and created &lt;strong&gt;13,300,000&lt;/strong&gt; datasets!&lt;/p&gt;
