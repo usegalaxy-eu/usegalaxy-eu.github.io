@@ -49,13 +49,13 @@ and sophisticated analyses independent of command-line knowledge.</p>
 
 <ol id="markdown-toc">
   <li><a href="#the-sars-cov-2-project" id="markdown-toc-the-sars-cov-2-project">The SARS-CoV-2 project</a>    <ol>
-      <li><a href="#1-preprocessing-of-raw-sars-cov-2-reads" id="markdown-toc-1-preprocessing-of-raw-sars-cov-2-reads">1. Preprocessing of raw SARS-CoV-2 reads</a></li>
-      <li><a href="#2-assembly-of-sars-cov-2-from-pre-processed-reads" id="markdown-toc-2-assembly-of-sars-cov-2-from-pre-processed-reads">2. Assembly of SARS-CoV-2 from pre-processed reads</a></li>
-      <li><a href="#3-dating-the-most-common-recent-ancestor-mcra-of-sars-cov-2" id="markdown-toc-3-dating-the-most-common-recent-ancestor-mcra-of-sars-cov-2">3. Dating the most common recent ancestor (MCRA) of SARS-CoV-2</a></li>
-      <li><a href="#4-analysis-of-variation-within-individual-covid-19-samples" id="markdown-toc-4-analysis-of-variation-within-individual-covid-19-samples">4. Analysis of variation within individual COVID-19 samples</a></li>
+      <li><a href="#preprocessing-of-raw-sars-cov-2-reads" id="markdown-toc-preprocessing-of-raw-sars-cov-2-reads">Preprocessing of raw SARS-CoV-2 reads</a></li>
+      <li><a href="#assembly-of-sars-cov-2-from-pre-processed-reads" id="markdown-toc-assembly-of-sars-cov-2-from-pre-processed-reads">Assembly of SARS-CoV-2 from pre-processed reads</a></li>
+      <li><a href="#dating-the-most-common-recent-ancestor-mcra-of-sars-cov-2" id="markdown-toc-dating-the-most-common-recent-ancestor-mcra-of-sars-cov-2">Dating the most common recent ancestor (MCRA) of SARS-CoV-2</a></li>
+      <li><a href="#analysis-of-variation-within-individual-covid-19-samples" id="markdown-toc-analysis-of-variation-within-individual-covid-19-samples">Analysis of variation within individual COVID-19 samples</a></li>
       <li><a href="#history-and-workflow-2" id="markdown-toc-history-and-workflow-2">History and workflow</a></li>
-      <li><a href="#5-alignment-of-covid-19-spike-protein-with-homologs-from-other-coronaviruses" id="markdown-toc-5-alignment-of-covid-19-spike-protein-with-homologs-from-other-coronaviruses">5. Alignment of COVID-19 Spike protein with homologs from other coronaviruses</a></li>
-      <li><a href="#6-evolutionary-analysis" id="markdown-toc-6-evolutionary-analysis">6. Evolutionary Analysis</a></li>
+      <li><a href="#alignment-of-covid-19-spike-protein-with-homologs-from-other-coronaviruses" id="markdown-toc-alignment-of-covid-19-spike-protein-with-homologs-from-other-coronaviruses">Alignment of COVID-19 Spike protein with homologs from other coronaviruses</a></li>
+      <li><a href="#evolutionary-analysis" id="markdown-toc-evolutionary-analysis">Evolutionary Analysis</a></li>
       <li><a href="#inputs-4" id="markdown-toc-inputs-4">Inputs</a></li>
       <li><a href="#comparative-analysis-of-coronovirus-sequences" id="markdown-toc-comparative-analysis-of-coronovirus-sequences">Comparative analysis of coronovirus sequences</a></li>
     </ol>
@@ -78,10 +78,12 @@ and sophisticated analyses independent of command-line knowledge.</p>
 <h1 id="the-sars-cov-2-project">The <a href="https://github.com/galaxyproject/SARS-CoV-2">SARS-CoV-2</a> project</h1>
 
 <p>Are you new to Galaxy, or returning after a long time, and looking for help to get started? Take
-<a href="https://virology.usegalaxy.eu/tours/core.galaxy_ui" target="_blank">a guided tour</a> through Galaxy’s user interface.
-Otherwise, we will start with the preprocessing of raw SARS-CoV-2 reads.</p>
+<a href="https://virology.usegalaxy.eu/tours/core.galaxy_ui" target="_blank">a guided tour</a> through Galaxy’s user interface.</p>
 
-<h2 id="1-preprocessing-of-raw-sars-cov-2-reads">1. Preprocessing of raw SARS-CoV-2 reads</h2>
+<p>All data that you need is available on <a href="https://github.com/galaxyproject/SARS-CoV-2">GitHub</a> or in our dedicated <a href="https://usegalaxy.eu/library/list#folders/Fbe28a3bea3980e71">data library</a>.
+Otherwise, we will start with the preprocessing of raw <a href="https://github.com/galaxyproject/SARS-CoV-2">SARS-CoV-2</a> reads.</p>
+
+<h2 id="preprocessing-of-raw-sars-cov-2-reads">Preprocessing of raw SARS-CoV-2 reads</h2>
 
 <p>The raw reads available so far are generated from bronchoalveolar lavage fluid (BALF) and are metagenomic in nature: they contain human reads, reads from potential bacterial co-infections as well as true COVID-19 reads.</p>
 
@@ -118,29 +120,29 @@ SRR10902284
 
 <h3 id="outputs">Outputs</h3>
 
-<p>This workflow produces three outputs that are used in tow subsequent analyses:</p>
+<p>This workflow produces three outputs that are used in tow subsequent analyses</p>
 
-<table>
+<table class="table table-striped">
   <thead>
     <tr>
-      <th>#</th>
+      <th><code class="highlighter-rouge">#</code></th>
       <th>Output</th>
       <th>Used in</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>1.</td>
+      <td>1</td>
       <td>A combined set of adapter-free Illumina reads without human contamination</td>
       <td><a href="https://github.com/galaxyproject/SARS-CoV-2/tree/master/2-Assembly">Assembly</a></td>
     </tr>
     <tr>
-      <td>2.</td>
+      <td>2</td>
       <td>A combined set of Oxford Nanopore reads without human contamination</td>
       <td><a href="https://github.com/galaxyproject/SARS-CoV-2/tree/master/2-Assembly">Assembly</a></td>
     </tr>
     <tr>
-      <td>3.</td>
+      <td>3</td>
       <td>A collection of adapter-free Illumina reads from which human reads <em>have not</em> been removed</td>
       <td><a href="https://github.com/galaxyproject/SARS-CoV-2/tree/master/4-Variation">Variation detection</a></td>
     </tr>
@@ -177,7 +179,7 @@ SRR10902284
 
 <p><img src="/assets/media/sars/pp_wf.png" alt="" height="50%" width="50%" /></p>
 
-<h2 id="2-assembly-of-sars-cov-2-from-pre-processed-reads">2. Assembly of SARS-CoV-2 from pre-processed reads</h2>
+<h2 id="assembly-of-sars-cov-2-from-pre-processed-reads">Assembly of SARS-CoV-2 from pre-processed reads</h2>
 
 <h3 id="whats-the-point-1">What’s the point?</h3>
 
@@ -229,7 +231,7 @@ SRR10902284
 
 <p><img src="/assets/media/sars/as_wf.png" alt="" height="50%" width="50%" /></p>
 
-<h2 id="3-dating-the-most-common-recent-ancestor-mcra-of-sars-cov-2">3. Dating the most common recent ancestor (MCRA) of SARS-CoV-2</h2>
+<h2 id="dating-the-most-common-recent-ancestor-mcra-of-sars-cov-2">Dating the most common recent ancestor (MCRA) of SARS-CoV-2</h2>
 
 <h3 id="whats-the-point-2">What’s the point?</h3>
 
@@ -275,7 +277,7 @@ MN975262,2020-01-11
 
 <p><img src="/assets/media/sars/mcra_wf.png" alt="" height="50%" width="50%" /></p>
 
-<h2 id="4-analysis-of-variation-within-individual-covid-19-samples">4. Analysis of variation within individual COVID-19 samples</h2>
+<h2 id="analysis-of-variation-within-individual-covid-19-samples">Analysis of variation within individual COVID-19 samples</h2>
 
 <h3 id="whats-the-point-3">What’s the point?</h3>
 
@@ -344,7 +346,8 @@ MN975262,2020-01-11
 <p>The workflow produces a table of variants that looks like this:</p>
 
 <div>
-<table>
+
+<table class="table table-striped">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -366,7 +369,7 @@ MN975262,2020-01-11
   </thead>
   <tbody>
     <tr>
-      <th>0</th>
+      <td>0</td>
       <td>SRR10903401</td>
       <td>NC_045512</td>
       <td>1409</td>
@@ -383,7 +386,7 @@ MN975262,2020-01-11
       <td>Cat/Tat</td>
     </tr>
     <tr>
-      <th>1</th>
+      <td>1</td>
       <td>SRR10903401</td>
       <td>NC_045512</td>
       <td>1821</td>
@@ -400,7 +403,7 @@ MN975262,2020-01-11
       <td>gGt/gAt</td>
     </tr>
     <tr>
-      <th>2</th>
+      <td>2</td>
       <td>SRR10903401</td>
       <td>NC_045512</td>
       <td>1895</td>
@@ -417,7 +420,7 @@ MN975262,2020-01-11
       <td>Gta/Ata</td>
     </tr>
     <tr>
-      <th>3</th>
+      <td>3</td>
       <td>SRR10903401</td>
       <td>NC_045512</td>
       <td>2407</td>
@@ -434,7 +437,7 @@ MN975262,2020-01-11
       <td>aaG/aaT</td>
     </tr>
     <tr>
-      <th>4</th>
+      <td>4</td>
       <td>SRR10903401</td>
       <td>NC_045512</td>
       <td>3379</td>
@@ -454,7 +457,11 @@ MN975262,2020-01-11
 </table>
 </div>
 
-<p>Here, most fields names are descriptive. <strong>SB</strong> = the Phred-scaled probability of strand bias as calculated by <a href="https://csb5.github.io/lofreq/">lofreq</a> (0 = no strand bias); <strong>DP4</strong> = strand-specific depth for reference and alternate allele observations (Forward reference, reverse reference, forward alternate, reverse alternate).</p>
+<p>Here, most fields names are descriptive. <strong>SB</strong> = the Phred-scaled probability of strand bias as calculated by
+<a href="https://csb5.github.io/lofreq/">lofreq</a> (0 = no strand bias); <strong>DP4</strong> = strand-specific depth for reference and alternate allele observations
+(Forward reference, reverse reference, forward alternate, reverse alternate).</p>
+
+<hr />
 
 <p>The variants we identified were distributed across the SARS-CoV-2 genome in the following way:</p>
 
@@ -468,11 +475,12 @@ MN975262,2020-01-11
 
 <p>A Galaxy workspace (history) containing the most current analysis can be imported from <a href="https://usegalaxy.org/u/aun1/h/ncov-intrasample-variation">here</a>.</p>
 
-<p>The publicly accessible <a href="https://usegalaxy.org/u/aun1/w/ncov-variation-analysis">workflow</a> can be downloaded and installed on any Galaxy instance. It contains version information for all tools used in this analysis.</p>
+<p>The publicly accessible <a href="https://usegalaxy.org/u/aun1/w/ncov-variation-analysis">workflow</a> can be downloaded and installed on any Galaxy instance.
+It contains version information for all tools used in this analysis.</p>
 
 <p><img src="/assets/media/sars/var_wf.png" alt="" height="50%" width="50%" /></p>
 
-<h2 id="5-alignment-of-covid-19-spike-protein-with-homologs-from-other-coronaviruses">5. Alignment of COVID-19 Spike protein with homologs from other coronaviruses</h2>
+<h2 id="alignment-of-covid-19-spike-protein-with-homologs-from-other-coronaviruses">Alignment of COVID-19 Spike protein with homologs from other coronaviruses</h2>
 
 <h3 id="whats-the-point-4">What’s the point?</h3>
 
@@ -516,7 +524,18 @@ NC_038861.1	Transmissible gastroenteritis virus
 
 <p>We produce two alignments, one at the nucleotide and one at the amino acid level, of Betacoronavirus spike proteins. The alignments can be visualized with the <code class="highlighter-rouge">Multiple Sequence Alignment</code> visualization in Galaxy :</p>
 
-<p><img src="/assets/media/sars/align_galaxy_viz.png" alt="Visualization of amino acid alignment in Galaxy" height="50%" width="50%" /></p>
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center"> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><img src="/assets/media/sars/align_galaxy_viz.png" alt="Visualization of amino acid alignment in Galaxy" height="50%" width="50%" /></td>
+    </tr>
+  </tbody>
+</table>
 
 <p>Or with locally installed softwares, here <a href="https://github.com/AliView/AliView"><code class="highlighter-rouge">AliView</code></a>.</p>
 
@@ -550,7 +569,7 @@ NC_038861.1	Transmissible gastroenteritis virus
 
 <p>The <code class="highlighter-rouge">Transeq</code> tool converts the CDS sequences into protein sequences, which we then align to each other using <code class="highlighter-rouge">MAFFT</code>. The output is fed into <code class="highlighter-rouge">tranalign</code> along with the nucleotide sequences. <code class="highlighter-rouge">tranalign</code> produces a nucleotide alignment coherent with the protein alignment.</p>
 
-<h2 id="6-evolutionary-analysis">6. Evolutionary Analysis</h2>
+<h2 id="evolutionary-analysis">Evolutionary Analysis</h2>
 
 <h3 id="whats-the-point-5">What’s the point?</h3>
 
