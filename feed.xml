@@ -1,4 +1,120 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2020-02-21T00:43:46+01:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">de.NBI Network extended until 2021</title><link href="https://galaxyproject.eu/posts/2020/02/19/Symposion-deNBI-Verlaengerung/" rel="alternate" type="text/html" title="de.NBI Network extended until 2021" /><published>2020-02-19T00:00:00+01:00</published><updated>2020-02-19T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2020/02/19/Symposion-deNBI-Verlaengerung</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/02/19/Symposion-deNBI-Verlaengerung/">&lt;p&gt;&lt;a href=&quot;https://idw-online.de/de/news731433&quot;&gt;Scientist and politicians gathered&lt;/a&gt; in Berlin to talk about
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2020-02-21T01:05:16+01:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2020-02-21</title><link href="https://galaxyproject.eu/posts/2020/02/21/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2020-02-21" /><published>2020-02-21T00:00:00+01:00</published><updated>2020-02-21T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2020/02/21/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/02/21/tool-update/">&lt;p&gt;On 2020-02-21, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#184/&quot;&gt;Jenkins Build #184&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;convert-formats&quot;&gt;Convert Formats&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;gtftobed12 was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/gtftobed12/75a14cc16d4d&quot;&gt;75a14cc16d4d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;gtftobed12 was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/gtftobed12/b026dae67fba&quot;&gt;b026dae67fba&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;fastafastq&quot;&gt;FASTA/FASTQ&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;fastq_combiner was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/fastq_combiner/f1dc2a761c30&quot;&gt;f1dc2a761c30&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;fastq_filter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/fastq_filter/81a9090d6df3&quot;&gt;81a9090d6df3&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;fastq_groomer was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/fastq_groomer/47e5dbc3e790&quot;&gt;47e5dbc3e790&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;fastq_manipulation was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/fastq_manipulation/5b87038565bb&quot;&gt;5b87038565bb&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;fastq_masker_by_quality was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/fastq_masker_by_quality/9dfda4e310ed&quot;&gt;9dfda4e310ed&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;fastq_paired_end_deinterlacer was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/fastq_paired_end_deinterlacer/f3936d0632cb&quot;&gt;f3936d0632cb&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;fastq_paired_end_interlacer was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/fastq_paired_end_interlacer/2ccb8dcabddc&quot;&gt;2ccb8dcabddc&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;fastq_paired_end_joiner was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/fastq_paired_end_joiner/c885369b207b&quot;&gt;c885369b207b&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;fastq_paired_end_splitter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/fastq_paired_end_splitter/249c8393f2d4&quot;&gt;249c8393f2d4&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;fastq_stats was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/fastq_stats/f0e7deab6518&quot;&gt;f0e7deab6518&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;fastq_to_tabular was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/fastq_to_tabular/4b347702c4aa&quot;&gt;4b347702c4aa&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;fastq_trimmer was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/fastq_trimmer/b63b2bfb3ea3&quot;&gt;b63b2bfb3ea3&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;fastqtofasta was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/fastqtofasta/297962e79f39&quot;&gt;297962e79f39&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;tabular_to_fastq was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/tabular_to_fastq/2dcfbbf9071a&quot;&gt;2dcfbbf9071a&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;picard&quot;&gt;Picard&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;picard was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/picard/a1f0b3f4b781&quot;&gt;a1f0b3f4b781&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;mapping&quot;&gt;Mapping&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;kma was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/kma/2595c27071c2&quot;&gt;2595c27071c2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;hca_sc_scanpy_tools&quot;&gt;hca_sc_scanpy_tools&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;anndata_ops was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/anndata_ops/98f37271c17c&quot;&gt;98f37271c17c&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_compute_graph was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_compute_graph/fe740b19e3b9&quot;&gt;fe740b19e3b9&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_filter_cells was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_filter_cells/3c3c254c9deb&quot;&gt;3c3c254c9deb&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_filter_genes was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_filter_genes/6ac8b9a3a279&quot;&gt;6ac8b9a3a279&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_find_cluster was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_find_cluster/6a9e2be28b07&quot;&gt;6a9e2be28b07&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_find_markers was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_find_markers/377224a3cd1d&quot;&gt;377224a3cd1d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_find_variable_genes was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_find_variable_genes/7a68f44c866b&quot;&gt;7a68f44c866b&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_normalise_data was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_normalise_data/3636ec97f3af&quot;&gt;3636ec97f3af&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_parameter_iterator was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_parameter_iterator/1a30a61effea&quot;&gt;1a30a61effea&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_parameter_iterator was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_parameter_iterator/93680e2ff8f4&quot;&gt;93680e2ff8f4&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_plot_embed was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_plot_embed/452e0f19c2a2&quot;&gt;452e0f19c2a2&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_plot_trajectory was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_plot_trajectory/1d0e587bdd60&quot;&gt;1d0e587bdd60&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_read_10x was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_read_10x/7757f4b43174&quot;&gt;7757f4b43174&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_regress_variable was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_regress_variable/91157b3432df&quot;&gt;91157b3432df&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_run_diffmap was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_run_diffmap/3f8d10b43598&quot;&gt;3f8d10b43598&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_run_dpt was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_run_dpt/299aca1029a1&quot;&gt;299aca1029a1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_run_fdg was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_run_fdg/6c40cc3e9dc0&quot;&gt;6c40cc3e9dc0&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_run_paga was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_run_paga/d811772b94d7&quot;&gt;d811772b94d7&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_run_pca was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_run_pca/1618435e2a33&quot;&gt;1618435e2a33&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_run_tsne was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_run_tsne/af9b447bcde8&quot;&gt;af9b447bcde8&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_run_umap was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_run_umap/41f6078040da&quot;&gt;41f6078040da&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_scale_data was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_scale_data/eabf8e76e007&quot;&gt;eabf8e76e007&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;proteomics&quot;&gt;Proteomics&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;peptideshaker was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/peptideshaker/7fdd9119cc4f&quot;&gt;7fdd9119cc4f&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;data-managers&quot;&gt;Data Managers&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;data_manager_build_kma_index was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/data_manager_build_kma_index/889cc43b72d6&quot;&gt;889cc43b72d6&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;genome-diversity&quot;&gt;Genome Diversity&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;fasttree was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/fasttree/e005e659ae21&quot;&gt;e005e659ae21&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;rad-seq&quot;&gt;RAD-seq&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;stacks2_cstacks was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/stacks2_cstacks/c541e62d6c56&quot;&gt;c541e62d6c56&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;annotation&quot;&gt;Annotation&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;fastani was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/fastani/2c7ac12ad75a&quot;&gt;2c7ac12ad75a&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;single-cell&quot;&gt;Single-cell&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;scanpy_cluster_reduce_dimension was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/scanpy_cluster_reduce_dimension/766be978777a&quot;&gt;766be978777a&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_cluster_reduce_dimension was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/scanpy_cluster_reduce_dimension/77b91b9bdf52&quot;&gt;77b91b9bdf52&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_filter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/scanpy_filter/a72e9faea895&quot;&gt;a72e9faea895&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_filter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/scanpy_filter/a97abb8cd15b&quot;&gt;a97abb8cd15b&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_inspect was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/scanpy_inspect/5e9171dc8244&quot;&gt;5e9171dc8244&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_normalize was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/scanpy_normalize/3bcd5445cd7a&quot;&gt;3bcd5445cd7a&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_plot was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/scanpy_plot/cb18f2388815&quot;&gt;cb18f2388815&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_plot was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/scanpy_plot/dbbe1ea8ecb1&quot;&gt;dbbe1ea8ecb1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_remove_confounders was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/scanpy_remove_confounders/7a6701edcc92&quot;&gt;7a6701edcc92&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_remove_confounders was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/scanpy_remove_confounders/f2f6c703da06&quot;&gt;f2f6c703da06&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;sambam&quot;&gt;SAM/BAM&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;bamtools_filter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/bamtools_filter/bd735cae4ce6&quot;&gt;bd735cae4ce6&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2020-02-21, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #184</summary></entry><entry><title type="html">de.NBI Network extended until 2021</title><link href="https://galaxyproject.eu/posts/2020/02/19/Symposion-deNBI-Verlaengerung/" rel="alternate" type="text/html" title="de.NBI Network extended until 2021" /><published>2020-02-19T00:00:00+01:00</published><updated>2020-02-19T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2020/02/19/Symposion-deNBI-Verlaengerung</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/02/19/Symposion-deNBI-Verlaengerung/">&lt;p&gt;&lt;a href=&quot;https://idw-online.de/de/news731433&quot;&gt;Scientist and politicians gathered&lt;/a&gt; in Berlin to talk about
 the progress made possible by the cloud infrastructure funded by the &lt;em&gt;ministery of education and research&lt;/em&gt;.&lt;/p&gt;</content><author><name></name></author><category term="de.NBI" /><summary type="html">Scientist and politicians gathered in Berlin to talk about the progress made possible by the cloud infrastructure funded by the ministery of education and research.</summary></entry><entry><title type="html">UseGalaxy.eu Tool Updates for 2020-02-17</title><link href="https://galaxyproject.eu/posts/2020/02/17/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2020-02-17" /><published>2020-02-17T00:00:00+01:00</published><updated>2020-02-17T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2020/02/17/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/02/17/tool-update/">&lt;p&gt;On 2020-02-17, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#182/&quot;&gt;Jenkins Build #182&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;epigenetics&quot;&gt;Epigenetics&lt;/h2&gt;
@@ -290,28 +406,4 @@ Björn Usadel (Forschungszentrum Jülich), Jens Krüger (University of Tübingen
 and Timo Mühlhaus (University of Kaiserslautern).
 Since then, we received very positive feedback from the reviewers. So, let’s keep our fingers crossed.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/media/NFDI_Dataplant.jpg&quot; alt=&quot;DataPLANT representatives&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Germany wants to build a national research data infrastructure NFDI which can systematically manage scientific and research data, provide long-term data storage, backup and accessibility, and network the data both nationally and internationally. The University of Freiburg applied as a lead with the “DataPLANT” project to connect plant researchers in Germany and to provide a suitable infrastructure for data analysis.</summary></entry><entry><title type="html">Accessible and reproducible mass spectrometry imaging data analysis in Galaxy</title><link href="https://galaxyproject.eu/posts/2020/02/06/paper-ms-imaging/" rel="alternate" type="text/html" title="Accessible and reproducible mass spectrometry imaging data analysis in Galaxy" /><published>2020-02-06T00:00:00+01:00</published><updated>2020-02-06T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2020/02/06/paper-ms-imaging</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/02/06/paper-ms-imaging/">&lt;p&gt;Congratulation to our friend and colleague Melanie Föll from the University of Freiburg
-&lt;a href=&quot;https://www.mol-med.uni-freiburg.de/mom/schilling&quot;&gt;Oliver Schilling lab&lt;/a&gt; to her great
-&lt;a href=&quot;https://academic.oup.com/gigascience/article/8/12/giz143/5670614&quot;&gt;article&lt;/a&gt; on the analysis of mass spectrometry imaging data.
-She has integrated 18 tools dedicated to mass spectrometry imaging into our Galaxy framework.
-Thanks a lot for making your tools available to the proteomics and imaging community!&lt;/p&gt;
-
-&lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;/h2&gt;
-
-&lt;p&gt;Mass spectrometry imaging is increasingly used in biological and translational research because it has the
-ability to determine the spatial distribution of hundreds of analytes in a sample. Being at the interface of
-proteomics/metabolomics and imaging, the acquired datasets are large and complex and often analyzed with
-proprietary software or in-house scripts, which hinders reproducibility. Open source software solutions
-that enable reproducible data analysis often require programming skills and are therefore not accessible to many mass spectrometry imaging (MSI) researchers.&lt;/p&gt;
-
-&lt;p&gt;We have integrated 18 dedicated mass spectrometry imaging tools into the Galaxy framework to allow accessible,
-reproducible, and transparent data analysis. Our tools are based on Cardinal, MALDIquant, and scikit-image and
-enable all major MSI analysis steps such as quality control, visualization, preprocessing, statistical analysis,
-and image co-registration. Furthermore, we created hands-on training material for use cases in proteomics and metabolomics.
-To demonstrate the utility of our tools, we re-analyzed a publicly available N-linked glycan imaging dataset.
-By providing the entire analysis history online, we highlight how the Galaxy framework fosters transparent and reproducible research.&lt;/p&gt;
-
-&lt;p&gt;The Galaxy framework has emerged as a powerful analysis platform for the analysis of MSI data with ease of use and access,
-together with high levels of reproducibility and transparency.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/media/MSimaging.jpeg&quot; alt=&quot;mass spectrometry imaging data analysis&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="paper" /><summary type="html">Congratulation to our friend and colleague Melanie Föll from the University of Freiburg Oliver Schilling lab to her great article on the analysis of mass spectrometry imaging data. She has integrated 18 tools dedicated to mass spectrometry imaging into our Galaxy framework. Thanks a lot for making your tools available to the proteomics and imaging community!</summary></entry></feed>
+&lt;p&gt;&lt;img src=&quot;/assets/media/NFDI_Dataplant.jpg&quot; alt=&quot;DataPLANT representatives&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Germany wants to build a national research data infrastructure NFDI which can systematically manage scientific and research data, provide long-term data storage, backup and accessibility, and network the data both nationally and internationally. The University of Freiburg applied as a lead with the “DataPLANT” project to connect plant researchers in Germany and to provide a suitable infrastructure for data analysis.</summary></entry></feed>
