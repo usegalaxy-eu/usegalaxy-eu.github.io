@@ -1,4 +1,88 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2020-02-28T22:14:32+01:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">Open collaborative infrastructure to tackle public health emergencies</title><link href="https://galaxyproject.eu/posts/2020/02/28/open-infrastructure-for-public-health-care/" rel="alternate" type="text/html" title="Open collaborative infrastructure to tackle public health emergencies" /><published>2020-02-28T00:00:00+01:00</published><updated>2020-02-28T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2020/02/28/open-infrastructure-for-public-health-care</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/02/28/open-infrastructure-for-public-health-care/">&lt;p&gt;The rapid spread of the COVID-19 virus highlights the need for an open analytics environment so that the global
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2020-02-29T06:10:23+01:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2020-02-29</title><link href="https://galaxyproject.eu/posts/2020/02/29/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2020-02-29" /><published>2020-02-29T00:00:00+01:00</published><updated>2020-02-29T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2020/02/29/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/02/29/tool-update/">&lt;p&gt;On 2020-02-29, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#188/&quot;&gt;Jenkins Build #188&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;epigenetics&quot;&gt;Epigenetics&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;ewastools was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/kpbioteam/ewastools/369fef559cfc&quot;&gt;369fef559cfc&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;proteomics&quot;&gt;Proteomics&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;pyprophet_export was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/pyprophet_export/2bc6bbf651b9&quot;&gt;2bc6bbf651b9&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;pyprophet_merge was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/pyprophet_merge/73736112135d&quot;&gt;73736112135d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;pyprophet_peptide was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/pyprophet_peptide/611120fd1717&quot;&gt;611120fd1717&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;pyprophet_protein was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/pyprophet_protein/741138de814c&quot;&gt;741138de814c&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;pyprophet_score was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/pyprophet_score/8b11789d8b95&quot;&gt;8b11789d8b95&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;pyprophet_subsample was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/pyprophet_subsample/973e601622a1&quot;&gt;973e601622a1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;proteinortho was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/proteinortho/4850f0d15f01&quot;&gt;4850f0d15f01&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;proteinortho_grab_proteins was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/proteinortho_grab_proteins/d348c3a151d9&quot;&gt;d348c3a151d9&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;proteinortho_summary was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/proteinortho_summary/2e0e9c418a85&quot;&gt;2e0e9c418a85&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;metagenomic-analysis&quot;&gt;Metagenomic Analysis&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;mash was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mash/f8e51626fc56&quot;&gt;f8e51626fc56&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mash_sketch was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mash_sketch/77289957d47b&quot;&gt;77289957d47b&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;test-tools&quot;&gt;Test Tools&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;chipeakanno_annopeaks was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/kpbioteam/chipeakanno_annopeaks/104882a2de00&quot;&gt;104882a2de00&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;deeptools&quot;&gt;deepTools&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;deeptools_alignmentsieve was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/deeptools_alignmentsieve/6531acf8209f&quot;&gt;6531acf8209f&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;deeptools_bam_compare was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/deeptools_bam_compare/e821645ef8fc&quot;&gt;e821645ef8fc&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;deeptools_bam_coverage was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/deeptools_bam_coverage/bb1e4f63e0e6&quot;&gt;bb1e4f63e0e6&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;deeptools_bam_pe_fragmentsize was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/deeptools_bam_pe_fragmentsize/62eb6d63f582&quot;&gt;62eb6d63f582&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;deeptools_bigwig_compare was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/deeptools_bigwig_compare/26e7304d6737&quot;&gt;26e7304d6737&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;deeptools_compute_gc_bias was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/deeptools_compute_gc_bias/2bc10a9ca58b&quot;&gt;2bc10a9ca58b&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;deeptools_compute_matrix was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/deeptools_compute_matrix/514fa53b5efb&quot;&gt;514fa53b5efb&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;deeptools_compute_matrix_operations was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/deeptools_compute_matrix_operations/ee3a1b0f45f1&quot;&gt;ee3a1b0f45f1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;deeptools_correct_gc_bias was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/deeptools_correct_gc_bias/2c37ce318bc3&quot;&gt;2c37ce318bc3&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;deeptools_estimatereadfiltering was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/deeptools_estimatereadfiltering/71082dac170c&quot;&gt;71082dac170c&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;deeptools_multi_bam_summary was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/deeptools_multi_bam_summary/78f405266706&quot;&gt;78f405266706&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;deeptools_multi_bigwig_summary was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/deeptools_multi_bigwig_summary/3c9f0c486cca&quot;&gt;3c9f0c486cca&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;deeptools_plot_correlation was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/deeptools_plot_correlation/32e451def88c&quot;&gt;32e451def88c&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;deeptools_plot_coverage was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/deeptools_plot_coverage/56bce3c82278&quot;&gt;56bce3c82278&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;deeptools_plot_enrichment was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/deeptools_plot_enrichment/e65d16fb2724&quot;&gt;e65d16fb2724&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;deeptools_plot_fingerprint was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/deeptools_plot_fingerprint/2da482e408b8&quot;&gt;2da482e408b8&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;deeptools_plot_heatmap was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/deeptools_plot_heatmap/a4dfb122e52b&quot;&gt;a4dfb122e52b&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;deeptools_plot_pca was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/deeptools_plot_pca/69264da0ce77&quot;&gt;69264da0ce77&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;deeptools_plot_profile was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/deeptools_plot_profile/c361b12d207a&quot;&gt;c361b12d207a&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;rna-analysis&quot;&gt;RNA Analysis&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;stringtie was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/stringtie/1ebd14235b92&quot;&gt;1ebd14235b92&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;data-managers&quot;&gt;Data Managers&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;data_manager_mash_sketch_builder was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/data_manager_mash_sketch_builder/2af9137ba067&quot;&gt;2af9137ba067&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;chemicaltoolbox&quot;&gt;ChemicalToolBox&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;ambertools_acpype was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/ambertools_acpype/c6afbb28f547&quot;&gt;c6afbb28f547&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;ambertools_antechamber was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/ambertools_antechamber/ca57ded3ec32&quot;&gt;ca57ded3ec32&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;ambertools_parmchk2 was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/ambertools_parmchk2/dbfb86927de6&quot;&gt;dbfb86927de6&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;md_converter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/md_converter/79e8ab8f1e81&quot;&gt;79e8ab8f1e81&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;rad-seq&quot;&gt;RAD-seq&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;stacks2_cstacks was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/stacks2_cstacks/c541e62d6c56&quot;&gt;c541e62d6c56&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2020-02-29, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #188</summary></entry><entry><title type="html">Open collaborative infrastructure to tackle public health emergencies</title><link href="https://galaxyproject.eu/posts/2020/02/28/open-infrastructure-for-public-health-care/" rel="alternate" type="text/html" title="Open collaborative infrastructure to tackle public health emergencies" /><published>2020-02-28T00:00:00+01:00</published><updated>2020-02-28T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2020/02/28/open-infrastructure-for-public-health-care</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/02/28/open-infrastructure-for-public-health-care/">&lt;p&gt;The rapid spread of the COVID-19 virus highlights the need for an open analytics environment so that the global
 research community can collaborate on developing effective countermeasures.&lt;/p&gt;</content><author><name></name></author><category term="de.NBI" /><category term="ELIXIR" /><summary type="html">The rapid spread of the COVID-19 virus highlights the need for an open analytics environment so that the global research community can collaborate on developing effective countermeasures.</summary></entry><entry><title type="html">TIaaS Calendar and Stats site</title><link href="https://galaxyproject.eu/posts/2020/02/27/TIaaS-update/" rel="alternate" type="text/html" title="TIaaS Calendar and Stats site" /><published>2020-02-27T00:00:00+01:00</published><updated>2020-02-27T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2020/02/27/TIaaS-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/02/27/TIaaS-update/">&lt;p&gt;We’ve seen the &lt;a href=&quot;https://galaxyproject.eu/tiaas&quot;&gt;TIaaS Queue Status&lt;/a&gt; receive a lot of positive feedback.
 Todas Helena added two new features to get a general information about the TIaaS service.&lt;/p&gt;
 
@@ -158,5 +242,4 @@ This means 8300 jobs per day, 350 jobs per hour, 6 per minute. Or we can rephras
 &lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;/h2&gt;
 &lt;p&gt;Endothelial cells take pivotal roles in the heart and the vascular system and their differentiation, subspecification and function is determined by gene expression. A stable, in vitro cardiac endothelial cell line could provide high cell numbers as needed for many epigenetic analyses and facilitate the understanding of molecular mechanisms involved in endothelial cell biology. To test their suitability for transcriptomic or epigenetic studies, we compared the transcriptome of cultured immortalized mouse cardiac endothelial cells (MCEC) to primary cardiac endothelial cells (pEC). Whole transcriptome comparison of MCEC and pEC showed a correlation of 0.75–0.77. Interestingly, correlation of gene expression declined in endothelial cell-typical genes. In MCEC, we found a broad downregulation of genes that are highly expressed in pEC, including well-described markers of endothelial cell differentiation. Accordingly, systematic analysis revealed a downregulation of genes associated with typical endothelial cell functions in MCEC, while genes related to mitotic cell cycle were upregulated when compared to pEC. In conclusion, the findings from this study suggest that primary cardiac endothelial cells should preferably be used for genome-wide transcriptome or epigenome studies. The suitability of in vitro cell lines for experiments investigating single genes or signaling pathways should be carefully validated before use.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/media/AchimLother_Publication.png&quot; alt=&quot;Achim Lother Publication&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="paper" /><summary type="html">Congratulation to Achim Lother and colleagues to their great publication! And thanks a lot for using the European Galaxy server for your data analysis. We are happy that it was helpful.</summary></entry><entry><title type="html">Exciting progress in the ELIXIR Galaxy community</title><link href="https://galaxyproject.eu/posts/2020/02/11/elixir-post/" rel="alternate" type="text/html" title="Exciting progress in the ELIXIR Galaxy community" /><published>2020-02-11T00:00:00+01:00</published><updated>2020-02-11T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2020/02/11/elixir-post</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/02/11/elixir-post/">&lt;p&gt;ELIXIR has published a progress report about the ELIXIR Galaxy community in 2020!
-Thanks a lot to the entire Galaxy world-wide Galaxy community, without this all would not be possible!&lt;/p&gt;</content><author><name></name></author><category term="galaxy" /><category term="elixir" /><summary type="html">ELIXIR has published a progress report about the ELIXIR Galaxy community in 2020! Thanks a lot to the entire Galaxy world-wide Galaxy community, without this all would not be possible!</summary></entry></feed>
+&lt;p&gt;&lt;img src=&quot;/assets/media/AchimLother_Publication.png&quot; alt=&quot;Achim Lother Publication&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="paper" /><summary type="html">Congratulation to Achim Lother and colleagues to their great publication! And thanks a lot for using the European Galaxy server for your data analysis. We are happy that it was helpful.</summary></entry></feed>
