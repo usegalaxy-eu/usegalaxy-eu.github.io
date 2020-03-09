@@ -1,4 +1,20 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2020-03-08T17:44:01+01:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2020-03-07</title><link href="https://galaxyproject.eu/posts/2020/03/07/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2020-03-07" /><published>2020-03-07T00:00:00+01:00</published><updated>2020-03-07T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2020/03/07/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/03/07/tool-update/">&lt;p&gt;On 2020-03-07, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#189/&quot;&gt;Jenkins Build #189&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2020-03-09T12:31:07+01:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">Storage issues and potential data loss</title><link href="https://galaxyproject.eu/posts/2020/03/09/data-lost/" rel="alternate" type="text/html" title="Storage issues and potential data loss" /><published>2020-03-09T00:00:00+01:00</published><updated>2020-03-09T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2020/03/09/data-lost</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/03/09/data-lost/">&lt;p&gt;On Friday, we unfortunately experienced some data loss. Currently, we believe that some datasets created in the last two months were affected.&lt;/p&gt;
+
+&lt;p&gt;If your data was affected by this, the datasets will still appear in your history, but the data itself will be missing - i.e. if you click on the ‘View’ or ‘Download’ buttons, you will probably encounter an error or a white page.&lt;/p&gt;
+
+&lt;p&gt;If you try and run a job using one of the affected datasets as input, the job will fail with an error like ‘Job 7225486’s output dataset(s) could not be read’.&lt;/p&gt;
+
+&lt;p&gt;We are working on dealing with the situation and will update this blog-post with more information later today. If you have any questions, feel free to email us at galaxy@informatik.uni-freiburg.de.&lt;/p&gt;
+
+&lt;p&gt;We are truly sorry!&lt;/p&gt;
+
+&lt;h3 id=&quot;tips-for-re-creating-your-histories-or-re-running-your-results&quot;&gt;Tips for re-creating your histories or re-running your results&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;ensure that your input datasets are still available, re-upload them if needed&lt;/li&gt;
+  &lt;li&gt;use the reload button to re-run single tools&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://training.galaxyproject.org/training-material/topics/galaxy-ui/tutorials/history-to-workflow/tutorial.html&quot;&gt;extract workflows from your history&lt;/a&gt; and re-run them again&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="devops" /><summary type="html">On Friday, we unfortunately experienced some data loss. Currently, we believe that some datasets created in the last two months were affected.</summary></entry><entry><title type="html">UseGalaxy.eu Tool Updates for 2020-03-07</title><link href="https://galaxyproject.eu/posts/2020/03/07/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2020-03-07" /><published>2020-03-07T00:00:00+01:00</published><updated>2020-03-07T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2020/03/07/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/03/07/tool-update/">&lt;p&gt;On 2020-03-07, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#189/&quot;&gt;Jenkins Build #189&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;epigenetics&quot;&gt;Epigenetics&lt;/h2&gt;
 
@@ -216,37 +232,4 @@ Todas Helena added two new features to get a general information about the TIaaS
 
 &lt;p&gt;Enjoy!&lt;/p&gt;</content><author><name></name></author><category term="devops" /><summary type="html">We’ve seen the TIaaS Queue Status receive a lot of positive feedback. Todas Helena added two new features to get a general information about the TIaaS service.</summary></entry><entry><title type="html">Coronavirus data analysis by University of Freiburg</title><link href="https://galaxyproject.eu/posts/2020/02/26/coronavirus-data-analysis/" rel="alternate" type="text/html" title="Coronavirus data analysis by University of Freiburg" /><published>2020-02-26T00:00:00+01:00</published><updated>2020-02-26T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2020/02/26/coronavirus-data-analysis</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/02/26/coronavirus-data-analysis/">&lt;p&gt;The Galaxy platform enables the free and transparent overview of COVID-19 genome informations.&lt;/p&gt;</content><author><name></name></author><category term="de.NBI" /><category term="ELIXIR" /><summary type="html">The Galaxy platform enables the free and transparent overview of COVID-19 genome informations.</summary></entry><entry><title type="html">Crowdsourcing citizen science data on usegalaxy.eu</title><link href="https://galaxyproject.eu/posts/2020/02/25/citizen-science-ecology/" rel="alternate" type="text/html" title="Crowdsourcing citizen science data on usegalaxy.eu" /><published>2020-02-25T00:00:00+01:00</published><updated>2020-02-25T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2020/02/25/citizen-science-ecology</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/02/25/citizen-science-ecology/">&lt;p&gt;Galaxy for Ecology, mixing Ecology research, Citizen Science and Massively Multi Online Science by Yvan Le Bras, Simon Bénateau.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://galaxyproject.org/blog/2020-01-galaxy-ecology-citizen-science/webhook1.PNG&quot; alt=&quot;Ecoogy citizen science&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="de.NBI" /><summary type="html">Galaxy for Ecology, mixing Ecology research, Citizen Science and Massively Multi Online Science by Yvan Le Bras, Simon Bénateau.</summary></entry><entry><title type="html">UseGalaxy.eu Tool Updates for 2020-02-21</title><link href="https://galaxyproject.eu/posts/2020/02/21/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2020-02-21" /><published>2020-02-21T00:00:00+01:00</published><updated>2020-02-21T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2020/02/21/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/02/21/tool-update/">&lt;p&gt;On 2020-02-21, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#185/&quot;&gt;Jenkins Build #185&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;phylogenetics&quot;&gt;Phylogenetics&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;hyphy_absrel was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_absrel/f73435dc282b&quot;&gt;f73435dc282b&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;hyphy_bgm was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_bgm/823a5afee916&quot;&gt;823a5afee916&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;hyphy_busted was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_busted/f9a193154a55&quot;&gt;f9a193154a55&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;hyphy_fade was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_fade/16b4a3869bd5&quot;&gt;16b4a3869bd5&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;hyphy_fel was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_fel/4eba0baf0278&quot;&gt;4eba0baf0278&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;hyphy_fubar was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_fubar/3285fd1f4bde&quot;&gt;3285fd1f4bde&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;hyphy_meme was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_meme/4d5768ad6316&quot;&gt;4d5768ad6316&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;hyphy_relax was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_relax/7827dfb71693&quot;&gt;7827dfb71693&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;hyphy_slac was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_slac/25782236e47e&quot;&gt;25782236e47e&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;hyphy_sm19 was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_sm19/5f1830cb9135&quot;&gt;5f1830cb9135&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;metagenomic-analysis&quot;&gt;Metagenomic Analysis&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;metagene_annotator was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/metagene_annotator/b04960a7abf5&quot;&gt;b04960a7abf5&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;annotation&quot;&gt;Annotation&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;seq2hla was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/seq2hla/52bba1cd3823&quot;&gt;52bba1cd3823&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;nanopore&quot;&gt;Nanopore&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;medaka_consensus was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/medaka_consensus/1c4402b9244d&quot;&gt;1c4402b9244d&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2020-02-21, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #185</summary></entry></feed>
+&lt;p&gt;&lt;img src=&quot;https://galaxyproject.org/blog/2020-01-galaxy-ecology-citizen-science/webhook1.PNG&quot; alt=&quot;Ecoogy citizen science&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="de.NBI" /><summary type="html">Galaxy for Ecology, mixing Ecology research, Citizen Science and Massively Multi Online Science by Yvan Le Bras, Simon Bénateau.</summary></entry></feed>
