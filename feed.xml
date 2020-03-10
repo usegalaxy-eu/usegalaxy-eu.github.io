@@ -1,4 +1,71 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2020-03-10T17:43:56+01:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">Storage issues and potential data loss</title><link href="https://galaxyproject.eu/posts/2020/03/09/devops-storage-issues/" rel="alternate" type="text/html" title="Storage issues and potential data loss" /><published>2020-03-09T00:00:00+01:00</published><updated>2020-03-09T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2020/03/09/devops-storage-issues</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/03/09/devops-storage-issues/">&lt;p&gt;On Friday, we unfortunately experienced some data loss. Currently, we believe that some datasets created in the last two months were affected.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2020-03-10T22:30:42+01:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2020-03-10</title><link href="https://galaxyproject.eu/posts/2020/03/10/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2020-03-10" /><published>2020-03-10T00:00:00+01:00</published><updated>2020-03-10T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2020/03/10/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/03/10/tool-update/">&lt;p&gt;On 2020-03-10, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#190/&quot;&gt;Jenkins Build #190&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;chemicaltoolbox&quot;&gt;ChemicalToolBox&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;ctb_rdkit_descriptors was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/ctb_rdkit_descriptors/414edd9ea77d&quot;&gt;414edd9ea77d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;sdf_to_tab was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sdf_to_tab/193389d3a5f0&quot;&gt;193389d3a5f0&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;gemini&quot;&gt;Gemini&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;gemini_actionable_mutations was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/gemini_actionable_mutations/142d95ab942e&quot;&gt;142d95ab942e&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;gemini_amend was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/gemini_amend/be828b79bd4d&quot;&gt;be828b79bd4d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;gemini_annotate was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/gemini_annotate/f2f3bc622a16&quot;&gt;f2f3bc622a16&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;gemini_burden was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/gemini_burden/699ce2631e79&quot;&gt;699ce2631e79&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;gemini_burden was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/gemini_burden/df57188562f0&quot;&gt;df57188562f0&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;gemini_db_info was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/gemini_db_info/7d75673f4d6f&quot;&gt;7d75673f4d6f&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;gemini_fusions was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/gemini_fusions/6e3d2bd01a96&quot;&gt;6e3d2bd01a96&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;gemini_fusions was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/gemini_fusions/8151a5a0e4f6&quot;&gt;8151a5a0e4f6&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;gemini_gene_wise was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/gemini_gene_wise/452104bdc655&quot;&gt;452104bdc655&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;gemini_inheritance was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/gemini_inheritance/18d13111692b&quot;&gt;18d13111692b&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;gemini_interactions was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/gemini_interactions/2550239feed5&quot;&gt;2550239feed5&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;gemini_load was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/gemini_load/45296e47d565&quot;&gt;45296e47d565&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;gemini_lof_sieve was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/gemini_lof_sieve/2969a1f43b7d&quot;&gt;2969a1f43b7d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;gemini_pathways was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/gemini_pathways/9199331c3421&quot;&gt;9199331c3421&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;gemini_qc was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/gemini_qc/8414eecc3828&quot;&gt;8414eecc3828&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;gemini_qc was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/gemini_qc/86e46972e183&quot;&gt;86e46972e183&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;gemini_query was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/gemini_query/da74170c55c7&quot;&gt;da74170c55c7&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;gemini_roh was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/gemini_roh/345d41f3f574&quot;&gt;345d41f3f574&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;gemini_set_somatic was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/gemini_set_somatic/991049484627&quot;&gt;991049484627&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;gemini_set_somatic was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/gemini_set_somatic/e4e2128460e3&quot;&gt;e4e2128460e3&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;gemini_stats was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/gemini_stats/5c9efee9cb1e&quot;&gt;5c9efee9cb1e&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;gemini_windower was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/gemini_windower/0c58ba91d018&quot;&gt;0c58ba91d018&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;rad-seq&quot;&gt;RAD-seq&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;stacks2_cstacks was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/stacks2_cstacks/c541e62d6c56&quot;&gt;c541e62d6c56&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;convert-formats&quot;&gt;Convert Formats&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;biom_convert was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/biom_convert/584008e574b2&quot;&gt;584008e574b2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;hicexplorer&quot;&gt;HiCExplorer&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;schicexplorer_schicadjustmatrix was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/schicexplorer_schicadjustmatrix/799a9fe1265c&quot;&gt;799a9fe1265c&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;schicexplorer_schiccluster was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/schicexplorer_schiccluster/36e26166034d&quot;&gt;36e26166034d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;schicexplorer_schicclustercompartments was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/schicexplorer_schicclustercompartments/0bc84d7d94d4&quot;&gt;0bc84d7d94d4&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;schicexplorer_schicclusterminhash was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/schicexplorer_schicclusterminhash/68648299ffc4&quot;&gt;68648299ffc4&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;schicexplorer_schicclustersvl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/schicexplorer_schicclustersvl/eeb26f378f34&quot;&gt;eeb26f378f34&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;schicexplorer_schicconsensusmatrices was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/schicexplorer_schicconsensusmatrices/18bdb745b787&quot;&gt;18bdb745b787&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;schicexplorer_schiccorrectmatrices was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/schicexplorer_schiccorrectmatrices/16dda99bd733&quot;&gt;16dda99bd733&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;schicexplorer_schiccreatebulkmatrix was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/schicexplorer_schiccreatebulkmatrix/ec29352b062f&quot;&gt;ec29352b062f&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;schicexplorer_schicdemultiplex was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/schicexplorer_schicdemultiplex/649c86cedcb4&quot;&gt;649c86cedcb4&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;schicexplorer_schicinfo was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/schicexplorer_schicinfo/09f8be8a6e76&quot;&gt;09f8be8a6e76&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;schicexplorer_schicmergematrixbins was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/schicexplorer_schicmergematrixbins/ecae4e42d40a&quot;&gt;ecae4e42d40a&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;schicexplorer_schicmergetoscool was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/schicexplorer_schicmergetoscool/6ffcffed0225&quot;&gt;6ffcffed0225&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;schicexplorer_schicnormalize was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/schicexplorer_schicnormalize/7c2387e72aac&quot;&gt;7c2387e72aac&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;schicexplorer_schicplotclusterprofiles was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/schicexplorer_schicplotclusterprofiles/9da580a74230&quot;&gt;9da580a74230&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;schicexplorer_schicplotconsensusmatrices was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/schicexplorer_schicplotconsensusmatrices/259899fbb6ae&quot;&gt;259899fbb6ae&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;schicexplorer_schicqualitycontrol was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/schicexplorer_schicqualitycontrol/5f2eacae0bb8&quot;&gt;5f2eacae0bb8&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2020-03-10, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #190</summary></entry><entry><title type="html">Storage issues and potential data loss</title><link href="https://galaxyproject.eu/posts/2020/03/09/devops-storage-issues/" rel="alternate" type="text/html" title="Storage issues and potential data loss" /><published>2020-03-09T00:00:00+01:00</published><updated>2020-03-09T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2020/03/09/devops-storage-issues</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/03/09/devops-storage-issues/">&lt;p&gt;On Friday, we unfortunately experienced some data loss. Currently, we believe that some datasets created in the last two months were affected.&lt;/p&gt;
 
 &lt;p&gt;If your data was affected by this, the datasets will still appear in your history, but the data itself will be missing - i.e. if you click on the ‘View’ or ‘Download’ buttons, you will probably encounter an error or a white page.&lt;/p&gt;
 
@@ -230,6 +297,4 @@ Todas Helena added two new features to get a general information about the TIaaS
   &lt;li&gt;&lt;a href=&quot;https://usegalaxy.eu/tiaas/stats/&quot;&gt;some Statistics&lt;/a&gt; about the TIaaS events&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Enjoy!&lt;/p&gt;</content><author><name></name></author><category term="devops" /><summary type="html">We’ve seen the TIaaS Queue Status receive a lot of positive feedback. Todas Helena added two new features to get a general information about the TIaaS service.</summary></entry><entry><title type="html">Coronavirus data analysis by University of Freiburg</title><link href="https://galaxyproject.eu/posts/2020/02/26/coronavirus-data-analysis/" rel="alternate" type="text/html" title="Coronavirus data analysis by University of Freiburg" /><published>2020-02-26T00:00:00+01:00</published><updated>2020-02-26T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2020/02/26/coronavirus-data-analysis</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/02/26/coronavirus-data-analysis/">&lt;p&gt;The Galaxy platform enables the free and transparent overview of COVID-19 genome informations.&lt;/p&gt;</content><author><name></name></author><category term="de.NBI" /><category term="ELIXIR" /><summary type="html">The Galaxy platform enables the free and transparent overview of COVID-19 genome informations.</summary></entry><entry><title type="html">Crowdsourcing citizen science data on usegalaxy.eu</title><link href="https://galaxyproject.eu/posts/2020/02/25/citizen-science-ecology/" rel="alternate" type="text/html" title="Crowdsourcing citizen science data on usegalaxy.eu" /><published>2020-02-25T00:00:00+01:00</published><updated>2020-02-25T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2020/02/25/citizen-science-ecology</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/02/25/citizen-science-ecology/">&lt;p&gt;Galaxy for Ecology, mixing Ecology research, Citizen Science and Massively Multi Online Science by Yvan Le Bras, Simon Bénateau.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://galaxyproject.org/blog/2020-01-galaxy-ecology-citizen-science/webhook1.PNG&quot; alt=&quot;Ecoogy citizen science&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="de.NBI" /><summary type="html">Galaxy for Ecology, mixing Ecology research, Citizen Science and Massively Multi Online Science by Yvan Le Bras, Simon Bénateau.</summary></entry></feed>
+&lt;p&gt;Enjoy!&lt;/p&gt;</content><author><name></name></author><category term="devops" /><summary type="html">We’ve seen the TIaaS Queue Status receive a lot of positive feedback. Todas Helena added two new features to get a general information about the TIaaS service.</summary></entry><entry><title type="html">Coronavirus data analysis by University of Freiburg</title><link href="https://galaxyproject.eu/posts/2020/02/26/coronavirus-data-analysis/" rel="alternate" type="text/html" title="Coronavirus data analysis by University of Freiburg" /><published>2020-02-26T00:00:00+01:00</published><updated>2020-02-26T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2020/02/26/coronavirus-data-analysis</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/02/26/coronavirus-data-analysis/">&lt;p&gt;The Galaxy platform enables the free and transparent overview of COVID-19 genome informations.&lt;/p&gt;</content><author><name></name></author><category term="de.NBI" /><category term="ELIXIR" /><summary type="html">The Galaxy platform enables the free and transparent overview of COVID-19 genome informations.</summary></entry></feed>
