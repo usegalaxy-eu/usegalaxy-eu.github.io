@@ -1,4 +1,126 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2020-03-12T05:19:28+01:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">Virtual screening against SARS-CoV-2 main protease</title><link href="https://galaxyproject.eu/posts/2020/03/11/virtual-screening/" rel="alternate" type="text/html" title="Virtual screening against SARS-CoV-2 main protease" /><published>2020-03-11T00:00:00+01:00</published><updated>2020-03-11T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2020/03/11/virtual-screening</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/03/11/virtual-screening/">&lt;p&gt;Thanks to some amazing work done at the Diamond Light Source in the UK, protein structures of SARS-CoV-2 main protease in complex with a number of different fragments have recently been published.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2020-03-12T09:07:28+01:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2020-03-12</title><link href="https://galaxyproject.eu/posts/2020/03/12/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2020-03-12" /><published>2020-03-12T00:00:00+01:00</published><updated>2020-03-12T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2020/03/12/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/03/12/tool-update/">&lt;p&gt;On 2020-03-12, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#191/&quot;&gt;Jenkins Build #191&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;hca_sc_utils_viz&quot;&gt;hca_sc_utils_viz&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;salmon_kallisto_mtx_to_10x was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/salmon_kallisto_mtx_to_10x/e42c217a450f&quot;&gt;e42c217a450f&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;hca_sc_scanpy_tools&quot;&gt;hca_sc_scanpy_tools&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;anndata_ops was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/anndata_ops/35422e51b804&quot;&gt;35422e51b804&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_compute_graph was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_compute_graph/c938bef2ca98&quot;&gt;c938bef2ca98&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_filter_cells was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_filter_cells/3dcc1629e420&quot;&gt;3dcc1629e420&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_filter_genes was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_filter_genes/c678f671e151&quot;&gt;c678f671e151&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_find_cluster was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_find_cluster/e4006a341f74&quot;&gt;e4006a341f74&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_find_markers was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_find_markers/0d63195a9b9f&quot;&gt;0d63195a9b9f&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_find_variable_genes was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_find_variable_genes/1c59a010bb44&quot;&gt;1c59a010bb44&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_normalise_data was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_normalise_data/a97c37e0309a&quot;&gt;a97c37e0309a&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_parameter_iterator was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_parameter_iterator/1a30a61effea&quot;&gt;1a30a61effea&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_parameter_iterator was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_parameter_iterator/40feaaed47cf&quot;&gt;40feaaed47cf&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_plot_embed was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_plot_embed/210026a1a50a&quot;&gt;210026a1a50a&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_plot_trajectory was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_plot_trajectory/2d00acd70129&quot;&gt;2d00acd70129&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_read_10x was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_read_10x/3ffd959f55f4&quot;&gt;3ffd959f55f4&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_regress_variable was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_regress_variable/99c7380fae41&quot;&gt;99c7380fae41&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_run_diffmap was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_run_diffmap/c869331377bf&quot;&gt;c869331377bf&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_run_dpt was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_run_dpt/eb764ec05bb9&quot;&gt;eb764ec05bb9&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_run_fdg was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_run_fdg/425f2e046231&quot;&gt;425f2e046231&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_run_paga was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_run_paga/eba43c4d86b9&quot;&gt;eba43c4d86b9&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_run_pca was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_run_pca/2dd53b944e78&quot;&gt;2dd53b944e78&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_run_tsne was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_run_tsne/e61ba8b05578&quot;&gt;e61ba8b05578&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_run_umap was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_run_umap/b282c349bd67&quot;&gt;b282c349bd67&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_scale_data was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_scale_data/1bb1d4419c48&quot;&gt;1bb1d4419c48&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;machine-learning&quot;&gt;Machine Learning&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;keras_batch_models was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/keras_batch_models/0dc3027df8f4&quot;&gt;0dc3027df8f4&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;keras_model_config was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/keras_model_config/2d8478144bb2&quot;&gt;2d8478144bb2&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;keras_train_and_eval was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/keras_train_and_eval/ccd6269fad60&quot;&gt;ccd6269fad60&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;ml_visualization_ex was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/ml_visualization_ex/222c02df5d55&quot;&gt;222c02df5d55&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;model_prediction was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/model_prediction/65820fb7257b&quot;&gt;65820fb7257b&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;sklearn_build_pipeline was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_build_pipeline/97dce66fe158&quot;&gt;97dce66fe158&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;sklearn_clf_metrics was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_clf_metrics/55703205546f&quot;&gt;55703205546f&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;sklearn_data_preprocess was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_data_preprocess/826c3e68e7a9&quot;&gt;826c3e68e7a9&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;sklearn_discriminant_classifier was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_discriminant_classifier/237ae72d58a3&quot;&gt;237ae72d58a3&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;sklearn_ensemble was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_ensemble/3ab7af14f1b5&quot;&gt;3ab7af14f1b5&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;sklearn_estimator_attributes was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_estimator_attributes/bd27a211182a&quot;&gt;bd27a211182a&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;sklearn_feature_selection was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_feature_selection/ae0fafb53c1d&quot;&gt;ae0fafb53c1d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;sklearn_fitted_model_eval was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_fitted_model_eval/044729657181&quot;&gt;044729657181&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;sklearn_generalized_linear was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_generalized_linear/3e4a7684d402&quot;&gt;3e4a7684d402&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;sklearn_model_fit was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_model_fit/fc2e64a27e90&quot;&gt;fc2e64a27e90&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;sklearn_model_validation was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_model_validation/0474777be433&quot;&gt;0474777be433&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;sklearn_nn_classifier was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_nn_classifier/39ae3c043096&quot;&gt;39ae3c043096&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;sklearn_pairwise_metrics was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_pairwise_metrics/7366e5108e9f&quot;&gt;7366e5108e9f&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;sklearn_regression_metrics was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_regression_metrics/1e98dbb8d5bc&quot;&gt;1e98dbb8d5bc&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;sklearn_sample_generator was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_sample_generator/b4ba9602a36e&quot;&gt;b4ba9602a36e&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;sklearn_searchcv was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_searchcv/1ae5dfd5ac17&quot;&gt;1ae5dfd5ac17&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;sklearn_svm_classifier was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_svm_classifier/d2afc87db26b&quot;&gt;d2afc87db26b&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;sklearn_train_test_eval was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_train_test_eval/1b68acd5ac08&quot;&gt;1b68acd5ac08&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;sklearn_train_test_split was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_train_test_split/145208b3579d&quot;&gt;145208b3579d&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;hicexplorer&quot;&gt;HiCExplorer&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;hicexplorer_chicaggregatestatistic was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_chicaggregatestatistic/fb981b15ccef&quot;&gt;fb981b15ccef&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_chicdifferentialtest was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_chicdifferentialtest/1e52af48d34e&quot;&gt;1e52af48d34e&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_chicplotviewpoint was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_chicplotviewpoint/136ebddd6ec3&quot;&gt;136ebddd6ec3&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_chicqualitycontrol was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_chicqualitycontrol/7095bb186016&quot;&gt;7095bb186016&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_chicsignificantinteractions was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_chicsignificantinteractions/3df84bb4486c&quot;&gt;3df84bb4486c&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_chicviewpoint was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_chicviewpoint/0dabfd9a496b&quot;&gt;0dabfd9a496b&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_chicviewpointbackgroundmodel was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_chicviewpointbackgroundmodel/b9cdce1e57a1&quot;&gt;b9cdce1e57a1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicadjustmatrix was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicadjustmatrix/cc52e4ded146&quot;&gt;cc52e4ded146&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicaggregatecontacts was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicaggregatecontacts/7066a1eda176&quot;&gt;7066a1eda176&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicaverageregions was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicaverageregions/4b6a36c18e5e&quot;&gt;4b6a36c18e5e&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicbuildmatrix was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicbuildmatrix/231687cac31b&quot;&gt;231687cac31b&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hiccomparematrices was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hiccomparematrices/2f74c344d0a0&quot;&gt;2f74c344d0a0&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hiccompartmentspolarization was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hiccompartmentspolarization/536a6f0d260c&quot;&gt;536a6f0d260c&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicconvertformat was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicconvertformat/2f62a87d4017&quot;&gt;2f62a87d4017&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hiccorrectmatrix was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hiccorrectmatrix/c543c41377dd&quot;&gt;c543c41377dd&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hiccorrelate was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hiccorrelate/5df41deff008&quot;&gt;5df41deff008&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicdetectloops was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicdetectloops/ce8d154fc6b5&quot;&gt;ce8d154fc6b5&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicfindrestrictionsites was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicfindrestrictionsites/3c03ddb45833&quot;&gt;3c03ddb45833&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicfindtads was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicfindtads/1d9b575fe97d&quot;&gt;1d9b575fe97d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicinfo was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicinfo/de14870013da&quot;&gt;de14870013da&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicmergeloops was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicmergeloops/59d3fa4c16f5&quot;&gt;59d3fa4c16f5&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicmergematrixbins was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicmergematrixbins/c5280c9117f3&quot;&gt;c5280c9117f3&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicnormalize was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicnormalize/b7cf65cb8019&quot;&gt;b7cf65cb8019&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicpca was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicpca/c435572f7cf1&quot;&gt;c435572f7cf1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicplotaverageregions was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicplotaverageregions/0dff8b5011c0&quot;&gt;0dff8b5011c0&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicplotdistvscounts was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicplotdistvscounts/8c1ac76d7063&quot;&gt;8c1ac76d7063&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicplotmatrix was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicplotmatrix/b553d14a7845&quot;&gt;b553d14a7845&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicplotsvl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicplotsvl/3a7752b8d2cb&quot;&gt;3a7752b8d2cb&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicplotviewpoint was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicplotviewpoint/84d4b83f092a&quot;&gt;84d4b83f092a&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicquickqc was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicquickqc/909125ec301f&quot;&gt;909125ec301f&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicsummatrices was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicsummatrices/759f6bb1432f&quot;&gt;759f6bb1432f&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hictransform was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hictransform/ff11c08dc0d0&quot;&gt;ff11c08dc0d0&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicvalidatelocations was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicvalidatelocations/61754e6c156d&quot;&gt;61754e6c156d&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;variant-calling&quot;&gt;Variant Calling&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;snippy was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/snippy/5bbf9eada9c2&quot;&gt;5bbf9eada9c2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;rna-analysis&quot;&gt;RNA Analysis&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;chira_collapse was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/chira_collapse/b3065e4df04c&quot;&gt;b3065e4df04c&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;chira_extract was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/chira_extract/7e316a1fe98e&quot;&gt;7e316a1fe98e&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;chira_map was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/chira_map/d4355828b4d3&quot;&gt;d4355828b4d3&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;chira_merge was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/chira_merge/cfd572ff72aa&quot;&gt;cfd572ff72aa&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;chira_quantify was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/chira_quantify/35a20c16a49e&quot;&gt;35a20c16a49e&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;rad-seq&quot;&gt;RAD-seq&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;stacks2_cstacks was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/stacks2_cstacks/c541e62d6c56&quot;&gt;c541e62d6c56&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2020-03-12, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #191</summary></entry><entry><title type="html">Virtual screening against SARS-CoV-2 main protease</title><link href="https://galaxyproject.eu/posts/2020/03/11/virtual-screening/" rel="alternate" type="text/html" title="Virtual screening against SARS-CoV-2 main protease" /><published>2020-03-11T00:00:00+01:00</published><updated>2020-03-11T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2020/03/11/virtual-screening</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/03/11/virtual-screening/">&lt;p&gt;Thanks to some amazing work done at the Diamond Light Source in the UK, protein structures of SARS-CoV-2 main protease in complex with a number of different fragments have recently been published.&lt;/p&gt;
 
 &lt;p&gt;Now, based on these experimental data, we have been helping our collaborators at Diamond construct Galaxy workflows for identifying potential ligands by virtual screening. These workflows use docking and scoring tools developed in Diamond and here in Freiburg (all accessible via &lt;a href=&quot;https://cheminformatics.usegalaxy.eu/&quot;&gt;https://cheminformatics.usegalaxy.eu&lt;/a&gt;) to generate and test around fifty million poses against the protease structure. Promising compounds will be synthesised and studied further.&lt;/p&gt;
 
@@ -295,12 +417,4 @@ Helena&lt;/p&gt;</content><author><name></name></author><category term="training
 &lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2020-02-29, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #188</summary></entry><entry><title type="html">Laniakea@ReCaS becomes an EOSC Provider</title><link href="https://galaxyproject.eu/posts/2020/02/28/laniakea-on-eosc-marketplace/" rel="alternate" type="text/html" title="Laniakea@ReCaS becomes an EOSC Provider" /><published>2020-02-28T00:00:00+01:00</published><updated>2020-02-28T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2020/02/28/laniakea-on-eosc-marketplace</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/02/28/laniakea-on-eosc-marketplace/">&lt;p&gt;&lt;a href=&quot;https://laniakea-elixir-it.github.io/&quot;&gt;Laniakea@ReCaS&lt;/a&gt; is now a European Open Science Cloud provider, thus opening the service to all EOSC users.&lt;/p&gt;
 
 &lt;p&gt;The service is available in the EOSC Marketplace &lt;a href=&quot;https://marketplace.eosc-portal.eu/services/laniakea-recas&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="galaxy" /><category term="laniakea" /><summary type="html">Laniakea@ReCaS is now a European Open Science Cloud provider, thus opening the service to all EOSC users.</summary></entry><entry><title type="html">Open collaborative infrastructure to tackle public health emergencies</title><link href="https://galaxyproject.eu/posts/2020/02/28/open-infrastructure-for-public-health-care/" rel="alternate" type="text/html" title="Open collaborative infrastructure to tackle public health emergencies" /><published>2020-02-28T00:00:00+01:00</published><updated>2020-02-28T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2020/02/28/open-infrastructure-for-public-health-care</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/02/28/open-infrastructure-for-public-health-care/">&lt;p&gt;The rapid spread of the COVID-19 virus highlights the need for an open analytics environment so that the global
-research community can collaborate on developing effective countermeasures.&lt;/p&gt;</content><author><name></name></author><category term="de.NBI" /><category term="ELIXIR" /><summary type="html">The rapid spread of the COVID-19 virus highlights the need for an open analytics environment so that the global research community can collaborate on developing effective countermeasures.</summary></entry><entry><title type="html">TIaaS Calendar and Stats site</title><link href="https://galaxyproject.eu/posts/2020/02/27/TIaaS-update/" rel="alternate" type="text/html" title="TIaaS Calendar and Stats site" /><published>2020-02-27T00:00:00+01:00</published><updated>2020-02-27T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2020/02/27/TIaaS-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/02/27/TIaaS-update/">&lt;p&gt;We’ve seen the &lt;a href=&quot;https://galaxyproject.eu/tiaas&quot;&gt;TIaaS Queue Status&lt;/a&gt; receive a lot of positive feedback.
-Todas Helena added two new features to get a general information about the TIaaS service.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://usegalaxy.eu/tiaas/calendar/&quot;&gt;a Calendar&lt;/a&gt; that shows when TIaaS trainings are booked&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://usegalaxy.eu/tiaas/stats/&quot;&gt;some Statistics&lt;/a&gt; about the TIaaS events&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Enjoy!&lt;/p&gt;</content><author><name></name></author><category term="devops" /><summary type="html">We’ve seen the TIaaS Queue Status receive a lot of positive feedback. Todas Helena added two new features to get a general information about the TIaaS service.</summary></entry></feed>
+research community can collaborate on developing effective countermeasures.&lt;/p&gt;</content><author><name></name></author><category term="de.NBI" /><category term="ELIXIR" /><summary type="html">The rapid spread of the COVID-19 virus highlights the need for an open analytics environment so that the global research community can collaborate on developing effective countermeasures.</summary></entry></feed>
