@@ -1,80 +1,21 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2020-03-21T11:40:10+01:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2020-03-21</title><link href="https://galaxyproject.eu/posts/2020/03/21/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2020-03-21" /><published>2020-03-21T00:00:00+01:00</published><updated>2020-03-21T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2020/03/21/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/03/21/tool-update/">&lt;p&gt;On 2020-03-21, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#193/&quot;&gt;Jenkins Build #193&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2020-03-21T17:17:25+01:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2020-03-21</title><link href="https://galaxyproject.eu/posts/2020/03/21/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2020-03-21" /><published>2020-03-21T00:00:00+01:00</published><updated>2020-03-21T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2020/03/21/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/03/21/tool-update/">&lt;p&gt;On 2020-03-21, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#194/&quot;&gt;Jenkins Build #194&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;metagenomic-analysis&quot;&gt;Metagenomic Analysis&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;dada2_assigntaxonomyaddspecies was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/dada2_assigntaxonomyaddspecies/1c9715cef808&quot;&gt;1c9715cef808&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;dada2_dada was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/dada2_dada/2222f08c8316&quot;&gt;2222f08c8316&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;dada2_filterandtrim was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/dada2_filterandtrim/23fc35093b11&quot;&gt;23fc35093b11&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;dada2_learnerrors was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/dada2_learnerrors/c48d42d65d2b&quot;&gt;c48d42d65d2b&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;dada2_makesequencetable was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/dada2_makesequencetable/99c6929236fa&quot;&gt;99c6929236fa&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;dada2_mergepairs was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/dada2_mergepairs/69900ffd3b8e&quot;&gt;69900ffd3b8e&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;dada2_plotcomplexity was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/dada2_plotcomplexity/1728e5ee871a&quot;&gt;1728e5ee871a&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;dada2_plotqualityprofile was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/dada2_plotqualityprofile/2a90d2fd3336&quot;&gt;2a90d2fd3336&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;dada2_removebimeradenovo was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/dada2_removebimeradenovo/5b752525bd6f&quot;&gt;5b752525bd6f&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;dada2_seqcounts was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/dada2_seqcounts/f74c56549143&quot;&gt;f74c56549143&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;hca_sc_utils_viz&quot;&gt;hca_sc_utils_viz&lt;/h2&gt;
+&lt;h2 id=&quot;variant-calling&quot;&gt;Variant Calling&lt;/h2&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;dropletutils_empty_drops was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/dropletutils_empty_drops/00b41600e1c1&quot;&gt;00b41600e1c1&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;dropletutils_read_10x was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/dropletutils_read_10x/48c1e7b39675&quot;&gt;48c1e7b39675&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;proteomics&quot;&gt;Proteomics&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;maldi_quant_peak_detection was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/maldi_quant_peak_detection/e66f552a3c47&quot;&gt;e66f552a3c47&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;phylogenetics&quot;&gt;Phylogenetics&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;hyphy_absrel was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_absrel/c5533a61ea60&quot;&gt;c5533a61ea60&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;hyphy_bgm was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_bgm/fb142ad9b580&quot;&gt;fb142ad9b580&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;hyphy_busted was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_busted/4ff928db5592&quot;&gt;4ff928db5592&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;hyphy_fade was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_fade/62971c58f0dc&quot;&gt;62971c58f0dc&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;hyphy_fel was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_fel/6400b683aced&quot;&gt;6400b683aced&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;hyphy_fubar was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_fubar/da68d7067bf8&quot;&gt;da68d7067bf8&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;hyphy_gard was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_gard/c96eee4ebe63&quot;&gt;c96eee4ebe63&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;hyphy_meme was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_meme/74b590fdc6a0&quot;&gt;74b590fdc6a0&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;hyphy_relax was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_relax/c62ddfa33ac5&quot;&gt;c62ddfa33ac5&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;hyphy_slac was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_slac/36a50b938d70&quot;&gt;36a50b938d70&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;hyphy_sm19 was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_sm19/1cd3060a8504&quot;&gt;1cd3060a8504&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;get-data&quot;&gt;Get Data&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;sra_tools was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/sra_tools/aad3885b3216&quot;&gt;aad3885b3216&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;rna-analysis&quot;&gt;RNA Analysis&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;chira_collapse was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/chira_collapse/2a57d2ef04c6&quot;&gt;2a57d2ef04c6&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;chira_extract was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/chira_extract/dea6bc47a47e&quot;&gt;dea6bc47a47e&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;chira_map was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/chira_map/39bb70c2764e&quot;&gt;39bb70c2764e&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;chira_merge was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/chira_merge/0170de5072d4&quot;&gt;0170de5072d4&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;chira_quantify was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/chira_quantify/903f7a4cfbf0&quot;&gt;903f7a4cfbf0&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;chemicaltoolbox&quot;&gt;ChemicalToolBox&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;fpocket was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/fpocket/909c8763f127&quot;&gt;909c8763f127&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;rdock_rbcavity was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/rdock_rbcavity/5f73eb32ddbf&quot;&gt;5f73eb32ddbf&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;rdock_rbdock was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/rdock_rbdock/1709d2c3dc20&quot;&gt;1709d2c3dc20&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sucos_clustering was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sucos_clustering/58d18838e244&quot;&gt;58d18838e244&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sucos_docking_scoring was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sucos_docking_scoring/8161c08627bf&quot;&gt;8161c08627bf&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;lofreq_alnqual was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/lofreq_alnqual/435b157bed6d&quot;&gt;435b157bed6d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;lofreq_call was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/lofreq_call/3b4b2121842f&quot;&gt;3b4b2121842f&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;lofreq_filter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/lofreq_filter/9cb929f21cfa&quot;&gt;9cb929f21cfa&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;lofreq_indelqual was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/lofreq_indelqual/5d6a078d30b0&quot;&gt;5d6a078d30b0&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;lofreq_indelqual was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/lofreq_indelqual/f4473557ffc7&quot;&gt;f4473557ffc7&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;lofreq_viterbi was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/lofreq_viterbi/cdaab621d454&quot;&gt;cdaab621d454&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;rad-seq&quot;&gt;RAD-seq&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;stacks2_cstacks was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/stacks2_cstacks/c541e62d6c56&quot;&gt;c541e62d6c56&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2020-03-21, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #193</summary></entry><entry><title type="html">WirVsVirus Hackathon</title><link href="https://galaxyproject.eu/posts/2020/03/19/wirvsvirus/" rel="alternate" type="text/html" title="WirVsVirus Hackathon" /><published>2020-03-19T00:00:00+01:00</published><updated>2020-03-19T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2020/03/19/wirvsvirus</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/03/19/wirvsvirus/">&lt;p&gt;We want to encourage you to participate and join the fight against Covid-19.&lt;/p&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2020-03-21, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #194</summary></entry><entry><title type="html">WirVsVirus Hackathon</title><link href="https://galaxyproject.eu/posts/2020/03/19/wirvsvirus/" rel="alternate" type="text/html" title="WirVsVirus Hackathon" /><published>2020-03-19T00:00:00+01:00</published><updated>2020-03-19T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2020/03/19/wirvsvirus</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/03/19/wirvsvirus/">&lt;p&gt;We want to encourage you to participate and join the fight against Covid-19.&lt;/p&gt;
 
 &lt;p&gt;The Federal Government of Germany is organising the &lt;a href=&quot;https://wirvsvirushackathon.org/&quot;&gt;#WirVsVirus Hackathon&lt;/a&gt;, and we at Galaxy are here to help.&lt;/p&gt;
 
