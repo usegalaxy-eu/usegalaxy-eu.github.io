@@ -1,69 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2020-03-25T00:13:47+01:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2020-03-25</title><link href="https://galaxyproject.eu/posts/2020/03/25/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2020-03-25" /><published>2020-03-25T00:00:00+01:00</published><updated>2020-03-25T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2020/03/25/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/03/25/tool-update/">&lt;p&gt;On 2020-03-25, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#195/&quot;&gt;Jenkins Build #195&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;chemicaltoolbox&quot;&gt;ChemicalToolBox&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;ctb_rdkit_descriptors was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/ctb_rdkit_descriptors/617d4555d8d3&quot;&gt;617d4555d8d3&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;ctb_rdkit_descriptors was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/ctb_rdkit_descriptors/d68bf44e1f5c&quot;&gt;d68bf44e1f5c&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;enumerate_charges was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/enumerate_charges/2a868592ebcb&quot;&gt;2a868592ebcb&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sdf_to_tab was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sdf_to_tab/71bc02c59d3a&quot;&gt;71bc02c59d3a&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;rad-seq&quot;&gt;RAD-seq&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;stacks2_cstacks was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/stacks2_cstacks/c541e62d6c56&quot;&gt;c541e62d6c56&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;imaging&quot;&gt;Imaging&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;idr_download_by_ids was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/idr_download_by_ids/9340cbc7796c&quot;&gt;9340cbc7796c&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;hicexplorer&quot;&gt;HiCExplorer&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;hicexplorer_chicaggregatestatistic was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_chicaggregatestatistic/63588847a75a&quot;&gt;63588847a75a&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;hicexplorer_chicdifferentialtest was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_chicdifferentialtest/9180983da5c2&quot;&gt;9180983da5c2&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;hicexplorer_chicplotviewpoint was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_chicplotviewpoint/dbf82dd7bdb3&quot;&gt;dbf82dd7bdb3&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;hicexplorer_chicqualitycontrol was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_chicqualitycontrol/0e149d0c112c&quot;&gt;0e149d0c112c&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;hicexplorer_chicsignificantinteractions was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_chicsignificantinteractions/7668fac6cc3a&quot;&gt;7668fac6cc3a&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;hicexplorer_chicviewpoint was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_chicviewpoint/8fb584526458&quot;&gt;8fb584526458&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;hicexplorer_chicviewpointbackgroundmodel was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_chicviewpointbackgroundmodel/7fe1a401d833&quot;&gt;7fe1a401d833&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;hicexplorer_hicadjustmatrix was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicadjustmatrix/26f73673e261&quot;&gt;26f73673e261&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;hicexplorer_hicaggregatecontacts was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicaggregatecontacts/4ba4b59dcff1&quot;&gt;4ba4b59dcff1&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;hicexplorer_hicaverageregions was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicaverageregions/9b02bf402560&quot;&gt;9b02bf402560&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;hicexplorer_hicbuildmatrix was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicbuildmatrix/6152fc6da3dc&quot;&gt;6152fc6da3dc&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;hicexplorer_hiccomparematrices was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hiccomparematrices/cf39f061ad91&quot;&gt;cf39f061ad91&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;hicexplorer_hiccompartmentspolarization was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hiccompartmentspolarization/a9b3dfde1f31&quot;&gt;a9b3dfde1f31&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;hicexplorer_hicconvertformat was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicconvertformat/cfce80a8e25d&quot;&gt;cfce80a8e25d&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;hicexplorer_hiccorrectmatrix was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hiccorrectmatrix/bc027a1c0952&quot;&gt;bc027a1c0952&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;hicexplorer_hiccorrelate was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hiccorrelate/882a7222da7e&quot;&gt;882a7222da7e&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;hicexplorer_hicdetectloops was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicdetectloops/1119cdd14ddb&quot;&gt;1119cdd14ddb&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;hicexplorer_hicfindrestrictionsites was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicfindrestrictionsites/8ea7e91d13b3&quot;&gt;8ea7e91d13b3&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;hicexplorer_hicfindtads was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicfindtads/c798e661aae3&quot;&gt;c798e661aae3&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;hicexplorer_hicinfo was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicinfo/172137e5fadb&quot;&gt;172137e5fadb&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;hicexplorer_hicmergeloops was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicmergeloops/baefc6a3f92a&quot;&gt;baefc6a3f92a&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;hicexplorer_hicmergematrixbins was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicmergematrixbins/d5e27e6cfa59&quot;&gt;d5e27e6cfa59&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;hicexplorer_hicnormalize was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicnormalize/7f7139b8a671&quot;&gt;7f7139b8a671&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;hicexplorer_hicpca was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicpca/b022c377239d&quot;&gt;b022c377239d&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;hicexplorer_hicplotaverageregions was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicplotaverageregions/a67cb12c785d&quot;&gt;a67cb12c785d&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;hicexplorer_hicplotdistvscounts was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicplotdistvscounts/104bb2954821&quot;&gt;104bb2954821&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;hicexplorer_hicplotmatrix was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicplotmatrix/4d2f071002b1&quot;&gt;4d2f071002b1&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;hicexplorer_hicplotsvl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicplotsvl/41e1d7a40b3b&quot;&gt;41e1d7a40b3b&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;hicexplorer_hicplotviewpoint was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicplotviewpoint/88208ca6cb90&quot;&gt;88208ca6cb90&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;hicexplorer_hicquickqc was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicquickqc/3175b66ea9a3&quot;&gt;3175b66ea9a3&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;hicexplorer_hicsummatrices was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicsummatrices/3ff8fa11be2b&quot;&gt;3ff8fa11be2b&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;hicexplorer_hictransform was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hictransform/b3553a0a5dcf&quot;&gt;b3553a0a5dcf&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;hicexplorer_hicvalidatelocations was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicvalidatelocations/bccefbea9b8d&quot;&gt;bccefbea9b8d&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;hca_sc_utils_viz&quot;&gt;hca_sc_utils_viz&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;droplet_barcode_plot was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/droplet_barcode_plot/8f605643ccfd&quot;&gt;8f605643ccfd&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2020-03-25, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #195</summary></entry><entry><title type="html">ChiRA tool suite - an integrated framework for Chimeric Read Analysis from RNA-RNA interactome data</title><link href="https://galaxyproject.eu/posts/2020/03/24/rna-interactome/" rel="alternate" type="text/html" title="ChiRA tool suite - an integrated framework for Chimeric Read Analysis from RNA-RNA interactome data" /><published>2020-03-24T00:00:00+01:00</published><updated>2020-03-24T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2020/03/24/rna-interactome</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/03/24/rna-interactome/">&lt;p&gt;ChiRA is a set of tools to analyze RNA-RNA interactome experimental data such as CLASH, CLEAR-CLIP, PARIS, LIGR-Seq, etc.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2020-03-25T10:19:21+01:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">ChiRA tool suite - an integrated framework for Chimeric Read Analysis from RNA-RNA interactome data</title><link href="https://galaxyproject.eu/posts/2020/03/24/rna-interactome/" rel="alternate" type="text/html" title="ChiRA tool suite - an integrated framework for Chimeric Read Analysis from RNA-RNA interactome data" /><published>2020-03-24T00:00:00+01:00</published><updated>2020-03-24T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2020/03/24/rna-interactome</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/03/24/rna-interactome/">&lt;p&gt;ChiRA is a set of tools to analyze RNA-RNA interactome experimental data such as CLASH, CLEAR-CLIP, PARIS, LIGR-Seq, etc.&lt;/p&gt;
 
 &lt;p&gt;The reads from these datasets are chimeric, i.e, two interacting RNA fragments fused into a single read. Limitations of the
 current library preparation protocols limit the length of each sequenced interacting RNA fragment. These smaller RNA fragments
@@ -111,12 +46,57 @@ exporting them. ChiRA is now part of the RNA workbench (&lt;a href=&quot;https:/
 &lt;ul&gt;
   &lt;li&gt;dropletutils_empty_drops was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/dropletutils_empty_drops/00b41600e1c1&quot;&gt;00b41600e1c1&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;dropletutils_read_10x was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/dropletutils_read_10x/48c1e7b39675&quot;&gt;48c1e7b39675&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;droplet_barcode_plot was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/droplet_barcode_plot/8f605643ccfd&quot;&gt;8f605643ccfd&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;proteomics&quot;&gt;Proteomics&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;maldi_quant_peak_detection was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/maldi_quant_peak_detection/e66f552a3c47&quot;&gt;e66f552a3c47&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;imaging&quot;&gt;Imaging&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;idr_download_by_ids was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/idr_download_by_ids/9340cbc7796c&quot;&gt;9340cbc7796c&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;hicexplorer&quot;&gt;HiCExplorer&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;hicexplorer_chicaggregatestatistic was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_chicaggregatestatistic/63588847a75a&quot;&gt;63588847a75a&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_chicdifferentialtest was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_chicdifferentialtest/9180983da5c2&quot;&gt;9180983da5c2&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_chicplotviewpoint was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_chicplotviewpoint/dbf82dd7bdb3&quot;&gt;dbf82dd7bdb3&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_chicqualitycontrol was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_chicqualitycontrol/0e149d0c112c&quot;&gt;0e149d0c112c&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_chicsignificantinteractions was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_chicsignificantinteractions/7668fac6cc3a&quot;&gt;7668fac6cc3a&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_chicviewpoint was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_chicviewpoint/8fb584526458&quot;&gt;8fb584526458&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_chicviewpointbackgroundmodel was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_chicviewpointbackgroundmodel/7fe1a401d833&quot;&gt;7fe1a401d833&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicadjustmatrix was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicadjustmatrix/26f73673e261&quot;&gt;26f73673e261&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicaggregatecontacts was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicaggregatecontacts/4ba4b59dcff1&quot;&gt;4ba4b59dcff1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicaverageregions was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicaverageregions/9b02bf402560&quot;&gt;9b02bf402560&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicbuildmatrix was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicbuildmatrix/6152fc6da3dc&quot;&gt;6152fc6da3dc&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hiccomparematrices was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hiccomparematrices/cf39f061ad91&quot;&gt;cf39f061ad91&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hiccompartmentspolarization was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hiccompartmentspolarization/a9b3dfde1f31&quot;&gt;a9b3dfde1f31&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicconvertformat was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicconvertformat/cfce80a8e25d&quot;&gt;cfce80a8e25d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hiccorrectmatrix was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hiccorrectmatrix/bc027a1c0952&quot;&gt;bc027a1c0952&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hiccorrelate was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hiccorrelate/882a7222da7e&quot;&gt;882a7222da7e&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicdetectloops was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicdetectloops/1119cdd14ddb&quot;&gt;1119cdd14ddb&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicfindrestrictionsites was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicfindrestrictionsites/8ea7e91d13b3&quot;&gt;8ea7e91d13b3&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicfindtads was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicfindtads/c798e661aae3&quot;&gt;c798e661aae3&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicinfo was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicinfo/172137e5fadb&quot;&gt;172137e5fadb&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicmergeloops was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicmergeloops/baefc6a3f92a&quot;&gt;baefc6a3f92a&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicmergematrixbins was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicmergematrixbins/d5e27e6cfa59&quot;&gt;d5e27e6cfa59&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicnormalize was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicnormalize/7f7139b8a671&quot;&gt;7f7139b8a671&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicpca was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicpca/b022c377239d&quot;&gt;b022c377239d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicplotaverageregions was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicplotaverageregions/a67cb12c785d&quot;&gt;a67cb12c785d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicplotdistvscounts was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicplotdistvscounts/104bb2954821&quot;&gt;104bb2954821&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicplotmatrix was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicplotmatrix/4d2f071002b1&quot;&gt;4d2f071002b1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicplotsvl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicplotsvl/41e1d7a40b3b&quot;&gt;41e1d7a40b3b&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicplotviewpoint was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicplotviewpoint/88208ca6cb90&quot;&gt;88208ca6cb90&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicquickqc was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicquickqc/3175b66ea9a3&quot;&gt;3175b66ea9a3&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicsummatrices was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicsummatrices/3ff8fa11be2b&quot;&gt;3ff8fa11be2b&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hictransform was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hictransform/b3553a0a5dcf&quot;&gt;b3553a0a5dcf&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicvalidatelocations was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicvalidatelocations/bccefbea9b8d&quot;&gt;bccefbea9b8d&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;phylogenetics&quot;&gt;Phylogenetics&lt;/h2&gt;
@@ -159,6 +139,10 @@ exporting them. ChiRA is now part of the RNA workbench (&lt;a href=&quot;https:/
   &lt;li&gt;rdock_rbdock was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/rdock_rbdock/1709d2c3dc20&quot;&gt;1709d2c3dc20&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;sucos_clustering was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sucos_clustering/58d18838e244&quot;&gt;58d18838e244&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;sucos_docking_scoring was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sucos_docking_scoring/8161c08627bf&quot;&gt;8161c08627bf&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;ctb_rdkit_descriptors was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/ctb_rdkit_descriptors/617d4555d8d3&quot;&gt;617d4555d8d3&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;ctb_rdkit_descriptors was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/ctb_rdkit_descriptors/d68bf44e1f5c&quot;&gt;d68bf44e1f5c&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;enumerate_charges was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/enumerate_charges/2a868592ebcb&quot;&gt;2a868592ebcb&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;sdf_to_tab was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sdf_to_tab/71bc02c59d3a&quot;&gt;71bc02c59d3a&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2020-03-21, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #194</summary></entry><entry><title type="html">WirVsVirus Hackathon</title><link href="https://galaxyproject.eu/posts/2020/03/19/wirvsvirus/" rel="alternate" type="text/html" title="WirVsVirus Hackathon" /><published>2020-03-19T00:00:00+01:00</published><updated>2020-03-19T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2020/03/19/wirvsvirus</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/03/19/wirvsvirus/">&lt;p&gt;We want to encourage you to participate and join the fight against Covid-19.&lt;/p&gt;
 
 &lt;p&gt;The Federal Government of Germany is organising the &lt;a href=&quot;https://wirvsvirushackathon.org/&quot;&gt;#WirVsVirus Hackathon&lt;/a&gt;, and we at Galaxy are here to help.&lt;/p&gt;
@@ -495,4 +479,22 @@ exporting them. ChiRA is now part of the RNA workbench (&lt;a href=&quot;https:/
 
 &lt;ul&gt;
   &lt;li&gt;exonerate was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/exonerate/a03dead1bede&quot;&gt;a03dead1bede&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2020-03-07, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #189</summary></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2020-03-07, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #189</summary></entry><entry><title type="html">de.NBI Training Infrastructure Feedback from Helena Rasche</title><link href="https://galaxyproject.eu/posts/2020/03/06/admin-training-success/" rel="alternate" type="text/html" title="de.NBI Training Infrastructure Feedback from Helena Rasche" /><published>2020-03-06T00:00:00+01:00</published><updated>2020-03-06T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2020/03/06/admin-training-success</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/03/06/admin-training-success/">&lt;p&gt;We just wrapped up the &lt;a href=&quot;https://galaxyproject.org/events/2020-03-admin/&quot;&gt;Galaxy Admin Training week in Barcelona, Spain&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;It went absolutely fantastically! We used infrastructure from de.NBI to host
+the VMs for the training event, students were spread across 40 Ubuntu VMs and
+we experienced zero issues. The network was fast, everyone had a great time.&lt;/p&gt;
+
+&lt;p&gt;Ok, we experienced &lt;em&gt;one&lt;/em&gt; issue: everyone was too good at it! We blew through 5
+days of content in only 3 due to an amazing group of participants who took to
+using Ansible immediately and with no issues. We ended up teaching 2 new days
+worth of contents that we had not initially planned to teach.&lt;/p&gt;
+
+&lt;p&gt;The Training Materials have been iterated upon to such a point that everyone
+can follow them without issue, everything is super well tested and ready to
+use.&lt;/p&gt;
+
+&lt;p&gt;If you want to follow along at home with what we did, &lt;a href=&quot;https://github.com/galaxyproject/admin-training/tree/2020-barcelona&quot;&gt;check out the schedule&lt;/a&gt; from the week.&lt;/p&gt;
+
+&lt;p&gt;Thank you from the Galaxy Admin Training team!
+Helena&lt;/p&gt;</content><author><name></name></author><category term="training" /><category term="tiaas" /><category term="denbi" /><summary type="html">We just wrapped up the Galaxy Admin Training week in Barcelona, Spain.</summary></entry></feed>
