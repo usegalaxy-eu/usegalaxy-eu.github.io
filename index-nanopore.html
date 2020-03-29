@@ -47,6 +47,7 @@
   <li><a href="#tools" id="markdown-toc-tools">Tools</a></li>
   <li><a href="#tutorials" id="markdown-toc-tutorials">Tutorials</a></li>
   <li><a href="#workflows" id="markdown-toc-workflows">Workflows</a></li>
+  <li><a href="#some-validated-workflows" id="markdown-toc-some-validated-workflows">Some validated workflows</a></li>
 </ol>
 
 <h1 id="get-started">Get started</h1>
@@ -56,71 +57,113 @@
 <p>Check also the standard but customizable <a href="#workflows">workflows</a> available there.</p>
 
 <h1 id="tools">Tools</h1>
-<p><img src="/assets/media/nanogalaxy_toolkit.png" height="400px" alt="NanoGalaxy toolkit" /></p>
 
 <p>A collection of best practice and popular tools are integrated (and are expanding) in this custom Galaxy instance. The ONT-oriented and -specific subset includes:</p>
 
-<ul>
-  <li><strong>Polishing, QC and preprocessing</strong>
-    <ul>
-      <li><a href="https://nanopore.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/porechop/porechop/0.2.3" target="_top">Porechop</a>, <a href="https://nanopore.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/filtlong/filtlong/0.2.0" target="_top">Filtlong</a>, <a href="https://nanopore.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/nanopolish_variants/nanopolish_variants/0.1.0" target="_top">Nanopolish</a>,  <a href="https://nanopore.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/poretools_qualdist/poretools_qualdist/0.6.1a1.0" target="_top">Poretools</a></li>
-    </ul>
-  </li>
-  <li><strong>Genome assembly</strong>
-    <ul>
-      <li><a href="https://nanopore.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2/2.17" target="_top">Minimap2</a>, <a href="https://nanopore.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/miniasm" target="_top">Miniasm</a>, <a href="https://nanopore.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/racon/racon/1.3.1.1" target="_top">Racon</a>, <a href="https://nanopore.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/racon/racon/1.3.1.1" target="_top">Racon</a>, <a href="https://nanopore.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/flye/flye/2.3.7" target="_top">Flye</a>, <a href="https://nanopore.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/unicycler/unicycler/0.4.7.0" target="_top">Unicycler</a>, <a href="https://nanopore.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/wtdbg/wtdbg/1.2.8.1" target="_top">Wtdbg2</a>, <a href="https://nanopore.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/canu/canu/1.7" target="_top">Canu</a></li>
-    </ul>
-  </li>
-  <li><strong>Mapping</strong>
-    <ul>
-      <li><a href="https://nanopore.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2/2.17" target="_top">Minimap2</a>,  <a href="https://nanopore.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/graphmap_align/graphmap_align/0.5.2" target="_top">GraphMap</a></li>
-    </ul>
-  </li>
-  <li><strong>Visualisation</strong>
-    <ul>
-      <li><a href="https://nanopore.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/nanoplot/nanoplot/1.13.0" target="_top">Nanoplot</a>,  <a href="https://nanopore.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/bandage/bandage_image/0.8.1%2Bgalaxy0" target="_top">Bandage</a></li>
-    </ul>
-  </li>
-  <li><strong>Taxonomy and metagenomics</strong>
-    <ul>
-      <li><a href="https://nanopore.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/plasflow/PlasFlow/1.0" target="_top">PlasFlow</a>,  <a href="https://nanopore.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/nml/staramr/staramr_search/0.4.0" target="_top">Staramr</a>,  <a href="https://nanopore.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.0.8_beta%2Bgalaxy0" target="_top">Kraken2</a></li>
-    </ul>
-  </li>
-</ul>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:black;width:30%;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:black;}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+
+<div align="center">
+<table class="tg">
+  <tr>
+    <th class="tg-0lax">
+
+    <div align="center">
+        <b>Polishing, QC and preprocessing</b><br />
+        <br />
+        <a href="https://nanopore.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/porechop/porechop/0.2.3" target="_top">Porechop</a>, <a href="https://nanopore.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/filtlong/filtlong/0.2.0" target="_top">Filtlong</a>, <a href="https://nanopore.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/nanopolish_variants/nanopolish_variants/0.1.0" target="_top">Nanopolish</a>,  <a href="https://nanopore.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/poretools_qualdist/poretools_qualdist/0.6.1a1.0" target="_top">Poretools</a>
+    </div>
+    </th>
+    <th class="tg-0lax" rowspan="4">
+    
+        <img src="/assets/media/nanogalaxy_toolkit.png" height="400px" alt="NanoGalaxy toolkit" />
+    
+    </th>
+  </tr>
+  <tr>
+    <td class="tg-0lax">
+        <div align="center"><b>Genome assembly</b><br />
+        <br />
+        <a href="https://nanopore.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2/2.17" target="_top">Minimap2</a>, <a href="https://nanopore.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/miniasm" target="_top">Miniasm</a>, <a href="https://nanopore.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/racon/racon/1.3.1.1" target="_top">Racon</a>
+        <br />
+        <a href="https://nanopore.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/racon/racon/1.3.1.1" target="_top">Racon</a>, <a href="https://nanopore.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/flye/flye/2.3.7" target="_top">Flye</a>, <a href="https://nanopore.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/unicycler/unicycler/0.4.7.0" target="_top">Unicycler</a>, <a href="https://nanopore.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/wtdbg/wtdbg/1.2.8.1" target="_top">Wtdbg2</a>, <a href="https://nanopore.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/canu/canu/1.7" target="_top">Canu</a>
+        </div>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="tg-0lax">
+        <div align="center"><b>Visualisation</b><br />
+        <br />
+
+        <a href="https://nanopore.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/nanoplot/nanoplot/1.13.0" target="_top">Nanoplot</a>,  <a href="https://nanopore.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/bandage/bandage_image/0.8.1%2Bgalaxy0" target="_top">Bandage</a>
+        </div>
+    </td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">
+        <div align="center"><b>Taxonomy and metagenomics</b><br />
+        <br />
+        <a href="https://nanopore.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/plasflow/PlasFlow/1.0" target="_top">PlasFlow</a>,  <a href="https://nanopore.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/nml/staramr/staramr_search/0.4.0" target="_top">Staramr</a>,  <a href="https://nanopore.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.0.8_beta%2Bgalaxy0" target="_top">Kraken2</a>
+
+        </div>
+    </td>
+  </tr>
+
+
+</table>
+</div>
 
 <h1 id="tutorials">Tutorials</h1>
 
-<p>We are passionate about training. So we are working in close collaboration with the <a href="https://galaxyproject.org/teach/gtn/" target="_blank">Galaxy Training Network (GTN)</a> to develop training materials of data analyses based on Galaxy <a class="citation" href="#batut2017community">(Batut <i>et al.</i>, 2017)</a>. The NanoGalaxy training materials are under development and will be soon hosted on the GTN GitHub repository <a href="https://training.galaxyproject.org" target="_blank">https://training.galaxyproject.org</a>.</p>
+<p>We are passionate about training. So we are working in close collaboration with the 
+<a href="https://galaxyproject.org/teach/gtn/" target="_blank">Galaxy Training Network (GTN)</a> to develop training materials of data analyses based
+on Galaxy <a class="citation" href="#batut2017community">(Batut <i>et al.</i>, 2017)</a>. The NanoGalaxy training materials are under development and will be soon hosted on the
+GTN GitHub repository <a href="https://training.galaxyproject.org" target="_blank">https://training.galaxyproject.org</a>.</p>
 
 <h1 id="workflows">Workflows</h1>
 
-<p>To orchestrate tools and help users with their analyses, some best practice workflows are prepared and become available. The workflows can be extended using similar and alternative combinations using the workflow editor.</p>
+<p>To orchestrate tools and help users with their analyses, some best practice workflows are prepared and become available.
+The workflows can be extended using similar and alternative combinations using the workflow editor.</p>
 
 <p>The workflows are available in the <a href="https://nanopore.usegalaxy.eu/workflows/list_published" target="_top">Shared Workflows</a>, with the label “<strong><em>ONT</em></strong>”.</p>
 
-<p>Some validated workflows:</p>
-<ul>
-  <li>Basic workflows inspired by the Nanopolish tutorials
-<br /> <a href="https://nanopore.usegalaxy.eu/u/milad/w/nanopolish-variants-tutorial" target="_top">workflow</a>
-<img src="/assets/media/nanogalaxy-nanopolish.png" width="400px" alt="NanoGalaxy Nanopolish" /></li>
-  <li>Genome assembly:
-    <ul>
-      <li>
-        <p>Flye-based WF for highly repetitive genomes [Schmid et al. NAR 2018]
-  Shared history: https://nanopore.usegalaxy.eu/u/milad/h/ahrens-nanopore-graphmap-minimap
-  <br /> <a href="https://nanopore.usegalaxy.eu/u/milad/w/ont-assembly-flye-ahrens" target="_blank">workflow</a>
-  <img src="/assets/media/nanogalaxy-ahrens.png" width="400px" alt="NanoGalaxy wf2" /></p>
-      </li>
-      <li>
-        <p>Unicycler-based WF for Klebsiella pneumoniae (Illumina and ONT) [Wick et al.  Microbial genomics 2017]
-  Shared history: https://nanopore.usegalaxy.eu/u/milad/h/wick-etal</p>
-      </li>
-    </ul>
-  </li>
-  <li>Metagenomics: taxa classification
-  <br /> <a href="https://nanopore.usegalaxy.eu/u/milad/w/metagenomics-krakan2" target="_top">workflow</a>
-  <img src="/assets/media/nanogalaxy-kraken.png" width="400px" alt="NanoGalaxy wf2" /></li>
-</ul>
+<h1 id="some-validated-workflows">Some validated workflows</h1>
+
+<table class="table-striped ont-workflow-table">
+  <tbody>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://nanopore.usegalaxy.eu/u/milad/w/nanopolish-variants-tutorial" target="_top"><img src="/assets/media/nanogalaxy-nanopolish.png" alt="NanoGalaxy Nanopolish" /></a></td>
+      <td><a href="https://nanopore.usegalaxy.eu/u/milad/w/ont-assembly-flye-ahrens" target="_blank"><img src="/assets/media/nanogalaxy-ahrens.png" alt="NanoGalaxy Ahrens" /></a></td>
+      <td><a href="https://nanopore.usegalaxy.eu/u/milad/w/ont-assembly-flye-ahrens" target="_blank"><img src="/assets/media/nanogalaxy-ahrens.png" alt="NanoGalaxy Wick " /></a></td>
+      <td><a href="https://nanopore.usegalaxy.eu/u/milad/w/metagenomics-krakan2" target="_top"><img src="/assets/media/nanogalaxy-kraken.png" alt="NanoGalaxy Kraken" /></a></td>
+    </tr>
+    <tr>
+      <td>Basic workflows inspired by the Nanopolish tutorials</td>
+      <td>Genome assembly (Flye-based WF for highly repetitive genomes [Schmid et al. NAR 2018])</td>
+      <td>Genome assembly (Unicycler-based WF for Klebsiella pneumoniae (Illumina and ONT) [Wick et al.  Microbial genomics 2017])</td>
+      <td>Metagenomics: taxa classification</td>
+    </tr>
+    <tr>
+      <td><a href="https://nanopore.usegalaxy.eu/u/milad/w/nanopolish-variants-tutorial"><img src="https://img.shields.io/static/v1?label=workflow&amp;message=run&amp;color=blue" alt="Galaxy workflow" /></a></td>
+      <td><a href="https://nanopore.usegalaxy.eu/u/milad/h/ahrens-nanopore-graphmap-minimap"><img src="https://img.shields.io/static/v1?label=history&amp;message=view&amp;color=blue" alt="Galaxy history" /></a> <a href="https://nanopore.usegalaxy.eu/u/milad/w/ont-assembly-flye-ahrens"><img src="https://img.shields.io/static/v1?label=workflow&amp;message=run&amp;color=blue" alt="Galaxy workflow" /></a></td>
+      <td><a href="https://nanopore.usegalaxy.eu/u/milad/h/wick-etal"><img src="https://img.shields.io/static/v1?label=history&amp;message=view&amp;color=blue" alt="Galaxy history" /></a> <a href="https://nanopore.usegalaxy.eu/u/milad/h/wick-etal"><img src="https://img.shields.io/static/v1?label=workflow&amp;message=run&amp;color=blue" alt="Galaxy workflow" /></a></td>
+      <td><a href="https://nanopore.usegalaxy.eu/u/milad/w/metagenomics-krakan2"><img src="https://img.shields.io/static/v1?label=workflow&amp;message=run&amp;color=blue" alt="Galaxy workflow" /></a></td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
 
 
 
