@@ -1,4 +1,63 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2020-04-10T17:43:10+02:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2020-04-09</title><link href="https://galaxyproject.eu/posts/2020/04/09/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2020-04-09" /><published>2020-04-09T00:00:00+02:00</published><updated>2020-04-09T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2020/04/09/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/04/09/tool-update/">&lt;p&gt;On 2020-04-09, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#204/&quot;&gt;Jenkins Build #204&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2020-04-11T04:24:09+02:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2020-04-11</title><link href="https://galaxyproject.eu/posts/2020/04/11/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2020-04-11" /><published>2020-04-11T00:00:00+02:00</published><updated>2020-04-11T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2020/04/11/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/04/11/tool-update/">&lt;p&gt;On 2020-04-11, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#205/&quot;&gt;Jenkins Build #205&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;variant-calling&quot;&gt;Variant Calling&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;gatk4_mutect2 was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/gatk4_mutect2/3be27a9a7313&quot;&gt;3be27a9a7313&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;chemicaltoolbox&quot;&gt;ChemicalToolBox&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;openbabel_addh was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/openbabel_addh/716dcb5bbb71&quot;&gt;716dcb5bbb71&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openbabel_change_title was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/openbabel_change_title/5b66a1684f18&quot;&gt;5b66a1684f18&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openbabel_compound_convert was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/openbabel_compound_convert/b59c91adeac1&quot;&gt;b59c91adeac1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openbabel_genprop was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/openbabel_genprop/e4ece69f1b32&quot;&gt;e4ece69f1b32&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openbabel_obgrep was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/openbabel_obgrep/f27e2eaffb5f&quot;&gt;f27e2eaffb5f&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openbabel_remduplicates was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/openbabel_remduplicates/854a7a169623&quot;&gt;854a7a169623&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openbabel_remions was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/openbabel_remions/9249b0e0e6bd&quot;&gt;9249b0e0e6bd&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openbabel_remove_protonation_state was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/openbabel_remove_protonation_state/5dc2a6cd6da1&quot;&gt;5dc2a6cd6da1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openbabel_remsmall was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/openbabel_remsmall/e38d865baa37&quot;&gt;e38d865baa37&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openbabel_spectrophore_search was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/openbabel_spectrophore_search/d92ada24e4ad&quot;&gt;d92ada24e4ad&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openbabel_structure_distance_finder was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/openbabel_structure_distance_finder/f0502d809c4b&quot;&gt;f0502d809c4b&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openbabel_subsearch was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/openbabel_subsearch/c4abd2c7d5f6&quot;&gt;c4abd2c7d5f6&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openbabel_svg_depiction was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/openbabel_svg_depiction/ba2d56f16904&quot;&gt;ba2d56f16904&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;prepare_ligands_for_docking was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/prepare_ligands_for_docking/015ccbd1ad68&quot;&gt;015ccbd1ad68&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;gemini&quot;&gt;Gemini&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;gemini_fusions was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/gemini_fusions/8295781a3c27&quot;&gt;8295781a3c27&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;rad-seq&quot;&gt;RAD-seq&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;stacks2_cstacks was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/stacks2_cstacks/c541e62d6c56&quot;&gt;c541e62d6c56&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;imaging&quot;&gt;Imaging&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;cp_common was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/cp_common/0b7db679fff8&quot;&gt;0b7db679fff8&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;cp_convert_objects_to_image was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/cp_convert_objects_to_image/7ec682d4e4cc&quot;&gt;7ec682d4e4cc&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;cp_display_data_on_image was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/cp_display_data_on_image/e46efde93815&quot;&gt;e46efde93815&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;cp_enhance_or_suppress_features was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/cp_enhance_or_suppress_features/e3243230788c&quot;&gt;e3243230788c&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;cp_export_to_spreadsheet was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/cp_export_to_spreadsheet/c0759ca34e20&quot;&gt;c0759ca34e20&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;cp_gray_to_color was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/cp_gray_to_color/c72f83dbc7b5&quot;&gt;c72f83dbc7b5&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;cp_identify_primary_objects was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/cp_identify_primary_objects/6bf947501352&quot;&gt;6bf947501352&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;cp_mask_image was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/cp_mask_image/d1a3ebcacb7a&quot;&gt;d1a3ebcacb7a&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;cp_measure_granularity was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/cp_measure_granularity/e336ff1955a0&quot;&gt;e336ff1955a0&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;cp_measure_image_area_occupied was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/cp_measure_image_area_occupied/c2d573d02afc&quot;&gt;c2d573d02afc&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;cp_measure_image_intensity was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/cp_measure_image_intensity/2a404d72850f&quot;&gt;2a404d72850f&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;cp_measure_image_quality was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/cp_measure_image_quality/e8a42b438de3&quot;&gt;e8a42b438de3&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;cp_measure_object_intensity was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/cp_measure_object_intensity/4962d252b2dd&quot;&gt;4962d252b2dd&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;cp_measure_object_size_shape was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/cp_measure_object_size_shape/66408bdb2674&quot;&gt;66408bdb2674&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;cp_measure_texture was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/cp_measure_texture/51acaef34e47&quot;&gt;51acaef34e47&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;cp_relate_objects was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/cp_relate_objects/f9969a97f034&quot;&gt;f9969a97f034&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;cp_save_images was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/cp_save_images/84c3bd433b96&quot;&gt;84c3bd433b96&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2020-04-11, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #205</summary></entry><entry><title type="html">UseGalaxy.eu Tool Updates for 2020-04-09</title><link href="https://galaxyproject.eu/posts/2020/04/09/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2020-04-09" /><published>2020-04-09T00:00:00+02:00</published><updated>2020-04-09T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2020/04/09/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/04/09/tool-update/">&lt;p&gt;On 2020-04-09, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#204/&quot;&gt;Jenkins Build #204&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;metagenomic-analysis&quot;&gt;Metagenomic Analysis&lt;/h2&gt;
 
@@ -433,10 +492,4 @@ exporting them. ChiRA is now part of the RNA workbench (&lt;a href=&quot;https:/
   &lt;li&gt;scanpy_run_tsne was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_run_tsne/d525452f8f2f&quot;&gt;d525452f8f2f&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;scanpy_run_umap was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_run_umap/676e2964920a&quot;&gt;676e2964920a&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;scanpy_scale_data was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_scale_data/87a02d83b6f5&quot;&gt;87a02d83b6f5&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2020-03-14, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #192</summary></entry><entry><title type="html">Virtual screening against SARS-CoV-2 main protease</title><link href="https://galaxyproject.eu/posts/2020/03/11/virtual-screening/" rel="alternate" type="text/html" title="Virtual screening against SARS-CoV-2 main protease" /><published>2020-03-11T00:00:00+01:00</published><updated>2020-03-11T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2020/03/11/virtual-screening</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/03/11/virtual-screening/">&lt;p&gt;Thanks to some amazing work done at the Diamond Light Source in the UK, protein structures of SARS-CoV-2 main protease in complex with a number of different fragments have recently been published.&lt;/p&gt;
-
-&lt;p&gt;Now, based on these experimental data, we have been helping our collaborators at Diamond construct Galaxy workflows for identifying potential ligands by virtual screening. These workflows use docking and scoring tools developed in Diamond and here in Freiburg (all accessible via &lt;a href=&quot;https://cheminformatics.usegalaxy.eu/&quot;&gt;https://cheminformatics.usegalaxy.eu&lt;/a&gt;) to generate and test around fifty million poses against the protease structure. Promising compounds will be synthesised and studied further.&lt;/p&gt;
-
-&lt;p&gt;As the current health crisis begins to affect our daily life in Freiburg, we are really happy to be able to participate in this kind of project - and in awe of the experimentalists who are able to generate this kind of data.&lt;/p&gt;
-
-&lt;p&gt;Please read the Diamond press release for more information about their recent work: &lt;a href=&quot;https://www.diamond.ac.uk/covid-19/for-scientists/Main-protease-structure-and-XChem.html&quot;&gt;https://www.diamond.ac.uk/covid-19/for-scientists/Main-protease-structure-and-XChem.html&lt;/a&gt;&lt;/p&gt;</content><author><name>simonbray</name></author><category term="tools" /><summary type="html">Thanks to some amazing work done at the Diamond Light Source in the UK, protein structures of SARS-CoV-2 main protease in complex with a number of different fragments have recently been published.</summary></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2020-03-14, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #192</summary></entry></feed>
