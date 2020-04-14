@@ -1,4 +1,128 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2020-04-13T17:43:03+02:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2020-04-11</title><link href="https://galaxyproject.eu/posts/2020/04/11/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2020-04-11" /><published>2020-04-11T00:00:00+02:00</published><updated>2020-04-11T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2020/04/11/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/04/11/tool-update/">&lt;p&gt;On 2020-04-11, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#205/&quot;&gt;Jenkins Build #205&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2020-04-14T17:39:13+02:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">Integrative meta-omics analysis - Metagenomics, Metatranscriptomics, Metaproteomics</title><link href="https://galaxyproject.eu/posts/2020/04/14/integrative-meta-omics/" rel="alternate" type="text/html" title="Integrative meta-omics analysis - Metagenomics, Metatranscriptomics, Metaproteomics" /><published>2020-04-14T00:00:00+02:00</published><updated>2020-04-14T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2020/04/14/integrative-meta-omics</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/04/14/integrative-meta-omics/">&lt;h1 id=&quot;integrative-meta-omics-in-galaxy&quot;&gt;Integrative meta-omics in Galaxy&lt;/h1&gt;
+
+&lt;p&gt;By &lt;a href=&quot;https://www.nmbu.no/ans/magnus.arntzen&quot;&gt;Magnus Ø. Arntzen&lt;/a&gt; (Norwegian University of Life Sciences)&lt;br /&gt;
+(This post is also available as a &lt;a href=&quot;/assets/media/magnus/2020-JGI-Galaxy.pdf&quot;&gt;poster&lt;/a&gt;)&lt;/p&gt;
+
+&lt;h2 id=&quot;abstract&quot;&gt;&lt;strong&gt;Abstract:&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;The meta-omics technologies have provided scientists with methods for addressing the complexity of microbial communities on a scale not attainable before. Individually, the different techniques can provide great insight; while in combination, they can provide a detailed understanding of which organisms occupy specific metabolic niches, how they interact, and how they utilize environmental nutrients.&lt;/p&gt;
+
+&lt;p&gt;In this post we will describe the adaption of a repertoire of commonly used omics tools spanning all three technologies (metagenomics, -transcriptomics and -proteomics) into the Galaxy framework, in order to generate a user-accessible, scalable and robust analytical pipeline for integrated meta-omics analysis.&lt;/p&gt;
+
+&lt;p&gt;We have applied this pipeline to deconvolute a highly efficient cellulose-degrading minimal consortium isolated and enriched from a &lt;a href=&quot;http://www.frevar.no/&quot;&gt;biogas reactor in Fredrikstad, Norway&lt;/a&gt;. Metagenomic analysis recovered metagenome-assembled genomes (MAGs) for several constituent populations including &lt;em&gt;Hungateiclostridium thermocellum&lt;/em&gt;, &lt;em&gt;Acetomicrobium mobile&lt;/em&gt; and multiple heterogenic strains affiliated to &lt;em&gt;Coprothermobacter proteolyticus&lt;/em&gt;. Metatranscriptomic and metaproteomic analysis revealed co-expression of carbohydrate-active enzymes (&lt;a href=&quot;http://www.cazy.org/&quot;&gt;CAZymes&lt;/a&gt;) from multiple populations, inferring deeper microbial interactions that are dedicated towards co-degradation of cellulose and hemicellulose. By combining meta-omics methods, we have been able to identify and describe key roles played by specific uncultured microorganisms in complex biomass degradation processes.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-dataset&quot;&gt;&lt;strong&gt;The dataset:&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;The sample studied in this work originated from a thermophilic biogas-plant operated on muncipal food waste and manure. After a round in a lab-scale reactor, we performed a serial dilution to extinction experiment to simplify and enrich the community for growth on cellulose (Norwegian Spruce).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/media/magnus/dataset.png&quot; alt=&quot;DATASET FIGURE&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;metagenomics&quot;&gt;&lt;strong&gt;Metagenomics:&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;An Illumnia HiSeq 3000 platform was used for metagenomics shotgun sequencing of the microbial community. Samples were sequenced with paired ends (2 x 125 bp) on four lanes. These were the steps of the metagenomics analysis workflow, numbered according to the figure below:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Fastq-files were uploaded to &lt;a href=&quot;https://galaxyproject.org/tutorials/collections/#uploading-from-ftp&quot;&gt;Galaxy via ftp&lt;/a&gt; (~45Gb per file) and organized as a &lt;a href=&quot;https://galaxyproject.org/tutorials/collections/&quot;&gt;Collection of paired datasets&lt;/a&gt;. The Hidden Markov Model (HMM) for prediction of CAZymes was downloaded from http://bcb.unl.edu/dbCAN2/download/ and uploaded to Galaxy.&lt;/li&gt;
+  &lt;li&gt;Trimming of reads were done with &lt;a href=&quot;https://www.bioinformatics.babraham.ac.uk/projects/trim_galore/&quot;&gt;Trim Galore!&lt;/a&gt; with automatic detection of adapter sequences.&lt;/li&gt;
+  &lt;li&gt;Quality control with &lt;a href=&quot;https://www.bioinformatics.babraham.ac.uk/projects/fastqc/&quot;&gt;FastQC&lt;/a&gt; to assess the overrepresentation of features (adapters/primers) and Phred threshold of 20.&lt;/li&gt;
+  &lt;li&gt;To assemble metagenomic reads into contigs we used &lt;a href=&quot;http://cab.spbu.ru/software/meta-spades/&quot;&gt;metaSPAdes&lt;/a&gt; with k-mer sizes of 21,33,55 and 77.&lt;/li&gt;
+  &lt;li&gt;Binning of contigs was done based on an expectation-maximization algorithm using &lt;a href=&quot;https://sourceforge.net/projects/maxbin2/&quot;&gt;MaxBin2&lt;/a&gt;. We used a minimum contig length of 5000. Taxonomical placement was done with the &lt;a href=&quot;https://github.com/dutilh/CAT&quot;&gt;Bin Annotation Tool&lt;/a&gt;, and each bin’s completeness, contamination and strain heterogeneity was checked using &lt;a href=&quot;https://ecogenomics.github.io/CheckM/&quot;&gt;CheckM&lt;/a&gt; (currently not in Galaxy). We are also working on an implementation of &lt;a href=&quot;https://drep.readthedocs.io/en/latest/overview.html&quot;&gt;dREP&lt;/a&gt; (that also include CheckM) for further validation of the bins. The abundance table provided by MaxBin2 were used to generate a cluster plot to visualize the bins (figure further down).&lt;/li&gt;
+  &lt;li&gt;We predicted genes using the software &lt;a href=&quot;https://omics.informatics.indiana.edu/FragGeneScan/&quot;&gt;FragGeneScan&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;The putative proteins from FragGeneScan  were functionally annotated using &lt;a href=&quot;https://www.ebi.ac.uk/interpro/&quot;&gt;InterProScan&lt;/a&gt; with the following databases: TIGERFAM, HAMAP, PfamA, Gene Ontology, EC and KEGG.&lt;/li&gt;
+  &lt;li&gt;Prediction of CAZymes were done using the Hidden Markov Models from &lt;a href=&quot;http://bcb.unl.edu/dbCAN2/&quot;&gt;dbCAN&lt;/a&gt; and the software &lt;a href=&quot;http://hmmer.org/&quot;&gt;HMMER&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;We then combined all the functional annotations from InterProScan and dbCAN into one file for downstream analysis using the Galaxy implementation of awk to generate a tabular with one protein per row and the different annotations in individual columns. This file was used as input of R-scripts to count the presence of specific enzymes in the metagenome (described further down).&lt;/li&gt;
+  &lt;li&gt;The putative genes and proteins (fasta-files) from FragGeneScan can be manually augmented with strains from public repositories such as &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/genome&quot;&gt;NCBI&lt;/a&gt;, &lt;a href=&quot;https://www.uniprot.org/&quot;&gt;UniProt&lt;/a&gt; or &lt;a href=&quot;https://img.jgi.doe.gov/cgi-bin/w/main.cgi&quot;&gt;IMG&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/media/magnus/metagenomics.png&quot; alt=&quot;META-G WORKFLOW FIGURE&quot; /&gt;
+The metagenomics workflow is shared publicly and can be found &lt;a href=&quot;https://proteomics.usegalaxy.eu/u/mgnsrntzn/w/metag&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;metatranscriptomics&quot;&gt;&lt;strong&gt;Metatranscriptomics:&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Samples were taken at different timepoints during the lifetime of the microbial community, as indicated in the figure above. For this analysis, we used the time points 13h, 23h and 38h. mRNA extraction was performed in triplicate and was sequenced with paired-end technology (2 x 125 bp) on one lane of an Illumnia HiSeq 3000 system. These were the steps of the metatranscriptomics analysis workflow, numbered according to the figure below:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Fastq-files were &lt;a href=&quot;https://galaxyproject.org/tutorials/collections/#uploading-from-ftp&quot;&gt;uploaded to Galaxy via ftp&lt;/a&gt; (~45Gb per file) and organized as a &lt;a href=&quot;https://galaxyproject.org/tutorials/collections/&quot;&gt;Collection of paired datasets&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Quality control with &lt;a href=&quot;https://www.bioinformatics.babraham.ac.uk/projects/fastqc/&quot;&gt;FastQC&lt;/a&gt; to assess the overrepresentation of features (adapters/primers)&lt;/li&gt;
+  &lt;li&gt;Trimming was done using &lt;a href=&quot;https://www.bioinformatics.babraham.ac.uk/projects/trim_galore/&quot;&gt;Trim Galore!&lt;/a&gt; with automatic detection of adapter sequences and Phred threshold of 20.&lt;/li&gt;
+  &lt;li&gt;rRNA and tRNA were removed using the software &lt;a href=&quot;https://bioinfo.lifl.fr/RNA/sortmerna/&quot;&gt;SortMeRNA&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Quantification of mRNA was done with the pseudoaligment software &lt;a href=&quot;https://pachterlab.github.io/kallisto/about&quot;&gt;Kallisto&lt;/a&gt; by mapping the transcripts to the putative genes predicted by FragGeneScan in the metagenomics workflow. The outputs from Kallisto, one per sample-pair, were joined in order to generate one single file for import to R.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/media/magnus/metatranscriptomics.png&quot; alt=&quot;META-T WORKFLOW FIGURE&quot; /&gt;
+The metatranscriptomics workflow is shared publicly and can be found &lt;a href=&quot;https://proteomics.usegalaxy.eu/u/mgnsrntzn/w/metat&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;metaproteomics&quot;&gt;&lt;strong&gt;Metaproteomics:&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Samples for proteomics were taken for every timepoint as indicated in the dataset-figure above. For this analysis, we used the same time points as we used for metatranscriptomics, 13h, 23h and 38h. Each sample were separated into 16 fractions by SDS-PAGE, cut out and digested with trypsin before analyzed on a Q-Exactive (Thermo) mass spectrometer. These were the steps of the metaproteomics analysis workflow, numbered according to the figure below:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;144 mass spectrometer RAW files were uploaded to Galaxy using the web interface (~1Gb per file). A local Windows-installation of MaxQuant version 1.6.3.4 (NB: same version as on Galaxy!) was used to generate a configuration file (mqpar.xml) with all the necessary settings. This configuration file was then uploaded to Galaxy as used as input.&lt;/li&gt;
+  &lt;li&gt;Identification and quantification of proteins were accomplished using the software &lt;a href=&quot;https://www.maxquant.org/&quot;&gt;MaxQuant&lt;/a&gt; by mapping MS/MS spectra to putative proteins predicted by FragGeneScan in the metagenomics workflow. The Protein Groups file was used as input in downstream R-scripts.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/media/magnus/metaproteomics.png&quot; alt=&quot;META-P WORKFLOW FIGURE&quot; /&gt;
+The metaproteomics workflow is shared publicly and can be found &lt;a href=&quot;https://proteomics.usegalaxy.eu/u/mgnsrntzn/w/metap&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;integration-of-omics-data-using-r&quot;&gt;&lt;strong&gt;Integration of omics data using R:&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;For the following, a stand-alone version of RStudio can be used, or one can utilize the &lt;a href=&quot;https://live.usegalaxy.eu/&quot;&gt;live RStudio&lt;/a&gt; which has direct &lt;a href=&quot;https://training.galaxyproject.org/topics/galaxy-ui/tutorials/rstudio/tutorial.html&quot;&gt;access to the data residing in the Galaxy History&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The files needed to generate the following plots are:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Abundance table from MaxBin2&lt;/li&gt;
+  &lt;li&gt;List of bins (contigs in FASTA-format)&lt;/li&gt;
+  &lt;li&gt;The combined annotation file from dbCAN and InterProScan&lt;/li&gt;
+  &lt;li&gt;The combined quantification file from Kallisto&lt;/li&gt;
+  &lt;li&gt;ProteinGroups.txt from MaxQuant&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The first plot to consider is the phylogenetic binning of contigs. In our workflow the binning was accomplished using metagenomic reads and the assembled contigs from metaSPAdes. This produced two outputs of specific interest, an abundance file and a list of the bins. The latter is in FASTA format and one file per bin exist. Our script reads these files and generate a list of contigs with information about the contig abundance and which bin it belongs to. Then, we plot the contig’s GC% vs. abundance using &lt;a href=&quot;https://ggplot2.tidyverse.org/index.html&quot;&gt;ggplot&lt;/a&gt; in R and color it by bin. A metagenome-assembled genome (MAG), or bin, typically has a well-clustered layout in this plot, which can be highlighted with the &lt;a href=&quot;https://ggplot2.tidyverse.org/reference/geom_density_2d.html&quot;&gt;geom_density2d function&lt;/a&gt;.&lt;br /&gt;
+&lt;img src=&quot;/assets/media/magnus/binning.png&quot; alt=&quot;BINNING FIGURE&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Taxonomic abundance plots can be calculated either from metaproteomics or metatranscriptomics data, using the summed abundances (not log2’ed!) of all mRNA/proteins per bin. Here we calculated the summed LFQ (label-free quantification) values reported by MaxQuant. The most abundant community member at all time points was Bin1, &lt;em&gt;Hungateiclostridium thermocellum&lt;/em&gt;.
+&lt;img src=&quot;/assets/media/magnus/taxonomic_abundance.png&quot; alt=&quot;TAXONOMIC ABUNDANCE FIGURE&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Further, we can generate an overview of all CAZymes in the microbial community. This can of course be made for any functional annotation, but here we are focussing on CAZymes. We use the annotation file from dbCAN and InterProScan and filter this for only CAZymes. Note that CAZymes are modular domains and enzymes can therefore harbour multiple CAZy domains; in our case this means that the CAZy column is semicolon-separated. In &lt;a href=&quot;https://www.tidyverse.org/&quot;&gt;Tidyverse&lt;/a&gt;, there is a function to split multiple terms within one column into several rows, keeping all the other information, see &lt;a href=&quot;https://tidyr.tidyverse.org/reference/separate_rows.html&quot;&gt;separate_rows&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;This overview plot suggests that Bin1 (&lt;em&gt;Hungateiclostridium thermocellum&lt;/em&gt;) is the main polysaccharide hydrolyser, and further, that it utilizes cellulosomes, i.e. large enzyme complexes where many enzymes can degrade cellulose simulateously. The monomer, glucose, is used by the many suger fermenters present in the community.&lt;br /&gt;
+&lt;img src=&quot;/assets/media/magnus/cazyme_counts.png&quot; alt=&quot;CAZYME COUNTS FINGURE&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;For this dataset we have two ‘functional layers’, mRNA and protein. We can therefore calculate quantification of individual enzymes, or for enzyme classes, or even at pathway-level by utilizing e.g. the EC-annotation available within the InterProScan annotation file. For this example, we have focussed on two enzyme classes, glycoside hydrolases and glycosyl transferases; these are colored red and blue in the below figure, respectively.&lt;br /&gt;
+For this we need the ProteinGroups.txt file from MaxQuant, and the combined quantification file from Kallisto. We use the ‘Majority protein IDs’ (up to first semicolon) as geneID for metaproteomics and ‘target_id’ as geneID for metatranscriptomics. In Tidyverse, we can join the two tables based on these common identifiers by using the function &lt;a href=&quot;https://dplyr.tidyverse.org/reference/join.html&quot;&gt;full_join&lt;/a&gt;. As quantitative values we use LFQ (label-free quantification) for proteomics and tpm (transcript per million) for transcriptomics. Both values need to be log2-transformed. Note that ggplot (and Tidyverse in general) does not work with tables with quantification values in different columns. We therefore need to ‘melt’ the table to generate a one-column value representation. This can be accomplished using the &lt;a href=&quot;https://tidyr.tidyverse.org/reference/pivot_longer.html&quot;&gt;pivot_longer function&lt;/a&gt;. Then finally, to visualize the trends in quantification over time, we apply a z-score normalization per protein/transcript, independently for each omics.&lt;/p&gt;
+
+&lt;p&gt;Note that the trends in quantification at enzyme-class level is by and large similar; however, for some classes there are differences. This can be linked to the half-life of molecules, which is just a few minutes for mRNA while up to hours for proteins.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/media/magnus/MP_MT_quantification.png&quot; alt=&quot;META-P META-T QUANTIFICATION FIGURE&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The last plot cannot be generated using a R-script, unfortunately, but rather require your ulitmate Illustrator/&lt;a href=&quot;https://inkscape.org/&quot;&gt;Inkscape&lt;/a&gt; skills. This is a plot of the inferred carbon flow within the microbial community, based on the plots and data above. The metagenomics provided us with MAGs present in our community, and the functional annotaion allowed us to predict what each of them were capable of doing. Metatranscriptomics and metaproteomics provided us with information about what they were actually doing, and who was doing what. Additional community metadata, such as gas analysis, reveiled that the final product was methane. We can then draw a graph of anaerobic degradation, starting with cellulose being converted in glucose, that is converted further to acetate. A syntrophic acetate oxidizing bacterium and a methanogetn (both not identified in this proof-of-principle Galaxy implementation, but in the full dataset) converts acetate further to formate, CO2, H2 and methane.&lt;/p&gt;
+
+&lt;p&gt;Here we have drawn the relevant pathways and decorated them with metaproteomics LFQ-values (from the full dataset). This suggests that cellulose is primarily degraded by &lt;em&gt;Hungateiclostridium thermocellum&lt;/em&gt; while the cellulose monomer, glucose, is fermented to acetate by &lt;em&gt;Coprothermobacter proteolyticus&lt;/em&gt;, &lt;em&gt;Acetomicrobium mobile&lt;/em&gt; and &lt;em&gt;Tissierellaceae&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/media/magnus/carbonflow.png&quot; alt=&quot;CARBON FLOW FIGURE&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;acknowledgements&quot;&gt;&lt;strong&gt;Acknowledgements:&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;This work was funded by the &lt;a href=&quot;https://cbs.umn.edu/norwegian-centennial-chair/home&quot;&gt;Norwegian Centennial Chair Programme&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;This study has been described in its entirey here:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.nature.com/articles/s41396-018-0290-y&quot;&gt;Kunath BJ, Delogu F, et. al. From proteins to polysaccharides: lifestyle and genetic evolution of Coprothermobacter proteolyticus. ISME J. 2019 Mar; 13(3):603-617&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.biorxiv.org/content/10.1101/857599v1&quot;&gt;Delogu F, Kunath BJ, et. Al. Integration of absolute multi-omics reveals translational and metabolic interplay in mixed-kingdom microbiomes. bioRxiv.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Contributors:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Norwegian University of Life Sciences:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Francesco Delogu&lt;/li&gt;
+  &lt;li&gt;Benoit Kunath&lt;/li&gt;
+  &lt;li&gt;Phil Pope&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;University of Minnesota:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Praveen Kumar&lt;/li&gt;
+  &lt;li&gt;Subina Mehta&lt;/li&gt;
+  &lt;li&gt;James E. Johnson&lt;/li&gt;
+  &lt;li&gt;Pratik Jagtap&lt;/li&gt;
+  &lt;li&gt;Timothy J. Griffin&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;University of Freiburg:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Bjoern Gruning&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">Integrative meta-omics in Galaxy</summary></entry><entry><title type="html">UseGalaxy.eu Tool Updates for 2020-04-11</title><link href="https://galaxyproject.eu/posts/2020/04/11/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2020-04-11" /><published>2020-04-11T00:00:00+02:00</published><updated>2020-04-11T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2020/04/11/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/04/11/tool-update/">&lt;p&gt;On 2020-04-11, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#205/&quot;&gt;Jenkins Build #205&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;variant-calling&quot;&gt;Variant Calling&lt;/h2&gt;
 
@@ -25,18 +149,6 @@
   &lt;li&gt;prepare_ligands_for_docking was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/prepare_ligands_for_docking/015ccbd1ad68&quot;&gt;015ccbd1ad68&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;gemini&quot;&gt;Gemini&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;gemini_fusions was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/gemini_fusions/8295781a3c27&quot;&gt;8295781a3c27&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;rad-seq&quot;&gt;RAD-seq&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;stacks2_cstacks was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/stacks2_cstacks/c541e62d6c56&quot;&gt;c541e62d6c56&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
 &lt;h2 id=&quot;imaging&quot;&gt;Imaging&lt;/h2&gt;
 
 &lt;ul&gt;
@@ -57,7 +169,7 @@
   &lt;li&gt;cp_measure_texture was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/cp_measure_texture/51acaef34e47&quot;&gt;51acaef34e47&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;cp_relate_objects was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/cp_relate_objects/f9969a97f034&quot;&gt;f9969a97f034&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;cp_save_images was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/cp_save_images/84c3bd433b96&quot;&gt;84c3bd433b96&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2020-04-11, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #205</summary></entry><entry><title type="html">UseGalaxy.eu Tool Updates for 2020-04-09</title><link href="https://galaxyproject.eu/posts/2020/04/09/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2020-04-09" /><published>2020-04-09T00:00:00+02:00</published><updated>2020-04-09T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2020/04/09/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/04/09/tool-update/">&lt;p&gt;On 2020-04-09, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#204/&quot;&gt;Jenkins Build #204&lt;/a&gt;&lt;/p&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2020-04-11, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #205</summary></entry><entry><title type="html">UseGalaxy.eu Tool Updates for 2020-04-04</title><link href="https://galaxyproject.eu/posts/2020/04/04/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2020-04-04" /><published>2020-04-04T00:00:00+02:00</published><updated>2020-04-04T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2020/04/04/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/04/04/tool-update/">&lt;p&gt;On 2020-04-04, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#203/&quot;&gt;Jenkins Build #203&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;metagenomic-analysis&quot;&gt;Metagenomic Analysis&lt;/h2&gt;
 
@@ -127,25 +239,6 @@
   &lt;li&gt;chira_quantify was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/chira_quantify/1fe9daabe09c&quot;&gt;1fe9daabe09c&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;chemicaltoolbox&quot;&gt;ChemicalToolBox&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;sucos_max_score was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sucos_max_score/85fad59f8168&quot;&gt;85fad59f8168&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;ambertools_acpype was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/ambertools_acpype/0d640d752e8a&quot;&gt;0d640d752e8a&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;ambertools_acpype was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/ambertools_acpype/f4230f116196&quot;&gt;f4230f116196&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;ambertools_antechamber was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/ambertools_antechamber/29aa7091e533&quot;&gt;29aa7091e533&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;ambertools_parmchk2 was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/ambertools_parmchk2/3549852f413f&quot;&gt;3549852f413f&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;ambertools_parmchk2 was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/ambertools_parmchk2/96b872138d3b&quot;&gt;96b872138d3b&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;mmpbsa_mmgbsa was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/mmpbsa_mmgbsa/d09f116dfca5&quot;&gt;d09f116dfca5&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;parmconv was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/parmconv/6c6cecf51bd0&quot;&gt;6c6cecf51bd0&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;rad-seq&quot;&gt;RAD-seq&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;stacks2_cstacks was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/stacks2_cstacks/c541e62d6c56&quot;&gt;c541e62d6c56&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2020-04-09, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #204</summary></entry><entry><title type="html">UseGalaxy.eu Tool Updates for 2020-04-04</title><link href="https://galaxyproject.eu/posts/2020/04/04/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2020-04-04" /><published>2020-04-04T00:00:00+02:00</published><updated>2020-04-04T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2020/04/04/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/04/04/tool-update/">&lt;p&gt;On 2020-04-04, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#203/&quot;&gt;Jenkins Build #203&lt;/a&gt;&lt;/p&gt;
-
 &lt;h2 id=&quot;virology&quot;&gt;Virology&lt;/h2&gt;
 
 &lt;ul&gt;
@@ -163,12 +256,14 @@
   &lt;li&gt;rxdock_rbcavity was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/rxdock_rbcavity/e99f861ba68a&quot;&gt;e99f861ba68a&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;rxdock_rbdock was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/rxdock_rbdock/35ee2e002bb0&quot;&gt;35ee2e002bb0&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;rxdock_sort_filter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/rxdock_sort_filter/475cde209992&quot;&gt;475cde209992&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;rad-seq&quot;&gt;RAD-seq&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;stacks2_cstacks was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/stacks2_cstacks/c541e62d6c56&quot;&gt;c541e62d6c56&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;sucos_max_score was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sucos_max_score/85fad59f8168&quot;&gt;85fad59f8168&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;ambertools_acpype was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/ambertools_acpype/0d640d752e8a&quot;&gt;0d640d752e8a&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;ambertools_acpype was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/ambertools_acpype/f4230f116196&quot;&gt;f4230f116196&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;ambertools_antechamber was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/ambertools_antechamber/29aa7091e533&quot;&gt;29aa7091e533&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;ambertools_parmchk2 was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/ambertools_parmchk2/3549852f413f&quot;&gt;3549852f413f&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;ambertools_parmchk2 was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/ambertools_parmchk2/96b872138d3b&quot;&gt;96b872138d3b&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mmpbsa_mmgbsa was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/mmpbsa_mmgbsa/d09f116dfca5&quot;&gt;d09f116dfca5&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;parmconv was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/parmconv/6c6cecf51bd0&quot;&gt;6c6cecf51bd0&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2020-04-04, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #203</summary></entry><entry><title type="html">James Taylor (1979-2020)</title><link href="https://galaxyproject.eu/posts/2020/04/03/james-taylor-rip/" rel="alternate" type="text/html" title="James Taylor (1979-2020)" /><published>2020-04-03T00:00:00+02:00</published><updated>2020-04-03T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2020/04/03/james-taylor-rip</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/04/03/james-taylor-rip/">&lt;p&gt;We just lost James Taylor (1979-2020). His legacy — open, reproducible science — will continue.&lt;/p&gt;</content><author><name></name></author><summary type="html">We just lost James Taylor (1979-2020). His legacy — open, reproducible science — will continue.</summary></entry><entry><title type="html">UseGalaxy.eu Tool Updates for 2020-03-28</title><link href="https://galaxyproject.eu/posts/2020/03/28/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2020-03-28" /><published>2020-03-28T00:00:00+01:00</published><updated>2020-03-28T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2020/03/28/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/03/28/tool-update/">&lt;p&gt;On 2020-03-28, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#198/&quot;&gt;Jenkins Build #198&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;proteomics&quot;&gt;Proteomics&lt;/h2&gt;
