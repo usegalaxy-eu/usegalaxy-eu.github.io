@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  <title>Galaxy Europe | UseGalaxy.eu Tool Updates for 2020-04-18</title>
-  <meta property="og:title" content="UseGalaxy.eu Tool Updates for 2020-04-18" />
-  <meta property="og:description" content="On 2020-04-18, the tools on UseGalaxy.eu were updated by ..." />
+  <title>Galaxy Europe | Multi-omics Visualization Platform: An extensible Galaxy plug-in for multi-omics data visualization and exploration</title>
+  <meta property="og:title" content="Multi-omics Visualization Platform: An extensible Galaxy ..." />
+  <meta property="og:description" content="Abstract
+" />
   <meta property="og:image" content="/assets/media/galaxy-eu-logo.512.png" />
   <meta name="description" content="The European Galaxy Instance">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,7 +17,7 @@
 
 
 
-  <link rel="canonical" href="https://galaxyproject.eu/posts/2020/04/18/tool-update/plain.html">
+  <link rel="canonical" href="https://galaxyproject.eu/posts/2020/04/23/mvp/plain.html">
   <link rel="shortcut icon" href="/assets/media/galaxy-eu-logo.64.png" type="image/x-icon" />
   <link rel="alternate" type="application/rss+xml" title="Galaxy Europe" href="/feed.xml">
 
@@ -37,20 +38,16 @@
 <section id="news-page">
   <div class="row news-header-row">
     
-    <a class="col-xs-1 text-center" href="/posts/2020/04/14/integrative-meta-omics/plain.html">
+    <a class="col-xs-1 text-center" href="/posts/2020/04/18/tool-update/plain.html">
       «
     </a>
     
     <div class="col-xs-10 ">
       <div class="text-center">
-        <h2 class="title">UseGalaxy.eu Tool Updates for 2020-04-18</h2>
+        <h2 class="title">Multi-omics Visualization Platform: An extensible Galaxy plug-in for multi-omics data visualization and exploration</h2>
       </div>
       <hr />
     </div>
-    
-    <a class="col-xs-1 text-center" href="/posts/2020/04/23/mvp/plain.html">
-      »
-    </a>
     
   </div>
   <div class="row post-metadata">
@@ -59,11 +56,85 @@
         <div class="col-md-6">
             
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         </div>
         <div class="col-md-6 text-right">
           <div>
             <span class="post-date">
-              Apr 18, 2020
+              Apr 23, 2020
             </span>
 
             
@@ -72,8 +143,12 @@
             <span class="post-tags">
                 <span class="label label-success">Freiburg</span>
               
-                <span class="label label-info">tools</span>
+                <span class="label label-info">paper</span>
               
+              
+                <a href="https://dx.doi.org/https://doi.org/10.1093/gigascience/giaa025">
+                <span class="label label-warning">DOI:https://doi.org/10.1093/gigascience/giaa025</span>
+                </a>
               
             </span>
 
@@ -87,31 +162,49 @@
   <div class="row">
     <div class="col-md-8 col-md-offset-2">
       <div class="news-content">
-        <p>On 2020-04-18, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in <a href="https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#207/">Jenkins Build #207</a></p>
+        <h2 id="abstract">Abstract</h2>
 
-<h2 id="rna-analysis">RNA Analysis</h2>
+<p>Proteogenomics, enables new insights into understanding the complex biological systems by integrating genomics/transcriptomics with mass spectrometry based proteomics data.
+It is a powerful approach to extract direct evidence of expression of novel protein sequences specific to a sample of interest.
+The importance of proteogenomics studies is reflected in the field of cancer and other genetic diseases. 
+The Galaxy for proteomics (Galaxy-P) team, has disseminated various tools alongwith a workflow necessary to perform proteogenomics analysis i.e.
+from raw data processing and sequence database generation to 
+database searching and tools for interpreting the potential impact of identified sequence variants. Along with this,
+the Galaxy-P team has developed a complete proteogenomic informatics platform that combines 
+genomics, transcriptomics and MS based proteomics data. The Multi-omics Visualization Platform (MVP),
+a visualization plug-in, that extends Galaxy-P’s advantages into the visualization of large, complex datasets. 
+This plug-in allows researchers to quickly inspect and verify the quality of their results as well offer an
+visulaization overview for deeper understanding of underlying spectral data.</p>
+
+<p>MVP is primarily written in Javascript, with HTML5 and CSS to create the interactive user interface. It needs 3 separate SQLite
+databases as the primary input. The SQLite database schema helps in protein to 
+peptide mapping. The MVP tool uses an SQlite schema to navigate between genome and the proteome.</p>
+
+<p><img src="/assets/media/MVP_blog_fig1.png" alt="Input Schema" /></p>
+
+<p>With the incorporation of Integrated Genomics Viewer(IGV) and Lorikeet, the MVP platform merges proteomic and genomic results into a single, accessible output. For large datasets, a user can easily navigate through 
+the filter option and condense it down to a manageable subset making the database size not an issue. The MVP tool allows experimental results from either a peptide centric view, a PSM centric view (Lorikeet) or Protein 
+centric view. The peptide centric view allows for rapid filtering based on sequences of interest. The PSM centric view allows for fast filtering of scores yielding the lowest decoy hit rate. And the protein centric view 
+allows for an immediate examination of proteins of interest. This may be of particular interest to users who want to analyze variant proteins. The integrated IGV viewer offers interactive viewing of peptides mapped against 
+the reference genome, plus an additional feature of incorporating tracks for standard-format sequence file (BAM, proBAM, BED).</p>
+
+<p><img src="/assets/media/MVP_blog_fig2.png" alt="MVP" /></p>
+
+<p>To learn more about how to use the MVP tool and its features, please refer the <a href="https://galaxyproject.github.io/training-material/topics/proteomics/tutorials/proteogenomics-novel-peptide-analysis/tutorial.html">Galaxy training material</a>.</p>
+
+<h2 id="contributors">Contributors</h2>
+
+<p>Galaxy-P @ University of Minnesota:</p>
 
 <ul>
-  <li>chira_collapse was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/chira_collapse/dd2b0bde0be1">dd2b0bde0be1</a></li>
-  <li>chira_extract was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/chira_extract/bc08c22dfd38">bc08c22dfd38</a></li>
-  <li>chira_map was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/chira_map/668f0b2f63ec">668f0b2f63ec</a></li>
-  <li>chira_merge was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/chira_merge/7f9cf152cf8f">7f9cf152cf8f</a></li>
-  <li>chira_quantify was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/chira_quantify/3d93761a6663">3d93761a6663</a></li>
+  <li>Thomas McGowan</li>
+  <li>James E. Johnson</li>
+  <li>Ray Sajulga</li>
+  <li>Praveen Kumar</li>
+  <li>Subina Mehta</li>
+  <li>Pratik Jagtap</li>
+  <li>Timothy J. Griffin</li>
 </ul>
-
-<h2 id="graphdisplay-data">Graph/Display Data</h2>
-
-<ul>
-  <li>pygenometracks was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/pygenometracks/326a3db8d9d1">326a3db8d9d1</a></li>
-  <li>pygenometracks was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/pygenometracks/eca03db4f612">eca03db4f612</a></li>
-</ul>
-
-<h2 id="rad-seq">RAD-seq</h2>
-
-<ul>
-  <li>stacks2_cstacks was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/stacks2_cstacks/c541e62d6c56">c541e62d6c56</a></li>
-</ul>
-
 
       </div>
     </div>
@@ -181,7 +274,7 @@ unless otherwise specified.</p>
         <div class="row">
             <div class="col-lg-12" style="text-align:center">
                 <ul class="contact-info">
-                    <li><i class="fa fa-github"></i><a href="https://github.com/usegalaxy-eu/website/tree/master/_posts_plain/2020-04-18-tool-update.md">Edit this page on GitHub</a></li>
+                    <li><i class="fa fa-github"></i><a href="https://github.com/usegalaxy-eu/website/tree/master/_posts_plain/2020-04-23-mvp.md">Edit this page on GitHub</a></li>
                     
                       <li><i class="fa fa-envelope"></i><a href="mailto:galaxy@informatik.uni-freiburg.de">galaxy@informatik.uni-freiburg.de</a></li>
                     
