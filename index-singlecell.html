@@ -73,7 +73,6 @@ The server is part if the European Galaxy server and is maintained by the <a hre
 <ol id="markdown-toc">
   <li><a href="#get-started" id="markdown-toc-get-started">Get started</a></li>
   <li><a href="#training-and-workshops" id="markdown-toc-training-and-workshops">Training and Workshops</a>    <ol>
-      <li><a href="#workshops" id="markdown-toc-workshops">Workshops</a></li>
       <li><a href="#material" id="markdown-toc-material">Material</a></li>
     </ol>
   </li>
@@ -96,9 +95,9 @@ The server is part if the European Galaxy server and is maintained by the <a hre
 
 <p>We are passionate about training. So we are working in close collaboration with the <a href="https://galaxyproject.org/teach/gtn/" target="_blank">Galaxy Training Network (GTN)</a> to develop training materials of data analyses based on Galaxy <a class="citation" href="#batut2017community">(Batut <i>et al.</i>, 2017)</a>. These materials hosted on the GTN GitHub repository are available online at <a href="https://training.galaxyproject.org" target="_blank">https://training.galaxyproject.org</a>.</p>
 
-<h2 id="workshops">Workshops</h2>
+<!-- ## Workshops -->
 
-<p>We will be hosting a scRNA-seq workshop <a href="https://usegalaxy-eu.github.io/event/2020-01-20-GalaxyWS_scrna_FR/plain.html">this March</a>. Please register whilst spots are still open!</p>
+<!-- We will be hosting a scRNA-seq workshop [this March](https://usegalaxy-eu.github.io/event/2020-01-20-GalaxyWS_scrna_FR/plain.html). Please register whilst spots are still open! -->
 
 <h2 id="material">Material</h2>
 
@@ -196,153 +195,153 @@ The server is part if the European Galaxy server and is maintained by the <a hre
       <th style="text-align: center">Demultiplexing</th>
       <th style="text-align: center">Mapping</th>
       <th style="text-align: center">Quantification</th>
-      <th style="text-align: left">Description</th>
+      <th style="text-align: left">References</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: right"><a href="#suites-mentioned">AnnData / Loom Suite</a></td>
+      <td style="text-align: right"><a href="#suites-mentioned" title="Import, Export, Modify, Inspect and Convert AnnData files. Converts between various different single-cell formats and permits various levels of inspection and manipulation.">AnnData / Loom Suite</a></td>
       <td style="text-align: center">CSV LOOM H5</td>
       <td style="text-align: center"> </td>
       <td style="text-align: center"> </td>
       <td style="text-align: center"> </td>
       <td style="text-align: center"> </td>
-      <td style="text-align: left">Import, Export, Modify, Inspect and Convert AnnData files. Converts between various different single-cell formats and permits various levels of inspection and manipulation. <a href="https://anndata.readthedocs.io/en/latest/">AnnData Documentation</a></td>
+      <td style="text-align: left"><a href="https://anndata.readthedocs.io/en/latest/">AnnData Documentation</a></td>
     </tr>
     <tr>
-      <td style="text-align: right"><a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/crosscontamination_barcode_filter" target="_top">Cross Contamination Barcode Filter</a></td>
+      <td style="text-align: right"><a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/crosscontamination_barcode_filter" target="_top" title="QC tool for inspecting raw count matrices and determining the level of contamination between neighbouring sequencing wells">Cross Contamination Barcode Filter</a></td>
       <td style="text-align: center">CSV</td>
       <td style="text-align: center">Y</td>
       <td style="text-align: center"> </td>
       <td style="text-align: center"> </td>
       <td style="text-align: center"> </td>
-      <td style="text-align: left">QC tool for inspecting raw count matrices and determining the level of contamination between neighbouring sequencing wells</td>
+      <td style="text-align: left"> </td>
     </tr>
     <tr>
-      <td style="text-align: right"><a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/" target="_top">fastp</a></td>
+      <td style="text-align: right"><a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/" target="_top" title="Fast all-in-one preprocessing for FASTQ files">fastp</a></td>
       <td style="text-align: center">FASTA/Q</td>
       <td style="text-align: center">Y</td>
       <td style="text-align: center"> </td>
       <td style="text-align: center"> </td>
       <td style="text-align: center"> </td>
-      <td style="text-align: left">Fast all-in-one preprocessing for FASTQ files <a href="https://doi.org/10.1101/274100" target="_blank">Shifu et al. 2018</a></td>
+      <td style="text-align: left"><a href="https://doi.org/10.1101/274100" target="_blank">Shifu et al. 2018</a></td>
     </tr>
     <tr>
-      <td style="text-align: right"><a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc" target="_top">FastQC</a> / <a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/" target="_top">MultiQC</a></td>
+      <td style="text-align: right"><a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc" target="_top" title="A quality control tool for high throughput sequence data">FastQC</a> / <a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/" target="_top" title="MultiQC aggregates results from bioinformatics analyses into a single report">MultiQC</a></td>
       <td style="text-align: center">FASTQ</td>
       <td style="text-align: center">Y</td>
       <td style="text-align: center"> </td>
       <td style="text-align: center"> </td>
       <td style="text-align: center"> </td>
-      <td style="text-align: left">A quality control tool for high throughput sequence data / MultiQC aggregates results from bioinformatics analyses into a single report <a href="https://doi.org/10.1093/bioinformatics/btw354" target="_blank">Ewels et al. 2016</a></td>
+      <td style="text-align: left"><a href="https://doi.org/10.1093/bioinformatics/btw354" target="_blank">Ewels et al. 2016</a></td>
     </tr>
     <tr>
-      <td style="text-align: right"><a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/lparsons/htseq_count/htseq_count" target="_top">htseq-count</a></td>
+      <td style="text-align: right"><a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/lparsons/htseq_count/htseq_count" target="_top" title="Tool for counting reads in features">htseq-count</a></td>
       <td style="text-align: center">BAM</td>
       <td style="text-align: center"> </td>
       <td style="text-align: center"> </td>
       <td style="text-align: center"> </td>
       <td style="text-align: center">Y</td>
-      <td style="text-align: left">Tool for counting reads in features <a href="https://doi.org/10.1093%2Fbioinformatics%2Fbtu638" target="_blank">Anders et al. 2015</a></td>
+      <td style="text-align: left"><a href="https://doi.org/10.1093%2Fbioinformatics%2Fbtu638" target="_blank">Anders et al. 2015</a></td>
     </tr>
     <tr>
-      <td style="text-align: right"><a href="#suites-mentioned">Je Suite</a></td>
+      <td style="text-align: right"><a href="#suites-mentioned" title="A versatile suite to handle multiplexed NGS libraries with unique molecular identifiers">Je Suite</a></td>
       <td style="text-align: center">FASTA/Q BAM</td>
       <td style="text-align: center">Filtering</td>
       <td style="text-align: center">Y</td>
       <td style="text-align: center"> </td>
       <td style="text-align: center">Y</td>
-      <td style="text-align: left">A versatile suite to handle multiplexed NGS libraries with unique molecular identifiers <a href="https://doi.org/10.1186/s12859-016-1284-2">Girardot at al. 2016</a></td>
+      <td style="text-align: left"><a href="https://doi.org/10.1186/s12859-016-1284-2">Girardot at al. 2016</a></td>
     </tr>
     <tr>
-      <td style="text-align: right"><a href="#suites-mentioned">UMI-tools Suite</a></td>
+      <td style="text-align: right"><a href="#suites-mentioned" title="Includes utilities to count, deduplicate, extract, group, and whitelist Unique Molecular Identifiers (UMIs). Modelling sequencing errors in Unique Molecular Identifiers to improve quantification accuracy">UMI-tools Suite</a></td>
       <td style="text-align: center">FASTQ</td>
       <td style="text-align: center">Filtering</td>
       <td style="text-align: center">Y</td>
       <td style="text-align: center"> </td>
       <td style="text-align: center">Y</td>
-      <td style="text-align: left">Includes utilities to count, deduplicate, extract, group, and whitelist Unique Molecular Identifiers (UMIs). Modelling sequencing errors in Unique Molecular Identifiers to improve quantification accuracy <a href="https://doi.org/10.1101/gr.209601.116" target="_blank">Smith et al. 2017</a></td>
+      <td style="text-align: left"><a href="https://doi.org/10.1101/gr.209601.116" target="_blank">Smith et al. 2017</a></td>
     </tr>
     <tr>
-      <td style="text-align: right"><a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/rgrnastar/rna_star" target="_top">RNA STAR</a></td>
+      <td style="text-align: right"><a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/rgrnastar/rna_star" target="_top" title="Rapid spliced aligner for RNA-seq data, performs single-cell quantification only when used with *featureCounts*">RNA STAR</a></td>
       <td style="text-align: center">FASTA/Q</td>
       <td style="text-align: center">Filtering</td>
       <td style="text-align: center"> </td>
       <td style="text-align: center">Y</td>
       <td style="text-align: center">Y</td>
-      <td style="text-align: left">Rapid spliced aligner for RNA-seq data <a href="https://academic.oup.com/bioinformatics/article/29/1/15/272537/STAR-ultrafast-universal-RNA-seq-aligner" target="_blank">Dobin et al. 2013</a>, performs single-cell quantification only when used with <em>featureCounts</em></td>
+      <td style="text-align: left"><a href="https://academic.oup.com/bioinformatics/article/29/1/15/272537/STAR-ultrafast-universal-RNA-seq-aligner" target="_blank">Dobin et al. 2013</a></td>
     </tr>
     <tr>
-      <td style="text-align: right"><a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/rna_starsolo" target="_top">RNA STAR Solo</a></td>
+      <td style="text-align: right"><a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/rna_starsolo" target="_top" title="Supports Droplet (Drop-seq, 10X) protocols, and can emulate CellRanger pipeline">RNA STAR Solo</a></td>
       <td style="text-align: center">FASTA/Q</td>
       <td style="text-align: center">Filtering</td>
       <td style="text-align: center">Y</td>
       <td style="text-align: center">Y</td>
       <td style="text-align: center">Y</td>
-      <td style="text-align: left">Supports Droplet (Drop-seq, 10X) protocols, and can emulate CellRanger pipeline <a href="https://academic.oup.com/bioinformatics/article/29/1/15/272537/STAR-ultrafast-universal-RNA-seq-aligner" target="_blank">Dobin et al. 2013</a></td>
+      <td style="text-align: left"><a href="https://academic.oup.com/bioinformatics/article/29/1/15/272537/STAR-ultrafast-universal-RNA-seq-aligner" target="_blank">Dobin et al. 2013</a></td>
     </tr>
     <tr>
-      <td style="text-align: right"><a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2" target="_top">Bowtie2</a></td>
+      <td style="text-align: right"><a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2" target="_top" title="Fast and sensitive read alignment">Bowtie2</a></td>
       <td style="text-align: center">FASTA/Q</td>
       <td style="text-align: center">Filtering</td>
       <td style="text-align: center"> </td>
       <td style="text-align: center">Y</td>
       <td style="text-align: center"> </td>
-      <td style="text-align: left">Fast and sensitive read alignment <a href="https://doi.org/10.1038/nmeth.1923" target="_blank">Langmead et al. 2012</a></td>
+      <td style="text-align: left"><a href="https://doi.org/10.1038/nmeth.1923" target="_blank">Langmead et al. 2012</a></td>
     </tr>
     <tr>
-      <td style="text-align: right"><a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/hisat2/hisat2" target="_top">HISAT2</a></td>
+      <td style="text-align: right"><a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/hisat2/hisat2" target="_top" title="Hierarchical indexing for spliced alignment of transcripts">HISAT2</a></td>
       <td style="text-align: center">FASTA/Q</td>
       <td style="text-align: center">Filtering</td>
       <td style="text-align: center"> </td>
       <td style="text-align: center">Y</td>
       <td style="text-align: center"> </td>
-      <td style="text-align: left">Hierarchical indexing for spliced alignment of transcripts <a href="https://doi.org/10.1038/nprot.2016.095" target="_blank">Pertea et al. 2016</a></td>
+      <td style="text-align: left"><a href="https://doi.org/10.1038/nprot.2016.095" target="_blank">Pertea et al. 2016</a></td>
     </tr>
     <tr>
-      <td style="text-align: right"><a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/sailfish/sailfish" target="_top">Sailfish</a></td>
+      <td style="text-align: right"><a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/sailfish/sailfish" target="_top" title="Rapid Alignment-free Quantification of Isoform Abundance">Sailfish</a></td>
       <td style="text-align: center">FASTA/Q BAM</td>
       <td style="text-align: center">Filtering</td>
       <td style="text-align: center">Y</td>
       <td style="text-align: center">Y</td>
       <td style="text-align: center">Y</td>
-      <td style="text-align: left">Rapid Alignment-free Quantification of Isoform Abundance <a href="http://dx.doi.org/10.1038/nbt.2862" target="_blank">Patro et al. 2014</a></td>
+      <td style="text-align: left"><a href="http://dx.doi.org/10.1038/nbt.2862" target="_blank">Patro et al. 2014</a></td>
     </tr>
     <tr>
-      <td style="text-align: right"><a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/alevin" target="_top">Alevin</a> / <a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/salmon/salmon" target="_top">Salmon</a></td>
+      <td style="text-align: right"><a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/alevin" target="_top" title="Alevin">Alevin</a> / <a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/salmon/salmon" target="_top" title="Fast, accurate and bias-aware transcript quantification">Salmon</a></td>
       <td style="text-align: center">FASTA/Q BAM</td>
       <td style="text-align: center">Filtering</td>
       <td style="text-align: center"> </td>
       <td style="text-align: center">Salmon</td>
       <td style="text-align: center">Salmon</td>
-      <td style="text-align: left">Fast, accurate and bias-aware transcript quantification <a href="http://dx.doi.org/10.1038/nmeth.4197" target="_blank">Patro et al. 2017</a></td>
+      <td style="text-align: left"><a href="http://dx.doi.org/10.1038/nmeth.4197" target="_blank">Patro et al. 2017</a></td>
     </tr>
     <tr>
-      <td style="text-align: right"><a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/scpipe/scpipe/" target="_top">scPipe</a></td>
+      <td style="text-align: right"><a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/scpipe/scpipe/" target="_top" title="Preprocessing pipeline for single cell RNA-seq. Also performs downstream analysis via Scater and SCRAN.">scPipe</a></td>
       <td style="text-align: center">FASTQ BAM</td>
       <td style="text-align: center">Filtering</td>
       <td style="text-align: center">Y</td>
       <td style="text-align: center">Subread</td>
       <td style="text-align: center">Subread</td>
-      <td style="text-align: left">Preprocessing pipeline for single cell RNA-seq <a href="https://doi.org/10.1371/journal.pcbi.1006361" target="_blank">Tian et al. 2018</a>. Also performs downstream analysis via Scater and SCRAN</td>
+      <td style="text-align: left"><a href="https://doi.org/10.1371/journal.pcbi.1006361" target="_blank">Tian et al. 2018</a></td>
     </tr>
     <tr>
-      <td style="text-align: right"><a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/featurecounts/featurecounts" target="_top">featureCounts</a></td>
+      <td style="text-align: right"><a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/featurecounts/featurecounts" target="_top" title="Ultrafast and accurate read summarization program">featureCounts</a></td>
       <td style="text-align: center">BAM</td>
       <td style="text-align: center"> </td>
       <td style="text-align: center"> </td>
       <td style="text-align: center">Subread</td>
       <td style="text-align: center">Subread</td>
-      <td style="text-align: left">Ultrafast and accurate read summarization program <a href="http://dx.doi.org/10.1093/bioinformatics/btt656" target="_blank">Liao et al. 2014</a></td>
+      <td style="text-align: left"><a href="http://dx.doi.org/10.1093/bioinformatics/btt656" target="_blank">Liao et al. 2014</a></td>
     </tr>
     <tr>
-      <td style="text-align: right"><a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/" target="_top">BWA-MEM</a></td>
+      <td style="text-align: right"><a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/" target="_top" title="Software package for mapping low-divergent sequences against a large reference genome">BWA-MEM</a></td>
       <td style="text-align: center">FASTA/Q</td>
       <td style="text-align: center"> </td>
       <td style="text-align: center"> </td>
       <td style="text-align: center">Y, not splice-aware</td>
       <td style="text-align: center"> </td>
-      <td style="text-align: left">Software package for mapping low-divergent sequences against a large reference genome <a href="https://doi.org/10.1093/bioinformatics/btp324" target="_blank">Li and Durbin 2009</a>, <a href="https://doi.org/10.1093/bioinformatics/btp698" target="_blank">Li and Durbin 2010</a></td>
+      <td style="text-align: left"><a href="https://doi.org/10.1093/bioinformatics/btp324" target="_blank">Li and Durbin 2009</a>, <a href="https://doi.org/10.1093/bioinformatics/btp698" target="_blank">Li and Durbin 2010</a></td>
     </tr>
   </tbody>
 </table>
@@ -366,7 +365,7 @@ The server is part if the European Galaxy server and is maintained by the <a hre
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: right"><a href="#suites-mentioned">SC3 Suite</a></td>
+      <td style="text-align: right"><a href="#suites-mentioned" title="Consensus clustering of single-cell RNA-Seq data">SC3 Suite</a></td>
       <td style="text-align: center">SCE</td>
       <td style="text-align: center"> </td>
       <td style="text-align: center"> </td>
@@ -375,10 +374,10 @@ The server is part if the European Galaxy server and is maintained by the <a hre
       <td style="text-align: center">PCA</td>
       <td style="text-align: center"> </td>
       <td style="text-align: center"> </td>
-      <td style="text-align: left">Consensus clustering of single-cell RNA-Seq data <a href="https://doi.org/10.1038/nmeth.4236">Kiselev et al</a></td>
+      <td style="text-align: left"><a href="https://doi.org/10.1038/nmeth.4236">Kiselev et al</a></td>
     </tr>
     <tr>
-      <td style="text-align: right"><a href="#suites-mentioned">ScanPy Suite</a></td>
+      <td style="text-align: right"><a href="#suites-mentioned" title="The first scRNA pipeline written in Python with native 10X support">ScanPy Suite</a></td>
       <td style="text-align: center">AnnData CSV LOOM excel mtx umi-tools</td>
       <td style="text-align: center">Y</td>
       <td style="text-align: center">CPM</td>
@@ -387,10 +386,10 @@ The server is part if the European Galaxy server and is maintained by the <a hre
       <td style="text-align: center">PCA tSNE UMAP</td>
       <td style="text-align: center">dendrogram PAGA</td>
       <td style="text-align: center">Y</td>
-      <td style="text-align: left">The first scRNA pipeline written in Python with native 10X support <a href="https://doi.org/10.1186/s13059-017-1382-0">Wolf at al. 2018</a></td>
+      <td style="text-align: left"><a href="https://doi.org/10.1186/s13059-017-1382-0">Wolf at al. 2018</a></td>
     </tr>
     <tr>
-      <td style="text-align: right"><a href="#suites-mentioned">Scater Suite</a></td>
+      <td style="text-align: right"><a href="#suites-mentioned" title="Pre-processing, quality control, normalization and visualization of single-cell RNA-seq data in R">Scater Suite</a></td>
       <td style="text-align: center">SCE SC3</td>
       <td style="text-align: center">Y</td>
       <td style="text-align: center">CPM FPKM TPM</td>
@@ -399,10 +398,10 @@ The server is part if the European Galaxy server and is maintained by the <a hre
       <td style="text-align: center">PCA tSNE UMAP PHATE diffmap</td>
       <td style="text-align: center"> </td>
       <td style="text-align: center"> </td>
-      <td style="text-align: left">Pre-processing, quality control, normalization and visualization of single-cell RNA-seq data in R <a href="https://doi.org/10.1093/bioinformatics/btw777">McCarthy et al. 2017</a></td>
+      <td style="text-align: left"><a href="https://doi.org/10.1093/bioinformatics/btw777">McCarthy et al. 2017</a></td>
     </tr>
     <tr>
-      <td style="text-align: right"><a href="#suites-mentioned">Seurat Suite</a></td>
+      <td style="text-align: right"><a href="#suites-mentioned" title="An R package designed for QC, analysis, and exploration of single-cell RNA-seq data">Seurat Suite</a></td>
       <td style="text-align: center">CSV 10X H5 Alevin</td>
       <td style="text-align: center">Y</td>
       <td style="text-align: center">Log-Normalise Centered-log Relative-counts</td>
@@ -411,10 +410,10 @@ The server is part if the European Galaxy server and is maintained by the <a hre
       <td style="text-align: center">PCA tSNE UMAP</td>
       <td style="text-align: center"> </td>
       <td style="text-align: center">Y</td>
-      <td style="text-align: left">An R package designed for QC, analysis, and exploration of single-cell RNA-seq data <a href="https://doi.org/10.1038/nbt.3192">Satija et al. 2015</a></td>
+      <td style="text-align: left"><a href="https://doi.org/10.1038/nbt.3192">Satija et al. 2015</a></td>
     </tr>
     <tr>
-      <td style="text-align: right"><a href="#suites-mentioned">RaceID Suite</a></td>
+      <td style="text-align: right"><a href="#suites-mentioned" title="Clustering using RaceID performs clustering, outlier detection, dimensional reduction">RaceID Suite</a></td>
       <td style="text-align: center">CSV SCSeq</td>
       <td style="text-align: center">Y</td>
       <td style="text-align: center">Library Size</td>
@@ -423,10 +422,10 @@ The server is part if the European Galaxy server and is maintained by the <a hre
       <td style="text-align: center">PCA tSNE UMAP Fruchterman-Rheingold</td>
       <td style="text-align: center">StemID FateID</td>
       <td style="text-align: center"> </td>
-      <td style="text-align: left">Clustering using RaceID performs clustering, outlier detection, dimensional reduction <a href="https://doi.org/10.1038/nmeth.4662">Herman et al. 2018</a></td>
+      <td style="text-align: left"><a href="https://doi.org/10.1038/nmeth.4662">Herman et al. 2018</a></td>
     </tr>
     <tr>
-      <td style="text-align: right"><a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/table_compute/table_compute" target="_top">Table Compute</a></td>
+      <td style="text-align: right"><a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/table_compute/table_compute" target="_top" title="A tool to perform complex operations upon single or multiple tables using the pandas framework.">Table Compute</a></td>
       <td style="text-align: center">CSV</td>
       <td style="text-align: center">Y</td>
       <td style="text-align: center">user-defined function</td>
@@ -435,10 +434,10 @@ The server is part if the European Galaxy server and is maintained by the <a hre
       <td style="text-align: center"> </td>
       <td style="text-align: center"> </td>
       <td style="text-align: center"> </td>
-      <td style="text-align: left">A tool to perform complex operations upon single or multiple tables using the pandas framework.</td>
+      <td style="text-align: left"> </td>
     </tr>
     <tr>
-      <td style="text-align: right"><a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/deseq2/deseq2" target="_top">DESeq2</a></td>
+      <td style="text-align: right"><a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/deseq2/deseq2" target="_top" title="Differential gene expression analysis based on the negative binomial distribution">DESeq2</a></td>
       <td style="text-align: center">CSV htseq-count summarizedexperiment</td>
       <td style="text-align: center">Y</td>
       <td style="text-align: center">DESeq2</td>
@@ -447,10 +446,10 @@ The server is part if the European Galaxy server and is maintained by the <a hre
       <td style="text-align: center"> </td>
       <td style="text-align: center"> </td>
       <td style="text-align: center"> </td>
-      <td style="text-align: left">Differential gene expression analysis based on the negative binomial distribution <a href="http://doi.org/10.1186/s13059-014-0550-8" target="_blank">Love et al. 2014</a></td>
+      <td style="text-align: left"><a href="http://doi.org/10.1186/s13059-014-0550-8" target="_blank">Love et al. 2014</a></td>
     </tr>
     <tr>
-      <td style="text-align: right"><a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/scpipe/scpipe/" target="_top">scPipe</a></td>
+      <td style="text-align: right"><a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/scpipe/scpipe/" target="_top" title="CelSeq2, etc. Uses Scater and SCRAN for downstream, that also performs pre-processing.">scPipe</a></td>
       <td style="text-align: center">CSV AnnData</td>
       <td style="text-align: center">Y</td>
       <td style="text-align: center">Y</td>
@@ -459,7 +458,7 @@ The server is part if the European Galaxy server and is maintained by the <a hre
       <td style="text-align: center">Y</td>
       <td style="text-align: center"> </td>
       <td style="text-align: center"> </td>
-      <td style="text-align: left">CelSeq2, etc. Uses Scater and SCRAN for downstream <a href="https://doi.org/10.1371/journal.pcbi.1006361">Tian et al. 2018</a>, that also performs pre-processing.</td>
+      <td style="text-align: left"><a href="https://doi.org/10.1371/journal.pcbi.1006361">Tian et al. 2018</a></td>
     </tr>
   </tbody>
 </table>
@@ -477,41 +476,41 @@ The server is part if the European Galaxy server and is maintained by the <a hre
   <tbody>
     <tr>
       <td style="text-align: right">AnnData / Loom</td>
-      <td style="text-align: left">[Export](<a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/anndata_export" target="_top">anndata_export</a>) [Import](<a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/anndata_import" target="_top">anndata_import</a>) [Inspect](<a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/anndata_inspect" target="_top">anndata_inspect</a>) [Manipulate](<a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/anndata_manipulate" target="_top">anndata_manipulate</a>) [Modify Loom](<a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/modify_loom" target="_top">modify_loom</a>)</td>
+      <td style="text-align: left"><a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/anndata_export" target="_top" title="Export">Export</a>, <a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/anndata_import" target="_top" title="Import">Import</a>, <a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/anndata_inspect" target="_top" title="Inspect">Inspect</a>, <a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/anndata_manipulate" target="_top" title="Manipulate">Manipulate</a>, <a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/modify_loom" target="_top" title="Modify Loom">Modify Loom</a></td>
     </tr>
     <tr>
       <td style="text-align: right">Je</td>
-      <td style="text-align: left">[Clip](<a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/gbcs-embl-heidelberg/je_clip" target="_top">je_clip</a>) [Demultiplex](<a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/gbcs-embl-heidelberg/je_demultiplex" target="_top">je_demultiplex</a>) [Demultiplex Illumina](<a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/gbcs-embl-heidelberg/je_demultiplex_illu" target="_top">je_demultiplex_illu</a>) [Mark Dupes](<a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/gbcs-embl-heidelberg/je_markdupes" target="_top">je_markdupes</a>)</td>
+      <td style="text-align: left"><a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/gbcs-embl-heidelberg/je_clip" target="_top" title="Clip">Clip</a>, <a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/gbcs-embl-heidelberg/je_demultiplex" target="_top" title="Demultiplex">Demultiplex</a>, <a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/gbcs-embl-heidelberg/je_demultiplex_illu" target="_top" title="Demultiplex Illumina">Demultiplex Illumina</a>, <a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/gbcs-embl-heidelberg/je_markdupes" target="_top" title="Mark Dupes">Mark Dupes</a></td>
     </tr>
     <tr>
       <td style="text-align: right">UMI-tools</td>
-      <td style="text-align: left">[Count](<a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/umi_tools_count" target="_top">umi_tools_count</a>) [De-duplicate](<a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/umi_tools_dedup" target="_top">umi_tools_dedup</a>) [Extract](<a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/umi_tools_extract" target="_top">umi_tools_extract</a>) [Group](<a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/umi_tools_group" target="_top">umi_tools_group</a>) [Whitelist](<a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/umi_tools_whitelist" target="_top">umi_tools_whitelist</a>)</td>
+      <td style="text-align: left"><a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/umi_tools_count" target="_top" title="Count">Count</a>, <a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/umi_tools_dedup" target="_top" title="De-duplicate">De-duplicate</a>, <a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/umi_tools_extract" target="_top" title="Extract">Extract</a>, <a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/umi_tools_group" target="_top" title="Group">Group</a>, <a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/umi_tools_whitelist" target="_top" title="Whitelist">Whitelist</a></td>
     </tr>
     <tr>
       <td style="text-align: right">SC3</td>
-      <td style="text-align: left">[Calc Consens](<a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/sc3_calc_consens/sc3_calc_consens" target="_top">sc3_calc_consens</a>) [Prepare](<a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/sc3_prepare/sc3_prepare" target="_top">sc3_prepare</a>) [Calc Tranfs](<a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/sc3_calc_transfs/sc3_calc_transfs" target="_top">sc3_calc_transfs</a>) [Calc_Biology](<a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/sc3_calc_biology/sc3_calc_biology" target="_top">sc3_calc_biology</a>) [Estimate K](<a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/sc3_estimate_k/sc3_estimate_k" target="_top">sc3_estimate_k</a>) [Calc Dists](<a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/sc3_calc_dists/sc3_calc_dists" target="_top">sc3_calc_dists</a>) [K-means](<a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/sc3_kmeans/sc3_kmeans" target="_top">sc3_kmeans</a>)</td>
+      <td style="text-align: left"><a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/sc3_calc_consens/sc3_calc_consens" target="_top" title="Calc Consens">Calc Consens</a>, <a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/sc3_prepare/sc3_prepare" target="_top" title="Prepare">Prepare</a>, <a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/sc3_calc_transfs/sc3_calc_transfs" target="_top" title="Calc Tranfs">Calc Tranfs</a>, <a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/sc3_calc_biology/sc3_calc_biology" target="_top" title="Calc Biology">Calc Biology</a>, <a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/sc3_estimate_k/sc3_estimate_k" target="_top" title="Estimate K">Estimate K</a>, <a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/sc3_calc_dists/sc3_calc_dists" target="_top" title="Calc Dists">Calc Dists</a>, <a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/sc3_kmeans/sc3_kmeans" target="_top" title="K-means">K-means</a></td>
     </tr>
     <tr>
       <td style="text-align: right">ScanPy</td>
-      <td style="text-align: left">[Read 10X](<a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_read_10x/scanpy_read_10x" target="_top">scanpy_read_10x</a>) [Scale Data](<a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_scale_data/scanpy_scale_data" target="_top">scanpy_scale_data</a>) [Find Cluster](<a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_find_cluster/scanpy_find_cluster" target="_top">scanpy_find_cluster</a>)  [Run PCA](<a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_run_pca/scanpy_run_pca" target="_top">scanpy_run_pca</a>) [Run tSNE](<a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_run_tsne/scanpy_run_tsne" target="_top">scanpy_run_tsne</a>) [Run UMAP](<a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_run_umap/scanpy_run_umap" target="_top">scanpy_run_umap</a>) [Compute Graph](<a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_compute_graph/scanpy_compute_graph" target="_top">scanpy_compute_graph</a>) [Find Variable Genes](<a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_find_variable_genes/scanpy_find_variable_genes" target="_top">scanpy_find_variable_genes</a>) [Normalise Data](<a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_normalise_data/scanpy_normalise_data" target="_top">scanpy_normalise_data</a>) [Filter genes](<a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_filter_genes/scanpy_filter_genes" target="_top">scanpy_filter_genes</a>) [Find Markers](<a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_find_markers/scanpy_find_markers" target="_top">scanpy_find_markers</a>) [Filter Cells](<a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_filter_cells/scanpy_filter_cells" target="_top">scanpy_filter_cells</a>) [Parameter Iterator](<a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_parameter_iterator/scanpy_parameter_iterator" target="_top">scanpy_parameter_iterator</a>)</td>
+      <td style="text-align: left"><a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_read_10x/scanpy_read_10x" target="_top" title="Read 10X">Read 10X</a>, <a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_scale_data/scanpy_scale_data" target="_top" title="Scale Data">Scale Data</a>, <a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_find_cluster/scanpy_find_cluster" target="_top" title="Find Cluster">Find Cluster</a>, <a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_run_pca/scanpy_run_pca" target="_top" title="Run PCA">Run PCA</a>, <a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_run_tsne/scanpy_run_tsne" target="_top" title="Run tSNE">Run tSNE</a>, <a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_run_umap/scanpy_run_umap" target="_top" title="Run UMAP">Run UMAP</a>, <a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_compute_graph/scanpy_compute_graph" target="_top" title="Compute Graph">Compute Graph</a>, <a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_find_variable_genes/scanpy_find_variable_genes" target="_top" title="Find Variable Genes">Find Variable Genes</a>, <a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_normalise_data/scanpy_normalise_data" target="_top" title="Normalise Data">Normalise Data</a>, <a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_filter_genes/scanpy_filter_genes" target="_top" title="Filter genes">Filter genes</a>, <a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_find_markers/scanpy_find_markers" target="_top" title="Find Markers">Find Markers</a>, <a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_filter_cells/scanpy_filter_cells" target="_top" title="Filter Cells">Filter Cells</a>, <a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_parameter_iterator/scanpy_parameter_iterator" target="_top" title="Parameter Iterator">Parameter Iterator</a></td>
     </tr>
     <tr>
       <td style="text-align: right">Scater</td>
-      <td style="text-align: left">[Is Outlier](<a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/scater_is_outlier/scater_is_outlier" target="_top">scater_is_outlier</a>) [Calculate CPM](<a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/scater_calculate_cpm/scater_calculate_cpm" target="_top">scater_calculate_cpm</a>) [Calculate QC Metrics](<a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/scater_calculate_qc_metrics/scater_calculate_qc_metrics" target="_top">scater_calculate_qc_metrics</a>) [Read 10X Results](<a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/scater_read_10x_results/scater_read_10x_results" target="_top">scater_read_10x_results</a>) [Filter](<a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/scater_filter/scater_filter" target="_top">scater_filter</a>) [Normalize](<a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/scater_normalize/scater_normalize" target="_top">scater_normalize</a>)</td>
+      <td style="text-align: left"><a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/scater_is_outlier/scater_is_outlier" target="_top" title="Is Outlier">Is Outlier</a>, <a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/scater_calculate_cpm/scater_calculate_cpm" target="_top" title="Calculate CPM">Calculate CPM</a>, <a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/scater_calculate_qc_metrics/scater_calculate_qc_metrics" target="_top" title="Calculate QC Metrics">Calculate QC Metrics</a>, <a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/scater_read_10x_results/scater_read_10x_results" target="_top" title="Read 10X Results">Read 10X Results</a>, <a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/scater_filter/scater_filter" target="_top" title="Filter">Filter</a>, <a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/scater_normalize/scater_normalize" target="_top" title="Normalize">Normalize</a></td>
     </tr>
     <tr>
       <td style="text-align: right">Seurat</td>
-      <td style="text-align: left">[Read 10X](<a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/seurat_read10x/seurat_read10x" target="_top">seurat_read10x</a>) [Run PCA](<a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/seurat_run_pca/seurat_run_pca" target="_top">seurat_run_pca</a>) [Scale Data](<a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/seurat_scale_data/seurat_scale_data" target="_top">seurat_scale_data</a>) [Filter Cells](<a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/seurat_filter_cells/seurat_filter_cells" target="_top">seurat_filter_cells</a>) [Find Markers](<a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/seurat_find_markers/seurat_find_markers" target="_top">seurat_find_markers</a>) [Dim. Plot](<a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/seurat_dim_plot/seurat_dim_plot" target="_top">seurat_dim_plot</a>) [Normalise Data](<a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/seurat_normalise_data/seurat_normalise_data" target="_top">seurat_normalise_data</a>) [Create Seurat Object](<a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/seurat_create_seurat_object/seurat_create_seurat_object" target="_top">seurat_create_seurat_object</a>) [Export CellBrowser](<a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/seurat_export_cellbrowser/seurat_export_cellbrowser" target="_top">seurat_export_cellbrowser</a>) [Run tSNE](<a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/seurat_run_tsne/seurat_run_tsne" target="_top">seurat_run_tsne</a>) [Find Variable Genes](<a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/seurat_find_variable_genes/seurat_find_variable_genes" target="_top">seurat_find_variable_genes</a>) [Find Clusters](<a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/seurat_find_clusters/seurat_find_clusters" target="_top">seurat_find_clusters</a>)</td>
+      <td style="text-align: left"><a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/seurat_read10x/seurat_read10x" target="_top" title="Read 10X">Read 10X</a>, <a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/seurat_run_pca/seurat_run_pca" target="_top" title="Run PCA">Run PCA</a>, <a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/seurat_scale_data/seurat_scale_data" target="_top" title="Scale Data">Scale Data</a>, <a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/seurat_filter_cells/seurat_filter_cells" target="_top" title="Filter Cells">Filter Cells</a>, <a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/seurat_find_markers/seurat_find_markers" target="_top" title="Find Markers">Find Markers</a>, <a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/seurat_dim_plot/seurat_dim_plot" target="_top" title="Dim. Plot">Dim. Plot</a>, <a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/seurat_normalise_data/seurat_normalise_data" target="_top" title="Normalise Data">Normalise Data</a>, <a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/seurat_create_seurat_object/seurat_create_seurat_object" target="_top" title="Create Seurat Object">Create Seurat Object</a>, <a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/seurat_export_cellbrowser/seurat_export_cellbrowser" target="_top" title="Export CellBrowser">Export CellBrowser</a>, <a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/seurat_run_tsne/seurat_run_tsne" target="_top" title="Run tSNE">Run tSNE</a>, <a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/seurat_find_variable_genes/seurat_find_variable_genes" target="_top" title="Find Variable Genes">Find Variable Genes</a>, <a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/seurat_find_clusters/seurat_find_clusters" target="_top" title="Find Clusters">Find Clusters</a></td>
     </tr>
     <tr>
       <td style="text-align: right">RaceID</td>
-      <td style="text-align: left">[Clustering](<a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/raceid_clustering" target="_top">raceid_clustering</a>) [Filt.Norm.Conf](<a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/raceid_filtnormconf/" target="_top">raceid_filtnormconf</a>) [Trajectory](<a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/raceid_trajectory/" target="_top">raceid_trajectory</a>) [Inspect Clusters](<a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/raceid_inspectclusters/" target="_top">raceid_inspectclusters</a>) [Inspect Trajectory](<a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/raceid_inspecttrajectory" target="_top">raceid_inspecttrajectory</a>)</td>
+      <td style="text-align: left"><a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/raceid_clustering" target="_top" title="Clustering">Clustering</a>, <a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/raceid_filtnormconf/" target="_top" title="Filter Normalize Confounder">Filter Normalize Confounder</a>, <a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/raceid_trajectory/" target="_top" title="Trajectory">Trajectory</a>, <a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/raceid_inspectclusters/" target="_top" title="Inspect Clusters">Inspect Clusters</a>, <a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/raceid_inspecttrajectory" target="_top" title="Inspect Trajectory">Inspect Trajectory</a></td>
     </tr>
   </tbody>
 </table>
 
 <!-- BEGIN: The following tools were left out: --->
-<!-- <a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/star_fusion/star_fusion" target="_top">STAR-fusion</a> | Fast fusion gene finder | [Haas et al. 2017](https://www.biorxiv.org/content/early/2017/03/24/120295){:target="_blank"} -->
+<!-- <a href="https://singlecell.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/star_fusion/star_fusion" target="_top" title="STAR-fusion" >STAR-fusion</a> | Fast fusion gene finder | [Haas et al. 2017](https://www.biorxiv.org/content/early/2017/03/24/120295){:target="_blank"} -->
 <!-- ## Utilities -->
 <!-- SAMtools | Utilities for manipulating alignments in the SAM format | [Heng et al. 2009](https://doi.org/10.1093/bioinformatics/btp352){:target="_blank"} -->
 <!-- BEDTools | Utilities for genome arithmetic | [Quinlan and Hall 2010](https://doi.org/10.1093/bioinformatics/btq033){:target="_blank"} -->
