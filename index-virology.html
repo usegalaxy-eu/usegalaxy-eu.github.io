@@ -3,7 +3,8 @@
   <head>
   <title>Galaxy Europe</title>
   <meta property="og:title" content="" />
-  <meta property="og:description" content="" />
+  <meta property="og:description" content="Welcome to the European Virology Galaxy flavor
+" />
   <meta property="og:image" content="/assets/media/galaxy-eu-logo.512.png" />
   <meta name="description" content="The European Galaxy Instance">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -122,7 +123,7 @@ Otherwise, we will start with the preprocessing of raw <a href="https://github.c
   <li>
     <p>Illumina reads</p>
 
-    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>SRR10903401
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>SRR10903401
 SRR10903402
 SRR10971381
 </code></pre></div>    </div>
@@ -130,7 +131,7 @@ SRR10971381
   <li>
     <p>Oxford Nanopore reads</p>
 
-    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>SRR10948550
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>SRR10948550
 SRR10948474
 SRR10902284
 </code></pre></div>    </div>
@@ -144,7 +145,7 @@ SRR10902284
 <table class="table table-striped">
   <thead>
     <tr>
-      <th><code class="highlighter-rouge">#</code></th>
+      <th><code class="language-plaintext highlighter-rouge">#</code></th>
       <th>Output</th>
       <th>Used in</th>
     </tr>
@@ -179,21 +180,21 @@ SRR10902284
 <h4 id="illumina">Illumina</h4>
 
 <ul>
-  <li>Illumina reads are QC’ed and adapter sequences are removed using <code class="highlighter-rouge">fastp</code></li>
-  <li>Quality metrics are computed and visualized using <code class="highlighter-rouge">fastqc</code>  and <code class="highlighter-rouge">multiqc</code></li>
-  <li>Reads are mapped against human genome version <code class="highlighter-rouge">hg38</code> using <code class="highlighter-rouge">bwa mem</code></li>
-  <li>Reads that <strong>do not map</strong> to <code class="highlighter-rouge">hg38</code> are filtered out using <code class="highlighter-rouge">samtools view</code></li>
-  <li>Reads are converted back to fastq format using <code class="highlighter-rouge">samtools fastx</code></li>
+  <li>Illumina reads are QC’ed and adapter sequences are removed using <code class="language-plaintext highlighter-rouge">fastp</code></li>
+  <li>Quality metrics are computed and visualized using <code class="language-plaintext highlighter-rouge">fastqc</code>  and <code class="language-plaintext highlighter-rouge">multiqc</code></li>
+  <li>Reads are mapped against human genome version <code class="language-plaintext highlighter-rouge">hg38</code> using <code class="language-plaintext highlighter-rouge">bwa mem</code></li>
+  <li>Reads that <strong>do not map</strong> to <code class="language-plaintext highlighter-rouge">hg38</code> are filtered out using <code class="language-plaintext highlighter-rouge">samtools view</code></li>
+  <li>Reads are converted back to fastq format using <code class="language-plaintext highlighter-rouge">samtools fastx</code></li>
 </ul>
 
 <h4 id="oxford-nanopore">Oxford nanopore</h4>
 
 <ul>
-  <li>Reads are QC’ed using <code class="highlighter-rouge">nanoplot</code></li>
-  <li>Quality metrics are computed and visualized using <code class="highlighter-rouge">fastqc</code>  and <code class="highlighter-rouge">multiqc</code></li>
-  <li>Reads are mapped against human genome version <code class="highlighter-rouge">hg38</code> using <code class="highlighter-rouge">minimap2</code></li>
-  <li>Reads that <strong>do not map</strong> to <code class="highlighter-rouge">hg38</code> are filtered out using <code class="highlighter-rouge">samtools view</code></li>
-  <li>Reads are converted back to fastq format using <code class="highlighter-rouge">samtools fastx</code></li>
+  <li>Reads are QC’ed using <code class="language-plaintext highlighter-rouge">nanoplot</code></li>
+  <li>Quality metrics are computed and visualized using <code class="language-plaintext highlighter-rouge">fastqc</code>  and <code class="language-plaintext highlighter-rouge">multiqc</code></li>
+  <li>Reads are mapped against human genome version <code class="language-plaintext highlighter-rouge">hg38</code> using <code class="language-plaintext highlighter-rouge">minimap2</code></li>
+  <li>Reads that <strong>do not map</strong> to <code class="language-plaintext highlighter-rouge">hg38</code> are filtered out using <code class="language-plaintext highlighter-rouge">samtools view</code></li>
+  <li>Reads are converted back to fastq format using <code class="language-plaintext highlighter-rouge">samtools fastx</code></li>
 </ul>
 
 <p><img src="/assets/media/sars/pp_wf.png" alt="" height="50%" width="50%" /></p>
@@ -206,9 +207,9 @@ SRR10902284
 
 <h3 id="outline">Outline</h3>
 
-<p>We use Illumina and Oxford Nanopore reads that were pre-processed to remove human-derived sequences. We use two assembly tools: <a href="http://cab.spbu.ru/software/spades/"><code class="highlighter-rouge">spades</code></a> and <a href="https://github.com/rrwick/Unicycler"><code class="highlighter-rouge">unicycler</code></a>. While <code class="highlighter-rouge">spades</code> is a tool fully dedicated to assembly, <code class="highlighter-rouge">unicycler</code> is a “wrapper” that combines multiple existing tools. It uses <code class="highlighter-rouge">spades</code> as an engine for short read assembly while utilizing <a href="https://github.com/lh3/miniasm"><code class="highlighter-rouge">mimiasm</code></a> and <a href="https://github.com/isovic/racon"><code class="highlighter-rouge">racon</code></a> for assembly of long noisy reads.</p>
+<p>We use Illumina and Oxford Nanopore reads that were pre-processed to remove human-derived sequences. We use two assembly tools: <a href="http://cab.spbu.ru/software/spades/"><code class="language-plaintext highlighter-rouge">spades</code></a> and <a href="https://github.com/rrwick/Unicycler"><code class="language-plaintext highlighter-rouge">unicycler</code></a>. While <code class="language-plaintext highlighter-rouge">spades</code> is a tool fully dedicated to assembly, <code class="language-plaintext highlighter-rouge">unicycler</code> is a “wrapper” that combines multiple existing tools. It uses <code class="language-plaintext highlighter-rouge">spades</code> as an engine for short read assembly while utilizing <a href="https://github.com/lh3/miniasm"><code class="language-plaintext highlighter-rouge">mimiasm</code></a> and <a href="https://github.com/isovic/racon"><code class="language-plaintext highlighter-rouge">racon</code></a> for assembly of long noisy reads.</p>
 
-<p>In addition to assemblies (actual sequences) the two tools produce assembly graphs that can be used for visualization of assembly with <a href="https://rrwick.github.io/Bandage/"><code class="highlighter-rouge">bandage</code></a>.</p>
+<p>In addition to assemblies (actual sequences) the two tools produce assembly graphs that can be used for visualization of assembly with <a href="https://rrwick.github.io/Bandage/"><code class="language-plaintext highlighter-rouge">bandage</code></a>.</p>
 
 <h3 id="inputs-1">Inputs</h3>
 
@@ -216,9 +217,9 @@ SRR10902284
 
 <h3 id="outputs-1">Outputs</h3>
 
-<p>Each tool produces assembly (contigs) and assembly graph representations. The largest contigs generated by <code class="highlighter-rouge">unicycler</code> and <code class="highlighter-rouge">spades</code> were 29,781 and 29,907 nts, respectively, and had 100% identity over their entire length.</p>
+<p>Each tool produces assembly (contigs) and assembly graph representations. The largest contigs generated by <code class="language-plaintext highlighter-rouge">unicycler</code> and <code class="language-plaintext highlighter-rouge">spades</code> were 29,781 and 29,907 nts, respectively, and had 100% identity over their entire length.</p>
 
-<p>The following figures show visualizations of assembly graphs produced with <code class="highlighter-rouge">spades</code> and <code class="highlighter-rouge">unicycler</code>. The complexity of the graphs is not surprising given the metagenomic nature of the underlying samples.</p>
+<p>The following figures show visualizations of assembly graphs produced with <code class="language-plaintext highlighter-rouge">spades</code> and <code class="language-plaintext highlighter-rouge">unicycler</code>. The complexity of the graphs is not surprising given the metagenomic nature of the underlying samples.</p>
 
 <table>
   <thead>
@@ -268,7 +269,7 @@ SRR10902284
 
 <p>One input is required: a comma-separated <a href="acc_date.txt">file</a> containing accession numbers and collection dates:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Accession,Collection_Date
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Accession,Collection_Date
 MT019531,2019-12-30
 MT019529,2019-12-23
 MT007544,2020-01-25
@@ -280,11 +281,11 @@ MN975262,2020-01-11
 
 <ol>
   <li>searching for SARS-CoV-2 (NCBI taxid: 2697049) sequences</li>
-  <li>configuring the list of results to display only the <code class="highlighter-rouge">Accession</code> and <code class="highlighter-rouge">Collection date</code> columns</li>
-  <li>downloading the <code class="highlighter-rouge">Current table view result</code> in <code class="highlighter-rouge">CSV format</code></li>
+  <li>configuring the list of results to display only the <code class="language-plaintext highlighter-rouge">Accession</code> and <code class="language-plaintext highlighter-rouge">Collection date</code> columns</li>
+  <li>downloading the <code class="language-plaintext highlighter-rouge">Current table view result</code> in <code class="language-plaintext highlighter-rouge">CSV format</code></li>
 </ol>
 
-<p>The collection dates will be taken from the corresponding GenBank record’s <code class="highlighter-rouge">/collection_date</code> tag.</p>
+<p>The collection dates will be taken from the corresponding GenBank record’s <code class="language-plaintext highlighter-rouge">/collection_date</code> tag.</p>
 
 <h3 id="outputs-2">Outputs</h3>
 
@@ -306,7 +307,7 @@ MN975262,2020-01-11
 
 <p>As of writing (2/13/2020) there were just three Illumina datasets from COVID-19 patients:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>- sra-study: SRP242226
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>- sra-study: SRP242226
   bioproject: PRJNA601736
   biosample: SAMN13872787
   sra-sample: SRS6007144
@@ -331,11 +332,11 @@ MN975262,2020-01-11
 <p>To understand the extent of sequence variation within these samples we performed the following analysis. First, we used a Galaxy workflow to perform the following steps:</p>
 
 <ol>
-  <li>Mapped all reads against COVID-19 reference <a href="https://www.ncbi.nlm.nih.gov/nuccore/NC_045512">NC_045512.2</a> using <code class="highlighter-rouge">bwa mem</code></li>
+  <li>Mapped all reads against COVID-19 reference <a href="https://www.ncbi.nlm.nih.gov/nuccore/NC_045512">NC_045512.2</a> using <code class="language-plaintext highlighter-rouge">bwa mem</code></li>
   <li>Filtered reads with mapping quality of at least 20, that were mapped as proper pairs</li>
-  <li>Performed realignments using <code class="highlighter-rouge">lofreq viterbi</code></li>
-  <li>Called variants using <code class="highlighter-rouge">lofreq call</code></li>
-  <li>Annotated variants using <code class="highlighter-rouge">snpeff</code> against database created from NC_045512.2 GenBank file</li>
+  <li>Performed realignments using <code class="language-plaintext highlighter-rouge">lofreq viterbi</code></li>
+  <li>Called variants using <code class="language-plaintext highlighter-rouge">lofreq call</code></li>
+  <li>Annotated variants using <code class="language-plaintext highlighter-rouge">snpeff</code> against database created from NC_045512.2 GenBank file</li>
   <li>Converted VCFs into tab delimited datasets</li>
 </ol>
 
@@ -349,10 +350,10 @@ MN975262,2020-01-11
   <li>
     <p>GenBank file for the reference COVID-19 <a href="https://www.ncbi.nlm.nih.gov/nuccore/NC_045512">genome</a>.</p>
 
-    <p>The GenBank record is used by <code class="highlighter-rouge">snpeff</code> to generate a database for variant annotation.</p>
+    <p>The GenBank record is used by <code class="language-plaintext highlighter-rouge">snpeff</code> to generate a database for variant annotation.</p>
   </li>
   <li>
-    <p>Set of illumina reads (in this case a collection of unfiltered reads from <code class="highlighter-rouge">SRR10903401</code>, <code class="highlighter-rouge">SRR10903402</code>, and <code class="highlighter-rouge">SRR10971381</code>)</p>
+    <p>Set of illumina reads (in this case a collection of unfiltered reads from <code class="language-plaintext highlighter-rouge">SRR10903401</code>, <code class="language-plaintext highlighter-rouge">SRR10903402</code>, and <code class="language-plaintext highlighter-rouge">SRR10971381</code>)</p>
   </li>
 </ol>
 
@@ -513,7 +514,7 @@ It contains version information for all tools used in this analysis.</p>
 
 <p>Downloaded CDS sequences of coronavirus Spike proteins from <a href="https://www.ncbi.nlm.nih.gov/labs/virus/vssi/#/virus?SeqType_s=Nucleotide&amp;VirusLineage_ss=SARS-CoV-2,%20taxid:2697049">NCBI Viral Resource</a> for the following coronaviruses:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>FJ588692.1	Bat SARS Coronavirus Rs806/2006
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>FJ588692.1	Bat SARS Coronavirus Rs806/2006
 KR559017.1	Bat SARS-like coronavirus BatCoV/BB9904/BGR/2008
 KC881007.1	Bat SARS-like coronavirus WIV1
 KT357810.1	MERS coronavirus isolate Riyadh_1175/KSA/2014
@@ -541,7 +542,7 @@ NC_038861.1	Transmissible gastroenteritis virus
 
 <h3 id="output">Output</h3>
 
-<p>We produce two alignments, one at the nucleotide and one at the amino acid level, of Betacoronavirus spike proteins. The alignments can be visualized with the <code class="highlighter-rouge">Multiple Sequence Alignment</code> visualization in Galaxy :</p>
+<p>We produce two alignments, one at the nucleotide and one at the amino acid level, of Betacoronavirus spike proteins. The alignments can be visualized with the <code class="language-plaintext highlighter-rouge">Multiple Sequence Alignment</code> visualization in Galaxy :</p>
 
 <table>
   <thead>
@@ -556,7 +557,7 @@ NC_038861.1	Transmissible gastroenteritis virus
   </tbody>
 </table>
 
-<p>Or with locally installed softwares, here <a href="https://github.com/AliView/AliView"><code class="highlighter-rouge">AliView</code></a>.</p>
+<p>Or with locally installed softwares, here <a href="https://github.com/AliView/AliView"><code class="language-plaintext highlighter-rouge">AliView</code></a>.</p>
 
 <table>
   <thead>
@@ -586,7 +587,7 @@ NC_038861.1	Transmissible gastroenteritis virus
 
 <p><img src="/assets/media/sars/Workflow_snapshot.png" alt="Analysis Workflow" height="50%" width="50%" /></p>
 
-<p>The <code class="highlighter-rouge">Transeq</code> tool converts the CDS sequences into protein sequences, which we then align to each other using <code class="highlighter-rouge">MAFFT</code>. The output is fed into <code class="highlighter-rouge">tranalign</code> along with the nucleotide sequences. <code class="highlighter-rouge">tranalign</code> produces a nucleotide alignment coherent with the protein alignment.</p>
+<p>The <code class="language-plaintext highlighter-rouge">Transeq</code> tool converts the CDS sequences into protein sequences, which we then align to each other using <code class="language-plaintext highlighter-rouge">MAFFT</code>. The output is fed into <code class="language-plaintext highlighter-rouge">tranalign</code> along with the nucleotide sequences. <code class="language-plaintext highlighter-rouge">tranalign</code> produces a nucleotide alignment coherent with the protein alignment.</p>
 
 <h2 id="evolutionary-analysis">Evolutionary Analysis</h2>
 
@@ -598,11 +599,11 @@ NC_038861.1	Transmissible gastroenteritis virus
 
 <h3 id="outline-4">Outline</h3>
 
-<p>We employ a recombination detection algorithm (GARD) developed by <a href="http://mbe.oxfordjournals.org/cgi/content/full/23/10/1891">Kosakovsky Pond et al.</a> and implemented in the <code class="highlighter-rouge">hyphy</code> package. To select a representative set of <em>S</em>-genes we perform a blast search using the <em>S</em>-gene CDS from <a href="https://www.ncbi.nlm.nih.gov/nuccore/NC_045512">NC_045512</a> as a query against the <code class="highlighter-rouge">nr</code> database. We select coding regions corresponding to the <em>S</em>-gene from a number of COVID-19 genomes, original SARS isolates. This set of sequences can be found in <a href="S_nt.fna">this repository</a></p>
+<p>We employ a recombination detection algorithm (GARD) developed by <a href="http://mbe.oxfordjournals.org/cgi/content/full/23/10/1891">Kosakovsky Pond et al.</a> and implemented in the <code class="language-plaintext highlighter-rouge">hyphy</code> package. To select a representative set of <em>S</em>-genes we perform a blast search using the <em>S</em>-gene CDS from <a href="https://www.ncbi.nlm.nih.gov/nuccore/NC_045512">NC_045512</a> as a query against the <code class="language-plaintext highlighter-rouge">nr</code> database. We select coding regions corresponding to the <em>S</em>-gene from a number of COVID-19 genomes, original SARS isolates. This set of sequences can be found in <a href="S_nt.fna">this repository</a></p>
 
-<p>We then generate a codon-based alignment using the workflow shown below and perform the recombination analysis using the <code class="highlighter-rouge">gard</code> tool from the <code class="highlighter-rouge">hyphy</code> package.</p>
+<p>We then generate a codon-based alignment using the workflow shown below and perform the recombination analysis using the <code class="language-plaintext highlighter-rouge">gard</code> tool from the <code class="language-plaintext highlighter-rouge">hyphy</code> package.</p>
 
-<p>For selection analyses, we apply the <a href="https://www.ncbi.nlm.nih.gov/pubmed/25697341">Adaptive Branch Site Random Effects</a> method to test whether or each branch of the tree shows evidence of diversifing positive selection along a fraction of sites using the <code class="highlighter-rouge">absrel</code> tool from the <code class="highlighter-rouge">hyphy</code> package.</p>
+<p>For selection analyses, we apply the <a href="https://www.ncbi.nlm.nih.gov/pubmed/25697341">Adaptive Branch Site Random Effects</a> method to test whether or each branch of the tree shows evidence of diversifing positive selection along a fraction of sites using the <code class="language-plaintext highlighter-rouge">absrel</code> tool from the <code class="language-plaintext highlighter-rouge">hyphy</code> package.</p>
 
 <h2 id="inputs-4">Inputs</h2>
 
@@ -640,7 +641,7 @@ NC_038861.1	Transmissible gastroenteritis virus
 
 <p><img src="/assets/media/sars/rec_wf.png" alt="" height="50%" width="50%" /></p>
 
-<p>The workflow takes unaligned CDS sequences, translates them with <code class="highlighter-rouge">EMBOSS:tanseq</code>, aligns translations using <code class="highlighter-rouge">mafft</code>, realigns original CDS input using the mafft alignment as a guide and sends this codon-based alignment to <code class="highlighter-rouge">gard</code>.</p>
+<p>The workflow takes unaligned CDS sequences, translates them with <code class="language-plaintext highlighter-rouge">EMBOSS:tanseq</code>, aligns translations using <code class="language-plaintext highlighter-rouge">mafft</code>, realigns original CDS input using the mafft alignment as a guide and sends this codon-based alignment to <code class="language-plaintext highlighter-rouge">gard</code>.</p>
 
 <h2 id="comparative-analysis-of-coronovirus-sequences">Comparative analysis of coronovirus sequences</h2>
 
@@ -650,16 +651,16 @@ NC_038861.1	Transmissible gastroenteritis virus
 
 <h3 id="outline-5">Outline</h3>
 
-<p>We mapped Unicycler assembly produces at <a href="https://github.com/galaxyproject/SARS-CoV-2/tree/master/Assembly">step 1</a> against <code class="highlighter-rouge">nr</code> database at NCBI using <code class="highlighter-rouge">blastn</code>  and downloaded <a href="4GRC05K5014-Alignment-HitTable.csv">hit table</a>. This analysis indicated that our assembly is 100% identical to <a href="https://www.ncbi.nlm.nih.gov/nuccore/NC_045512">NC_045512</a>.</p>
+<p>We mapped Unicycler assembly produces at <a href="https://github.com/galaxyproject/SARS-CoV-2/tree/master/Assembly">step 1</a> against <code class="language-plaintext highlighter-rouge">nr</code> database at NCBI using <code class="language-plaintext highlighter-rouge">blastn</code>  and downloaded <a href="4GRC05K5014-Alignment-HitTable.csv">hit table</a>. This analysis indicated that our assembly is 100% identical to <a href="https://www.ncbi.nlm.nih.gov/nuccore/NC_045512">NC_045512</a>.</p>
 
 <p>We then used this hit table to Galaxy workflow that:</p>
 
 <ol>
   <li>downloaded sequences</li>
-  <li>aligned downloaded sequences against COVID-19 reference <a href="https://www.ncbi.nlm.nih.gov/nuccore/NC_045512">NC_045512</a> using <code class="highlighter-rouge">lastz</code></li>
+  <li>aligned downloaded sequences against COVID-19 reference <a href="https://www.ncbi.nlm.nih.gov/nuccore/NC_045512">NC_045512</a> using <code class="language-plaintext highlighter-rouge">lastz</code></li>
   <li>identified sequences that align with at least 75% of NC_045512</li>
-  <li>created multiple alignment of sequences from the previous step using <code class="highlighter-rouge">mafft</code></li>
-  <li>computed a maximum likelihood tree using <code class="highlighter-rouge">iqtree</code></li>
+  <li>created multiple alignment of sequences from the previous step using <code class="language-plaintext highlighter-rouge">mafft</code></li>
+  <li>computed a maximum likelihood tree using <code class="language-plaintext highlighter-rouge">iqtree</code></li>
 </ol>
 
 <h3 id="inputs-5">Inputs</h3>
@@ -673,7 +674,7 @@ NC_038861.1	Transmissible gastroenteritis virus
 
 <p>The hit table has the following format:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>COVID-19,MN988668.1,100.000,29781,0,0,1,29781,29838,58,0.0,54996
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>COVID-19,MN988668.1,100.000,29781,0,0,1,29781,29838,58,0.0,54996
 COVID-19,NC_045512.2,100.000,29781,0,0,1,29781,29839,59,0.0,54996
 COVID-19,MN994468.1,99.993,29781,2,0,1,29781,29839,59,0.0,54985
 COVID-19,MN985325.1,99.990,29781,3,0,1,29781,29839,59,0.0,54979
@@ -688,7 +689,7 @@ COVID-19,MN975262.1,99.983,29781,5,0,1,29781,29839,59,0.0,54968
 <ul>
   <li>extracts accession numbers (the second column) for hit table</li>
   <li>downloads all corresponding FASTA files</li>
-  <li>aligned them using <code class="highlighter-rouge">lastz</code></li>
+  <li>aligned them using <code class="language-plaintext highlighter-rouge">lastz</code></li>
   <li>selected all sequences that align over at least 75% of the reference</li>
   <li>uses these sequences to create multiple alignment and phylogenetic tree</li>
 </ul>
@@ -711,7 +712,7 @@ COVID-19,MN975262.1,99.983,29781,5,0,1,29781,29839,59,0.0,54968
 <ul>
   <li>extracts accession numbers (the second column) for hit table</li>
   <li>downloads all corresponding FASTA files</li>
-  <li>aligned them using <code class="highlighter-rouge">lastz</code></li>
+  <li>aligned them using <code class="language-plaintext highlighter-rouge">lastz</code></li>
   <li>selected all sequences that align over at least 75% of the reference</li>
   <li>uses these sequences to create multiple alignment and phylogenetic tree</li>
 </ul>

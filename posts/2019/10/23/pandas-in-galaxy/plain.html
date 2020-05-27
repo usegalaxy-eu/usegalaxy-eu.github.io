@@ -556,7 +556,7 @@ than 5, and set all other values to 1.</p>
           <li>
             <p><em>Custom Expression</em> → :</p>
 
-            <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(math.log(elem) / elem) if (elem &gt; 5) else 1
+            <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(math.log(elem) / elem) if (elem &gt; 5) else 1
 </code></pre></div>            </div>
           </li>
           <li>
@@ -661,7 +661,7 @@ by the standard deviation of it to yield:</p>
       <li>
         <p><em>Custom Expression on ‘table’ along axis (0 or 1)</em> → :</p>
 
-        <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>table - table.mean(0)/table.std(0)
+        <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>table - table.mean(0)/table.std(0)
 </code></pre></div>        </div>
       </li>
     </ul>
@@ -780,19 +780,19 @@ the same dimensions.</p>
 <p>To add Table2 to Table3 we would have to transpose one of the tables
 using the in-built T method:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>table2 + table3.T
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>table2 + table3.T
 </code></pre></div></div>
 
 <p>or:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>table2.T + table3
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>table2.T + table3
 </code></pre></div></div>
 
 <p>We can also perform more general operations using all 3 tables, such as
 taking the minimum value of the maximum values of Table2 and Table3, and
 dividing the Table1 values by it:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>table1 / min(table2.values.max(), table3.values.max())
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>table1 / min(table2.values.max(), table3.values.max())
 </code></pre></div></div>
 
 <p>To perform these types of operations in Galaxy we would select the
@@ -814,7 +814,7 @@ following:</p>
   <li>
     <p><em>Custom Expression</em> → :</p>
 
-    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;insert your desired function&gt;
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;insert your desired function&gt;
 </code></pre></div>    </div>
   </li>
 </ul>
@@ -824,7 +824,7 @@ the limitations of the tool. Nested attributes like table2.values.max
 are disallowed in expressions in the tool so the above would have to be
 replaced with the harder to read workaround:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>table1 / min(np.max(np.max(table2)), np.max(np.max(table3)))
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>table1 / min(np.max(np.max(table2)), np.max(np.max(table3)))
 </code></pre></div></div>
 
 <p>Also note that, currently min(), max() and sum() are the only built-in
