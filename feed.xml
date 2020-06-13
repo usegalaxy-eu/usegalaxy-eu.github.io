@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2020-06-11T17:44:30+02:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">Training Infrastructure Feedback from Marcel Schulz</title><link href="https://galaxyproject.eu/posts/2020/06/08/tiaas-feedback-schulz/" rel="alternate" type="text/html" title="Training Infrastructure Feedback from Marcel Schulz " /><published>2020-06-08T00:00:00+02:00</published><updated>2020-06-08T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2020/06/08/tiaas-feedback-schulz</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/06/08/tiaas-feedback-schulz/">&lt;h2 id=&quot;galaxy-helps-virtual-teaching&quot;&gt;Galaxy helps virtual teaching!&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2020-06-13T17:00:05+02:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">Galactic June News</title><link href="https://galaxyproject.eu/posts/2020/06/12/galactic-news/" rel="alternate" type="text/html" title="Galactic June News" /><published>2020-06-12T00:00:00+02:00</published><updated>2020-06-12T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2020/06/12/galactic-news</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/06/12/galactic-news/">&lt;p&gt;The June 2020 Galactic News is out!&lt;/p&gt;</content><author><name></name></author><category term="galaxy" /><summary type="html">The June 2020 Galactic News is out!</summary></entry><entry><title type="html">Training Infrastructure Feedback from Marcel Schulz</title><link href="https://galaxyproject.eu/posts/2020/06/08/tiaas-feedback-schulz/" rel="alternate" type="text/html" title="Training Infrastructure Feedback from Marcel Schulz " /><published>2020-06-08T00:00:00+02:00</published><updated>2020-06-08T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2020/06/08/tiaas-feedback-schulz</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/06/08/tiaas-feedback-schulz/">&lt;h2 id=&quot;galaxy-helps-virtual-teaching&quot;&gt;Galaxy helps virtual teaching!&lt;/h2&gt;
 
 &lt;p&gt;Due to the Covid-19 outbreak and the need for online teaching in these unusual times,
 the Computational Epigenomics &lt;a href=&quot;https://schulzlab.github.io/teaching/ALGOEPI2020.html&quot;&gt;course at Goethe University Frankfurt&lt;/a&gt;
@@ -770,46 +770,4 @@ accessed via https://cheminformatics.usegalaxy.eu.&lt;/p&gt;</content><author><n
 
 &lt;ul&gt;
   &lt;li&gt;abricate was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/abricate/b734db305578&quot;&gt;b734db305578&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2020-04-25, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #208</summary></entry><entry><title type="html">Multi-omics Visualization Platform: An extensible Galaxy plug-in for multi-omics data visualization and exploration</title><link href="https://galaxyproject.eu/posts/2020/04/23/mvp/" rel="alternate" type="text/html" title="Multi-omics Visualization Platform: An extensible Galaxy plug-in for multi-omics data visualization and exploration" /><published>2020-04-23T00:00:00+02:00</published><updated>2020-04-23T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2020/04/23/mvp</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/04/23/mvp/">&lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;/h2&gt;
-
-&lt;p&gt;Proteogenomics, enables new insights into understanding the complex biological systems by integrating genomics/transcriptomics with mass spectrometry based proteomics data.
-It is a powerful approach to extract direct evidence of expression of novel protein sequences specific to a sample of interest.
-The importance of proteogenomics studies is reflected in the field of cancer and other genetic diseases. 
-The Galaxy for proteomics (Galaxy-P) team, has disseminated various tools alongwith a workflow necessary to perform proteogenomics analysis i.e.
-from raw data processing and sequence database generation to 
-database searching and tools for interpreting the potential impact of identified sequence variants. Along with this,
-the Galaxy-P team has developed a complete proteogenomic informatics platform that combines 
-genomics, transcriptomics and MS based proteomics data. The Multi-omics Visualization Platform (MVP),
-a visualization plug-in, that extends Galaxy-P’s advantages into the visualization of large, complex datasets. 
-This plug-in allows researchers to quickly inspect and verify the quality of their results as well offer an
-visulaization overview for deeper understanding of underlying spectral data.&lt;/p&gt;
-
-&lt;p&gt;MVP is primarily written in Javascript, with HTML5 and CSS to create the interactive user interface. It needs 3 separate SQLite
-databases as the primary input. The SQLite database schema helps in protein to 
-peptide mapping. The MVP tool uses an SQlite schema to navigate between genome and the proteome.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/media/MVP_blog_fig1.png&quot; alt=&quot;Input Schema&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;With the incorporation of Integrated Genomics Viewer(IGV) and Lorikeet, the MVP platform merges proteomic and genomic results into a single, accessible output. For large datasets, a user can easily navigate through 
-the filter option and condense it down to a manageable subset making the database size not an issue. The MVP tool allows experimental results from either a peptide centric view, a PSM centric view (Lorikeet) or Protein 
-centric view. The peptide centric view allows for rapid filtering based on sequences of interest. The PSM centric view allows for fast filtering of scores yielding the lowest decoy hit rate. And the protein centric view 
-allows for an immediate examination of proteins of interest. This may be of particular interest to users who want to analyze variant proteins. The integrated IGV viewer offers interactive viewing of peptides mapped against 
-the reference genome, plus an additional feature of incorporating tracks for standard-format sequence file (BAM, proBAM, BED).&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/media/MVP_blog_fig2.png&quot; alt=&quot;MVP&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;To learn more about how to use the MVP tool and its features, please refer the &lt;a href=&quot;https://galaxyproject.github.io/training-material/topics/proteomics/tutorials/proteogenomics-novel-peptide-analysis/tutorial.html&quot;&gt;Galaxy training material&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;contributors&quot;&gt;Contributors&lt;/h2&gt;
-
-&lt;p&gt;Galaxy-P @ University of Minnesota:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Thomas McGowan&lt;/li&gt;
-  &lt;li&gt;James E. Johnson&lt;/li&gt;
-  &lt;li&gt;Ray Sajulga&lt;/li&gt;
-  &lt;li&gt;Praveen Kumar&lt;/li&gt;
-  &lt;li&gt;Subina Mehta&lt;/li&gt;
-  &lt;li&gt;Pratik Jagtap&lt;/li&gt;
-  &lt;li&gt;Timothy J. Griffin&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Subina Mehta</name></author><category term="paper" /><summary type="html">Abstract</summary></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2020-04-25, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #208</summary></entry></feed>
