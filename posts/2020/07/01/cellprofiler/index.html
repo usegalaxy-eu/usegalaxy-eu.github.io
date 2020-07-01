@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  <title>Galaxy Europe | Virtual screening against SARS-CoV-2 main protease</title>
-  <meta property="og:title" content="Virtual screening against SARS-CoV-2 main protease" />
-  <meta property="og:description" content="Thanks to some amazing work done at the Diamond Light Sou..." />
+  <title>Galaxy Europe | CellProfiler now available in Galaxy</title>
+  <meta property="og:title" content="CellProfiler now available in Galaxy" />
+  <meta property="og:description" content="
+Several modules of the popular image analysis tool CellP..." />
   <meta property="og:image" content="/assets/media/galaxy-eu-logo.512.png" />
   <meta name="description" content="The European Galaxy Instance">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,7 +17,7 @@
 
 
 
-  <link rel="canonical" href="https://galaxyproject.eu/posts/2020/03/11/virtual-screening/">
+  <link rel="canonical" href="https://galaxyproject.eu/posts/2020/07/01/cellprofiler/">
   <link rel="shortcut icon" href="/assets/media/galaxy-eu-logo.64.png" type="image/x-icon" />
   <link rel="alternate" type="application/rss+xml" title="Galaxy Europe" href="/feed.xml">
 
@@ -143,20 +144,16 @@
 <section id="news-page">
   <div class="row news-header-row">
     
-    <a class="col-xs-1 text-center" href="/posts/2020/03/10/tool-update/">
+    <a class="col-xs-1 text-center" href="/posts/2020/06/20/tool-update/">
       «
     </a>
     
     <div class="col-xs-10 ">
       <div class="text-center">
-        <h2 class="title">Virtual screening against SARS-CoV-2 main protease</h2>
+        <h2 class="title">CellProfiler now available in Galaxy</h2>
       </div>
       <hr />
     </div>
-    
-    <a class="col-xs-1 text-center" href="/posts/2020/03/14/tool-update/">
-      »
-    </a>
     
   </div>
   <div class="row post-metadata">
@@ -165,90 +162,11 @@
         <div class="col-md-6">
             
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-By: <a href="/people/#simonbray">
-    <img src="https://avatars.githubusercontent.com/simonbray" style="height: 2em">
-    Simon Bray
-</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         </div>
         <div class="col-md-6 text-right">
           <div>
             <span class="post-date">
-              Mar 11, 2020
+              Jul 1, 2020
             </span>
 
             
@@ -258,6 +176,8 @@ By: <a href="/people/#simonbray">
                 <span class="label label-success">Freiburg</span>
               
                 <span class="label label-info">tools</span>
+              
+                <span class="label label-info">training</span>
               
               
             </span>
@@ -272,13 +192,33 @@ By: <a href="/people/#simonbray">
   <div class="row">
     <div class="col-md-8 col-md-offset-2">
       <div class="news-content">
-        <p>Thanks to some amazing work done at the Diamond Light Source in the UK, protein structures of SARS-CoV-2 main protease in complex with a number of different fragments have recently been published.</p>
+        <p><br /><br />
+Several modules of the popular image analysis tool <strong>CellProfiler</strong> are now available in the <a href="https://toolshed.g2.bx.psu.edu/" target="_blank">Galaxy ToolShed</a>, thanks to <a href="https://elixir-europe.org/" target="_blank">ELIXIR’s</a> and <a href="https://www.eurobioimaging.eu/" target="_blank">EuroBioimaging’s</a> contribution to <a href="https://forum.eosc-life.eu/t/introduction-to-eosc-life-wp2/32" target="_blank">EOSC-Life WP2</a>.</p>
 
-<p>Now, based on these experimental data, we have been helping our collaborators at Diamond construct Galaxy workflows for identifying potential ligands by virtual screening. These workflows use docking and scoring tools developed in Diamond and here in Freiburg (all accessible via <a href="https://cheminformatics.usegalaxy.eu/">https://cheminformatics.usegalaxy.eu</a>) to generate and test around fifty million poses against the protease structure. Promising compounds will be synthesised and studied further.</p>
+<div class="multiple-img">
+    <img src="/assets/media/2020-07-01-wf_cell_profiler.jpg" alt="CellProfiler exemplary workflow" />
+</div>
 
-<p>As the current health crisis begins to affect our daily life in Freiburg, we are really happy to be able to participate in this kind of project - and in awe of the experimentalists who are able to generate this kind of data.</p>
+<p><br /></p>
+<h3 id="tools">Tools</h3>
+<p>In total, 22 modules have been integrated into <strong>19 Galaxy tools</strong>, providing scientists with a comprehensive suite to perform the most prevailing functionalities: object segmentation and feature extraction. Several segmentation methods can be applied (Manual, Measurement, Minimum cross entropy, Otsu and Robust background) to all image types supported by CellProfiler. At the level of the objects identified, several parameters can be measured (granularity, texture, intensity, size, shape, etc.), along with the relationships between objects. For complete images -or mathematical combinations of them-, features like the quality, the intensity, and the area occupied by objects can also be easily extracted.</p>
 
-<p>Please read the Diamond press release for more information about their recent work: <a href="https://www.diamond.ac.uk/covid-19/for-scientists/Main-protease-structure-and-XChem.html">https://www.diamond.ac.uk/covid-19/for-scientists/Main-protease-structure-and-XChem.html</a></p>
+<p><br /></p>
+<h3 id="data-access">Data Access</h3>
+
+<p>Scientists can now upload their own images to a Galaxy instance and build workflows combining these tools to address different biological questions. The outcome will vary depending on the design of the workflow: segmentation masks for each object identified, features associated with images or any of the objects segmented, images with metadata overlaid on top of the identified objects, among others.</p>
+
+<p>Another approach is to reuse public data from previous studies that are available at the <a href="https://idr.openmicroscopy.org/" target="_blank">Image Data Resource (IDR)</a>. For that purpose, a <a href="https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/idr_download_by_ids/idr_download_by_ids" target="_blank">Galaxy tool</a> was developed in collaboration with EOSC-Life WP1, that directly connects to the IDR, with advanced error handling, and makes bulk-downloads possible.</p>
+
+<p><br /></p>
+<h3 id="exemplary-workflow">Exemplary Workflow</h3>
+
+<p>An <a href="https://workflowhub.eu/workflows/41?code=01Ayacm0RbvLyTaAE%2FALunbR7waqdm2M9tozl%2Fla" target="_blank">exemplary workflow</a> has been created using these tools as part of Demonstrator 6 of EOSC-Life WP3. This demonstrator is focused on reusing publicly available RNAi screens to gain insights into the nucleolus biology. The workflow has been made accessible at the registry <a href="https://workflowhub.eu" target="_blank">Workflow Hub</a>.</p>
+
+<p><br /></p>
+<h3 id="training-material">Training Material</h3>
+<p>Since each tool comes with an extensive combination of parameters, a <a href="https://training.galaxyproject.org/training-material/topics/imaging/tutorials/tutorial-CP/tutorial.html" target="_blank">GTN tutorial</a> has been created reproducing the work done in the Demonstrator 6 of <a href="https://www.eosc-life.eu/" target="_blank">EOSC-Life</a>.
+<br /><br /><br /><br /></p>
 
       </div>
     </div>
@@ -301,6 +241,42 @@ By: <a href="/people/#simonbray">
           
             <a href="https://www.eosc-life.eu/" target="_blank">
               <img alt="EOSC Logo" src="/assets/media/EOSC_logo.png" class="img-responsive eu-image" />
+            </a>
+          
+      </div>
+      
+      <div>
+      
+          
+            <a href="https://www.eurobioimaging.eu" target="_blank">
+              <img alt="EuBI logo" src="/assets/media/eubi_logo.png" class="img-responsive eu-image"/>
+            </a>
+          
+      </div>
+      
+      <div>
+      
+          
+            <a href="https://www.elixir-europe.org" target="_blank">
+              <img alt="ELIXIR logo" src="/assets/media/elixir_logo.png" class="img-responsive eu-image" />
+            </a>
+          
+      </div>
+      
+      <div>
+      
+          
+            <a href="https://idr.openmicroscopy.org/" target="_blank">
+              <img alt="IDR logo" src="/assets/media/idr_logo.png" class="img-responsive eu-image"/>
+            </a>
+          
+      </div>
+      
+      <div>
+      
+          
+            <a href="https://usegalaxy-eu.github.io" target="_blank">
+              <img alt="European Galaxy Team Logo" src="/assets/media/galaxy-eu.png" class="img-responsive eu-image" />
             </a>
           
       </div>
@@ -349,7 +325,7 @@ unless otherwise specified.</p>
         <div class="row">
             <div class="col-lg-12" style="text-align:center">
                 <ul class="contact-info">
-                    <li><i class="fa fa-github"></i><a href="https://github.com/usegalaxy-eu/website/tree/master/_posts/2020-03-11-virtual-screening.md">Edit this page on GitHub</a></li>
+                    <li><i class="fa fa-github"></i><a href="https://github.com/usegalaxy-eu/website/tree/master/_posts/2020-07-01-cellprofiler.md">Edit this page on GitHub</a></li>
                     
                       <li><i class="fa fa-envelope"></i><a href="mailto:galaxy@informatik.uni-freiburg.de">galaxy@informatik.uni-freiburg.de</a></li>
                     
