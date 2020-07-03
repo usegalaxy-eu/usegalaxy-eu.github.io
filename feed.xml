@@ -1,4 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2020-07-03T17:44:30+02:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">CellProfiler now available in Galaxy</title><link href="https://galaxyproject.eu/posts/2020/07/01/cellprofiler/" rel="alternate" type="text/html" title="CellProfiler now available in Galaxy" /><published>2020-07-01T00:00:00+02:00</published><updated>2020-07-01T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2020/07/01/cellprofiler</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/07/01/cellprofiler/">&lt;p&gt;&lt;br /&gt;&lt;br /&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2020-07-03T20:49:13+02:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">Intuitive, reproducible high-throughput molecular dynamics in Galaxy: a tutorial</title><link href="https://galaxyproject.eu/posts/2020/07/03/htmd/" rel="alternate" type="text/html" title="Intuitive, reproducible high-throughput molecular dynamics in Galaxy: a tutorial" /><published>2020-07-03T00:00:00+02:00</published><updated>2020-07-03T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2020/07/03/htmd</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/07/03/htmd/">&lt;p&gt;On July 18th, as part of BCC 2020, we will be running an introductory tutorial on molecular dynamics in Galaxy, based on our recent preprint ‘&lt;a href=&quot;https://www.biorxiv.org/content/10.1101/2020.05.08.084780v1&quot; target=&quot;_blank&quot;&gt;Intuitive, reproducible high-throughput molecular dynamics in Galaxy: a tutorial&lt;/a&gt;’. The online training will be led jointly by representatives from the European Galaxy Team (Simon Bray) and the University of Cape Town (Chris Barnett, Tharindu Senapathi).&lt;/p&gt;
+
+&lt;p&gt;You are very welcome to join us and find out more about tools and workflows for molecular dynamics! Registration can be done via the &lt;a href=&quot;https://bcc2020.github.io/Registration/&quot;&gt;BCC website&lt;/a&gt; (early registration ends on July 10th) and prices start at $3 per training.&lt;/p&gt;
+
+&lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;/h2&gt;
+
+&lt;p&gt;This paper is a tutorial developed for the data analysis platform Galaxy. The purpose of Galaxy is to make high-throughput computational data analysis, such as molecular dynamics, a structured, reproducible and transparent process. In this tutorial we focus on 3 questions: How are protein-ligand systems parameterized for molecular dynamics simulation? What kind of analysis can be carried out on molecular trajectories? How can high-throughput MD be used to study multiple ligands? After finishing you will have learned about force-fields and MD parameterization, how to conduct MD simulation and analysis for a protein-ligand system, and understand how different molecular interactions contribute to the binding affinity of ligands to the Hsp90 protein.&lt;/p&gt;</content><author><name></name></author><category term="training" /><summary type="html">On July 18th, as part of BCC 2020, we will be running an introductory tutorial on molecular dynamics in Galaxy, based on our recent preprint ‘Intuitive, reproducible high-throughput molecular dynamics in Galaxy: a tutorial’. The online training will be led jointly by representatives from the European Galaxy Team (Simon Bray) and the University of Cape Town (Chris Barnett, Tharindu Senapathi).</summary></entry><entry><title type="html">CellProfiler now available in Galaxy</title><link href="https://galaxyproject.eu/posts/2020/07/01/cellprofiler/" rel="alternate" type="text/html" title="CellProfiler now available in Galaxy" /><published>2020-07-01T00:00:00+02:00</published><updated>2020-07-01T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2020/07/01/cellprofiler</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/07/01/cellprofiler/">&lt;p&gt;&lt;br /&gt;&lt;br /&gt;
 Several modules of the popular image analysis tool &lt;strong&gt;CellProfiler&lt;/strong&gt; are now available in the &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/&quot; target=&quot;_blank&quot;&gt;Galaxy ToolShed&lt;/a&gt;, thanks to &lt;a href=&quot;https://elixir-europe.org/&quot; target=&quot;_blank&quot;&gt;ELIXIR’s&lt;/a&gt; and &lt;a href=&quot;https://www.eurobioimaging.eu/&quot; target=&quot;_blank&quot;&gt;EuroBioimaging’s&lt;/a&gt; contribution to &lt;a href=&quot;https://forum.eosc-life.eu/t/introduction-to-eosc-life-wp2/32&quot; target=&quot;_blank&quot;&gt;EOSC-Life WP2&lt;/a&gt;.&lt;/p&gt;
 
 &lt;div class=&quot;multiple-img&quot;&gt;
@@ -372,67 +378,4 @@ which illustrate the capabilities of the ChemicalToolbox, covering assembly of a
 protein-ligand docking, and construction of a quantitative structure-activity relationship (QSAR) model.
 These workflows may be modified and combined flexibly, together with the many other tools available, to fit
 the needs of a particular project. The ChemicalToolbox is hosted on the European Galaxy server and may be
-accessed via https://cheminformatics.usegalaxy.eu.&lt;/p&gt;</content><author><name></name></author><category term="paper" /><summary type="html">We are happy to announce a new publication, ‘The ChemicalToolbox: reproducible, user-friendly cheminformatics analysis on the Galaxy platform’ in the Journal of Cheminformatics. This accompanies our Galaxy webserver for computational chemistry, located at https://cheminformatics.usegalaxy.eu.</summary></entry><entry><title type="html">UseGalaxy.eu Tool Updates for 2020-05-30</title><link href="https://galaxyproject.eu/posts/2020/05/30/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2020-05-30" /><published>2020-05-30T00:00:00+02:00</published><updated>2020-05-30T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2020/05/30/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/05/30/tool-update/">&lt;p&gt;On 2020-05-30, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#216/&quot;&gt;Jenkins Build #216&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;variant-calling&quot;&gt;Variant Calling&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;lofreq_alnqual was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/lofreq_alnqual/e61c9ac190ad&quot;&gt;e61c9ac190ad&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;lofreq_call was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/lofreq_call/074d44697036&quot;&gt;074d44697036&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;lofreq_filter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/lofreq_filter/701d134358ad&quot;&gt;701d134358ad&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;lofreq_indelqual was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/lofreq_indelqual/c27549b9aa1f&quot;&gt;c27549b9aa1f&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;lofreq_viterbi was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/lofreq_viterbi/dbd9f2db9ed8&quot;&gt;dbd9f2db9ed8&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;medaka_consensus was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/medaka_consensus/12c40c8c86db&quot;&gt;12c40c8c86db&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;medaka_consensus_pipeline was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/medaka_consensus_pipeline/551f8c9bc4cf&quot;&gt;551f8c9bc4cf&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;medaka_variant was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/medaka_variant/43388fc8ad0b&quot;&gt;43388fc8ad0b&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;medaka_variant_pipeline was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/medaka_variant_pipeline/92cdc29a8620&quot;&gt;92cdc29a8620&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;imaging&quot;&gt;Imaging&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;cp_cellprofiler was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/cp_cellprofiler/fca368c99299&quot;&gt;fca368c99299&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;hca_sc_utils_viz&quot;&gt;hca_sc_utils_viz&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;ucsc_cell_browser was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/ucsc_cell_browser/ad5179780e25&quot;&gt;ad5179780e25&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;animal-detection-on-acoustic-recordings&quot;&gt;Animal Detection on Acoustic Recordings&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;vigiechiro_bilanenrichirp was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ecology/vigiechiro_bilanenrichirp/be4e28da3919&quot;&gt;be4e28da3919&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;multiple-alignments&quot;&gt;Multiple Alignments&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;kc_align was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/kc_align/8dc7708c3266&quot;&gt;8dc7708c3266&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;nanopore&quot;&gt;Nanopore&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;nanopolish_eventalign was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/nanopolish_eventalign/8fdb079ddaf0&quot;&gt;8fdb079ddaf0&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;nanopolish_methylation was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/nanopolish_methylation/12efe2f03697&quot;&gt;12efe2f03697&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;nanopolish_polya was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/nanopolish_polya/be717b65851f&quot;&gt;be717b65851f&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;nanopolish_variants was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/nanopolish_variants/63af3144371a&quot;&gt;63af3144371a&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;graphdisplay-data&quot;&gt;Graph/Display Data&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;circos was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/circos/4b519282a05b&quot;&gt;4b519282a05b&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;rna-analysis&quot;&gt;RNA Analysis&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;chira_collapse was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/chira_collapse/0208cadda55b&quot;&gt;0208cadda55b&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;chira_extract was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/chira_extract/56b2d956a1a6&quot;&gt;56b2d956a1a6&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;chira_map was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/chira_map/6b83059e8f34&quot;&gt;6b83059e8f34&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;chira_merge was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/chira_merge/c836a05bd6a3&quot;&gt;c836a05bd6a3&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;chira_quantify was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/chira_quantify/e40017f9cff1&quot;&gt;e40017f9cff1&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2020-05-30, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #216</summary></entry></feed>
+accessed via https://cheminformatics.usegalaxy.eu.&lt;/p&gt;</content><author><name></name></author><category term="paper" /><summary type="html">We are happy to announce a new publication, ‘The ChemicalToolbox: reproducible, user-friendly cheminformatics analysis on the Galaxy platform’ in the Journal of Cheminformatics. This accompanies our Galaxy webserver for computational chemistry, located at https://cheminformatics.usegalaxy.eu.</summary></entry></feed>
