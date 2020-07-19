@@ -1,4 +1,95 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2020-07-18T17:44:36+02:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2020-07-18</title><link href="https://galaxyproject.eu/posts/2020/07/18/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2020-07-18" /><published>2020-07-18T00:00:00+02:00</published><updated>2020-07-18T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2020/07/18/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/07/18/tool-update/">&lt;p&gt;On 2020-07-18, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#223/&quot;&gt;Jenkins Build #223&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2020-07-19T12:33:22+02:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">The landscape of SARS-CoV-2 RNA modifications</title><link href="https://galaxyproject.eu/posts/2020/07/19/drs_sars-cov-2-paper/" rel="alternate" type="text/html" title="The landscape of SARS-CoV-2 RNA modifications" /><published>2020-07-19T00:00:00+02:00</published><updated>2020-07-19T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2020/07/19/drs_sars-cov-2-paper</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/07/19/drs_sars-cov-2-paper/">&lt;p&gt;&lt;a href=&quot;https://nanoporetech.com&quot; target=&quot;_blank&quot;&gt;Nanopores&lt;/a&gt; are an awesome technology! We already gained experiences with it in our &lt;a href=&quot;https://streetscience.community&quot;&gt;StreetScience&lt;/a&gt;,
+where we show citizens and school kids what DNA sequencing is, how they can sequence with a USB-like device (Minion) and how they
+can analyze the data with &lt;a href=&quot;https://usegalaxy.eu&quot; target=&quot;_blank&quot;&gt;Galaxy&lt;/a&gt;. But Nanopores can also sequence RNAs directly. Direct RNA Sequencing (DRS)
+can detect RNA modification in high-throughput!&lt;/p&gt;
+
+&lt;p&gt;Wouldn’t it be interesting to study the RNA modifications of SARS-CoV-2 and see if this helps in understanding SARS viruses?&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt; &lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt; &lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;               &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://www.biorxiv.org/content/10.1101/2020.07.18.204362v1&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/assets/media/drs_fig-5.png&quot; alt=&quot;DRS RAW signal&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;                 &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Direct RNA sequencing raw electrical signals of downsampled reads obtained from unmodified RNA (IVT, black), from samples generated for this study and from an isolate from a published Korean data set (Fr1-3 and Kr, red).&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;We assembled a team of experts from the &lt;strong&gt;University Medical Center Freiburg&lt;/strong&gt;, with access to the SARS-CoV-2 samples, from the 
+&lt;strong&gt;Medical Faculty of the Goethe University Frankfurt&lt;/strong&gt; and Bioinformaticians from the &lt;strong&gt;Galaxy community&lt;/strong&gt; to do exactly this! Study the
+landscape of SARS-CoV-2 RNA modifications.&lt;/p&gt;
+
+&lt;p&gt;We provide the &lt;strong&gt;first DRS data&lt;/strong&gt; of SARS-CoV-2 in infected human lung epithelial cells, the first (to our knowledge) public available DRS from Europe,
+and for the first time, replicates :)&lt;/p&gt;
+
+&lt;p&gt;Of course, we also offer the data and workflows for you to crunch the data on your own.&lt;/p&gt;
+
+&lt;p&gt;Take it, analyze it, kill the virus!&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://covid19.galaxyproject.org/direct-rnaseq&quot; target=&quot;_blank&quot;&gt;https://covid19.galaxyproject.org/direct-rnaseq&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bit.ly/usegalaxy-eu-covid19-data&quot; target=&quot;_blank&quot;&gt;https://bit.ly/usegalaxy-eu-covid19-data&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt; &lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt; &lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;               &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://www.biorxiv.org/content/10.1101/2020.07.18.204362v1&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/assets/media/drs_fig-2.png&quot; alt=&quot;Modified RNA regions&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;                 &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Detection of modified RNA bases in SARS-CoV-2 sgRNAs. a: Heatmaps of Nanocompore p-value scores for modified sites for the 3 sample replicates (Fr1-3) as compared to unmodified RNA data from Kim et al.. The genomic regions containing top-1% modification scores are marked in red. b: Heatmaps of the predicted fraction of modified bases using Tombo. The red marks show top-1% modified sites per sample that are common in at least two of the three samples.&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Apart from the paper itself, check out our collection of &lt;a href=&quot;https://training.galaxyproject.org&quot; target=&quot;_blank&quot;&gt;training material&lt;/a&gt;,
+and the &lt;a href=&quot;https://covid19.galaxyproject.org&quot; target=&quot;_blank&quot;&gt;documentation for our most recent COVID-19 projects&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;/h2&gt;
+&lt;div align=&quot;justify&quot;&gt;
+In 2019 the severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) caused the first documented
+cases of severe lung disease COVID-19. Since then, SARS-CoV-2 has been spreading around the
+globe resulting in a severe pandemic with over 500.000 fatalities and large economical and social
+disruptions in human societies. Gaining knowledge on how SARS-Cov-2 interacts with its host cells
+and causes COVID-19 is crucial for the intervention of novel therapeutic strategies. SARS-CoV-2,
+like other coronaviruses, is a positive-strand RNA virus. The viral RNA is modified by RNA-modifying enzymes provided
+by the host cell. Direct RNA sequencing (DRS) using nanopores enables unbiased sensing of canonical
+and modified RNA bases of the viral transcripts. In this work, we used DRS to precisely annotate
+the open reading frames and the landscape of SARS-CoV-2 RNA modifications.
+We provide the first DRS data of SARS-CoV-2 in infected human lung epithelial cells.
+From sequencing three isolates, we derive a robust identification of SARS-CoV-2 modification sites within a
+physiologically relevant host cell type. A comparison of our data with the DRS data from a previous SARS-CoV-2 isolate,
+both raised in monkey renal cells, reveals consistent RNA modifications across the viral genome.
+Conservation of the RNA modification pattern during progression of the current pandemic suggests that this pattern
+is likely essential for the life cycle of SARS-CoV-2 and represents a possible target for drug interventions.
+&lt;/div&gt;</content><author><name></name></author><category term="paper" /><summary type="html">Nanopores are an awesome technology! We already gained experiences with it in our StreetScience, where we show citizens and school kids what DNA sequencing is, how they can sequence with a USB-like device (Minion) and how they can analyze the data with Galaxy. But Nanopores can also sequence RNAs directly. Direct RNA Sequencing (DRS) can detect RNA modification in high-throughput!</summary></entry><entry><title type="html">UseGalaxy.eu Tool Updates for 2020-07-18</title><link href="https://galaxyproject.eu/posts/2020/07/18/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2020-07-18" /><published>2020-07-18T00:00:00+02:00</published><updated>2020-07-18T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2020/07/18/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/07/18/tool-update/">&lt;p&gt;On 2020-07-18, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#223/&quot;&gt;Jenkins Build #223&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;hca_sc_scmap_tools&quot;&gt;hca_sc_scmap_tools&lt;/h2&gt;
 
@@ -469,4 +560,4 @@ Several modules of the popular image analysis tool &lt;strong&gt;CellProfiler&lt
   &lt;li&gt;annotatemyids was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/annotatemyids/b5d8e5475247&quot;&gt;b5d8e5475247&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;mlst was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mlst/ded48b36f3b7&quot;&gt;ded48b36f3b7&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;transtermhp was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/transtermhp/1a1ec22a7e28&quot;&gt;1a1ec22a7e28&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2020-06-13, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #219</summary></entry><entry><title type="html">Galactic June News</title><link href="https://galaxyproject.eu/posts/2020/06/12/galactic-news/" rel="alternate" type="text/html" title="Galactic June News" /><published>2020-06-12T00:00:00+02:00</published><updated>2020-06-12T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2020/06/12/galactic-news</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/06/12/galactic-news/">&lt;p&gt;The June 2020 Galactic News is out!&lt;/p&gt;</content><author><name></name></author><category term="galaxy" /><summary type="html">The June 2020 Galactic News is out!</summary></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2020-06-13, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #219</summary></entry></feed>
