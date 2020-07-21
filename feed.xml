@@ -1,4 +1,74 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2020-07-21T17:44:42+02:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">The landscape of SARS-CoV-2 RNA modifications</title><link href="https://galaxyproject.eu/posts/2020/07/19/drs_sars-cov-2-paper/" rel="alternate" type="text/html" title="The landscape of SARS-CoV-2 RNA modifications" /><published>2020-07-19T00:00:00+02:00</published><updated>2020-07-19T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2020/07/19/drs_sars-cov-2-paper</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/07/19/drs_sars-cov-2-paper/">&lt;p&gt;&lt;a href=&quot;https://nanoporetech.com&quot; target=&quot;_blank&quot;&gt;Nanopores&lt;/a&gt; are an awesome technology! We already gained experiences with it in our &lt;a href=&quot;https://streetscience.community&quot;&gt;StreetScience&lt;/a&gt; project,
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2020-07-22T00:58:09+02:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2020-07-22</title><link href="https://galaxyproject.eu/posts/2020/07/22/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2020-07-22" /><published>2020-07-22T00:00:00+02:00</published><updated>2020-07-22T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2020/07/22/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/07/22/tool-update/">&lt;p&gt;On 2020-07-22, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#224/&quot;&gt;Jenkins Build #224&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;expression-tools&quot;&gt;Expression Tools&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;compose_text_param was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/compose_text_param/e188c9826e0f&quot;&gt;e188c9826e0f&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;fastq-quality-control&quot;&gt;FASTQ Quality Control&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;fastqe was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/fastqe/8d3aff8ba8ad&quot;&gt;8d3aff8ba8ad&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;graphdisplay-data&quot;&gt;Graph/Display Data&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;pygenometracks was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/pygenometracks/4ac4e7083b7e&quot;&gt;4ac4e7083b7e&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;variant-calling&quot;&gt;Variant Calling&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;medaka_variant was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/medaka_variant/3cde72a6e37c&quot;&gt;3cde72a6e37c&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;rna-analysis&quot;&gt;RNA Analysis&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;footprint was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/rnateam/footprint/0d94a529f925&quot;&gt;0d94a529f925&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;chemicaltoolbox&quot;&gt;ChemicalToolBox&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;ctb_im_cluster_butina was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/ctb_im_cluster_butina/ad2b25cca758&quot;&gt;ad2b25cca758&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;ctb_im_cluster_butina_matrix was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/ctb_im_cluster_butina_matrix/0332c2ff19f2&quot;&gt;0332c2ff19f2&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;ctb_im_conformers was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/ctb_im_conformers/b6cdd73f0c14&quot;&gt;b6cdd73f0c14&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;ctb_im_constrained_conf_gen was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/ctb_im_constrained_conf_gen/9c5121dd2fd4&quot;&gt;9c5121dd2fd4&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;ctb_im_max_min_picker was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/ctb_im_max_min_picker/2d9ca306538d&quot;&gt;2d9ca306538d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;ctb_im_o3dalign was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/ctb_im_o3dalign/b760f006cb6b&quot;&gt;b760f006cb6b&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;ctb_im_pbf_ev was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/ctb_im_pbf_ev/38b8e1d2bb78&quot;&gt;38b8e1d2bb78&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;ctb_im_rxn_maker was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/ctb_im_rxn_maker/e3c4312457b6&quot;&gt;e3c4312457b6&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;ctb_im_rxn_smarts_filter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/ctb_im_rxn_smarts_filter/ce27129127e0&quot;&gt;ce27129127e0&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;ctb_im_screen was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/ctb_im_screen/2c11d1f9e00b&quot;&gt;2c11d1f9e00b&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;ctb_im_standardize was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/ctb_im_standardize/fbfac03ce8c3&quot;&gt;fbfac03ce8c3&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;ctb_im_xcos was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/ctb_im_xcos/73164cea9b60&quot;&gt;73164cea9b60&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;rad-seq&quot;&gt;RAD-seq&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;stacks2_cstacks was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/stacks2_cstacks/c541e62d6c56&quot;&gt;c541e62d6c56&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;species-abundance&quot;&gt;Species abundance&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;pampa_communitymetrics was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ecology/pampa_communitymetrics/ddd5b2e74b8b&quot;&gt;ddd5b2e74b8b&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;pampa_glmcomm was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ecology/pampa_glmcomm/f0dc3958e65d&quot;&gt;f0dc3958e65d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;pampa_glmsp was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ecology/pampa_glmsp/0778efa9eb2e&quot;&gt;0778efa9eb2e&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;pampa_presabs was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ecology/pampa_presabs/c9dfe4e20a45&quot;&gt;c9dfe4e20a45&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;single-cell&quot;&gt;Single-cell&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;raceid_inspecttrajectory was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/raceid_inspecttrajectory/5156383d3a5d&quot;&gt;5156383d3a5d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;raceid_inspecttrajectory was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/raceid_inspecttrajectory/86e2358cf273&quot;&gt;86e2358cf273&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;raceid_trajectory was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/raceid_trajectory/ff7cd3c7c1df&quot;&gt;ff7cd3c7c1df&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2020-07-22, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #224</summary></entry><entry><title type="html">The landscape of SARS-CoV-2 RNA modifications</title><link href="https://galaxyproject.eu/posts/2020/07/19/drs_sars-cov-2-paper/" rel="alternate" type="text/html" title="The landscape of SARS-CoV-2 RNA modifications" /><published>2020-07-19T00:00:00+02:00</published><updated>2020-07-19T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2020/07/19/drs_sars-cov-2-paper</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/07/19/drs_sars-cov-2-paper/">&lt;p&gt;&lt;a href=&quot;https://nanoporetech.com&quot; target=&quot;_blank&quot;&gt;Nanopores&lt;/a&gt; are an awesome technology! We already gained experiences with it in our &lt;a href=&quot;https://streetscience.community&quot;&gt;StreetScience&lt;/a&gt; project,
 where we show citizens and school kids what DNA sequencing is, how they can sequence with a USB-like device (Minion) and how they
 can analyze the data with &lt;a href=&quot;https://usegalaxy.eu&quot; target=&quot;_blank&quot;&gt;Galaxy&lt;/a&gt;. But Nanopores can also sequence RNAs directly. Direct RNA Sequencing (DRS)
 can detect RNA modification in high-throughput!&lt;/p&gt;
@@ -484,80 +554,4 @@ Several modules of the popular image analysis tool &lt;strong&gt;CellProfiler&lt
 
 &lt;ul&gt;
   &lt;li&gt;bedtools was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bedtools/0a5c785ac6db&quot;&gt;0a5c785ac6db&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2020-06-16, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #220</summary></entry><entry><title type="html">UseGalaxy.eu Tool Updates for 2020-06-13</title><link href="https://galaxyproject.eu/posts/2020/06/13/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2020-06-13" /><published>2020-06-13T00:00:00+02:00</published><updated>2020-06-13T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2020/06/13/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/06/13/tool-update/">&lt;p&gt;On 2020-06-13, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#219/&quot;&gt;Jenkins Build #219&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;hca_sc_utils_viz&quot;&gt;hca_sc_utils_viz&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;ucsc_cell_browser was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/ucsc_cell_browser/8da642e17794&quot;&gt;8da642e17794&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;convert-formats&quot;&gt;Convert Formats&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;idpquery was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/idpquery/47c6b21c0afe&quot;&gt;47c6b21c0afe&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;proteomics&quot;&gt;Proteomics&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;idpassemble was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/idpassemble/7cb061557b06&quot;&gt;7cb061557b06&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;idpqonvert was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/idpqonvert/2ec9bd69259e&quot;&gt;2ec9bd69259e&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;myrimatch was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/myrimatch/ea7872c231de&quot;&gt;ea7872c231de&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;nanopore&quot;&gt;Nanopore&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;ont_fast5_api_compress_fast5 was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/ont_fast5_api_compress_fast5/7147b894702a&quot;&gt;7147b894702a&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;ont_fast5_api_fast5_subset was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/ont_fast5_api_fast5_subset/3bdd8fa109b1&quot;&gt;3bdd8fa109b1&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;ont_fast5_api_multi_to_single_fast5 was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/ont_fast5_api_multi_to_single_fast5/1a37f742e7d7&quot;&gt;1a37f742e7d7&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;ont_fast5_api_single_to_multi_fast5 was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/ont_fast5_api_single_to_multi_fast5/ceec541f4955&quot;&gt;ceec541f4955&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;graphdisplay-data&quot;&gt;Graph/Display Data&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;circos was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/circos/e6cbe3190642&quot;&gt;e6cbe3190642&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;imaging&quot;&gt;Imaging&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;idr_download_by_ids was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/idr_download_by_ids/e08b1dc0480c&quot;&gt;e08b1dc0480c&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;hca_sc_scanpy_tools&quot;&gt;hca_sc_scanpy_tools&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;anndata_ops was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/anndata_ops/f0a29f4b9be9&quot;&gt;f0a29f4b9be9&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;scanpy_parameter_iterator was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_parameter_iterator/7c4d44c14ceb&quot;&gt;7c4d44c14ceb&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;variant-calling&quot;&gt;Variant Calling&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;artic_minion was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/artic_minion/376a706dda11&quot;&gt;376a706dda11&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;rna-analysis&quot;&gt;RNA Analysis&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;heinz was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/heinz/2b80a2596064&quot;&gt;2b80a2596064&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;scpipe was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/scpipe/7397e6badc11&quot;&gt;7397e6badc11&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;seurat was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/seurat/06ed31cf52ed&quot;&gt;06ed31cf52ed&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;rad-seq&quot;&gt;RAD-seq&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;stacks2_cstacks was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/stacks2_cstacks/c541e62d6c56&quot;&gt;c541e62d6c56&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;annotation&quot;&gt;Annotation&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;annotatemyids was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/annotatemyids/b5d8e5475247&quot;&gt;b5d8e5475247&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;mlst was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mlst/ded48b36f3b7&quot;&gt;ded48b36f3b7&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;transtermhp was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/transtermhp/1a1ec22a7e28&quot;&gt;1a1ec22a7e28&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2020-06-13, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #219</summary></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2020-06-16, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #220</summary></entry></feed>
