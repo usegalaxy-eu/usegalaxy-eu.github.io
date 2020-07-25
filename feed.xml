@@ -1,4 +1,51 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2020-07-25T00:09:14+02:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">Computational chemistry at BCC2020</title><link href="https://galaxyproject.eu/posts/2020/07/23/compchem-at-bcc/" rel="alternate" type="text/html" title="Computational chemistry at BCC2020" /><published>2020-07-23T00:00:00+02:00</published><updated>2020-07-23T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2020/07/23/compchem-at-bcc</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/07/23/compchem-at-bcc/">&lt;p&gt;Several sessions were related to computational chemistry during this year’s BCC. On July 18th we ran a successful introductory tutorial on ‘Intuitive, reproducible high-throughput molecular dynamics in Galaxy’. The online training was led jointly by representatives from the European Galaxy Team (Simon Bray) and the University of Cape Town (Chris Barnett, Tharindu Senapathi).&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2020-07-25T04:22:19+02:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2020-07-25</title><link href="https://galaxyproject.eu/posts/2020/07/25/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2020-07-25" /><published>2020-07-25T00:00:00+02:00</published><updated>2020-07-25T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2020/07/25/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/07/25/tool-update/">&lt;p&gt;On 2020-07-25, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#225/&quot;&gt;Jenkins Build #225&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;fastq-quality-control&quot;&gt;FASTQ Quality Control&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;fastqe was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/fastqe/a252d8415583&quot;&gt;a252d8415583&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;metagenomic-analysis&quot;&gt;Metagenomic Analysis&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;last was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/last/86206f93fb13&quot;&gt;86206f93fb13&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;hca_sc_label_analysis_tools&quot;&gt;hca_sc_label_analysis_tools&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;ct_combine_tool_outputs was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/ct_combine_tool_outputs/f2e01e023137&quot;&gt;f2e01e023137&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;ct_get_consensus_outputs was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/ct_get_consensus_outputs/00abf723fc87&quot;&gt;00abf723fc87&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;machine-learning&quot;&gt;Machine Learning&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;sklearn_lightgbm was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_lightgbm/9b70bf3306e5&quot;&gt;9b70bf3306e5&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;rna-analysis&quot;&gt;RNA Analysis&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;seurat was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/seurat/764f076e9d52&quot;&gt;764f076e9d52&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;rad-seq&quot;&gt;RAD-seq&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;stacks2_cstacks was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/stacks2_cstacks/c541e62d6c56&quot;&gt;c541e62d6c56&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;single-cell&quot;&gt;Single-cell&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;anndata_export was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/anndata_export/32c5c85cbc12&quot;&gt;32c5c85cbc12&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;anndata_import was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/anndata_import/00712416fdaa&quot;&gt;00712416fdaa&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;anndata_inspect was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/anndata_inspect/39e945f0b2c1&quot;&gt;39e945f0b2c1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;anndata_manipulate was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/anndata_manipulate/43cb7b5a6fe7&quot;&gt;43cb7b5a6fe7&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;modify_loom was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/modify_loom/eeab712b0b99&quot;&gt;eeab712b0b99&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2020-07-25, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #225</summary></entry><entry><title type="html">Computational chemistry at BCC2020</title><link href="https://galaxyproject.eu/posts/2020/07/23/compchem-at-bcc/" rel="alternate" type="text/html" title="Computational chemistry at BCC2020" /><published>2020-07-23T00:00:00+02:00</published><updated>2020-07-23T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2020/07/23/compchem-at-bcc</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/07/23/compchem-at-bcc/">&lt;p&gt;Several sessions were related to computational chemistry during this year’s BCC. On July 18th we ran a successful introductory tutorial on ‘Intuitive, reproducible high-throughput molecular dynamics in Galaxy’. The online training was led jointly by representatives from the European Galaxy Team (Simon Bray) and the University of Cape Town (Chris Barnett, Tharindu Senapathi).&lt;/p&gt;
 
 &lt;p&gt;We also heard more during the conference from Chris about the work being carried out at the University of Cape Town on antibody-antigen binding patterns.&lt;/p&gt;
 
@@ -444,82 +491,4 @@ Several modules of the popular image analysis tool &lt;strong&gt;CellProfiler&lt
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;h3 id=&quot;training-material&quot;&gt;Training Material&lt;/h3&gt;
 &lt;p&gt;Since each tool comes with an extensive combination of parameters, a &lt;a href=&quot;https://training.galaxyproject.org/training-material/topics/imaging/tutorials/tutorial-CP/tutorial.html&quot; target=&quot;_blank&quot;&gt;GTN tutorial&lt;/a&gt; has been created reproducing the work done in the Demonstrator 6 of &lt;a href=&quot;https://www.eosc-life.eu/&quot; target=&quot;_blank&quot;&gt;EOSC-Life&lt;/a&gt;.
-&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;</content><author><name></name></author><category term="tools" /><category term="training" /><summary type="html">Several modules of the popular image analysis tool CellProfiler are now available in the Galaxy ToolShed, thanks to ELIXIR’s and EuroBioimaging’s contribution to EOSC-Life WP2.</summary></entry><entry><title type="html">Galactic July News</title><link href="https://galaxyproject.eu/posts/2020/07/01/galactic-news/" rel="alternate" type="text/html" title="Galactic July News" /><published>2020-07-01T00:00:00+02:00</published><updated>2020-07-01T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2020/07/01/galactic-news</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/07/01/galactic-news/">&lt;p&gt;The July 2020 Galactic News is out and there are &lt;a href=&quot;https://galaxyproject.org/news/2020-07-galaxy-update/#bcc2020-starts-july-17&quot;&gt;BCC2020 deadlines approaching&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="galaxy" /><summary type="html">The July 2020 Galactic News is out and there are BCC2020 deadlines approaching.</summary></entry><entry><title type="html">UseGalaxy.eu Tool Updates for 2020-06-20</title><link href="https://galaxyproject.eu/posts/2020/06/20/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2020-06-20" /><published>2020-06-20T00:00:00+02:00</published><updated>2020-06-20T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2020/06/20/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/06/20/tool-update/">&lt;p&gt;On 2020-06-20, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#221/&quot;&gt;Jenkins Build #221&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;fastafastq&quot;&gt;FASTA/FASTQ&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;umi_tools_count was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/umi_tools_count/933220bbc2ae&quot;&gt;933220bbc2ae&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;proteomics&quot;&gt;Proteomics&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;pepquery was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/pepquery/32d3818fc635&quot;&gt;32d3818fc635&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;metagenomic-analysis&quot;&gt;Metagenomic Analysis&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;humann2 was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/humann2/b168c0ef3c14&quot;&gt;b168c0ef3c14&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;humann2_associate was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/humann2_associate/845c14a229d9&quot;&gt;845c14a229d9&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;humann2_barplot was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/humann2_barplot/fc30f1dec9b9&quot;&gt;fc30f1dec9b9&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;humann2_genefamilies_genus_level was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/humann2_genefamilies_genus_level/6d364c65c946&quot;&gt;6d364c65c946&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;humann2_join_tables was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/humann2_join_tables/12103efd0e34&quot;&gt;12103efd0e34&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;humann2_reduce_table was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/humann2_reduce_table/1c802bbbed99&quot;&gt;1c802bbbed99&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;humann2_regroup_table was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/humann2_regroup_table/6aad8ca3918b&quot;&gt;6aad8ca3918b&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;humann2_rename_table was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/humann2_rename_table/1e64b34515d9&quot;&gt;1e64b34515d9&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;humann2_renorm_table was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/humann2_renorm_table/d77397f09da1&quot;&gt;d77397f09da1&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;humann2_rna_dna_norm was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/humann2_rna_dna_norm/ac0528dec32b&quot;&gt;ac0528dec32b&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;humann2_split_stratified_table was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/humann2_split_stratified_table/d4d2e6e286a4&quot;&gt;d4d2e6e286a4&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;humann2_split_table was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/humann2_split_table/8b6486103663&quot;&gt;8b6486103663&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;humann2_strain_profiler was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/humann2_strain_profiler/df0f0e817dca&quot;&gt;df0f0e817dca&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;humann2_unpack_pathways was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/humann2_unpack_pathways/7f208f1eb64f&quot;&gt;7f208f1eb64f&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;last was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/last/9a7e91fc6562&quot;&gt;9a7e91fc6562&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;hca_sc_label_analysis_tools&quot;&gt;hca_sc_label_analysis_tools&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;ct_build_cell_ontology_dict was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/ct_build_cell_ontology_dict/b51c48b16ffe&quot;&gt;b51c48b16ffe&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;ct_combine_tool_outputs was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/ct_combine_tool_outputs/846b34f8755e&quot;&gt;846b34f8755e&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;ct_get_consensus_outputs was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/ct_get_consensus_outputs/32101a7373ae&quot;&gt;32101a7373ae&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;ct_get_empirical_dist was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/ct_get_empirical_dist/5bf2827cd314&quot;&gt;5bf2827cd314&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;ct_get_tool_perf_table was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/ct_get_tool_perf_table/d15f7509077b&quot;&gt;d15f7509077b&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;ct_get_tool_pvals was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/ct_get_tool_pvals/4290ef6cbb68&quot;&gt;4290ef6cbb68&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;machine-learning&quot;&gt;Machine Learning&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;sklearn_searchcv was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_searchcv/103aaea17119&quot;&gt;103aaea17119&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_stacking_ensemble_models was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_stacking_ensemble_models/22560cf810b8&quot;&gt;22560cf810b8&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_stacking_ensemble_models was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_stacking_ensemble_models/a2e4a45c6083&quot;&gt;a2e4a45c6083&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_stacking_ensemble_models was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_stacking_ensemble_models/fcc5eaaec401&quot;&gt;fcc5eaaec401&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;variant-calling&quot;&gt;Variant Calling&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;medaka_consensus was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/medaka_consensus/a95960a63220&quot;&gt;a95960a63220&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;medaka_consensus_pipeline was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/medaka_consensus_pipeline/6a87478ed985&quot;&gt;6a87478ed985&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;medaka_variant was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/medaka_variant/d50c1d5b72ce&quot;&gt;d50c1d5b72ce&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;medaka_variant_pipeline was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/medaka_variant_pipeline/ce2bf68a260d&quot;&gt;ce2bf68a260d&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;rna-analysis&quot;&gt;RNA Analysis&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;cuffcompare was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/cuffcompare/f648e5180e40&quot;&gt;f648e5180e40&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;cuffdiff was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/cuffdiff/43b36b3d4333&quot;&gt;43b36b3d4333&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;cufflinks was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/cufflinks/d080005cffe1&quot;&gt;d080005cffe1&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;cuffmerge was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/cuffmerge/6a6717a5f421&quot;&gt;6a6717a5f421&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;cuffnorm was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/cuffnorm/6cbfede05833&quot;&gt;6cbfede05833&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;cuffquant was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/cuffquant/679d93c99757&quot;&gt;679d93c99757&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;rad-seq&quot;&gt;RAD-seq&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;stacks2_cstacks was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/stacks2_cstacks/c541e62d6c56&quot;&gt;c541e62d6c56&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2020-06-20, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #221</summary></entry></feed>
+&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;</content><author><name></name></author><category term="tools" /><category term="training" /><summary type="html">Several modules of the popular image analysis tool CellProfiler are now available in the Galaxy ToolShed, thanks to ELIXIR’s and EuroBioimaging’s contribution to EOSC-Life WP2.</summary></entry><entry><title type="html">Galactic July News</title><link href="https://galaxyproject.eu/posts/2020/07/01/galactic-news/" rel="alternate" type="text/html" title="Galactic July News" /><published>2020-07-01T00:00:00+02:00</published><updated>2020-07-01T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2020/07/01/galactic-news</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/07/01/galactic-news/">&lt;p&gt;The July 2020 Galactic News is out and there are &lt;a href=&quot;https://galaxyproject.org/news/2020-07-galaxy-update/#bcc2020-starts-july-17&quot;&gt;BCC2020 deadlines approaching&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="galaxy" /><summary type="html">The July 2020 Galactic News is out and there are BCC2020 deadlines approaching.</summary></entry></feed>
