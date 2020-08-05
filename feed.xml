@@ -1,4 +1,124 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2020-07-30T17:45:25+02:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">Climate Science at BCC2020</title><link href="https://galaxyproject.eu/posts/2020/07/27/climate-at-bcc/" rel="alternate" type="text/html" title="Climate Science at BCC2020" /><published>2020-07-27T00:00:00+02:00</published><updated>2020-07-27T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2020/07/27/climate-at-bcc</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/07/27/climate-at-bcc/">&lt;p&gt;July has been a very busy month for &lt;a href=&quot;https://climate.usegalaxy.eu/&quot;&gt;Galaxy Climate&lt;/a&gt; ending with several sessions dedicated to Climate Science at &lt;a href=&quot;https://bcc2020.github.io/&quot;&gt;BCC2020&lt;/a&gt;. It started on July 18-19 with two introductory training sessions (West and East) on “&lt;a href=&quot;https://training.galaxyproject.org/training-material/topics/climate/tutorials/climate-101/tutorial.html&quot;&gt;Getting your hands on Climate data&lt;/a&gt;” where attendees learned on accessing and analyzing climate data in Galaxy. One important aspect was to explain the difference between climate and weather data; show how to visualize climate data on a map with Galaxy and then how to create and share a simple workflow for framing a very simple adaptation case study.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2020-08-05T09:10:56+02:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2020-08-01</title><link href="https://galaxyproject.eu/posts/2020/08/01/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2020-08-01" /><published>2020-08-01T00:00:00+02:00</published><updated>2020-08-01T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2020/08/01/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/08/01/tool-update/">&lt;p&gt;On 2020-08-01, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#226/&quot;&gt;Jenkins Build #226&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;hca_sc_scmap_tools&quot;&gt;hca_sc_scmap_tools&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;scmap_index_cell was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scmap_index_cell/0f5e46b0981a&quot;&gt;0f5e46b0981a&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;convert-formats&quot;&gt;Convert Formats&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;thermo_raw_file_converter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/thermo_raw_file_converter/26c6706bfb07&quot;&gt;26c6706bfb07&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;metagenomic-analysis&quot;&gt;Metagenomic Analysis&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;staramr was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/nml/staramr/2fd4d4c9c5c2&quot;&gt;2fd4d4c9c5c2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;get-data&quot;&gt;Get Data&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;iedb_api was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/iedb_api/a09849898387&quot;&gt;a09849898387&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;graphdisplay-data&quot;&gt;Graph/Display Data&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;histogram was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/histogram/6f134426c2b0&quot;&gt;6f134426c2b0&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;chemicaltoolbox&quot;&gt;ChemicalToolBox&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;autodock_vina was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/autodock_vina/7a871df65202&quot;&gt;7a871df65202&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;autodock_vina_prepare_box was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/autodock_vina_prepare_box/ad35eaa204ea&quot;&gt;ad35eaa204ea&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;autodock_vina_prepare_ligand was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/autodock_vina_prepare_ligand/50871000e977&quot;&gt;50871000e977&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;chembl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/chembl/1ade252ebe08&quot;&gt;1ade252ebe08&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;ctb_frankenstein_ligand was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/ctb_frankenstein_ligand/7255688c77f3&quot;&gt;7255688c77f3&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;ctb_im_cluster_butina was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/ctb_im_cluster_butina/65316a9205f5&quot;&gt;65316a9205f5&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;ctb_im_cluster_butina_matrix was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/ctb_im_cluster_butina_matrix/d804c6e6d5ad&quot;&gt;d804c6e6d5ad&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;ctb_im_conformers was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/ctb_im_conformers/a4b1474efada&quot;&gt;a4b1474efada&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;ctb_im_constrained_conf_gen was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/ctb_im_constrained_conf_gen/ac204d3f7312&quot;&gt;ac204d3f7312&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;ctb_im_max_min_picker was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/ctb_im_max_min_picker/a20b87a3dc19&quot;&gt;a20b87a3dc19&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;ctb_im_o3dalign was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/ctb_im_o3dalign/46fe89ea20ef&quot;&gt;46fe89ea20ef&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;ctb_im_pbf_ev was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/ctb_im_pbf_ev/1c7a7b74f677&quot;&gt;1c7a7b74f677&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;ctb_im_rxn_maker was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/ctb_im_rxn_maker/8ef5428fb809&quot;&gt;8ef5428fb809&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;ctb_im_rxn_smarts_filter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/ctb_im_rxn_smarts_filter/d219d934cf1c&quot;&gt;d219d934cf1c&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;ctb_im_screen was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/ctb_im_screen/05cc95060024&quot;&gt;05cc95060024&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;ctb_im_standardize was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/ctb_im_standardize/8ac4f037fdde&quot;&gt;8ac4f037fdde&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;ctb_im_xcos was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/ctb_im_xcos/73164cea9b60&quot;&gt;73164cea9b60&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;ctb_rdkit_descriptors was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/ctb_rdkit_descriptors/cf725c82c865&quot;&gt;cf725c82c865&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;enumerate_charges was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/enumerate_charges/36360fa103d6&quot;&gt;36360fa103d6&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;fpocket was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/fpocket/4fb73be7f4cb&quot;&gt;4fb73be7f4cb&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;get_pubchem was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/get_pubchem/4d966d5bdd17&quot;&gt;4d966d5bdd17&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mordred was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/mordred/cc0f89287ecf&quot;&gt;cc0f89287ecf&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openbabel_addh was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/openbabel_addh/43167f164076&quot;&gt;43167f164076&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openbabel_change_title was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/openbabel_change_title/3ecaa9634126&quot;&gt;3ecaa9634126&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openbabel_compound_convert was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/openbabel_compound_convert/1c66bf08f687&quot;&gt;1c66bf08f687&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openbabel_filter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/openbabel_filter/ff2dd4b7d918&quot;&gt;ff2dd4b7d918&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openbabel_genprop was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/openbabel_genprop/a72ae2711a97&quot;&gt;a72ae2711a97&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openbabel_obgrep was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/openbabel_obgrep/78640d0127ce&quot;&gt;78640d0127ce&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openbabel_remduplicates was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/openbabel_remduplicates/50ca8845e7f5&quot;&gt;50ca8845e7f5&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openbabel_remions was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/openbabel_remions/354c048550f7&quot;&gt;354c048550f7&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openbabel_remove_protonation_state was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/openbabel_remove_protonation_state/bf4e668b6690&quot;&gt;bf4e668b6690&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openbabel_remsmall was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/openbabel_remsmall/aebc671bae78&quot;&gt;aebc671bae78&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openbabel_spectrophore_search was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/openbabel_spectrophore_search/afd14e10a318&quot;&gt;afd14e10a318&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openbabel_structure_distance_finder was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/openbabel_structure_distance_finder/4c9d6b47045c&quot;&gt;4c9d6b47045c&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openbabel_subsearch was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/openbabel_subsearch/171c94786a56&quot;&gt;171c94786a56&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openbabel_svg_depiction was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/openbabel_svg_depiction/d3b48303045b&quot;&gt;d3b48303045b&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;prepare_ligands_for_docking was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/prepare_ligands_for_docking/de4c80d17527&quot;&gt;de4c80d17527&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;qed was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/qed/fc45bf8b6e01&quot;&gt;fc45bf8b6e01&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;rdock_rbcavity was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/rdock_rbcavity/7e5c2e4bc227&quot;&gt;7e5c2e4bc227&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;rdock_rbdock was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/rdock_rbdock/c362398df83b&quot;&gt;c362398df83b&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;rdock_sort_filter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/rdock_sort_filter/d1ca4b45f615&quot;&gt;d1ca4b45f615&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;rxdock_rbcavity was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/rxdock_rbcavity/0848d3b1a46f&quot;&gt;0848d3b1a46f&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;rxdock_rbdock was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/rxdock_rbdock/b34d068c2782&quot;&gt;b34d068c2782&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;rxdock_sort_filter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/rxdock_sort_filter/3e4244e74d41&quot;&gt;3e4244e74d41&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;sdf_to_tab was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sdf_to_tab/55553120df69&quot;&gt;55553120df69&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;sucos_clustering was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sucos_clustering/12725d4b90f3&quot;&gt;12725d4b90f3&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;sucos_docking_scoring was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sucos_docking_scoring/fe318c648502&quot;&gt;fe318c648502&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;sucos_max_score was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sucos_max_score/55ac04db36aa&quot;&gt;55ac04db36aa&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;rad-seq&quot;&gt;RAD-seq&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;stacks2_cstacks was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/stacks2_cstacks/c541e62d6c56&quot;&gt;c541e62d6c56&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2020-08-01, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #226</summary></entry><entry><title type="html">UseGalaxy.eu update to 20.05</title><link href="https://galaxyproject.eu/posts/2020/07/29/galaxy-20-05/" rel="alternate" type="text/html" title="UseGalaxy.eu update to 20.05" /><published>2020-07-29T00:00:00+02:00</published><updated>2020-07-29T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2020/07/29/galaxy-20-05</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/07/29/galaxy-20-05/">&lt;p&gt;We’ve updated our Galaxy server to &lt;strong&gt;version 20.05&lt;/strong&gt;. This version includes the &lt;strong&gt;migration to Python 3&lt;/strong&gt; and improves usability in the aspects listed below.&lt;/p&gt;
+
+&lt;p&gt;For a full list of the new features
+please refer to the release notes of versions &lt;a href=&quot;https://docs.galaxyproject.org/en/master/releases/20.01_announce_user.html&quot;&gt;20.01&lt;/a&gt; and &lt;a href=&quot;https://docs.galaxyproject.org/en/master/releases/20.05_announce_user.html&quot;&gt;20.05&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;tool-recommendations&quot;&gt;Tool Recommendations&lt;/h3&gt;
+
+&lt;p&gt;When you add a tool to your workflow in &lt;a href=&quot;https://usegalaxy.eu/&quot;&gt;UseGalaxy.eu&lt;/a&gt;, you can now get a recommendation on which tools you can run next. This &lt;a href=&quot;https://galaxyproject.eu/posts/2019/06/27/tool-prediction/&quot;&gt;feature&lt;/a&gt; applies machine learning to data based on the previous usage and was already deployed on the European Galaxy server since a year - now this feature was integrated into the upstream code and works better than ever.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/media/2020-07-29_tool_prediction.jpg&quot; alt=&quot;Tool Recommendations&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;chira-visualisation&quot;&gt;ChiRA Visualisation&lt;/h3&gt;
+
+&lt;p&gt;The &lt;a href=&quot;https://galaxyproject.eu/posts/2020/03/24/rna-interactome/&quot;&gt;ChiRA suite of tools&lt;/a&gt; offers new visualisations for chimeras, tools to analyze RNA-RNA interactome experimental data such as CLASH, CLEAR-CLIP, PARIS, LIGR-Seq, etc.&lt;/p&gt;
+
+&lt;h3 id=&quot;workflow-invocations-menu&quot;&gt;Workflow Invocations Menu&lt;/h3&gt;
+
+&lt;p&gt;Under your &lt;em&gt;User&lt;/em&gt; menu, you can now list your recent &lt;em&gt;Workflow invocations&lt;/em&gt;, their status, along with links to the Workflow Editor and the History with the results of the workflow execution.&lt;/p&gt;
+
+&lt;h3 id=&quot;new-interactive-tools&quot;&gt;New Interactive Tools&lt;/h3&gt;
+
+&lt;p&gt;Interactive enviroments have been converted into the new interactive tool specification, &lt;a href=&quot;https://live.usegalaxy.eu/&quot;&gt;check them out!&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/media/20.05-new-its.png&quot; alt=&quot;New Interactive Tools&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;galaxy-markdown-pages-and-workflow-reports-as-pdf&quot;&gt;Galaxy Markdown Pages and Workflow Reports as PDF&lt;/h3&gt;
+
+&lt;p&gt;There’s a new link in the Galaxy Markdown Pages and Workflow reports to exports your document as a standalone PDF.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;If you notice any issues, please do not hesitate to &lt;a href=&quot;mailto:galaxy@informatik.uni-freiburg.de&quot;&gt;let us know&lt;/a&gt;!&lt;/p&gt;</content><author><name></name></author><category term="release" /><summary type="html">We’ve updated our Galaxy server to version 20.05. This version includes the migration to Python 3 and improves usability in the aspects listed below.</summary></entry><entry><title type="html">Climate Science at BCC2020</title><link href="https://galaxyproject.eu/posts/2020/07/27/climate-at-bcc/" rel="alternate" type="text/html" title="Climate Science at BCC2020" /><published>2020-07-27T00:00:00+02:00</published><updated>2020-07-27T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2020/07/27/climate-at-bcc</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/07/27/climate-at-bcc/">&lt;p&gt;July has been a very busy month for &lt;a href=&quot;https://climate.usegalaxy.eu/&quot;&gt;Galaxy Climate&lt;/a&gt; ending with several sessions dedicated to Climate Science at &lt;a href=&quot;https://bcc2020.github.io/&quot;&gt;BCC2020&lt;/a&gt;. It started on July 18-19 with two introductory training sessions (West and East) on “&lt;a href=&quot;https://training.galaxyproject.org/training-material/topics/climate/tutorials/climate-101/tutorial.html&quot;&gt;Getting your hands on Climate data&lt;/a&gt;” where attendees learned on accessing and analyzing climate data in Galaxy. One important aspect was to explain the difference between climate and weather data; show how to visualize climate data on a map with Galaxy and then how to create and share a simple workflow for framing a very simple adaptation case study.
 This event was supported by &lt;a href=&quot;https://usegalaxy.eu/&quot;&gt;Galaxy Europe&lt;/a&gt; and &lt;a href=&quot;https://galaxyproject.eu/tiaas&quot;&gt;TIaaS&lt;/a&gt; and benefited from the allocation of completely dedicated compute resources for the duration of the training.&lt;/p&gt;
 
 &lt;p&gt;During the main BCC2020 conference &lt;a href=&quot;https://www.eosc-nordic.eu/&quot;&gt;EOSC-Nordic&lt;/a&gt; gave an update about Galaxy Climate and more importantly detailed its roadmap. The Galaxy Climate Science Workbench is a use case in the EOSC-Nordic project. At a policy level, the project will help to resolve issues related to cross border research collaboration using HPC and HPC-cloud based computing resources within EOSC. At a community level, the focus was put on fostering and advancing take-up through the development of blended training. Since GCC2019, EOSC-Nordic contributed to the development of 4 new Galaxy tutorials. For future developments, the approach is simple: rather than reinventing the wheel, EOSC-Nordic chose to base its roadmap on the &lt;a href=&quot;https://github.com/eosc-life/tools-collaboratory-roadmap&quot;&gt;EOSC-Life tools roadmap&lt;/a&gt; and reuse as many components as possible for the Climate community. Strengthening collaboration with Galaxy Community and &lt;a href=&quot;https://www.eosc-life.eu/&quot;&gt;EOSC-Life&lt;/a&gt; is an integral part of its plan!&lt;/p&gt;
@@ -480,27 +600,4 @@ is likely essential for the life cycle of SARS-CoV-2 and represents a possible t
 
 &lt;ul&gt;
   &lt;li&gt;samtools_reheader was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/samtools_reheader/30388d878f81&quot;&gt;30388d878f81&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2020-07-13, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #222</summary></entry><entry><title type="html">Intuitive, reproducible high-throughput molecular dynamics in Galaxy: a tutorial</title><link href="https://galaxyproject.eu/posts/2020/07/03/htmd/" rel="alternate" type="text/html" title="Intuitive, reproducible high-throughput molecular dynamics in Galaxy: a tutorial" /><published>2020-07-03T00:00:00+02:00</published><updated>2020-07-03T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2020/07/03/htmd</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/07/03/htmd/">&lt;p&gt;On July 18th, as part of BCC 2020, we will be running an introductory tutorial on molecular dynamics in Galaxy, based on our recent preprint ‘&lt;a href=&quot;https://www.biorxiv.org/content/10.1101/2020.05.08.084780v1&quot; target=&quot;_blank&quot;&gt;Intuitive, reproducible high-throughput molecular dynamics in Galaxy: a tutorial&lt;/a&gt;’. The online training will be led jointly by representatives from the European Galaxy Team (Simon Bray) and the University of Cape Town (Chris Barnett, Tharindu Senapathi).&lt;/p&gt;
-
-&lt;p&gt;You are very welcome to join us and find out more about tools and workflows for molecular dynamics! Registration can be done via the &lt;a href=&quot;https://bcc2020.github.io/Registration/&quot;&gt;BCC website&lt;/a&gt; (early registration ends on July 10th) and prices start at $3 per training.&lt;/p&gt;
-
-&lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;/h2&gt;
-
-&lt;p&gt;This paper is a tutorial developed for the data analysis platform Galaxy. The purpose of Galaxy is to make high-throughput computational data analysis, such as molecular dynamics, a structured, reproducible and transparent process. In this tutorial we focus on 3 questions: How are protein-ligand systems parameterized for molecular dynamics simulation? What kind of analysis can be carried out on molecular trajectories? How can high-throughput MD be used to study multiple ligands? After finishing you will have learned about force-fields and MD parameterization, how to conduct MD simulation and analysis for a protein-ligand system, and understand how different molecular interactions contribute to the binding affinity of ligands to the Hsp90 protein.&lt;/p&gt;</content><author><name></name></author><category term="training" /><summary type="html">On July 18th, as part of BCC 2020, we will be running an introductory tutorial on molecular dynamics in Galaxy, based on our recent preprint ‘Intuitive, reproducible high-throughput molecular dynamics in Galaxy: a tutorial’. The online training will be led jointly by representatives from the European Galaxy Team (Simon Bray) and the University of Cape Town (Chris Barnett, Tharindu Senapathi).</summary></entry><entry><title type="html">Processing of Single Cell RNA-Seq Data with Galaxy</title><link href="https://galaxyproject.eu/posts/2020/07/03/poscrnag/" rel="alternate" type="text/html" title="Processing of Single Cell RNA-Seq Data with Galaxy" /><published>2020-07-03T00:00:00+02:00</published><updated>2020-07-03T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2020/07/03/poscrnag</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/07/03/poscrnag/">&lt;p&gt;We will be hosting a single-cell RNA-seq training workshop &lt;a href=&quot;https://bcc2020.sched.com/event/c7TP/processing-of-single-cell-rna-seq-data-with-galaxy&quot;&gt;at BCC&lt;/a&gt;, 
-on both July 17th and July 19th for BCC 2020. The workshop follows the 10x-driven workflows as outlined in our 
-preprint ‘&lt;a href=&quot;https://www.biorxiv.org/content/10.1101/2020.06.06.137570v3&quot; target=&quot;_blank&quot;&gt;A single-cell RNA-seq Training and Analysis Suite using the Galaxy Framework&lt;/a&gt;’, and will be given by members of the European Galaxy Team (Mehmet Tekman and Björn Grüning) and the Friedrich Miescher Institute for Biomedical Research (Hans-Rudolf Hotz).&lt;/p&gt;
-
-&lt;p&gt;Registrations are still accepted at the &lt;a href=&quot;https://bcc2020.github.io/Registration/&quot;&gt;BCC website&lt;/a&gt; (early registration ends on July 10th) and prices start at $3 per training.&lt;/p&gt;
-
-&lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;/h2&gt;
-
-&lt;p&gt;The Galaxy reproducible bioinformatics framework provides tools, workflows and trainings that not only enable users to perform one-click 10x preprocessing, but also empowers them to demultiplex raw sequencing data manually. The downstream analysis supports a wide range of high-quality interoperable suites separated into common stages of analysis: inspection, filtering, normalization, confounder removal and clustering. The teaching resources cover an assortment of different concepts from computer science to cell biology. Access to all resources is provided at the &lt;a href=&quot;https://singlecell.usegalaxy.eu&quot;&gt;singlecell.usegalaxy.eu&lt;/a&gt; portal.&lt;/p&gt;
-
-&lt;h2 id=&quot;videos&quot;&gt;Videos&lt;/h2&gt;
-
-&lt;p&gt;Below are videos that introduce the tutorials and the capabilities of scRNA-seq on Galaxy.&lt;/p&gt;
-
-&lt;div class=&quot;multiple-img&quot;&gt;
-    &lt;iframe width=&quot;525&quot; height=&quot;417&quot; src=&quot;https://www.youtube.com/embed/W2JB3F1ua1s&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-    &lt;iframe width=&quot;525&quot; height=&quot;360&quot; src=&quot;https://www.youtube.com/embed/eRrheV10frE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="training" /><summary type="html">We will be hosting a single-cell RNA-seq training workshop at BCC, on both July 17th and July 19th for BCC 2020. The workshop follows the 10x-driven workflows as outlined in our preprint ‘A single-cell RNA-seq Training and Analysis Suite using the Galaxy Framework’, and will be given by members of the European Galaxy Team (Mehmet Tekman and Björn Grüning) and the Friedrich Miescher Institute for Biomedical Research (Hans-Rudolf Hotz).</summary></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2020-07-13, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #222</summary></entry></feed>
