@@ -1,4 +1,102 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2020-08-14T17:44:49+02:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2020-08-08</title><link href="https://galaxyproject.eu/posts/2020/08/08/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2020-08-08" /><published>2020-08-08T00:00:00+02:00</published><updated>2020-08-08T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2020/08/08/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/08/08/tool-update/">&lt;p&gt;On 2020-08-08, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#227/&quot;&gt;Jenkins Build #227&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2020-08-15T12:29:14+02:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2020-08-15</title><link href="https://galaxyproject.eu/posts/2020/08/15/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2020-08-15" /><published>2020-08-15T00:00:00+02:00</published><updated>2020-08-15T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2020/08/15/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/08/15/tool-update/">&lt;p&gt;On 2020-08-15, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#228/&quot;&gt;Jenkins Build #228&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;hca_sc_scmap_tools&quot;&gt;hca_sc_scmap_tools&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;scmap_get_std_output was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scmap_get_std_output/0d713384d8d8&quot;&gt;0d713384d8d8&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scmap_index_cell was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scmap_index_cell/7c3f9606ed0a&quot;&gt;7c3f9606ed0a&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scmap_index_cluster was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scmap_index_cluster/1949832b448c&quot;&gt;1949832b448c&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scmap_scmap_cell was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scmap_scmap_cell/1543a50e08c9&quot;&gt;1543a50e08c9&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scmap_scmap_cluster was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scmap_scmap_cluster/2a320bb37bf0&quot;&gt;2a320bb37bf0&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scmap_select_features was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scmap_select_features/5972aea41e0e&quot;&gt;5972aea41e0e&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;proteomics&quot;&gt;Proteomics&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;cardinal_combine was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/cardinal_combine/392b2dfd261d&quot;&gt;392b2dfd261d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;msstats was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/msstats/52ac6fde9a5b&quot;&gt;52ac6fde9a5b&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mt2mq was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/mt2mq/9c8e7137d331&quot;&gt;9c8e7137d331&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;multiple-alignments&quot;&gt;Multiple Alignments&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;maf_stats was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/maf_stats/5a92f4c476b5&quot;&gt;5a92f4c476b5&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;hicexplorer&quot;&gt;HiCExplorer&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;hicexplorer_chicaggregatestatistic was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_chicaggregatestatistic/d6f5e51e97ec&quot;&gt;d6f5e51e97ec&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_chicdifferentialtest was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_chicdifferentialtest/126abc4b03f1&quot;&gt;126abc4b03f1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_chicplotviewpoint was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_chicplotviewpoint/ac7999229ac6&quot;&gt;ac7999229ac6&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_chicqualitycontrol was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_chicqualitycontrol/692b686622b6&quot;&gt;692b686622b6&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_chicsignificantinteractions was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_chicsignificantinteractions/38fa8a72ece6&quot;&gt;38fa8a72ece6&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_chicviewpoint was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_chicviewpoint/78b70d78a596&quot;&gt;78b70d78a596&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_chicviewpointbackgroundmodel was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_chicviewpointbackgroundmodel/51447a1d38ed&quot;&gt;51447a1d38ed&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicadjustmatrix was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicadjustmatrix/cd29c9a2ad55&quot;&gt;cd29c9a2ad55&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicaggregatecontacts was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicaggregatecontacts/1b25346775db&quot;&gt;1b25346775db&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicaverageregions was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicaverageregions/3dafb9693b8c&quot;&gt;3dafb9693b8c&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicbuildmatrix was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicbuildmatrix/c657edbea349&quot;&gt;c657edbea349&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hiccomparematrices was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hiccomparematrices/41aab2463ca4&quot;&gt;41aab2463ca4&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hiccompartmentspolarization was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hiccompartmentspolarization/7eaa4f72691f&quot;&gt;7eaa4f72691f&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicconvertformat was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicconvertformat/abf2ec674f17&quot;&gt;abf2ec674f17&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hiccorrectmatrix was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hiccorrectmatrix/dcc9500b13aa&quot;&gt;dcc9500b13aa&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hiccorrelate was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hiccorrelate/364a38df1449&quot;&gt;364a38df1449&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicdetectloops was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicdetectloops/1cf50a7d0a05&quot;&gt;1cf50a7d0a05&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicfindrestrictionsites was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicfindrestrictionsites/ad852622d00a&quot;&gt;ad852622d00a&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicfindtads was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicfindtads/116ddd1627cd&quot;&gt;116ddd1627cd&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicinfo was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicinfo/a83e4b0074a3&quot;&gt;a83e4b0074a3&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicmergeloops was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicmergeloops/25332cfeac05&quot;&gt;25332cfeac05&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicmergematrixbins was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicmergematrixbins/9b7840d527be&quot;&gt;9b7840d527be&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicnormalize was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicnormalize/e24802b3bbad&quot;&gt;e24802b3bbad&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicpca was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicpca/c7f55f65b449&quot;&gt;c7f55f65b449&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicplotaverageregions was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicplotaverageregions/2371fad10021&quot;&gt;2371fad10021&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicplotdistvscounts was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicplotdistvscounts/ace4cbd036c4&quot;&gt;ace4cbd036c4&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicplotmatrix was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicplotmatrix/79acdf9d5e1d&quot;&gt;79acdf9d5e1d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicplotsvl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicplotsvl/81d061c9276d&quot;&gt;81d061c9276d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicplotviewpoint was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicplotviewpoint/33868a6f202c&quot;&gt;33868a6f202c&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicquickqc was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicquickqc/653fa9fa585e&quot;&gt;653fa9fa585e&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicsummatrices was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicsummatrices/5fbf0fd998ce&quot;&gt;5fbf0fd998ce&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hictransform was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hictransform/e8dfe346a207&quot;&gt;e8dfe346a207&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicvalidatelocations was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicvalidatelocations/61cbee6f3fd0&quot;&gt;61cbee6f3fd0&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;variant-calling&quot;&gt;Variant Calling&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;gatk4_mutect2 was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/gatk4_mutect2/1cea23583655&quot;&gt;1cea23583655&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;rna-analysis&quot;&gt;RNA Analysis&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;chira_collapse was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/chira_collapse/ab74e99f7b26&quot;&gt;ab74e99f7b26&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;chira_extract was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/chira_extract/d76ca71abfce&quot;&gt;d76ca71abfce&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;chira_map was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/chira_map/c097b1f83439&quot;&gt;c097b1f83439&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;chira_merge was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/chira_merge/5221e0f4c8e8&quot;&gt;5221e0f4c8e8&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;chira_quantify was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/chira_quantify/e9e6f086da01&quot;&gt;e9e6f086da01&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;featurecounts was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/featurecounts/90d16db017d7&quot;&gt;90d16db017d7&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;trinotate was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/trinotate/4383070d29ed&quot;&gt;4383070d29ed&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;hca_sc_scpred_tools&quot;&gt;hca_sc_scpred_tools&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;scpred_eigen_decompose was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scpred_eigen_decompose/18397dae3a15&quot;&gt;18397dae3a15&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scpred_get_feature_space was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scpred_get_feature_space/826f41212307&quot;&gt;826f41212307&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scpred_get_std_output was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scpred_get_std_output/9f3ce66cd91f&quot;&gt;9f3ce66cd91f&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scpred_predict_labels was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scpred_predict_labels/d071810dc6db&quot;&gt;d071810dc6db&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scpred_train_model was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scpred_train_model/b3c543769af9&quot;&gt;b3c543769af9&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scpred_traint_test_split was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scpred_traint_test_split/bb71ba86e806&quot;&gt;bb71ba86e806&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;rad-seq&quot;&gt;RAD-seq&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;stacks2_cstacks was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/stacks2_cstacks/c541e62d6c56&quot;&gt;c541e62d6c56&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2020-08-15, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #228</summary></entry><entry><title type="html">UseGalaxy.eu Tool Updates for 2020-08-08</title><link href="https://galaxyproject.eu/posts/2020/08/08/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2020-08-08" /><published>2020-08-08T00:00:00+02:00</published><updated>2020-08-08T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2020/08/08/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/08/08/tool-update/">&lt;p&gt;On 2020-08-08, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#227/&quot;&gt;Jenkins Build #227&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;assembly&quot;&gt;Assembly&lt;/h2&gt;
 
@@ -353,95 +451,4 @@ genome annotation and pan-genome analysis. The participants were very enthusiast
   &lt;li&gt;raceid_inspecttrajectory was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/raceid_inspecttrajectory/5156383d3a5d&quot;&gt;5156383d3a5d&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;raceid_inspecttrajectory was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/raceid_inspecttrajectory/86e2358cf273&quot;&gt;86e2358cf273&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;raceid_trajectory was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/raceid_trajectory/ff7cd3c7c1df&quot;&gt;ff7cd3c7c1df&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2020-07-22, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #224</summary></entry><entry><title type="html">The landscape of SARS-CoV-2 RNA modifications</title><link href="https://galaxyproject.eu/posts/2020/07/19/drs_sars-cov-2-paper/" rel="alternate" type="text/html" title="The landscape of SARS-CoV-2 RNA modifications" /><published>2020-07-19T00:00:00+02:00</published><updated>2020-07-19T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2020/07/19/drs_sars-cov-2-paper</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/07/19/drs_sars-cov-2-paper/">&lt;p&gt;&lt;a href=&quot;https://nanoporetech.com&quot; target=&quot;_blank&quot;&gt;Nanopores&lt;/a&gt; are an awesome technology! We already gained experiences with it in our &lt;a href=&quot;https://streetscience.community&quot;&gt;StreetScience&lt;/a&gt; project,
-where we show citizens and school kids what DNA sequencing is, how they can sequence with a USB-like device (Minion) and how they
-can analyze the data with &lt;a href=&quot;https://usegalaxy.eu&quot; target=&quot;_blank&quot;&gt;Galaxy&lt;/a&gt;. But Nanopores can also sequence RNAs directly. Direct RNA Sequencing (DRS)
-can detect RNA modification in high-throughput!&lt;/p&gt;
-
-&lt;p&gt;Wouldn’t it be interesting to study the RNA modifications of SARS-CoV-2 and see if this helps in understanding SARS viruses?&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt; &lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt; &lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt; &lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;               &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://www.biorxiv.org/content/10.1101/2020.07.18.204362v1&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/assets/media/drs_fig-5.png&quot; alt=&quot;DRS RAW signal&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;                 &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Direct RNA sequencing raw electrical signals of downsampled reads obtained from unmodified RNA (IVT, black), from samples generated for this study and from an isolate from a published Korean data set (Fr1-3 and Kr, red).&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;We assembled a team of experts from the &lt;strong&gt;University Medical Center Freiburg&lt;/strong&gt;, with access to the SARS-CoV-2 samples, from the 
-&lt;strong&gt;Medical Faculty of the Goethe University Frankfurt&lt;/strong&gt; and Bioinformaticians from the &lt;strong&gt;Galaxy community&lt;/strong&gt; to do exactly this! Study the
-landscape of SARS-CoV-2 RNA modifications.&lt;/p&gt;
-
-&lt;p&gt;We provide the &lt;strong&gt;first DRS data&lt;/strong&gt; of SARS-CoV-2 in infected human lung epithelial cells, the first (to our knowledge) public available DRS from Europe,
-and for the first time, replicates :)&lt;/p&gt;
-
-&lt;p&gt;Of course, we also offer the data and workflows for you to crunch the data on your own.&lt;/p&gt;
-
-&lt;p&gt;Take it, analyze it, kill the virus!&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://covid19.galaxyproject.org/direct-rnaseq&quot; target=&quot;_blank&quot;&gt;https://covid19.galaxyproject.org/direct-rnaseq&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://bit.ly/usegalaxy-eu-covid19-data&quot; target=&quot;_blank&quot;&gt;https://bit.ly/usegalaxy-eu-covid19-data&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt; &lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt; &lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt; &lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;               &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://www.biorxiv.org/content/10.1101/2020.07.18.204362v1&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/assets/media/drs_fig-2.png&quot; alt=&quot;Modified RNA regions&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;                 &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Detection of modified RNA bases in SARS-CoV-2 sgRNAs. &lt;strong&gt;a&lt;/strong&gt;: Heatmaps of Nanocompore p-value scores for modified sites for the 3 sample replicates (Fr1-3) as compared to unmodified RNA data from Kim et al.. The genomic regions containing top-1% modification scores are marked in red. &lt;strong&gt;b&lt;/strong&gt;: Heatmaps of the predicted fraction of modified bases using Tombo. The red marks show top-1% modified sites per sample that are common in at least two of the three samples.&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Apart from the paper itself, check out our collection of &lt;a href=&quot;https://training.galaxyproject.org&quot; target=&quot;_blank&quot;&gt;training material&lt;/a&gt;,
-and the &lt;a href=&quot;https://covid19.galaxyproject.org&quot; target=&quot;_blank&quot;&gt;documentation for our most recent COVID-19 projects&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;/h2&gt;
-&lt;div align=&quot;justify&quot;&gt;
-In 2019 the severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) caused the first documented
-cases of severe lung disease COVID-19. Since then, SARS-CoV-2 has been spreading around the
-globe resulting in a severe pandemic with over 500.000 fatalities and large economical and social
-disruptions in human societies. Gaining knowledge on how SARS-Cov-2 interacts with its host cells
-and causes COVID-19 is crucial for the intervention of novel therapeutic strategies. SARS-CoV-2,
-like other coronaviruses, is a positive-strand RNA virus. The viral RNA is modified by RNA-modifying enzymes provided
-by the host cell. Direct RNA sequencing (DRS) using nanopores enables unbiased sensing of canonical
-and modified RNA bases of the viral transcripts. In this work, we used DRS to precisely annotate
-the open reading frames and the landscape of SARS-CoV-2 RNA modifications.
-We provide the first DRS data of SARS-CoV-2 in infected human lung epithelial cells.
-From sequencing three isolates, we derive a robust identification of SARS-CoV-2 modification sites within a
-physiologically relevant host cell type. A comparison of our data with the DRS data from a previous SARS-CoV-2 isolate,
-both raised in monkey renal cells, reveals consistent RNA modifications across the viral genome.
-Conservation of the RNA modification pattern during progression of the current pandemic suggests that this pattern
-is likely essential for the life cycle of SARS-CoV-2 and represents a possible target for drug interventions.
-&lt;/div&gt;</content><author><name></name></author><category term="paper" /><summary type="html">Nanopores are an awesome technology! We already gained experiences with it in our StreetScience project, where we show citizens and school kids what DNA sequencing is, how they can sequence with a USB-like device (Minion) and how they can analyze the data with Galaxy. But Nanopores can also sequence RNAs directly. Direct RNA Sequencing (DRS) can detect RNA modification in high-throughput!</summary></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2020-07-22, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #224</summary></entry></feed>
