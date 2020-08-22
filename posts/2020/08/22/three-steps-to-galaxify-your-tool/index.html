@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  <title>Galaxy Europe | UseGalaxy.eu Tool Updates for 2020-08-22</title>
-  <meta property="og:title" content="UseGalaxy.eu Tool Updates for 2020-08-22" />
-  <meta property="og:description" content="On 2020-08-22, the tools on UseGalaxy.eu were updated by ..." />
+  <title>Galaxy Europe | 3 steps to get your tool into Galaxy - A real-world example</title>
+  <meta property="og:title" content="3 steps to get your tool into Galaxy - A real-world example" />
+  <meta property="og:description" content="In this blog post, we will explain how you can get your s..." />
   <meta property="og:image" content="/assets/media/galaxy-eu-logo.512.png" />
   <meta name="description" content="The European Galaxy Instance">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,7 +16,7 @@
 
 
 
-  <link rel="canonical" href="https://galaxyproject.eu/posts/2020/08/22/tool-update/">
+  <link rel="canonical" href="https://galaxyproject.eu/posts/2020/08/22/three-steps-to-galaxify-your-tool/">
   <link rel="shortcut icon" href="/assets/media/galaxy-eu-logo.64.png" type="image/x-icon" />
   <link rel="alternate" type="application/rss+xml" title="Galaxy Europe" href="/feed.xml">
 
@@ -143,16 +143,20 @@
 <section id="news-page">
   <div class="row news-header-row">
     
-    <a class="col-xs-1 text-center" href="/posts/2020/08/22/three-steps-to-galaxify-your-tool/">
+    <a class="col-xs-1 text-center" href="/posts/2020/08/22/DataPLANT/">
       «
     </a>
     
     <div class="col-xs-10 ">
       <div class="text-center">
-        <h2 class="title">UseGalaxy.eu Tool Updates for 2020-08-22</h2>
+        <h2 class="title">3 steps to get your tool into Galaxy - A real-world example</h2>
       </div>
       <hr />
     </div>
+    
+    <a class="col-xs-1 text-center" href="/posts/2020/08/22/tool-update/">
+      »
+    </a>
     
   </div>
   <div class="row post-metadata">
@@ -174,8 +178,6 @@
             <span class="post-tags">
                 <span class="label label-success">Freiburg</span>
               
-                <span class="label label-info">tools</span>
-              
               
             </span>
 
@@ -189,70 +191,72 @@
   <div class="row">
     <div class="col-md-8 col-md-offset-2">
       <div class="news-content">
-        <p>On 2020-08-22, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in <a href="https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#229/">Jenkins Build #229</a></p>
+        <p>In this blog post, we will explain how you can get your software tool into a Galaxy server and with this, exposed to thousands of researchers.
+For this purpose, we will follow David’s steps to add the very generic UNIX <code class="language-plaintext highlighter-rouge">diff</code> tool to Galaxy.</p>
 
-<h2 id="convert-formats">Convert Formats</h2>
+<p>The first step to getting your software tool deployed into a Galaxy instance is to develop a Conda package for it.
+Conda is the <em>de facto</em> standard in many different communities to deploy software easily and reproducibly.
+The European Galaxy team is heavily involved in the <a href="https://conda-forge.org">conda-forge</a> and <a href="https://www.nature.com/articles/s41592-018-0046-7">Bioconda</a> projects and Galaxy does have built-in support for both channels.
+If your software tool is from the Biomedical domain, we recommend the Bioconda channel. Otherwise,
+create a Conda package for conda-forge. Here, David has created the following
+<a href="https://github.com/conda-forge/staged-recipes/pull/11170">Pull Request (PR) against the conda-forge repo</a>:</p>
 
+<p><strong>Step 1 - the Conda package</strong>: <a href="https://github.com/conda-forge/staged-recipes/pull/11170">https://github.com/conda-forge/staged-recipes/pull/11170</a></p>
+
+<p>After merging, a <a href="https://github.com/conda-forge/diffutils-feedstock">diffutils repository</a> is
+created and the <a href="https://anaconda.org/conda-forge/diffutils">Conda package</a> is available usually within 30 min.</p>
+
+<p>The second step is to create the Galaxy wrapper. A Galaxy wrapper is a formal description of all inputs,
+outputs and parameters of your tool, so that Galaxy can generate a GUI out of it and later a command to send to the cluster.
+You will find a tutorial on how to create such a wrapper in the <a href="https://planemo.readthedocs.io/en/latest/writing.html">planemo</a>
+documentation. The community has created a few best-practices for
+<a href="https://galaxy-iuc-standards.readthedocs.io/en/latest/best_practices/tool_xml.html">Galaxy wrapper development</a> and we recommend to follow them as this will ensure your tools are high-quality and can be deployed at
+the big public Galaxy servers. David has created the following PR was created against a public repository that collects a variety of different tools.</p>
+
+<p><strong>Step 2 - the Galaxy wrapper</strong>: <a href="https://github.com/bgruening/galaxytools/pull/966">https://github.com/bgruening/galaxytools/pull/966</a></p>
+
+<p>We recommend the submission of your tool to one of the bigger community projects like the ones listed below.
+This has the advantage that you will most likely get a review and can improve your tool, but also get some
+infrastructure for automated testing and ToolShed deployment for free.</p>
+
+<p>Other repositories with Galaxy tools:</p>
 <ul>
-  <li>genebed_maf_to_fasta was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/genebed_maf_to_fasta/f24a9ff28d3c">f24a9ff28d3c</a></li>
+  <li><a href="https://github.com/galaxyproject/tools-iuc">IUC repo</a></li>
+  <li><a href="https://github.com/bgruening/galaxytools">Björn Grüning’s repo</a></li>
+  <li>Peter Cock’s repos:
+    <ul>
+      <li><a href="https://github.com/peterjc/galaxy_blast">blast repo</a></li>
+      <li><a href="https://github.com/peterjc/pico_galaxy">pico repo</a></li>
+      <li><a href="https://github.com/peterjc/galaxy_mira">mira repo</a></li>
+    </ul>
+  </li>
+  <li><a href="https://github.com/workflow4metabolomics/tools-metabolomics">Metabolomics</a></li>
+  <li><a href="https://github.com/galaxyproteomics/tools-galaxyp">Proteomics</a></li>
+  <li><a href="https://github.com/genouest/tools-colibread">Colibread Galaxy Tools</a></li>
+  <li><a href="https://github.com/gregvonkuster/galaxy-csg">Greg von Kuster’s repo</a></li>
+  <li><a href="https://github.com/TGAC/earlham-galaxytools">EI repo</a></li>
+  <li><a href="https://github.com/AAFC-MBB/Galaxy/tree/master/wrappers">AAFC-MBB Canada repo</a></li>
+  <li><a href="https://gitlab.com/einonm/galaxy-tools">Mark Einon’s repo</a></li>
+  <li><a href="https://github.com/phac-nml/galaxy_tools">National Microbiology Laboratory’s repo</a></li>
 </ul>
 
-<h2 id="phylogenetics">Phylogenetics</h2>
+<p>Once David’s Galaxy wrapper PR passed all tests and was merged, it was automatically pushed
+to the <a href="https://toolshed.g2.bx.psu.edu/view/bgruening/diff/">Galaxy ToolShed</a>, an app store for Galaxy. From there, every Galaxy instance can install tools (apps).</p>
 
-<ul>
-  <li>hyphy_absrel was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_absrel/81e66674859e">81e66674859e</a></li>
-  <li>hyphy_bgm was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_bgm/a54340ea0866">a54340ea0866</a></li>
-  <li>hyphy_busted was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_busted/cff70490dbec">cff70490dbec</a></li>
-  <li>hyphy_fade was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_fade/a1a03eb66960">a1a03eb66960</a></li>
-  <li>hyphy_fel was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_fel/d968c5dddfeb">d968c5dddfeb</a></li>
-  <li>hyphy_fubar was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_fubar/600647840e87">600647840e87</a></li>
-  <li>hyphy_gard was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_gard/83f146502c0f">83f146502c0f</a></li>
-  <li>hyphy_meme was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_meme/a114682b2788">a114682b2788</a></li>
-  <li>hyphy_prime was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_prime/dc774be95f6c">dc774be95f6c</a></li>
-  <li>hyphy_relax was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_relax/4e9485eb5e9d">4e9485eb5e9d</a></li>
-  <li>hyphy_slac was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_slac/24742f335426">24742f335426</a></li>
-  <li>hyphy_sm19 was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_sm19/40e9160dbbbb">40e9160dbbbb</a></li>
-</ul>
+<p>Furthermore, a bot is automatically creating <a href="https://biocontainers.pro">(Bio)Containers</a> (Docker, rkt and Singularity) by
+tracking all Galaxy tools to ensure that a container exists for each tool. You can see the bot in action in the following PR:</p>
 
-<h2 id="get-data">Get Data</h2>
+<p>Automatic containers: <a href="https://github.com/BioContainers/multi-package-containers/pull/1236">https://github.com/BioContainers/multi-package-containers/pull/1236</a></p>
 
-<ul>
-  <li>sra_tools was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/sra_tools/653e89d73fc4">653e89d73fc4</a></li>
-</ul>
+<p>Last but not least, David wanted to get the Galaxy <code class="language-plaintext highlighter-rouge">diff</code> tool into the European Galaxy server.
+For that, a new PR was created against the tool repository from usegalaxy-eu.</p>
 
-<h2 id="graphdisplay-data">Graph/Display Data</h2>
+<p><strong>Step 3 - request for installation</strong>: <a href="https://github.com/bgruening/galaxytools/pull/971">https://github.com/bgruening/galaxytools/pull/971</a></p>
 
-<ul>
-  <li>jbrowse was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/jbrowse/17359b808b01">17359b808b01</a></li>
-</ul>
+<p>Once this is merged, another bot installs all the new tools but also tool updates automatically every Saturday.
+As a result, the installed <code class="language-plaintext highlighter-rouge">diff</code> tool can be used on the European Galaxy server following this link: https://usegalaxy.eu/root?tool_id=diff</p>
 
-<h2 id="variant-calling">Variant Calling</h2>
-
-<ul>
-  <li>control_freec was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/control_freec/2c6349fb175c">2c6349fb175c</a></li>
-</ul>
-
-<h2 id="apollo">Apollo</h2>
-
-<ul>
-  <li>apollo_create_account was updated to <a href="https://toolshed.g2.bx.psu.edu/view/gga/apollo_create_account/8fadbd5cadff">8fadbd5cadff</a></li>
-  <li>apollo_create_or_update was updated to <a href="https://toolshed.g2.bx.psu.edu/view/gga/apollo_create_or_update/4abaab60f9e1">4abaab60f9e1</a></li>
-  <li>apollo_delete_features was updated to <a href="https://toolshed.g2.bx.psu.edu/view/gga/apollo_delete_features/5b371b11b1f5">5b371b11b1f5</a></li>
-  <li>apollo_delete_organism was updated to <a href="https://toolshed.g2.bx.psu.edu/view/gga/apollo_delete_organism/4bf326ca95cf">4bf326ca95cf</a></li>
-  <li>apollo_export was updated to <a href="https://toolshed.g2.bx.psu.edu/view/gga/apollo_export/0d4234488bd0">0d4234488bd0</a></li>
-  <li>apollo_feat_from_gff3 was updated to <a href="https://toolshed.g2.bx.psu.edu/view/gga/apollo_feat_from_gff3/9f9aa5a88972">9f9aa5a88972</a></li>
-  <li>apollo_fetch_jbrowse was updated to <a href="https://toolshed.g2.bx.psu.edu/view/gga/apollo_fetch_jbrowse/b7c44671f012">b7c44671f012</a></li>
-  <li>apollo_iframe was updated to <a href="https://toolshed.g2.bx.psu.edu/view/gga/apollo_iframe/f4e3f9480307">f4e3f9480307</a></li>
-  <li>apollo_list_organism was updated to <a href="https://toolshed.g2.bx.psu.edu/view/gga/apollo_list_organism/a31493bc7952">a31493bc7952</a></li>
-</ul>
-
-<h2 id="annotation">Annotation</h2>
-
-<ul>
-  <li>repeat_masker was updated to <a href="https://toolshed.g2.bx.psu.edu/view/bgruening/repeat_masker/438f65cb1d14">438f65cb1d14</a></li>
-  <li>busco was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/busco/4048d82f0c88">4048d82f0c88</a></li>
-</ul>
-
+<p>That’s it - 3 steps to get your tool exposed to thousands of researchers!</p>
 
       </div>
     </div>
@@ -284,6 +288,24 @@
           
             <a href="https://www.elixir-europe.org" target="_blank">
               <img alt="ELIXIR logo" src="/assets/media/elixir_logo.png" class="img-responsive eu-image" />
+            </a>
+          
+      </div>
+      
+      <div>
+      
+          
+            <a href="https://nfdi4plants.de/" target="_blank">
+              <img alt="DataPLANT Logo" src="/assets/media/DataPLANT_logo.png" class="img-responsive eu-image" />
+            </a>
+          
+      </div>
+      
+      <div>
+      
+          
+            <a href="http://uni-freiburg.de/" target="_blank">
+              <img alt="University of Freiburg Logo" src="/assets/media/Logo_Uni_Freiburg.png" class="img-responsive eu-image" />
             </a>
           
       </div>
@@ -332,7 +354,7 @@ unless otherwise specified.</p>
         <div class="row">
             <div class="col-lg-12" style="text-align:center">
                 <ul class="contact-info">
-                    <li><i class="fa fa-github"></i><a href="https://github.com/usegalaxy-eu/website/tree/master/_posts/2020-08-22-tool-update.md">Edit this page on GitHub</a></li>
+                    <li><i class="fa fa-github"></i><a href="https://github.com/usegalaxy-eu/website/tree/master/_posts/2020-08-22-three-steps-to-galaxify-your-tool.md">Edit this page on GitHub</a></li>
                     
                       <li><i class="fa fa-envelope"></i><a href="mailto:galaxy@informatik.uni-freiburg.de">galaxy@informatik.uni-freiburg.de</a></li>
                     
