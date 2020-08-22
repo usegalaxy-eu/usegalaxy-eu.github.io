@@ -1,4 +1,66 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2020-08-21T17:44:48+02:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2020-08-15</title><link href="https://galaxyproject.eu/posts/2020/08/15/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2020-08-15" /><published>2020-08-15T00:00:00+02:00</published><updated>2020-08-15T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2020/08/15/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/08/15/tool-update/">&lt;p&gt;On 2020-08-15, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#228/&quot;&gt;Jenkins Build #228&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2020-08-22T05:18:23+02:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2020-08-22</title><link href="https://galaxyproject.eu/posts/2020/08/22/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2020-08-22" /><published>2020-08-22T00:00:00+02:00</published><updated>2020-08-22T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2020/08/22/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/08/22/tool-update/">&lt;p&gt;On 2020-08-22, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#229/&quot;&gt;Jenkins Build #229&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;convert-formats&quot;&gt;Convert Formats&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;genebed_maf_to_fasta was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/genebed_maf_to_fasta/f24a9ff28d3c&quot;&gt;f24a9ff28d3c&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;phylogenetics&quot;&gt;Phylogenetics&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;hyphy_absrel was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_absrel/81e66674859e&quot;&gt;81e66674859e&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hyphy_bgm was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_bgm/a54340ea0866&quot;&gt;a54340ea0866&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hyphy_busted was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_busted/cff70490dbec&quot;&gt;cff70490dbec&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hyphy_fade was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_fade/a1a03eb66960&quot;&gt;a1a03eb66960&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hyphy_fel was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_fel/d968c5dddfeb&quot;&gt;d968c5dddfeb&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hyphy_fubar was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_fubar/600647840e87&quot;&gt;600647840e87&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hyphy_gard was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_gard/83f146502c0f&quot;&gt;83f146502c0f&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hyphy_meme was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_meme/a114682b2788&quot;&gt;a114682b2788&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hyphy_prime was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_prime/dc774be95f6c&quot;&gt;dc774be95f6c&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hyphy_relax was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_relax/4e9485eb5e9d&quot;&gt;4e9485eb5e9d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hyphy_slac was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_slac/24742f335426&quot;&gt;24742f335426&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hyphy_sm19 was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_sm19/40e9160dbbbb&quot;&gt;40e9160dbbbb&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;get-data&quot;&gt;Get Data&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;sra_tools was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/sra_tools/653e89d73fc4&quot;&gt;653e89d73fc4&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;graphdisplay-data&quot;&gt;Graph/Display Data&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;jbrowse was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/jbrowse/17359b808b01&quot;&gt;17359b808b01&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;variant-calling&quot;&gt;Variant Calling&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;control_freec was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/control_freec/2c6349fb175c&quot;&gt;2c6349fb175c&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;apollo&quot;&gt;Apollo&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;apollo_create_account was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/gga/apollo_create_account/8fadbd5cadff&quot;&gt;8fadbd5cadff&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;apollo_create_or_update was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/gga/apollo_create_or_update/4abaab60f9e1&quot;&gt;4abaab60f9e1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;apollo_delete_features was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/gga/apollo_delete_features/5b371b11b1f5&quot;&gt;5b371b11b1f5&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;apollo_delete_organism was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/gga/apollo_delete_organism/4bf326ca95cf&quot;&gt;4bf326ca95cf&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;apollo_export was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/gga/apollo_export/0d4234488bd0&quot;&gt;0d4234488bd0&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;apollo_feat_from_gff3 was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/gga/apollo_feat_from_gff3/9f9aa5a88972&quot;&gt;9f9aa5a88972&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;apollo_fetch_jbrowse was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/gga/apollo_fetch_jbrowse/b7c44671f012&quot;&gt;b7c44671f012&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;apollo_iframe was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/gga/apollo_iframe/f4e3f9480307&quot;&gt;f4e3f9480307&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;apollo_list_organism was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/gga/apollo_list_organism/a31493bc7952&quot;&gt;a31493bc7952&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;annotation&quot;&gt;Annotation&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;repeat_masker was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/repeat_masker/438f65cb1d14&quot;&gt;438f65cb1d14&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;busco was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/busco/4048d82f0c88&quot;&gt;4048d82f0c88&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2020-08-22, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #229</summary></entry><entry><title type="html">UseGalaxy.eu Tool Updates for 2020-08-15</title><link href="https://galaxyproject.eu/posts/2020/08/15/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2020-08-15" /><published>2020-08-15T00:00:00+02:00</published><updated>2020-08-15T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2020/08/15/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/08/15/tool-update/">&lt;p&gt;On 2020-08-15, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#228/&quot;&gt;Jenkins Build #228&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;hca_sc_scmap_tools&quot;&gt;hca_sc_scmap_tools&lt;/h2&gt;
 
@@ -381,74 +443,4 @@ genome annotation and pan-genome analysis. The participants were very enthusiast
 
 &lt;p&gt;Finally, Simon presented the latest developments of the ChemicalToolbox and its most recent application - the virtual screening study on the SARS-CoV-2 main protease. If you missed watching it live, there’s a link to the Vimeo recording &lt;a href=&quot;https://player.vimeo.com/video/437703080&quot;&gt;here&lt;/a&gt;. We enjoyed the chance to share our work and are looking forward to continue developments in collaboration with the community!&lt;/p&gt;
 
-&lt;iframe title=&quot;vimeo-player&quot; src=&quot;https://player.vimeo.com/video/437703080&quot; width=&quot;640&quot; height=&quot;360&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><author><name></name></author><summary type="html">Several sessions were related to computational chemistry during this year’s BCC. On July 18th we ran a successful introductory tutorial on ‘Intuitive, reproducible high-throughput molecular dynamics in Galaxy’. The online training was led jointly by representatives from the European Galaxy Team (Simon Bray) and the University of Cape Town (Chris Barnett, Tharindu Senapathi).</summary></entry><entry><title type="html">UseGalaxy.eu Tool Updates for 2020-07-22</title><link href="https://galaxyproject.eu/posts/2020/07/22/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2020-07-22" /><published>2020-07-22T00:00:00+02:00</published><updated>2020-07-22T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2020/07/22/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/07/22/tool-update/">&lt;p&gt;On 2020-07-22, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#224/&quot;&gt;Jenkins Build #224&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;expression-tools&quot;&gt;Expression Tools&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;compose_text_param was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/compose_text_param/e188c9826e0f&quot;&gt;e188c9826e0f&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;fastq-quality-control&quot;&gt;FASTQ Quality Control&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;fastqe was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/fastqe/8d3aff8ba8ad&quot;&gt;8d3aff8ba8ad&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;graphdisplay-data&quot;&gt;Graph/Display Data&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;pygenometracks was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/pygenometracks/4ac4e7083b7e&quot;&gt;4ac4e7083b7e&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;variant-calling&quot;&gt;Variant Calling&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;medaka_variant was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/medaka_variant/3cde72a6e37c&quot;&gt;3cde72a6e37c&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;rna-analysis&quot;&gt;RNA Analysis&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;footprint was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/rnateam/footprint/0d94a529f925&quot;&gt;0d94a529f925&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;chemicaltoolbox&quot;&gt;ChemicalToolBox&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;ctb_im_cluster_butina was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/ctb_im_cluster_butina/ad2b25cca758&quot;&gt;ad2b25cca758&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;ctb_im_cluster_butina_matrix was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/ctb_im_cluster_butina_matrix/0332c2ff19f2&quot;&gt;0332c2ff19f2&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;ctb_im_conformers was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/ctb_im_conformers/b6cdd73f0c14&quot;&gt;b6cdd73f0c14&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;ctb_im_constrained_conf_gen was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/ctb_im_constrained_conf_gen/9c5121dd2fd4&quot;&gt;9c5121dd2fd4&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;ctb_im_max_min_picker was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/ctb_im_max_min_picker/2d9ca306538d&quot;&gt;2d9ca306538d&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;ctb_im_o3dalign was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/ctb_im_o3dalign/b760f006cb6b&quot;&gt;b760f006cb6b&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;ctb_im_pbf_ev was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/ctb_im_pbf_ev/38b8e1d2bb78&quot;&gt;38b8e1d2bb78&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;ctb_im_rxn_maker was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/ctb_im_rxn_maker/e3c4312457b6&quot;&gt;e3c4312457b6&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;ctb_im_rxn_smarts_filter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/ctb_im_rxn_smarts_filter/ce27129127e0&quot;&gt;ce27129127e0&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;ctb_im_screen was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/ctb_im_screen/2c11d1f9e00b&quot;&gt;2c11d1f9e00b&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;ctb_im_standardize was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/ctb_im_standardize/fbfac03ce8c3&quot;&gt;fbfac03ce8c3&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;ctb_im_xcos was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/ctb_im_xcos/73164cea9b60&quot;&gt;73164cea9b60&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;rad-seq&quot;&gt;RAD-seq&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;stacks2_cstacks was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/stacks2_cstacks/c541e62d6c56&quot;&gt;c541e62d6c56&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;species-abundance&quot;&gt;Species abundance&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;pampa_communitymetrics was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ecology/pampa_communitymetrics/ddd5b2e74b8b&quot;&gt;ddd5b2e74b8b&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;pampa_glmcomm was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ecology/pampa_glmcomm/f0dc3958e65d&quot;&gt;f0dc3958e65d&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;pampa_glmsp was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ecology/pampa_glmsp/0778efa9eb2e&quot;&gt;0778efa9eb2e&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;pampa_presabs was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ecology/pampa_presabs/c9dfe4e20a45&quot;&gt;c9dfe4e20a45&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;single-cell&quot;&gt;Single-cell&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;raceid_inspecttrajectory was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/raceid_inspecttrajectory/5156383d3a5d&quot;&gt;5156383d3a5d&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;raceid_inspecttrajectory was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/raceid_inspecttrajectory/86e2358cf273&quot;&gt;86e2358cf273&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;raceid_trajectory was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/raceid_trajectory/ff7cd3c7c1df&quot;&gt;ff7cd3c7c1df&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2020-07-22, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #224</summary></entry></feed>
+&lt;iframe title=&quot;vimeo-player&quot; src=&quot;https://player.vimeo.com/video/437703080&quot; width=&quot;640&quot; height=&quot;360&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><author><name></name></author><summary type="html">Several sessions were related to computational chemistry during this year’s BCC. On July 18th we ran a successful introductory tutorial on ‘Intuitive, reproducible high-throughput molecular dynamics in Galaxy’. The online training was led jointly by representatives from the European Galaxy Team (Simon Bray) and the University of Cape Town (Chris Barnett, Tharindu Senapathi).</summary></entry></feed>
