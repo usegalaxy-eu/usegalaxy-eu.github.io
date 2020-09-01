@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  <title>Galaxy Europe | New Paper on "Sawfly Genomes Reveal Evolutionary Acquisitions That Fostered the Mega-Radiation of Parasitoid and Eusocial Hymenoptera"</title>
-  <meta property="og:title" content="New Paper on "Sawfly Genomes Reveal Evolutionary Acquisit..." />
-  <meta property="og:description" content="The tremendous diversity of Hymenoptera is commonly attri..." />
+  <title>Galaxy Europe | New Paper on "pyGenomeTracks: reproducible plots for multivariate genomic data sets"</title>
+  <meta property="og:title" content="New Paper on "pyGenomeTracks: reproducible plots for mult..." />
+  <meta property="og:description" content="We are happy to announce the publication of pyGenomeTrack..." />
   <meta property="og:image" content="/assets/media/galaxy-eu-logo.512.png" />
   <meta name="description" content="The European Galaxy Instance">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,7 +16,7 @@
 
 
 
-  <link rel="canonical" href="https://galaxyproject.eu/posts/2020/08/31/paper-parasites/">
+  <link rel="canonical" href="https://galaxyproject.eu/posts/2020/09/01/paper-pyGenomeTracks/">
   <link rel="shortcut icon" href="/assets/media/galaxy-eu-logo.64.png" type="image/x-icon" />
   <link rel="alternate" type="application/rss+xml" title="Galaxy Europe" href="/feed.xml">
 
@@ -143,20 +143,16 @@
 <section id="news-page">
   <div class="row news-header-row">
     
-    <a class="col-xs-1 text-center" href="/posts/2020/08/30/paper-malaria/">
+    <a class="col-xs-1 text-center" href="/posts/2020/08/31/paper-parasites/">
       «
     </a>
     
     <div class="col-xs-10 ">
       <div class="text-center">
-        <h2 class="title">New Paper on &quot;Sawfly Genomes Reveal Evolutionary Acquisitions That Fostered the Mega-Radiation of Parasitoid and Eusocial Hymenoptera&quot;</h2>
+        <h2 class="title">New Paper on &quot;pyGenomeTracks: reproducible plots for multivariate genomic data sets&quot;</h2>
       </div>
       <hr />
     </div>
-    
-    <a class="col-xs-1 text-center" href="/posts/2020/09/01/paper-pyGenomeTracks/">
-      »
-    </a>
     
   </div>
   <div class="row post-metadata">
@@ -169,7 +165,7 @@
         <div class="col-md-6 text-right">
           <div>
             <span class="post-date">
-              Aug 31, 2020
+              Sep 1, 2020
             </span>
 
             
@@ -181,8 +177,8 @@
                 <span class="label label-info">paper</span>
               
               
-                <a href="https://dx.doi.org/10.1093/gbe/evaa106">
-                <span class="label label-warning">DOI:10.1093/gbe/evaa106</span>
+                <a href="https://dx.doi.org/10.1093/bioinformatics/btaa692">
+                <span class="label label-warning">DOI:10.1093/bioinformatics/btaa692</span>
                 </a>
               
             </span>
@@ -197,16 +193,74 @@
   <div class="row">
     <div class="col-md-8 col-md-offset-2">
       <div class="news-content">
-        <p>The tremendous diversity of Hymenoptera is commonly attributed to the evolution of parasitoidism in the last common ancestor of parasitoid sawflies (Orussidae) and wasp-waisted Hymenoptera (Apocrita). However, Apocrita and Orussidae differ dramatically in their species richness, indicating that the diversification of Apocrita was promoted by additional traits. These traits have remained elusive due to a paucity of sawfly genome sequences, in particular those of parasitoid sawflies.</p>
+        <p>We are happy to announce the publication of <strong>pyGenomeTracks (PGT)</strong> in Bioinformatics. The tool plots combinations of genomic tracks in a
+modular way and it’s <a href="https://usegalaxy.eu/root?tool_id=pygenomeTracks">available on the European Galaxy server</a>.
+Many thanks to all the authors for the great effort!</p>
 
-<p>Here, we present comparative analyses of draft genomes of the primarily phytophagous sawfly <em>Athalia rosae</em> and the parasitoid sawfly <em>Orussus abietinus</em>. Our analyses revealed that the ancestral hymenopteran genome exhibited traits that were previously considered unique to eusocial Apocrita (e.g., low transposable element content and activity) and a wider gene repertoire than previously thought (e.g., genes for CO2 detection). Moreover, we discovered that Apocrita evolved a significantly larger array of odorant receptors than sawflies, which could be relevant to the remarkable diversification of Apocrita by enabling efficient detection and reliable identification of hosts.</p>
+<h2 id="abstract">Abstract</h2>
 
-<p><img src="/assets/media/2020-08-31-parasites_publication.jpg" alt="Parasite Publication" /></p>
+<p><strong>Motivation</strong>: Generating publication ready plots to display multiple genomic tracks can pose a serious challenge. Making desirable and accurate
+figures requires considerable effort. This is usually done by hand or by using a vector graphic software.</p>
+
+<p><strong>Results</strong>: pyGenomeTracks (PGT) is a modular plotting tool that easily combines multiple tracks. It enables a reproducible and standardized
+generation of highly customizable and publication ready images.</p>
+
+<p><strong>Availability</strong>: PGT is available through a graphical interface on <a href="https://usegalaxy.eu/root?tool_id=pygenomeTracks">https://usegalaxy.eu</a> and through the command line. It is provided on conda
+via the bioconda channel, on pypi and it is openly developed on <a href="https://github.com/deeptools/pyGenomeTracks">GitHub</a>.</p>
+
+<p><img src="/assets/media/2020-09-01-pyGenomeTracks_publication.jpg" alt="pyGenomeTracks Publication" /></p>
 
       </div>
     </div>
   </div>
 
+
+	<div class="col-md-2">
+	</div>
+<div class="row">
+	<div class="col-md-8 col-sm-12">
+
+<div id="supported">
+    
+  <h3>Supported by</h3>
+    
+  <div class="row eu-image-box">
+      
+      <div>
+      
+          
+            <a href="https://www.denbi.de" target="_blank">
+              <img alt="de.NBI logo" src="/assets/media/deNBI_Logo_rgb_small.png" class="img-responsive eu-image"/>
+            </a>
+          
+      </div>
+      
+      <div>
+      
+          
+            <a href="https://www.elixir-europe.org" target="_blank">
+              <img alt="ELIXIR logo" src="/assets/media/elixir_logo.png" class="img-responsive eu-image" />
+            </a>
+          
+      </div>
+      
+      <div>
+      
+          
+            <a href="http://www.sfb992.uni-freiburg.de/" target="_blank">
+              <img alt="CRC 992 Logo" src="/assets/media/crc992.png" class="img-responsive eu-image" />
+            </a>
+          
+      </div>
+      
+  </div>
+</div>
+
+
+	</div>
+	<div class="col-md-2">
+	</div>
+</div>
 
 </section>
 
@@ -243,7 +297,7 @@ unless otherwise specified.</p>
         <div class="row">
             <div class="col-lg-12" style="text-align:center">
                 <ul class="contact-info">
-                    <li><i class="fa fa-github"></i><a href="https://github.com/usegalaxy-eu/website/tree/master/_posts/2020-08-31-paper-parasites.md">Edit this page on GitHub</a></li>
+                    <li><i class="fa fa-github"></i><a href="https://github.com/usegalaxy-eu/website/tree/master/_posts/2020-09-01-paper-pyGenomeTracks.md">Edit this page on GitHub</a></li>
                     
                       <li><i class="fa fa-envelope"></i><a href="mailto:galaxy@informatik.uni-freiburg.de">galaxy@informatik.uni-freiburg.de</a></li>
                     
