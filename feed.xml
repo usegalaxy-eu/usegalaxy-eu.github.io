@@ -1,4 +1,39 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2020-09-04T23:45:12+02:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">Galactic News! September Edition</title><link href="https://galaxyproject.eu/posts/2020/09/02/galactic-news/" rel="alternate" type="text/html" title="Galactic News! September Edition" /><published>2020-09-02T00:00:00+02:00</published><updated>2020-09-02T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2020/09/02/galactic-news</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/09/02/galactic-news/">&lt;p&gt;The &lt;a href=&quot;https://galaxyproject.org/news/2020-07-galaxy-update/&quot;&gt;September 2020 Galactic News&lt;/a&gt; is out: BCC2020, GCC2021, more events, and platform news, blog posts, tutorials, pubs, releases, jobs and more.&lt;/p&gt;</content><author><name></name></author><category term="galaxy" /><summary type="html">The September 2020 Galactic News is out: BCC2020, GCC2021, more events, and platform news, blog posts, tutorials, pubs, releases, jobs and more.</summary></entry><entry><title type="html">New Paper on “No more business as usual: Agile and effective responses to emerging pathogen threats require open data and open analytics”</title><link href="https://galaxyproject.eu/posts/2020/09/02/paper-covid-open-data/" rel="alternate" type="text/html" title="New Paper on “No more business as usual: Agile and effective responses to emerging pathogen threats require open data and open analytics”" /><published>2020-09-02T00:00:00+02:00</published><updated>2020-09-02T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2020/09/02/paper-covid-open-data</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/09/02/paper-covid-open-data/">&lt;p&gt;The scientific efforts to fight the current COVID-pandemic have yielded plenty of data. Unfortunately, this data is not always fully shared. In this publication, we show how to overcome these limitations by providing an open platform for transparent research.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2020-09-05T04:05:18+02:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2020-09-05</title><link href="https://galaxyproject.eu/posts/2020/09/05/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2020-09-05" /><published>2020-09-05T00:00:00+02:00</published><updated>2020-09-05T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2020/09/05/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/09/05/tool-update/">&lt;p&gt;On 2020-09-05, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#231/&quot;&gt;Jenkins Build #231&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;nanopore&quot;&gt;Nanopore&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;medaka_consensus was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/medaka_consensus/84dcccebad3d&quot;&gt;84dcccebad3d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;medaka_consensus_pipeline was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/medaka_consensus_pipeline/35666d44fe7a&quot;&gt;35666d44fe7a&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;medaka_variant was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/medaka_variant/e86fcef8ed91&quot;&gt;e86fcef8ed91&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;medaka_variant_pipeline was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/medaka_variant_pipeline/148f32860445&quot;&gt;148f32860445&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;gemini&quot;&gt;Gemini&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;gemini_db_info was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/gemini_db_info/124c5faef773&quot;&gt;124c5faef773&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;assembly&quot;&gt;Assembly&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;miniasm was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/miniasm/8dee0218ac7d&quot;&gt;8dee0218ac7d&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;chemicaltoolbox&quot;&gt;ChemicalToolBox&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;ctb_rdkit_descriptors was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/ctb_rdkit_descriptors/414edd9ea77d&quot;&gt;414edd9ea77d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openbabel_remove_protonation_state was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/openbabel_remove_protonation_state/00263ca6ffb8&quot;&gt;00263ca6ffb8&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mdanalysis_distance was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/mdanalysis_distance/d540ea77b909&quot;&gt;d540ea77b909&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;sambam&quot;&gt;SAM/BAM&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;samtools_view was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/samtools_view/bf328cec6a42&quot;&gt;bf328cec6a42&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2020-09-05, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #231</summary></entry><entry><title type="html">Galactic News! September Edition</title><link href="https://galaxyproject.eu/posts/2020/09/02/galactic-news/" rel="alternate" type="text/html" title="Galactic News! September Edition" /><published>2020-09-02T00:00:00+02:00</published><updated>2020-09-02T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2020/09/02/galactic-news</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/09/02/galactic-news/">&lt;p&gt;The &lt;a href=&quot;https://galaxyproject.org/news/2020-07-galaxy-update/&quot;&gt;September 2020 Galactic News&lt;/a&gt; is out: BCC2020, GCC2021, more events, and platform news, blog posts, tutorials, pubs, releases, jobs and more.&lt;/p&gt;</content><author><name></name></author><category term="galaxy" /><summary type="html">The September 2020 Galactic News is out: BCC2020, GCC2021, more events, and platform news, blog posts, tutorials, pubs, releases, jobs and more.</summary></entry><entry><title type="html">New Paper on “No more business as usual: Agile and effective responses to emerging pathogen threats require open data and open analytics”</title><link href="https://galaxyproject.eu/posts/2020/09/02/paper-covid-open-data/" rel="alternate" type="text/html" title="New Paper on “No more business as usual: Agile and effective responses to emerging pathogen threats require open data and open analytics”" /><published>2020-09-02T00:00:00+02:00</published><updated>2020-09-02T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2020/09/02/paper-covid-open-data</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/09/02/paper-covid-open-data/">&lt;p&gt;The scientific efforts to fight the current COVID-pandemic have yielded plenty of data. Unfortunately, this data is not always fully shared. In this publication, we show how to overcome these limitations by providing an open platform for transparent research.&lt;/p&gt;
 
 &lt;p&gt;Other studies and activities related to SARS-CoV-2 can be found in &lt;a href=&quot;https://docs.google.com/document/d/1Ajfy3RG-BOGTSdhQUMZ0hnGtePZplv-lK0rYzx8L-vo/preview#&quot;&gt;this running document&lt;/a&gt;.&lt;/p&gt;
 
@@ -135,66 +170,4 @@ For that, a new PR was created against the tool repository from usegalaxy-eu.&lt
 &lt;p&gt;Once this is merged, another bot installs all the new tools but also tool updates automatically every Saturday.
 As a result, the installed &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;diff&lt;/code&gt; tool can be used on the European Galaxy server following this link: https://usegalaxy.eu/root?tool_id=diff&lt;/p&gt;
 
-&lt;p&gt;That’s it - 3 steps to get your tool exposed to thousands of researchers!&lt;/p&gt;</content><author><name></name></author><summary type="html">In this blog post, we will explain how you can get your software tool into a Galaxy server and with this, exposed to thousands of researchers. For this purpose, we will follow David’s steps to add the very generic UNIX diff tool to Galaxy.</summary></entry><entry><title type="html">UseGalaxy.eu Tool Updates for 2020-08-22</title><link href="https://galaxyproject.eu/posts/2020/08/22/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2020-08-22" /><published>2020-08-22T00:00:00+02:00</published><updated>2020-08-22T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2020/08/22/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/08/22/tool-update/">&lt;p&gt;On 2020-08-22, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#229/&quot;&gt;Jenkins Build #229&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;convert-formats&quot;&gt;Convert Formats&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;genebed_maf_to_fasta was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/genebed_maf_to_fasta/f24a9ff28d3c&quot;&gt;f24a9ff28d3c&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;phylogenetics&quot;&gt;Phylogenetics&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;hyphy_absrel was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_absrel/81e66674859e&quot;&gt;81e66674859e&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;hyphy_bgm was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_bgm/a54340ea0866&quot;&gt;a54340ea0866&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;hyphy_busted was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_busted/cff70490dbec&quot;&gt;cff70490dbec&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;hyphy_fade was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_fade/a1a03eb66960&quot;&gt;a1a03eb66960&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;hyphy_fel was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_fel/d968c5dddfeb&quot;&gt;d968c5dddfeb&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;hyphy_fubar was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_fubar/600647840e87&quot;&gt;600647840e87&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;hyphy_gard was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_gard/83f146502c0f&quot;&gt;83f146502c0f&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;hyphy_meme was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_meme/a114682b2788&quot;&gt;a114682b2788&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;hyphy_prime was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_prime/dc774be95f6c&quot;&gt;dc774be95f6c&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;hyphy_relax was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_relax/4e9485eb5e9d&quot;&gt;4e9485eb5e9d&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;hyphy_slac was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_slac/24742f335426&quot;&gt;24742f335426&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;hyphy_sm19 was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_sm19/40e9160dbbbb&quot;&gt;40e9160dbbbb&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;get-data&quot;&gt;Get Data&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;sra_tools was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/sra_tools/653e89d73fc4&quot;&gt;653e89d73fc4&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;graphdisplay-data&quot;&gt;Graph/Display Data&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;jbrowse was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/jbrowse/17359b808b01&quot;&gt;17359b808b01&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;variant-calling&quot;&gt;Variant Calling&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;control_freec was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/control_freec/2c6349fb175c&quot;&gt;2c6349fb175c&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;apollo&quot;&gt;Apollo&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;apollo_create_account was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/gga/apollo_create_account/8fadbd5cadff&quot;&gt;8fadbd5cadff&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;apollo_create_or_update was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/gga/apollo_create_or_update/4abaab60f9e1&quot;&gt;4abaab60f9e1&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;apollo_delete_features was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/gga/apollo_delete_features/5b371b11b1f5&quot;&gt;5b371b11b1f5&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;apollo_delete_organism was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/gga/apollo_delete_organism/4bf326ca95cf&quot;&gt;4bf326ca95cf&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;apollo_export was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/gga/apollo_export/0d4234488bd0&quot;&gt;0d4234488bd0&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;apollo_feat_from_gff3 was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/gga/apollo_feat_from_gff3/9f9aa5a88972&quot;&gt;9f9aa5a88972&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;apollo_fetch_jbrowse was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/gga/apollo_fetch_jbrowse/b7c44671f012&quot;&gt;b7c44671f012&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;apollo_iframe was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/gga/apollo_iframe/f4e3f9480307&quot;&gt;f4e3f9480307&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;apollo_list_organism was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/gga/apollo_list_organism/a31493bc7952&quot;&gt;a31493bc7952&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;annotation&quot;&gt;Annotation&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;repeat_masker was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/repeat_masker/438f65cb1d14&quot;&gt;438f65cb1d14&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;busco was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/busco/4048d82f0c88&quot;&gt;4048d82f0c88&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2020-08-22, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #229</summary></entry></feed>
+&lt;p&gt;That’s it - 3 steps to get your tool exposed to thousands of researchers!&lt;/p&gt;</content><author><name></name></author><summary type="html">In this blog post, we will explain how you can get your software tool into a Galaxy server and with this, exposed to thousands of researchers. For this purpose, we will follow David’s steps to add the very generic UNIX diff tool to Galaxy.</summary></entry></feed>
