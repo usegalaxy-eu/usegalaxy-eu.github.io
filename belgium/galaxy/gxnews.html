@@ -34,68 +34,95 @@
 
 
 
-<section class="page-header">
-  <div class="row">
-    <div class="col-sm-12 text-center">
-      <h1>VIB News</h1>
-    </div>
-  </div>
-</section>
+
+<script>
+  const load = () => {
+    const urlParams = new URLSearchParams(window.location.search);
+    const userTag = urlParams.get('tag');
+    let div;
+    let tags = [];
+    let counter = 0;
+    let news = $("#news-list");
 
 
 
-<section id="news-list">
-  
-    
-    
-    
+     
+      tags.push(`report`)
+     
+      tags.push(``)
 
-    <div class="col-md-4 news">
-      <div class="row" style="padding: 1em">
-        <div>
-          
-            <a href="/posts/2020/01/30/elixir-tools-platform-meeting/plain.html">
-          
-            <h2 class="title">ELIXIR tools platform meeting and Container SIS meeting in Paris</h2>
-          </a>
-          <span class="date">
-            
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
 
-
-
-
-
-
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4 report news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  
+                    <a href="/posts/2020/01/30/elixir-tools-platform-meeting/">
+                  
+                    <h2 class="title">ELIXIR tools platform meeting and Container SIS meeting in Paris</h2>
+                  </a>
+                  <span class="date">
+                    
 
 
 
 
 
-          </span>
-          <span class="date">
-            January 30, 2020
-          </span>
-          <span class="label label-success"></span>
-          
+
+
+
+
+
+
+                  </span>
+                  <span class="date">
+                    January 30, 2020
+                  </span>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
+                  
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=report'"
            class="btn btn-primary btn-xs tag-element" role="button">report</a>
     
 
 
-        </div>
-        <div class="news-content">
-          <div><p>This week we joined the <a href="https://elixir-europe.org/platforms/tools">ELIXIR tools platform</a> meeting in Paris.
+                </div>
+                <div class="news-content">
+                  <div><p>This week we joined the <a href="https://elixir-europe.org/platforms/tools">ELIXIR tools platform</a> meeting in Paris.
 On Monday, we updated each other on the latest status of the BioContainers project (including GA4GH TRS API),
 the new <a href="https://docs.google.com/presentation/d/1mg0OHxtv13bJU3g1Lyt63v9sKPVCS_utyBnJk5yJluw/edit?usp=sharing">Tools Ecosystem</a> and how we can transfer
 the FAIR principles to software and tools.</p>
 </div>
-        </div>
-      </div>
-    </div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
 
-  
+        news.append(div);
+    }
+    tags = []
+
+  }
+
+  window.onload = load;
+</script>
+<section class="page-header">
+  <div class="row">
+    <div class="col-sm-12 text-center">
+      <h1><a href="javascript:window.location.href=window.location.href.split('?')[0]">VIB News </a></h1>
+    </div>
+  </div>
 </section>
+
+<section id="news-list"></section>
 
         </div>
       </div>

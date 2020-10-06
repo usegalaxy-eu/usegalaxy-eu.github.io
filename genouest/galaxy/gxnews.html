@@ -34,19 +34,30 @@
 
 
 
+
+<script>
+  const load = () => {
+    const urlParams = new URLSearchParams(window.location.search);
+    const userTag = urlParams.get('tag');
+    let div;
+    let tags = [];
+    let counter = 0;
+    let news = $("#news-list");
+
+
+  }
+
+  window.onload = load;
+</script>
 <section class="page-header">
   <div class="row">
     <div class="col-sm-12 text-center">
-      <h1>GenOuest News</h1>
+      <h1><a href="javascript:window.location.href=window.location.href.split('?')[0]">GenOuest News </a></h1>
     </div>
   </div>
 </section>
 
-
-
-<section id="news-list">
-  
-</section>
+<section id="news-list"></section>
 
         </div>
       </div>
