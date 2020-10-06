@@ -128,32 +128,38 @@
 
 
 
-<section class="page-header">
-  <div class="row">
-    <div class="col-sm-12 text-center">
-      <h1>ELIXIR-IT/Laniakea News</h1>
-    </div>
-  </div>
-</section>
+
+<script>
+  const load = () => {
+    const urlParams = new URLSearchParams(window.location.search);
+    const userTag = urlParams.get('tag');
+    let div;
+    let tags = [];
+    let counter = 0;
+    let news = $("#news-list");
 
 
 
-<section id="news-list">
-  
-    
-    
-    
+     
+      tags.push(`tools`)
+     
+      tags.push(`ELIXIR-IT/Laniakea`)
 
-    <div class="col-md-4 news">
-      <div class="row" style="padding: 1em">
-        <div>
-          
-            <a href="/posts/2020/03/01/laniakea-release/">
-          
-            <h2 class="title">ELIXIR-Italy launches Laniakea@ReCaS, a Galaxy “on-demand” platform</h2>
-          </a>
-          <span class="date">
-            
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
+
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4 tools news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  
+                    <a href="/posts/2020/03/01/laniakea-release/">
+                  
+                    <h2 class="title">ELIXIR-Italy launches Laniakea@ReCaS, a Galaxy “on-demand” platform</h2>
+                  </a>
+                  <span class="date">
+                    
 
 
 
@@ -167,40 +173,59 @@
 
 
 
-          </span>
-          <span class="date">
-            March 1, 2020
-          </span>
-          <span class="label label-success">ELIXIR-IT/Laniakea</span>
-          
+                  </span>
+                  <span class="date">
+                    March 1, 2020
+                  </span>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=ELIXIR-IT/Laniakea'"
+                  class="btn btn-success btn-xs tag-element" role="button">ELIXIR-IT/Laniakea</a>
+                  
     
-        <span class="label label-primary">tools</span>
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=tools'"
+           class="btn btn-primary btn-xs tag-element" role="button">tools</a>
     
 
 
-        </div>
-        <div class="news-content">
-          <div><p>ELIXIR-ITALY has officially announced the <a href="https://laniakea-elixir-it.github.io/laniakea_at_recas">Laniakea@ReCaS Call</a>, starting on 10 February 2020. The ELIXIR-ITALY Laniakea@ReCaS Call offers access to Cloud resources to be used for the deployment of on-demand Galaxy instances through the <a href="https://laniakea-elixir-it.github.io">Laniakea platform</a>. Users of the service will be able to configure, launch, and manage their Galaxy instance(s) on the Cloud using a user-friendly interface.</p>
+                </div>
+                <div class="news-content">
+                  <div><p>ELIXIR-ITALY has officially announced the <a href="https://laniakea-elixir-it.github.io/laniakea_at_recas">Laniakea@ReCaS Call</a>, starting on 10 February 2020. The ELIXIR-ITALY Laniakea@ReCaS Call offers access to Cloud resources to be used for the deployment of on-demand Galaxy instances through the <a href="https://laniakea-elixir-it.github.io">Laniakea platform</a>. Users of the service will be able to configure, launch, and manage their Galaxy instance(s) on the Cloud using a user-friendly interface.</p>
 </div>
-        </div>
-      </div>
-    </div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
 
-  
-    
-    
-    
+        news.append(div);
+    }
+    tags = []
 
-    <div class="col-md-4 news">
-      <div class="row" style="padding: 1em">
-        <div>
-          
-            <a href="https://marketplace.eosc-portal.eu/services/laniakea-recas">
-          
-            <h2 class="title">Laniakea@ReCaS becomes an EOSC Provider</h2>
-          </a>
-          <span class="date">
-            
+
+     
+      tags.push(`galaxy`)
+     
+      tags.push(`laniakea`)
+     
+      tags.push(`ELIXIR-IT/Laniakea`)
+
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
+
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4 galaxylaniakea news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  
+                    <a href="https://marketplace.eosc-portal.eu/services/laniakea-recas">
+                  
+                    <h2 class="title">Laniakea@ReCaS becomes an EOSC Provider</h2>
+                  </a>
+                  <span class="date">
+                    
 	<i class="fa fa-external-link" aria-hidden="true"></i>
 
 
@@ -214,46 +239,62 @@
 
 
 
-          </span>
-          <span class="date">
-            February 28, 2020
-          </span>
-          <span class="label label-success">ELIXIR-IT/Laniakea</span>
-          
+                  </span>
+                  <span class="date">
+                    February 28, 2020
+                  </span>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=ELIXIR-IT/Laniakea'"
+                  class="btn btn-success btn-xs tag-element" role="button">ELIXIR-IT/Laniakea</a>
+                  
     
-        <span class="label label-primary">galaxy</span>
-    
-
-    
-        <span class="label label-primary">laniakea</span>
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=galaxy'"
+           class="btn btn-primary btn-xs tag-element" role="button">galaxy</a>
     
 
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=laniakea'"
+           class="btn btn-primary btn-xs tag-element" role="button">laniakea</a>
+    
 
-        </div>
-        <div class="news-content">
-          <div><p><a href="https://laniakea-elixir-it.github.io/">Laniakea@ReCaS</a> is now a European Open Science Cloud provider, thus opening the service to all EOSC users.</p>
+
+                </div>
+                <div class="news-content">
+                  <div><p><a href="https://laniakea-elixir-it.github.io/">Laniakea@ReCaS</a> is now a European Open Science Cloud provider, thus opening the service to all EOSC users.</p>
 </div>
-        </div>
-      </div>
-    </div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
 
-  
-    
-    
-    
+        news.append(div);
+    }
+    tags = []
 
-    <div class="row">
 
-    <div class="col-md-4 news">
-      <div class="row" style="padding: 1em">
-        <div>
-          
-            <a href="/posts/2019/11/26/pipe-t-paper-published/">
-          
-            <h2 class="title">PIPE-T paper published</h2>
-          </a>
-          <span class="date">
-            
+     
+      tags.push(`tools`)
+     
+      tags.push(`ELIXIR-IT/Laniakea`)
+
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
+
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4 tools news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  
+                    <a href="/posts/2019/11/26/pipe-t-paper-published/">
+                  
+                    <h2 class="title">PIPE-T paper published</h2>
+                  </a>
+                  <span class="date">
+                    
 
 
 
@@ -267,29 +308,52 @@
 
 
 
-          </span>
-          <span class="date">
-            November 26, 2019
-          </span>
-          <span class="label label-success">ELIXIR-IT/Laniakea</span>
-          
+                  </span>
+                  <span class="date">
+                    November 26, 2019
+                  </span>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=ELIXIR-IT/Laniakea'"
+                  class="btn btn-success btn-xs tag-element" role="button">ELIXIR-IT/Laniakea</a>
+                  
     
-        <span class="label label-primary">tools</span>
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=tools'"
+           class="btn btn-primary btn-xs tag-element" role="button">tools</a>
     
 
 
-        </div>
-        <div class="news-content">
-          <div><p>PIPE-T is a new Galaxy tool implementing a workflow for parsing, filtering, normalizing, imputing, and analyzing RT-qPCR data.</p>
+                </div>
+                <div class="news-content">
+                  <div><p>PIPE-T is a new Galaxy tool implementing a workflow for parsing, filtering, normalizing, imputing, and analyzing RT-qPCR data.</p>
 </div>
-        </div>
-      </div>
-    </div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
 
-    </div>
+        news.append(div);
+    }
+    tags = []
 
-  
+  }
+
+  window.onload = load;
+</script>
+<section class="page-header">
+  <div class="row">
+    <div class="col-sm-12 text-center">
+      <h1><a href="javascript:window.location.href=window.location.href.split('?')[0]">ELIXIR-IT/Laniakea News </a></h1>
+    </div>
+  </div>
 </section>
+
+<div id="search-result"></div>
+
+
+<section id="news-list"></section>
 
         </div>
       </div>

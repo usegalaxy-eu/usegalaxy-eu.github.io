@@ -128,32 +128,40 @@
 
 
 
-<section class="page-header">
-  <div class="row">
-    <div class="col-sm-12 text-center">
-      <h1>Erasmus MC News</h1>
-    </div>
-  </div>
-</section>
+
+<script>
+  const load = () => {
+    const urlParams = new URLSearchParams(window.location.search);
+    const userTag = urlParams.get('tag');
+    let div;
+    let tags = [];
+    let counter = 0;
+    let news = $("#news-list");
 
 
 
-<section id="news-list">
-  
-    
-    
-    
+     
+      tags.push(`training`)
+     
+      tags.push(`tiaas`)
+     
+      tags.push(`Erasmus MC`)
 
-    <div class="col-md-4 news">
-      <div class="row" style="padding: 1em">
-        <div>
-          
-            <a href="/posts/2018/11/01/elixirnl-workshop/">
-          
-            <h2 class="title">Enthusiastic Response to the First ELIXIR-NL Galaxy Training Course in the Netherlands</h2>
-          </a>
-          <span class="date">
-            
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
+
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4 trainingtiaas news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  
+                    <a href="/posts/2018/11/01/elixirnl-workshop/">
+                  
+                    <h2 class="title">Enthusiastic Response to the First ELIXIR-NL Galaxy Training Course in the Netherlands</h2>
+                  </a>
+                  <span class="date">
+                    
 
 
 
@@ -167,44 +175,62 @@
 
 
 
-          </span>
-          <span class="date">
-            November 1, 2018
-          </span>
-          <span class="label label-success">Erasmus MC</span>
-          
+                  </span>
+                  <span class="date">
+                    November 1, 2018
+                  </span>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Erasmus MC'"
+                  class="btn btn-success btn-xs tag-element" role="button">Erasmus MC</a>
+                  
     
-        <span class="label label-primary">training</span>
-    
-
-    
-        <span class="label label-primary">tiaas</span>
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=training'"
+           class="btn btn-primary btn-xs tag-element" role="button">training</a>
     
 
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=tiaas'"
+           class="btn btn-primary btn-xs tag-element" role="button">tiaas</a>
+    
 
-        </div>
-        <div class="news-content">
-          <div><p>An ELIXIR-NL training course entitled <a href="https://www.biosb.nl/education/course-portfolio/bioinformatics-for-translational-medicine-using-galaxy/"><em>Bioinformatics for Translational Medicine using Galaxy: see it, do it, teach it!</em></a> was held on October 17 - 19, 2018 in Amsterdam. Participants were enthusiastic about the course contents, and particularly interested in the link of using Galaxy workflows for training and teaching. For this workshop we used the <a href="https://usegalaxy.eu">European Galaxy server</a> via their wonderful <a href="https://galaxyproject.eu/tiaas">Training Infrastructure as a Service (TIaaS)</a> setup.</p>
+
+                </div>
+                <div class="news-content">
+                  <div><p>An ELIXIR-NL training course entitled <a href="https://www.biosb.nl/education/course-portfolio/bioinformatics-for-translational-medicine-using-galaxy/"><em>Bioinformatics for Translational Medicine using Galaxy: see it, do it, teach it!</em></a> was held on October 17 - 19, 2018 in Amsterdam. Participants were enthusiastic about the course contents, and particularly interested in the link of using Galaxy workflows for training and teaching. For this workshop we used the <a href="https://usegalaxy.eu">European Galaxy server</a> via their wonderful <a href="https://galaxyproject.eu/tiaas">Training Infrastructure as a Service (TIaaS)</a> setup.</p>
 </div>
-        </div>
-      </div>
-    </div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
 
-  
-    
-    
-    
+        news.append(div);
+    }
+    tags = []
 
-    <div class="col-md-4 news">
-      <div class="row" style="padding: 1em">
-        <div>
-          
-            <a href="/posts/2018/05/03/emc-nanopolish/">
-          
-            <h2 class="title">Nanopolish tools for signal-level analysis of Oxford Nanopore sequencing data is now available in Galaxy</h2>
-          </a>
-          <span class="date">
-            
+
+     
+      tags.push(`tools`)
+     
+      tags.push(`Erasmus MC`)
+
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
+
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4 tools news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  
+                    <a href="/posts/2018/05/03/emc-nanopolish/">
+                  
+                    <h2 class="title">Nanopolish tools for signal-level analysis of Oxford Nanopore sequencing data is now available in Galaxy</h2>
+                  </a>
+                  <span class="date">
+                    
 
 
 
@@ -218,27 +244,52 @@
 
 
 
-          </span>
-          <span class="date">
-            May 3, 2018
-          </span>
-          <span class="label label-success">Erasmus MC</span>
-          
+                  </span>
+                  <span class="date">
+                    May 3, 2018
+                  </span>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Erasmus MC'"
+                  class="btn btn-success btn-xs tag-element" role="button">Erasmus MC</a>
+                  
     
-        <span class="label label-primary">tools</span>
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=tools'"
+           class="btn btn-primary btn-xs tag-element" role="button">tools</a>
     
 
 
-        </div>
-        <div class="news-content">
-          <div><p><a href="https://github.com/jts/nanopolish">Nanopolish</a> is a popular tool suite for working with data produced by the Nanopore sequencing platform. We are pleased to announce that the demanding tools have been integrated into the Galaxy platform and are available on <a href="https://bioinf-galaxian.erasmusmc.nl/galaxy/">our server</a>.</p>
+                </div>
+                <div class="news-content">
+                  <div><p><a href="https://github.com/jts/nanopolish">Nanopolish</a> is a popular tool suite for working with data produced by the Nanopore sequencing platform. We are pleased to announce that the demanding tools have been integrated into the Galaxy platform and are available on <a href="https://bioinf-galaxian.erasmusmc.nl/galaxy/">our server</a>.</p>
 </div>
-        </div>
-      </div>
-    </div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
 
-  
+        news.append(div);
+    }
+    tags = []
+
+  }
+
+  window.onload = load;
+</script>
+<section class="page-header">
+  <div class="row">
+    <div class="col-sm-12 text-center">
+      <h1><a href="javascript:window.location.href=window.location.href.split('?')[0]">Erasmus MC News </a></h1>
+    </div>
+  </div>
 </section>
+
+<div id="search-result"></div>
+
+
+<section id="news-list"></section>
 
         </div>
       </div>
