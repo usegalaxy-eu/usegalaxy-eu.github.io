@@ -139,6 +139,70 @@
 
 
      
+      tags.push(`galaxy`)
+     
+      tags.push(`Freiburg`)
+
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
+
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4 galaxy news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  
+                    <a href="https://galaxyproject.org/news/2020-10-galaxy-update/">
+                  
+                    <h2 class="title">October Galactic News!</h2>
+                  </a>
+                  <span class="date">
+                    
+	<i class="fa fa-external-link" aria-hidden="true"></i>
+
+
+
+
+
+
+
+
+
+
+
+
+                  </span>
+                  <span class="date">
+                    October 7, 2020
+                  </span>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
+                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=galaxy'"
+           class="btn btn-primary btn-xs tag-element" role="button">galaxy</a>
+    
+
+
+                </div>
+                <div class="news-content">
+                  <div><p>The <a href="https://galaxyproject.org/news/2020-10-galaxy-update/">October 2020 Galactic News</a> is out! Get ready for the (many) events that are coming, check out the platforms, blog posts, new tutorials, open positions, and many more!</p>
+</div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
+
+        news.append(div);
+    }
+    tags = []
+
+
+     
       tags.push(`tools`)
      
       tags.push(`Freiburg`)
