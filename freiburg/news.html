@@ -154,6 +154,77 @@
 
 
      
+      tags.push(`training`)
+     
+      tags.push(`tiaas`)
+     
+      tags.push(`Freiburg`)
+
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
+
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4 trainingtiaas news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  
+                    <a href="/posts/2020/10/14/tiaas_feedback_Leighton/">
+                  
+                    <h2 class="title">Training Infrastructure Feedback from Leighton Pritchard</h2>
+                  </a>
+                  <span class="date">
+                    
+
+
+
+	<i class="fa fa-graduation-cap" aria-hidden="true"></i>
+
+
+
+
+
+
+
+
+
+                  </span>
+                  <span class="date">
+                    October 14, 2020
+                  </span>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
+                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=training'"
+           class="btn btn-primary btn-xs tag-element" role="button">training</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=tiaas'"
+           class="btn btn-primary btn-xs tag-element" role="button">tiaas</a>
+    
+
+
+                </div>
+                <div class="news-content">
+                  <div><p>The <a href="https://www.strath.ac.uk/courses/undergraduate/microbiologybsc/">BM425 Advanced Microbiology module</a> at the <a href="https://www.strath.ac.uk/">University of Strathclyde</a> is a final-year course that aims to help students understand the genomic basis, molecular biology, structure and function of microbial systems and their interactions with the environment. The first block of the course covers genome sequencing, assembly, and comparative genomics, in an environmental and clinical context. In the first week, the students participate in a workshop where they take a set of raw reads through quality control, assembly and annotation, and contextualise their organism using comparative genomics. We teach this using Galaxy as many of the cohort are unfamiliar with the command-line, and we need a consistent, common interface that allows them to do real science, while minimising the intimidation and complexity of using multiple different tools.</p>
+</div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
+
+        news.append(div);
+    }
+    tags = []
+
+
+     
       tags.push(`tools`)
      
       tags.push(`Freiburg`)
