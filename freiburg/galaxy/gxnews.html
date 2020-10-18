@@ -48,6 +48,103 @@
 
 
      
+      tags.push(`galaxy`)
+     
+      tags.push(`tiaas`)
+     
+      tags.push(`de.NBI`)
+     
+      tags.push(`ELIXIR`)
+     
+      tags.push(`EOSC`)
+     
+      tags.push(`unifreiburg`)
+     
+      tags.push(``)
+
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
+
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4 galaxytiaasde.NBIELIXIREOSCunifreiburg news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  
+                    <a href="/posts/2020/10/21/20000user/plain.html">
+                  
+                    <h2 class="title">20,000 users</h2>
+                  </a>
+                  <span class="date">
+                    
+
+
+
+
+
+
+
+
+
+
+
+                  </span>
+                  <span class="date">
+                    October 21, 2020
+                  </span>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
+                  
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=galaxy'"
+           class="btn btn-primary btn-xs tag-element" role="button">galaxy</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=tiaas'"
+           class="btn btn-primary btn-xs tag-element" role="button">tiaas</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=de.NBI'"
+           class="btn btn-primary btn-xs tag-element" role="button">de.NBI</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=ELIXIR'"
+           class="btn btn-primary btn-xs tag-element" role="button">ELIXIR</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=EOSC'"
+           class="btn btn-primary btn-xs tag-element" role="button">EOSC</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=unifreiburg'"
+           class="btn btn-primary btn-xs tag-element" role="button">unifreiburg</a>
+    
+
+
+                </div>
+                <div class="news-content">
+                  <div><p><a href="/people">We</a> have exciting news to share! The <a href="www.usegalaxy.eu">European Galaxy Server</a> surpassed the <strong>20,000 registered users</strong> last week!</p>
+</div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
+
+        news.append(div);
+    }
+    tags = []
+
+
+     
       tags.push(`tools`)
      
       tags.push(`Freiburg`)
@@ -116,7 +213,7 @@
      
       tags.push(`tiaas`)
      
-      tags.push(`Freiburg`)
+      tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
       counter++
@@ -150,8 +247,8 @@
                   <span class="date">
                     October 14, 2020
                   </span>
-                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
-                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
                   
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=training'"
@@ -166,7 +263,7 @@
 
                 </div>
                 <div class="news-content">
-                  <div><p>The <a href="https://www.strath.ac.uk/courses/undergraduate/microbiologybsc/">BM425 Advanced Microbiology module</a> at the <a href="https://www.strath.ac.uk/">University of Strathclyde</a> is a final-year course that aims to help students understand the genomic basis, molecular biology, structure and function of microbial systems and their interactions with the environment. The first block of the course covers genome sequencing, assembly, and comparative genomics, in an environmental and clinical context. In the first week, the students participate in a workshop where they take a set of raw reads through quality control, assembly and annotation, and contextualise their organism using comparative genomics. We teach this using Galaxy as many of the cohort are unfamiliar with the command-line, and we need a consistent, common interface that allows them to do real science, while minimising the intimidation and complexity of using multiple different tools.</p>
+                  <div><p>The <a href="https://www.strath.ac.uk/courses/undergraduate/microbiologybsc/">BM425 Advanced Microbiology module</a> at the <a href="https://www.strath.ac.uk/">University of Strathclyde</a> is a final-year course that aims to help students understand the genomic basis, molecular biology, structure and function of microbial systems and their interactions with the environment.</p>
 </div>
                 </div>
               </div>
@@ -320,7 +417,7 @@
      
       tags.push(`galaxy`)
      
-      tags.push(`Freiburg`)
+      tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
       counter++
@@ -354,8 +451,8 @@
                   <span class="date">
                     October 7, 2020
                   </span>
-                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
-                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
                   
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=galaxy'"
@@ -510,7 +607,7 @@
 
 
      
-      tags.push(`Freiburg`)
+      tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
       counter++
@@ -542,8 +639,8 @@
                   <span class="date">
                     September 23, 2020
                   </span>
-                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
-                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
                   
 
                 </div>
@@ -760,7 +857,7 @@ As last time, the Freiburg Galaxy Team is going to express its support more dire
      
       tags.push(`talk`)
      
-      tags.push(`Freiburg`)
+      tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
       counter++
@@ -792,8 +889,8 @@ As last time, the Freiburg Galaxy Team is going to express its support more dire
                   <span class="date">
                     September 10, 2020
                   </span>
-                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
-                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
                   
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=talk'"
@@ -961,7 +1058,7 @@ for our communities.</p>
      
       tags.push(`ELIXIR`)
      
-      tags.push(`Freiburg`)
+      tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
       counter++
@@ -993,8 +1090,8 @@ for our communities.</p>
                   <span class="date">
                     September 6, 2020
                   </span>
-                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
-                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
                   
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=de.NBI'"
@@ -1158,7 +1255,7 @@ our <a href="https://github.com/usegalaxy-eu/branding" target="_blank">branding 
      
       tags.push(`galaxy`)
      
-      tags.push(`Freiburg`)
+      tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
       counter++
@@ -1192,8 +1289,8 @@ our <a href="https://github.com/usegalaxy-eu/branding" target="_blank">branding 
                   <span class="date">
                     September 2, 2020
                   </span>
-                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
-                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
                   
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=galaxy'"
@@ -1288,7 +1385,7 @@ Many thanks to all the authors for the great effort!</p>
      
       tags.push(`paper`)
      
-      tags.push(`Freiburg`)
+      tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
       counter++
@@ -1322,8 +1419,8 @@ Many thanks to all the authors for the great effort!</p>
                   <span class="date">
                     August 31, 2020
                   </span>
-                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
-                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
                   
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=paper'"
@@ -1352,7 +1449,7 @@ Many thanks to all the authors for the great effort!</p>
      
       tags.push(`paper`)
      
-      tags.push(`Freiburg`)
+      tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
       counter++
@@ -1386,8 +1483,8 @@ Many thanks to all the authors for the great effort!</p>
                   <span class="date">
                     August 30, 2020
                   </span>
-                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
-                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
                   
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=paper'"
@@ -1481,7 +1578,7 @@ The malaria parasite replicates asexually in the red blood cells of its vertebra
      
       tags.push(`paper`)
      
-      tags.push(`Freiburg`)
+      tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
       counter++
@@ -1517,8 +1614,8 @@ The malaria parasite replicates asexually in the red blood cells of its vertebra
                   <span class="date">
                     August 27, 2020
                   </span>
-                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
-                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
                   
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=paper'"
@@ -1611,7 +1708,7 @@ This milestone is a good opportunity to look at what the library tells us about 
 
 
      
-      tags.push(`Freiburg`)
+      tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
       counter++
@@ -1643,8 +1740,8 @@ This milestone is a good opportunity to look at what the library tells us about 
                   <span class="date">
                     August 22, 2020
                   </span>
-                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
-                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
                   
 
                 </div>
@@ -1921,7 +2018,7 @@ the development of a service and data infrastructure designed to record and deli
      
       tags.push(`gcc`)
      
-      tags.push(`Freiburg`)
+      tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
       counter++
@@ -1955,8 +2052,8 @@ the development of a service and data infrastructure designed to record and deli
                   <span class="date">
                     July 30, 2020
                   </span>
-                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
-                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
                   
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=training'"
@@ -1977,70 +2074,6 @@ the development of a service and data infrastructure designed to record and deli
                 </div>
                 <div class="news-content">
                   <div><p>During the July virtual meet-up of the Bioinformatics Hub of Kenya (BHKi), a training on Galaxy was conducted by Peter van Heusden (<a href="https://www.sanbi.ac.za/">SANBI</a>) with 72 attendees registered from many different countries: Cote d’Ivoire, India, Kenya, Mali, Saudi Arabia, South Africa, Sudan, Tanzania, Uganda, …</p>
-</div>
-                </div>
-              </div>
-            </div>
-            ${counter === 3 ? '</div>' : ''}
-            `
-        if (counter === 3) {
-          counter = 0
-        }
-
-        news.append(div);
-    }
-    tags = []
-
-
-     
-      tags.push(`release`)
-     
-      tags.push(`Freiburg`)
-
-    if (!userTag ? true : tags.includes(userTag)) {
-      counter++
-
-      div = `
-            ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 release news ">
-              <div class="row" style="padding: 1em">
-                <div>
-                  
-                    <a href="/posts/2020/07/29/galaxy-20-05/plain.html">
-                  
-                    <h2 class="title">UseGalaxy.eu update to 20.05</h2>
-                  </a>
-                  <span class="date">
-                    
-
-
-
-
-
-
-
-	<i class="fa fa-bullhorn" aria-hidden="true"></i>
-
-
-
-
-
-                  </span>
-                  <span class="date">
-                    July 29, 2020
-                  </span>
-                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
-                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
-                  
-    
-        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=release'"
-           class="btn btn-primary btn-xs tag-element" role="button">release</a>
-    
-
-
-                </div>
-                <div class="news-content">
-                  <div><p>We’ve updated our Galaxy server to <strong>version 20.05</strong>. This version includes the <strong>migration to Python 3</strong> and improves usability in the aspects listed below.</p>
 </div>
                 </div>
               </div>
@@ -2181,7 +2214,7 @@ This event was supported by <a href="https://usegalaxy.eu/">Galaxy Europe</a> an
      
       tags.push(`tiaas`)
      
-      tags.push(`Freiburg`)
+      tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
       counter++
@@ -2215,8 +2248,8 @@ This event was supported by <a href="https://usegalaxy.eu/">Galaxy Europe</a> an
                   <span class="date">
                     July 25, 2020
                   </span>
-                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
-                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
                   
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=training'"
@@ -2695,7 +2728,7 @@ preprint ‘<a href="https://www.biorxiv.org/content/10.1101/2020.06.06.137570v3
      
       tags.push(`galaxy`)
      
-      tags.push(`Freiburg`)
+      tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
       counter++
@@ -2729,8 +2762,8 @@ preprint ‘<a href="https://www.biorxiv.org/content/10.1101/2020.06.06.137570v3
                   <span class="date">
                     July 1, 2020
                   </span>
-                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
-                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
                   
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=galaxy'"
@@ -2761,7 +2794,7 @@ preprint ‘<a href="https://www.biorxiv.org/content/10.1101/2020.06.06.137570v3
      
       tags.push(`training`)
      
-      tags.push(`Freiburg`)
+      tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
       counter++
@@ -2797,8 +2830,8 @@ preprint ‘<a href="https://www.biorxiv.org/content/10.1101/2020.06.06.137570v3
                   <span class="date">
                     July 1, 2020
                   </span>
-                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
-                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
                   
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=tools'"
@@ -3025,7 +3058,7 @@ Several modules of the popular image analysis tool <strong>CellProfiler</strong>
      
       tags.push(`galaxy`)
      
-      tags.push(`Freiburg`)
+      tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
       counter++
@@ -3059,8 +3092,8 @@ Several modules of the popular image analysis tool <strong>CellProfiler</strong>
                   <span class="date">
                     June 12, 2020
                   </span>
-                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
-                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
                   
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=galaxy'"
@@ -3091,7 +3124,7 @@ Several modules of the popular image analysis tool <strong>CellProfiler</strong>
      
       tags.push(`tiaas`)
      
-      tags.push(`Freiburg`)
+      tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
       counter++
@@ -3125,8 +3158,8 @@ Several modules of the popular image analysis tool <strong>CellProfiler</strong>
                   <span class="date">
                     June 8, 2020
                   </span>
-                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
-                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
                   
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=training'"
@@ -3483,7 +3516,7 @@ located at <a href="https://cheminformatics.usegalaxy.eu">https://cheminformatic
      
       tags.push(`galaxy`)
      
-      tags.push(`Freiburg`)
+      tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
       counter++
@@ -3517,8 +3550,8 @@ located at <a href="https://cheminformatics.usegalaxy.eu">https://cheminformatic
                   <span class="date">
                     May 14, 2020
                   </span>
-                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
-                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
                   
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=galaxy'"
@@ -3996,7 +4029,7 @@ The importance of proteogenomics studies is reflected in the field of cancer and
 
 
      
-      tags.push(`Freiburg`)
+      tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
       counter++
@@ -4030,8 +4063,8 @@ The importance of proteogenomics studies is reflected in the field of cancer and
                   <span class="date">
                     April 3, 2020
                   </span>
-                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
-                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
                   
 
                 </div>
@@ -4055,7 +4088,7 @@ The importance of proteogenomics studies is reflected in the field of cancer and
      
       tags.push(`training`)
      
-      tags.push(`Freiburg`)
+      tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
       counter++
@@ -4089,8 +4122,8 @@ The importance of proteogenomics studies is reflected in the field of cancer and
                   <span class="date">
                     April 2, 2020
                   </span>
-                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
-                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
                   
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=training'"
@@ -4778,7 +4811,7 @@ The second day started with an introduction to EOSC-Life and the tools roadmap, 
      
       tags.push(`denbi`)
      
-      tags.push(`Freiburg`)
+      tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
       counter++
@@ -4812,8 +4845,8 @@ The second day started with an introduction to EOSC-Life and the tools roadmap, 
                   <span class="date">
                     March 6, 2020
                   </span>
-                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
-                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
                   
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=training'"
@@ -4988,7 +5021,7 @@ research community can collaborate on developing effective countermeasures.</p>
      
       tags.push(`devops`)
      
-      tags.push(`Freiburg`)
+      tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
       counter++
@@ -5022,8 +5055,8 @@ research community can collaborate on developing effective countermeasures.</p>
                   <span class="date">
                     February 27, 2020
                   </span>
-                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
-                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
                   
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=devops'"
@@ -5445,7 +5478,7 @@ the progress made possible by the cloud infrastructure funded by the <em>ministe
      
       tags.push(`elixir`)
      
-      tags.push(`Freiburg`)
+      tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
       counter++
@@ -5479,8 +5512,8 @@ the progress made possible by the cloud infrastructure funded by the <em>ministe
                   <span class="date">
                     February 11, 2020
                   </span>
-                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
-                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
                   
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=galaxy'"
@@ -5496,7 +5529,7 @@ the progress made possible by the cloud infrastructure funded by the <em>ministe
                 </div>
                 <div class="news-content">
                   <div><p>ELIXIR has published a progress report about the ELIXIR Galaxy community in 2020!
-Thanks a lot to the entire Galaxy world-wide Galaxy community, without this all would not be possible!</p>
+Thanks a lot to the entire Galaxy worldwide Galaxy community, without this all would not be possible!</p>
 </div>
                 </div>
               </div>
@@ -5581,7 +5614,7 @@ Thanks a lot to the entire Galaxy world-wide Galaxy community, without this all 
      
       tags.push(`tiaas`)
      
-      tags.push(`Freiburg`)
+      tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
       counter++
@@ -5615,8 +5648,8 @@ Thanks a lot to the entire Galaxy world-wide Galaxy community, without this all 
                   <span class="date">
                     February 10, 2020
                   </span>
-                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
-                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
                   
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=training'"
@@ -6042,7 +6075,7 @@ the FAIR principles to software and tools.</p>
      
       tags.push(`training`)
      
-      tags.push(`Freiburg`)
+      tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
       counter++
@@ -6078,8 +6111,8 @@ the FAIR principles to software and tools.</p>
                   <span class="date">
                     January 29, 2020
                   </span>
-                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
-                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
                   
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=galaxy'"
@@ -6241,7 +6274,7 @@ the FAIR principles to software and tools.</p>
      
       tags.push(`tiaas`)
      
-      tags.push(`Freiburg`)
+      tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
       counter++
@@ -6275,8 +6308,8 @@ the FAIR principles to software and tools.</p>
                   <span class="date">
                     January 20, 2020
                   </span>
-                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
-                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
                   
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=training'"
@@ -6584,7 +6617,7 @@ analysis results and reports, through their
      
       tags.push(`galaxy`)
      
-      tags.push(`Freiburg`)
+      tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
       counter++
@@ -6618,8 +6651,8 @@ analysis results and reports, through their
                   <span class="date">
                     January 8, 2020
                   </span>
-                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
-                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
                   
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=galaxy'"
@@ -7315,7 +7348,7 @@ to the European Galaxy server. These reference datasets are obtained from <a hre
      
       tags.push(`tiaas`)
      
-      tags.push(`Freiburg`)
+      tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
       counter++
@@ -7349,8 +7382,8 @@ to the European Galaxy server. These reference datasets are obtained from <a hre
                   <span class="date">
                     December 3, 2019
                   </span>
-                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
-                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
                   
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=training'"
@@ -7384,7 +7417,7 @@ to the European Galaxy server. These reference datasets are obtained from <a hre
      
       tags.push(`devops`)
      
-      tags.push(`Freiburg`)
+      tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
       counter++
@@ -7397,7 +7430,7 @@ to the European Galaxy server. These reference datasets are obtained from <a hre
                   
                     <a href="/posts/2019/12/02/10000user/plain.html">
                   
-                    <h2 class="title">10,000 users, 6.370.000 jobs and 11.900.000 datasets</h2>
+                    <h2 class="title">10,000 users, 6,370,000 jobs and 11,900,000 datasets</h2>
                   </a>
                   <span class="date">
                     
@@ -7418,8 +7451,8 @@ to the European Galaxy server. These reference datasets are obtained from <a hre
                   <span class="date">
                     December 2, 2019
                   </span>
-                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
-                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
                   
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=devops'"
@@ -7450,7 +7483,7 @@ to the European Galaxy server. These reference datasets are obtained from <a hre
      
       tags.push(`tiaas`)
      
-      tags.push(`Freiburg`)
+      tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
       counter++
@@ -7484,8 +7517,8 @@ to the European Galaxy server. These reference datasets are obtained from <a hre
                   <span class="date">
                     December 1, 2019
                   </span>
-                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
-                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
                   
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=training'"
@@ -7918,7 +7951,7 @@ Galaxy Team is going to express its support more directly:</p>
      
       tags.push(`galaxy`)
      
-      tags.push(`Freiburg`)
+      tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
       counter++
@@ -7952,8 +7985,8 @@ Galaxy Team is going to express its support more directly:</p>
                   <span class="date">
                     November 16, 2019
                   </span>
-                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
-                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
                   
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=galaxy'"
@@ -8172,7 +8205,7 @@ Galaxy Team is going to express its support more directly:</p>
 
 
      
-      tags.push(`Freiburg`)
+      tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
       counter++
@@ -8204,8 +8237,8 @@ Galaxy Team is going to express its support more directly:</p>
                   <span class="date">
                     November 8, 2019
                   </span>
-                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
-                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
                   
 
                 </div>
@@ -8231,7 +8264,7 @@ Galaxy Team is going to express its support more directly:</p>
      
       tags.push(`tiaas`)
      
-      tags.push(`Freiburg`)
+      tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
       counter++
@@ -8265,8 +8298,8 @@ Galaxy Team is going to express its support more directly:</p>
                   <span class="date">
                     November 7, 2019
                   </span>
-                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
-                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
                   
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=training'"
@@ -8306,7 +8339,7 @@ on our HPC facilities so I had to find an alternative method for teaching.</p>
      
       tags.push(`tiaas`)
      
-      tags.push(`Freiburg`)
+      tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
       counter++
@@ -8340,8 +8373,8 @@ on our HPC facilities so I had to find an alternative method for teaching.</p>
                   <span class="date">
                     November 2, 2019
                   </span>
-                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
-                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
                   
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=training'"
@@ -8656,7 +8689,7 @@ If you get an error message of this kind:<br />
      
       tags.push(`tiaas`)
      
-      tags.push(`Freiburg`)
+      tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
       counter++
@@ -8690,8 +8723,8 @@ If you get an error message of this kind:<br />
                   <span class="date">
                     October 15, 2019
                   </span>
-                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
-                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
                   
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=training'"
@@ -8855,7 +8888,7 @@ This high-quality course was limited to 16 participants and gathered scientists 
      
       tags.push(`galaxy`)
      
-      tags.push(`Freiburg`)
+      tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
       counter++
@@ -8889,8 +8922,8 @@ This high-quality course was limited to 16 participants and gathered scientists 
                   <span class="date">
                     October 2, 2019
                   </span>
-                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
-                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
                   
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=galaxy'"
@@ -9263,7 +9296,7 @@ We will be joining the <a href="https://www.scientists4future.org">Scientists fo
                   
                     <a href="/posts/2019/09/17/8000users/plain.html">
                   
-                    <h2 class="title">8000 users, 6.000.000 jobs and 11.000.000 datasets</h2>
+                    <h2 class="title">8,000 users, 6,000,000 jobs and 11,000,000 datasets</h2>
                   </a>
                   <span class="date">
                     
@@ -9378,7 +9411,7 @@ We will be joining the <a href="https://www.scientists4future.org">Scientists fo
      
       tags.push(`tools`)
      
-      tags.push(`Freiburg`)
+      tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
       counter++
@@ -9412,8 +9445,8 @@ We will be joining the <a href="https://www.scientists4future.org">Scientists fo
                   <span class="date">
                     September 15, 2019
                   </span>
-                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
-                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
                   
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=tools'"
@@ -9571,7 +9604,7 @@ The Freiburg Galaxy team is an official EOSC member and are helping researchers 
      
       tags.push(`training`)
      
-      tags.push(`Freiburg`)
+      tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
       counter++
@@ -9605,8 +9638,8 @@ The Freiburg Galaxy team is an official EOSC member and are helping researchers 
                   <span class="date">
                     September 6, 2019
                   </span>
-                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
-                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
                   
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=training'"
@@ -9699,7 +9732,7 @@ The Freiburg Galaxy team is an official EOSC member and are helping researchers 
      
       tags.push(`galaxy`)
      
-      tags.push(`Freiburg`)
+      tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
       counter++
@@ -9733,8 +9766,8 @@ The Freiburg Galaxy team is an official EOSC member and are helping researchers 
                   <span class="date">
                     August 30, 2019
                   </span>
-                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
-                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
                   
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=galaxy'"
@@ -9763,7 +9796,7 @@ The Freiburg Galaxy team is an official EOSC member and are helping researchers 
      
       tags.push(`devops`)
      
-      tags.push(`Freiburg`)
+      tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
       counter++
@@ -9797,8 +9830,8 @@ The Freiburg Galaxy team is an official EOSC member and are helping researchers 
                   <span class="date">
                     August 28, 2019
                   </span>
-                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
-                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
                   
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=devops'"
@@ -10153,7 +10186,7 @@ biochemical reactions, subnetworks, and pathways.</p>
      
       tags.push(`gcc`)
      
-      tags.push(`Freiburg`)
+      tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
       counter++
@@ -10187,8 +10220,8 @@ biochemical reactions, subnetworks, and pathways.</p>
                   <span class="date">
                     August 6, 2019
                   </span>
-                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
-                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
                   
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=training'"
@@ -10427,7 +10460,7 @@ file uploaded by the user. This enables the usage of all the features of MaxQuan
      
       tags.push(`galaxy`)
      
-      tags.push(`Freiburg`)
+      tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
       counter++
@@ -10461,8 +10494,8 @@ file uploaded by the user. This enables the usage of all the features of MaxQuan
                   <span class="date">
                     August 1, 2019
                   </span>
-                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
-                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
                   
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=galaxy'"
@@ -10630,7 +10663,7 @@ file uploaded by the user. This enables the usage of all the features of MaxQuan
                   
                     <a href="/posts/2019/07/20/7000-users-10M-datasets/plain.html">
                   
-                    <h2 class="title">7000 users and 10.000.000 datasets</h2>
+                    <h2 class="title">7,000 users and 10,000,000 datasets</h2>
                   </a>
                   <span class="date">
                     
@@ -10873,7 +10906,7 @@ file uploaded by the user. This enables the usage of all the features of MaxQuan
      
       tags.push(`galaxy`)
      
-      tags.push(`Freiburg`)
+      tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
       counter++
@@ -10907,8 +10940,8 @@ file uploaded by the user. This enables the usage of all the features of MaxQuan
                   <span class="date">
                     July 1, 2019
                   </span>
-                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
-                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
                   
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=galaxy'"
@@ -11222,7 +11255,7 @@ workflow you built for your project.</p>
      
       tags.push(`devops`)
      
-      tags.push(`Freiburg`)
+      tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
       counter++
@@ -11256,8 +11289,8 @@ workflow you built for your project.</p>
                   <span class="date">
                     June 17, 2019
                   </span>
-                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
-                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
                   
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=devops'"
@@ -11350,7 +11383,7 @@ workflow you built for your project.</p>
      
       tags.push(`release`)
      
-      tags.push(`Freiburg`)
+      tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
       counter++
@@ -11384,8 +11417,8 @@ workflow you built for your project.</p>
                   <span class="date">
                     June 13, 2019
                   </span>
-                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
-                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
                   
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=release'"
@@ -11416,7 +11449,7 @@ workflow you built for your project.</p>
      
       tags.push(`tiaas`)
      
-      tags.push(`Freiburg`)
+      tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
       counter++
@@ -11450,8 +11483,8 @@ workflow you built for your project.</p>
                   <span class="date">
                     June 10, 2019
                   </span>
-                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
-                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
                   
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=training'"
@@ -11615,7 +11648,7 @@ offered an elective course Genomics. This year 7 students attended this course.<
      
       tags.push(`release`)
      
-      tags.push(`Freiburg`)
+      tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
       counter++
@@ -11649,8 +11682,8 @@ offered an elective course Genomics. This year 7 students attended this course.<
                   <span class="date">
                     June 6, 2019
                   </span>
-                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
-                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
                   
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=release'"
@@ -11679,7 +11712,7 @@ offered an elective course Genomics. This year 7 students attended this course.<
      
       tags.push(`galaxy`)
      
-      tags.push(`Freiburg`)
+      tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
       counter++
@@ -11713,8 +11746,8 @@ offered an elective course Genomics. This year 7 students attended this course.<
                   <span class="date">
                     June 1, 2019
                   </span>
-                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
-                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
                   
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=galaxy'"
@@ -11809,7 +11842,7 @@ offered an elective course Genomics. This year 7 students attended this course.<
      
       tags.push(`tiaas`)
      
-      tags.push(`Freiburg`)
+      tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
       counter++
@@ -11843,8 +11876,8 @@ offered an elective course Genomics. This year 7 students attended this course.<
                   <span class="date">
                     May 20, 2019
                   </span>
-                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
-                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
                   
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=training'"
@@ -12008,7 +12041,7 @@ We have 30 places. More information can be found in <a href="https://galaxyproje
      
       tags.push(`galaxy`)
      
-      tags.push(`Freiburg`)
+      tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
       counter++
@@ -12042,8 +12075,8 @@ We have 30 places. More information can be found in <a href="https://galaxyproje
                   <span class="date">
                     May 1, 2019
                   </span>
-                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
-                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
                   
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=galaxy'"
@@ -12136,7 +12169,7 @@ We have 30 places. More information can be found in <a href="https://galaxyproje
      
       tags.push(`training`)
      
-      tags.push(`Freiburg`)
+      tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
       counter++
@@ -12170,8 +12203,8 @@ We have 30 places. More information can be found in <a href="https://galaxyproje
                   <span class="date">
                     April 24, 2019
                   </span>
-                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
-                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
                   
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=training'"
@@ -12611,7 +12644,7 @@ If you are working in data-intensive life science, there is no better place to b
                   
                     <a href="/posts/2019/04/03/5k-users-5M-jobs/plain.html">
                   
-                    <h2 class="title">We passed the 5.000.000th jobs and 5.000 users!</h2>
+                    <h2 class="title">We passed the 5,000,000th job and 5,000 users!</h2>
                   </a>
                   <span class="date">
                     
@@ -12644,7 +12677,7 @@ If you are working in data-intensive life science, there is no better place to b
                 </div>
                 <div class="news-content">
                   <div><p>This week <a href="/freiburg/people">we</a> are celebrating 5 million jobs and 5 thousand users.
-Since we opened the Galaxy server to the public a year ago we got 4000 new users and every 2 minutes a job finishes.
+Since we opened the Galaxy server to the public a year ago we got 4,000 new users and every 2 minutes a job finishes.
 This would not be possible without the support of <a href="https://www.denbi.de/">de.NBI</a>, <a href="http://elixir-europe.org/">ELIXIR</a>,
 <a href="https://ec.europa.eu/research/openscience/index.cfm?pg=open-science-cloud">EOSC</a> and the Freiburg <a href="http://www.med.uni-freiburg.de">Faculty of Medicine</a>.</p>
 </div>
@@ -12665,7 +12698,7 @@ This would not be possible without the support of <a href="https://www.denbi.de/
      
       tags.push(`galaxy`)
      
-      tags.push(`Freiburg`)
+      tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
       counter++
@@ -12699,8 +12732,8 @@ This would not be possible without the support of <a href="https://www.denbi.de/
                   <span class="date">
                     April 1, 2019
                   </span>
-                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
-                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
                   
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=galaxy'"
@@ -12859,7 +12892,7 @@ convert mass spectrometry data file formats.</p>
      
       tags.push(`release`)
      
-      tags.push(`Freiburg`)
+      tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
       counter++
@@ -12893,8 +12926,8 @@ convert mass spectrometry data file formats.</p>
                   <span class="date">
                     March 19, 2019
                   </span>
-                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
-                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
                   
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=release'"
@@ -13124,7 +13157,7 @@ convert mass spectrometry data file formats.</p>
      
       tags.push(`galaxy`)
      
-      tags.push(`Freiburg`)
+      tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
       counter++
@@ -13158,8 +13191,8 @@ convert mass spectrometry data file formats.</p>
                   <span class="date">
                     March 5, 2019
                   </span>
-                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
-                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
                   
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=galaxy'"
@@ -13700,7 +13733,7 @@ The community proposed some topics and now <strong>you need to vote</strong> to 
      
       tags.push(`training`)
      
-      tags.push(`Freiburg`)
+      tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
       counter++
@@ -13734,8 +13767,8 @@ The community proposed some topics and now <strong>you need to vote</strong> to 
                   <span class="date">
                     January 25, 2019
                   </span>
-                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
-                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
                   
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=training'"
@@ -14184,7 +14217,7 @@ However, you can assign yourself to our <a href="https://goo.gl/forms/gDJuKXf3kl
                   
                     <a href="/posts/2019/01/08/new-compute-nodes/plain.html">
                   
-                    <h2 class="title">New hardware: 8x1TB memory nodes</h2>
+                    <h2 class="title">New hardware: 8 x 1 TB memory nodes</h2>
                   </a>
                   <span class="date">
                     
@@ -14306,7 +14339,7 @@ Enjoy!</p>
      
       tags.push(`devops`)
      
-      tags.push(`Freiburg`)
+      tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
       counter++
@@ -14340,8 +14373,8 @@ Enjoy!</p>
                   <span class="date">
                     December 25, 2018
                   </span>
-                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
-                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
                   
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=devops'"
@@ -14435,7 +14468,7 @@ Enjoy the holiday season with your family and see you all next year. Our dear fr
      
       tags.push(`release`)
      
-      tags.push(`Freiburg`)
+      tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
       counter++
@@ -14469,8 +14502,8 @@ Enjoy the holiday season with your family and see you all next year. Our dear fr
                   <span class="date">
                     December 11, 2018
                   </span>
-                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
-                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
                   
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=release'"
@@ -14546,7 +14579,7 @@ Enjoy the holiday season with your family and see you all next year. Our dear fr
 
                 </div>
                 <div class="news-content">
-                  <div><p>The 2019 Galaxy Community Conference (GCC2019) will be held in be held in Freiburg, Germany, 1-6 July. The training topics that are offered are determined by the community so <a href="https://docs.google.com/forms/d/1fBPjEmw7Td52rhBnC0SvflnQCD7Ue5IMJ9RkM0SjnYg/">BY YOU</a>!</p>
+                  <div><p>The 2019 Galaxy Community Conference (GCC2019) will be held in Freiburg, Germany, 1-6 July. The training topics that are offered are determined by the community so <a href="https://docs.google.com/forms/d/1fBPjEmw7Td52rhBnC0SvflnQCD7Ue5IMJ9RkM0SjnYg/">BY YOU</a>!</p>
 </div>
                 </div>
               </div>
@@ -14631,7 +14664,7 @@ Enjoy the holiday season with your family and see you all next year. Our dear fr
      
       tags.push(`training`)
      
-      tags.push(`Freiburg`)
+      tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
       counter++
@@ -14665,8 +14698,8 @@ Enjoy the holiday season with your family and see you all next year. Our dear fr
                   <span class="date">
                     November 26, 2018
                   </span>
-                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
-                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
                   
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=training'"
@@ -15022,7 +15055,7 @@ node’ is reaching End-of-Life and needs to be decomissioned.</p>
      
       tags.push(`tiaas`)
      
-      tags.push(`Freiburg`)
+      tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
       counter++
@@ -15056,8 +15089,8 @@ node’ is reaching End-of-Life and needs to be decomissioned.</p>
                   <span class="date">
                     October 31, 2018
                   </span>
-                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
-                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
                   
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=training'"
@@ -15502,7 +15535,7 @@ a new German article written by The Freiburg Galaxy Team about our service and o
      
       tags.push(`devops`)
      
-      tags.push(`Freiburg`)
+      tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
       counter++
@@ -15536,8 +15569,8 @@ a new German article written by The Freiburg Galaxy Team about our service and o
                   <span class="date">
                     October 8, 2018
                   </span>
-                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
-                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
                   
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=devops'"
@@ -16297,7 +16330,7 @@ was <a href="https://doi.org/10.1093/nar/gky504">published a few days ago</a>.</
      
       tags.push(`paper`)
      
-      tags.push(`Freiburg`)
+      tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
       counter++
@@ -16331,8 +16364,8 @@ was <a href="https://doi.org/10.1093/nar/gky504">published a few days ago</a>.</
                   <span class="date">
                     July 4, 2018
                   </span>
-                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
-                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
                   
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=paper'"
@@ -16640,7 +16673,7 @@ Great work, congratulations Carolin!</p>
      
       tags.push(`training`)
      
-      tags.push(`Freiburg`)
+      tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
       counter++
@@ -16674,8 +16707,8 @@ Great work, congratulations Carolin!</p>
                   <span class="date">
                     June 5, 2018
                   </span>
-                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
-                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
                   
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=training'"
@@ -16908,7 +16941,7 @@ made a mistake in the code which resulted in the <code class="language-plaintext
      
       tags.push(`release`)
      
-      tags.push(`Freiburg`)
+      tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
       counter++
@@ -16942,8 +16975,8 @@ made a mistake in the code which resulted in the <code class="language-plaintext
                   <span class="date">
                     May 25, 2018
                   </span>
-                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
-                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
                   
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=release'"
@@ -17483,7 +17516,7 @@ Participants are selected from the applicants. Apply <a href="https://drive.goog
      
       tags.push(`devops`)
      
-      tags.push(`Freiburg`)
+      tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
       counter++
@@ -17517,8 +17550,8 @@ Participants are selected from the applicants. Apply <a href="https://drive.goog
                   <span class="date">
                     March 15, 2018
                   </span>
-                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
-                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
                   
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=devops'"
