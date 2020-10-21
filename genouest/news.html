@@ -150,6 +150,103 @@
 
 
      
+      tags.push(`galaxy`)
+     
+      tags.push(`tiaas`)
+     
+      tags.push(`de.NBI`)
+     
+      tags.push(`ELIXIR`)
+     
+      tags.push(`EOSC`)
+     
+      tags.push(`unifreiburg`)
+     
+      tags.push(``)
+
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
+
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4 galaxytiaasde.NBIELIXIREOSCunifreiburg news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  
+                    <a href="/posts/2020/10/21/20000user/">
+                  
+                    <h2 class="title">20,000 users</h2>
+                  </a>
+                  <span class="date">
+                    
+
+
+
+
+
+
+
+
+
+
+
+                  </span>
+                  <span class="date">
+                    October 21, 2020
+                  </span>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
+                  
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=galaxy'"
+           class="btn btn-primary btn-xs tag-element" role="button">galaxy</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=tiaas'"
+           class="btn btn-primary btn-xs tag-element" role="button">tiaas</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=de.NBI'"
+           class="btn btn-primary btn-xs tag-element" role="button">de.NBI</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=ELIXIR'"
+           class="btn btn-primary btn-xs tag-element" role="button">ELIXIR</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=EOSC'"
+           class="btn btn-primary btn-xs tag-element" role="button">EOSC</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=unifreiburg'"
+           class="btn btn-primary btn-xs tag-element" role="button">unifreiburg</a>
+    
+
+
+                </div>
+                <div class="news-content">
+                  <div><p><a href="/people">We</a> have exciting news to share! The <a href="www.usegalaxy.eu">European Galaxy Server</a> surpassed the <strong>20,000 registered users</strong> last week!</p>
+</div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
+
+        news.append(div);
+    }
+    tags = []
+
+
+     
       tags.push(`training`)
      
       tags.push(`tiaas`)
