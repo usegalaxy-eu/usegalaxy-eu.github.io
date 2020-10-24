@@ -1,4 +1,92 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2020-10-24T08:08:31+02:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">New Paper on “NanoGalaxy: Nanopore long-read sequencing data analysis in Galaxy”</title><link href="https://galaxyproject.eu/posts/2020/10/23/paper-nanogalaxy/" rel="alternate" type="text/html" title="New Paper on “NanoGalaxy: Nanopore long-read sequencing data analysis in Galaxy”" /><published>2020-10-23T00:00:00+02:00</published><updated>2020-10-23T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2020/10/23/paper-nanogalaxy</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/10/23/paper-nanogalaxy/">&lt;p&gt;Long-read sequencing can be applied to generate very long contigs and even completely assembled genomes at relatively low cost and with minimal sample preparation. As a result, long-read sequencing platforms are becoming more popular.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2020-10-24T14:50:50+02:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2020-10-24</title><link href="https://galaxyproject.eu/posts/2020/10/24/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2020-10-24" /><published>2020-10-24T00:00:00+02:00</published><updated>2020-10-24T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2020/10/24/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/10/24/tool-update/">&lt;p&gt;On 2020-10-24, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#243/&quot;&gt;Jenkins Build #243&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;hca_sc_scmap_tools&quot;&gt;hca_sc_scmap_tools&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;scmap_index_cell was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scmap_index_cell/640982866dfe&quot;&gt;640982866dfe&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;hca_sc_scanpy_tools&quot;&gt;hca_sc_scanpy_tools&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;scanpy_find_markers was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_find_markers/f04dd4e5b6a7&quot;&gt;f04dd4e5b6a7&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_parameter_iterator was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_parameter_iterator/ae4debc68f4a&quot;&gt;ae4debc68f4a&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_plot_trajectory was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_plot_trajectory/4e666c43b6e3&quot;&gt;4e666c43b6e3&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;phylogenetics&quot;&gt;Phylogenetics&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;ete was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/earlhaminst/ete/b29ee6a16524&quot;&gt;b29ee6a16524&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;raxml was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/raxml/14eb2acf30e3&quot;&gt;14eb2acf30e3&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;raxml was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/raxml/73a469f7dc96&quot;&gt;73a469f7dc96&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;get-data&quot;&gt;Get Data&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;ensembl_get_feature_info was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/earlhaminst/ensembl_get_feature_info/234d7babf34b&quot;&gt;234d7babf34b&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;ensembl_get_feature_info was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/earlhaminst/ensembl_get_feature_info/d6bb417dc831&quot;&gt;d6bb417dc831&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;ensembl_get_genetree was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/earlhaminst/ensembl_get_genetree/0602dcf02768&quot;&gt;0602dcf02768&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;ensembl_get_genetree was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/earlhaminst/ensembl_get_genetree/0618e3bd5138&quot;&gt;0618e3bd5138&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;ensembl_get_sequences was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/earlhaminst/ensembl_get_sequences/3b686142e9c2&quot;&gt;3b686142e9c2&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;ensembl_get_sequences was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/earlhaminst/ensembl_get_sequences/7af66c2b3831&quot;&gt;7af66c2b3831&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;proteomics&quot;&gt;Proteomics&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;cardinal_mz_images was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/cardinal_mz_images/a95a82eb4d50&quot;&gt;a95a82eb4d50&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;cardinal_preprocessing was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/cardinal_preprocessing/e0669b1854b1&quot;&gt;e0669b1854b1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mt2mq was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/mt2mq/f8d02b61e531&quot;&gt;f8d02b61e531&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_openpepxl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_openpepxl/a2a842b00f9c&quot;&gt;a2a842b00f9c&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_percolatoradapter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_percolatoradapter/147aaac03456&quot;&gt;147aaac03456&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_percolatoradapter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_percolatoradapter/e7881a82b56d&quot;&gt;e7881a82b56d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_spectramerger was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_spectramerger/bf529c279902&quot;&gt;bf529c279902&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;hca_sc_seurat_tools&quot;&gt;hca_sc_seurat_tools&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;seurat_find_clusters was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/seurat_find_clusters/11a008daee84&quot;&gt;11a008daee84&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;rna-analysis&quot;&gt;RNA Analysis&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;rnaquast was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/rnaquast/33c060ec0ac9&quot;&gt;33c060ec0ac9&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;chemicaltoolbox&quot;&gt;ChemicalToolBox&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;openbabel_addh was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/openbabel_addh/f697d9601273&quot;&gt;f697d9601273&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openbabel_change_title was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/openbabel_change_title/2cd8aee0d830&quot;&gt;2cd8aee0d830&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openbabel_compound_convert was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/openbabel_compound_convert/1400d1977e7b&quot;&gt;1400d1977e7b&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openbabel_filter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/openbabel_filter/8ee975c49a3d&quot;&gt;8ee975c49a3d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openbabel_genprop was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/openbabel_genprop/417845394cdf&quot;&gt;417845394cdf&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openbabel_obgrep was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/openbabel_obgrep/2912ebf12ef2&quot;&gt;2912ebf12ef2&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openbabel_remduplicates was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/openbabel_remduplicates/12aca74f07d7&quot;&gt;12aca74f07d7&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openbabel_remions was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/openbabel_remions/3153b6f3087c&quot;&gt;3153b6f3087c&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openbabel_remove_protonation_state was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/openbabel_remove_protonation_state/b578d0c101cd&quot;&gt;b578d0c101cd&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openbabel_remsmall was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/openbabel_remsmall/e94b2920d4e4&quot;&gt;e94b2920d4e4&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openbabel_spectrophore_search was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/openbabel_spectrophore_search/9ce9f996b941&quot;&gt;9ce9f996b941&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openbabel_structure_distance_finder was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/openbabel_structure_distance_finder/49242402887b&quot;&gt;49242402887b&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openbabel_subsearch was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/openbabel_subsearch/bd678d7db2ae&quot;&gt;bd678d7db2ae&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openbabel_svg_depiction was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/openbabel_svg_depiction/a66827fc370d&quot;&gt;a66827fc370d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;prepare_ligands_for_docking was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/prepare_ligands_for_docking/a5f4b80e6769&quot;&gt;a5f4b80e6769&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;gmx_sim was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/gmx_sim/f197e34c33a9&quot;&gt;f197e34c33a9&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;gmx_solvate was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/gmx_solvate/e205c82e9959&quot;&gt;e205c82e9959&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;gmx_trj was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/gmx_trj/cdf93d057569&quot;&gt;cdf93d057569&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;apoc was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/earlhaminst/apoc/451f90534945&quot;&gt;451f90534945&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;rad-seq&quot;&gt;RAD-seq&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;stacks2_gstacks was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/stacks2_gstacks/1d839ead7ad3&quot;&gt;1d839ead7ad3&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;stacks2_shortreads was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/stacks2_shortreads/43e3eeb2e0ec&quot;&gt;43e3eeb2e0ec&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2020-10-24, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #243</summary></entry><entry><title type="html">New Paper on “NanoGalaxy: Nanopore long-read sequencing data analysis in Galaxy”</title><link href="https://galaxyproject.eu/posts/2020/10/23/paper-nanogalaxy/" rel="alternate" type="text/html" title="New Paper on “NanoGalaxy: Nanopore long-read sequencing data analysis in Galaxy”" /><published>2020-10-23T00:00:00+02:00</published><updated>2020-10-23T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2020/10/23/paper-nanogalaxy</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/10/23/paper-nanogalaxy/">&lt;p&gt;Long-read sequencing can be applied to generate very long contigs and even completely assembled genomes at relatively low cost and with minimal sample preparation. As a result, long-read sequencing platforms are becoming more popular.&lt;/p&gt;
 
 &lt;p&gt;In this respect, the Oxford Nanopore Technologies–based long-read sequencing “nanopore” platform is becoming a widely used tool with a broad range of applications and end-users. However, the need to explore and manipulate the complex data generated by long-read sequencing platforms necessitates accompanying specialized bioinformatics platforms and tools to process the long-read data correctly. Importantly, such tools should additionally help democratize bioinformatics analysis by enabling easy access and ease-of-use solutions for researchers.&lt;/p&gt;
 
@@ -676,4 +764,4 @@ The reproducible and training-oriented Galaxy framework provides a sustainable h
   &lt;li&gt;data_manager_primer_scheme_bedfiles was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/data_manager_primer_scheme_bedfiles/b3710e492ee4&quot;&gt;b3710e492ee4&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;data_manager_primer_scheme_bedfiles was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/data_manager_primer_scheme_bedfiles/cce5d9327cd6&quot;&gt;cce5d9327cd6&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;data_manager_salmon_index_builder was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/data_manager_salmon_index_builder/57274fe5e01a&quot;&gt;57274fe5e01a&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2020-10-10, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #238</summary></entry><entry><title type="html">The Community Against Covid-19</title><link href="https://galaxyproject.eu/posts/2020/10/08/news-DRS/" rel="alternate" type="text/html" title="The Community Against Covid-19" /><published>2020-10-08T00:00:00+02:00</published><updated>2020-10-08T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2020/10/08/news-DRS</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/10/08/news-DRS/">&lt;p&gt;The Freiburg Galaxy team has been interviewed recently regarding the research on the SARS-CoV-2 genome. Read the whole piece of news &lt;a href=&quot;https://www.pr.uni-freiburg.de/pm-en/online-magazine/research-and-discover/the-community-against-covid-19&quot;&gt;here&lt;/a&gt;!&lt;/p&gt;</content><author><name></name></author><category term="paper" /><category term="press" /><summary type="html">The Freiburg Galaxy team has been interviewed recently regarding the research on the SARS-CoV-2 genome. Read the whole piece of news here!</summary></entry><entry><title type="html">October Galactic News!</title><link href="https://galaxyproject.eu/posts/2020/10/07/galactic-news/" rel="alternate" type="text/html" title="October Galactic News!" /><published>2020-10-07T00:00:00+02:00</published><updated>2020-10-07T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2020/10/07/galactic-news</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/10/07/galactic-news/">&lt;p&gt;The &lt;a href=&quot;https://galaxyproject.org/news/2020-10-galaxy-update/&quot;&gt;October 2020 Galactic News&lt;/a&gt; is out! Get ready for the (many) events that are coming, check out the platforms, blog posts, new tutorials, open positions, and many more!&lt;/p&gt;</content><author><name></name></author><category term="galaxy" /><summary type="html">The October 2020 Galactic News is out! Get ready for the (many) events that are coming, check out the platforms, blog posts, new tutorials, open positions, and many more!</summary></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2020-10-10, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #238</summary></entry><entry><title type="html">The Community Against Covid-19</title><link href="https://galaxyproject.eu/posts/2020/10/08/news-DRS/" rel="alternate" type="text/html" title="The Community Against Covid-19" /><published>2020-10-08T00:00:00+02:00</published><updated>2020-10-08T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2020/10/08/news-DRS</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/10/08/news-DRS/">&lt;p&gt;The Freiburg Galaxy team has been interviewed recently regarding the research on the SARS-CoV-2 genome. Read the whole piece of news &lt;a href=&quot;https://www.pr.uni-freiburg.de/pm-en/online-magazine/research-and-discover/the-community-against-covid-19&quot;&gt;here&lt;/a&gt;!&lt;/p&gt;</content><author><name></name></author><category term="paper" /><category term="press" /><summary type="html">The Freiburg Galaxy team has been interviewed recently regarding the research on the SARS-CoV-2 genome. Read the whole piece of news here!</summary></entry></feed>
