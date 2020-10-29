@@ -150,6 +150,75 @@
 
 
      
+      tags.push(`galaxy`)
+     
+      tags.push(`paper-cuts`)
+     
+      tags.push(``)
+
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
+
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4 galaxypaper-cuts news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  
+                    <a href="/posts/2020/10/29/first-papercuts/">
+                  
+                    <h2 class="title">The first Paper Cuts Community Fest was a success!</h2>
+                  </a>
+                  <span class="date">
+                    
+
+
+
+
+
+
+
+
+
+
+
+                  </span>
+                  <span class="date">
+                    October 29, 2020
+                  </span>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
+                  
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=galaxy'"
+           class="btn btn-primary btn-xs tag-element" role="button">galaxy</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=paper-cuts'"
+           class="btn btn-primary btn-xs tag-element" role="button">paper-cuts</a>
+    
+
+
+                </div>
+                <div class="news-content">
+                  <div><p>Last week we had the first Paper Cuts Community Collaboration fest. We got the engagement not only of the usual contributors but also newcomers that wanted to help to fix small bugs in Galaxy.</p>
+</div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
+
+        news.append(div);
+    }
+    tags = []
+
+
+     
       tags.push(`bioconda`)
      
       tags.push(``)
