@@ -48,6 +48,70 @@
 
 
      
+      tags.push(`galaxy`)
+     
+      tags.push(``)
+
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
+
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4 galaxy news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  
+                    <a href="https://galaxyproject.org/news/2020-11-galaxy-update/">
+                  
+                    <h2 class="title">November Galactic News!</h2>
+                  </a>
+                  <span class="date">
+                    
+	<i class="fa fa-external-link" aria-hidden="true"></i>
+
+
+
+
+
+
+
+
+
+
+
+
+                  </span>
+                  <span class="date">
+                    November 3, 2020
+                  </span>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
+                  
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=galaxy'"
+           class="btn btn-primary btn-xs tag-element" role="button">galaxy</a>
+    
+
+
+                </div>
+                <div class="news-content">
+                  <div><p>The <a href="https://galaxyproject.org/news/2020-11-galaxy-update/">November 2020 Galactic News</a> is out! This month’s topics include: JXTX: The James P. Taylor Foundation for Open Science, more than 20 upcoming events, 5 Galaxy platform news, 1 blog post, 4 training material and doc updates, 6 highlighted publications, 8 new openings in Europe and the US, release of the Galaxy Language Server and other news!</p>
+</div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
+
+        news.append(div);
+    }
+    tags = []
+
+
+     
       tags.push(`tools`)
      
       tags.push(`Freiburg`)
