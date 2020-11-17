@@ -143,6 +143,148 @@
 
 
      
+      tags.push(`devops`)
+     
+      tags.push(`hardware`)
+     
+      tags.push(`Freiburg`)
+
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
+
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4 devopshardware news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  
+                    <a href="/posts/2020/11/17/new-compute-nodes/">
+                  
+                    <h2 class="title">New hardware: More storage and GPUs</h2>
+                  </a>
+                  <span class="date">
+                    
+
+
+
+
+
+
+	<i class="fa fa-gear" aria-hidden="true"></i>
+
+
+
+
+
+
+                  </span>
+                  <span class="date">
+                    November 17, 2020
+                  </span>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
+                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=devops'"
+           class="btn btn-primary btn-xs tag-element" role="button">devops</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=hardware'"
+           class="btn btn-primary btn-xs tag-element" role="button">hardware</a>
+    
+
+
+                </div>
+                <div class="news-content">
+                  <div><p>The <strong><a href="https://www.denbi.de/cloud">de.NBI-Cloud</a> has extended the support to the European Galaxy Server</strong> by providing new computational infrastructure.</p>
+</div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
+
+        news.append(div);
+    }
+    tags = []
+
+
+     
+      tags.push(`training`)
+     
+      tags.push(`hackathon`)
+     
+      tags.push(``)
+
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
+
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4 traininghackathon news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  
+                    <a href="/posts/2020/11/16/biohackathon/">
+                  
+                    <h2 class="title">Biohackathon Europe 2020</h2>
+                  </a>
+                  <span class="date">
+                    
+
+
+
+	<i class="fa fa-graduation-cap" aria-hidden="true"></i>
+
+
+
+
+
+
+
+
+
+                  </span>
+                  <span class="date">
+                    November 16, 2020
+                  </span>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
+                  
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=training'"
+           class="btn btn-primary btn-xs tag-element" role="button">training</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=hackathon'"
+           class="btn btn-primary btn-xs tag-element" role="button">hackathon</a>
+    
+
+
+                </div>
+                <div class="news-content">
+                  <div><p>Last week we had the <a href="https://www.biohackathon-europe.org/"><strong>BioHackathon Europe 2020</strong></a> - online for the first time and with participants from all over the world and the Galaxy community has participated in several <a href="https://www.biohackathon-europe.org/projects.html">projects</a>:</p>
+</div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
+
+        news.append(div);
+    }
+    tags = []
+
+
+     
       tags.push(`tools`)
      
       tags.push(`Freiburg`)
@@ -273,6 +415,8 @@
      
       tags.push(`galaxy`)
      
+      tags.push(`newsletter`)
+     
       tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
@@ -280,7 +424,7 @@
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 galaxy news ">
+            <div class="col-md-4 galaxynewsletter news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -313,6 +457,11 @@
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=galaxy'"
            class="btn btn-primary btn-xs tag-element" role="button">galaxy</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=newsletter'"
+           class="btn btn-primary btn-xs tag-element" role="button">newsletter</a>
     
 
 
@@ -401,7 +550,7 @@
      
       tags.push(`galaxy`)
      
-      tags.push(`paper-cuts`)
+      tags.push(`papercuts`)
      
       tags.push(``)
 
@@ -410,7 +559,7 @@
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 galaxypaper-cuts news ">
+            <div class="col-md-4 galaxypapercuts news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -444,8 +593,8 @@
     
 
     
-        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=paper-cuts'"
-           class="btn btn-primary btn-xs tag-element" role="button">paper-cuts</a>
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=papercuts'"
+           class="btn btn-primary btn-xs tag-element" role="button">papercuts</a>
     
 
 
@@ -547,7 +696,7 @@
                   
                     <a href="/posts/2020/10/23/paper-nanogalaxy/">
                   
-                    <h2 class="title">New Paper on &quot;NanoGalaxy: Nanopore long-read sequencing data analysis in Galaxy&quot;</h2>
+                    <h2 class="title">New Paper &quot;NanoGalaxy: Nanopore long-read sequencing data analysis in Galaxy&quot;</h2>
                   </a>
                   <span class="date">
                     
@@ -670,7 +819,7 @@ The vast ecosystem of single-cell RNA-sequencing tools has until recently been p
 
 
      
-      tags.push(`bioconda`)
+      tags.push(`Bioconda`)
      
       tags.push(``)
 
@@ -679,7 +828,7 @@ The vast ecosystem of single-cell RNA-sequencing tools has until recently been p
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 bioconda news ">
+            <div class="col-md-4 Bioconda news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -708,8 +857,8 @@ The vast ecosystem of single-cell RNA-sequencing tools has until recently been p
                   class="btn btn-success btn-xs tag-element" role="button"></a>
                   
     
-        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=bioconda'"
-           class="btn btn-primary btn-xs tag-element" role="button">bioconda</a>
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Bioconda'"
+           class="btn btn-primary btn-xs tag-element" role="button">Bioconda</a>
     
 
 
@@ -732,7 +881,7 @@ The vast ecosystem of single-cell RNA-sequencing tools has until recently been p
 
 
      
-      tags.push(`eosc`)
+      tags.push(`newsletter`)
      
       tags.push(``)
 
@@ -741,7 +890,7 @@ The vast ecosystem of single-cell RNA-sequencing tools has until recently been p
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 eosc news ">
+            <div class="col-md-4 newsletter news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -770,8 +919,8 @@ The vast ecosystem of single-cell RNA-sequencing tools has until recently been p
                   class="btn btn-success btn-xs tag-element" role="button"></a>
                   
     
-        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=eosc'"
-           class="btn btn-primary btn-xs tag-element" role="button">eosc</a>
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=newsletter'"
+           class="btn btn-primary btn-xs tag-element" role="button">newsletter</a>
     
 
 
@@ -796,15 +945,7 @@ The vast ecosystem of single-cell RNA-sequencing tools has until recently been p
      
       tags.push(`galaxy`)
      
-      tags.push(`tiaas`)
-     
-      tags.push(`de.NBI`)
-     
-      tags.push(`ELIXIR`)
-     
-      tags.push(`EOSC`)
-     
-      tags.push(`unifreiburg`)
+      tags.push(`TIaaS`)
      
       tags.push(``)
 
@@ -813,7 +954,7 @@ The vast ecosystem of single-cell RNA-sequencing tools has until recently been p
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 galaxytiaasde.NBIELIXIREOSCunifreiburg news ">
+            <div class="col-md-4 galaxyTIaaS news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -847,28 +988,8 @@ The vast ecosystem of single-cell RNA-sequencing tools has until recently been p
     
 
     
-        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=tiaas'"
-           class="btn btn-primary btn-xs tag-element" role="button">tiaas</a>
-    
-
-    
-        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=de.NBI'"
-           class="btn btn-primary btn-xs tag-element" role="button">de.NBI</a>
-    
-
-    
-        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=ELIXIR'"
-           class="btn btn-primary btn-xs tag-element" role="button">ELIXIR</a>
-    
-
-    
-        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=EOSC'"
-           class="btn btn-primary btn-xs tag-element" role="button">EOSC</a>
-    
-
-    
-        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=unifreiburg'"
-           class="btn btn-primary btn-xs tag-element" role="button">unifreiburg</a>
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=TIaaS'"
+           class="btn btn-primary btn-xs tag-element" role="button">TIaaS</a>
     
 
 
@@ -957,7 +1078,7 @@ The vast ecosystem of single-cell RNA-sequencing tools has until recently been p
      
       tags.push(`training`)
      
-      tags.push(`tiaas`)
+      tags.push(`TIaaS`)
      
       tags.push(``)
 
@@ -966,7 +1087,7 @@ The vast ecosystem of single-cell RNA-sequencing tools has until recently been p
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 trainingtiaas news ">
+            <div class="col-md-4 trainingTIaaS news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -1002,8 +1123,8 @@ The vast ecosystem of single-cell RNA-sequencing tools has until recently been p
     
 
     
-        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=tiaas'"
-           class="btn btn-primary btn-xs tag-element" role="button">tiaas</a>
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=TIaaS'"
+           class="btn btn-primary btn-xs tag-element" role="button">TIaaS</a>
     
 
 
@@ -1090,9 +1211,11 @@ The vast ecosystem of single-cell RNA-sequencing tools has until recently been p
 
 
      
-      tags.push(`paper`)
-     
       tags.push(`press`)
+     
+      tags.push(`data`)
+     
+      tags.push(`COVID-19`)
      
       tags.push(`Freiburg`)
 
@@ -1101,21 +1224,19 @@ The vast ecosystem of single-cell RNA-sequencing tools has until recently been p
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 paperpress news ">
+            <div class="col-md-4 pressdataCOVID-19 news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
                     <a href="/posts/2020/10/08/news-DRS/">
                   
-                    <h2 class="title">The Community Against Covid-19</h2>
+                    <h2 class="title">The Community Against COVID-19</h2>
                   </a>
                   <span class="date">
                     
 
 
 
-
-	<i class="fa fa-file-text" aria-hidden="true"></i>
 
 
 
@@ -1132,13 +1253,18 @@ The vast ecosystem of single-cell RNA-sequencing tools has until recently been p
                   class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
                   
     
-        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=paper'"
-           class="btn btn-primary btn-xs tag-element" role="button">paper</a>
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=press'"
+           class="btn btn-primary btn-xs tag-element" role="button">press</a>
     
 
     
-        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=press'"
-           class="btn btn-primary btn-xs tag-element" role="button">press</a>
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=data'"
+           class="btn btn-primary btn-xs tag-element" role="button">data</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=COVID-19'"
+           class="btn btn-primary btn-xs tag-element" role="button">COVID-19</a>
     
 
 
@@ -1163,6 +1289,8 @@ The vast ecosystem of single-cell RNA-sequencing tools has until recently been p
      
       tags.push(`galaxy`)
      
+      tags.push(`newsletter`)
+     
       tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
@@ -1170,7 +1298,7 @@ The vast ecosystem of single-cell RNA-sequencing tools has until recently been p
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 galaxy news ">
+            <div class="col-md-4 galaxynewsletter news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -1203,6 +1331,11 @@ The vast ecosystem of single-cell RNA-sequencing tools has until recently been p
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=galaxy'"
            class="btn btn-primary btn-xs tag-element" role="button">galaxy</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=newsletter'"
+           class="btn btn-primary btn-xs tag-element" role="button">newsletter</a>
     
 
 
@@ -1353,6 +1486,8 @@ The vast ecosystem of single-cell RNA-sequencing tools has until recently been p
 
 
      
+      tags.push(`grants`)
+     
       tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
@@ -1360,7 +1495,7 @@ The vast ecosystem of single-cell RNA-sequencing tools has until recently been p
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4  news ">
+            <div class="col-md-4 grants news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -1388,6 +1523,11 @@ The vast ecosystem of single-cell RNA-sequencing tools has until recently been p
                   <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
                   class="btn btn-success btn-xs tag-element" role="button"></a>
                   
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=grants'"
+           class="btn btn-primary btn-xs tag-element" role="button">grants</a>
+    
+
 
                 </div>
                 <div class="news-content">
@@ -1410,6 +1550,10 @@ The vast ecosystem of single-cell RNA-sequencing tools has until recently been p
      
       tags.push(`training`)
      
+      tags.push(`TIaaS`)
+     
+      tags.push(`COVID-19`)
+     
       tags.push(`Freiburg`)
 
     if (!userTag ? true : tags.includes(userTag)) {
@@ -1417,7 +1561,7 @@ The vast ecosystem of single-cell RNA-sequencing tools has until recently been p
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 training news ">
+            <div class="col-md-4 trainingTIaaSCOVID-19 news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -1450,6 +1594,16 @@ The vast ecosystem of single-cell RNA-sequencing tools has until recently been p
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=training'"
            class="btn btn-primary btn-xs tag-element" role="button">training</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=TIaaS'"
+           class="btn btn-primary btn-xs tag-element" role="button">TIaaS</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=COVID-19'"
+           class="btn btn-primary btn-xs tag-element" role="button">COVID-19</a>
     
 
 
@@ -1538,6 +1692,8 @@ The vast ecosystem of single-cell RNA-sequencing tools has until recently been p
      
       tags.push(`s4f`)
      
+      tags.push(`society`)
+     
       tags.push(`Freiburg`)
 
     if (!userTag ? true : tags.includes(userTag)) {
@@ -1545,7 +1701,7 @@ The vast ecosystem of single-cell RNA-sequencing tools has until recently been p
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 s4f news ">
+            <div class="col-md-4 s4fsociety news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -1580,6 +1736,11 @@ The vast ecosystem of single-cell RNA-sequencing tools has until recently been p
            class="btn btn-primary btn-xs tag-element" role="button">s4f</a>
     
 
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=society'"
+           class="btn btn-primary btn-xs tag-element" role="button">society</a>
+    
+
 
                 </div>
                 <div class="news-content">
@@ -1603,6 +1764,8 @@ As last time, the Freiburg Galaxy Team is going to express its support more dire
      
       tags.push(`talk`)
      
+      tags.push(`COVID-19`)
+     
       tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
@@ -1610,7 +1773,7 @@ As last time, the Freiburg Galaxy Team is going to express its support more dire
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 talk news ">
+            <div class="col-md-4 talkCOVID-19 news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -1641,6 +1804,11 @@ As last time, the Freiburg Galaxy Team is going to express its support more dire
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=talk'"
            class="btn btn-primary btn-xs tag-element" role="button">talk</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=COVID-19'"
+           class="btn btn-primary btn-xs tag-element" role="button">COVID-19</a>
     
 
 
@@ -1800,9 +1968,7 @@ for our communities.</p>
 
 
      
-      tags.push(`de.NBI`)
-     
-      tags.push(`ELIXIR`)
+      tags.push(`galaxy`)
      
       tags.push(``)
 
@@ -1811,7 +1977,7 @@ for our communities.</p>
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 de.NBIELIXIR news ">
+            <div class="col-md-4 galaxy news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -1840,13 +2006,8 @@ for our communities.</p>
                   class="btn btn-success btn-xs tag-element" role="button"></a>
                   
     
-        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=de.NBI'"
-           class="btn btn-primary btn-xs tag-element" role="button">de.NBI</a>
-    
-
-    
-        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=ELIXIR'"
-           class="btn btn-primary btn-xs tag-element" role="button">ELIXIR</a>
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=galaxy'"
+           class="btn btn-primary btn-xs tag-element" role="button">galaxy</a>
     
 
 
@@ -1937,6 +2098,8 @@ our <a href="https://github.com/usegalaxy-eu/branding" target="_blank">branding 
      
       tags.push(`galaxy`)
      
+      tags.push(`newsletter`)
+     
       tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
@@ -1944,7 +2107,7 @@ our <a href="https://github.com/usegalaxy-eu/branding" target="_blank">branding 
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 galaxy news ">
+            <div class="col-md-4 galaxynewsletter news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -1979,6 +2142,11 @@ our <a href="https://github.com/usegalaxy-eu/branding" target="_blank">branding 
            class="btn btn-primary btn-xs tag-element" role="button">galaxy</a>
     
 
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=newsletter'"
+           class="btn btn-primary btn-xs tag-element" role="button">newsletter</a>
+    
+
 
                 </div>
                 <div class="news-content">
@@ -2001,6 +2169,10 @@ our <a href="https://github.com/usegalaxy-eu/branding" target="_blank">branding 
      
       tags.push(`paper`)
      
+      tags.push(`COVID-19`)
+     
+      tags.push(`data`)
+     
       tags.push(`Freiburg`)
 
     if (!userTag ? true : tags.includes(userTag)) {
@@ -2008,13 +2180,13 @@ our <a href="https://github.com/usegalaxy-eu/branding" target="_blank">branding 
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 paper news ">
+            <div class="col-md-4 paperCOVID-19data news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
                     <a href="/posts/2020/09/02/paper-covid-open-data/">
                   
-                    <h2 class="title">New Paper on &quot;No more business as usual: Agile and effective responses to emerging pathogen threats require open data and open analytics&quot;</h2>
+                    <h2 class="title">New Paper &quot;No more business as usual: Agile and effective responses to emerging pathogen threats require open data and open analytics&quot;</h2>
                   </a>
                   <span class="date">
                     
@@ -2041,6 +2213,16 @@ our <a href="https://github.com/usegalaxy-eu/branding" target="_blank">branding 
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=paper'"
            class="btn btn-primary btn-xs tag-element" role="button">paper</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=COVID-19'"
+           class="btn btn-primary btn-xs tag-element" role="button">COVID-19</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=data'"
+           class="btn btn-primary btn-xs tag-element" role="button">data</a>
     
 
 
@@ -2078,7 +2260,7 @@ our <a href="https://github.com/usegalaxy-eu/branding" target="_blank">branding 
                   
                     <a href="/posts/2020/09/01/paper-pyGenomeTracks/">
                   
-                    <h2 class="title">New Paper on &quot;pyGenomeTracks: reproducible plots for multivariate genomic data sets&quot;</h2>
+                    <h2 class="title">New Paper &quot;pyGenomeTracks: reproducible plots for multivariate genomic data sets&quot;</h2>
                   </a>
                   <span class="date">
                     
@@ -2131,6 +2313,8 @@ Many thanks to all the authors for the great effort!</p>
      
       tags.push(`paper`)
      
+      tags.push(`citations`)
+     
       tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
@@ -2138,13 +2322,13 @@ Many thanks to all the authors for the great effort!</p>
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 paper news ">
+            <div class="col-md-4 papercitations news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
                     <a href="/posts/2020/08/31/paper-parasites/">
                   
-                    <h2 class="title">New Paper on &quot;Sawfly Genomes Reveal Evolutionary Acquisitions That Fostered the Mega-Radiation of Parasitoid and Eusocial Hymenoptera&quot;</h2>
+                    <h2 class="title">New Paper &quot;Sawfly Genomes Reveal Evolutionary Acquisitions That Fostered the Mega-Radiation of Parasitoid and Eusocial Hymenoptera&quot;</h2>
                   </a>
                   <span class="date">
                     
@@ -2173,6 +2357,11 @@ Many thanks to all the authors for the great effort!</p>
            class="btn btn-primary btn-xs tag-element" role="button">paper</a>
     
 
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=citations'"
+           class="btn btn-primary btn-xs tag-element" role="button">citations</a>
+    
+
 
                 </div>
                 <div class="news-content">
@@ -2195,6 +2384,8 @@ Many thanks to all the authors for the great effort!</p>
      
       tags.push(`paper`)
      
+      tags.push(`citations`)
+     
       tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
@@ -2202,13 +2393,13 @@ Many thanks to all the authors for the great effort!</p>
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 paper news ">
+            <div class="col-md-4 papercitations news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
                     <a href="/posts/2020/08/30/paper-malaria/">
                   
-                    <h2 class="title">New Paper on &quot;An epigenetic map of malaria parasite development from host to vector&quot;</h2>
+                    <h2 class="title">New Paper &quot;An epigenetic map of malaria parasite development from host to vector&quot;</h2>
                   </a>
                   <span class="date">
                     
@@ -2235,6 +2426,11 @@ Many thanks to all the authors for the great effort!</p>
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=paper'"
            class="btn btn-primary btn-xs tag-element" role="button">paper</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=citations'"
+           class="btn btn-primary btn-xs tag-element" role="button">citations</a>
     
 
 
@@ -2322,7 +2518,7 @@ The malaria parasite replicates asexually in the red blood cells of its vertebra
 
 
      
-      tags.push(`paper`)
+      tags.push(`citations`)
      
       tags.push(``)
 
@@ -2331,7 +2527,7 @@ The malaria parasite replicates asexually in the red blood cells of its vertebra
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 paper news ">
+            <div class="col-md-4 citations news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -2346,8 +2542,6 @@ The malaria parasite replicates asexually in the red blood cells of its vertebra
 
 
 
-
-	<i class="fa fa-file-text" aria-hidden="true"></i>
 
 
 
@@ -2364,8 +2558,8 @@ The malaria parasite replicates asexually in the red blood cells of its vertebra
                   class="btn btn-success btn-xs tag-element" role="button"></a>
                   
     
-        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=paper'"
-           class="btn btn-primary btn-xs tag-element" role="button">paper</a>
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=citations'"
+           class="btn btn-primary btn-xs tag-element" role="button">citations</a>
     
 
 
@@ -2390,6 +2584,8 @@ This milestone is a good opportunity to look at what the library tells us about 
 
 
      
+      tags.push(`data`)
+     
       tags.push(`Freiburg`)
 
     if (!userTag ? true : tags.includes(userTag)) {
@@ -2397,7 +2593,7 @@ This milestone is a good opportunity to look at what the library tells us about 
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4  news ">
+            <div class="col-md-4 data news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -2425,6 +2621,11 @@ This milestone is a good opportunity to look at what the library tells us about 
                   <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
                   class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
                   
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=data'"
+           class="btn btn-primary btn-xs tag-element" role="button">data</a>
+    
+
 
                 </div>
                 <div class="news-content">
@@ -2446,6 +2647,14 @@ the development of a service and data infrastructure designed to record and deli
 
 
      
+      tags.push(`galaxy`)
+     
+      tags.push(`conda-forge`)
+     
+      tags.push(`bioconda`)
+     
+      tags.push(`training`)
+     
       tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
@@ -2453,7 +2662,7 @@ the development of a service and data infrastructure designed to record and deli
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4  news ">
+            <div class="col-md-4 galaxyconda-forgebiocondatraining news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -2465,6 +2674,8 @@ the development of a service and data infrastructure designed to record and deli
                     
 
 
+
+	<i class="fa fa-graduation-cap" aria-hidden="true"></i>
 
 
 
@@ -2481,6 +2692,26 @@ the development of a service and data infrastructure designed to record and deli
                   <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
                   class="btn btn-success btn-xs tag-element" role="button"></a>
                   
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=galaxy'"
+           class="btn btn-primary btn-xs tag-element" role="button">galaxy</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=conda-forge'"
+           class="btn btn-primary btn-xs tag-element" role="button">conda-forge</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=bioconda'"
+           class="btn btn-primary btn-xs tag-element" role="button">bioconda</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=training'"
+           class="btn btn-primary btn-xs tag-element" role="button">training</a>
+    
+
 
                 </div>
                 <div class="news-content">
@@ -2760,9 +2991,9 @@ For this purpose, we will follow David’s steps to add the very generic UNIX <c
      
       tags.push(`training`)
      
-      tags.push(`tiaas`)
+      tags.push(`TIaaS`)
      
-      tags.push(`gcc`)
+      tags.push(`GCC`)
      
       tags.push(``)
 
@@ -2771,7 +3002,7 @@ For this purpose, we will follow David’s steps to add the very generic UNIX <c
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 trainingtiaasgcc news ">
+            <div class="col-md-4 trainingTIaaSGCC news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -2807,13 +3038,13 @@ For this purpose, we will follow David’s steps to add the very generic UNIX <c
     
 
     
-        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=tiaas'"
-           class="btn btn-primary btn-xs tag-element" role="button">tiaas</a>
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=TIaaS'"
+           class="btn btn-primary btn-xs tag-element" role="button">TIaaS</a>
     
 
     
-        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=gcc'"
-           class="btn btn-primary btn-xs tag-element" role="button">gcc</a>
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=GCC'"
+           class="btn btn-primary btn-xs tag-element" role="button">GCC</a>
     
 
 
@@ -2900,6 +3131,8 @@ For this purpose, we will follow David’s steps to add the very generic UNIX <c
 
 
      
+      tags.push(`GCC`)
+     
       tags.push(`Freiburg`)
 
     if (!userTag ? true : tags.includes(userTag)) {
@@ -2907,7 +3140,7 @@ For this purpose, we will follow David’s steps to add the very generic UNIX <c
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4  news ">
+            <div class="col-md-4 GCC news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -2935,6 +3168,11 @@ For this purpose, we will follow David’s steps to add the very generic UNIX <c
                   <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
                   class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
                   
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=GCC'"
+           class="btn btn-primary btn-xs tag-element" role="button">GCC</a>
+    
+
 
                 </div>
                 <div class="news-content">
@@ -2958,7 +3196,7 @@ This event was supported by <a href="https://usegalaxy.eu/">Galaxy Europe</a> an
      
       tags.push(`training`)
      
-      tags.push(`tiaas`)
+      tags.push(`TIaaS`)
      
       tags.push(``)
 
@@ -2967,7 +3205,7 @@ This event was supported by <a href="https://usegalaxy.eu/">Galaxy Europe</a> an
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 trainingtiaas news ">
+            <div class="col-md-4 trainingTIaaS news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -3003,8 +3241,8 @@ This event was supported by <a href="https://usegalaxy.eu/">Galaxy Europe</a> an
     
 
     
-        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=tiaas'"
-           class="btn btn-primary btn-xs tag-element" role="button">tiaas</a>
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=TIaaS'"
+           class="btn btn-primary btn-xs tag-element" role="button">TIaaS</a>
     
 
 
@@ -3092,6 +3330,8 @@ This event was supported by <a href="https://usegalaxy.eu/">Galaxy Europe</a> an
 
 
      
+      tags.push(`GCC`)
+     
       tags.push(`Freiburg`)
 
     if (!userTag ? true : tags.includes(userTag)) {
@@ -3099,7 +3339,7 @@ This event was supported by <a href="https://usegalaxy.eu/">Galaxy Europe</a> an
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4  news ">
+            <div class="col-md-4 GCC news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -3127,6 +3367,11 @@ This event was supported by <a href="https://usegalaxy.eu/">Galaxy Europe</a> an
                   <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
                   class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
                   
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=GCC'"
+           class="btn btn-primary btn-xs tag-element" role="button">GCC</a>
+    
+
 
                 </div>
                 <div class="news-content">
@@ -3213,6 +3458,10 @@ This event was supported by <a href="https://usegalaxy.eu/">Galaxy Europe</a> an
      
       tags.push(`paper`)
      
+      tags.push(`COVID-19`)
+     
+      tags.push(`data`)
+     
       tags.push(`Freiburg`)
 
     if (!userTag ? true : tags.includes(userTag)) {
@@ -3220,7 +3469,7 @@ This event was supported by <a href="https://usegalaxy.eu/">Galaxy Europe</a> an
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 paper news ">
+            <div class="col-md-4 paperCOVID-19data news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -3253,6 +3502,16 @@ This event was supported by <a href="https://usegalaxy.eu/">Galaxy Europe</a> an
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=paper'"
            class="btn btn-primary btn-xs tag-element" role="button">paper</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=COVID-19'"
+           class="btn btn-primary btn-xs tag-element" role="button">COVID-19</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=data'"
+           class="btn btn-primary btn-xs tag-element" role="button">data</a>
     
 
 
@@ -3612,6 +3871,8 @@ Several modules of the popular image analysis tool <strong>CellProfiler</strong>
      
       tags.push(`galaxy`)
      
+      tags.push(`newsletter`)
+     
       tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
@@ -3619,7 +3880,7 @@ Several modules of the popular image analysis tool <strong>CellProfiler</strong>
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 galaxy news ">
+            <div class="col-md-4 galaxynewsletter news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -3652,6 +3913,11 @@ Several modules of the popular image analysis tool <strong>CellProfiler</strong>
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=galaxy'"
            class="btn btn-primary btn-xs tag-element" role="button">galaxy</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=newsletter'"
+           class="btn btn-primary btn-xs tag-element" role="button">newsletter</a>
     
 
 
@@ -3868,6 +4134,8 @@ Several modules of the popular image analysis tool <strong>CellProfiler</strong>
      
       tags.push(`galaxy`)
      
+      tags.push(`newsletter`)
+     
       tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
@@ -3875,7 +4143,7 @@ Several modules of the popular image analysis tool <strong>CellProfiler</strong>
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 galaxy news ">
+            <div class="col-md-4 galaxynewsletter news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -3910,6 +4178,11 @@ Several modules of the popular image analysis tool <strong>CellProfiler</strong>
            class="btn btn-primary btn-xs tag-element" role="button">galaxy</a>
     
 
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=newsletter'"
+           class="btn btn-primary btn-xs tag-element" role="button">newsletter</a>
+    
+
 
                 </div>
                 <div class="news-content">
@@ -3932,7 +4205,7 @@ Several modules of the popular image analysis tool <strong>CellProfiler</strong>
      
       tags.push(`training`)
      
-      tags.push(`tiaas`)
+      tags.push(`TIaaS`)
      
       tags.push(``)
 
@@ -3941,7 +4214,7 @@ Several modules of the popular image analysis tool <strong>CellProfiler</strong>
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 trainingtiaas news ">
+            <div class="col-md-4 trainingTIaaS news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -3977,8 +4250,8 @@ Several modules of the popular image analysis tool <strong>CellProfiler</strong>
     
 
     
-        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=tiaas'"
-           class="btn btn-primary btn-xs tag-element" role="button">tiaas</a>
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=TIaaS'"
+           class="btn btn-primary btn-xs tag-element" role="button">TIaaS</a>
     
 
 
@@ -4326,6 +4599,8 @@ located at <a href="https://cheminformatics.usegalaxy.eu">https://cheminformatic
      
       tags.push(`galaxy`)
      
+      tags.push(`newsletter`)
+     
       tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
@@ -4333,7 +4608,7 @@ located at <a href="https://cheminformatics.usegalaxy.eu">https://cheminformatic
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 galaxy news ">
+            <div class="col-md-4 galaxynewsletter news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -4366,6 +4641,11 @@ located at <a href="https://cheminformatics.usegalaxy.eu">https://cheminformatic
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=galaxy'"
            class="btn btn-primary btn-xs tag-element" role="button">galaxy</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=newsletter'"
+           class="btn btn-primary btn-xs tag-element" role="button">newsletter</a>
     
 
 
@@ -4648,6 +4928,8 @@ The importance of proteogenomics studies is reflected in the field of cancer and
      
       tags.push(`tools`)
      
+      tags.push(`poster`)
+     
       tags.push(`Freiburg`)
 
     if (!userTag ? true : tags.includes(userTag)) {
@@ -4655,7 +4937,7 @@ The importance of proteogenomics studies is reflected in the field of cancer and
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 tools news ">
+            <div class="col-md-4 toolsposter news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -4688,6 +4970,11 @@ The importance of proteogenomics studies is reflected in the field of cancer and
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=tools'"
            class="btn btn-primary btn-xs tag-element" role="button">tools</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=poster'"
+           class="btn btn-primary btn-xs tag-element" role="button">poster</a>
     
 
 
@@ -5091,11 +5378,9 @@ The second day started with an introduction to EOSC-Life and the tools roadmap, 
 
 
      
-      tags.push(`de.NBI`)
+      tags.push(`COVID-19`)
      
-      tags.push(`ELIXIR`)
-     
-      tags.push(`eosc`)
+      tags.push(`data`)
      
       tags.push(`Freiburg`)
 
@@ -5104,7 +5389,7 @@ The second day started with an introduction to EOSC-Life and the tools roadmap, 
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 de.NBIELIXIReosc news ">
+            <div class="col-md-4 COVID-19data news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -5135,18 +5420,13 @@ The second day started with an introduction to EOSC-Life and the tools roadmap, 
                   class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
                   
     
-        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=de.NBI'"
-           class="btn btn-primary btn-xs tag-element" role="button">de.NBI</a>
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=COVID-19'"
+           class="btn btn-primary btn-xs tag-element" role="button">COVID-19</a>
     
 
     
-        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=ELIXIR'"
-           class="btn btn-primary btn-xs tag-element" role="button">ELIXIR</a>
-    
-
-    
-        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=eosc'"
-           class="btn btn-primary btn-xs tag-element" role="button">eosc</a>
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=data'"
+           class="btn btn-primary btn-xs tag-element" role="button">data</a>
     
 
 
@@ -5235,6 +5515,8 @@ The second day started with an introduction to EOSC-Life and the tools roadmap, 
      
       tags.push(`hackathon`)
      
+      tags.push(`COVID-19`)
+     
       tags.push(`Freiburg`)
 
     if (!userTag ? true : tags.includes(userTag)) {
@@ -5242,7 +5524,7 @@ The second day started with an introduction to EOSC-Life and the tools roadmap, 
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 hackathon news ">
+            <div class="col-md-4 hackathonCOVID-19 news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -5275,10 +5557,15 @@ The second day started with an introduction to EOSC-Life and the tools roadmap, 
            class="btn btn-primary btn-xs tag-element" role="button">hackathon</a>
     
 
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=COVID-19'"
+           class="btn btn-primary btn-xs tag-element" role="button">COVID-19</a>
+    
+
 
                 </div>
                 <div class="news-content">
-                  <div><p>We want to encourage you to participate and join the fight against Covid-19.</p>
+                  <div><p>We want to encourage you to participate and join the fight against COVID-19.</p>
 </div>
                 </div>
               </div>
@@ -5361,6 +5648,8 @@ The second day started with an introduction to EOSC-Life and the tools roadmap, 
      
       tags.push(`tools`)
      
+      tags.push(`COVID-19`)
+     
       tags.push(`Freiburg`)
 
     if (!userTag ? true : tags.includes(userTag)) {
@@ -5368,7 +5657,7 @@ The second day started with an introduction to EOSC-Life and the tools roadmap, 
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 tools news ">
+            <div class="col-md-4 toolsCOVID-19 news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -5401,6 +5690,11 @@ The second day started with an introduction to EOSC-Life and the tools roadmap, 
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=tools'"
            class="btn btn-primary btn-xs tag-element" role="button">tools</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=COVID-19'"
+           class="btn btn-primary btn-xs tag-element" role="button">COVID-19</a>
     
 
 
@@ -5617,9 +5911,7 @@ The second day started with an introduction to EOSC-Life and the tools roadmap, 
      
       tags.push(`training`)
      
-      tags.push(`tiaas`)
-     
-      tags.push(`denbi`)
+      tags.push(`TIaaS`)
      
       tags.push(``)
 
@@ -5628,7 +5920,7 @@ The second day started with an introduction to EOSC-Life and the tools roadmap, 
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 trainingtiaasdenbi news ">
+            <div class="col-md-4 trainingTIaaS news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -5664,13 +5956,8 @@ The second day started with an introduction to EOSC-Life and the tools roadmap, 
     
 
     
-        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=tiaas'"
-           class="btn btn-primary btn-xs tag-element" role="button">tiaas</a>
-    
-
-    
-        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=denbi'"
-           class="btn btn-primary btn-xs tag-element" role="button">denbi</a>
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=TIaaS'"
+           class="btn btn-primary btn-xs tag-element" role="button">TIaaS</a>
     
 
 
@@ -5892,9 +6179,7 @@ The second day started with an introduction to EOSC-Life and the tools roadmap, 
 
 
      
-      tags.push(`de.NBI`)
-     
-      tags.push(`ELIXIR`)
+      tags.push(`COVID-19`)
      
       tags.push(`Freiburg`)
 
@@ -5903,7 +6188,7 @@ The second day started with an introduction to EOSC-Life and the tools roadmap, 
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 de.NBIELIXIR news ">
+            <div class="col-md-4 COVID-19 news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -5934,13 +6219,8 @@ The second day started with an introduction to EOSC-Life and the tools roadmap, 
                   class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
                   
     
-        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=de.NBI'"
-           class="btn btn-primary btn-xs tag-element" role="button">de.NBI</a>
-    
-
-    
-        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=ELIXIR'"
-           class="btn btn-primary btn-xs tag-element" role="button">ELIXIR</a>
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=COVID-19'"
+           class="btn btn-primary btn-xs tag-element" role="button">COVID-19</a>
     
 
 
@@ -6029,9 +6309,9 @@ Todas Helena added two new features to get a general information about the TIaaS
 
 
      
-      tags.push(`de.NBI`)
+      tags.push(`COVID-19`)
      
-      tags.push(`ELIXIR`)
+      tags.push(`data`)
      
       tags.push(`Freiburg`)
 
@@ -6040,7 +6320,7 @@ Todas Helena added two new features to get a general information about the TIaaS
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 de.NBIELIXIR news ">
+            <div class="col-md-4 COVID-19data news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -6071,13 +6351,13 @@ Todas Helena added two new features to get a general information about the TIaaS
                   class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
                   
     
-        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=de.NBI'"
-           class="btn btn-primary btn-xs tag-element" role="button">de.NBI</a>
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=COVID-19'"
+           class="btn btn-primary btn-xs tag-element" role="button">COVID-19</a>
     
 
     
-        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=ELIXIR'"
-           class="btn btn-primary btn-xs tag-element" role="button">ELIXIR</a>
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=data'"
+           class="btn btn-primary btn-xs tag-element" role="button">data</a>
     
 
 
@@ -6100,7 +6380,9 @@ Todas Helena added two new features to get a general information about the TIaaS
 
 
      
-      tags.push(`de.NBI`)
+      tags.push(`society`)
+     
+      tags.push(`data`)
      
       tags.push(`Freiburg`)
 
@@ -6109,7 +6391,7 @@ Todas Helena added two new features to get a general information about the TIaaS
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 de.NBI news ">
+            <div class="col-md-4 societydata news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -6140,8 +6422,13 @@ Todas Helena added two new features to get a general information about the TIaaS
                   class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
                   
     
-        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=de.NBI'"
-           class="btn btn-primary btn-xs tag-element" role="button">de.NBI</a>
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=society'"
+           class="btn btn-primary btn-xs tag-element" role="button">society</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=data'"
+           class="btn btn-primary btn-xs tag-element" role="button">data</a>
     
 
 
@@ -6228,7 +6515,7 @@ Todas Helena added two new features to get a general information about the TIaaS
 
 
      
-      tags.push(`de.NBI`)
+      tags.push(`hardware`)
      
       tags.push(`Freiburg`)
 
@@ -6237,7 +6524,7 @@ Todas Helena added two new features to get a general information about the TIaaS
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 de.NBI news ">
+            <div class="col-md-4 hardware news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -6268,8 +6555,8 @@ Todas Helena added two new features to get a general information about the TIaaS
                   class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
                   
     
-        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=de.NBI'"
-           class="btn btn-primary btn-xs tag-element" role="button">de.NBI</a>
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=hardware'"
+           class="btn btn-primary btn-xs tag-element" role="button">hardware</a>
     
 
 
@@ -6359,6 +6646,8 @@ the progress made possible by the cloud infrastructure funded by the <em>ministe
      
       tags.push(`report`)
      
+      tags.push(`data`)
+     
       tags.push(`Freiburg`)
 
     if (!userTag ? true : tags.includes(userTag)) {
@@ -6366,7 +6655,7 @@ the progress made possible by the cloud infrastructure funded by the <em>ministe
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 report news ">
+            <div class="col-md-4 reportdata news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -6399,6 +6688,11 @@ the progress made possible by the cloud infrastructure funded by the <em>ministe
            class="btn btn-primary btn-xs tag-element" role="button">report</a>
     
 
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=data'"
+           class="btn btn-primary btn-xs tag-element" role="button">data</a>
+    
+
 
                 </div>
                 <div class="news-content">
@@ -6421,6 +6715,8 @@ the progress made possible by the cloud infrastructure funded by the <em>ministe
      
       tags.push(`paper`)
      
+      tags.push(`citations`)
+     
       tags.push(`Freiburg`)
 
     if (!userTag ? true : tags.includes(userTag)) {
@@ -6428,13 +6724,13 @@ the progress made possible by the cloud infrastructure funded by the <em>ministe
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 paper news ">
+            <div class="col-md-4 papercitations news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
                     <a href="/posts/2020/02/11/AchimLother-Paper/">
                   
-                    <h2 class="title">New Paper on &quot;Gene expression in immortalized versus primary isolated cardiac endothelial cells&quot;</h2>
+                    <h2 class="title">New Paper &quot;Gene expression in immortalized versus primary isolated cardiac endothelial cells&quot;</h2>
                   </a>
                   <span class="date">
                     
@@ -6463,6 +6759,11 @@ the progress made possible by the cloud infrastructure funded by the <em>ministe
            class="btn btn-primary btn-xs tag-element" role="button">paper</a>
     
 
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=citations'"
+           class="btn btn-primary btn-xs tag-element" role="button">citations</a>
+    
+
 
                 </div>
                 <div class="news-content">
@@ -6485,7 +6786,7 @@ the progress made possible by the cloud infrastructure funded by the <em>ministe
      
       tags.push(`galaxy`)
      
-      tags.push(`elixir`)
+      tags.push(`report`)
      
       tags.push(``)
 
@@ -6494,7 +6795,7 @@ the progress made possible by the cloud infrastructure funded by the <em>ministe
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 galaxyelixir news ">
+            <div class="col-md-4 galaxyreport news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -6530,8 +6831,8 @@ the progress made possible by the cloud infrastructure funded by the <em>ministe
     
 
     
-        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=elixir'"
-           class="btn btn-primary btn-xs tag-element" role="button">elixir</a>
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=report'"
+           class="btn btn-primary btn-xs tag-element" role="button">report</a>
     
 
 
@@ -6557,7 +6858,7 @@ Thanks a lot to the entire Galaxy worldwide Galaxy community, without this all w
      
       tags.push(`training`)
      
-      tags.push(`tiaas`)
+      tags.push(`TIaaS`)
      
       tags.push(``)
 
@@ -6566,7 +6867,7 @@ Thanks a lot to the entire Galaxy worldwide Galaxy community, without this all w
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 trainingtiaas news ">
+            <div class="col-md-4 trainingTIaaS news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -6602,8 +6903,8 @@ Thanks a lot to the entire Galaxy worldwide Galaxy community, without this all w
     
 
     
-        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=tiaas'"
-           class="btn btn-primary btn-xs tag-element" role="button">tiaas</a>
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=TIaaS'"
+           class="btn btn-primary btn-xs tag-element" role="button">TIaaS</a>
     
 
 
@@ -6632,6 +6933,10 @@ can get from the raw reads to the heart of the biological processes.</p>
      
       tags.push(`tools`)
      
+      tags.push(`hackathon`)
+     
+      tags.push(`data`)
+     
       tags.push(`Freiburg`)
 
     if (!userTag ? true : tags.includes(userTag)) {
@@ -6639,7 +6944,7 @@ can get from the raw reads to the heart of the biological processes.</p>
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 tools news ">
+            <div class="col-md-4 toolshackathondata news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -6672,6 +6977,16 @@ can get from the raw reads to the heart of the biological processes.</p>
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=tools'"
            class="btn btn-primary btn-xs tag-element" role="button">tools</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=hackathon'"
+           class="btn btn-primary btn-xs tag-element" role="button">hackathon</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=data'"
+           class="btn btn-primary btn-xs tag-element" role="button">data</a>
     
 
 
@@ -6760,6 +7075,8 @@ to make image data from the <a href="https://idr.openmicroscopy.org/">Image Data
 
 
      
+      tags.push(`data`)
+     
       tags.push(`Freiburg`)
 
     if (!userTag ? true : tags.includes(userTag)) {
@@ -6767,7 +7084,7 @@ to make image data from the <a href="https://idr.openmicroscopy.org/">Image Data
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4  news ">
+            <div class="col-md-4 data news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -6795,6 +7112,11 @@ to make image data from the <a href="https://idr.openmicroscopy.org/">Image Data
                   <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
                   class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
                   
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=data'"
+           class="btn btn-primary btn-xs tag-element" role="button">data</a>
+    
+
 
                 </div>
                 <div class="news-content">
@@ -7217,7 +7539,7 @@ the FAIR principles to software and tools.</p>
      
       tags.push(`training`)
      
-      tags.push(`tiaas`)
+      tags.push(`TIaaS`)
      
       tags.push(``)
 
@@ -7226,7 +7548,7 @@ the FAIR principles to software and tools.</p>
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 trainingtiaas news ">
+            <div class="col-md-4 trainingTIaaS news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -7262,8 +7584,8 @@ the FAIR principles to software and tools.</p>
     
 
     
-        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=tiaas'"
-           class="btn btn-primary btn-xs tag-element" role="button">tiaas</a>
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=TIaaS'"
+           class="btn btn-primary btn-xs tag-element" role="button">TIaaS</a>
     
 
 
@@ -7352,9 +7674,9 @@ the FAIR principles to software and tools.</p>
      
       tags.push(`training`)
      
-      tags.push(`pgp`)
+      tags.push(`PGP`)
      
-      tags.push(`open-data`)
+      tags.push(`data`)
      
       tags.push(`Freiburg`)
 
@@ -7363,7 +7685,7 @@ the FAIR principles to software and tools.</p>
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 trainingpgpopen-data news ">
+            <div class="col-md-4 trainingPGPdata news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -7399,13 +7721,13 @@ the FAIR principles to software and tools.</p>
     
 
     
-        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=pgp'"
-           class="btn btn-primary btn-xs tag-element" role="button">pgp</a>
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=PGP'"
+           class="btn btn-primary btn-xs tag-element" role="button">PGP</a>
     
 
     
-        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=open-data'"
-           class="btn btn-primary btn-xs tag-element" role="button">open-data</a>
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=data'"
+           class="btn btn-primary btn-xs tag-element" role="button">data</a>
     
 
 
@@ -7498,6 +7820,8 @@ analysis results and reports, through their
      
       tags.push(`galaxy`)
      
+      tags.push(`newsletter`)
+     
       tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
@@ -7505,7 +7829,7 @@ analysis results and reports, through their
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 galaxy news ">
+            <div class="col-md-4 galaxynewsletter news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -7538,6 +7862,11 @@ analysis results and reports, through their
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=galaxy'"
            class="btn btn-primary btn-xs tag-element" role="button">galaxy</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=newsletter'"
+           class="btn btn-primary btn-xs tag-element" role="button">newsletter</a>
     
 
 
@@ -7575,7 +7904,7 @@ analysis results and reports, through their
                   
                     <a href="/posts/2020/01/08/paper-metaproteomics-software/">
                   
-                    <h2 class="title">Survey of metaproteomics software tools for functional microbiome analysis</h2>
+                    <h2 class="title">New Paper &quot;Survey of metaproteomics software tools for functional microbiome analysis&quot;</h2>
                   </a>
                   <span class="date">
                     
@@ -7607,7 +7936,7 @@ analysis results and reports, through their
 
                 </div>
                 <div class="news-content">
-                  <div><p>Our metaproteomics and microbiomics communities are constantly growing. This article on bioRxiv may be interesting for many of you: <a href="https://www.biorxiv.org/content/10.1101/2020.01.07.897561v1">“Survey of metaproteomics software tools for functional microbiome analysis”</a>. The authors compare six open software tools for microbiome analysis, including Unipept 4.0 and eggNOG-mapper, which are already installed in the European Galaxy framework.</p>
+                  <div><p>Our metaproteomics and microbiomics communities are constantly growing. This article on bioRxiv may be interesting for many of you: <a href="https://www.biorxiv.org/content/10.1101/2020.01.07.897561v1">“Survey of metaproteomics software tools for functional microbiome analysis”</a>. The authors compare six open software tools for microbiome analysis, including Unipept 4.0 and eggNOG-mapper, which are already installed in the European Galaxy server.</p>
 </div>
                 </div>
               </div>
@@ -7626,9 +7955,11 @@ analysis results and reports, through their
      
       tags.push(`galaxy`)
      
-      tags.push(`mmos`)
+      tags.push(`MMOS`)
      
       tags.push(`devops`)
+     
+      tags.push(`society`)
      
       tags.push(`Freiburg`)
 
@@ -7637,13 +7968,13 @@ analysis results and reports, through their
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 galaxymmosdevops news ">
+            <div class="col-md-4 galaxyMMOSdevopssociety news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
                     <a href="/posts/2020/01/07/mmos/">
                   
-                    <h2 class="title">Massively Multiplayer Online Science in Galaxy to help Ecologists - a citizen science project.</h2>
+                    <h2 class="title">Massively Multiplayer Online Science in Galaxy to help Ecologists - A Citizen Science Project</h2>
                   </a>
                   <span class="date">
                     
@@ -7673,13 +8004,18 @@ analysis results and reports, through their
     
 
     
-        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=mmos'"
-           class="btn btn-primary btn-xs tag-element" role="button">mmos</a>
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=MMOS'"
+           class="btn btn-primary btn-xs tag-element" role="button">MMOS</a>
     
 
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=devops'"
            class="btn btn-primary btn-xs tag-element" role="button">devops</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=society'"
+           class="btn btn-primary btn-xs tag-element" role="button">society</a>
     
 
 
@@ -7705,7 +8041,7 @@ Webhooks are powering the so much-loved XKCD or PhD comics that you see when you
 
 
      
-      tags.push(`paper`)
+      tags.push(`article`)
      
       tags.push(`Freiburg`)
 
@@ -7714,7 +8050,7 @@ Webhooks are powering the so much-loved XKCD or PhD comics that you see when you
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 paper news ">
+            <div class="col-md-4 article news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -7727,8 +8063,6 @@ Webhooks are powering the so much-loved XKCD or PhD comics that you see when you
 
 
 
-
-	<i class="fa fa-file-text" aria-hidden="true"></i>
 
 
 
@@ -7745,8 +8079,8 @@ Webhooks are powering the so much-loved XKCD or PhD comics that you see when you
                   class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
                   
     
-        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=paper'"
-           class="btn btn-primary btn-xs tag-element" role="button">paper</a>
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=article'"
+           class="btn btn-primary btn-xs tag-element" role="button">article</a>
     
 
 
@@ -7771,6 +8105,8 @@ Webhooks are powering the so much-loved XKCD or PhD comics that you see when you
      
       tags.push(`tools`)
      
+      tags.push(`data`)
+     
       tags.push(`Freiburg`)
 
     if (!userTag ? true : tags.includes(userTag)) {
@@ -7778,7 +8114,7 @@ Webhooks are powering the so much-loved XKCD or PhD comics that you see when you
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 tools news ">
+            <div class="col-md-4 toolsdata news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -7811,6 +8147,11 @@ Webhooks are powering the so much-loved XKCD or PhD comics that you see when you
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=tools'"
            class="btn btn-primary btn-xs tag-element" role="button">tools</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=data'"
+           class="btn btn-primary btn-xs tag-element" role="button">data</a>
     
 
 
@@ -8092,7 +8433,7 @@ to the European Galaxy server. These reference datasets are obtained from <a hre
      
       tags.push(`training`)
      
-      tags.push(`tiaas`)
+      tags.push(`TIaaS`)
      
       tags.push(`Freiburg`)
 
@@ -8101,7 +8442,7 @@ to the European Galaxy server. These reference datasets are obtained from <a hre
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 trainingtiaas news ">
+            <div class="col-md-4 trainingTIaaS news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -8137,8 +8478,8 @@ to the European Galaxy server. These reference datasets are obtained from <a hre
     
 
     
-        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=tiaas'"
-           class="btn btn-primary btn-xs tag-element" role="button">tiaas</a>
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=TIaaS'"
+           class="btn btn-primary btn-xs tag-element" role="button">TIaaS</a>
     
 
 
@@ -8163,14 +8504,16 @@ to the European Galaxy server. These reference datasets are obtained from <a hre
      
       tags.push(`galaxy`)
      
-      tags.push(`Freiburg`)
+      tags.push(`newsletter`)
+     
+      tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
       counter++
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 galaxy news ">
+            <div class="col-md-4 galaxynewsletter news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -8197,12 +8540,17 @@ to the European Galaxy server. These reference datasets are obtained from <a hre
                   <span class="date">
                     December 9, 2019
                   </span>
-                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
-                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
                   
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=galaxy'"
            class="btn btn-primary btn-xs tag-element" role="button">galaxy</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=newsletter'"
+           class="btn btn-primary btn-xs tag-element" role="button">newsletter</a>
     
 
 
@@ -8291,7 +8639,7 @@ to the European Galaxy server. These reference datasets are obtained from <a hre
      
       tags.push(`training`)
      
-      tags.push(`tiaas`)
+      tags.push(`TIaaS`)
      
       tags.push(``)
 
@@ -8300,7 +8648,7 @@ to the European Galaxy server. These reference datasets are obtained from <a hre
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 trainingtiaas news ">
+            <div class="col-md-4 trainingTIaaS news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -8336,8 +8684,8 @@ to the European Galaxy server. These reference datasets are obtained from <a hre
     
 
     
-        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=tiaas'"
-           class="btn btn-primary btn-xs tag-element" role="button">tiaas</a>
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=TIaaS'"
+           class="btn btn-primary btn-xs tag-element" role="button">TIaaS</a>
     
 
 
@@ -8362,6 +8710,8 @@ to the European Galaxy server. These reference datasets are obtained from <a hre
      
       tags.push(`devops`)
      
+      tags.push(`data`)
+     
       tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
@@ -8369,7 +8719,7 @@ to the European Galaxy server. These reference datasets are obtained from <a hre
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 devops news ">
+            <div class="col-md-4 devopsdata news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -8404,6 +8754,11 @@ to the European Galaxy server. These reference datasets are obtained from <a hre
            class="btn btn-primary btn-xs tag-element" role="button">devops</a>
     
 
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=data'"
+           class="btn btn-primary btn-xs tag-element" role="button">data</a>
+    
+
 
                 </div>
                 <div class="news-content">
@@ -8426,7 +8781,7 @@ to the European Galaxy server. These reference datasets are obtained from <a hre
      
       tags.push(`training`)
      
-      tags.push(`tiaas`)
+      tags.push(`TIaaS`)
      
       tags.push(``)
 
@@ -8435,7 +8790,7 @@ to the European Galaxy server. These reference datasets are obtained from <a hre
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 trainingtiaas news ">
+            <div class="col-md-4 trainingTIaaS news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -8471,8 +8826,8 @@ to the European Galaxy server. These reference datasets are obtained from <a hre
     
 
     
-        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=tiaas'"
-           class="btn btn-primary btn-xs tag-element" role="button">tiaas</a>
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=TIaaS'"
+           class="btn btn-primary btn-xs tag-element" role="button">TIaaS</a>
     
 
 
@@ -8767,6 +9122,8 @@ As you know we are passionate about training life scientists in data analysis an
      
       tags.push(`s4f`)
      
+      tags.push(`society`)
+     
       tags.push(`Freiburg`)
 
     if (!userTag ? true : tags.includes(userTag)) {
@@ -8774,7 +9131,7 @@ As you know we are passionate about training life scientists in data analysis an
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 s4f news ">
+            <div class="col-md-4 s4fsociety news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -8807,6 +9164,11 @@ As you know we are passionate about training life scientists in data analysis an
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=s4f'"
            class="btn btn-primary btn-xs tag-element" role="button">s4f</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=society'"
+           class="btn btn-primary btn-xs tag-element" role="button">society</a>
     
 
 
@@ -8960,6 +9322,8 @@ Galaxy Team is going to express its support more directly:</p>
      
       tags.push(`galaxy`)
      
+      tags.push(`newsletter`)
+     
       tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
@@ -8967,7 +9331,7 @@ Galaxy Team is going to express its support more directly:</p>
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 galaxy news ">
+            <div class="col-md-4 galaxynewsletter news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -9000,6 +9364,11 @@ Galaxy Team is going to express its support more directly:</p>
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=galaxy'"
            class="btn btn-primary btn-xs tag-element" role="button">galaxy</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=newsletter'"
+           class="btn btn-primary btn-xs tag-element" role="button">newsletter</a>
     
 
 
@@ -9271,7 +9640,7 @@ Galaxy Team is going to express its support more directly:</p>
      
       tags.push(`training`)
      
-      tags.push(`tiaas`)
+      tags.push(`TIaaS`)
      
       tags.push(``)
 
@@ -9280,7 +9649,7 @@ Galaxy Team is going to express its support more directly:</p>
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 trainingtiaas news ">
+            <div class="col-md-4 trainingTIaaS news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -9316,8 +9685,8 @@ Galaxy Team is going to express its support more directly:</p>
     
 
     
-        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=tiaas'"
-           class="btn btn-primary btn-xs tag-element" role="button">tiaas</a>
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=TIaaS'"
+           class="btn btn-primary btn-xs tag-element" role="button">TIaaS</a>
     
 
 
@@ -9346,7 +9715,7 @@ on our HPC facilities so I had to find an alternative method for teaching.</p>
      
       tags.push(`training`)
      
-      tags.push(`tiaas`)
+      tags.push(`TIaaS`)
      
       tags.push(``)
 
@@ -9355,7 +9724,7 @@ on our HPC facilities so I had to find an alternative method for teaching.</p>
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 trainingtiaas news ">
+            <div class="col-md-4 trainingTIaaS news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -9391,8 +9760,8 @@ on our HPC facilities so I had to find an alternative method for teaching.</p>
     
 
     
-        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=tiaas'"
-           class="btn btn-primary btn-xs tag-element" role="button">tiaas</a>
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=TIaaS'"
+           class="btn btn-primary btn-xs tag-element" role="button">TIaaS</a>
     
 
 
@@ -9437,7 +9806,7 @@ is employed and with ARC-Onderstepoort Veterinary Research (OVR) campus which is
                   
                     <a href="/posts/2019/10/23/pandas-in-galaxy/">
                   
-                    <h2 class="title">Use the power of pandas / numpy to transform tabular datasets in a myriad of ways with our new Table Compute tool.</h2>
+                    <h2 class="title">Use the power of pandas / numpy to transform tabular datasets in a myriad of ways with our new Table Compute tool</h2>
                   </a>
                   <span class="date">
                     
@@ -9696,7 +10065,7 @@ If you get an error message of this kind:<br />
      
       tags.push(`training`)
      
-      tags.push(`tiaas`)
+      tags.push(`TIaaS`)
      
       tags.push(``)
 
@@ -9705,7 +10074,7 @@ If you get an error message of this kind:<br />
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 trainingtiaas news ">
+            <div class="col-md-4 trainingTIaaS news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -9741,8 +10110,8 @@ If you get an error message of this kind:<br />
     
 
     
-        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=tiaas'"
-           class="btn btn-primary btn-xs tag-element" role="button">tiaas</a>
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=TIaaS'"
+           class="btn btn-primary btn-xs tag-element" role="button">TIaaS</a>
     
 
 
@@ -9970,6 +10339,8 @@ This high-quality course was limited to 16 participants and gathered scientists 
      
       tags.push(`galaxy`)
      
+      tags.push(`newsletter`)
+     
       tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
@@ -9977,7 +10348,7 @@ This high-quality course was limited to 16 participants and gathered scientists 
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 galaxy news ">
+            <div class="col-md-4 galaxynewsletter news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -10010,6 +10381,11 @@ This high-quality course was limited to 16 participants and gathered scientists 
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=galaxy'"
            class="btn btn-primary btn-xs tag-element" role="button">galaxy</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=newsletter'"
+           class="btn btn-primary btn-xs tag-element" role="button">newsletter</a>
     
 
 
@@ -10226,6 +10602,8 @@ This high-quality course was limited to 16 participants and gathered scientists 
      
       tags.push(`s4f`)
      
+      tags.push(`society`)
+     
       tags.push(`Freiburg`)
 
     if (!userTag ? true : tags.includes(userTag)) {
@@ -10233,7 +10611,7 @@ This high-quality course was limited to 16 participants and gathered scientists 
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 s4f news ">
+            <div class="col-md-4 s4fsociety news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -10268,6 +10646,11 @@ This high-quality course was limited to 16 participants and gathered scientists 
            class="btn btn-primary btn-xs tag-element" role="button">s4f</a>
     
 
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=society'"
+           class="btn btn-primary btn-xs tag-element" role="button">society</a>
+    
+
 
                 </div>
                 <div class="news-content">
@@ -10292,6 +10675,8 @@ We will be joining the <a href="https://www.scientists4future.org">Scientists fo
      
       tags.push(`devops`)
      
+      tags.push(`data`)
+     
       tags.push(`Freiburg`)
 
     if (!userTag ? true : tags.includes(userTag)) {
@@ -10299,7 +10684,7 @@ We will be joining the <a href="https://www.scientists4future.org">Scientists fo
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 devops news ">
+            <div class="col-md-4 devopsdata news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -10334,6 +10719,11 @@ We will be joining the <a href="https://www.scientists4future.org">Scientists fo
            class="btn btn-primary btn-xs tag-element" role="button">devops</a>
     
 
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=data'"
+           class="btn btn-primary btn-xs tag-element" role="button">data</a>
+    
+
 
                 </div>
                 <div class="news-content">
@@ -10356,6 +10746,8 @@ We will be joining the <a href="https://www.scientists4future.org">Scientists fo
      
       tags.push(`s4f`)
      
+      tags.push(`society`)
+     
       tags.push(`Freiburg`)
 
     if (!userTag ? true : tags.includes(userTag)) {
@@ -10363,7 +10755,7 @@ We will be joining the <a href="https://www.scientists4future.org">Scientists fo
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 s4f news ">
+            <div class="col-md-4 s4fsociety news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -10396,6 +10788,11 @@ We will be joining the <a href="https://www.scientists4future.org">Scientists fo
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=s4f'"
            class="btn btn-primary btn-xs tag-element" role="button">s4f</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=society'"
+           class="btn btn-primary btn-xs tag-element" role="button">society</a>
     
 
 
@@ -10741,6 +11138,8 @@ The Freiburg Galaxy team is an official EOSC member and are helping researchers 
      
       tags.push(`galaxy`)
      
+      tags.push(`newsletter`)
+     
       tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
@@ -10748,7 +11147,7 @@ The Freiburg Galaxy team is an official EOSC member and are helping researchers 
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 galaxy news ">
+            <div class="col-md-4 galaxynewsletter news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -10783,6 +11182,11 @@ The Freiburg Galaxy team is an official EOSC member and are helping researchers 
            class="btn btn-primary btn-xs tag-element" role="button">galaxy</a>
     
 
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=newsletter'"
+           class="btn btn-primary btn-xs tag-element" role="button">newsletter</a>
+    
+
 
                 </div>
                 <div class="news-content">
@@ -10805,6 +11209,8 @@ The Freiburg Galaxy team is an official EOSC member and are helping researchers 
      
       tags.push(`devops`)
      
+      tags.push(`TIaaS`)
+     
       tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
@@ -10812,7 +11218,7 @@ The Freiburg Galaxy team is an official EOSC member and are helping researchers 
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 devops news ">
+            <div class="col-md-4 devopsTIaaS news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -10845,6 +11251,11 @@ The Freiburg Galaxy team is an official EOSC member and are helping researchers 
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=devops'"
            class="btn btn-primary btn-xs tag-element" role="button">devops</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=TIaaS'"
+           class="btn btn-primary btn-xs tag-element" role="button">TIaaS</a>
     
 
 
@@ -11191,9 +11602,9 @@ biochemical reactions, subnetworks, and pathways.</p>
      
       tags.push(`training`)
      
-      tags.push(`tiaas`)
+      tags.push(`TIaaS`)
      
-      tags.push(`gcc`)
+      tags.push(`GCC`)
      
       tags.push(``)
 
@@ -11202,7 +11613,7 @@ biochemical reactions, subnetworks, and pathways.</p>
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 trainingtiaasgcc news ">
+            <div class="col-md-4 trainingTIaaSGCC news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -11238,13 +11649,13 @@ biochemical reactions, subnetworks, and pathways.</p>
     
 
     
-        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=tiaas'"
-           class="btn btn-primary btn-xs tag-element" role="button">tiaas</a>
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=TIaaS'"
+           class="btn btn-primary btn-xs tag-element" role="button">TIaaS</a>
     
 
     
-        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=gcc'"
-           class="btn btn-primary btn-xs tag-element" role="button">gcc</a>
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=GCC'"
+           class="btn btn-primary btn-xs tag-element" role="button">GCC</a>
     
 
 
@@ -11469,6 +11880,8 @@ file uploaded by the user. This enables the usage of all the features of MaxQuan
      
       tags.push(`galaxy`)
      
+      tags.push(`newsletter`)
+     
       tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
@@ -11476,7 +11889,7 @@ file uploaded by the user. This enables the usage of all the features of MaxQuan
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 galaxy news ">
+            <div class="col-md-4 galaxynewsletter news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -11509,6 +11922,11 @@ file uploaded by the user. This enables the usage of all the features of MaxQuan
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=galaxy'"
            class="btn btn-primary btn-xs tag-element" role="button">galaxy</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=newsletter'"
+           class="btn btn-primary btn-xs tag-element" role="button">newsletter</a>
     
 
 
@@ -11659,6 +12077,8 @@ file uploaded by the user. This enables the usage of all the features of MaxQuan
      
       tags.push(`devops`)
      
+      tags.push(`data`)
+     
       tags.push(`Freiburg`)
 
     if (!userTag ? true : tags.includes(userTag)) {
@@ -11666,7 +12086,7 @@ file uploaded by the user. This enables the usage of all the features of MaxQuan
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 devops news ">
+            <div class="col-md-4 devopsdata news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -11699,6 +12119,11 @@ file uploaded by the user. This enables the usage of all the features of MaxQuan
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=devops'"
            class="btn btn-primary btn-xs tag-element" role="button">devops</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=data'"
+           class="btn btn-primary btn-xs tag-element" role="button">data</a>
     
 
 
@@ -11915,6 +12340,8 @@ file uploaded by the user. This enables the usage of all the features of MaxQuan
      
       tags.push(`galaxy`)
      
+      tags.push(`newsletter`)
+     
       tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
@@ -11922,7 +12349,7 @@ file uploaded by the user. This enables the usage of all the features of MaxQuan
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 galaxy news ">
+            <div class="col-md-4 galaxynewsletter news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -11957,6 +12384,11 @@ file uploaded by the user. This enables the usage of all the features of MaxQuan
            class="btn btn-primary btn-xs tag-element" role="button">galaxy</a>
     
 
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=newsletter'"
+           class="btn btn-primary btn-xs tag-element" role="button">newsletter</a>
+    
+
 
                 </div>
                 <div class="news-content">
@@ -11977,11 +12409,11 @@ file uploaded by the user. This enables the usage of all the features of MaxQuan
 
 
      
-      tags.push(`release`)
-     
       tags.push(`talk`)
      
       tags.push(`video`)
+     
+      tags.push(`GCC`)
      
       tags.push(`Freiburg`)
 
@@ -11990,7 +12422,7 @@ file uploaded by the user. This enables the usage of all the features of MaxQuan
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 releasetalkvideo news ">
+            <div class="col-md-4 talkvideoGCC news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -12007,8 +12439,6 @@ file uploaded by the user. This enables the usage of all the features of MaxQuan
 
 
 
-	<i class="fa fa-bullhorn" aria-hidden="true"></i>
-
 
 
 	<i class="fa fa-video-camera" aria-hidden="true"></i>
@@ -12023,11 +12453,6 @@ file uploaded by the user. This enables the usage of all the features of MaxQuan
                   class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
                   
     
-        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=release'"
-           class="btn btn-primary btn-xs tag-element" role="button">release</a>
-    
-
-    
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=talk'"
            class="btn btn-primary btn-xs tag-element" role="button">talk</a>
     
@@ -12035,6 +12460,11 @@ file uploaded by the user. This enables the usage of all the features of MaxQuan
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=video'"
            class="btn btn-primary btn-xs tag-element" role="button">video</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=GCC'"
+           class="btn btn-primary btn-xs tag-element" role="button">GCC</a>
     
 
 
@@ -12264,6 +12694,8 @@ workflow you built for your project.</p>
      
       tags.push(`devops`)
      
+      tags.push(`TIaaS`)
+     
       tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
@@ -12271,7 +12703,7 @@ workflow you built for your project.</p>
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 devops news ">
+            <div class="col-md-4 devopsTIaaS news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -12304,6 +12736,11 @@ workflow you built for your project.</p>
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=devops'"
            class="btn btn-primary btn-xs tag-element" role="button">devops</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=TIaaS'"
+           class="btn btn-primary btn-xs tag-element" role="button">TIaaS</a>
     
 
 
@@ -12456,7 +12893,7 @@ workflow you built for your project.</p>
      
       tags.push(`training`)
      
-      tags.push(`tiaas`)
+      tags.push(`TIaaS`)
      
       tags.push(``)
 
@@ -12465,7 +12902,7 @@ workflow you built for your project.</p>
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 trainingtiaas news ">
+            <div class="col-md-4 trainingTIaaS news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -12501,8 +12938,8 @@ workflow you built for your project.</p>
     
 
     
-        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=tiaas'"
-           class="btn btn-primary btn-xs tag-element" role="button">tiaas</a>
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=TIaaS'"
+           class="btn btn-primary btn-xs tag-element" role="button">TIaaS</a>
     
 
 
@@ -12721,6 +13158,8 @@ offered an elective course Genomics. This year 7 students attended this course.<
      
       tags.push(`galaxy`)
      
+      tags.push(`newsletter`)
+     
       tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
@@ -12728,7 +13167,7 @@ offered an elective course Genomics. This year 7 students attended this course.<
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 galaxy news ">
+            <div class="col-md-4 galaxynewsletter news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -12763,6 +13202,11 @@ offered an elective course Genomics. This year 7 students attended this course.<
            class="btn btn-primary btn-xs tag-element" role="button">galaxy</a>
     
 
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=newsletter'"
+           class="btn btn-primary btn-xs tag-element" role="button">newsletter</a>
+    
+
 
                 </div>
                 <div class="news-content">
@@ -12785,6 +13229,8 @@ offered an elective course Genomics. This year 7 students attended this course.<
      
       tags.push(`devops`)
      
+      tags.push(`GCC`)
+     
       tags.push(`Freiburg`)
 
     if (!userTag ? true : tags.includes(userTag)) {
@@ -12792,7 +13238,7 @@ offered an elective course Genomics. This year 7 students attended this course.<
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 devops news ">
+            <div class="col-md-4 devopsGCC news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -12827,6 +13273,11 @@ offered an elective course Genomics. This year 7 students attended this course.<
            class="btn btn-primary btn-xs tag-element" role="button">devops</a>
     
 
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=GCC'"
+           class="btn btn-primary btn-xs tag-element" role="button">GCC</a>
+    
+
 
                 </div>
                 <div class="news-content">
@@ -12849,7 +13300,7 @@ offered an elective course Genomics. This year 7 students attended this course.<
      
       tags.push(`training`)
      
-      tags.push(`tiaas`)
+      tags.push(`TIaaS`)
      
       tags.push(``)
 
@@ -12858,7 +13309,7 @@ offered an elective course Genomics. This year 7 students attended this course.<
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 trainingtiaas news ">
+            <div class="col-md-4 trainingTIaaS news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -12894,8 +13345,8 @@ offered an elective course Genomics. This year 7 students attended this course.<
     
 
     
-        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=tiaas'"
-           class="btn btn-primary btn-xs tag-element" role="button">tiaas</a>
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=TIaaS'"
+           class="btn btn-primary btn-xs tag-element" role="button">TIaaS</a>
     
 
 
@@ -12998,7 +13449,7 @@ We have 30 places. More information can be found in <a href="https://galaxyproje
                   
                     <a href="/posts/2019/05/10/rna-workbench-2/">
                   
-                    <h2 class="title">The RNA workbench 2.0: next generation RNA data analysis</h2>
+                    <h2 class="title">New Paper &quot;The RNA workbench 2.0: next generation RNA data analysis&quot;</h2>
                   </a>
                   <span class="date">
                     
@@ -13050,6 +13501,8 @@ Check out our <a href="https://doi.org/10.1093/nar/gkz353">new paper</a> to get 
      
       tags.push(`galaxy`)
      
+      tags.push(`newsletter`)
+     
       tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
@@ -13057,7 +13510,7 @@ Check out our <a href="https://doi.org/10.1093/nar/gkz353">new paper</a> to get 
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 galaxy news ">
+            <div class="col-md-4 galaxynewsletter news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -13090,6 +13543,11 @@ Check out our <a href="https://doi.org/10.1093/nar/gkz353">new paper</a> to get 
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=galaxy'"
            class="btn btn-primary btn-xs tag-element" role="button">galaxy</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=newsletter'"
+           class="btn btn-primary btn-xs tag-element" role="button">newsletter</a>
     
 
 
@@ -13178,6 +13636,8 @@ Check out our <a href="https://doi.org/10.1093/nar/gkz353">new paper</a> to get 
      
       tags.push(`training`)
      
+      tags.push(`GCC`)
+     
       tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
@@ -13185,7 +13645,7 @@ Check out our <a href="https://doi.org/10.1093/nar/gkz353">new paper</a> to get 
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 training news ">
+            <div class="col-md-4 trainingGCC news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -13218,6 +13678,11 @@ Check out our <a href="https://doi.org/10.1093/nar/gkz353">new paper</a> to get 
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=training'"
            class="btn btn-primary btn-xs tag-element" role="button">training</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=GCC'"
+           class="btn btn-primary btn-xs tag-element" role="button">GCC</a>
     
 
 
@@ -13504,7 +13969,7 @@ We investigated this and saw that all of those jobs are processing files with un
 
 
      
-      tags.push(`gcc2019`)
+      tags.push(`GCC`)
      
       tags.push(`Freiburg`)
 
@@ -13513,7 +13978,7 @@ We investigated this and saw that all of those jobs are processing files with un
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 gcc2019 news ">
+            <div class="col-md-4 GCC news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -13544,8 +14009,8 @@ We investigated this and saw that all of those jobs are processing files with un
                   class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
                   
     
-        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=gcc2019'"
-           class="btn btn-primary btn-xs tag-element" role="button">gcc2019</a>
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=GCC'"
+           class="btn btn-primary btn-xs tag-element" role="button">GCC</a>
     
 
 
@@ -13575,6 +14040,8 @@ If you are working in data-intensive life science, there is no better place to b
      
       tags.push(`streetscience`)
      
+      tags.push(`society`)
+     
       tags.push(`Freiburg`)
 
     if (!userTag ? true : tags.includes(userTag)) {
@@ -13582,7 +14049,7 @@ If you are working in data-intensive life science, there is no better place to b
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 streetscience news ">
+            <div class="col-md-4 streetsciencesociety news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -13615,6 +14082,11 @@ If you are working in data-intensive life science, there is no better place to b
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=streetscience'"
            class="btn btn-primary btn-xs tag-element" role="button">streetscience</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=society'"
+           class="btn btn-primary btn-xs tag-element" role="button">society</a>
     
 
 
@@ -13707,6 +14179,8 @@ This would not be possible without the support of <a href="https://www.denbi.de/
      
       tags.push(`galaxy`)
      
+      tags.push(`newsletter`)
+     
       tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
@@ -13714,7 +14188,7 @@ This would not be possible without the support of <a href="https://www.denbi.de/
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 galaxy news ">
+            <div class="col-md-4 galaxynewsletter news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -13747,6 +14221,11 @@ This would not be possible without the support of <a href="https://www.denbi.de/
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=galaxy'"
            class="btn btn-primary btn-xs tag-element" role="button">galaxy</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=newsletter'"
+           class="btn btn-primary btn-xs tag-element" role="button">newsletter</a>
     
 
 
@@ -13849,7 +14328,7 @@ convert mass spectrometry data file formats.</p>
                   
                     <a href="/posts/2019/03/20/Teikari/">
                   
-                    <h2 class="title">New Paper on &quot;Insight into the genome and brackish water adaptation strategies of toxic and bloom-forming Baltic Sea Dolichospermum sp. UHCC 0315&quot;</h2>
+                    <h2 class="title">New Paper &quot;Insight into the genome and brackish water adaptation strategies of toxic and bloom-forming Baltic Sea Dolichospermum sp. UHCC 0315&quot;</h2>
                   </a>
                   <span class="date">
                     
@@ -14051,7 +14530,7 @@ convert mass spectrometry data file formats.</p>
                   
                     <a href="/posts/2019/03/15/bridge/">
                   
-                    <h2 class="title">New Paper - Biomolecular Reaction and Interaction Dynamics Global Environment (BRIDGE)</h2>
+                    <h2 class="title">New Paper &quot;Biomolecular Reaction and Interaction Dynamics Global Environment (BRIDGE)</h2>
                   </a>
                   <span class="date">
                     
@@ -14115,7 +14594,7 @@ convert mass spectrometry data file formats.</p>
                   
                     <a href="/posts/2019/03/14/chimera-and-the-cyborg/">
                   
-                    <h2 class="title">New Paper The Chimera and the Cyborg</h2>
+                    <h2 class="title">New Paper &quot;The Chimera and the Cyborg&quot;</h2>
                   </a>
                   <span class="date">
                     
@@ -14166,6 +14645,8 @@ convert mass spectrometry data file formats.</p>
      
       tags.push(`galaxy`)
      
+      tags.push(`newsletter`)
+     
       tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
@@ -14173,7 +14654,7 @@ convert mass spectrometry data file formats.</p>
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 galaxy news ">
+            <div class="col-md-4 galaxynewsletter news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -14206,6 +14687,11 @@ convert mass spectrometry data file formats.</p>
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=galaxy'"
            class="btn btn-primary btn-xs tag-element" role="button">galaxy</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=newsletter'"
+           class="btn btn-primary btn-xs tag-element" role="button">newsletter</a>
     
 
 
@@ -14275,7 +14761,7 @@ convert mass spectrometry data file formats.</p>
 
                 </div>
                 <div class="news-content">
-                  <div><p>Last week, the Freiburg Galaxy team taught a 5 day workshop on HTS data analysis in Freiburg!</p>
+                  <div><p>Last week, the Freiburg Galaxy team taught a 5-day workshop on HTS data analysis in Freiburg!</p>
 </div>
                 </div>
               </div>
@@ -14356,6 +14842,10 @@ convert mass spectrometry data file formats.</p>
 
 
      
+      tags.push(`data`)
+     
+      tags.push(`grants`)
+     
       tags.push(`Freiburg`)
 
     if (!userTag ? true : tags.includes(userTag)) {
@@ -14363,7 +14853,7 @@ convert mass spectrometry data file formats.</p>
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4  news ">
+            <div class="col-md-4 datagrants news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -14391,6 +14881,16 @@ convert mass spectrometry data file formats.</p>
                   <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
                   class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
                   
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=data'"
+           class="btn btn-primary btn-xs tag-element" role="button">data</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=grants'"
+           class="btn btn-primary btn-xs tag-element" role="button">grants</a>
+    
+
 
                 </div>
                 <div class="news-content">
@@ -14426,7 +14926,7 @@ convert mass spectrometry data file formats.</p>
                   
                     <a href="/posts/2019/02/11/Veil-Pou5f3/">
                   
-                    <h2 class="title">New Paper on &quot;Pou5f3, SoxB1, and Nanog remodel chromatin on High Nucleosome Affinity Regions at Zygotic Genome Activation.&quot;</h2>
+                    <h2 class="title">New Paper &quot;Pou5f3, SoxB1, and Nanog remodel chromatin on High Nucleosome Affinity Regions at Zygotic Genome Activation&quot;</h2>
                   </a>
                   <span class="date">
                     
@@ -14491,7 +14991,7 @@ convert mass spectrometry data file formats.</p>
                   
                     <a href="/posts/2019/02/11/Walz/">
                   
-                    <h2 class="title">New Paper on &quot;Impact of angiogenic activation and inhibition on miRNA profiles of human retinal endothelial cells.&quot;</h2>
+                    <h2 class="title">New Paper &quot;Impact of angiogenic activation and inhibition on miRNA profiles of human retinal endothelial cells&quot;</h2>
                   </a>
                   <span class="date">
                     
@@ -14607,6 +15107,8 @@ convert mass spectrometry data file formats.</p>
      
       tags.push(`training`)
      
+      tags.push(`GCC`)
+     
       tags.push(`Freiburg`)
 
     if (!userTag ? true : tags.includes(userTag)) {
@@ -14614,7 +15116,7 @@ convert mass spectrometry data file formats.</p>
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 training news ">
+            <div class="col-md-4 trainingGCC news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -14649,6 +15151,11 @@ convert mass spectrometry data file formats.</p>
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=training'"
            class="btn btn-primary btn-xs tag-element" role="button">training</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=GCC'"
+           class="btn btn-primary btn-xs tag-element" role="button">GCC</a>
     
 
 
@@ -14808,6 +15315,8 @@ at the <a href="https://galaxyproject.github.io/training-material/" target="_bla
      
       tags.push(`training`)
      
+      tags.push(`TIaaS`)
+     
       tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
@@ -14815,7 +15324,7 @@ at the <a href="https://galaxyproject.github.io/training-material/" target="_bla
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 training news ">
+            <div class="col-md-4 trainingTIaaS news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -14848,6 +15357,11 @@ at the <a href="https://galaxyproject.github.io/training-material/" target="_bla
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=training'"
            class="btn btn-primary btn-xs tag-element" role="button">training</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=TIaaS'"
+           class="btn btn-primary btn-xs tag-element" role="button">TIaaS</a>
     
 
 
@@ -15014,6 +15528,8 @@ at which it became an emergency and the system became completely unresponsive.</
      
       tags.push(`devops`)
      
+      tags.push(`data`)
+     
       tags.push(`Freiburg`)
 
     if (!userTag ? true : tags.includes(userTag)) {
@@ -15021,7 +15537,7 @@ at which it became an emergency and the system became completely unresponsive.</
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 devops news ">
+            <div class="col-md-4 devopsdata news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -15054,6 +15570,11 @@ at which it became an emergency and the system became completely unresponsive.</
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=devops'"
            class="btn btn-primary btn-xs tag-element" role="button">devops</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=data'"
+           class="btn btn-primary btn-xs tag-element" role="button">data</a>
     
 
 
@@ -15145,7 +15666,7 @@ However, you can assign yourself to our <a href="https://goo.gl/forms/gDJuKXf3kl
 
 
      
-      tags.push(`job`)
+      tags.push(`jobs`)
      
       tags.push(`Freiburg`)
 
@@ -15154,7 +15675,7 @@ However, you can assign yourself to our <a href="https://goo.gl/forms/gDJuKXf3kl
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 job news ">
+            <div class="col-md-4 jobs news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -15172,8 +15693,6 @@ However, you can assign yourself to our <a href="https://goo.gl/forms/gDJuKXf3kl
 
 
 
-	<i class="fa fa-user-plus" aria-hidden="true"></i>
-
 
 
 
@@ -15185,8 +15704,8 @@ However, you can assign yourself to our <a href="https://goo.gl/forms/gDJuKXf3kl
                   class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
                   
     
-        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=job'"
-           class="btn btn-primary btn-xs tag-element" role="button">job</a>
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=jobs'"
+           class="btn btn-primary btn-xs tag-element" role="button">jobs</a>
     
 
 
@@ -15211,7 +15730,7 @@ However, you can assign yourself to our <a href="https://goo.gl/forms/gDJuKXf3kl
      
       tags.push(`devops`)
      
-      tags.push(`release`)
+      tags.push(`hardware`)
      
       tags.push(`Freiburg`)
 
@@ -15220,7 +15739,7 @@ However, you can assign yourself to our <a href="https://goo.gl/forms/gDJuKXf3kl
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 devopsrelease news ">
+            <div class="col-md-4 devopshardware news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -15239,8 +15758,6 @@ However, you can assign yourself to our <a href="https://goo.gl/forms/gDJuKXf3kl
 	<i class="fa fa-gear" aria-hidden="true"></i>
 
 
-	<i class="fa fa-bullhorn" aria-hidden="true"></i>
-
 
 
 
@@ -15258,15 +15775,15 @@ However, you can assign yourself to our <a href="https://goo.gl/forms/gDJuKXf3kl
     
 
     
-        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=release'"
-           class="btn btn-primary btn-xs tag-element" role="button">release</a>
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=hardware'"
+           class="btn btn-primary btn-xs tag-element" role="button">hardware</a>
     
 
 
                 </div>
                 <div class="news-content">
                   <div><p>Today we activated our brand new hardware. Thanks to the <a href="https://www.bmbf.de/en/">Federal Ministry of Education and Research</a> we could extend the
-<a href="https://www.denbi.de/cloud">de.NBI-Cloud</a> with 8x1TB nodes. This means more high-memory nodes for your memory intensive jobs, less waiting, faster results.
+<a href="https://www.denbi.de/cloud">de.NBI-Cloud</a> with 8 x 1 TB nodes. This means more high-memory nodes for your memory intensive jobs, less waiting, faster results.
 Enjoy!</p>
 </div>
                 </div>
@@ -15541,6 +16058,8 @@ Enjoy the holiday season with your family and see you all next year. Our dear fr
      
       tags.push(`training`)
      
+      tags.push(`GCC`)
+     
       tags.push(`Freiburg`)
 
     if (!userTag ? true : tags.includes(userTag)) {
@@ -15548,7 +16067,7 @@ Enjoy the holiday season with your family and see you all next year. Our dear fr
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 training news ">
+            <div class="col-md-4 trainingGCC news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -15585,6 +16104,11 @@ Enjoy the holiday season with your family and see you all next year. Our dear fr
            class="btn btn-primary btn-xs tag-element" role="button">training</a>
     
 
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=GCC'"
+           class="btn btn-primary btn-xs tag-element" role="button">GCC</a>
+    
+
 
                 </div>
                 <div class="news-content">
@@ -15607,6 +16131,10 @@ Enjoy the holiday season with your family and see you all next year. Our dear fr
      
       tags.push(`training`)
      
+      tags.push(`streetscience`)
+     
+      tags.push(`society`)
+     
       tags.push(`Freiburg`)
 
     if (!userTag ? true : tags.includes(userTag)) {
@@ -15614,7 +16142,7 @@ Enjoy the holiday season with your family and see you all next year. Our dear fr
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 training news ">
+            <div class="col-md-4 trainingstreetsciencesociety news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -15649,6 +16177,16 @@ Enjoy the holiday season with your family and see you all next year. Our dear fr
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=training'"
            class="btn btn-primary btn-xs tag-element" role="button">training</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=streetscience'"
+           class="btn btn-primary btn-xs tag-element" role="button">streetscience</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=society'"
+           class="btn btn-primary btn-xs tag-element" role="button">society</a>
     
 
 
@@ -15737,6 +16275,10 @@ Enjoy the holiday season with your family and see you all next year. Our dear fr
      
       tags.push(`training`)
      
+      tags.push(`Bioconda`)
+     
+      tags.push(`hackathon`)
+     
       tags.push(`Freiburg`)
 
     if (!userTag ? true : tags.includes(userTag)) {
@@ -15744,7 +16286,7 @@ Enjoy the holiday season with your family and see you all next year. Our dear fr
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 training news ">
+            <div class="col-md-4 trainingBiocondahackathon news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -15777,6 +16319,16 @@ Enjoy the holiday season with your family and see you all next year. Our dear fr
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=training'"
            class="btn btn-primary btn-xs tag-element" role="button">training</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Bioconda'"
+           class="btn btn-primary btn-xs tag-element" role="button">Bioconda</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=hackathon'"
+           class="btn btn-primary btn-xs tag-element" role="button">hackathon</a>
     
 
 
@@ -16010,7 +16562,7 @@ node’ is reaching End-of-Life and needs to be decomissioned.</p>
                   
                     <a href="/posts/2018/11/05/ThomasNuehrenberg/">
                   
-                    <h2 class="title">New Paper on &quot;Uncontrolled Diabetes Mellitus Has No Major Influence on the Platelet Transcriptome&quot;</h2>
+                    <h2 class="title">New Paper &quot;Uncontrolled Diabetes Mellitus Has No Major Influence on the Platelet Transcriptome&quot;</h2>
                   </a>
                   <span class="date">
                     
@@ -16062,7 +16614,7 @@ node’ is reaching End-of-Life and needs to be decomissioned.</p>
      
       tags.push(`training`)
      
-      tags.push(`tiaas`)
+      tags.push(`TIaaS`)
      
       tags.push(`Erasmus MC`)
 
@@ -16071,7 +16623,7 @@ node’ is reaching End-of-Life and needs to be decomissioned.</p>
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 trainingtiaas news ">
+            <div class="col-md-4 trainingTIaaS news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -16107,8 +16659,8 @@ node’ is reaching End-of-Life and needs to be decomissioned.</p>
     
 
     
-        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=tiaas'"
-           class="btn btn-primary btn-xs tag-element" role="button">tiaas</a>
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=TIaaS'"
+           class="btn btn-primary btn-xs tag-element" role="button">TIaaS</a>
     
 
 
@@ -16133,7 +16685,7 @@ node’ is reaching End-of-Life and needs to be decomissioned.</p>
      
       tags.push(`training`)
      
-      tags.push(`tiaas`)
+      tags.push(`TIaaS`)
      
       tags.push(``)
 
@@ -16142,7 +16694,7 @@ node’ is reaching End-of-Life and needs to be decomissioned.</p>
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 trainingtiaas news ">
+            <div class="col-md-4 trainingTIaaS news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -16178,8 +16730,8 @@ node’ is reaching End-of-Life and needs to be decomissioned.</p>
     
 
     
-        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=tiaas'"
-           class="btn btn-primary btn-xs tag-element" role="button">tiaas</a>
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=TIaaS'"
+           class="btn btn-primary btn-xs tag-element" role="button">TIaaS</a>
     
 
 
@@ -16210,7 +16762,7 @@ resource.</p>
 
 
      
-      tags.push(`paper`)
+      tags.push(`article`)
      
       tags.push(`Freiburg`)
 
@@ -16219,21 +16771,19 @@ resource.</p>
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 paper news ">
+            <div class="col-md-4 article news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
                     <a href="/posts/2018/10/30/Laborpraxis/">
                   
-                    <h2 class="title">New article &#39;Selbst ist der Forscher: Big-Data-Analysen leicht gemacht&#39;</h2>
+                    <h2 class="title">New Article &#39;Selbst ist der Forscher: Big-Data-Analysen leicht gemacht&#39;</h2>
                   </a>
                   <span class="date">
                     
 
 
 
-
-	<i class="fa fa-file-text" aria-hidden="true"></i>
 
 
 
@@ -16250,8 +16800,8 @@ resource.</p>
                   class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
                   
     
-        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=paper'"
-           class="btn btn-primary btn-xs tag-element" role="button">paper</a>
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=article'"
+           class="btn btn-primary btn-xs tag-element" role="button">article</a>
     
 
 
@@ -16429,7 +16979,7 @@ a new German article written by The Freiburg Galaxy Team about our service and o
                   
                     <a href="/posts/2018/10/10/AchimLother/">
                   
-                    <h2 class="title">New Paper on &quot;Endothelial cell mineralocorticoid receptors oppose VEGF-induced gene expression and angiogenesis&quot;</h2>
+                    <h2 class="title">New Paper &quot;Endothelial cell mineralocorticoid receptors oppose VEGF-induced gene expression and angiogenesis&quot;</h2>
                   </a>
                   <span class="date">
                     
@@ -16549,7 +17099,7 @@ a new German article written by The Freiburg Galaxy Team about our service and o
 
 
      
-      tags.push(`paper`)
+      tags.push(`article`)
      
       tags.push(`Freiburg`)
 
@@ -16558,21 +17108,19 @@ a new German article written by The Freiburg Galaxy Team about our service and o
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 paper news ">
+            <div class="col-md-4 article news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
                     <a href="/posts/2018/10/10/Laborjournal/">
                   
-                    <h2 class="title">New article &#39;Datenanalyse mit dem Galaxy Server&#39;</h2>
+                    <h2 class="title">New Article &#39;Datenanalyse mit dem Galaxy Server&#39;</h2>
                   </a>
                   <span class="date">
                     
 
 
 
-
-	<i class="fa fa-file-text" aria-hidden="true"></i>
 
 
 
@@ -16589,8 +17137,8 @@ a new German article written by The Freiburg Galaxy Team about our service and o
                   class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
                   
     
-        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=paper'"
-           class="btn btn-primary btn-xs tag-element" role="button">paper</a>
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=article'"
+           class="btn btn-primary btn-xs tag-element" role="button">article</a>
     
 
 
@@ -16884,6 +17432,8 @@ clouds.</p>
 
 
      
+      tags.push(`Bioconda`)
+     
       tags.push(`Freiburg`)
 
     if (!userTag ? true : tags.includes(userTag)) {
@@ -16891,7 +17441,7 @@ clouds.</p>
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4  news ">
+            <div class="col-md-4 Bioconda news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -16919,6 +17469,11 @@ clouds.</p>
                   <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
                   class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
                   
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Bioconda'"
+           class="btn btn-primary btn-xs tag-element" role="button">Bioconda</a>
+    
+
 
                 </div>
                 <div class="news-content">
@@ -16954,7 +17509,7 @@ clouds.</p>
                   
                     <a href="/posts/2018/09/24/galaxy-hts-data-analysis-workshop/">
                   
-                    <h2 class="title">A successuful Galaxy HTS data analysis workshop</h2>
+                    <h2 class="title">A successful Galaxy HTS data analysis workshop</h2>
                   </a>
                   <span class="date">
                     
@@ -17142,7 +17697,7 @@ was lost.</p>
 
 
      
-      tags.push(`job`)
+      tags.push(`jobs`)
      
       tags.push(`Freiburg`)
 
@@ -17151,7 +17706,7 @@ was lost.</p>
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 job news ">
+            <div class="col-md-4 jobs news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -17169,8 +17724,6 @@ was lost.</p>
 
 
 
-	<i class="fa fa-user-plus" aria-hidden="true"></i>
-
 
 
 
@@ -17182,8 +17735,8 @@ was lost.</p>
                   class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
                   
     
-        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=job'"
-           class="btn btn-primary btn-xs tag-element" role="button">job</a>
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=jobs'"
+           class="btn btn-primary btn-xs tag-element" role="button">jobs</a>
     
 
 
@@ -17208,6 +17761,8 @@ was lost.</p>
      
       tags.push(`training`)
      
+      tags.push(`GCC`)
+     
       tags.push(`Freiburg`)
 
     if (!userTag ? true : tags.includes(userTag)) {
@@ -17215,7 +17770,7 @@ was lost.</p>
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 training news ">
+            <div class="col-md-4 trainingGCC news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -17248,6 +17803,11 @@ was lost.</p>
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=training'"
            class="btn btn-primary btn-xs tag-element" role="button">training</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=GCC'"
+           class="btn btn-primary btn-xs tag-element" role="button">GCC</a>
     
 
 
@@ -17345,6 +17905,8 @@ was lost.</p>
      
       tags.push(`paper`)
      
+      tags.push(`Bioconda`)
+     
       tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
@@ -17352,7 +17914,7 @@ was lost.</p>
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 paper news ">
+            <div class="col-md-4 paperBioconda news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -17385,6 +17947,11 @@ was lost.</p>
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=paper'"
            class="btn btn-primary btn-xs tag-element" role="button">paper</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Bioconda'"
+           class="btn btn-primary btn-xs tag-element" role="button">Bioconda</a>
     
 
 
@@ -17479,6 +18046,8 @@ was <a href="https://doi.org/10.1093/nar/gky504">published a few days ago</a>.</
      
       tags.push(`paper`)
      
+      tags.push(`citations`)
+     
       tags.push(`Freiburg`)
 
     if (!userTag ? true : tags.includes(userTag)) {
@@ -17486,13 +18055,13 @@ was <a href="https://doi.org/10.1093/nar/gky504">published a few days ago</a>.</
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 paper news ">
+            <div class="col-md-4 papercitations news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
                     <a href="/posts/2018/07/03/circ-research-rommel/">
                   
-                    <h2 class="title">New Paper on &quot;The Transcription Factor ETV1 Induces Atrial Remodeling and Arrhythmia.&quot;</h2>
+                    <h2 class="title">New Paper &quot;The Transcription Factor ETV1 Induces Atrial Remodeling and Arrhythmia.&quot;</h2>
                   </a>
                   <span class="date">
                     
@@ -17519,6 +18088,11 @@ was <a href="https://doi.org/10.1093/nar/gky504">published a few days ago</a>.</
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=paper'"
            class="btn btn-primary btn-xs tag-element" role="button">paper</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=citations'"
+           class="btn btn-primary btn-xs tag-element" role="button">citations</a>
     
 
 
@@ -17905,7 +18479,7 @@ made a mistake in the code which resulted in the <code class="language-plaintext
                   
                     <a href="/posts/2018/05/30/nanopolish/">
                   
-                    <h2 class="title">Nanopolish tools for signal-level analysis of Oxford Nanopore sequencing data is now available in Galaxy</h2>
+                    <h2 class="title">New Paper &quot;Nanopolish tools for signal-level analysis of Oxford Nanopore sequencing data is now available in Galaxy&quot;</h2>
                   </a>
                   <span class="date">
                     
@@ -17969,7 +18543,7 @@ made a mistake in the code which resulted in the <code class="language-plaintext
                   
                     <a href="/posts/2018/05/28/Galaxy-NAR/">
                   
-                    <h2 class="title">The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2018 update</h2>
+                    <h2 class="title">New Paper &quot;The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2018 update</h2>
                   </a>
                   <span class="date">
                     
@@ -18349,8 +18923,6 @@ the <code class="language-plaintext highlighter-rouge">beta_gdpr_mode</code> tha
 
 
      
-      tags.push(`galaxyteam`)
-     
       tags.push(`Freiburg`)
 
     if (!userTag ? true : tags.includes(userTag)) {
@@ -18358,7 +18930,7 @@ the <code class="language-plaintext highlighter-rouge">beta_gdpr_mode</code> tha
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 galaxyteam news ">
+            <div class="col-md-4  news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -18386,11 +18958,6 @@ the <code class="language-plaintext highlighter-rouge">beta_gdpr_mode</code> tha
                   <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
                   class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
                   
-    
-        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=galaxyteam'"
-           class="btn btn-primary btn-xs tag-element" role="button">galaxyteam</a>
-    
-
 
                 </div>
                 <div class="news-content">
@@ -18845,9 +19412,7 @@ Participants are selected from the applicants. Apply <a href="https://drive.goog
      
       tags.push(`tools`)
      
-      tags.push(`users`)
-     
-      tags.push(`software-release`)
+      tags.push(`release`)
      
       tags.push(`Freiburg`)
 
@@ -18856,7 +19421,7 @@ Participants are selected from the applicants. Apply <a href="https://drive.goog
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 galaxytoolsuserssoftware-release news ">
+            <div class="col-md-4 galaxytoolsrelease news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -18874,6 +19439,8 @@ Participants are selected from the applicants. Apply <a href="https://drive.goog
 	<i class="fa fa-wrench" aria-hidden="true"></i>
 
 
+
+	<i class="fa fa-bullhorn" aria-hidden="true"></i>
 
 
 
@@ -18897,13 +19464,8 @@ Participants are selected from the applicants. Apply <a href="https://drive.goog
     
 
     
-        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=users'"
-           class="btn btn-primary btn-xs tag-element" role="button">users</a>
-    
-
-    
-        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=software-release'"
-           class="btn btn-primary btn-xs tag-element" role="button">software-release</a>
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=release'"
+           class="btn btn-primary btn-xs tag-element" role="button">release</a>
     
 
 
@@ -19314,7 +19876,7 @@ You can fine more information <a href="https://bit.ly/2BWpolM">here</a> and regi
                   
                     <a href="/posts/2018/02/01/metaproteomics/">
                   
-                    <h2 class="title">Disseminating Metaproteomic Informatics Capabilities and Knowledge Using the Galaxy-P Framework</h2>
+                    <h2 class="title">New Paper &quot;Disseminating Metaproteomic Informatics Capabilities and Knowledge Using the Galaxy-P Framework&quot;</h2>
                   </a>
                   <span class="date">
                     
@@ -19363,6 +19925,8 @@ You can fine more information <a href="https://bit.ly/2BWpolM">here</a> and regi
 
 
      
+      tags.push(`grants`)
+     
       tags.push(`Freiburg`)
 
     if (!userTag ? true : tags.includes(userTag)) {
@@ -19370,7 +19934,7 @@ You can fine more information <a href="https://bit.ly/2BWpolM">here</a> and regi
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4  news ">
+            <div class="col-md-4 grants news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -19398,6 +19962,11 @@ You can fine more information <a href="https://bit.ly/2BWpolM">here</a> and regi
                   <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
                   class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
                   
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=grants'"
+           class="btn btn-primary btn-xs tag-element" role="button">grants</a>
+    
+
 
                 </div>
                 <div class="news-content">
@@ -19433,7 +20002,7 @@ You can fine more information <a href="https://bit.ly/2BWpolM">here</a> and regi
                   
                     <a href="/posts/2018/01/30/Gilsbach_NatCom/">
                   
-                    <h2 class="title">Distinct epigenetic programs regulate cardiac myocyte development and disease in the human heart in vivo</h2>
+                    <h2 class="title">New Paper &quot;Distinct epigenetic programs regulate cardiac myocyte development and disease in the human heart in vivo&quot;</h2>
                   </a>
                   <span class="date">
                     
@@ -19679,6 +20248,8 @@ The next workshop will take place in September 2018.</p>
 
 
      
+      tags.push(`jobs`)
+     
       tags.push(`Freiburg`)
 
     if (!userTag ? true : tags.includes(userTag)) {
@@ -19686,7 +20257,7 @@ The next workshop will take place in September 2018.</p>
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4  news ">
+            <div class="col-md-4 jobs news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -19714,6 +20285,11 @@ The next workshop will take place in September 2018.</p>
                   <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
                   class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
                   
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=jobs'"
+           class="btn btn-primary btn-xs tag-element" role="button">jobs</a>
+    
+
 
                 </div>
                 <div class="news-content">
@@ -19813,7 +20389,7 @@ The next workshop will take place in September 2018.</p>
                   
                     <a href="/posts/2018/01/16/tads/">
                   
-                    <h2 class="title">High-resolution TADs reveal DNA sequences underlying genome organization in flies</h2>
+                    <h2 class="title">New Paper &quot;High-resolution TADs reveal DNA sequences underlying genome organization in flies&quot;</h2>
                   </a>
                   <span class="date">
                     
@@ -19878,7 +20454,7 @@ was published today. Want to learn HiC data analysis? Try HiCExplorer in your to
                   
                     <a href="/posts/2018/01/13/kerstin-mcp-paper/">
                   
-                    <h2 class="title">Combinatorial omics analysis reveals perturbed lysosomal homeostasis in collagen VII-deficient keratinocytes.</h2>
+                    <h2 class="title">New Paper &quot;Combinatorial omics analysis reveals perturbed lysosomal homeostasis in collagen VII-deficient keratinocytes&quot;</h2>
                   </a>
                   <span class="date">
                     
@@ -20403,7 +20979,7 @@ Read his guest post here:</p>
                   
                     <a href="/posts/2017/11/28/sci-reports/">
                   
-                    <h2 class="title">Sex differences in peripheral not central immune responses to paininducing injury</h2>
+                    <h2 class="title">New Paper &quot;Sex differences in peripheral not central immune responses to paininducing injury&quot;</h2>
                   </a>
                   <span class="date">
                     
@@ -22646,6 +23222,8 @@ From minimaps <a href="https://github.com/lh3/minimap2">homepage</a>:</p>
      
       tags.push(`paper`)
      
+      tags.push(`Bioconda`)
+     
       tags.push(`Freiburg`)
 
     if (!userTag ? true : tags.includes(userTag)) {
@@ -22653,13 +23231,13 @@ From minimaps <a href="https://github.com/lh3/minimap2">homepage</a>:</p>
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 paper news ">
+            <div class="col-md-4 paperBioconda news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
                     <a href="/posts/2017/10/21/bioconda-preprint/">
                   
-                    <h2 class="title">Our paper about BioConda on bioRXiv</h2>
+                    <h2 class="title">Our paper about BioConda on bioRxiv</h2>
                   </a>
                   <span class="date">
                     
@@ -22686,6 +23264,11 @@ From minimaps <a href="https://github.com/lh3/minimap2">homepage</a>:</p>
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=paper'"
            class="btn btn-primary btn-xs tag-element" role="button">paper</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Bioconda'"
+           class="btn btn-primary btn-xs tag-element" role="button">Bioconda</a>
     
 
 
@@ -24027,7 +24610,7 @@ He gave training on:</p>
                   
                     <a href="/posts/2017/09/26/mitochondrial-mutations/">
                   
-                    <h2 class="title">New Paper on &quot;Mitochondrial mutations in human cancer: Curation of translation&quot;</h2>
+                    <h2 class="title">New Paper &quot;Mitochondrial mutations in human cancer: Curation of translation&quot;</h2>
                   </a>
                   <span class="date">
                     

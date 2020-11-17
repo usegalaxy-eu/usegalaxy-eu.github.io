@@ -131,47 +131,76 @@ We presented <a href="https://gcc2019.sched.com/event/Rsld/training-infrastructu
 
 <h1 id="training-infrastructure-as-a-service">Training Infrastructure as a Service</h1>
 
-<p><img src="/assets/media/tiaas-logo.png" alt="tiaas logo depicting people in queues" width="300em" style="margin: 1em" /></p>
+<p><br />
+<img src="/assets/media/tiaas-logo.png" alt="tiaas logo depicting people in queues" width="300em" style="margin: 1em" />
+<br /></p>
 
-<p><a href="https://usegalaxy.eu">UseGalaxy.eu</a> is proud to provide Training Infrastructure as a Service (TIaaS) for the Galaxy training community.
-You provide the training, we provide the infrastructure <i>at no cost</i>.</p>
+<p>The <a href="https://usegalaxy.eu">European Galaxy Server</a> is proud to provide <strong>Training Infrastructure as a Service (TIaaS)</strong> for the Galaxy training community.
+You provide the training, we provide the <strong>infrastructure at no cost</strong>.</p>
 
 <h2 id="why-tiaas">Why TIaaS?</h2>
 
 <ul>
-  <li>Private queue where only your training’s jobs will run</li>
-  <li>Free</li>
-  <li>No Galaxy Maintenance</li>
-  <li>No Galaxy Administration</li>
-  <li>Official <a href="https://training.galaxyproject.org">Galaxy Training Materials</a> are guaranteed to work and <a href="https://github.com/usegalaxy-eu/workflow-testing/">regularly tested</a></li>
+  <li>Private queue where only your training’s jobs will run.</li>
+  <li>No Galaxy maintenance.</li>
+  <li>No Galaxy administration.</li>
+  <li>Free infrastructure.</li>
+  <li>Official <a href="https://training.galaxyproject.org">Galaxy Training Materials</a> are guaranteed to work and <a href="https://github.com/usegalaxy-eu/workflow-testing/">regularly tested</a>.</li>
   <li>
     <p>See how your students are progressing with <a href="/posts/2019/06/17/tiaas-queue/">our dashboard</a>:</p>
 
-    <p><img src="/assets/media/tiaas-queue.png" alt="tiaas queue visualizer" /></p>
+    <p><img src="/assets/media/tiaas-queue.png" alt="TIaaS Queue Visualizer" /></p>
   </li>
 </ul>
 
 <h2 id="how-tiaas-works">How TIaaS Works</h2>
 
-<p>We have several “pools” of VMs attached to UseGalaxy.eu that run user jobs. For
-trainings we attach a new pool of VMs that is specially labelled for that
-training. When normal users run tools on our server, these jobs are instructed
-to avoid the training pools by default.</p>
-
-<p>When users join a training, using a special URL we provide you, they then are
-placed in a special training group. Their jobs will then preferentially run the
-jobs on a training machine, and, in the event there is no more capacity, they
+<p>We have several “pools” of virtual machines (VMs) attached to UseGalaxy.eu that run user jobs. For trainings that request TIaaS, we attach a new pool of VMs that is specially labelled for that training. When users join a training using a <strong>special URL</strong> we provide you, they are assigned to a <strong>special training group</strong>. Their jobs will then <strong>preferentially run on a training machine</strong>, and, in the event there is no more capacity, they
 will run on the main queue. If a spot on a training VM opens up first, they
-will run there rather than continuing to wait in the main queue.</p>
-
-<p>Before users can join a specific piece of training, they need to be logged into the <a href="https://usegalaxy.eu/">European Galaxy server</a>. Once the training is over, the data will stay available for further use. However, we encourage you to clean up all the histories whenever this data will not be used anymore.</p>
+will run there rather than continuing to wait in the main queue. The jobs run by the rest of users on our server are instructed to avoid the training pools.</p>
 
 <p>Some more general information about the TIaaS service:</p>
 
 <ul>
-  <li><a href="https://usegalaxy.eu/tiaas/calendar/">a Calendar</a> that shows when TIaaS trainings are booked</li>
-  <li><a href="https://usegalaxy.eu/tiaas/stats/">some Statistics</a> about the TIaaS events</li>
+  <li><a href="https://usegalaxy.eu/tiaas/calendar/">A calendar</a> that shows when TIaaS trainings are booked.</li>
+  <li><a href="https://usegalaxy.eu/tiaas/stats/">Some statistics</a> about the TIaaS events.</li>
 </ul>
+
+<h3 id="before-the-training">Before the training</h3>
+
+<p>Before users can join a specific training, they need to be <strong>logged into the <a href="https://usegalaxy.eu/">European Galaxy server</a></strong>.</p>
+
+<p>To <strong>import data</strong>:</p>
+
+<ul>
+  <li>
+    <p>If you are using the <a href="training.galaxyproject.org/">GTN material</a> for
+your workshop, then all the <a href="https://usegalaxy.eu/library/folders/Fa21272e5bd712216">training data is already mirrored into Galaxy</a>.</p>
+  </li>
+  <li>
+    <p>If you are using your own data, you can upload it to your account
+into a history. Later, you can <a href="https://usegalaxy.eu/histories/sharing">make it accessible</a> to your trainees (do not
+forget to also share the datasets by clicking <code class="language-plaintext highlighter-rouge">Also make all objects within the History accessible</code>). Your trainees will then be able to import
+your history and start working with your data.</p>
+  </li>
+</ul>
+
+<h3 id="after-the-training">After the training</h3>
+
+<p>Once the training is over, the data will stay available for further use. However, we encourage you to <strong>clean up all the histories</strong> whenever this data will not be used anymore.</p>
+
+<p>To keep running this free service for your trainees, <strong>we need your feedback and support</strong>. It would be great if you could:</p>
+
+<ul>
+  <li>Write a (short) blog post that we will <strong>publish in our website</strong>. You can find examples <a href="/news?tag=TIaaS">here</a>.</li>
+  <li>Fill out the <a href="https://galaxyproject.org/news/2020-01-training-feedback/"><strong>GTN Survey</strong></a>.</li>
+  <li>Give feedback about a tutorial on <a href="https://github.com/galaxyproject/training-material/issues/1452"><strong>GitHub</strong></a>.</li>
+  <li>Tweet about your training tagging <a href="https://twitter.com/galaxyproject"><strong>@galaxyproject</strong></a>.</li>
+</ul>
+
+<h2 id="service-level-agreement">Service Level Agreement</h2>
+
+<p>We <em>cannot</em> promise any degree of uptime. We will do our best to have this service online and functioning during the entire time period, but there are cases where the service may experience interruptions that are outside of our control. We will keep you informed of any outages that may affect your training.</p>
 
 <h2 id="eligibility">Eligibility</h2>
 
@@ -179,21 +208,24 @@ will run there rather than continuing to wait in the main queue.</p>
 training using our service. Anyone providing training on using Galaxy is
 eligible to request the use of this service.</p>
 
-<h2 id="service-level-agreement">Service Level Agreement</h2>
-
-<p>We <em>cannot</em> promise any degree of uptime. We will do our best to have this service online and functioning during the entire time period but there are cases where the service may experience interruptions that are outside of our control. We will keep you informed of any outages that may affect your training.</p>
-
 <h2 id="application-process">Application Process</h2>
 
 <ol>
   <li>
-    <p>Fill out the request form and we will get in touch with you</p>
+    <p>Fill out the request form:</p>
 
     <p><button type="button" class="btn btn-primary btn-lg" onclick="window.open('https://usegalaxy.eu/tiaas/new/')">Request Training Infrastructure</button></p>
+
+    <p>Please try to submit your application <strong>at least two weeks in advance of the training</strong>.</p>
   </li>
-  <li>Together with you, we will determine how many VMs are needed for your training to run smoothly</li>
-  <li>We will setup the private queue and give you a URL your users will access to join the training.</li>
-  <li>Let us know how it went at the <a href="https://galaxyproject.org/news/2020-01-training-feedback/">GTN Survey</a>!</li>
+  <li>With the information that you input in the form, we will:
+    <ul>
+      <li>estimate how many VMs are needed for your training to run smoothly and will ask for your feedback,</li>
+      <li>setup the private queue and give you a URL your users will access to join the training,</li>
+      <li>give you a URL to the dashboard for you to see the queue status.</li>
+    </ul>
+  </li>
+  <li>Done! You are ready to run your training!</li>
 </ol>
 
         </div>
