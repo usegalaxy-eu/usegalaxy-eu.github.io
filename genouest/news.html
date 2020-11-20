@@ -1390,6 +1390,70 @@ For this purpose, we will follow David’s steps to add the very generic UNIX <c
 
 
      
+      tags.push(`release`)
+     
+      tags.push(``)
+
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
+
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4 release news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  
+                    <a href="/posts/2020/07/29/galaxy-20-05/">
+                  
+                    <h2 class="title">UseGalaxy.eu update to 20.05</h2>
+                  </a>
+                  <span class="date">
+                    
+
+
+
+
+
+
+
+	<i class="fa fa-bullhorn" aria-hidden="true"></i>
+
+
+
+
+
+                  </span>
+                  <span class="date">
+                    July 29, 2020
+                  </span>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
+                  
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=release'"
+           class="btn btn-primary btn-xs tag-element" role="button">release</a>
+    
+
+
+                </div>
+                <div class="news-content">
+                  <div><p>We’ve updated our Galaxy server to <strong>version 20.05</strong>. This version includes the <strong>migration to Python 3</strong> and improves usability in the aspects listed below.</p>
+</div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
+
+        news.append(div);
+    }
+    tags = []
+
+
+     
       tags.push(`training`)
      
       tags.push(`TIaaS`)
