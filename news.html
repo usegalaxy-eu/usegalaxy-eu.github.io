@@ -143,6 +143,141 @@
 
 
      
+      tags.push(`paper`)
+     
+      tags.push(`citation`)
+     
+      tags.push(`Freiburg`)
+
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
+
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4 papercitation news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  
+                    <a href="/posts/2020/11/21/paper-diabetes/">
+                  
+                    <h2 class="title">New Paper &quot;Diabetes changes gene expression but not DNA methylation in cardiac cells&quot;</h2>
+                  </a>
+                  <span class="date">
+                    
+
+
+
+
+	<i class="fa fa-file-text" aria-hidden="true"></i>
+
+
+
+
+
+
+
+
+                  </span>
+                  <span class="date">
+                    November 21, 2020
+                  </span>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
+                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=paper'"
+           class="btn btn-primary btn-xs tag-element" role="button">paper</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=citation'"
+           class="btn btn-primary btn-xs tag-element" role="button">citation</a>
+    
+
+
+                </div>
+                <div class="news-content">
+                  <div><p><br /></p>
+</div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
+
+        news.append(div);
+    }
+    tags = []
+
+
+     
+      tags.push(`tools`)
+     
+      tags.push(`Freiburg`)
+
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
+
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4 tools news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  
+                    <a href="/posts/2020/11/21/tool-update/">
+                  
+                    <h2 class="title">UseGalaxy.eu Tool Updates for 2020-11-21</h2>
+                  </a>
+                  <span class="date">
+                    
+
+
+
+
+
+	<i class="fa fa-wrench" aria-hidden="true"></i>
+
+
+
+
+
+
+
+                  </span>
+                  <span class="date">
+                    November 21, 2020
+                  </span>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
+                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=tools'"
+           class="btn btn-primary btn-xs tag-element" role="button">tools</a>
+    
+
+
+                </div>
+                <div class="news-content">
+                  <div><p>On 2020-11-21, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in <a href="https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#248/">Jenkins Build #248</a></p>
+</div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
+
+        news.append(div);
+    }
+    tags = []
+
+
+     
       tags.push(`data`)
      
       tags.push(`tools`)
