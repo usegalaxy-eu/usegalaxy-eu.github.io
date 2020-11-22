@@ -145,6 +145,70 @@
      
       tags.push(`paper`)
      
+      tags.push(`Freiburg`)
+
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
+
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4 paper news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  
+                    <a href="/posts/2020/11/22/paper-cancer/">
+                  
+                    <h2 class="title">New Paper &quot;Decitabine induces gene derepression on monosomic chromosomes: in vitro and in vivo effects in adverse-risk cytogenetics AML&quot;</h2>
+                  </a>
+                  <span class="date">
+                    
+
+
+
+
+	<i class="fa fa-file-text" aria-hidden="true"></i>
+
+
+
+
+
+
+
+
+                  </span>
+                  <span class="date">
+                    November 22, 2020
+                  </span>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
+                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=paper'"
+           class="btn btn-primary btn-xs tag-element" role="button">paper</a>
+    
+
+
+                </div>
+                <div class="news-content">
+                  <div><p><br /></p>
+</div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
+
+        news.append(div);
+    }
+    tags = []
+
+
+     
+      tags.push(`paper`)
+     
       tags.push(`citation`)
      
       tags.push(`Freiburg`)
