@@ -48,6 +48,77 @@
 
 
      
+      tags.push(`training`)
+     
+      tags.push(`TIaaS`)
+     
+      tags.push(``)
+
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
+
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4 trainingTIaaS news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  
+                    <a href="/posts/2020/12/08/tiaas_feedback_Melanie-Matthias/plain.html">
+                  
+                    <h2 class="title">Training Infrastructure Feedback on the ELIXIR Belgium workshop “DDA and DIA proteomic analysis in Galaxy” </h2>
+                  </a>
+                  <span class="date">
+                    
+
+
+
+	<i class="fa fa-graduation-cap" aria-hidden="true"></i>
+
+
+
+
+
+
+
+
+
+                  </span>
+                  <span class="date">
+                    December 8, 2020
+                  </span>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
+                  
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=training'"
+           class="btn btn-primary btn-xs tag-element" role="button">training</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=TIaaS'"
+           class="btn btn-primary btn-xs tag-element" role="button">TIaaS</a>
+    
+
+
+                </div>
+                <div class="news-content">
+                  <div><p>On December 3 and 4, we ran a 2-day Galaxy Proteomics data analysis workshop organized by ELIXIR Belgium. Therefore, most of the 20 participants were from Belgium, but others were from all around Europe, the US and Australia.</p>
+</div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
+
+        news.append(div);
+    }
+    tags = []
+
+
+     
       tags.push(`release`)
      
       tags.push(``)
