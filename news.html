@@ -156,6 +156,70 @@
               <div class="row" style="padding: 1em">
                 <div>
                   
+                    <a href="/posts/2020/12/16/paper-clip-explorer/">
+                  
+                    <h2 class="title">New Paper &quot;Galaxy CLIP-Explorer: a web server for CLIP-Seq data analysis&quot;</h2>
+                  </a>
+                  <span class="date">
+                    
+
+
+
+
+	<i class="fa fa-file-text" aria-hidden="true"></i>
+
+
+
+
+
+
+
+
+                  </span>
+                  <span class="date">
+                    December 16, 2020
+                  </span>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
+                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=paper'"
+           class="btn btn-primary btn-xs tag-element" role="button">paper</a>
+    
+
+
+                </div>
+                <div class="news-content">
+                  <div><p>Post-transcriptional regulation via RNA-binding proteins plays a fundamental role in every organism, but the regulatory mechanisms lack important understanding. Nevertheless, they can be elucidated by cross-linking immunoprecipitation in combination with high-throughput sequencing (CLIP-Seq). CLIP-Seq answers questions about the functional role of an RNA-binding protein and its targets by determining binding sites on a nucleotide level and associated sequence and structural binding patterns. In recent years the amount of CLIP-Seq data skyrocketed, urging the need for an automatic data analysis that can deal with different experimental set-ups. However, noncanonical data, new protocols, and a huge variety of tools, especially for peak calling, made it difficult to define a standard.</p>
+</div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
+
+        news.append(div);
+    }
+    tags = []
+
+
+     
+      tags.push(`paper`)
+     
+      tags.push(`Freiburg`)
+
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
+
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4 paper news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  
                     <a href="/posts/2020/12/15/paper-cardio/">
                   
                     <h2 class="title">New Paper &quot;Proximity to injury, but neither number of nuclei nor ploidy define pathological adaptation and plasticity in cardiomyocytes&quot;</h2>
@@ -190,7 +254,7 @@
 
                 </div>
                 <div class="news-content">
-                  <div><p><em>Abstract</em></p>
+                  <div><p>The adult mammalian heart consists of mononuclear and binuclear cardiomyocytes (CMs) with various ploidies. However, it remains unclear whether a variation in ploidy or number of nuclei is associated with distinct functions and injury responses in CMs, including regeneration. Therefore, we investigated transcriptomes and cellular as well as nuclear features of mononucleated and binucleated CMs in adult mouse hearts with and without injury.</p>
 </div>
                 </div>
               </div>
