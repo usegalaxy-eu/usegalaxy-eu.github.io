@@ -1,4 +1,107 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2020-12-28T17:44:36+01:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2020-12-26</title><link href="https://galaxyproject.eu/posts/2020/12/26/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2020-12-26" /><published>2020-12-26T00:00:00+01:00</published><updated>2020-12-26T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2020/12/26/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/12/26/tool-update/">&lt;p&gt;On 2020-12-26, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#251/&quot;&gt;Jenkins Build #251&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2020-12-28T22:56:02+01:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">European Galaxy Flavours</title><link href="https://galaxyproject.eu/posts/2020/12/28/subdomains/" rel="alternate" type="text/html" title="European Galaxy Flavours" /><published>2020-12-28T00:00:00+01:00</published><updated>2020-12-28T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2020/12/28/subdomains</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/12/28/subdomains/">&lt;p&gt;&lt;a href=&quot;https://usegalaxy.eu/&quot;&gt;UseGalaxy.eu&lt;/a&gt; hosts several domain-specific versions of the usegalaxy.eu server.&lt;/p&gt;
+
+&lt;p&gt;These domains are &lt;strong&gt;featured interfaces&lt;/strong&gt; that show a subset of the analysis tools, datasets and workflows relevant for different research areas. All the tools available in the different domains can be also accessed from &lt;a href=&quot;usegalaxy.eu&quot;&gt;UseGalaxy.eu&lt;/a&gt; and the &lt;strong&gt;quota&lt;/strong&gt; and data associated with the user account are shared through all the domains.&lt;/p&gt;
+
+&lt;p&gt;Any community is welcome to create and maintain their own sub-domain within &lt;a href=&quot;https://usegalaxy.eu/&quot;&gt;UseGalaxy.eu&lt;/a&gt;. So far, there are 22 sub-domains registered:&lt;/p&gt;
+
+&lt;table class=&quot;table table-striped&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;RESEARCH AREA&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;DOMAIN&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;African Research&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;&lt;a href=&quot;https://africa.usegalaxy.eu&quot;&gt;africa.usegalaxy.eu&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Galaxy for Genome Annotation&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;&lt;a href=&quot;https://annotation.usegalaxy.eu&quot;&gt;annotation.usegalaxy.eu&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Computational Chemistry&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;&lt;a href=&quot;https://cheminformatics.usegalaxy.eu&quot;&gt;cheminformatics.usegalaxy.eu&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Climate Science&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;&lt;a href=&quot;https://climate.usegalaxy.eu&quot;&gt;climate.usegalaxy.eu&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;CLIP-Explorer&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;&lt;a href=&quot;https://clipseq.usegalaxy.eu&quot;&gt;clipseq.usegalaxy.eu&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;COVID-19&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;&lt;a href=&quot;https://covid19.usegalaxy.eu&quot;&gt;covid19.usegalaxy.eu&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Ecology&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;&lt;a href=&quot;https://ecology.usegalaxy.eu&quot;&gt;ecology.usegalaxy.eu&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Erasmus MC&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;&lt;a href=&quot;https://erasmusmc.usegalaxy.eu&quot;&gt;erasmusmc.usegalaxy.eu&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Clustering of RNA&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;&lt;a href=&quot;https://graphclust.usegalaxy.eu&quot;&gt;graphclust.usegalaxy.eu&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;HiCExplorer&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;&lt;a href=&quot;https://hicexplorer.usegalaxy.eu&quot;&gt;hicexplorer.usegalaxy.eu&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Human Cell Atlas&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;&lt;a href=&quot;https://humancellatlas.usegalaxy.eu&quot;&gt;humancellatlas.usegalaxy.eu&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Imaging&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;&lt;a href=&quot;https://imaging.usegalaxy.eu&quot;&gt;imaging.usegalaxy.eu&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Metabolomics&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;&lt;a href=&quot;https://metabolomics.usegalaxy.eu&quot;&gt;metabolomics.usegalaxy.eu&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Metagenomics&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;&lt;a href=&quot;https://metagenomics.usegalaxy.eu&quot;&gt;metagenomics.usegalaxy.eu&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Machine Learning&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;&lt;a href=&quot;https://ml.usegalaxy.eu&quot;&gt;ml.usegalaxy.eu&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;NanoGalaxy&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;&lt;a href=&quot;https://nanopore.usegalaxy.eu&quot;&gt;nanopore.usegalaxy.eu&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Plant Biology&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;&lt;a href=&quot;https://plants.usegalaxy.eu&quot;&gt;plants.usegalaxy.eu&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Proteomics&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;&lt;a href=&quot;https://proteomics.usegalaxy.eu&quot;&gt;proteomics.usegalaxy.eu&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;RNA&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;&lt;a href=&quot;https://rna.usegalaxy.eu&quot;&gt;rna.usegalaxy.eu&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Single Cell Omics&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;&lt;a href=&quot;https://singlecell.usegalaxy.eu&quot;&gt;singlecell.usegalaxy.eu&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Street Science Community&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;&lt;a href=&quot;https://streetscience.usegalaxy.eu&quot;&gt;streetscience.usegalaxy.eu&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Virology&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;&lt;a href=&quot;https://virology.usegalaxy.eu&quot;&gt;virology.usegalaxy.eu&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html">UseGalaxy.eu hosts several domain-specific versions of the usegalaxy.eu server.</summary></entry><entry><title type="html">UseGalaxy.eu Tool Updates for 2020-12-26</title><link href="https://galaxyproject.eu/posts/2020/12/26/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2020-12-26" /><published>2020-12-26T00:00:00+01:00</published><updated>2020-12-26T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2020/12/26/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/12/26/tool-update/">&lt;p&gt;On 2020-12-26, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#251/&quot;&gt;Jenkins Build #251&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;proteomics&quot;&gt;Proteomics&lt;/h2&gt;
 
@@ -738,8 +841,4 @@
 
 &lt;ul&gt;
   &lt;li&gt;kraken2 was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/kraken2/4a9da2b6c2e3&quot;&gt;4a9da2b6c2e3&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2020-11-28, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #249</summary></entry><entry><title type="html">Insights from the first cross-training between EOSC-Life and EOSC-Nordic</title><link href="https://galaxyproject.eu/posts/2020/11/27/eosc-nordic-article/" rel="alternate" type="text/html" title="Insights from the first cross-training between EOSC-Life and EOSC-Nordic" /><published>2020-11-27T00:00:00+01:00</published><updated>2020-11-27T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2020/11/27/eosc-nordic-article</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/11/27/eosc-nordic-article/">&lt;p&gt;Anne Fouilloux has written an article for EOSC-Nordic describing her experience with the training on FATES (Functionally Assembled Terrestrial Ecosystem Simulator) using Galaxy and TIaaS and funded by EOSC-Life WP9.&lt;/p&gt;</content><author><name></name></author><category term="training" /><category term="press" /><category term="TIaaS" /><summary type="html">Anne Fouilloux has written an article for EOSC-Nordic describing her experience with the training on FATES (Functionally Assembled Terrestrial Ecosystem Simulator) using Galaxy and TIaaS and funded by EOSC-Life WP9.</summary></entry><entry><title type="html">Training Infrastructure Feedback from Ambre Jousselin</title><link href="https://galaxyproject.eu/posts/2020/11/27/tiaas_feedback_Ambre/" rel="alternate" type="text/html" title="Training Infrastructure Feedback from Ambre Jousselin" /><published>2020-11-27T00:00:00+01:00</published><updated>2020-11-27T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2020/11/27/tiaas_feedback_Ambre</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/11/27/tiaas_feedback_Ambre/">&lt;p&gt;The past 23-25 Nov, I run a 2-day Microbial Genomics workshop for 16 master students. It covered reads inspection to genome assembly, annotation and reads mapping.&lt;/p&gt;
-
-&lt;p&gt;Although this year was the first time that it went virtual, I have only positive feedback from this training, the jobs submitted were completed within few minutes and the possibility of sharing histories allowed the students with a poor internet connection to not waste time retrieving and uploading data.&lt;/p&gt;
-
-&lt;p&gt;Many thanks to the Galaxy Training Infrastructure as a Service, we could not live without it!&lt;/p&gt;</content><author><name>Ambre Jousselin</name></author><category term="training" /><category term="TIaaS" /><summary type="html">The past 23-25 Nov, I run a 2-day Microbial Genomics workshop for 16 master students. It covered reads inspection to genome assembly, annotation and reads mapping.</summary></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2020-11-28, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #249</summary></entry><entry><title type="html">Insights from the first cross-training between EOSC-Life and EOSC-Nordic</title><link href="https://galaxyproject.eu/posts/2020/11/27/eosc-nordic-article/" rel="alternate" type="text/html" title="Insights from the first cross-training between EOSC-Life and EOSC-Nordic" /><published>2020-11-27T00:00:00+01:00</published><updated>2020-11-27T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2020/11/27/eosc-nordic-article</id><content type="html" xml:base="https://galaxyproject.eu/posts/2020/11/27/eosc-nordic-article/">&lt;p&gt;Anne Fouilloux has written an article for EOSC-Nordic describing her experience with the training on FATES (Functionally Assembled Terrestrial Ecosystem Simulator) using Galaxy and TIaaS and funded by EOSC-Life WP9.&lt;/p&gt;</content><author><name></name></author><category term="training" /><category term="press" /><category term="TIaaS" /><summary type="html">Anne Fouilloux has written an article for EOSC-Nordic describing her experience with the training on FATES (Functionally Assembled Terrestrial Ecosystem Simulator) using Galaxy and TIaaS and funded by EOSC-Life WP9.</summary></entry></feed>
