@@ -154,6 +154,108 @@
 
 
      
+      tags.push(`report`)
+     
+      tags.push(`data`)
+     
+      tags.push(`tools`)
+     
+      tags.push(`training`)
+     
+      tags.push(`streetscience`)
+     
+      tags.push(`COVID-19`)
+     
+      tags.push(``)
+
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
+
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4 reportdatatoolstrainingstreetscienceCOVID-19 news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  
+                    <a href="/posts/2020/12/31/balance-2020/">
+                  
+                    <h2 class="title">The European Galaxy Server in 2020</h2>
+                  </a>
+                  <span class="date">
+                    
+
+
+
+	<i class="fa fa-graduation-cap" aria-hidden="true"></i>
+
+
+
+	<i class="fa fa-wrench" aria-hidden="true"></i>
+
+
+
+
+
+
+
+                  </span>
+                  <span class="date">
+                    December 31, 2020
+                  </span>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
+                  
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=report'"
+           class="btn btn-primary btn-xs tag-element" role="button">report</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=data'"
+           class="btn btn-primary btn-xs tag-element" role="button">data</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=tools'"
+           class="btn btn-primary btn-xs tag-element" role="button">tools</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=training'"
+           class="btn btn-primary btn-xs tag-element" role="button">training</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=streetscience'"
+           class="btn btn-primary btn-xs tag-element" role="button">streetscience</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=COVID-19'"
+           class="btn btn-primary btn-xs tag-element" role="button">COVID-19</a>
+    
+
+
+                </div>
+                <div class="news-content">
+                  <div><h4 id="unnoficial-version"><em>UNNOFICIAL VERSION:</em></h4>
+<hr />
+</div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
+
+        news.append(div);
+    }
+    tags = []
+
+
+     
       tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
