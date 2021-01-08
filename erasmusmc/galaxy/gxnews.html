@@ -50,6 +50,77 @@
      
       tags.push(`galaxy`)
      
+      tags.push(`newsletter`)
+     
+      tags.push(``)
+
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
+
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4 galaxynewsletter news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  
+                    <a href="https://galaxyproject.org/news/2021-01-galaxy-update/">
+                  
+                    <h2 class="title">January Galactic News!</h2>
+                  </a>
+                  <span class="date">
+                    
+	<i class="fa fa-external-link" aria-hidden="true"></i>
+
+
+
+
+
+
+
+
+
+
+
+
+                  </span>
+                  <span class="date">
+                    January 8, 2021
+                  </span>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
+                  
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=galaxy'"
+           class="btn btn-primary btn-xs tag-element" role="button">galaxy</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=newsletter'"
+           class="btn btn-primary btn-xs tag-element" role="button">newsletter</a>
+    
+
+
+                </div>
+                <div class="news-content">
+                  <div><p>The <a href="https://galaxyproject.org/news/2021-01-galaxy-update/">first Galactic News of 2021</a> is out, with several big events coming up: Galaxy-ELIXIR webinars, developer roundtables, papercuts day… 4 Galaxy platform news, 3 blog posts, training videos, publications, jobs and more!</p>
+</div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
+
+        news.append(div);
+    }
+    tags = []
+
+
+     
+      tags.push(`galaxy`)
+     
       tags.push(`training`)
      
       tags.push(``)
@@ -293,6 +364,77 @@
                 </div>
                 <div class="news-content">
                   <div><p>On December 3 and 4, we ran a 2-day Galaxy Proteomics data analysis workshop organized by ELIXIR Belgium. Therefore, most of the 20 participants were from Belgium, but others were from all around Europe, the US and Australia.</p>
+</div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
+
+        news.append(div);
+    }
+    tags = []
+
+
+     
+      tags.push(`galaxy`)
+     
+      tags.push(`newsletter`)
+     
+      tags.push(``)
+
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
+
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4 galaxynewsletter news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  
+                    <a href="https://galaxyproject.org/news/2020-12-galaxy-update/">
+                  
+                    <h2 class="title">December Galactic News!</h2>
+                  </a>
+                  <span class="date">
+                    
+	<i class="fa fa-external-link" aria-hidden="true"></i>
+
+
+
+
+
+
+
+
+
+
+
+
+                  </span>
+                  <span class="date">
+                    December 8, 2020
+                  </span>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
+                  
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=galaxy'"
+           class="btn btn-primary btn-xs tag-element" role="button">galaxy</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=newsletter'"
+           class="btn btn-primary btn-xs tag-element" role="button">newsletter</a>
+    
+
+
+                </div>
+                <div class="news-content">
+                  <div><p>Check out the <a href="https://galaxyproject.org/news/2020-12-galaxy-update/">December Galactic News</a> with updates of events, platform news, blog posts, training materials, releases and publications.</p>
 </div>
                 </div>
               </div>
