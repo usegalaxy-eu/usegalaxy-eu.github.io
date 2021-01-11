@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <title>Galaxy Europe | New Paper "Tool recommender system in Galaxy using deep learning"</title>
+  <meta property="og:title" content="New Paper "Tool recommender system in Galaxy using deep l..." />
+  <meta property="og:description" content="
+" />
+  <meta property="og:image" content="/assets/media/galaxy-eu-logo.512.png" />
+  <meta name="description" content="The European Galaxy Instance">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+
+
+
+
+  <link rel="canonical" href="https://galaxyproject.eu/posts/2021/01/11/paper-tool-recommendation/plain.html">
+  <link rel="shortcut icon" href="/assets/media/galaxy-eu-logo.64.png" type="image/x-icon" />
+  <link rel="alternate" type="application/rss+xml" title="Galaxy Europe" href="/feed.xml">
+
+  <link href="/assets/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <script src="/assets/js/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
+  <script src="/assets/js/bootstrap.min.js" integrity="sha256-U5ZEeKfGNOja007MMD3YBI0A3OSZOQbeG6z2f2Y0hu8=" crossorigin="anonymous"></script>
+</head>
+
+  <body>
+    <div id="wrap">
+      <div id="main">
+        <div class="container" id="maincontainer">
+          
+
+
+
+
+<section id="news-page">
+  <div class="row news-header-row">
+    
+    <a class="col-xs-1 text-center" href="/posts/2021/01/08/galactic-news/plain.html">
+      «
+    </a>
+    
+    <div class="col-xs-10 ">
+      <div class="text-center">
+        <h2 class="title">New Paper &quot;Tool recommender system in Galaxy using deep learning&quot;</h2>
+      </div>
+      <hr />
+    </div>
+    
+  </div>
+  <div class="row post-metadata">
+    <div class="col-md-8 col-md-offset-2">
+      <div class="row">
+        <div class="col-md-6">
+            
+
+        </div>
+        <div class="col-md-6 text-right">
+          <div>
+            <span class="post-date">
+              Jan 11, 2021
+            </span>
+
+            
+
+            <br />
+            <span class="post-tags">
+                <span class="label label-success">Freiburg</span>
+              
+                <span class="label label-info">paper</span>
+              
+              
+                <a href="https://dx.doi.org/10.1093/gigascience/giaa152">
+                <span class="label label-warning">DOI:10.1093/gigascience/giaa152</span>
+                </a>
+              
+            </span>
+
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2">
+      <div class="news-content">
+        <p><br /></p>
+
+<p><em>Abstract</em></p>
+
+<p><strong>Background</strong>
+Galaxy is a web-based and open-source scientific data-processing platform. Researchers compose pipelines in Galaxy to analyse scientific data.
+These pipelines, also known as workflows, can be complex and difficult to create from thousands of tools, especially for researchers new to Galaxy.
+To help researchers with creating workflows, a system is developed to recommend tools that can facilitate further data analysis.</p>
+
+<p><strong>Findings</strong>
+A model is developed to recommend tools using a deep learning approach by analysing workflows composed by researchers on the European Galaxy server.
+The higher-order dependencies in workflows, represented as directed acyclic graphs, are learned by training a gated recurrent units neural network, a variant of a recurrent neural network. 
+In the neural network training, the weights of tools used are derived from their usage frequencies over time and the sequences of tools are uniformly sampled from training data. Hyperparameters of the neural network are optimized using Bayesian optimization. Mean accuracy of 98% in recommending tools is achieved for the top-1 metric.</p>
+
+<p><strong>Conclusions</strong>
+The model is accessed by a Galaxy API to provide researchers with recommended tools in an interactive manner using multiple user interface integrations on the European Galaxy server. 
+High-quality and highly used tools are shown at the top of the recommendations. 
+The scripts and data to create the recommendation system are available under MIT license at https://github.com/anuprulez/galaxy_tool_recommendation.</p>
+
+<p><em>Core mechanism</em></p>
+
+<p><img src="https://github.com/anuprulez/issues/raw/master/core_mechanism.png" alt="Workflow" /></p>
+
+<p>An example workflow consisting of 5 different tools (a) is decomposed into multiple tool sequences (b–d). Each tool sequence shows higher-order dependencies where a tool is dependent on all of its prior tools. These dependencies are indicated by the dashed arrows.</p>
+
+<p><em>How to use tool recommender</em></p>
+
+<p><strong>After running a tool</strong></p>
+
+<p><img src="https://github.com/anuprulez/issues/raw/master/tool-exe.gif" alt="tool execution" /></p>
+
+<p><strong>Workflow editor</strong></p>
+
+<p><img src="https://github.com/anuprulez/issues/raw/master/wf-exe.gif" alt="workflow editor" /></p>
+
+<p><br /></p>
+<div class="jekyll-twitter-plugin"><blockquote class="twitter-tweet"><p lang="en" dir="ltr">The tool recommender paper is online! Thanks <a href="https://twitter.com/hashtag/usegalaxy?src=hash&amp;ref_src=twsrc%5Etfw">#usegalaxy</a> <a href="https://twitter.com/GigaScience?ref_src=twsrc%5Etfw">@GigaScience</a> <a href="https://t.co/Bieh7hIV1a">https://t.co/Bieh7hIV1a</a></p>&mdash; Anup Kumar (@musafirtweetsz) <a href="https://twitter.com/musafirtweetsz/status/1347103855247560704?ref_src=twsrc%5Etfw">January 7, 2021</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+</section>
+
+        </div>
+      </div>
+    </div>
+    
+
+
+
+
+
+
+
+<footer class="navbar-default">
+    <div class="container">
+        <div class="row">
+        </div>
+        <div class="row">
+            <div class="col-lg-12" style="text-align:center">
+                <p>The <a href="/freiburg/people">Freiburg Galaxy Team</a> is headed by Björn Grüning
+and is part of the <a href="http://www.bioinf.uni-freiburg.de">Bioinformatics Group
+Freiburg</a>, headed by Prof. Dr. Rolf
+Backofen.</p>
+
+<p>The team is part of <a href="https://www.denbi.de">de.NBI</a> and
+<a href="https://www.elixir-europe.org">ELIXIR</a> and largely funded by
+<a href="http://dfg.de/">DFG</a> and <a href="https://www.bmbf.de">BMBF</a>. All content on
+this site is available under <a href="https://creativecommons.org/share-your-work/public-domain/cc0/">CC0-1.0</a>,
+unless otherwise specified.</p>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12" style="text-align:center">
+                <ul class="contact-info">
+                    <li><i class="fa fa-github"></i><a href="https://github.com/usegalaxy-eu/website/tree/master/_posts_plain/2021-01-11-paper-tool-recommendation.md">Edit this page on GitHub</a></li>
+                    
+                      <li><i class="fa fa-envelope"></i><a href="mailto:galaxy@informatik.uni-freiburg.de">galaxy@informatik.uni-freiburg.de</a></li>
+                    
+                    
+                      <li><i class="fa fa-github"></i><a href="https://github.com/usegalaxy-eu">usegalaxy-eu</a></li>
+                    
+                    
+                      <li><i class="fa fa-twitter"></i><a href="https://twitter.com/galaxyproject">galaxyproject</a></li>
+                    
+                      <li><i class="fa fa-rss"></i>Subscribe <a href="/feed.xml">via RSS (UseGalaxy.eu Feed)</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script async defer data-domain="galaxyproject.eu" src="https://plausible.galaxyproject.eu/js/plausible.js"></script>
+  </body>
+</html>
