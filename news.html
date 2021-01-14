@@ -350,61 +350,6 @@ The training topic nominations for the <a href="https://www.vibconferences.be/ev
 
 
      
-      tags.push(``)
-
-    if (!userTag ? true : tags.includes(userTag)) {
-      counter++
-
-      div = `
-            ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4  news ">
-              <div class="row" style="padding: 1em">
-                <div>
-                  
-                    <a href="/posts/2021/01/08/tool-update/">
-                  
-                    <h2 class="title">Tool Update</h2>
-                  </a>
-                  <span class="date">
-                    
-
-
-
-
-
-
-
-
-
-
-
-                  </span>
-                  <span class="date">
-                    January 8, 2021
-                  </span>
-                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
-                  class="btn btn-success btn-xs tag-element" role="button"></a>
-                  
-
-                </div>
-                <div class="news-content">
-                  <div>
-</div>
-                </div>
-              </div>
-            </div>
-            ${counter === 3 ? '</div>' : ''}
-            `
-        if (counter === 3) {
-          counter = 0
-        }
-
-        news.append(div);
-    }
-    tags = []
-
-
-     
       tags.push(`galaxy`)
      
       tags.push(`training`)
