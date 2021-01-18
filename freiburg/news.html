@@ -219,6 +219,73 @@ A new framework for medical imaging research, <a href="https://www.nora-imaging.
 
 
      
+      tags.push(`tools`)
+     
+      tags.push(``)
+
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
+
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4 tools news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  
+                    <a href="/posts/2021/01/18/sg-ps-update/">
+                  
+                    <h2 class="title">Major update to SearchGUI and PeptideShaker</h2>
+                  </a>
+                  <span class="date">
+                    
+
+
+
+
+
+	<i class="fa fa-wrench" aria-hidden="true"></i>
+
+
+
+
+
+
+
+                  </span>
+                  <span class="date">
+                    January 18, 2021
+                  </span>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
+                  
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=tools'"
+           class="btn btn-primary btn-xs tag-element" role="button">tools</a>
+    
+
+
+                </div>
+                <div class="news-content">
+                  <div><p>After 3 years of work, <a href="https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/galaxyp/peptideshaker/search_gui/">SearchGUI (SG)</a>,
+a tool that performs protein identification using various search engines, and <a href="https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/galaxyp/peptideshaker/peptide_shaker/">PeptideShaker (PS)</a>
+ for protein identification (which uses SearchGUI results) have been deeply updated and released in new major versions: 4.0.7 and 2.0.5, respectively.
+Furthermore, two new utility tools have been added to make the overall workflow more flexible:</p>
+</div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
+
+        news.append(div);
+    }
+    tags = []
+
+
+     
       tags.push(`training`)
      
       tags.push(`GCC`)

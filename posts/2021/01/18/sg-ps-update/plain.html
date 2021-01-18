@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  <title>Galaxy Europe | Nora, the new visualisation in Galaxy</title>
-  <meta property="og:title" content="Nora, the new visualisation in Galaxy" />
-  <meta property="og:description" content="
-A new framework for medical imaging research, Nora, has ..." />
+  <title>Galaxy Europe | Major update to SearchGUI and PeptideShaker</title>
+  <meta property="og:title" content="Major update to SearchGUI and PeptideShaker" />
+  <meta property="og:description" content="After 3 years of work, SearchGUI (SG),
+a tool that perfor..." />
   <meta property="og:image" content="/assets/media/galaxy-eu-logo.512.png" />
   <meta name="description" content="The European Galaxy Instance">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,7 +17,7 @@ A new framework for medical imaging research, Nora, has ..." />
 
 
 
-  <link rel="canonical" href="https://galaxyproject.eu/posts/2021/01/18/nora-available-in-Galaxy/plain.html">
+  <link rel="canonical" href="https://galaxyproject.eu/posts/2021/01/18/sg-ps-update/plain.html">
   <link rel="shortcut icon" href="/assets/media/galaxy-eu-logo.64.png" type="image/x-icon" />
   <link rel="alternate" type="application/rss+xml" title="Galaxy Europe" href="/feed.xml">
 
@@ -38,20 +38,16 @@ A new framework for medical imaging research, Nora, has ..." />
 <section id="news-page">
   <div class="row news-header-row">
     
-    <a class="col-xs-1 text-center" href="/posts/2021/01/12/gcc-training-nomination/plain.html">
+    <a class="col-xs-1 text-center" href="/posts/2021/01/18/nora-available-in-Galaxy/plain.html">
       «
     </a>
     
     <div class="col-xs-10 ">
       <div class="text-center">
-        <h2 class="title">Nora, the new visualisation in Galaxy</h2>
+        <h2 class="title">Major update to SearchGUI and PeptideShaker</h2>
       </div>
       <hr />
     </div>
-    
-    <a class="col-xs-1 text-center" href="/posts/2021/01/18/sg-ps-update/plain.html">
-      »
-    </a>
     
   </div>
   <div class="row post-metadata">
@@ -88,39 +84,43 @@ A new framework for medical imaging research, Nora, has ..." />
   <div class="row">
     <div class="col-md-8 col-md-offset-2">
       <div class="news-content">
-        <p><br />
-A new framework for medical imaging research, <a href="https://www.nora-imaging.com/">Nora</a>, has been added to the Galaxy visualisations. Nora has been developed by Dr. Marco Reisert and Dr. Elias Kellner at the Department of Radiology from the University Medical Center of Freiburg.</p>
+        <p>After 3 years of work, <a href="https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/galaxyp/peptideshaker/search_gui/">SearchGUI (SG)</a>,
+a tool that performs protein identification using various search engines, and <a href="https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/galaxyp/peptideshaker/peptide_shaker/">PeptideShaker (PS)</a>
+ for protein identification (which uses SearchGUI results) have been deeply updated and released in new major versions: 4.0.7 and 2.0.5, respectively.
+Furthermore, two new utility tools have been added to make the overall workflow more flexible:</p>
 
-<p>Nora provides features beyond the standard, such as real-time image resclicing (MPR), overlays, ROIs, 3D surface rendering and connectome/fiber viewer. It can take image file formats (e.g. DICOM, NIFTI, BRUKER) and other common formats too (e.g. json, jpeg, png, pdf). The visualisation can now be customised within the Galaxy interface:</p>
+<ul>
+  <li><a href="https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/galaxyp/peptideshaker/ident_params/">Identification parameters</a> for creating parameter files reusable by both SG and PS.</li>
+  <li><a href="https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/galaxyp/peptideshaker/fasta_cli/">FastaCLI</a>, which appends decoy sequences to a FASTA file in a format readable by SG and PS.</li>
+</ul>
 
-<p><img src="/assets/media/2021-01-15-nora.png" alt="nora" /></p>
+<p>The number of changes and improvements made is large, a few highlights:</p>
 
-<p>Althought it is already deployed and ready to use in <a href="https://usegalaxy.eu/visualizations">usegalaxy.eu</a>, it will be included in the next Galaxy release 21.01.</p>
+<h3 id="searchgui">SearchGUI</h3>
 
-<p>Thank you Marco and Elias for the collaboration!</p>
+<ul>
+  <li>Support for spectrum files in mzML format.</li>
+  <li>Search engines updated to the most recent versions. Options updated accordingly.</li>
+  <li>FASTA file is now out of the search parameters.</li>
+  <li>Many more supported search engines parameters.</li>
+  <li>More <a href="http://compomics.github.io/projects/searchgui/wiki/ReleaseNotes">detailed release notes</a>.</li>
+</ul>
+
+<h3 id="peptideshaker">PeptideShaker</h3>
+
+<ul>
+  <li>Support for spectrum files in mzML format.</li>
+  <li>Internal refactoring, new internal database and more efficient data management.</li>
+  <li>Reduced file sizes and memory load.</li>
+  <li>More <a href="http://compomics.github.io/projects/peptide-shaker/wiki/ReleaseNotes">detailed release notes</a>.</li>
+</ul>
+
+<p>Thanks, Carlos Horro Marcos for your awesome work on the Galaxy integration.</p>
 
       </div>
     </div>
   </div>
 
-
-<div id="supported">
-    
-  <h3>Supported by</h3>
-    
-  <div class="row eu-image-box">
-      
-      <div>
-      
-          
-            <a href="http://uni-freiburg.de/" target="_blank">
-              <img alt="University of Freiburg Logo" src="/assets/media/Logo_Uni_Freiburg.png" class="img-responsive eu-image" />
-            </a>
-          
-      </div>
-      
-  </div>
-</div>
 
 
 </section>
@@ -151,7 +151,7 @@ All content on this site is available under <a href="https://creativecommons.org
         <div class="row">
             <div class="col-lg-12" style="text-align:center">
                 <ul class="contact-info">
-                    <li><i class="fa fa-github"></i><a href="https://github.com/usegalaxy-eu/website/tree/master/_posts_plain/2021-01-18-nora-available-in-Galaxy.md">Edit this page on GitHub</a></li>
+                    <li><i class="fa fa-github"></i><a href="https://github.com/usegalaxy-eu/website/tree/master/_posts_plain/2021-01-18-sg-ps-update.md">Edit this page on GitHub</a></li>
                     
                       <li><i class="fa fa-envelope"></i><a href="mailto:galaxy@informatik.uni-freiburg.de">galaxy@informatik.uni-freiburg.de</a></li>
                     
