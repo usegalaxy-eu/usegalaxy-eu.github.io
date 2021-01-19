@@ -361,11 +361,74 @@ More information and application here <a href="https://www.france-bioinformatiqu
 
 
      
+      tags.push(`galaxy`)
+     
+      tags.push(``)
+
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
+
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4 galaxy news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  
+                    <a href="/posts/2021/01/15/galaxy-wg/">
+                  
+                    <h2 class="title">New Galaxy Community Organization: Working Groups</h2>
+                  </a>
+                  <span class="date">
+                    
+
+
+
+
+
+
+
+
+
+
+
+                  </span>
+                  <span class="date">
+                    January 15, 2021
+                  </span>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
+                  
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=galaxy'"
+           class="btn btn-primary btn-xs tag-element" role="button">galaxy</a>
+    
+
+
+                </div>
+                <div class="news-content">
+                  <div><p><br />
+The Galaxy community is undergoing an <strong>organizational transformation</strong>, with the main focus on improving the global coordination in different areas by defining <a href="https://galaxyproject.org/community/wg/"><strong>Working Groups</strong></a>. The motivations behind this shift are the rapid growth of the community and its diversity.</p>
+</div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
+
+        news.append(div);
+    }
+    tags = []
+
+
+     
       tags.push(`training`)
      
       tags.push(`GCC`)
      
-      tags.push(`Freiburg`)
+      tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
       counter++
@@ -399,8 +462,8 @@ More information and application here <a href="https://www.france-bioinformatiqu
                   <span class="date">
                     January 12, 2021
                   </span>
-                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
-                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
                   
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=training'"
@@ -568,8 +631,6 @@ The training topic nominations for the <a href="https://www.vibconferences.be/ev
 
 
      
-      tags.push(`galaxy`)
-     
       tags.push(`training`)
      
       tags.push(``)
@@ -579,7 +640,7 @@ The training topic nominations for the <a href="https://www.vibconferences.be/ev
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 galaxytraining news ">
+            <div class="col-md-4 training news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -609,11 +670,6 @@ The training topic nominations for the <a href="https://www.vibconferences.be/ev
                   <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
                   class="btn btn-success btn-xs tag-element" role="button"></a>
                   
-    
-        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=galaxy'"
-           class="btn btn-primary btn-xs tag-element" role="button">galaxy</a>
-    
-
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=training'"
            class="btn btn-primary btn-xs tag-element" role="button">training</a>
