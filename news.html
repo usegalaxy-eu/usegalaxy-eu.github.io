@@ -88,6 +88,10 @@
                   <a class="page-link" href="/elixir-it/">ELIXIR-IT/Laniakea</a>
                 </li>
               
+                <li>
+                  <a class="page-link" href="/ifb/">ELIXIR-FR/IFB</a>
+                </li>
+              
              </ul>
            </li>
 
@@ -259,6 +263,88 @@ A new framework for medical imaging research, <a href="https://www.nora-imaging.
 a tool that performs protein identification using various search engines, and <a href="https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/galaxyp/peptideshaker/peptide_shaker/">PeptideShaker (PS)</a>
  for protein identification (which uses SearchGUI results) have been deeply updated and released in new major versions: 4.0.7 and 2.0.5, respectively.
 Furthermore, two new utility tools have been added to make the overall workflow more flexible:</p>
+</div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
+
+        news.append(div);
+    }
+    tags = []
+
+
+     
+      tags.push(`jobs`)
+     
+      tags.push(`devops`)
+     
+      tags.push(`galaxy`)
+     
+      tags.push(``)
+
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
+
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4 jobsdevopsgalaxy news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  
+                    <a href="/posts/2021/01/18/usegalaxy-fr-hiring/">
+                  
+                    <h2 class="title">UseGalaxy.fr is hiring</h2>
+                  </a>
+                  <span class="date">
+                    
+
+
+
+
+
+
+	<i class="fa fa-gear" aria-hidden="true"></i>
+
+
+
+
+
+
+                  </span>
+                  <span class="date">
+                    January 18, 2021
+                  </span>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
+                  
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=jobs'"
+           class="btn btn-primary btn-xs tag-element" role="button">jobs</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=devops'"
+           class="btn btn-primary btn-xs tag-element" role="button">devops</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=galaxy'"
+           class="btn btn-primary btn-xs tag-element" role="button">galaxy</a>
+    
+
+
+                </div>
+                <div class="news-content">
+                  <div><p><br />
+<strong>New job opportunity at the <a href="https://www.france-bioinformatique.fr/">Institut Français de Bioinformatique (IFB)</a> - Engineer Developer / DevOps!</strong><br />
+Located in Roscoff, Strasbourg or Rennes in France<br />
+Duration of 1 year, extensible to 3<br />
+More information and application here <a href="https://www.france-bioinformatique.fr/ingenieure-developpeur-devops/">Ingénieur(e) Développeur/DevOps</a></p>
 </div>
                 </div>
               </div>
