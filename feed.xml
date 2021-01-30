@@ -1,4 +1,135 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2021-01-30T23:03:52+01:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2021-01-30</title><link href="https://galaxyproject.eu/posts/2021/01/30/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2021-01-30" /><published>2021-01-30T00:00:00+01:00</published><updated>2021-01-30T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2021/01/30/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/01/30/tool-update/">&lt;p&gt;On 2021-01-30, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#258/&quot;&gt;Jenkins Build #258&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2021-01-30T23:08:13+01:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">New and updated CNV and Variant Calling tools</title><link href="https://galaxyproject.eu/posts/2021/01/30/cnv-and-vc-updates/" rel="alternate" type="text/html" title="New and updated CNV and Variant Calling tools" /><published>2021-01-30T00:00:00+01:00</published><updated>2021-01-30T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2021/01/30/cnv-and-vc-updates</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/01/30/cnv-and-vc-updates/">&lt;table&gt;&lt;tr&gt;&lt;td&gt;
+Copy number variation (CNV) is a type of structural variation, specifically, it is a type of duplication or deletion events.
+During the last month the Galaxy community has cooperated with the CNV community to bring a variety of the best CNV tools to the 
+Galaxy ecosystem. In addition we updated the variant calling tools, specifically to also cope with long read sequencing technologies.
+&lt;/td&gt;&lt;td&gt;
+&lt;img src=&quot;/assets/media/humman_variations_community_icon.png&quot; alt=&quot;ELIXIR CNV community&quot; /&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+
+&lt;p&gt;In the following you will find a list of a few highlights.
+We could like to thank all contributors, especially Nathan Roach, Niko Pinter, Stephan Flemming and the &lt;a href=&quot;https://elixir-europe.org/communities/hcnv&quot;&gt;ELIXIR CNV commuity&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/strelka_somatic/strelka_somatic/&quot;&gt;Strelka2&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;is a fast and accurate small variant caller optimized for analysis of germline variation in small cohorts
+and somatic variation in tumor/normal sample pairs.
+&lt;a href=&quot;(https://github.com/Illumina/strelka)&quot;&gt;[Project link]&lt;/a&gt;
+&lt;a href=&quot;https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/strelka_somatic/strelka_somatic/&quot;&gt;[Galaxy tool]&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/irissv/irissv/&quot;&gt;Iris&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;is a module which corrects the sequences of structural variant calls (currently only insertions).
+&lt;a href=&quot;https://github.com/mkirsche/Iris&quot;&gt;[Project link]&lt;/a&gt;
+&lt;a href=&quot;https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/irissv/irissv/&quot;&gt;[Galaxy tool]&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/jasminesv/jasminesv/&quot;&gt;JASMINE&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;is tool is used to merge structural variants (SVs) across samples.
+&lt;a href=&quot;https://github.com/mkirsche/Jasmine&quot;&gt;[Project link]&lt;/a&gt;
+&lt;a href=&quot;https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/jasminesv/jasminesv/&quot;&gt;[Galaxy tool]&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/lumpy_sv/lumpy_sv/&quot;&gt;Lumpy&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;is probabilistic framework for structural variant discovery.
+&lt;a href=&quot;https://github.com/arq5x/lumpy-sv&quot;&gt;[Project link]&lt;/a&gt;
+&lt;a href=&quot;https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/lumpy_sv/lumpy_sv/&quot;&gt;[Galaxy tool]&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/delly_call/delly_call/&quot;&gt;Delly&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;is an integrated structural variant (SV) prediction method that can discover, genotype and visualize deletions, tandem duplications,
+inversions and translocations at single-nucleotide resolution in short-read massively parallel sequencing data.
+&lt;a href=&quot;https://github.com/dellytools/delly&quot;&gt;[Project link]&lt;/a&gt;
+&lt;a href=&quot;https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/delly_call/delly_call/&quot;&gt;[Galaxy tool]&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/sansa_annotate/sansa_annotate/&quot;&gt;Sansa&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;stands for Structural variant (SV) annotation and this is what is does.
+&lt;a href=&quot;https://github.com/dellytools/sansa&quot;&gt;[Project link]&lt;/a&gt;
+&lt;a href=&quot;https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/sansa_annotate/sansa_annotate/&quot;&gt;[Galaxy tool]&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/sniffles/sniffles/&quot;&gt;Sniffles&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;is a structural variation caller using third generation sequencing (PacBio or Oxford Nanopore). It detects all types of SVs (10bp+)
+using evidence from split-read alignments, high-mismatch regions, and coverage analysis.
+&lt;a href=&quot;https://github.com/fritzsedlazeck/Sniffles&quot;&gt;[Project link]&lt;/a&gt;
+&lt;a href=&quot;https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/sniffles/sniffles/&quot;&gt;[Galaxy tool]&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/cutesv/cutesv/&quot;&gt;cuteSV&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;is a sensitive, fast and scalable long-read-based SV detection approach. cuteSV uses tailored methods to
+collect the signatures of various types of SVs and employs a clustering-and-refinement method
+to analyze the signatures to implement sensitive SV detection.
+&lt;a href=&quot;https://github.com/tjiangHIT/cuteSV&quot;&gt;[Project link]&lt;/a&gt;
+&lt;a href=&quot;https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/cutesv/cutesv/&quot;&gt;[Galaxy tool]&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/control_freec/control_freec&quot;&gt;Control-FREEC&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;is a tool for detection of copy-number changes and allelic imbalances (including LOH) using deep-sequencing data.
+&lt;a href=&quot;http://boevalab.inf.ethz.ch/FREEC/&quot;&gt;[Project link]&lt;/a&gt;
+&lt;a href=&quot;https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/control_freec/control_freec&quot;&gt;[Galaxy tool]&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/medaka_variant_pipeline/medaka_variant_pipeline/&quot;&gt;Medaka&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;is a tool to create consensus sequences and variant calls from nanopore sequencing data
+using neural networks applied a pileup of individual sequencing reads against a draft assembly.
+&lt;a href=&quot;https://github.com/nanoporetech/medaka&quot;&gt;[Project link]&lt;/a&gt;
+&lt;a href=&quot;https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/medaka_variant_pipeline/medaka_variant_pipeline/&quot;&gt;[Galaxy tool]&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/gatk4_mutect2/gatk4_mutect2/&quot;&gt;GATK4 Mutect2&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;calls somatic short mutations via local assembly of haplotypes. Short mutations include single nucleotide (SNA) and insertion and deletion (indel)
+alterations. The caller uses a Bayesian somatic genotyping model.
+&lt;a href=&quot;https://gatk.broadinstitute.org/hc/en-us/articles/360037593851-Mutect2&quot;&gt;[Project link]&lt;/a&gt;
+&lt;a href=&quot;https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/gatk4_mutect2/gatk4_mutect2/&quot;&gt;[Galaxy tool]&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/basil/basil/&quot;&gt;BASIL&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;is a method to detect breakpoints for structural variants (including insertion breakpoints) from aligned paired HTS reads in BAM format.
+&lt;a href=&quot;https://github.com/seqan/anise_basil&quot;&gt;[Project link]&lt;/a&gt;
+&lt;a href=&quot;https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/basil/basil/&quot;&gt;[Galaxy tool]&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/vcfanno/vcfanno/&quot;&gt;vcfanno&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;allows you to quickly annotate your VCF with any number of INFO fields from any number of VCFs or BED files.
+&lt;a href=&quot;https://github.com/brentp/vcfanno&quot;&gt;[Project link]&lt;/a&gt;
+&lt;a href=&quot;https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/vcfanno/vcfanno/&quot;&gt;[Galaxy tool]&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/artic_minion/artic_minion/&quot;&gt;ARTIC minion&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;builds consensus sequence and call variants from amplicon-based nanopore sequence data.
+&lt;a href=&quot;https://github.com/artic-network/fieldbioinformatics&quot;&gt;[Project link]&lt;/a&gt;
+&lt;a href=&quot;https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/artic_minion/artic_minion/&quot;&gt;[Galaxy tool]&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;</content><author><name>Wolfgang Maier</name></author><category term="tools" /><summary type="html">Copy number variation (CNV) is a type of structural variation, specifically, it is a type of duplication or deletion events. During the last month the Galaxy community has cooperated with the CNV community to bring a variety of the best CNV tools to the Galaxy ecosystem. In addition we updated the variant calling tools, specifically to also cope with long read sequencing technologies.</summary></entry><entry><title type="html">UseGalaxy.eu Tool Updates for 2021-01-30</title><link href="https://galaxyproject.eu/posts/2021/01/30/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2021-01-30" /><published>2021-01-30T00:00:00+01:00</published><updated>2021-01-30T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2021/01/30/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/01/30/tool-update/">&lt;p&gt;On 2021-01-30, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#258/&quot;&gt;Jenkins Build #258&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;variant-calling&quot;&gt;Variant Calling&lt;/h2&gt;
 
@@ -545,42 +676,4 @@ The training topic nominations for the &lt;a href=&quot;https://www.vibconferenc
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Training topic nominations are now open for 2021 Galaxy Community Conference (GCC2021): &lt;a href=&quot;https://t.co/Fc7WQKwdA2&quot;&gt;https://t.co/Fc7WQKwdA2&lt;/a&gt;. Have a topic you want to learn more about, or present? Then please nominate it. &lt;a href=&quot;https://t.co/As9vfTqdxF&quot;&gt;https://t.co/As9vfTqdxF&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/UseGalaxy?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#UseGalaxy&lt;/a&gt; &lt;a href=&quot;https://t.co/1bkrjjBXJ6&quot;&gt;pic.twitter.com/1bkrjjBXJ6&lt;/a&gt;&lt;/p&gt;&amp;mdash; Galaxy Project (@galaxyproject) &lt;a href=&quot;https://twitter.com/galaxyproject/status/1349008976499908610?ref_src=twsrc%5Etfw&quot;&gt;January 12, 2021&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="training" /><category term="GCC" /><summary type="html">The training topic nominations for the Galaxy Community Conference 2021 are now open.</summary></entry><entry><title type="html">New Paper “Tool recommender system in Galaxy using deep learning”</title><link href="https://galaxyproject.eu/posts/2021/01/11/paper-tool-recommendation/" rel="alternate" type="text/html" title="New Paper “Tool recommender system in Galaxy using deep learning”" /><published>2021-01-11T00:00:00+01:00</published><updated>2021-01-11T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2021/01/11/paper-tool-recommendation</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/01/11/paper-tool-recommendation/">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Abstract&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Background&lt;/strong&gt;
-Galaxy is a web-based and open-source scientific data-processing platform. Researchers compose pipelines in Galaxy to analyse scientific data.
-These pipelines, also known as workflows, can be complex and difficult to create from thousands of tools, especially for researchers new to Galaxy.
-To help researchers with creating workflows, a system is developed to recommend tools that can facilitate further data analysis.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Findings&lt;/strong&gt;
-A model is developed to recommend tools using a deep learning approach by analysing workflows composed by researchers on the European Galaxy server.
-The higher-order dependencies in workflows, represented as directed acyclic graphs, are learned by training a gated recurrent units neural network, a variant of a recurrent neural network. 
-In the neural network training, the weights of tools used are derived from their usage frequencies over time and the sequences of tools are uniformly sampled from training data. Hyperparameters of the neural network are optimized using Bayesian optimization. Mean accuracy of 98% in recommending tools is achieved for the top-1 metric.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Conclusions&lt;/strong&gt;
-The model is accessed by a Galaxy API to provide researchers with recommended tools in an interactive manner using multiple user interface integrations on the European Galaxy server. 
-High-quality and highly used tools are shown at the top of the recommendations. 
-The scripts and data to create the recommendation system are available under MIT license at https://github.com/anuprulez/galaxy_tool_recommendation.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Core mechanism&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://github.com/anuprulez/issues/raw/master/core_mechanism.png&quot; alt=&quot;Workflow&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;An example workflow consisting of 5 different tools (a) is decomposed into multiple tool sequences (b–d). Each tool sequence shows higher-order dependencies where a tool is dependent on all of its prior tools. These dependencies are indicated by the dashed arrows.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;How to use tool recommender&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;After running a tool&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://github.com/anuprulez/issues/raw/master/tool-exe.gif&quot; alt=&quot;tool execution&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Workflow editor&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://github.com/anuprulez/issues/raw/master/wf-exe.gif&quot; alt=&quot;workflow editor&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;The tool recommender paper is online! Thanks &lt;a href=&quot;https://twitter.com/hashtag/usegalaxy?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#usegalaxy&lt;/a&gt; &lt;a href=&quot;https://twitter.com/GigaScience?ref_src=twsrc%5Etfw&quot;&gt;@GigaScience&lt;/a&gt; &lt;a href=&quot;https://t.co/Bieh7hIV1a&quot;&gt;https://t.co/Bieh7hIV1a&lt;/a&gt;&lt;/p&gt;&amp;mdash; Anup Kumar (@musafirtweetsz) &lt;a href=&quot;https://twitter.com/musafirtweetsz/status/1347103855247560704?ref_src=twsrc%5Etfw&quot;&gt;January 7, 2021&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="paper" /><summary type="html"></summary></entry></feed>
+&lt;/div&gt;</content><author><name></name></author><category term="training" /><category term="GCC" /><summary type="html">The training topic nominations for the Galaxy Community Conference 2021 are now open.</summary></entry></feed>
