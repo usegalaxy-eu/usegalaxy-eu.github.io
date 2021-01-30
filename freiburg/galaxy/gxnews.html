@@ -7838,6 +7838,91 @@ The second day started with an introduction to EOSC-Life and the tools roadmap, 
 
 
      
+      tags.push(`training`)
+     
+      tags.push(`talk`)
+     
+      tags.push(`poster`)
+     
+      tags.push(`Freiburg`)
+
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
+
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4 trainingtalkposter news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  
+                    <a href="/posts/2020/03/14/ismb2020-videos/plain.html">
+                  
+                    <h2 class="title">ISMB 2020 conference videos available on youtube</h2>
+                  </a>
+                  <span class="date">
+                    
+
+
+
+	<i class="fa fa-graduation-cap" aria-hidden="true"></i>
+
+
+
+
+
+
+
+
+
+                  </span>
+                  <span class="date">
+                    March 14, 2020
+                  </span>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
+                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=training'"
+           class="btn btn-primary btn-xs tag-element" role="button">training</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=talk'"
+           class="btn btn-primary btn-xs tag-element" role="button">talk</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=poster'"
+           class="btn btn-primary btn-xs tag-element" role="button">poster</a>
+    
+
+
+                </div>
+                <div class="news-content">
+                  <div><p>In July 2020 the “Intelligent Systems for Molecular Biology” (ISMB) took place as a virtual conference with several Galaxy related talks and posters that are now available on YouTube.</p>
+
+<p>Bérénice Batut (Galaxy Team Freiburg) gave a keynote in the Education track: <a href="https://www.youtube.com/watch?v=C5iaVfRvwJE">Empowering usable, and comprehensive bioinformatics training</a> and Björn Grüning (Galaxy Team Freiburg) presented many of the ongoing Covid-19 Galaxy projects in the Covid-19 special track: <a href="https://www.youtube.com/watch?v=9YwwC35leUY">Tools, Workflows and Infrastructure for Open and Reproducible Analysis of SARS-CoV-2 Data</a>.</p>
+
+<p>Melanie Föll and Matthias Fahrner from the Schilling Lab (Institute for Surgical Pathology in Freiburg) presented new Galaxy
+functionalities for mass spectrometry based proteomics experiments. 
+Melanie talked about <a href="https://www.youtube.com/watch?v=Zf0aFXm8BZE">Galaxy tools and workflows for the analysis of mass spectrometry imaging data</a> and the <a href="https://www.youtube.com/watch?v=ZMHqif64JQk">application of the Galaxy tools to analyze a patient cohort</a>. 
+Matthias showed how proteomics data independent acquisition data can be analysed within the Galaxy framework: Democratizing DIA analysis on public cloud infrastructures via Galaxy <a href="https://www.youtube.com/watch?v=CvKdZU-Hf74">talk</a> <a href="https://www.youtube.com/watch?v=Nmvi-6W_-QE">poster</a>.</p>
+</div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
+
+        news.append(div);
+    }
+    tags = []
+
+
+     
       tags.push(`tools`)
      
       tags.push(`COVID-19`)
