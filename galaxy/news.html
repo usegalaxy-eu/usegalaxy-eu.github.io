@@ -4050,6 +4050,8 @@ The vast ecosystem of single-cell RNA-sequencing tools has until recently been p
      
       tags.push(`COVID-19`)
      
+      tags.push(`report`)
+     
       tags.push(`Freiburg`)
 
     if (!userTag ? true : tags.includes(userTag)) {
@@ -4057,7 +4059,7 @@ The vast ecosystem of single-cell RNA-sequencing tools has until recently been p
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 trainingTIaaSCOVID-19 news ">
+            <div class="col-md-4 trainingTIaaSCOVID-19report news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -4100,6 +4102,11 @@ The vast ecosystem of single-cell RNA-sequencing tools has until recently been p
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=COVID-19'"
            class="btn btn-primary btn-xs tag-element" role="button">COVID-19</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=report'"
+           class="btn btn-primary btn-xs tag-element" role="button">report</a>
     
 
 
