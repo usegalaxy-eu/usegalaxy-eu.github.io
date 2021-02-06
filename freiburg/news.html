@@ -158,6 +158,68 @@
 
 
      
+      tags.push(`talk`)
+     
+      tags.push(`Freiburg`)
+
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
+
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4 talk news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  
+                    <a href="/posts/2021/02/06/metabo-symposium/">
+                  
+                    <h2 class="title">Galaxy Metabolomics Mini-Symposium report</h2>
+                  </a>
+                  <span class="date">
+                    
+
+
+
+
+
+
+
+
+
+
+
+                  </span>
+                  <span class="date">
+                    February 6, 2021
+                  </span>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
+                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=talk'"
+           class="btn btn-primary btn-xs tag-element" role="button">talk</a>
+    
+
+
+                </div>
+                <div class="news-content">
+                  <div><p>More than 20 researchers with diverse backgrounds participated in the virtual <strong>Galaxy Metabolomics Mini-Symposium</strong>. The presentations covered diverse metabolomics applications and analysis tools and their past, ongoing or future integration into the Galaxy framework. In addition, there were two discussion rounds about the user and tool developer aspects of Galaxy Metabolomics. Slides and notes of the Symposium can be found <a href="https://drive.google.com/drive/folders/1V7hQN11-v3BJCwTMGMtDCjA4Gl403g99">in the Google Drive folder of the community</a>.</p>
+</div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
+
+        news.append(div);
+    }
+    tags = []
+
+
+     
       tags.push(`COVID-19`)
      
       tags.push(``)
