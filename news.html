@@ -147,6 +147,77 @@
 
 
      
+      tags.push(`galaxy`)
+     
+      tags.push(`newsletter`)
+     
+      tags.push(``)
+
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
+
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4 galaxynewsletter news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  
+                    <a href="https://galaxyproject.org/news/2021-02-galaxy-update/">
+                  
+                    <h2 class="title">February Galactic News!</h2>
+                  </a>
+                  <span class="date">
+                    
+	<i class="fa fa-external-link" aria-hidden="true"></i>
+
+
+
+
+
+
+
+
+
+
+
+
+                  </span>
+                  <span class="date">
+                    February 8, 2021
+                  </span>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
+                  
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=galaxy'"
+           class="btn btn-primary btn-xs tag-element" role="button">galaxy</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=newsletter'"
+           class="btn btn-primary btn-xs tag-element" role="button">newsletter</a>
+    
+
+
+                </div>
+                <div class="news-content">
+                  <div><p>The <a href="https://galaxyproject.org/news/2021-02-galaxy-update/">February 2021 Newsletter is out</a>. This time we announce that <strong>GCC2021 goes virtual</strong>, unfortunately. However, this will make it more affordable, and globally accessible to everyone. Other updates include: training, webinars, CoFests, conferences, platform news, 9 Blog posts, admin training, scRNA-seq, videos, new tutorials, publications, jobs, releases and more.</p>
+</div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
+
+        news.append(div);
+    }
+    tags = []
+
+
+     
       tags.push(`talk`)
      
       tags.push(`Freiburg`)
@@ -318,7 +389,8 @@
 
                 </div>
                 <div class="news-content">
-                  <div><p><br /></p>
+                  <div><p><br />
+The <a href="https://www.covid19dataportal.org">COVID-19 Data Portal</a> emerged as an effort to coordinate data sharing to speed up the coronavirus research. It brings together relevant datasets submitted to EMBL-EBI and other major centres for biomedical data and constitutes an updated resource to which scientist can upload access and analyse reference data.</p>
 </div>
                 </div>
               </div>
