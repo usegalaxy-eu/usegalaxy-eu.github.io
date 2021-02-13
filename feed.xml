@@ -1,8 +1,35 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2021-02-13T17:28:37+01:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2021-02-13</title><link href="https://galaxyproject.eu/posts/2021/02/13/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2021-02-13" /><published>2021-02-13T00:00:00+01:00</published><updated>2021-02-13T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2021/02/13/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/02/13/tool-update/">&lt;p&gt;On 2021-02-13, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#261/&quot;&gt;Jenkins Build #261&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2021-02-13T17:36:06+01:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2021-02-13</title><link href="https://galaxyproject.eu/posts/2021/02/13/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2021-02-13" /><published>2021-02-13T00:00:00+01:00</published><updated>2021-02-13T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2021/02/13/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/02/13/tool-update/">&lt;p&gt;On 2021-02-13, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#261/&quot;&gt;Jenkins Build #261&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;graphdisplay-data&quot;&gt;Graph/Display Data&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;jbrowse was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/jbrowse/8774b28235bb&quot;&gt;8774b28235bb&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;jvarkit_wgscoverageplotter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/jvarkit_wgscoverageplotter/ac048a34cac3&quot;&gt;ac048a34cac3&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;variant-calling&quot;&gt;Variant Calling&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;bcftools_consensus was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_consensus/d6dc477167f8&quot;&gt;d6dc477167f8&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;bcftools_call was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_call/5801eff9ac7e&quot;&gt;5801eff9ac7e&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;bcftools_cnv was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_cnv/01d6b7d6365e&quot;&gt;01d6b7d6365e&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;bcftools_csq was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_csq/fdd127bd4a32&quot;&gt;fdd127bd4a32&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;bcftools_merge was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_merge/e03f2f3ac3a9&quot;&gt;e03f2f3ac3a9&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;bcftools_norm was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_norm/c077f71d351f&quot;&gt;c077f71d351f&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;bcftools_plugin_color_chrs was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_plugin_color_chrs/c39113e2ae34&quot;&gt;c39113e2ae34&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;bcftools_plugin_frameshifts was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_plugin_frameshifts/eb22990a2be9&quot;&gt;eb22990a2be9&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;fastafastq&quot;&gt;FASTA/FASTQ&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;umi_tools_count was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/umi_tools_count/8250ea3a1501&quot;&gt;8250ea3a1501&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h2 id=&quot;get-data&quot;&gt;Get Data&lt;/h2&gt;
 
 &lt;ul&gt;
+  &lt;li&gt;iedb_api was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/iedb_api/7ed6dda64a81&quot;&gt;7ed6dda64a81&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;sra_tools was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/sra_tools/e08a7ad4378b&quot;&gt;e08a7ad4378b&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -80,7 +107,13 @@
   &lt;li&gt;humann2_unpack_pathways was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/humann2_unpack_pathways/3115a530686e&quot;&gt;3115a530686e&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;fastafastq&quot;&gt;FASTA/FASTQ&lt;/h2&gt;
+&lt;h2 id=&quot;imaging&quot;&gt;Imaging&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;spyboat was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/spyboat/639d2031d998&quot;&gt;639d2031d998&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;fastafastq-1&quot;&gt;FASTA/FASTQ&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;trimns was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/trimns/30178a68af68&quot;&gt;30178a68af68&lt;/a&gt;&lt;/li&gt;
@@ -89,19 +122,26 @@
 &lt;h2 id=&quot;assembly&quot;&gt;Assembly&lt;/h2&gt;
 
 &lt;ul&gt;
+  &lt;li&gt;mitobim was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mitobim/ea46115c7f1e&quot;&gt;ea46115c7f1e&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;purge_dups was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/purge_dups/8ec117da1796&quot;&gt;8ec117da1796&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;variant-calling&quot;&gt;Variant Calling&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;bcftools_consensus was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_consensus/d6dc477167f8&quot;&gt;d6dc477167f8&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;data-managers&quot;&gt;Data Managers&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;data_manager_build_kma_index was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/data_manager_build_kma_index/889cc43b72d6&quot;&gt;889cc43b72d6&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;nanopore&quot;&gt;Nanopore&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;medaka_consensus was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/medaka_consensus/5901bb391198&quot;&gt;5901bb391198&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;medaka_consensus was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/medaka_consensus/fbf007713188&quot;&gt;fbf007713188&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;medaka_consensus_pipeline was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/medaka_consensus_pipeline/35666d44fe7a&quot;&gt;35666d44fe7a&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;medaka_consensus_pipeline was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/medaka_consensus_pipeline/d915879a88bc&quot;&gt;d915879a88bc&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;medaka_variant was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/medaka_variant/aabb4e1c0b7b&quot;&gt;aabb4e1c0b7b&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;medaka_variant_pipeline was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/medaka_variant_pipeline/148f32860445&quot;&gt;148f32860445&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;medaka_variant_pipeline was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/medaka_variant_pipeline/ea1833858055&quot;&gt;ea1833858055&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;metabolomics&quot;&gt;Metabolomics&lt;/h2&gt;
