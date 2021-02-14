@@ -154,6 +154,78 @@
 
 
      
+      tags.push(`training`)
+     
+      tags.push(``)
+
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
+
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4 training news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  
+                    <a href="/posts/2021/02/14/smorgasbord-starts/">
+                  
+                    <h2 class="title">Massive open online education party: : GTN Smörgåsbord</h2>
+                  </a>
+                  <span class="date">
+                    
+
+
+
+	<i class="fa fa-graduation-cap" aria-hidden="true"></i>
+
+
+
+
+
+
+
+
+
+                  </span>
+                  <span class="date">
+                    February 14, 2021
+                  </span>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
+                  
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=training'"
+           class="btn btn-primary btn-xs tag-element" role="button">training</a>
+    
+
+
+                </div>
+                <div class="news-content">
+                  <div><p>This week, starting from Monday the 15th of February, the <a href="training.galaxyproject.org/">Galaxy Training Network (GTN)</a> is running a global Galaxy online course: <a href="https://shiltemann.github.io/global-galaxy-course/"><strong>GTN Smörgåsbord</strong></a><sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote">1</a></sup>.</p>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p><a href="https://en.wikipedia.org/wiki/Sm%C3%B6rg%C3%A5sbord">Smörgåsbord</a> is a type of Scandinavian meal, like a buffet, or tapas. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+</div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
+
+        news.append(div);
+    }
+    tags = []
+
+
+     
       tags.push(`galaxy`)
      
       tags.push(`newsletter`)
@@ -272,6 +344,86 @@
                 <div class="news-content">
                   <div><p><br />
 The <a href="https://www.covid19dataportal.org">COVID-19 Data Portal</a> emerged as an effort to coordinate data sharing to speed up the coronavirus research. It brings together relevant datasets submitted to EMBL-EBI and other major centres for biomedical data and constitutes an updated resource to which scientist can upload access and analyse reference data.</p>
+</div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
+
+        news.append(div);
+    }
+    tags = []
+
+
+     
+      tags.push(`training`)
+     
+      tags.push(`talk`)
+     
+      tags.push(`poster`)
+     
+      tags.push(``)
+
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
+
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4 trainingtalkposter news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  
+                    <a href="https://galaxyproject.org/news/2021-02-gcc-virtual/">
+                  
+                    <h2 class="title">The Galaxy Community Conference 2021 (GCC2021) will be virtual</h2>
+                  </a>
+                  <span class="date">
+                    
+	<i class="fa fa-external-link" aria-hidden="true"></i>
+
+
+
+
+	<i class="fa fa-graduation-cap" aria-hidden="true"></i>
+
+
+
+
+
+
+
+
+
+                  </span>
+                  <span class="date">
+                    February 5, 2021
+                  </span>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
+                  
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=training'"
+           class="btn btn-primary btn-xs tag-element" role="button">training</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=talk'"
+           class="btn btn-primary btn-xs tag-element" role="button">talk</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=poster'"
+           class="btn btn-primary btn-xs tag-element" role="button">poster</a>
+    
+
+
+                </div>
+                <div class="news-content">
+                  <div><p>The 2021 Galaxy Community Conference (GCC2021) will be virtual, global, affordable and accessible.</p>
 </div>
                 </div>
               </div>
