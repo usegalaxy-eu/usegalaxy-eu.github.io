@@ -158,6 +158,132 @@
 
 
      
+      tags.push(`galaxy`)
+     
+      tags.push(``)
+
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
+
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4 galaxy news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  
+                    <a href="/posts/2021/02/18/community-video/">
+                  
+                    <h2 class="title">Meet &amp; Join the Galaxy Community</h2>
+                  </a>
+                  <span class="date">
+                    
+
+
+
+
+
+
+
+
+
+
+
+                  </span>
+                  <span class="date">
+                    February 18, 2021
+                  </span>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
+                  
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=galaxy'"
+           class="btn btn-primary btn-xs tag-element" role="button">galaxy</a>
+    
+
+
+                </div>
+                <div class="news-content">
+                  <div><p>The Galaxy community is broad and diverse. Contributors to the main code, admins, tool developers, trainers, students… we are spread all over the world!</p>
+</div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
+
+        news.append(div);
+    }
+    tags = []
+
+
+     
+      tags.push(`paper`)
+     
+      tags.push(``)
+
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
+
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4 paper news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  
+                    <a href="/posts/2021/02/18/paper-covid/">
+                  
+                    <h2 class="title">New Paper &quot;Next generation sequencing of SARS-CoV-2 genomes: challenges, applications and opportunities&quot;</h2>
+                  </a>
+                  <span class="date">
+                    
+
+
+
+
+	<i class="fa fa-file-text" aria-hidden="true"></i>
+
+
+
+
+
+
+
+
+                  </span>
+                  <span class="date">
+                    February 18, 2021
+                  </span>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
+                  
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=paper'"
+           class="btn btn-primary btn-xs tag-element" role="button">paper</a>
+    
+
+
+                </div>
+                <div class="news-content">
+                  <div><p><em>Abstract</em> - Various next generation sequencing (NGS) based strategies have been successfully used in the recent past for tracing origins and understanding the evolution of infectious agents, investigating the spread and transmission chains of outbreaks, as well as facilitating the development of effective and rapid molecular diagnostic tests and contributing to the hunt for treatments and vaccines.</p>
+</div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
+
+        news.append(div);
+    }
+    tags = []
+
+
+     
       tags.push(`training`)
      
       tags.push(``)
@@ -1197,8 +1323,6 @@ In January 2021, we ran a bioinformatics workshop for 20 Australian Science Exte
 
 
      
-      tags.push(`galaxy`)
-     
       tags.push(`COVID-19`)
      
       tags.push(`tools`)
@@ -1212,7 +1336,7 @@ In January 2021, we ran a bioinformatics workshop for 20 Australian Science Exte
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 galaxyCOVID-19toolsworkflows news ">
+            <div class="col-md-4 COVID-19toolsworkflows news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -1242,11 +1366,6 @@ In January 2021, we ran a bioinformatics workshop for 20 Australian Science Exte
                   <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
                   class="btn btn-success btn-xs tag-element" role="button"></a>
                   
-    
-        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=galaxy'"
-           class="btn btn-primary btn-xs tag-element" role="button">galaxy</a>
-    
-
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=COVID-19'"
            class="btn btn-primary btn-xs tag-element" role="button">COVID-19</a>
@@ -1600,7 +1719,9 @@ The training topic nominations for the <a href="https://www.vibconferences.be/ev
 
                 </div>
                 <div class="news-content">
-                  <div><p><br /></p>
+                  <div><p><em>Abstract</em> - Galaxy is a web-based and open-source scientific data-processing platform. Researchers compose pipelines in Galaxy to analyse scientific data.
+These pipelines, also known as workflows, can be complex and difficult to create from thousands of tools, especially for researchers new to Galaxy.
+To help researchers with creating workflows, a system is developed to recommend tools that can facilitate further data analysis.</p>
 </div>
                 </div>
               </div>
@@ -2212,7 +2333,7 @@ The training topic nominations for the <a href="https://www.vibconferences.be/ev
 
                 </div>
                 <div class="news-content">
-                  <div><p>Post-transcriptional regulation via RNA-binding proteins plays a fundamental role in every organism, but the regulatory mechanisms lack important understanding. Nevertheless, they can be elucidated by cross-linking immunoprecipitation in combination with high-throughput sequencing (CLIP-Seq). CLIP-Seq answers questions about the functional role of an RNA-binding protein and its targets by determining binding sites on a nucleotide level and associated sequence and structural binding patterns. In recent years the amount of CLIP-Seq data skyrocketed, urging the need for an automatic data analysis that can deal with different experimental set-ups. However, noncanonical data, new protocols, and a huge variety of tools, especially for peak calling, made it difficult to define a standard.</p>
+                  <div><p><em>Abstract</em> - Post-transcriptional regulation via RNA-binding proteins plays a fundamental role in every organism, but the regulatory mechanisms lack important understanding. Nevertheless, they can be elucidated by cross-linking immunoprecipitation in combination with high-throughput sequencing (CLIP-Seq).</p>
 </div>
                 </div>
               </div>
@@ -2276,7 +2397,7 @@ The training topic nominations for the <a href="https://www.vibconferences.be/ev
 
                 </div>
                 <div class="news-content">
-                  <div><p>The adult mammalian heart consists of mononuclear and binuclear cardiomyocytes (CMs) with various ploidies. However, it remains unclear whether a variation in ploidy or number of nuclei is associated with distinct functions and injury responses in CMs, including regeneration. Therefore, we investigated transcriptomes and cellular as well as nuclear features of mononucleated and binucleated CMs in adult mouse hearts with and without injury.</p>
+                  <div><p><em>Abstract</em> - The adult mammalian heart consists of mononuclear and binuclear cardiomyocytes (CMs) with various ploidies. However, it remains unclear whether a variation in ploidy or number of nuclei is associated with distinct functions and injury responses in CMs, including regeneration. Therefore, we investigated transcriptomes and cellular as well as nuclear features of mononucleated and binucleated CMs in adult mouse hearts with and without injury.</p>
 </div>
                 </div>
               </div>
@@ -2933,7 +3054,7 @@ The training topic nominations for the <a href="https://www.vibconferences.be/ev
 
                 </div>
                 <div class="news-content">
-                  <div><p><br /></p>
+                  <div><p><em>Abstract</em> - Hypomethylating agents (HMA) have become the backbone of non-intensive AML/MDS treatment, primarily by virtue of their activity in patients with adverse genetics, e.g., monosomal karyotypes, often with losses on chromosome 7, 5 or 17.</p>
 </div>
                 </div>
               </div>
@@ -3004,7 +3125,7 @@ The training topic nominations for the <a href="https://www.vibconferences.be/ev
 
                 </div>
                 <div class="news-content">
-                  <div><p><br /></p>
+                  <div><p><em>Abstract</em> - <em>Diabetes mellitus</em> is a worldwide epidemic that causes high mortality due to cardiovascular complications, in particular heart failure. Diabetes is associated with profound pathophysiological changes in the heart. The aim of this study was to investigate the impact of diabetes on gene expression and DNA methylation in cardiac cells.</p>
 </div>
                 </div>
               </div>
@@ -3865,7 +3986,7 @@ The training topic nominations for the <a href="https://www.vibconferences.be/ev
 
                 </div>
                 <div class="news-content">
-                  <div><p>Long-read sequencing can be applied to generate very long contigs and even completely assembled genomes at relatively low cost and with minimal sample preparation. As a result, long-read sequencing platforms are becoming more popular.</p>
+                  <div><p><em>Abstract</em> - Long-read sequencing can be applied to generate very long contigs and even completely assembled genomes at relatively low cost and with minimal sample preparation. As a result, long-read sequencing platforms are becoming more popular.</p>
 </div>
                 </div>
               </div>
@@ -3938,8 +4059,7 @@ The training topic nominations for the <a href="https://www.vibconferences.be/ev
 
                 </div>
                 <div class="news-content">
-                  <div><p><em>Background</em><br />
-The vast ecosystem of single-cell RNA-sequencing tools has until recently been plagued by an excess of diverging analysis strategies, inconsistent file formats, and compatibility issues between different software suites. The uptake of 10x Genomics datasets has begun to calm this diversity, and the bioinformatics community leans once more towards the large computing requirements and the statistically driven methods needed to process and understand these ever-growing datasets.</p>
+                  <div><p><em>Abstract</em> -  The vast ecosystem of single-cell RNA-sequencing tools has until recently been plagued by an excess of diverging analysis strategies, inconsistent file formats, and compatibility issues between different software suites. The uptake of 10x Genomics datasets has begun to calm this diversity, and the bioinformatics community leans once more towards the large computing requirements and the statistically driven methods needed to process and understand these ever-growing datasets.</p>
 </div>
                 </div>
               </div>
@@ -5509,7 +5629,7 @@ Many thanks to all the authors for the great effort!</p>
 
                 </div>
                 <div class="news-content">
-                  <div><p>The tremendous diversity of Hymenoptera is commonly attributed to the evolution of parasitoidism in the last common ancestor of parasitoid sawflies (Orussidae) and wasp-waisted Hymenoptera (Apocrita). However, Apocrita and Orussidae differ dramatically in their species richness, indicating that the diversification of Apocrita was promoted by additional traits. These traits have remained elusive due to a paucity of sawfly genome sequences, in particular those of parasitoid sawflies.</p>
+                  <div><p><em>Abstract</em> - The tremendous diversity of Hymenoptera is commonly attributed to the evolution of parasitoidism in the last common ancestor of parasitoid sawflies (Orussidae) and wasp-waisted Hymenoptera (Apocrita). However, Apocrita and Orussidae differ dramatically in their species richness, indicating that the diversification of Apocrita was promoted by additional traits. These traits have remained elusive due to a paucity of sawfly genome sequences, in particular those of parasitoid sawflies.</p>
 </div>
                 </div>
               </div>
@@ -5580,8 +5700,7 @@ Many thanks to all the authors for the great effort!</p>
 
                 </div>
                 <div class="news-content">
-                  <div><p><br />
-The malaria parasite replicates asexually in the red blood cells of its vertebrate host employing epigenetic mechanisms to regulate gene expression in response to changes in its environment. We used chromatin immunoprecipitation followed by sequencing in conjunction with RNA sequencing to create an epigenomic and transcriptomic map of the developmental transition from asexual blood stages to male and female gametocytes and to ookinetes in the rodent malaria parasite Plasmodium berghei.</p>
+                  <div><p><em>Abstract</em> - The malaria parasite replicates asexually in the red blood cells of its vertebrate host employing epigenetic mechanisms to regulate gene expression in response to changes in its environment. We used chromatin immunoprecipitation followed by sequencing in conjunction with RNA sequencing to create an epigenomic and transcriptomic map of the developmental transition from asexual blood stages to male and female gametocytes and to ookinetes in the rodent malaria parasite Plasmodium berghei.</p>
 </div>
                 </div>
               </div>

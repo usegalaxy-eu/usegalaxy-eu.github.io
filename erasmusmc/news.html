@@ -146,6 +146,68 @@
 
 
      
+      tags.push(`galaxy`)
+     
+      tags.push(``)
+
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
+
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4 galaxy news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  
+                    <a href="/posts/2021/02/18/community-video/">
+                  
+                    <h2 class="title">Meet &amp; Join the Galaxy Community</h2>
+                  </a>
+                  <span class="date">
+                    
+
+
+
+
+
+
+
+
+
+
+
+                  </span>
+                  <span class="date">
+                    February 18, 2021
+                  </span>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
+                  
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=galaxy'"
+           class="btn btn-primary btn-xs tag-element" role="button">galaxy</a>
+    
+
+
+                </div>
+                <div class="news-content">
+                  <div><p>The Galaxy community is broad and diverse. Contributors to the main code, admins, tool developers, trainers, students… we are spread all over the world!</p>
+</div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
+
+        news.append(div);
+    }
+    tags = []
+
+
+     
       tags.push(`training`)
      
       tags.push(``)
@@ -640,8 +702,6 @@ In January 2021, we ran a bioinformatics workshop for 20 Australian Science Exte
 
 
      
-      tags.push(`galaxy`)
-     
       tags.push(`COVID-19`)
      
       tags.push(`tools`)
@@ -655,7 +715,7 @@ In January 2021, we ran a bioinformatics workshop for 20 Australian Science Exte
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 galaxyCOVID-19toolsworkflows news ">
+            <div class="col-md-4 COVID-19toolsworkflows news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -685,11 +745,6 @@ In January 2021, we ran a bioinformatics workshop for 20 Australian Science Exte
                   <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
                   class="btn btn-success btn-xs tag-element" role="button"></a>
                   
-    
-        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=galaxy'"
-           class="btn btn-primary btn-xs tag-element" role="button">galaxy</a>
-    
-
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=COVID-19'"
            class="btn btn-primary btn-xs tag-element" role="button">COVID-19</a>
@@ -2316,7 +2371,7 @@ our <a href="https://github.com/usegalaxy-eu/branding" target="_blank">branding 
 
                 </div>
                 <div class="news-content">
-                  <div><p>The tremendous diversity of Hymenoptera is commonly attributed to the evolution of parasitoidism in the last common ancestor of parasitoid sawflies (Orussidae) and wasp-waisted Hymenoptera (Apocrita). However, Apocrita and Orussidae differ dramatically in their species richness, indicating that the diversification of Apocrita was promoted by additional traits. These traits have remained elusive due to a paucity of sawfly genome sequences, in particular those of parasitoid sawflies.</p>
+                  <div><p><em>Abstract</em> - The tremendous diversity of Hymenoptera is commonly attributed to the evolution of parasitoidism in the last common ancestor of parasitoid sawflies (Orussidae) and wasp-waisted Hymenoptera (Apocrita). However, Apocrita and Orussidae differ dramatically in their species richness, indicating that the diversification of Apocrita was promoted by additional traits. These traits have remained elusive due to a paucity of sawfly genome sequences, in particular those of parasitoid sawflies.</p>
 </div>
                 </div>
               </div>
@@ -2387,8 +2442,7 @@ our <a href="https://github.com/usegalaxy-eu/branding" target="_blank">branding 
 
                 </div>
                 <div class="news-content">
-                  <div><p><br />
-The malaria parasite replicates asexually in the red blood cells of its vertebrate host employing epigenetic mechanisms to regulate gene expression in response to changes in its environment. We used chromatin immunoprecipitation followed by sequencing in conjunction with RNA sequencing to create an epigenomic and transcriptomic map of the developmental transition from asexual blood stages to male and female gametocytes and to ookinetes in the rodent malaria parasite Plasmodium berghei.</p>
+                  <div><p><em>Abstract</em> - The malaria parasite replicates asexually in the red blood cells of its vertebrate host employing epigenetic mechanisms to regulate gene expression in response to changes in its environment. We used chromatin immunoprecipitation followed by sequencing in conjunction with RNA sequencing to create an epigenomic and transcriptomic map of the developmental transition from asexual blood stages to male and female gametocytes and to ookinetes in the rodent malaria parasite Plasmodium berghei.</p>
 </div>
                 </div>
               </div>
