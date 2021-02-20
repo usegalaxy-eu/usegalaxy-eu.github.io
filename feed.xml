@@ -1,4 +1,65 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2021-02-19T17:44:35+01:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">Meet &amp;amp; Join the Galaxy Community</title><link href="https://galaxyproject.eu/posts/2021/02/18/community-video/" rel="alternate" type="text/html" title="Meet &amp;amp; Join the Galaxy Community" /><published>2021-02-18T00:00:00+01:00</published><updated>2021-02-18T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2021/02/18/community-video</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/02/18/community-video/">&lt;p&gt;The Galaxy community is broad and diverse. Contributors to the main code, admins, tool developers, trainers, students… we are spread all over the world!&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2021-02-20T06:28:56+01:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2021-02-20</title><link href="https://galaxyproject.eu/posts/2021/02/20/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2021-02-20" /><published>2021-02-20T00:00:00+01:00</published><updated>2021-02-20T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2021/02/20/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/02/20/tool-update/">&lt;p&gt;On 2021-02-20, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#262/&quot;&gt;Jenkins Build #262&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;chemicaltoolbox&quot;&gt;ChemicalToolBox&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;ctb_rdkit_descriptors was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/ctb_rdkit_descriptors/a1c53f0533b0&quot;&gt;a1c53f0533b0&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;enumerate_charges was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/enumerate_charges/bbbf5fb356dd&quot;&gt;bbbf5fb356dd&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;sdf_to_tab was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sdf_to_tab/351fbd750a6d&quot;&gt;351fbd750a6d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;ambertools_acpype was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/ambertools_acpype/2417677038b2&quot;&gt;2417677038b2&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;ambertools_antechamber was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/ambertools_antechamber/8029dfe04b28&quot;&gt;8029dfe04b28&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;ambertools_parmchk2 was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/ambertools_parmchk2/79f570a89e3d&quot;&gt;79f570a89e3d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mmpbsa_mmgbsa was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/mmpbsa_mmgbsa/cf2be7b90ea5&quot;&gt;cf2be7b90ea5&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;parmconv was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/parmconv/b500cc25dd15&quot;&gt;b500cc25dd15&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;convert-formats&quot;&gt;Convert Formats&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;thermo_raw_file_converter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/thermo_raw_file_converter/92ac8e086317&quot;&gt;92ac8e086317&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;proteomics&quot;&gt;Proteomics&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;cardinal_combine was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/cardinal_combine/5f066029763e&quot;&gt;5f066029763e&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;eggnog_mapper was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/eggnog_mapper/4e4c6329f6cd&quot;&gt;4e4c6329f6cd&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;maxquant was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/maxquant/37d669de2828&quot;&gt;37d669de2828&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;maxquant_mqpar was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/maxquant_mqpar/9cb7dcc07dae&quot;&gt;9cb7dcc07dae&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;metaquantome_db was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/metaquantome_db/a72ac2c7cc5b&quot;&gt;a72ac2c7cc5b&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;metaquantome_expand was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/metaquantome_expand/990b4560ead7&quot;&gt;990b4560ead7&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;metaquantome_filter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/metaquantome_filter/deaf035bbe9f&quot;&gt;deaf035bbe9f&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;metaquantome_sample was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/metaquantome_sample/c1343e3389ca&quot;&gt;c1343e3389ca&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;metaquantome_stat was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/metaquantome_stat/d46d64e7964d&quot;&gt;d46d64e7964d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;metaquantome_viz was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/metaquantome_viz/9bf325045235&quot;&gt;9bf325045235&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_openpepxl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_openpepxl/40cc19c0dbd6&quot;&gt;40cc19c0dbd6&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_openpepxl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_openpepxl/a2a842b00f9c&quot;&gt;a2a842b00f9c&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_openpepxl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_openpepxl/fc36cfd19834&quot;&gt;fc36cfd19834&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_percolatoradapter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_percolatoradapter/0fc9ae55bcfc&quot;&gt;0fc9ae55bcfc&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_percolatoradapter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_percolatoradapter/e7881a82b56d&quot;&gt;e7881a82b56d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_xfdr was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_xfdr/81402a5e4173&quot;&gt;81402a5e4173&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_xfdr was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_xfdr/9a6e3bb0f358&quot;&gt;9a6e3bb0f358&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;data-managers&quot;&gt;Data Managers&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;data_manager_eggnog_mapper_abspath was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/data_manager_eggnog_mapper_abspath/b711f5b6bd44&quot;&gt;b711f5b6bd44&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;metabolomics&quot;&gt;Metabolomics&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;dimspy_align_samples was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/computational-metabolomics/dimspy_align_samples/7b6f148bd99f&quot;&gt;7b6f148bd99f&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;dimspy_blank_filter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/computational-metabolomics/dimspy_blank_filter/c2078c6d019d&quot;&gt;c2078c6d019d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;dimspy_get_peaklists was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/computational-metabolomics/dimspy_get_peaklists/ce1dd96a9ac7&quot;&gt;ce1dd96a9ac7&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;dimspy_hdf5_to_txt was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/computational-metabolomics/dimspy_hdf5_to_txt/1b254abecb4a&quot;&gt;1b254abecb4a&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;dimspy_merge_peaklists was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/computational-metabolomics/dimspy_merge_peaklists/8edfa0f2b1ea&quot;&gt;8edfa0f2b1ea&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;dimspy_missing_values_sample_filter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/computational-metabolomics/dimspy_missing_values_sample_filter/763f27eb2d9d&quot;&gt;763f27eb2d9d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;dimspy_process_scans was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/computational-metabolomics/dimspy_process_scans/bc099f2346a1&quot;&gt;bc099f2346a1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;dimspy_replicate_filter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/computational-metabolomics/dimspy_replicate_filter/6cb796aa12c8&quot;&gt;6cb796aa12c8&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;dimspy_sample_filter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/computational-metabolomics/dimspy_sample_filter/cd489cbd4d1c&quot;&gt;cd489cbd4d1c&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2021-02-20, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #262</summary></entry><entry><title type="html">Meet &amp;amp; Join the Galaxy Community</title><link href="https://galaxyproject.eu/posts/2021/02/18/community-video/" rel="alternate" type="text/html" title="Meet &amp;amp; Join the Galaxy Community" /><published>2021-02-18T00:00:00+01:00</published><updated>2021-02-18T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2021/02/18/community-video</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/02/18/community-video/">&lt;p&gt;The Galaxy community is broad and diverse. Contributors to the main code, admins, tool developers, trainers, students… we are spread all over the world!&lt;/p&gt;
 
 &lt;p&gt;This global open-source effort has its core values in the &lt;strong&gt;accessibility&lt;/strong&gt; of analysis tools for everyone, &lt;strong&gt;reproducibility&lt;/strong&gt; of the scientific pipelines, &lt;strong&gt;transparency&lt;/strong&gt;, and &lt;strong&gt;shareability&lt;/strong&gt; of the results with others. These values can only be accomplished thanks to an awesome community.&lt;/p&gt;
 
@@ -397,4 +458,4 @@ The &lt;a href=&quot;https://www.covid19dataportal.org&quot;&gt;COVID-19 Data Po
 
 &lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;A few updates about our &lt;a href=&quot;https://twitter.com/hashtag/COVID19?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#COVID19&lt;/a&gt; work in our new blog post: &lt;a href=&quot;https://t.co/NfB0Npe97u&quot;&gt;https://t.co/NfB0Npe97u&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;New tools and new workflows included e.g. combine the ARTIC variant calling workflow with the consensus sequence building one and be ready to submit your data to public archives.&lt;/p&gt;&amp;mdash; Björn Grüning (@bjoerngruening) &lt;a href=&quot;https://twitter.com/bjoerngruening/status/1356303544907927553?ref_src=twsrc%5Etfw&quot;&gt;February 1, 2021&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="COVID-19" /><summary type="html">The COVID-19 Data Portal emerged as an effort to coordinate data sharing to speed up the coronavirus research. It brings together relevant datasets submitted to EMBL-EBI and other major centres for biomedical data and constitutes an updated resource to which scientist can upload access and analyse reference data.</summary></entry><entry><title type="html">The Galaxy Community Conference 2021 (GCC2021) will be virtual</title><link href="https://galaxyproject.eu/posts/2021/02/05/gcc-virtual/" rel="alternate" type="text/html" title="The Galaxy Community Conference 2021 (GCC2021) will be virtual" /><published>2021-02-05T00:00:00+01:00</published><updated>2021-02-05T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2021/02/05/gcc-virtual</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/02/05/gcc-virtual/">&lt;p&gt;The 2021 Galaxy Community Conference (GCC2021) will be virtual, global, affordable and accessible.&lt;/p&gt;</content><author><name></name></author><category term="training" /><category term="talk" /><category term="poster" /><summary type="html">The 2021 Galaxy Community Conference (GCC2021) will be virtual, global, affordable and accessible.</summary></entry></feed>
+&lt;/div&gt;</content><author><name></name></author><category term="COVID-19" /><summary type="html">The COVID-19 Data Portal emerged as an effort to coordinate data sharing to speed up the coronavirus research. It brings together relevant datasets submitted to EMBL-EBI and other major centres for biomedical data and constitutes an updated resource to which scientist can upload access and analyse reference data.</summary></entry></feed>
