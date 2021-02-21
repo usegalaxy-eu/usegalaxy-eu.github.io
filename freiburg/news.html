@@ -2229,6 +2229,8 @@ To help researchers with creating workflows, a system is developed to recommend 
 
 
      
+      tags.push(`FAQ`)
+     
       tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
@@ -2236,7 +2238,7 @@ To help researchers with creating workflows, a system is developed to recommend 
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4  news ">
+            <div class="col-md-4 FAQ news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -2264,6 +2266,11 @@ To help researchers with creating workflows, a system is developed to recommend 
                   <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
                   class="btn btn-success btn-xs tag-element" role="button"></a>
                   
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=FAQ'"
+           class="btn btn-primary btn-xs tag-element" role="button">FAQ</a>
+    
+
 
                 </div>
                 <div class="news-content">
@@ -5003,6 +5010,8 @@ To help researchers with creating workflows, a system is developed to recommend 
      
       tags.push(`report`)
      
+      tags.push(`FAQ`)
+     
       tags.push(`Freiburg`)
 
     if (!userTag ? true : tags.includes(userTag)) {
@@ -5010,7 +5019,7 @@ To help researchers with creating workflows, a system is developed to recommend 
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 trainingTIaaSCOVID-19report news ">
+            <div class="col-md-4 trainingTIaaSCOVID-19reportFAQ news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -5058,6 +5067,11 @@ To help researchers with creating workflows, a system is developed to recommend 
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=report'"
            class="btn btn-primary btn-xs tag-element" role="button">report</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=FAQ'"
+           class="btn btn-primary btn-xs tag-element" role="button">FAQ</a>
     
 
 
