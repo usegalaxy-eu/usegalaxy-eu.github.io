@@ -6193,6 +6193,8 @@ the development of a service and data infrastructure designed to record and deli
      
       tags.push(`training`)
      
+      tags.push(`FAQ`)
+     
       tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
@@ -6200,7 +6202,7 @@ the development of a service and data infrastructure designed to record and deli
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 galaxyconda-forgebiocondatraining news ">
+            <div class="col-md-4 galaxyconda-forgebiocondatrainingFAQ news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -6248,6 +6250,11 @@ the development of a service and data infrastructure designed to record and deli
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=training'"
            class="btn btn-primary btn-xs tag-element" role="button">training</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=FAQ'"
+           class="btn btn-primary btn-xs tag-element" role="button">FAQ</a>
     
 
 
