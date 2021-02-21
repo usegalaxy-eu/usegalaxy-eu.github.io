@@ -112,6 +112,68 @@
 
 
      
+      tags.push(`FAQ`)
+     
+      tags.push(`Freiburg`)
+
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
+
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4 FAQ news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  
+                    <a href="/posts/2021/02/20/elixir-aai-login/plain.html">
+                  
+                    <h2 class="title">Login via ELIXIR-AAI, Google, LinkedIn, or your ORCID iD</h2>
+                  </a>
+                  <span class="date">
+                    
+
+
+
+
+
+
+
+
+
+
+
+                  </span>
+                  <span class="date">
+                    February 20, 2021
+                  </span>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
+                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=FAQ'"
+           class="btn btn-primary btn-xs tag-element" role="button">FAQ</a>
+    
+
+
+                </div>
+                <div class="news-content">
+                  <div><p><img src="/assets/media/elixir/aai_logo.png" width="50%" alt="ELIXIR AAI logo" /></p>
+</div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
+
+        news.append(div);
+    }
+    tags = []
+
+
+     
       tags.push(`paper`)
      
       tags.push(``)
