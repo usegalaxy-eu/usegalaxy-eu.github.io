@@ -2171,6 +2171,8 @@ The training topic nominations for the <a href="https://www.vibconferences.be/ev
      
       tags.push(`galaxy`)
      
+      tags.push(`FAQ`)
+     
       tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
@@ -2178,7 +2180,7 @@ The training topic nominations for the <a href="https://www.vibconferences.be/ev
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 galaxy news ">
+            <div class="col-md-4 galaxyFAQ news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -2209,6 +2211,11 @@ The training topic nominations for the <a href="https://www.vibconferences.be/ev
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=galaxy'"
            class="btn btn-primary btn-xs tag-element" role="button">galaxy</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=FAQ'"
+           class="btn btn-primary btn-xs tag-element" role="button">FAQ</a>
     
 
 
