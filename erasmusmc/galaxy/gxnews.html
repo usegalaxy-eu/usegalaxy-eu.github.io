@@ -48,6 +48,76 @@
 
 
      
+      tags.push(`COVID-19`)
+     
+      tags.push(`talk`)
+     
+      tags.push(``)
+
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
+
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4 COVID-19talk news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  
+                    <a href="/posts/2021/02/25/2nd-elixir-webinar-series-covid/plain.html">
+                  
+                    <h2 class="title">Galaxy-ELIXIR webinar series: Open Data Infrastructures to tackle COVID-19 pandemic</h2>
+                  </a>
+                  <span class="date">
+                    
+
+
+
+
+
+
+
+
+
+
+
+                  </span>
+                  <span class="date">
+                    February 25, 2021
+                  </span>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
+                  
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=COVID-19'"
+           class="btn btn-primary btn-xs tag-element" role="button">COVID-19</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=talk'"
+           class="btn btn-primary btn-xs tag-element" role="button">talk</a>
+    
+
+
+                </div>
+                <div class="news-content">
+                  <div><p><br />
+After the success of the first <a href="https://elixir-europe.org/events/webinar-galaxy-elixir-covid19">‘Galaxy-ELIXIR webinar series: FAIR data and Open Infrastructures to tackle the COVID-19 pandemic’</a> last spring, the Galaxy community has been running a second Galaxy-ELIXIR webinar series on <a href="https://elixir-europe.org/events/2nd-galaxy-elixir-webinar-series">‘Open Data Infrastructures to tackle COVID-19 pandemic’</a>.</p>
+</div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
+
+        news.append(div);
+    }
+    tags = []
+
+
+     
       tags.push(`training`)
      
       tags.push(`TIaaS`)
