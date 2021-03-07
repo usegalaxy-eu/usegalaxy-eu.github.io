@@ -158,6 +158,132 @@
 
 
      
+      tags.push(`paper`)
+     
+      tags.push(`Freiburg`)
+
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
+
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4 paper news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  
+                    <a href="/posts/2021/03/07/paper-chira/">
+                  
+                    <h2 class="title">New Paper &quot;ChiRA: an integrated framework for chimeric read analysis from RNA-RNA interactome and RNA structurome data&quot;</h2>
+                  </a>
+                  <span class="date">
+                    
+
+
+
+
+	<i class="fa fa-file-text" aria-hidden="true"></i>
+
+
+
+
+
+
+
+
+                  </span>
+                  <span class="date">
+                    March 7, 2021
+                  </span>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
+                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=paper'"
+           class="btn btn-primary btn-xs tag-element" role="button">paper</a>
+    
+
+
+                </div>
+                <div class="news-content">
+                  <div><p><em>Abstract</em> - With the advances in next-generation sequencing technologies, it is possible to determine RNA-RNA interaction and RNA structure predictions on a genome-wide level. The reads from these experiments usually are chimeric, with each arm generated from one of the interaction partners. Owing to short read lengths, often these sequenced arms ambiguously map to multiple locations. Thus, inferring the origin of these can be quite complicated. Here we present ChiRA, a generic framework for sensitive annotation of these chimeric reads, which in turn can be used to predict the sequenced hybrids.</p>
+</div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
+
+        news.append(div);
+    }
+    tags = []
+
+
+     
+      tags.push(`galaxy`)
+     
+      tags.push(``)
+
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
+
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4 galaxy news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  
+                    <a href="/posts/2021/03/06/eu-server-in-catris/">
+                  
+                    <h2 class="title">European Galaxy Server part of CatRIS</h2>
+                  </a>
+                  <span class="date">
+                    
+
+
+
+
+
+
+
+
+
+
+
+                  </span>
+                  <span class="date">
+                    March 6, 2021
+                  </span>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
+                  
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=galaxy'"
+           class="btn btn-primary btn-xs tag-element" role="button">galaxy</a>
+    
+
+
+                </div>
+                <div class="news-content">
+                  <div><p>The <a href="https://usegalaxy.eu/">European Galaxy Server</a> is now listed in the <a href="https://www.portal.catris.eu/home">Catalogue of Research Infrastructure Services (CatRIS)</a>. CatRIS is a portal for services and resources provided by Research Infrastructures across Europe.</p>
+</div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
+
+        news.append(div);
+    }
+    tags = []
+
+
+     
       tags.push(`training`)
      
       tags.push(`FAQ`)
@@ -479,7 +605,9 @@ After the success of the first <a href="https://elixir-europe.org/events/webinar
 
                 </div>
                 <div class="news-content">
-                  <div><p><img src="/assets/media/elixir/aai_logo.png" width="50%" alt="ELIXIR AAI logo" /></p>
+                  <div><p>The <a href="https://elixir-europe.org/services/compute/aai">ELIXIR Authentication and Authorisation Infrastructure (AAI)</a>
+enables researchers to use their home organisation credentials or community or commercial identities (e.g. ORCID, LinkedIn, Google)
+to sign in and access Galaxy.</p>
 </div>
                 </div>
               </div>
