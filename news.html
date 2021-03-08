@@ -147,6 +147,69 @@
 
 
      
+      tags.push(`data`)
+     
+      tags.push(`Freiburg`)
+
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
+
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4 data news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  
+                    <a href="/posts/2021/03/09/HealthyCloud/">
+                  
+                    <h2 class="title">The European HealthyCloud consortium kick-off is today!</h2>
+                  </a>
+                  <span class="date">
+                    
+
+
+
+
+
+
+
+
+
+
+
+                  </span>
+                  <span class="date">
+                    March 9, 2021
+                  </span>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
+                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=data'"
+           class="btn btn-primary btn-xs tag-element" role="button">data</a>
+    
+
+
+                </div>
+                <div class="news-content">
+                  <div><p><br />
+HealthyCloud (Health Research &amp; Innovation Cloud) is a new European project that aims at <strong>improving health research</strong> and its translation to healthcare at all levels: from public health to personalised medicine, through secondary use of health data. HealthyCloud will deliver a Strategic Agenda for the implementation of the European Health Research and Innovation Cloud (HRIC).</p>
+</div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
+
+        news.append(div);
+    }
+    tags = []
+
+
+     
       tags.push(`paper`)
      
       tags.push(`Freiburg`)
