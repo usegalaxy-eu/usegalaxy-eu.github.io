@@ -1,4 +1,106 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2021-03-16T18:36:27+01:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu update to 21.01</title><link href="https://galaxyproject.eu/posts/2021/03/16/galaxy-21-01/" rel="alternate" type="text/html" title="UseGalaxy.eu update to 21.01" /><published>2021-03-16T00:00:00+01:00</published><updated>2021-03-16T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2021/03/16/galaxy-21-01</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/03/16/galaxy-21-01/">&lt;p&gt;UseGalaxy.eu has been updated to 21.01, a few days before the official release. Some highlights of this version: plenty of workflow improvements, the access to remote files interface and the new history panel, together with other user-friendliness enhancements. Enjoy the preview! And if you find issues, please &lt;a href=&quot;mailto:contact@usegalaxy.eu&quot;&gt;let us know&lt;/a&gt;!&lt;/p&gt;</content><author><name></name></author><category term="release" /><summary type="html">UseGalaxy.eu has been updated to 21.01, a few days before the official release. Some highlights of this version: plenty of workflow improvements, the access to remote files interface and the new history panel, together with other user-friendliness enhancements. Enjoy the preview! And if you find issues, please let us know!</summary></entry><entry><title type="html">RADseq data analysis (on mobile phone while baby is sleeping)</title><link href="https://galaxyproject.eu/posts/2021/03/13/radseq-analysis/" rel="alternate" type="text/html" title="RADseq data analysis (on mobile phone while baby is sleeping)" /><published>2021-03-13T00:00:00+01:00</published><updated>2021-03-13T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2021/03/13/radseq-analysis</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/03/13/radseq-analysis/">&lt;p&gt;&lt;a href=&quot;https://twitter.com/Yvan2935&quot;&gt;Yvan Le Bras&lt;/a&gt; reminded us today that everyone can analyse RADseq data in Galaxy.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2021-03-16T20:13:13+01:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu update to 21.01</title><link href="https://galaxyproject.eu/posts/2021/03/16/galaxy-21-01/" rel="alternate" type="text/html" title="UseGalaxy.eu update to 21.01" /><published>2021-03-16T00:00:00+01:00</published><updated>2021-03-16T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2021/03/16/galaxy-21-01</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/03/16/galaxy-21-01/">&lt;p&gt;UseGalaxy.eu has been updated to 21.01, a few days before the official release. Some highlights of this version: plenty of workflow improvements, the access to remote files interface and the new history panel, together with other user-friendliness enhancements. Enjoy the preview! And if you find issues, please &lt;a href=&quot;mailto:contact@usegalaxy.eu&quot;&gt;let us know&lt;/a&gt;!&lt;/p&gt;</content><author><name></name></author><category term="release" /><summary type="html">UseGalaxy.eu has been updated to 21.01, a few days before the official release. Some highlights of this version: plenty of workflow improvements, the access to remote files interface and the new history panel, together with other user-friendliness enhancements. Enjoy the preview! And if you find issues, please let us know!</summary></entry><entry><title type="html">UseGalaxy.eu Tool Updates for 2021-03-16</title><link href="https://galaxyproject.eu/posts/2021/03/16/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2021-03-16" /><published>2021-03-16T00:00:00+01:00</published><updated>2021-03-16T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2021/03/16/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/03/16/tool-update/">&lt;p&gt;On 2021-03-16, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#264/&quot;&gt;Jenkins Build #264&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;text-manipulation&quot;&gt;Text Manipulation&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;diff was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/diff/156d0908e232&quot;&gt;156d0908e232&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;column_maker was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/column_maker/02026300aa45&quot;&gt;02026300aa45&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;quality-control&quot;&gt;Quality Control&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;multiqc was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/multiqc/75c93c70d094&quot;&gt;75c93c70d094&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;chemicaltoolbox&quot;&gt;ChemicalToolBox&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;ambertools_acpype was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/ambertools_acpype/c8cdde00b105&quot;&gt;c8cdde00b105&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;ambertools_antechamber was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/ambertools_antechamber/04f6bb5fe7c7&quot;&gt;04f6bb5fe7c7&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;ambertools_parmchk2 was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/ambertools_parmchk2/6aa2b60f3195&quot;&gt;6aa2b60f3195&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;ambertools_parmchk2 was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/ambertools_parmchk2/7afe7044a2aa&quot;&gt;7afe7044a2aa&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;md_converter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/md_converter/ccfbd956a2d3&quot;&gt;ccfbd956a2d3&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mmpbsa_mmgbsa was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/mmpbsa_mmgbsa/51023da731c0&quot;&gt;51023da731c0&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mmpbsa_mmgbsa was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/mmpbsa_mmgbsa/879662481176&quot;&gt;879662481176&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;parmconv was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/parmconv/2b82fc7bec67&quot;&gt;2b82fc7bec67&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;traj_selections_and_merge was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/traj_selections_and_merge/f4a1e92ca3d2&quot;&gt;f4a1e92ca3d2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;mapping&quot;&gt;Mapping&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;rgrnastar was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/rgrnastar/c772497b2c32&quot;&gt;c772497b2c32&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;rna_starsolo was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/rna_starsolo/a6fba3d92531&quot;&gt;a6fba3d92531&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;proteomics&quot;&gt;Proteomics&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;msstatstmt was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/msstatstmt/5667ff6f7a40&quot;&gt;5667ff6f7a40&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_openpepxl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_openpepxl/40cc19c0dbd6&quot;&gt;40cc19c0dbd6&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_openpepxl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_openpepxl/a2a842b00f9c&quot;&gt;a2a842b00f9c&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_openpepxl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_openpepxl/fc36cfd19834&quot;&gt;fc36cfd19834&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_percolatoradapter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_percolatoradapter/0fc9ae55bcfc&quot;&gt;0fc9ae55bcfc&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_percolatoradapter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_percolatoradapter/e7881a82b56d&quot;&gt;e7881a82b56d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_xfdr was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_xfdr/81402a5e4173&quot;&gt;81402a5e4173&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_xfdr was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_xfdr/9a6e3bb0f358&quot;&gt;9a6e3bb0f358&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;pepquery was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/pepquery/5b5a9f59e2c7&quot;&gt;5b5a9f59e2c7&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;peptide_genomic_coordinate was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/peptide_genomic_coordinate/cb0378d2d487&quot;&gt;cb0378d2d487&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;nanopore&quot;&gt;Nanopore&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;pycoqc was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/pycoqc/3a2f2e24c37e&quot;&gt;3a2f2e24c37e&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;variant-calling&quot;&gt;Variant Calling&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;get_hrun was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/get_hrun/84f70ce0b830&quot;&gt;84f70ce0b830&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;strelka_germline was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/strelka_germline/19481653a22f&quot;&gt;19481653a22f&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;data-managers&quot;&gt;Data Managers&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;data_manager_fetch_ncbi_taxonomy was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/data_manager_fetch_ncbi_taxonomy/9de2fb1ce1fb&quot;&gt;9de2fb1ce1fb&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;data_manager_sam_fasta_index_builder was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/data_manager_sam_fasta_index_builder/3e4d45aca422&quot;&gt;3e4d45aca422&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;data_manager_build_kraken2_database was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/data_manager_build_kraken2_database/0eebe086fd58&quot;&gt;0eebe086fd58&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;data_manager_fetch_busco was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/data_manager_fetch_busco/15b97817550a&quot;&gt;15b97817550a&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;data_manager_humann2_database_downloader was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/data_manager_humann2_database_downloader/ff9cf22838d4&quot;&gt;ff9cf22838d4&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;data_manager_metaphlan2_database_downloader was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/data_manager_metaphlan2_database_downloader/83f07f40b200&quot;&gt;83f07f40b200&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;assembly&quot;&gt;Assembly&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;purge_dups was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/purge_dups/29151e779524&quot;&gt;29151e779524&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;single-cell&quot;&gt;Single-cell&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;scanpy_cluster_reduce_dimension was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/scanpy_cluster_reduce_dimension/35bc2eb568ed&quot;&gt;35bc2eb568ed&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_filter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/scanpy_filter/f87ed6503715&quot;&gt;f87ed6503715&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_inspect was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/scanpy_inspect/9d33775ec67d&quot;&gt;9d33775ec67d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_normalize was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/scanpy_normalize/5342ce58cd1e&quot;&gt;5342ce58cd1e&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_plot was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/scanpy_plot/6adf98e782f3&quot;&gt;6adf98e782f3&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_remove_confounders was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/scanpy_remove_confounders/80d4e2cac903&quot;&gt;80d4e2cac903&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;metagenomic-analysis&quot;&gt;Metagenomic Analysis&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;staramr was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/nml/staramr/4b9a8031ab74&quot;&gt;4b9a8031ab74&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;metabolomics&quot;&gt;Metabolomics&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;w4mclassfilter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/eschen42/w4mclassfilter/aae9fa9a7d4d&quot;&gt;aae9fa9a7d4d&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2021-03-16, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #264</summary></entry><entry><title type="html">RADseq data analysis (on mobile phone while baby is sleeping)</title><link href="https://galaxyproject.eu/posts/2021/03/13/radseq-analysis/" rel="alternate" type="text/html" title="RADseq data analysis (on mobile phone while baby is sleeping)" /><published>2021-03-13T00:00:00+01:00</published><updated>2021-03-13T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2021/03/13/radseq-analysis</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/03/13/radseq-analysis/">&lt;p&gt;&lt;a href=&quot;https://twitter.com/Yvan2935&quot;&gt;Yvan Le Bras&lt;/a&gt; reminded us today that everyone can analyse RADseq data in Galaxy.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://doi.org/10.1093/bfgp/elq031&quot;&gt;RADSeq&lt;/a&gt; combines two simple molecular biology techniques with
 Illumina sequencing: the use of restriction enzymes to cut DNA into fragments (as for RFLPs and AFLPs),
@@ -244,9 +346,4 @@ The second session was on the ‘Importance of (open) infrastructures in respond
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;We would like to thank all the speakers, the technical and outreach teams from the ELIXIR Hub, and the community at large for the efforts since the beginning of the pandemic.&lt;/strong&gt;&lt;/p&gt;</content><author><name></name></author><category term="COVID-19" /><category term="talk" /><summary type="html">After the success of the first ‘Galaxy-ELIXIR webinar series: FAIR data and Open Infrastructures to tackle the COVID-19 pandemic’ last spring, the Galaxy community has been running a second Galaxy-ELIXIR webinar series on ‘Open Data Infrastructures to tackle COVID-19 pandemic’.</summary></entry><entry><title type="html">Training Infrastructure Feedback from Mali Salmon-Divon</title><link href="https://galaxyproject.eu/posts/2021/02/22/tiaas-Mali-Salmon/" rel="alternate" type="text/html" title="Training Infrastructure Feedback from Mali Salmon-Divon" /><published>2021-02-22T00:00:00+01:00</published><updated>2021-02-22T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2021/02/22/tiaas-Mali-Salmon</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/02/22/tiaas-Mali-Salmon/">&lt;p&gt;During January 2021, I led two Galaxy workshops; the first was for 20 Graduate students and lasted for five days from 9 am-2 pm. The students learned how to use the Galaxy platform to perform basic text processing and RNA-seq analysis. Their final project was to use Galaxy to analyze RNA-seq data related to their research.&lt;/p&gt;
-
-&lt;p&gt;The second workshop was given to 20 medical doctors. In five meetings of 4 hours each, they were introduced to the Galaxy platform and analyzed both exome trio data and RNA-seq.
-The feedback I received from both events was fantastic. Students were thrilled with the ability to perform analyses without needing to write code. They found Galaxy to be user-friendly and easy to operate, and I am sure they will use it in their research.&lt;/p&gt;
-
-&lt;p&gt;I would like to thank Galaxy eu. team, for providing the excellent TIaaS service, and to thank the team and especially to Beatriz Serrano-Solano, for their generous support!!!&lt;/p&gt;</content><author><name>Mali Salmon-Divon</name></author><category term="training" /><category term="TIaaS" /><summary type="html">During January 2021, I led two Galaxy workshops; the first was for 20 Graduate students and lasted for five days from 9 am-2 pm. The students learned how to use the Galaxy platform to perform basic text processing and RNA-seq analysis. Their final project was to use Galaxy to analyze RNA-seq data related to their research.</summary></entry></feed>
+&lt;p&gt;&lt;strong&gt;We would like to thank all the speakers, the technical and outreach teams from the ELIXIR Hub, and the community at large for the efforts since the beginning of the pandemic.&lt;/strong&gt;&lt;/p&gt;</content><author><name></name></author><category term="COVID-19" /><category term="talk" /><summary type="html">After the success of the first ‘Galaxy-ELIXIR webinar series: FAIR data and Open Infrastructures to tackle the COVID-19 pandemic’ last spring, the Galaxy community has been running a second Galaxy-ELIXIR webinar series on ‘Open Data Infrastructures to tackle COVID-19 pandemic’.</summary></entry></feed>
