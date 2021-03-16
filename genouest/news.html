@@ -154,6 +154,72 @@
 
 
      
+      tags.push(`release`)
+     
+      tags.push(``)
+
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
+
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4 release news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  
+                    <a href="https://docs.galaxyproject.org/en/release_21.01/releases/21.01_announce_user.html">
+                  
+                    <h2 class="title">UseGalaxy.eu update to 21.01</h2>
+                  </a>
+                  <span class="date">
+                    
+	<i class="fa fa-external-link" aria-hidden="true"></i>
+
+
+
+
+
+
+
+
+	<i class="fa fa-bullhorn" aria-hidden="true"></i>
+
+
+
+
+
+                  </span>
+                  <span class="date">
+                    March 16, 2021
+                  </span>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
+                  
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=release'"
+           class="btn btn-primary btn-xs tag-element" role="button">release</a>
+    
+
+
+                </div>
+                <div class="news-content">
+                  <div><p>UseGalaxy.eu has been updated to 21.01, a few days before the official release. Some highlights of this version: plenty of workflow improvements, the access to remote files interface and the new history panel, together with other user-friendliness enhancements. Enjoy the preview! And if you find issues, please <a href="mailto:contact@usegalaxy.eu">let us know</a>!</p>
+</div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
+
+        news.append(div);
+    }
+    tags = []
+
+
+     
       tags.push(`tools`)
      
       tags.push(`training`)
