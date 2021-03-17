@@ -1,4 +1,69 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2021-03-16T20:13:13+01:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu update to 21.01</title><link href="https://galaxyproject.eu/posts/2021/03/16/galaxy-21-01/" rel="alternate" type="text/html" title="UseGalaxy.eu update to 21.01" /><published>2021-03-16T00:00:00+01:00</published><updated>2021-03-16T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2021/03/16/galaxy-21-01</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/03/16/galaxy-21-01/">&lt;p&gt;UseGalaxy.eu has been updated to 21.01, a few days before the official release. Some highlights of this version: plenty of workflow improvements, the access to remote files interface and the new history panel, together with other user-friendliness enhancements. Enjoy the preview! And if you find issues, please &lt;a href=&quot;mailto:contact@usegalaxy.eu&quot;&gt;let us know&lt;/a&gt;!&lt;/p&gt;</content><author><name></name></author><category term="release" /><summary type="html">UseGalaxy.eu has been updated to 21.01, a few days before the official release. Some highlights of this version: plenty of workflow improvements, the access to remote files interface and the new history panel, together with other user-friendliness enhancements. Enjoy the preview! And if you find issues, please let us know!</summary></entry><entry><title type="html">UseGalaxy.eu Tool Updates for 2021-03-16</title><link href="https://galaxyproject.eu/posts/2021/03/16/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2021-03-16" /><published>2021-03-16T00:00:00+01:00</published><updated>2021-03-16T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2021/03/16/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/03/16/tool-update/">&lt;p&gt;On 2021-03-16, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#264/&quot;&gt;Jenkins Build #264&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2021-03-17T01:24:04+01:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2021-03-17</title><link href="https://galaxyproject.eu/posts/2021/03/17/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2021-03-17" /><published>2021-03-17T00:00:00+01:00</published><updated>2021-03-17T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2021/03/17/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/03/17/tool-update/">&lt;p&gt;On 2021-03-17, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#265/&quot;&gt;Jenkins Build #265&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;graphdisplay-data&quot;&gt;Graph/Display Data&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;jbrowse was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/jbrowse/4542035c1075&quot;&gt;4542035c1075&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;pe_histogram was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/pe_histogram/bd1416eea1f0&quot;&gt;bd1416eea1f0&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;proteomics&quot;&gt;Proteomics&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;openms_openpepxl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_openpepxl/a2a842b00f9c&quot;&gt;a2a842b00f9c&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_percolatoradapter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_percolatoradapter/0fc9ae55bcfc&quot;&gt;0fc9ae55bcfc&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_percolatoradapter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_percolatoradapter/e7881a82b56d&quot;&gt;e7881a82b56d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_xfdr was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_xfdr/81402a5e4173&quot;&gt;81402a5e4173&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_xfdr was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_xfdr/9a6e3bb0f358&quot;&gt;9a6e3bb0f358&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;peptideshaker was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/peptideshaker/da885ca16cb2&quot;&gt;da885ca16cb2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;variant-calling&quot;&gt;Variant Calling&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;strelka_germline was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/strelka_germline/19481653a22f&quot;&gt;19481653a22f&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;hicexplorer&quot;&gt;HiCExplorer&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;hicexplorer_chicaggregatestatistic was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_chicaggregatestatistic/b53973719d7b&quot;&gt;b53973719d7b&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_chicdifferentialtest was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_chicdifferentialtest/975b6a67e4b0&quot;&gt;975b6a67e4b0&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_chicplotviewpoint was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_chicplotviewpoint/031872f8e2e0&quot;&gt;031872f8e2e0&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_chicqualitycontrol was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_chicqualitycontrol/db4a82804126&quot;&gt;db4a82804126&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_chicsignificantinteractions was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_chicsignificantinteractions/6001400eed99&quot;&gt;6001400eed99&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_chicviewpoint was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_chicviewpoint/dbfd2cfc0f66&quot;&gt;dbfd2cfc0f66&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_chicviewpointbackgroundmodel was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_chicviewpointbackgroundmodel/628259b7ffb4&quot;&gt;628259b7ffb4&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicadjustmatrix was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicadjustmatrix/a7fd644deda6&quot;&gt;a7fd644deda6&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicaggregatecontacts was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicaggregatecontacts/ee370ade24cd&quot;&gt;ee370ade24cd&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicaverageregions was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicaverageregions/03d7978293fe&quot;&gt;03d7978293fe&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicbuildmatrix was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicbuildmatrix/9edf8894a22d&quot;&gt;9edf8894a22d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hiccomparematrices was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hiccomparematrices/80abd5e2922a&quot;&gt;80abd5e2922a&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hiccompartmentspolarization was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hiccompartmentspolarization/ed3dea19c464&quot;&gt;ed3dea19c464&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicconvertformat was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicconvertformat/3e598b8e72e7&quot;&gt;3e598b8e72e7&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hiccorrectmatrix was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hiccorrectmatrix/e4cb7809df61&quot;&gt;e4cb7809df61&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hiccorrelate was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hiccorrelate/340aa8042c7f&quot;&gt;340aa8042c7f&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicdetectloops was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicdetectloops/c3f9037423bd&quot;&gt;c3f9037423bd&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicdifferentialtad was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicdifferentialtad/c852ad97ba28&quot;&gt;c852ad97ba28&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicfindrestrictionsites was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicfindrestrictionsites/8823a9d45ed0&quot;&gt;8823a9d45ed0&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicfindtads was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicfindtads/d404277cc87a&quot;&gt;d404277cc87a&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hichyperoptdetectloops was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hichyperoptdetectloops/dde6b320a34b&quot;&gt;dde6b320a34b&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicinfo was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicinfo/3a74a441b11f&quot;&gt;3a74a441b11f&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicmergedomains was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicmergedomains/6b9b4fd51308&quot;&gt;6b9b4fd51308&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicmergeloops was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicmergeloops/94b552c6830a&quot;&gt;94b552c6830a&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicmergematrixbins was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicmergematrixbins/03dd3c16ae4e&quot;&gt;03dd3c16ae4e&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicnormalize was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicnormalize/05257e5d5016&quot;&gt;05257e5d5016&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicpca was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicpca/3b5b54ed6392&quot;&gt;3b5b54ed6392&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicplotaverageregions was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicplotaverageregions/5fb461d15c31&quot;&gt;5fb461d15c31&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicplotdistvscounts was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicplotdistvscounts/e2971589184b&quot;&gt;e2971589184b&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicplotmatrix was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicplotmatrix/7babd8a46fe0&quot;&gt;7babd8a46fe0&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicplotsvl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicplotsvl/b75f87deaa15&quot;&gt;b75f87deaa15&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicplotviewpoint was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicplotviewpoint/b637a1e3cb14&quot;&gt;b637a1e3cb14&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicquickqc was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicquickqc/9c5078f3926b&quot;&gt;9c5078f3926b&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicsummatrices was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicsummatrices/5aa5ef83f975&quot;&gt;5aa5ef83f975&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hictransform was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hictransform/9667ab8e2085&quot;&gt;9667ab8e2085&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicvalidatelocations was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicvalidatelocations/662109a754b5&quot;&gt;662109a754b5&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2021-03-17, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #265</summary></entry><entry><title type="html">UseGalaxy.eu update to 21.01</title><link href="https://galaxyproject.eu/posts/2021/03/16/galaxy-21-01/" rel="alternate" type="text/html" title="UseGalaxy.eu update to 21.01" /><published>2021-03-16T00:00:00+01:00</published><updated>2021-03-16T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2021/03/16/galaxy-21-01</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/03/16/galaxy-21-01/">&lt;p&gt;UseGalaxy.eu has been updated to 21.01, a few days before the official release. Some highlights of this version: plenty of workflow improvements, the access to remote files interface and the new history panel, together with other user-friendliness enhancements. Enjoy the preview! And if you find issues, please &lt;a href=&quot;mailto:contact@usegalaxy.eu&quot;&gt;let us know&lt;/a&gt;!&lt;/p&gt;</content><author><name></name></author><category term="release" /><summary type="html">UseGalaxy.eu has been updated to 21.01, a few days before the official release. Some highlights of this version: plenty of workflow improvements, the access to remote files interface and the new history panel, together with other user-friendliness enhancements. Enjoy the preview! And if you find issues, please let us know!</summary></entry><entry><title type="html">UseGalaxy.eu Tool Updates for 2021-03-16</title><link href="https://galaxyproject.eu/posts/2021/03/16/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2021-03-16" /><published>2021-03-16T00:00:00+01:00</published><updated>2021-03-16T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2021/03/16/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/03/16/tool-update/">&lt;p&gt;On 2021-03-16, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#264/&quot;&gt;Jenkins Build #264&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;text-manipulation&quot;&gt;Text Manipulation&lt;/h2&gt;
 
@@ -306,44 +371,4 @@ Thank you very much for this great contribution to the Galaxy community, Geert!&
   &lt;li&gt;hyphy_relax was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_relax/7cd99ec269ee&quot;&gt;7cd99ec269ee&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;hyphy_slac was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_slac/a2e3319aca46&quot;&gt;a2e3319aca46&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;hyphy_sm19 was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_sm19/4636d51b049c&quot;&gt;4636d51b049c&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2021-02-27, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #263</summary></entry><entry><title type="html">Galaxy-ELIXIR webinar series: Open Data Infrastructures to tackle COVID-19 pandemic</title><link href="https://galaxyproject.eu/posts/2021/02/25/2nd-elixir-webinar-series-covid/" rel="alternate" type="text/html" title="Galaxy-ELIXIR webinar series: Open Data Infrastructures to tackle COVID-19 pandemic" /><published>2021-02-25T00:00:00+01:00</published><updated>2021-02-25T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2021/02/25/2nd-elixir-webinar-series-covid</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/02/25/2nd-elixir-webinar-series-covid/">&lt;p&gt;&lt;br /&gt;
-After the success of the first &lt;a href=&quot;https://elixir-europe.org/events/webinar-galaxy-elixir-covid19&quot;&gt;‘Galaxy-ELIXIR webinar series: FAIR data and Open Infrastructures to tackle the COVID-19 pandemic’&lt;/a&gt; last spring, the Galaxy community has been running a second Galaxy-ELIXIR webinar series on &lt;a href=&quot;https://elixir-europe.org/events/2nd-galaxy-elixir-webinar-series&quot;&gt;‘Open Data Infrastructures to tackle COVID-19 pandemic’&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;In this second edition, and for six consecutive weeks, speakers from all around the globe have been describing the latest Galaxy developments for working with SARS-CoV-2 data. If you missed them, the recordings are now available osn the &lt;a href=&quot;https://www.youtube.com/c/ELIXIREurope&quot;&gt;ELIXIR Europe YouTube channel&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;In the first session, Anton Nekrutenko and Marius van den Beek introduced the series and the lessons learned in the previous edition.&lt;/p&gt;
-
-&lt;iframe width=&quot;660&quot; height=&quot;415&quot; src=&quot;https://www.youtube.com/embed/ubBnfcPJup0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;&lt;br /&gt;
-The second session was on the ‘Importance of (open) infrastructures in responding to a pandemic’ with Andrew Lonie, Guy Cochrane, Björn Grüning, Frederik Coppens and Nadim Rahman as speakers.&lt;/p&gt;
-
-&lt;iframe width=&quot;660&quot; height=&quot;415&quot; src=&quot;https://www.youtube.com/embed/LyEV1CCIuGQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;The &lt;a href=&quot;https://www.covid19dataportal.org/&quot;&gt;COVID-19 Data portal&lt;/a&gt; was largely addressed during the 3rd session together with the data preprocessing, cleaning and submission to &lt;a href=&quot;https://www.ebi.ac.uk/ena/browser/home&quot;&gt;ENA&lt;/a&gt;, with Ignacio Eguinoa, Bert Droesbeke, Frederik Coppens and Miguel Roncoroni.&lt;/p&gt;
-
-&lt;iframe width=&quot;660&quot; height=&quot;415&quot; src=&quot;https://www.youtube.com/embed/J0t02gPSkvU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;By the fourth session, Sergei Pond gave insights from selection analysis of complete genomes and read-level data.&lt;/p&gt;
-
-&lt;iframe width=&quot;660&quot; height=&quot;415&quot; src=&quot;https://www.youtube.com/embed/CiMJlQ8F3q8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Session 5 was dedicated to &lt;a href=&quot;https://covid19beacon.crg.eu/&quot;&gt;Viral Beacon&lt;/a&gt; and its interaction with Galaxy, with Babita Singh, Bjoern Gruening and Wolfgang Maier.&lt;/p&gt;
-
-&lt;iframe width=&quot;660&quot; height=&quot;415&quot; src=&quot;https://www.youtube.com/embed/MTivOoPYMwQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;During the last one, with Milad Miladi, Nathan Roach, Pratik Jagtap and Subina Mehta explained the progresses made in Direct RNA Sequencing (DRS) and proteomics.&lt;/p&gt;
-
-&lt;iframe width=&quot;660&quot; height=&quot;415&quot; src=&quot;https://www.youtube.com/embed/HCNNUSlL73k&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;We would like to thank all the speakers, the technical and outreach teams from the ELIXIR Hub, and the community at large for the efforts since the beginning of the pandemic.&lt;/strong&gt;&lt;/p&gt;</content><author><name></name></author><category term="COVID-19" /><category term="talk" /><summary type="html">After the success of the first ‘Galaxy-ELIXIR webinar series: FAIR data and Open Infrastructures to tackle the COVID-19 pandemic’ last spring, the Galaxy community has been running a second Galaxy-ELIXIR webinar series on ‘Open Data Infrastructures to tackle COVID-19 pandemic’.</summary></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2021-02-27, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #263</summary></entry></feed>
