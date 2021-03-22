@@ -202,7 +202,7 @@
     <div class="col-md-8 col-md-offset-2">
       <div class="news-content">
         <p>In this blog post, we will explain how you can get your software tool into a Galaxy server and with this, exposed to thousands of researchers.
-For this purpose, we will follow David’s steps to add the very generic UNIX <code class="language-plaintext highlighter-rouge">diff</code> tool to Galaxy.</p>
+For this purpose, we will follow David’s steps to add the very generic UNIX <code class="highlighter-rouge">diff</code> tool to Galaxy.</p>
 
 <p>The first step to getting your software tool deployed into a Galaxy instance is to develop a Conda package for it.
 Conda is the <em>de facto</em> standard in many different communities to deploy software easily and reproducibly.
@@ -258,13 +258,13 @@ tracking all Galaxy tools to ensure that a container exists for each tool. You c
 
 <p>Automatic containers: <a href="https://github.com/BioContainers/multi-package-containers/pull/1236">https://github.com/BioContainers/multi-package-containers/pull/1236</a></p>
 
-<p>Last but not least, David wanted to get the Galaxy <code class="language-plaintext highlighter-rouge">diff</code> tool into the European Galaxy server.
+<p>Last but not least, David wanted to get the Galaxy <code class="highlighter-rouge">diff</code> tool into the European Galaxy server.
 For that, a new PR was created against the tool repository from usegalaxy-eu.</p>
 
 <p><strong>Step 3 - request for installation</strong>: <a href="https://github.com/usegalaxy-eu/usegalaxy-eu-tools/pull/318">https://github.com/usegalaxy-eu/usegalaxy-eu-tools/pull/318</a></p>
 
 <p>Once this is merged, another bot installs all the new tools but also tool updates automatically every Saturday.
-As a result, the installed <code class="language-plaintext highlighter-rouge">diff</code> tool can be used on the European Galaxy server following this link: https://usegalaxy.eu/root?tool_id=diff</p>
+As a result, the installed <code class="highlighter-rouge">diff</code> tool can be used on the European Galaxy server following this link: https://usegalaxy.eu/root?tool_id=diff</p>
 
 <p>That’s it - 3 steps to get your tool exposed to thousands of researchers!</p>
 
