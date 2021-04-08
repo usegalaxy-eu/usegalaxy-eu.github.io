@@ -149,6 +149,79 @@
      
       tags.push(`training`)
      
+      tags.push(`tools`)
+     
+      tags.push(``)
+
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
+
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4 trainingtools news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  
+                    <a href="/posts/2021/04/08/scpost/">
+                  
+                    <h2 class="title">Updates from the Single-Cell Community in Freiburg</h2>
+                  </a>
+                  <span class="date">
+                    
+
+
+
+	<i class="fa fa-graduation-cap" aria-hidden="true"></i>
+
+
+
+	<i class="fa fa-wrench" aria-hidden="true"></i>
+
+
+
+
+
+
+
+                  </span>
+                  <span class="date">
+                    April 8, 2021
+                  </span>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
+                  
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=training'"
+           class="btn btn-primary btn-xs tag-element" role="button">training</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=tools'"
+           class="btn btn-primary btn-xs tag-element" role="button">tools</a>
+    
+
+
+                </div>
+                <div class="news-content">
+                  <div><p>The single-cell materials in the Galaxy Training Network (GTN) have <a href="https://training.galaxyproject.org/training-material/search?query=single-cell">once again expanded</a>, with welcome contributions from <a href="https://training.galaxyproject.org/training-material/hall-of-fame/gallardoalba/">Cristobal Gallardo</a> and <a href="https://training.galaxyproject.org/training-material/hall-of-fame/mtekman/">Mehmet Tekman</a> of the Freiburg Galaxy Team, and <a href="https://training.galaxyproject.org/training-material/hall-of-fame/nomadscientist/">Wendi Bacon</a> of the EMBL European Bioinformatics Institute (EMBL-EBI). The new tutorials focus on <a href="https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna-seq-basic-pipeline/tutorial.html">multiple sample analysis</a> and <a href="https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna-plant/tutorial.html">plant datasets</a>, both using the new version (1.7) of the fantastic ScanPy tool suite and the <a href="https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna-JUPYTER-trajectories/tutorial.html">Jupyter Notebooks</a> hosted on Galaxy.</p>
+</div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
+
+        news.append(div);
+    }
+    tags = []
+
+
+     
+      tags.push(`training`)
+     
       tags.push(`TIaaS`)
      
       tags.push(``)
