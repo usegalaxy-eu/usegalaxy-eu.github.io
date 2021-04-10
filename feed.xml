@@ -1,4 +1,88 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2021-04-09T21:28:21+02:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">Updates from the Single-Cell Community in Freiburg</title><link href="https://galaxyproject.eu/posts/2021/04/08/scpost/" rel="alternate" type="text/html" title="Updates from the Single-Cell Community in Freiburg" /><published>2021-04-08T00:00:00+02:00</published><updated>2021-04-08T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2021/04/08/scpost</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/04/08/scpost/">&lt;p&gt;The single-cell materials in the Galaxy Training Network (GTN) have &lt;a href=&quot;https://training.galaxyproject.org/training-material/search?query=single-cell&quot;&gt;once again expanded&lt;/a&gt;, with welcome contributions from &lt;a href=&quot;https://training.galaxyproject.org/training-material/hall-of-fame/gallardoalba/&quot;&gt;Cristobal Gallardo&lt;/a&gt; and &lt;a href=&quot;https://training.galaxyproject.org/training-material/hall-of-fame/mtekman/&quot;&gt;Mehmet Tekman&lt;/a&gt; of the Freiburg Galaxy Team, and &lt;a href=&quot;https://training.galaxyproject.org/training-material/hall-of-fame/nomadscientist/&quot;&gt;Wendi Bacon&lt;/a&gt; of the EMBL European Bioinformatics Institute (EMBL-EBI). The new tutorials focus on &lt;a href=&quot;https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna-seq-basic-pipeline/tutorial.html&quot;&gt;multiple sample analysis&lt;/a&gt; and &lt;a href=&quot;https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna-plant/tutorial.html&quot;&gt;plant datasets&lt;/a&gt;, both using the new version (1.7) of the fantastic ScanPy tool suite and the &lt;a href=&quot;https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna-JUPYTER-trajectories/tutorial.html&quot;&gt;Jupyter Notebooks&lt;/a&gt; hosted on Galaxy.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2021-04-10T13:12:22+02:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2021-04-10</title><link href="https://galaxyproject.eu/posts/2021/04/10/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2021-04-10" /><published>2021-04-10T00:00:00+02:00</published><updated>2021-04-10T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2021/04/10/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/04/10/tool-update/">&lt;p&gt;On 2021-04-10, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#269/&quot;&gt;Jenkins Build #269&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;chemicaltoolbox&quot;&gt;ChemicalToolBox&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;rdock_sort_filter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/rdock_sort_filter/784a9f7f079e&quot;&gt;784a9f7f079e&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;proteomics&quot;&gt;Proteomics&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;encyclopedia_encyclopedia was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/encyclopedia_encyclopedia/d263296cd73e&quot;&gt;d263296cd73e&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;encyclopedia_fasta_to_prosit_csv was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/encyclopedia_fasta_to_prosit_csv/469da8c03202&quot;&gt;469da8c03202&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;encyclopedia_library_to_blib was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/encyclopedia_library_to_blib/6278dd24a860&quot;&gt;6278dd24a860&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;encyclopedia_prosit_csv_to_library was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/encyclopedia_prosit_csv_to_library/0e25453fbee7&quot;&gt;0e25453fbee7&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;encyclopedia_quantify was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/encyclopedia_quantify/1c5cbf8f79ce&quot;&gt;1c5cbf8f79ce&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;encyclopedia_searchtolib was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/encyclopedia_searchtolib/36880dfd9fa7&quot;&gt;36880dfd9fa7&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;encyclopedia_walnut was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/encyclopedia_walnut/d6a4dfdad269&quot;&gt;d6a4dfdad269&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_openpepxl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_openpepxl/a2a842b00f9c&quot;&gt;a2a842b00f9c&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_percolatoradapter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_percolatoradapter/0fc9ae55bcfc&quot;&gt;0fc9ae55bcfc&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_percolatoradapter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_percolatoradapter/e7881a82b56d&quot;&gt;e7881a82b56d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_xfdr was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_xfdr/81402a5e4173&quot;&gt;81402a5e4173&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_xfdr was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_xfdr/9a6e3bb0f358&quot;&gt;9a6e3bb0f358&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;get-data&quot;&gt;Get Data&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;unipept was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/unipept/75b3b3d0adbf&quot;&gt;75b3b3d0adbf&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;nanopore&quot;&gt;Nanopore&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;flair_collapse was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/flair_collapse/03b7b7811ea6&quot;&gt;03b7b7811ea6&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;flair_correct was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/flair_correct/c784170f3b5e&quot;&gt;c784170f3b5e&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;rna-analysis&quot;&gt;RNA Analysis&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;chira_collapse was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/chira_collapse/00187b27f5e5&quot;&gt;00187b27f5e5&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;chira_extract was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/chira_extract/8b2c1d1556ac&quot;&gt;8b2c1d1556ac&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;chira_map was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/chira_map/e7a9859e0040&quot;&gt;e7a9859e0040&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;chira_merge was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/chira_merge/b8cb089a8e59&quot;&gt;b8cb089a8e59&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;chira_quantify was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/chira_quantify/8e3da3c5b851&quot;&gt;8e3da3c5b851&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;kallisto_pseudo was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/kallisto_pseudo/01247aaf0a10&quot;&gt;01247aaf0a10&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;kallisto_quant was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/kallisto_quant/40985510cd98&quot;&gt;40985510cd98&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;variant-calling&quot;&gt;Variant Calling&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;snippy was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/snippy/fa016f1eea1a&quot;&gt;fa016f1eea1a&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;annotation&quot;&gt;Annotation&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;abricate was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/abricate/3f3e247c053d&quot;&gt;3f3e247c053d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;seq2hla was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/seq2hla/5a7cd6c39085&quot;&gt;5a7cd6c39085&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;hicexplorer&quot;&gt;HiCExplorer&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;hicexplorer_hicfindrestrictionsites was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicfindrestrictionsites/9369e9b11b8d&quot;&gt;9369e9b11b8d&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;phylogenetics&quot;&gt;Phylogenetics&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;hyphy_absrel was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_absrel/5a7c56a5cc08&quot;&gt;5a7c56a5cc08&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hyphy_bgm was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_bgm/373afb209788&quot;&gt;373afb209788&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hyphy_busted was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_busted/eb26b02af55a&quot;&gt;eb26b02af55a&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hyphy_fade was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_fade/c6355a5b0483&quot;&gt;c6355a5b0483&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hyphy_fel was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_fel/e15ef3031bf9&quot;&gt;e15ef3031bf9&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hyphy_fubar was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_fubar/f9f0518a0053&quot;&gt;f9f0518a0053&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hyphy_gard was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_gard/3b96e92e8ec3&quot;&gt;3b96e92e8ec3&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hyphy_meme was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_meme/24a21a467399&quot;&gt;24a21a467399&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hyphy_prime was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_prime/02f0dfb10421&quot;&gt;02f0dfb10421&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hyphy_relax was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_relax/91e47cb67709&quot;&gt;91e47cb67709&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hyphy_slac was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_slac/599e492f8063&quot;&gt;599e492f8063&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hyphy_sm19 was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_sm19/386b975927dd&quot;&gt;386b975927dd&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2021-04-10, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #269</summary></entry><entry><title type="html">Updates from the Single-Cell Community in Freiburg</title><link href="https://galaxyproject.eu/posts/2021/04/08/scpost/" rel="alternate" type="text/html" title="Updates from the Single-Cell Community in Freiburg" /><published>2021-04-08T00:00:00+02:00</published><updated>2021-04-08T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2021/04/08/scpost</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/04/08/scpost/">&lt;p&gt;The single-cell materials in the Galaxy Training Network (GTN) have &lt;a href=&quot;https://training.galaxyproject.org/training-material/search?query=single-cell&quot;&gt;once again expanded&lt;/a&gt;, with welcome contributions from &lt;a href=&quot;https://training.galaxyproject.org/training-material/hall-of-fame/gallardoalba/&quot;&gt;Cristobal Gallardo&lt;/a&gt; and &lt;a href=&quot;https://training.galaxyproject.org/training-material/hall-of-fame/mtekman/&quot;&gt;Mehmet Tekman&lt;/a&gt; of the Freiburg Galaxy Team, and &lt;a href=&quot;https://training.galaxyproject.org/training-material/hall-of-fame/nomadscientist/&quot;&gt;Wendi Bacon&lt;/a&gt; of the EMBL European Bioinformatics Institute (EMBL-EBI). The new tutorials focus on &lt;a href=&quot;https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna-seq-basic-pipeline/tutorial.html&quot;&gt;multiple sample analysis&lt;/a&gt; and &lt;a href=&quot;https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna-plant/tutorial.html&quot;&gt;plant datasets&lt;/a&gt;, both using the new version (1.7) of the fantastic ScanPy tool suite and the &lt;a href=&quot;https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna-JUPYTER-trajectories/tutorial.html&quot;&gt;Jupyter Notebooks&lt;/a&gt; hosted on Galaxy.&lt;/p&gt;
 
 &lt;p&gt;The GTN materials paired with the continuously expanding Galaxy online computing platform, freely enable researchers and bio-enthusiasts to develop their understanding of various cutting-edge topics in single-cell. This, in conjunction with the &lt;a href=&quot;https://www.ebi.ac.uk/about/news/announcements/SCiAp&quot;&gt;Single Cell interactive application&lt;/a&gt; (SCiAp) computation interface, as well as the vast datasets from the &lt;a href=&quot;https://humancellatlas.usegalaxy.eu/&quot;&gt;Human Cell Atlas&lt;/a&gt; (HCA), provide users with a powerful playground of resources to explore at their hearts content.&lt;/p&gt;
 
@@ -198,19 +282,4 @@ We have developed SISTR to accurately perform serotype predictions using minimal
 
 &lt;p&gt;After using Training Infrastructure as a Service resources in both trainings, we can say that the effect on the dynamics and performance for the sessions where the resources were used was extremely positive. Compared to previous editions, TiaaS allowed us to achieve more, faster and in a more convenient way (special mention here for the queue monitoring page, super useful for the trainers), and the improvement on the overall satisfaction for both trainers and students was clear regarding Galaxy usage. Therefore, the resources made a significant contribution to conduct the trainings in a more fluid and effective way. In addition, the process for requesting the resources was straightforward, the resources allocated were accurate for our needs,  and the people from UseGalaxy.eu were always quick and efficient at providing instructions, follow-up and assistance when needed (many thanks in particular to Beatriz Serrano-Solano).&lt;/p&gt;
 
-&lt;p&gt;All in all, highly recommended. Thanks for making this service available!&lt;/p&gt;</content><author><name>Dr. Ricardo Gonzalo Sanz</name></author><category term="training" /><category term="TIaaS" /><summary type="html">Recently, staff from the Statistics and Bioinformatics Unit from Vall d’Hebron Institute of Research (VHIR) were involved in two trainings where we used TIaaS resources. We never used TiaaS before these trainings.</summary></entry><entry><title type="html">How to import a workflow from the Workflow Hub and run it on remote COVID-19 data</title><link href="https://galaxyproject.eu/posts/2021/03/25/wfh-video/" rel="alternate" type="text/html" title="How to import a workflow from the Workflow Hub and run it on remote COVID-19 data" /><published>2021-03-25T00:00:00+01:00</published><updated>2021-03-25T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2021/03/25/wfh-video</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/03/25/wfh-video/">&lt;p&gt;Thanks to a great Collaboration between the Galaxy Community, &lt;a href=&quot;https://dockstore.org/&quot;&gt;Dockstore&lt;/a&gt; and the &lt;a href=&quot;https://workflowhub.eu/&quot;&gt;Workflow Hub&lt;/a&gt;,
-it is also possible to import a
-workflow directly into Galaxy and run it. This is using the &lt;a href=&quot;https://www.ga4gh.org/&quot;&gt;GH4GH&lt;/a&gt; API &lt;a href=&quot;https://github.com/ga4gh/tool-registry-service-schemas&quot;&gt;TRS&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;We have created a video showcasing the process for a COVID-19 data analysis workflow:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Search in the Workflow Hub and retrieve a Galaxy workflow.&lt;/li&gt;
-  &lt;li&gt;Import it easily into Galaxy.&lt;/li&gt;
-  &lt;li&gt;Get remote COVID-19 data into your Galaxy history.&lt;/li&gt;
-  &lt;li&gt;Run the imported workflow on the remote data.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;You can see how it works in practice in the following video:&lt;/p&gt;
-
-&lt;iframe width=&quot;660&quot; height=&quot;415&quot; src=&quot;https://www.youtube.com/embed/eU1753h6NIs&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><author><name></name></author><category term="training" /><category term="FAQ" /><category term="COVID-19" /><summary type="html">Thanks to a great Collaboration between the Galaxy Community, Dockstore and the Workflow Hub, it is also possible to import a workflow directly into Galaxy and run it. This is using the GH4GH API TRS.</summary></entry></feed>
+&lt;p&gt;All in all, highly recommended. Thanks for making this service available!&lt;/p&gt;</content><author><name>Dr. Ricardo Gonzalo Sanz</name></author><category term="training" /><category term="TIaaS" /><summary type="html">Recently, staff from the Statistics and Bioinformatics Unit from Vall d’Hebron Institute of Research (VHIR) were involved in two trainings where we used TIaaS resources. We never used TiaaS before these trainings.</summary></entry></feed>
