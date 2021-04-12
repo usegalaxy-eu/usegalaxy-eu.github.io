@@ -46,10 +46,41 @@
 
 
 
+
+<script>
+  const load = () => {
+    let recent = $("#recent-events");
+    let passed = $("#passed-events");
+    let div;
+    let date;
+    let today = new Date();
+    // ignore time (at least for now)
+    today.setHours(0,0,0,0)
+    const createDiv = ()=>{
+
+    }
+    
+
+    
+  }
+  window.onload = load;
+</script>
+
+
+
+
+
+
+<h2 class="text-center"><span class="label label-success">Current & Upcoming</span></h2>
+
 <section class="section-content">
   <div class="col-md-12">
     <table class="table table-striped">
-      <thead>
+      <thead
+              
+              class="list-group-item-success"
+              
+      >
         <tr>
           
           <th>Topic/Event</th>
@@ -58,12 +89,45 @@
           <th>Location</th>
         </tr>
       </thead>
-      <tbody>
-        
+      <tbody
+              
+              id="recent-events">
+              
       </tbody>
     </table>
   </div>
 </section>
+
+
+
+<h2 class="text-center"><span class="label label-warning">Past</span></h2>
+
+<section class="section-content">
+  <div class="col-md-12">
+    <table class="table table-striped">
+      <thead
+              
+              class="list-group-item-warning"
+              
+      >
+        <tr>
+          
+          <th>Topic/Event</th>
+          <th>Starts</th>
+          <th>Ends</th>
+          <th>Location</th>
+        </tr>
+      </thead>
+      <tbody
+              
+              id="passed-events">
+              
+      </tbody>
+    </table>
+  </div>
+</section>
+
+
 
         </div>
       </div>
