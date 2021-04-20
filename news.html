@@ -147,6 +147,68 @@
 
 
      
+      tags.push(`grants`)
+     
+      tags.push(``)
+
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
+
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4 grants news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  
+                    <a href="/posts/2021/04/19/elixir-is/">
+                  
+                    <h2 class="title">The Galaxy community involved in several ELIXIR Implementation Studies</h2>
+                  </a>
+                  <span class="date">
+                    
+
+
+
+
+
+
+
+
+
+
+
+                  </span>
+                  <span class="date">
+                    April 19, 2021
+                  </span>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
+                  
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=grants'"
+           class="btn btn-primary btn-xs tag-element" role="button">grants</a>
+    
+
+
+                </div>
+                <div class="news-content">
+                  <div><p>The ELIXIR Board has approved the Commissioned Services proposed by several Platforms and Communities in which Galaxy is involved. These Commissioned Services are technical projects that guide future service development funded by ELIXIR.</p>
+</div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
+
+        news.append(div);
+    }
+    tags = []
+
+
+     
       tags.push(`tools`)
      
       tags.push(`Freiburg`)
