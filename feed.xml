@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2021-04-29T13:07:17+02:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">Monitoring of raw open data for SARS-CoV-2 genome surveillance</title><link href="https://galaxyproject.eu/posts/2021/04/29/sars-cov-2-monitoring/" rel="alternate" type="text/html" title="Monitoring of raw open data for SARS-CoV-2 genome surveillance" /><published>2021-04-29T00:00:00+02:00</published><updated>2021-04-29T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2021/04/29/sars-cov-2-monitoring</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/04/29/sars-cov-2-monitoring/">&lt;p&gt;Recently, we started a large-scale project on the European Galaxy server for automatically collecting,
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2021-04-29T14:02:07+02:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">Monitoring of raw open data for SARS-CoV-2 genome surveillance</title><link href="https://galaxyproject.eu/posts/2021/04/29/sars-cov-2-monitoring/" rel="alternate" type="text/html" title="Monitoring of raw open data for SARS-CoV-2 genome surveillance" /><published>2021-04-29T00:00:00+02:00</published><updated>2021-04-29T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2021/04/29/sars-cov-2-monitoring</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/04/29/sars-cov-2-monitoring/">&lt;p&gt;Recently, we started a large-scale project on the European Galaxy server for automatically collecting,
 and analyzing raw sequencing data published by COG-UK and, potentially, other large-scale SARS-CoV-2 sequencing projects. As a unique feature, we aim to make all analysis steps leading from sequenced reads to lists of genomic variants and consensus sequences fully open and accessible.&lt;/p&gt;
 
 &lt;h2 id=&quot;automated-variant-calling-workflows&quot;&gt;Automated variant calling workflows&lt;/h2&gt;
@@ -35,11 +35,11 @@ we need more &lt;a href=&quot;https://www.covid19dataportal.org/support-data-sha
 
 &lt;p&gt;Members of the European Galaxy Team will check your contribution and approve it, after which Galaxy will pick those files up and process them with our standard pipelines.&lt;/p&gt;
 
-&lt;p&gt;Just as for the automated COG-UK data analysis, all files are pushed back to the CRG FTP server. So in the end, after a few hours (depending on the amount of URLs and the load on our servers), you can access the results through either:&lt;/p&gt;
+&lt;p&gt;Just as for the automated COG-UK data analysis, all files are pushed back to the &lt;a href=&quot;ftp://xfer13.crg.eu/&quot;&gt;CRG FTP server&lt;/a&gt;. So in the end, after a few hours (depending on the amount of URLs and the load on our servers), you can access the results through either:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Galaxy via shared/public histories&lt;/li&gt;
-  &lt;li&gt;via the CRG FTP server&lt;/li&gt;
+  &lt;li&gt;Galaxy via &lt;a href=&quot;https://covid19.galaxyproject.org/genomics/global_platform/#processed-cog-uk-data&quot;&gt;shared/public histories&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;via the &lt;a href=&quot;ftp://xfer13.crg.eu/&quot;&gt;CRG FTP server&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;and see them visualized on the &lt;a href=&quot;https://covid19beacon.crg.eu&quot;&gt;Viral Beacon&lt;/a&gt; dashboard (with a delay of probably a few days).&lt;/p&gt;
