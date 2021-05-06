@@ -68,14 +68,14 @@ Please check our <a href="https://docs.google.com/document/d/1Ajfy3RG-BOGTSdhQUM
   <li><a href="#training" id="markdown-toc-training">Training</a>    <ol>
       <li><a href="#introduction-to-galaxy--image-analysis" id="markdown-toc-introduction-to-galaxy--image-analysis">Introduction to Galaxy &amp; Image analysis</a></li>
       <li><a href="#segmentation--feature-extraction" id="markdown-toc-segmentation--feature-extraction">Segmentation &amp; Feature extraction</a></li>
+      <li><a href="#mass-spectrometry-imaging" id="markdown-toc-mass-spectrometry-imaging">Mass Spectrometry Imaging</a></li>
     </ol>
   </li>
   <li><a href="#available-tools" id="markdown-toc-available-tools">Available tools</a>    <ol>
       <li><a href="#data-access" id="markdown-toc-data-access">Data access</a></li>
       <li><a href="#segmentation--feature-extraction-1" id="markdown-toc-segmentation--feature-extraction-1">Segmentation &amp; Feature extraction</a></li>
-      <li><a href="#mass-spectrometry-imaging" id="markdown-toc-mass-spectrometry-imaging">Mass Spectrometry Imaging</a></li>
+      <li><a href="#mass-spectrometry-imaging-1" id="markdown-toc-mass-spectrometry-imaging-1">Mass Spectrometry Imaging</a></li>
       <li><a href="#biological-oscillations-analysis" id="markdown-toc-biological-oscillations-analysis">Biological Oscillations Analysis</a></li>
-      <li><a href="#utilities" id="markdown-toc-utilities">Utilities</a></li>
     </ol>
   </li>
   <li><a href="#partners" id="markdown-toc-partners">Partners</a></li>
@@ -85,6 +85,7 @@ Please check our <a href="https://docs.google.com/document/d/1Ajfy3RG-BOGTSdhQUM
 
 <p>Are you new to Galaxy, or returning after a long time, and looking for help to get started? Take <a href="https://imaging.usegalaxy.eu/tours/core.galaxy_ui" target="_blank">a guided tour</a> through Galaxy’s user interface.</p>
 
+<p><br /></p>
 <h1 id="training">Training</h1>
 
 <p><a href="https://training.galaxyproject.org/training-material/topics/imaging/" target="_blank">Several image analysis tutorials</a> avalable in the <a href="https://training.galaxyproject.org" target="_blank"><strong>Galaxy Training Network (GTN)</strong></a>. If you want to know more about the GTN, check the video below!</p>
@@ -163,6 +164,44 @@ Please check our <a href="https://docs.google.com/document/d/1Ajfy3RG-BOGTSdhQUM
   </tbody>
 </table>
 
+<h2 id="mass-spectrometry-imaging">Mass Spectrometry Imaging</h2>
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Topic</th>
+      <th>Slides</th>
+      <th>Hands-on</th>
+      <th>Input dataset</th>
+      <th>Workflows</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Mass spectrometry imaging: Loading and exploring MSI data</td>
+      <td><a href="https://training.galaxyproject.org/training-material/topics/proteomics/slides/introduction.html#1" target="_blank"><i class="fa fa-slideshare" aria-hidden="true"></i></a></td>
+      <td><a href="https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/mass-spectrometry-imaging-loading-exploring-data/tutorial.html" target="_blank"><i class="fa fa-laptop" aria-hidden="true"></i></a></td>
+      <td><a href="http://doi.org/10.5281/zenodo.1560646" target="_blank"><i class="fa fa-files-o" aria-hidden="true"></i></a></td>
+      <td><a href="https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/mass-spectrometry-imaging-loading-exploring-data/workflows/" target="_blank"><i class="fa fa-share-alt" aria-hidden="true"></i></a></td>
+    </tr>
+    <tr>
+      <td>Mass spectrometry imaging: Examining the spatial distribution of analytes</td>
+      <td><a href="https://training.galaxyproject.org/training-material/topics/metabolomics/slides/introduction.html#1" target="_blank"><i class="fa fa-slideshare" aria-hidden="true"></i></a></td>
+      <td><a href="https://training.galaxyproject.org/training-material/topics/metabolomics/tutorials/msi-analyte-distribution/tutorial.html" target="_blank"><i class="fa fa-laptop" aria-hidden="true"></i></a></td>
+      <td><a href="http://doi.org/10.5281/zenodo.484496" target="_blank"><i class="fa fa-files-o" aria-hidden="true"></i></a></td>
+      <td><a href="https://training.galaxyproject.org/training-material/topics/metabolomics/tutorials/msi-analyte-distribution/workflows/" target="_blank"><i class="fa fa-share-alt" aria-hidden="true"></i></a></td>
+    </tr>
+    <tr>
+      <td>Mass spectrometry imaging: Finding differential analytes</td>
+      <td><a href="https://training.galaxyproject.org/training-material/topics/metabolomics/slides/introduction.html#1" target="_blank"><i class="fa fa-slideshare" aria-hidden="true"></i></a></td>
+      <td><a href="https://training.galaxyproject.org/training-material/topics/metabolomics/tutorials/msi-analyte-distribution/tutorial.html" target="_blank"><i class="fa fa-laptop" aria-hidden="true"></i></a></td>
+      <td><a href="http://doi.org/10.5281/zenodo.484496" target="_blank"><i class="fa fa-files-o" aria-hidden="true"></i></a></td>
+      <td><a href="https://training.galaxyproject.org/training-material/topics/metabolomics/tutorials/msi-analyte-distribution/workflows/" target="_blank"><i class="fa fa-share-alt" aria-hidden="true"></i></a></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br /></p>
 <h1 id="available-tools">Available tools</h1>
 
 <h2 id="data-access">Data access</h2>
@@ -180,6 +219,10 @@ Please check our <a href="https://docs.google.com/document/d/1Ajfy3RG-BOGTSdhQUM
     <tr>
       <td><strong>IDR/OMERO Download Tool</strong></td>
       <td>Access to public images at the <a href="https://idr.openmicroscopy.org/">IDR</a>. This tool allows <a href="https://galaxyproject.eu/posts/2020/11/23/OMERO-post/">access to image data in private OMERO instances</a>.</td>
+    </tr>
+    <tr>
+      <td><strong>Convert image</strong></td>
+      <td>Tool to convert image formats.</td>
     </tr>
   </tbody>
 </table>
@@ -211,7 +254,7 @@ Please check our <a href="https://docs.google.com/document/d/1Ajfy3RG-BOGTSdhQUM
   </tbody>
 </table>
 
-<h2 id="mass-spectrometry-imaging">Mass Spectrometry Imaging</h2>
+<h2 id="mass-spectrometry-imaging-1">Mass Spectrometry Imaging</h2>
 
 <table class="table table-striped">
   <thead>
@@ -248,22 +291,6 @@ Please check our <a href="https://docs.google.com/document/d/1Ajfy3RG-BOGTSdhQUM
     </tr>
   </tbody>
 </table>
-<h2 id="utilities">Utilities</h2>
-
-<table class="table table-striped">
-  <thead>
-    <tr>
-      <th>TOOL</th>
-      <th>DESCRIPTION</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>Convert image</strong></td>
-      <td>Tool to convert image formats.</td>
-    </tr>
-  </tbody>
-</table>
 
 <p><br /><br /></p>
 
@@ -274,23 +301,27 @@ Please check our <a href="https://docs.google.com/document/d/1Ajfy3RG-BOGTSdhQUM
 <p>The service is part of the European Galaxy server and is maintained by the <a href="https://www.denbi.de/network/rna-bioinformatics-center-rbc" target="_blank">RNA Bioinformatics Center (RBC)</a> as part of <a href="https://www.denbi.de" target="_blank">de.NBI</a> and <a href="http://elixir-europe.org" target="_blank">ELIXIR</a>.</p>
 
 <table border="0"><tr>
-<td width="12%">
+<td width="10%">
 <img alt="EOSC-Life" src="/assets/media/EOSC_logo.png" />
 </td>
 <td with="8%"></td>
-<td width="14%">
+<td width="12%">
 <img alt="Galaxy Freiburg" src="/assets/media/freiburg-galaxy.svg" />
 </td>
-<td with="1%"></td>
-<td width="35%">
+<td with="0%"></td>
+<td width="30%">
 <img alt="Euro-Bioimaging" src="/assets/media/eubi_logo.png" />
 </td>
-<td with="1%"></td>
-<td width="12%">
+<td with="0%"></td>
+<td width="10%">
 <img alt="ELIXIR" src="/assets/media/elixir_logo.png" />
 </td>
-<td with="3%"></td>
+<td with="1%"></td>
 <td width="13%">
+<img alt="EMBL" src="/assets/media/logo_EMBL.png" />
+</td>
+<td with="3%"></td>
+<td width="10%">
 <img alt="IDR" src="/assets/media/idr_logo.png" />
 </td>
 </tr></table>
