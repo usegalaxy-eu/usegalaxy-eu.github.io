@@ -149,6 +149,80 @@
      
       tags.push(`galaxy`)
      
+      tags.push(`COVID-19`)
+     
+      tags.push(``)
+
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
+
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4 galaxyCOVID-19 news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  
+                    <a href="/posts/2021/05/11/B-1-617-2-detected/">
+                  
+                    <h2 class="title">COVID updates: B.1.617.2 detected in COG-UK data from the beginning of April</h2>
+                  </a>
+                  <span class="date">
+                    
+
+
+
+
+
+
+
+
+
+
+
+                  </span>
+                  <span class="date">
+                    May 11, 2021
+                  </span>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
+                  
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=galaxy'"
+           class="btn btn-primary btn-xs tag-element" role="button">galaxy</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=COVID-19'"
+           class="btn btn-primary btn-xs tag-element" role="button">COVID-19</a>
+    
+
+
+                </div>
+                <div class="news-content">
+                  <div><p>With B.1.617.2 (one of the Indian lineages) now being a Variant Of Concern (VOC), we checked the COG-UK data that we have been analyzing to
+see whether we’d find representative samples. <a href="https://www.ebi.ac.uk/ena/browser/view/ERR5749239">ERR5749239</a> is clearly one of them.
+The Galaxy history with this data is available <a href="https://usegalaxy.eu/histories/view?id=8f40d62f763c7d12">here</a> and the report by sample can be obtained from this Galaxy <a href="https://usegalaxy.eu/datasets/11ac94870d0bb33a7d64e518c57e6180/display?to_ext=tabular">dataset</a>, which contains lots of quite unique signature mutations (compared also the by variant report in that same history).</p>
+
+<p>We have added the corresponding VOC profile to our <a href="https://observablehq.com/@spond/sars-cov-2-cog-uk">Observable dashboard</a>
+and are now tracking this variant as well. Five more samples have been found already as we wrote this post. An SVG figure (160 MB) of the entire batch can be downloaded <a href="https://usegalaxy.eu/datasets/11ac94870d0bb33aca844508c6c7a320/display?to_ext=svg">here</a> and new signatures can be added to the <a href="https://observablehq.com/@spond/sars-cov-2-cog-uk">live dashboard</a>.</p>
+</div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
+
+        news.append(div);
+    }
+    tags = []
+
+
+     
+      tags.push(`galaxy`)
+     
       tags.push(`newsletter`)
      
       tags.push(``)
