@@ -1,4 +1,50 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2021-05-13T00:15:53+02:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">COVID updates: B.1.617.2 detected in COG-UK data from the beginning of April</title><link href="https://galaxyproject.eu/posts/2021/05/11/B-1-617-2-detected/" rel="alternate" type="text/html" title="COVID updates: B.1.617.2 detected in COG-UK data from the beginning of April" /><published>2021-05-11T00:00:00+02:00</published><updated>2021-05-11T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2021/05/11/B-1-617-2-detected</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/05/11/B-1-617-2-detected/">&lt;p&gt;With B.1.617.2 (one of the Indian lineages) now being a Variant Of Concern (VOC), we checked the COG-UK data that we have been analyzing to
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2021-05-13T17:16:14+02:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2021-05-13</title><link href="https://galaxyproject.eu/posts/2021/05/13/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2021-05-13" /><published>2021-05-13T00:00:00+02:00</published><updated>2021-05-13T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2021/05/13/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/05/13/tool-update/">&lt;p&gt;On 2021-05-13, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#274/&quot;&gt;Jenkins Build #274&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;rna-analysis&quot;&gt;RNA Analysis&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;trinity was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/trinity/5b60313a6ce7&quot;&gt;5b60313a6ce7&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;phylogenetics&quot;&gt;Phylogenetics&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;hyphy_slac was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_slac/0c6724c345d9&quot;&gt;0c6724c345d9&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;metagenomic-analysis&quot;&gt;Metagenomic Analysis&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;customize_metaphlan_database was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/customize_metaphlan_database/a6c3f4f439f7&quot;&gt;a6c3f4f439f7&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;extract_metaphlan_database was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/extract_metaphlan_database/5b2f8b6a3609&quot;&gt;5b2f8b6a3609&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;humann was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/humann/65c80ca30373&quot;&gt;65c80ca30373&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;humann_associate was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/humann_associate/10fdefbf5920&quot;&gt;10fdefbf5920&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;humann_barplot was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/humann_barplot/5240d62d864d&quot;&gt;5240d62d864d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;humann_join_tables was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/humann_join_tables/cf7f80d59099&quot;&gt;cf7f80d59099&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;humann_reduce_table was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/humann_reduce_table/c2488dbc8e39&quot;&gt;c2488dbc8e39&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;humann_regroup_table was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/humann_regroup_table/26ce946f4da9&quot;&gt;26ce946f4da9&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;humann_rename_table was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/humann_rename_table/d24841f5c3d2&quot;&gt;d24841f5c3d2&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;humann_renorm_table was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/humann_renorm_table/e3391ccf21a0&quot;&gt;e3391ccf21a0&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;humann_rna_dna_norm was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/humann_rna_dna_norm/ec422794133f&quot;&gt;ec422794133f&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;humann_split_stratified_table was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/humann_split_stratified_table/75bedfb2078b&quot;&gt;75bedfb2078b&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;humann_split_table was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/humann_split_table/506d4a349aa1&quot;&gt;506d4a349aa1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;humann_strain_profiler was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/humann_strain_profiler/0ff86e44895c&quot;&gt;0ff86e44895c&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;humann_unpack_pathways was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/humann_unpack_pathways/c3d043160f09&quot;&gt;c3d043160f09&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;merge_metaphlan_tables was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/merge_metaphlan_tables/3f05bf162005&quot;&gt;3f05bf162005&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;metaphlan was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/metaphlan/f5df500fcc3c&quot;&gt;f5df500fcc3c&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;proteomics&quot;&gt;Proteomics&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;openms_openpepxl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_openpepxl/40cc19c0dbd6&quot;&gt;40cc19c0dbd6&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_openpepxl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_openpepxl/a2a842b00f9c&quot;&gt;a2a842b00f9c&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_openpepxl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_openpepxl/fc36cfd19834&quot;&gt;fc36cfd19834&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_percolatoradapter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_percolatoradapter/0fc9ae55bcfc&quot;&gt;0fc9ae55bcfc&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_percolatoradapter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_percolatoradapter/e7881a82b56d&quot;&gt;e7881a82b56d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_xfdr was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_xfdr/81402a5e4173&quot;&gt;81402a5e4173&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_xfdr was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_xfdr/9a6e3bb0f358&quot;&gt;9a6e3bb0f358&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2021-05-13, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #274</summary></entry><entry><title type="html">COVID updates: B.1.617.2 detected in COG-UK data from the beginning of April</title><link href="https://galaxyproject.eu/posts/2021/05/11/B-1-617-2-detected/" rel="alternate" type="text/html" title="COVID updates: B.1.617.2 detected in COG-UK data from the beginning of April" /><published>2021-05-11T00:00:00+02:00</published><updated>2021-05-11T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2021/05/11/B-1-617-2-detected</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/05/11/B-1-617-2-detected/">&lt;p&gt;With B.1.617.2 (one of the Indian lineages) now being a Variant Of Concern (VOC), we checked the COG-UK data that we have been analyzing to
 see whether we’d find representative samples. &lt;a href=&quot;https://www.ebi.ac.uk/ena/browser/view/ERR5749239&quot;&gt;ERR5749239&lt;/a&gt; is clearly one of them.
 The Galaxy history with this data is available &lt;a href=&quot;https://usegalaxy.eu/histories/view?id=8f40d62f763c7d12&quot;&gt;here&lt;/a&gt; and the report by sample can be obtained from this Galaxy &lt;a href=&quot;https://usegalaxy.eu/datasets/11ac94870d0bb33a7d64e518c57e6180/display?to_ext=tabular&quot;&gt;dataset&lt;/a&gt;, which contains lots of quite unique signature mutations (compared also the by variant report in that same history).&lt;/p&gt;
 
@@ -425,48 +471,4 @@ but are still interested in specific batches of samples not covered by our autom
   &lt;li&gt;&lt;em&gt;Tools Platform Ecosystem&lt;/em&gt;&lt;/li&gt;
   &lt;li&gt;&lt;em&gt;Beacon and beyond — Implementation-driven standards and protocols for CNV discovery and data exchange&lt;/em&gt;&lt;/li&gt;
   &lt;li&gt;&lt;em&gt;Reference hCNV datasets, use-case workflows and benchmarking&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="grants" /><summary type="html">The ELIXIR Board has approved the Commissioned Services proposed by several Platforms and Communities in which Galaxy is involved. These Commissioned Services are technical projects that guide future service development funded by ELIXIR.</summary></entry><entry><title type="html">UseGalaxy.eu Tool Updates for 2021-04-17</title><link href="https://galaxyproject.eu/posts/2021/04/17/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2021-04-17" /><published>2021-04-17T00:00:00+02:00</published><updated>2021-04-17T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2021/04/17/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/04/17/tool-update/">&lt;p&gt;On 2021-04-17, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#271/&quot;&gt;Jenkins Build #271&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;proteomics&quot;&gt;Proteomics&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;openms_openpepxl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_openpepxl/a2a842b00f9c&quot;&gt;a2a842b00f9c&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;openms_percolatoradapter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_percolatoradapter/0fc9ae55bcfc&quot;&gt;0fc9ae55bcfc&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;openms_percolatoradapter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_percolatoradapter/e7881a82b56d&quot;&gt;e7881a82b56d&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;openms_xfdr was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_xfdr/81402a5e4173&quot;&gt;81402a5e4173&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;openms_xfdr was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_xfdr/9a6e3bb0f358&quot;&gt;9a6e3bb0f358&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;multiple-alignments&quot;&gt;Multiple Alignments&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;chromeister was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/chromeister/e483be1014b6&quot;&gt;e483be1014b6&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;single-cell&quot;&gt;Single-cell&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;raceid_clustering was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/raceid_clustering/a4b734cd253b&quot;&gt;a4b734cd253b&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;raceid_filtnormconf was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/raceid_filtnormconf/43c146e25a43&quot;&gt;43c146e25a43&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;raceid_inspectclusters was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/raceid_inspectclusters/41f34e925bd5&quot;&gt;41f34e925bd5&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;raceid_inspecttrajectory was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/raceid_inspecttrajectory/c8434a623268&quot;&gt;c8434a623268&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;raceid_trajectory was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/raceid_trajectory/72979cac22b2&quot;&gt;72979cac22b2&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;variant-calling&quot;&gt;Variant Calling&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;sansa_annotate was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/sansa_annotate/e3862632706d&quot;&gt;e3862632706d&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;metagenomic-analysis&quot;&gt;Metagenomic Analysis&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;meryl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/meryl/9f7a227436d6&quot;&gt;9f7a227436d6&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;annotation&quot;&gt;Annotation&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;abricate was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/abricate/c2ef298da409&quot;&gt;c2ef298da409&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2021-04-17, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #271</summary></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><category term="grants" /><summary type="html">The ELIXIR Board has approved the Commissioned Services proposed by several Platforms and Communities in which Galaxy is involved. These Commissioned Services are technical projects that guide future service development funded by ELIXIR.</summary></entry></feed>

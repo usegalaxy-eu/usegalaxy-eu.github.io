@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  <title>Galaxy Europe | New Paper "Galaxy CLIP-Explorer: a web server for CLIP-Seq data analysis"</title>
-  <meta property="og:title" content="New Paper "Galaxy CLIP-Explorer: a web server for CLIP-Se..." />
-  <meta property="og:description" content="Abstract - Post-transcriptional regulation via RNA-bindin..." />
+  <title>Galaxy Europe | UseGalaxy.eu Tool Updates for 2021-05-13</title>
+  <meta property="og:title" content="UseGalaxy.eu Tool Updates for 2021-05-13" />
+  <meta property="og:description" content="On 2021-05-13, the tools on UseGalaxy.eu were updated by ..." />
   <meta property="og:image" content="/assets/media/galaxy-eu-logo.512.png" />
   <meta name="description" content="The European Galaxy Instance">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,7 +16,7 @@
 
 
 
-  <link rel="canonical" href="https://galaxyproject.eu/posts/2020/12/16/paper-clip-explorer/">
+  <link rel="canonical" href="https://galaxyproject.eu/posts/2021/05/13/tool-update/">
   <link rel="shortcut icon" href="/assets/media/galaxy-eu-logo.64.png" type="image/x-icon" />
   <link rel="alternate" type="application/rss+xml" title="Galaxy Europe" href="/feed.xml">
 
@@ -147,20 +147,16 @@
 <section id="news-page">
   <div class="row news-header-row">
     
-    <a class="col-xs-1 text-center" href="/posts/2020/12/15/paper-cardio/">
+    <a class="col-xs-1 text-center" href="/posts/2021/05/11/tool-update/">
       «
     </a>
     
     <div class="col-xs-10 ">
       <div class="text-center">
-        <h2 class="title">New Paper &quot;Galaxy CLIP-Explorer: a web server for CLIP-Seq data analysis&quot;</h2>
+        <h2 class="title">UseGalaxy.eu Tool Updates for 2021-05-13</h2>
       </div>
       <hr />
     </div>
-    
-    <a class="col-xs-1 text-center" href="/posts/2020/12/22/ols/">
-      »
-    </a>
     
   </div>
   <div class="row post-metadata">
@@ -173,7 +169,7 @@
         <div class="col-md-6 text-right">
           <div>
             <span class="post-date">
-              Dec 16, 2020
+              May 13, 2021
             </span>
 
             
@@ -182,12 +178,8 @@
             <span class="post-tags">
                 <span class="label label-success">Freiburg</span>
               
-                <span class="label label-info">paper</span>
+                <span class="label label-info">tools</span>
               
-              
-                <a href="https://dx.doi.org/10.1093/gigascience/giaa108">
-                <span class="label label-warning">DOI:10.1093/gigascience/giaa108</span>
-                </a>
               
             </span>
 
@@ -201,22 +193,97 @@
   <div class="row">
     <div class="col-md-8 col-md-offset-2">
       <div class="news-content">
-        <p><em>Abstract</em> - Post-transcriptional regulation via RNA-binding proteins plays a fundamental role in every organism, but the regulatory mechanisms lack important understanding. Nevertheless, they can be elucidated by cross-linking immunoprecipitation in combination with high-throughput sequencing (CLIP-Seq).</p>
+        <p>On 2021-05-13, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in <a href="https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#274/">Jenkins Build #274</a></p>
 
-<p>CLIP-Seq answers questions about the functional role of an RNA-binding protein and its targets by determining binding sites on a nucleotide level and associated sequence and structural binding patterns. In recent years the amount of CLIP-Seq data skyrocketed, urging the need for an automatic data analysis that can deal with different experimental set-ups. However, noncanonical data, new protocols, and a huge variety of tools, especially for peak calling, made it difficult to define a standard.</p>
+<h2 id="rna-analysis">RNA Analysis</h2>
 
-<p>CLIP-Explorer is a flexible and reproducible data analysis pipeline for iCLIP data that supports for the first time eCLIP, FLASH, and uvCLAP data. Individual steps like peak calling can be changed to adapt to different experimental settings. We validate CLIP-Explorer on eCLIP data, finding similar or nearly identical motifs for various proteins in comparison with other databases. In addition, we detect new sequence motifs for PTBP1 and U2AF2. Finally, we optimize the peak calling with 3 different peak callers on RBFOX2 data, discuss the difficulty of the peak-calling step, and give advice for different experimental set-ups.</p>
+<ul>
+  <li>trinity was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/trinity/5b60313a6ce7">5b60313a6ce7</a></li>
+</ul>
 
-<p>CLIP-Explorer finally fills the demand for a flexible CLIP-Seq data analysis pipeline that is applicable to the up-to-date CLIP protocols. The article further shows the limitations of current peak-calling algorithms and the importance of a robust peak detection.</p>
+<h2 id="phylogenetics">Phylogenetics</h2>
 
-<div class="jekyll-twitter-plugin"><blockquote class="twitter-tweet"><p lang="en" dir="ltr">New in our <a href="https://twitter.com/hashtag/usegalaxy?src=hash&amp;ref_src=twsrc%5Etfw">#usegalaxy</a> series, integrating data from cross-linking immunoprecipitation in combination with high-throughput sequencing. Galaxy CLIP-Explorer: a web server for CLIP-Seq data analysis <a href="https://t.co/bQ3WL68BZe">https://t.co/bQ3WL68BZe</a> <a href="https://t.co/clxjfIF6XX">pic.twitter.com/clxjfIF6XX</a></p>&mdash; GigaScience (@GigaScience) <a href="https://twitter.com/GigaScience/status/1339561427552534532?ref_src=twsrc%5Etfw">December 17, 2020</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</div>
+<ul>
+  <li>hyphy_slac was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_slac/0c6724c345d9">0c6724c345d9</a></li>
+</ul>
+
+<h2 id="metagenomic-analysis">Metagenomic Analysis</h2>
+
+<ul>
+  <li>customize_metaphlan_database was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/customize_metaphlan_database/a6c3f4f439f7">a6c3f4f439f7</a></li>
+  <li>extract_metaphlan_database was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/extract_metaphlan_database/5b2f8b6a3609">5b2f8b6a3609</a></li>
+  <li>humann was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/humann/65c80ca30373">65c80ca30373</a></li>
+  <li>humann_associate was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/humann_associate/10fdefbf5920">10fdefbf5920</a></li>
+  <li>humann_barplot was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/humann_barplot/5240d62d864d">5240d62d864d</a></li>
+  <li>humann_join_tables was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/humann_join_tables/cf7f80d59099">cf7f80d59099</a></li>
+  <li>humann_reduce_table was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/humann_reduce_table/c2488dbc8e39">c2488dbc8e39</a></li>
+  <li>humann_regroup_table was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/humann_regroup_table/26ce946f4da9">26ce946f4da9</a></li>
+  <li>humann_rename_table was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/humann_rename_table/d24841f5c3d2">d24841f5c3d2</a></li>
+  <li>humann_renorm_table was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/humann_renorm_table/e3391ccf21a0">e3391ccf21a0</a></li>
+  <li>humann_rna_dna_norm was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/humann_rna_dna_norm/ec422794133f">ec422794133f</a></li>
+  <li>humann_split_stratified_table was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/humann_split_stratified_table/75bedfb2078b">75bedfb2078b</a></li>
+  <li>humann_split_table was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/humann_split_table/506d4a349aa1">506d4a349aa1</a></li>
+  <li>humann_strain_profiler was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/humann_strain_profiler/0ff86e44895c">0ff86e44895c</a></li>
+  <li>humann_unpack_pathways was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/humann_unpack_pathways/c3d043160f09">c3d043160f09</a></li>
+  <li>merge_metaphlan_tables was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/merge_metaphlan_tables/3f05bf162005">3f05bf162005</a></li>
+  <li>metaphlan was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/metaphlan/f5df500fcc3c">f5df500fcc3c</a></li>
+</ul>
+
+<h2 id="proteomics">Proteomics</h2>
+
+<ul>
+  <li>openms_openpepxl was updated to <a href="https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_openpepxl/40cc19c0dbd6">40cc19c0dbd6</a></li>
+  <li>openms_openpepxl was updated to <a href="https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_openpepxl/a2a842b00f9c">a2a842b00f9c</a></li>
+  <li>openms_openpepxl was updated to <a href="https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_openpepxl/fc36cfd19834">fc36cfd19834</a></li>
+  <li>openms_percolatoradapter was updated to <a href="https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_percolatoradapter/0fc9ae55bcfc">0fc9ae55bcfc</a></li>
+  <li>openms_percolatoradapter was updated to <a href="https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_percolatoradapter/e7881a82b56d">e7881a82b56d</a></li>
+  <li>openms_xfdr was updated to <a href="https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_xfdr/81402a5e4173">81402a5e4173</a></li>
+  <li>openms_xfdr was updated to <a href="https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_xfdr/9a6e3bb0f358">9a6e3bb0f358</a></li>
+</ul>
+
 
       </div>
     </div>
   </div>
 
+
+	<div class="col-md-2">
+	</div>
+<div class="row">
+	<div class="col-md-8 col-sm-12">
+
+<div id="supported">
+    
+  <h3>Supported by</h3>
+    
+  <div class="row eu-image-box">
+      
+      <div>
+      
+          
+            <a href="https://www.denbi.de" target="_blank">
+              <img alt="de.NBI logo" src="/assets/media/deNBI_Logo_rgb.png" class="img-responsive eu-image"/>
+            </a>
+          
+      </div>
+      
+      <div>
+      
+          
+            <a href="https://www.elixir-europe.org" target="_blank">
+              <img alt="ELIXIR logo" src="/assets/media/elixir_logo.png" class="img-responsive eu-image" />
+            </a>
+          
+      </div>
+      
+  </div>
+</div>
+
+
+	</div>
+	<div class="col-md-2">
+	</div>
+</div>
 
 </section>
 
@@ -253,7 +320,7 @@ unless otherwise specified.</p>
         <div class="row">
             <div class="col-lg-12" style="text-align:center">
                 <ul class="contact-info">
-                    <li><i class="fa fa-github"></i><a href="https://github.com/usegalaxy-eu/website/tree/master/_posts/2020-12-16-paper-clip-explorer.md">Edit this page on GitHub</a></li>
+                    <li><i class="fa fa-github"></i><a href="https://github.com/usegalaxy-eu/website/tree/master/_posts/2021-05-13-tool-update.md">Edit this page on GitHub</a></li>
                     
                       <li><i class="fa fa-envelope"></i><a href="mailto:contact@usegalaxy.eu">contact@usegalaxy.eu</a></li>
                     
