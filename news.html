@@ -147,6 +147,151 @@
 
 
      
+      tags.push(`paper`)
+     
+      tags.push(`training`)
+     
+      tags.push(`TIaaS`)
+     
+      tags.push(``)
+
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
+
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4 papertrainingTIaaS news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  
+                    <a href="/posts/2021/05/14/papers-teaching/">
+                  
+                    <h2 class="title">Two New Teaching Papers using Galaxy</h2>
+                  </a>
+                  <span class="date">
+                    
+
+
+
+	<i class="fa fa-graduation-cap" aria-hidden="true"></i>
+
+
+	<i class="fa fa-file-text" aria-hidden="true"></i>
+
+
+
+
+
+
+
+
+                  </span>
+                  <span class="date">
+                    May 14, 2021
+                  </span>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag='"
+                  class="btn btn-success btn-xs tag-element" role="button"></a>
+                  
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=paper'"
+           class="btn btn-primary btn-xs tag-element" role="button">paper</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=training'"
+           class="btn btn-primary btn-xs tag-element" role="button">training</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=TIaaS'"
+           class="btn btn-primary btn-xs tag-element" role="button">TIaaS</a>
+    
+
+
+                </div>
+                <div class="news-content">
+                  <div><p><br />
+Two hand-in-hand teaching papers have been published this week using Galaxy as a teaching platform. The common frame encompassing both is the effects of the lockdown during the COVID-19 pandemic. University lessons and workshop have been forced to move to an online setting.</p>
+</div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
+
+        news.append(div);
+    }
+    tags = []
+
+
+     
+      tags.push(`paper`)
+     
+      tags.push(`Freiburg`)
+
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
+
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4 paper news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  
+                    <a href="/posts/2021/05/13/paper-cardio/">
+                  
+                    <h2 class="title">New Paper &quot;Novel insights into the electrophysiology of murine cardiac macrophages: relevance of voltage-gated potassium channels&quot;</h2>
+                  </a>
+                  <span class="date">
+                    
+
+
+
+
+	<i class="fa fa-file-text" aria-hidden="true"></i>
+
+
+
+
+
+
+
+
+                  </span>
+                  <span class="date">
+                    May 13, 2021
+                  </span>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
+                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=paper'"
+           class="btn btn-primary btn-xs tag-element" role="button">paper</a>
+    
+
+
+                </div>
+                <div class="news-content">
+                  <div><p>Ana Simon-Chica and colleagues from SFB 1452 have published a paper using Galaxy to analyse the sequencing data. Congratulations and thanks for using Galaxy!</p>
+</div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
+
+        news.append(div);
+    }
+    tags = []
+
+
+     
       tags.push(`tools`)
      
       tags.push(`Freiburg`)
