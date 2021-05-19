@@ -48,6 +48,75 @@
 
 
      
+      tags.push(`genome annotation`)
+     
+      tags.push(`apollo`)
+     
+      tags.push(`Freiburg`)
+
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
+
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4 genome annotationapollo news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  
+                    <a href="/posts/2021/05/19/apollo-update/plain.html">
+                  
+                    <h2 class="title">UseGalaxy.eu Apollo Update</h2>
+                  </a>
+                  <span class="date">
+                    
+
+
+
+
+
+
+
+
+
+
+
+                  </span>
+                  <span class="date">
+                    May 19, 2021
+                  </span>
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
+                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=genome annotation'"
+           class="btn btn-primary btn-xs tag-element" role="button">genome annotation</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=apollo'"
+           class="btn btn-primary btn-xs tag-element" role="button">apollo</a>
+    
+
+
+                </div>
+                <div class="news-content">
+                  <div><p>The <a href="https://github.com/galaxy-genome-annotation/">GGA</a> team has updated UseGalaxy.eu’s Apollo (collaborative genome annotation editor) to 2.6.3 from 2.5.0. Check out the changelog copied below.</p>
+</div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
+
+        news.append(div);
+    }
+    tags = []
+
+
+     
       tags.push(`paper`)
      
       tags.push(`training`)
