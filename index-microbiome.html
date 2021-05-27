@@ -59,21 +59,25 @@ Please check our <a href="https://docs.google.com/document/d/1Ajfy3RG-BOGTSdhQUM
 
 
 
-  <p><br />
-<img src="/assets/media/asaim_logo.png" height="100px" alt="ASaiM logo" /></p>
+  <p><img src="/assets/media/asaim_logo.png" alt="Plant Analysis on Galaxy" class="sc-intro-left" /></p>
 
-<p>Welcome to <strong>Galaxy Metagenomics</strong> (<a href="https://asaim.readthedocs.io/en/latest/" target="_blank">ASaiM</a>) – a webserver to process, analyse and visualize Metagenomic and Microbiota data in general.</p>
+<h1 class="no_toc" id="welcome-to-galaxy-for-microbiome">Welcome to Galaxy for Microbiome</h1>
+<p><br />
+<strong>Galaxy for Microbiome</strong> (<a href="https://asaim.readthedocs.io/en/latest/" target="_blank">ASaiM</a>) is a webserver to process, analyse and visualize microbiome data in general. It is based on the <a href="https://galaxyproject.org" target="_blank">Galaxy framework</a>, which guarantees simple access, easy extension, flexible adaption to personal and security needs, and sophisticated analyses independent of command-line knowledge.</p>
+
+<p><br /></p>
+<h1 class="no_toc" id="content">Content</h1>
 
 <ol id="markdown-toc">
   <li><a href="#get-started" id="markdown-toc-get-started">Get started</a></li>
+  <li><a href="#training" id="markdown-toc-training">Training</a></li>
   <li><a href="#tools" id="markdown-toc-tools">Tools</a></li>
-  <li><a href="#tutorials" id="markdown-toc-tutorials">Tutorials</a></li>
   <li><a href="#workflows" id="markdown-toc-workflows">Workflows</a>    <ol>
-      <li><a href="#analysis-of-raw-metagenomic-or-metatranscriptomic-shotgun-data" id="markdown-toc-analysis-of-raw-metagenomic-or-metatranscriptomic-shotgun-data">Analysis of raw metagenomic or metatranscriptomic shotgun data</a></li>
+      <li><a href="#taxonomic-and-functional-community-profiling-of-raw-metagenomic-shotgun-data" id="markdown-toc-taxonomic-and-functional-community-profiling-of-raw-metagenomic-shotgun-data">Taxonomic and functional community profiling of raw metagenomic shotgun data</a></li>
       <li><a href="#assembly-of-metagenomic-data" id="markdown-toc-assembly-of-metagenomic-data">Assembly of metagenomic data</a></li>
       <li><a href="#analysis-of-metataxonomic-data" id="markdown-toc-analysis-of-metataxonomic-data">Analysis of metataxonomic data</a></li>
-      <li><a href="#running-as-in-ebi-metagenomics" id="markdown-toc-running-as-in-ebi-metagenomics">Running as in EBI metagenomics</a></li>
       <li><a href="#asaim-mt-optimized-workflow-for-metatranscriptomics-data-analysis" id="markdown-toc-asaim-mt-optimized-workflow-for-metatranscriptomics-data-analysis">ASaiM-MT: Optimized workflow for metatranscriptomics data analysis</a></li>
+      <li><a href="#integrative-meta-omics-analysis---metagenomics-metatranscriptomics-metaproteomics" id="markdown-toc-integrative-meta-omics-analysis---metagenomics-metatranscriptomics-metaproteomics">Integrative meta-omics analysis - Metagenomics, Metatranscriptomics, Metaproteomics</a></li>
     </ol>
   </li>
   <li><a href="#references" id="markdown-toc-references">References</a></li>
@@ -81,33 +85,117 @@ Please check our <a href="https://docs.google.com/document/d/1Ajfy3RG-BOGTSdhQUM
 
 <h1 id="get-started">Get started</h1>
 
-<p>Are you new to Galaxy, or returning after a long time, and looking for help to get started? Take <a href="https://metagenomics.usegalaxy.eu/tours/core.galaxy_ui" target="_blank">a guided tour</a> through Galaxy’s user interface.</p>
+<p>Are you new to Galaxy, or returning after a long time, and looking for help to get started? Take a <a href="/tours/core.galaxy_ui" target="_blank"><strong>guided tour</strong></a> through Galaxy’s user interface.</p>
 
-<p>Want to learn about metagenomics analyses? Check our <a href="#tutorials">tutorials</a> or take one of our guided tour:</p>
+<h1 id="training">Training</h1>
 
-<ul>
-  <li><a href="https://metagenomics.usegalaxy.eu/tours/metagenomics-general-tutorial-amplicon" target="_blank">Introduction of amplicon data analyses using mothur tool suite</a></li>
-  <li><a href="https://metagenomics.usegalaxy.eu/tours/metagenomics-general-tutorial-shotgun" target="_blank">Introduction to shotgun metagenomics data analyses</a></li>
-  <li><a href="https://metagenomics.usegalaxy.eu/tours/mothur-miseq-sop" target="_blank">16S Microbial Analysis with Mothur MiSeq SOP</a></li>
-</ul>
+<p>We are working in close collaboration with the <a href="https://training.galaxyproject.org" target="_blank"><strong>Galaxy Training Network (GTN)</strong></a> to develop training materials of data analyses based on Galaxy. If you want to know more about the GTN or how to become part of the Galaxy community, check the videos below!</p>
 
-<p>Check also the standard but customizable <a href="#workflows">workflows</a> available there.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lDqWxzWNk1k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+</iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-1MPdxmRs8U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<p><br /><br /></p>
+
+<p><strong>Training material</strong></p>
+
+<p>All relevant materials for <a href="https://training.galaxyproject.org/topics/metagenomics">microbiome data analysis</a> can also be found within the GTN.</p>
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Lesson</th>
+      <th>Slides</th>
+      <th>Hands-on</th>
+      <th>Input dataset</th>
+      <th>Workflows</th>
+      <th>Galaxy History</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Welcome and introduction to Galaxy</td>
+      <td><a href="https://training.galaxyproject.org/topics/introduction/tutorials/galaxy-intro-short/slides.html" target="_blank"><i class="fa fa-slideshare" aria-hidden="true"></i></a> / <a href="https://training.galaxyproject.org/videos/watch.html?v=introduction/tutorials/galaxy-intro-short/slides" target="_blank"><i class="fa fa-video-camera" aria-hidden="true"></i></a></td>
+      <td><a href="https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-short/tutorial.html" target="_blank"><i class="fa fa-laptop" aria-hidden="true"></i></a></td>
+      <td><a href="https://doi.org/10.5281/zenodo.582600" target="_blank"><i class="fa fa-files-o" aria-hidden="true"></i></a></td>
+      <td><a href="https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-short/workflows/" target="_blank"><i class="fa fa-share-alt" aria-hidden="true"></i></a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>An Introduction to Metagenomics</td>
+      <td><a href="https://training.galaxyproject.org/topics/metagenomics/slides/introduction.html#1" target="_blank"><i class="fa fa-slideshare" aria-hidden="true"></i></a></td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Quality Control</td>
+      <td><a href="https://training.galaxyproject.org/topics/sequence-analysis/tutorials/quality-control/slides.html" target="_blank"><i class="fa fa-slideshare" aria-hidden="true"></i></a> / <a href="https://youtu.be/BWonTPS4zB8" target="_blank"><i class="fa fa-video-camera" aria-hidden="true"></i></a></td>
+      <td><a href="https://training.galaxyproject.org/topics/sequence-analysis/tutorials/quality-control/tutorial.html" target="_blank"><i class="fa fa-laptop" aria-hidden="true"></i></a> / <a href="https://youtu.be/QJRlX2hWDKM" target="_blank"><i class="fa fa-video-camera" aria-hidden="true"></i></a></td>
+      <td><a href="https://doi.org/10.5281/zenodo.61771" target="_blank"><i class="fa fa-files-o" aria-hidden="true"></i></a></td>
+      <td><a href="https://training.galaxyproject.org/topics/sequence-analysis/tutorials/quality-control/workflows/" target="_blank"><i class="fa fa-share-alt" aria-hidden="true"></i></a></td>
+      <td><a href="/u/gallardoalba/h/quality-control" target="_blank"><i class="fa fa-list-ul" aria-hidden="true"></i></a></td>
+    </tr>
+    <tr>
+      <td>16S Microbial Analysis with mothur</td>
+      <td><a href="https://www.youtube.com/watch?v=9OY1mklWuK0" target="_blank"><i class="fa fa-video-camera" aria-hidden="true"></i></a></td>
+      <td><a href="https://training.galaxyproject.org/topics/metagenomics/tutorials/mothur-miseq-sop-short/tutorial.html" target="_blank"><i class="fa fa-laptop" aria-hidden="true"></i>Short</a> / <a href="https://training.galaxyproject.org/topics/metagenomics/tutorials/mothur-miseq-sop/tutorial.html" target="_blank"><i class="fa fa-laptop" aria-hidden="true"></i>Extended</a> / <a href="https://youtu.be//mto4Nl-q7Kk" target="_blank"><i class="fa fa-video-camera" aria-hidden="true"></i></a></td>
+      <td><a href="https://doi.org/10.5281/zenodo.800651" target="_blank"><i class="fa fa-files-o" aria-hidden="true"></i></a></td>
+      <td><a href="https://training.galaxyproject.org/topics/metagenomics/tutorials/mothur-miseq-sop-short/workflows/" target="_blank"><i class="fa fa-share-alt" aria-hidden="true"></i></a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>16S Microbial analysis with Nanopore data</td>
+      <td> </td>
+      <td><a href="https://training.galaxyproject.org/topics/metagenomics/tutorials/nanopore-16S-metagenomics/tutorial.html" target="_blank"><i class="fa fa-laptop" aria-hidden="true"></i></a></td>
+      <td><a href="https://zenodo.org/record/4274812" target="_blank"><i class="fa fa-files-o" aria-hidden="true"></i></a></td>
+      <td><a href="https://training.galaxyproject.org/topics/metagenomics/tutorials/nanopore-16S-metagenomics/workflows/" target="_blank"><i class="fa fa-share-alt" aria-hidden="true"></i></a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Analyses of metagenomics data - The global picture</td>
+      <td> </td>
+      <td><a href="https://training.galaxyproject.org/topics/metagenomics/tutorials/general-tutorial/tutorial.html" target="_blank"><i class="fa fa-laptop" aria-hidden="true"></i></a></td>
+      <td><a href="https://doi.org/10.5281/zenodo.815875" target="_blank"><i class="fa fa-files-o" aria-hidden="true"></i></a></td>
+      <td><a href="https://training.galaxyproject.org/topics/metagenomics/tutorials/general-tutorial/workflows/" target="_blank"><i class="fa fa-share-alt" aria-hidden="true"></i></a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Metatranscriptomics analysis using microbiome RNA-seq data</td>
+      <td><a href="https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/metatranscriptomics/slides.html" target="_blank"><i class="fa fa-slideshare" aria-hidden="true"></i></a></td>
+      <td><a href="https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/metatranscriptomics-short/tutorial.html" target="_blank"><i class="fa fa-laptop" aria-hidden="true"></i>Short</a> / <a href="https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/metatranscriptomics/tutorial.html" target="_blank"><i class="fa fa-laptop" aria-hidden="true"></i>Extended</a></td>
+      <td><a href="https://zenodo.org/record/4776250" target="_blank"><i class="fa fa-files-o" aria-hidden="true"></i></a></td>
+      <td><a href="https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/metatranscriptomics-short/workflows/" target="_blank"><i class="fa fa-share-alt" aria-hidden="true"></i></a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Metaproteomics introduction</td>
+      <td> </td>
+      <td><a href="https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/metaproteomics/tutorial.html" target="_blank"><i class="fa fa-laptop" aria-hidden="true"></i></a> / <a href="https://youtu.be//3_yaPp-RCFw" target="_blank"><i class="fa fa-video-camera" aria-hidden="true"></i></a></td>
+      <td><a href="https://doi.org/10.5281/zenodo.839701" target="_blank"><i class="fa fa-files-o" aria-hidden="true"></i></a></td>
+      <td><a href="https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/metaproteomics/workflows/" target="_blank"><i class="fa fa-share-alt" aria-hidden="true"></i></a></td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
 
 <h1 id="tools">Tools</h1>
 
-<p>More than <a href="https://asaim.readthedocs.io/en/latest/tools/index.html" target="_blank">200 tools</a> are integrated in this custom Galaxy instance. They were chosen for their use in exploitation of microbiota data:</p>
+<p>More than <strong>200 tools</strong> are avalaible for microbiome data analysis in this custom Galaxy instance:</p>
 
 <ul>
-  <li><a href="https://asaim.readthedocs.io/en/latest/tools/file_meta_tools.html" target="_blank"><strong>General tools</strong></a>
+  <li><strong>General tools</strong>
     <ul>
       <li><strong>Data retrieval</strong>: EBISearch, ENASearch, SRA Tools</li>
       <li><strong>BAM/SAM file manipulation</strong>: SAM tools</li>
       <li><strong>BIOM file manipulation</strong>: BIOM-Format tools</li>
     </ul>
   </li>
-  <li><a href="https://asaim.readthedocs.io/en/latest/tools/genomics.html" target="_blank"><strong>Genomics tools</strong></a>
+  <li><strong>Genomics tools</strong>
     <ul>
-      <li><strong>Quality control</strong>: FastQC, PRINSEQ, Trim Galore! , Trimmomatic, MultiQC</li>
+      <li><strong>Quality control</strong>: FastQC, PRINSEQ, Cutadapt, fastp, Trimmomatic, MultiQC</li>
       <li><strong>Clustering</strong>: CD-Hit</li>
       <li><strong>Sorting and prediction</strong>: SortMeRNA, FragGeneScan</li>
       <li><strong>Mapping</strong>: BWA, Bowtie</li>
@@ -115,39 +203,17 @@ Please check our <a href="https://docs.google.com/document/d/1Ajfy3RG-BOGTSdhQUM
       <li><strong>Alignment</strong>: HMMER3</li>
     </ul>
   </li>
-  <li><a href="https://asaim.readthedocs.io/en/latest/tools/microbiota.html" target="_blank"><strong>Microbiota dedicated tools</strong></a>
+  <li><strong>Microbiota dedicated tools</strong>
     <ul>
-      <li><strong>Metagenomics data manipulation</strong>: VSEARCH, Nonpareil</li>
-      <li><strong>Assembly</strong>: MEGAHIT, metaSPAdes, metaQUAST, VALET</li>
-      <li><strong>Metataxonomic sequence analysis</strong>: Mothur, QIIME</li>
-      <li><strong>Taxonomy assignation on WGS sequences</strong>: MetaPhlAn2, Format MetaPhlan2, Kraken</li>
-      <li><strong>Metabolism assignation</strong>: HUMAnN2, Group HUMAnN2 to GO slim terms, Compare HUMAnN2 outputs, PICRUST, InterProScan</li>
-      <li><strong>Combination of functional and taxonomic results</strong></li>
+      <li><strong>Microbial</strong>: Scoary, Prokka, Roary</li>
+      <li><strong>Metagenomics data manipulation</strong>: VSearch, Nonpareil, DADA2</li>
+      <li><strong>Assembly</strong>: MEGAHIT, metaSPAdes, metaQUAST, VALET, Bandage, MaxBin2</li>
+      <li><strong>Metataxonomic sequence analysis</strong>: Mothur, QIIME, Vegan</li>
+      <li><strong>Taxonomy assignation</strong>: MetaPhlAn, Kraken, CAT/BAT</li>
+      <li><strong>Metabolism assignation</strong>: HUMAnN, PICRUST, InterProScan</li>
       <li><strong>Visualization</strong>: Export2graphlan, GraPhlAn, KRONA</li>
+      <li><strong>Metaproteomics</strong>: MaxQuant, SearchGUI, PeptideShaker, Unipept</li>
     </ul>
-  </li>
-</ul>
-
-<h1 id="tutorials">Tutorials</h1>
-
-<p>We are passionate about training. So we are working in close collaboration with the <a href="https://galaxyproject.org/teach/gtn/" target="_blank">Galaxy Training Network (GTN)</a> to develop training materials of data analyses based on Galaxy <a class="citation" href="#batut2017community">(Batut <i>et al.</i>, 2017)</a>. These materials hosted on the GTN GitHub repository are available online at <a href="https://training.galaxyproject.org" target="_blank">https://training.galaxyproject.org</a>.</p>
-
-<p>We then developed <a href="https://galaxyproject.github.io/training-material/topics/metagenomics/" target="_blank">several tutorials</a> and more will come:</p>
-
-<ul>
-  <li>
-    <p><a href="https://galaxyproject.github.io/training-material/topics/metagenomics/tutorials/general-tutorial/tutorial.html" target="_blank">Analyses of metagenomics data - The global picture</a></p>
-
-    <p>This tutorial introduces the amplicon and shotgun data analyses with the general principles behind and the differences.</p>
-  </li>
-  <li>
-    <p><a href="https://galaxyproject.github.io/training-material/topics/metagenomics/tutorials/mothur-miseq-sop/tutorial.html" target="_blank">16S Microbial Analysis with Mothur</a></p>
-
-    <p>In this tutorial the Standard Operating Procedure (SOP) for MiSeq data, developed by the creators of the Mothur software package, is perfomed within Galaxy.</p>
-  </li>
-  <li>
-    <p><a href="https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/metatranscriptomics/tutorial.html">Metatranscriptomics analysis using microbiome RNA-seq data</a>
-Metatranscriptomics analysis enables understanding of how the microbiome responds to the environment by studying the functional analysis of genes expressed by the microbiome. In this tutorial, we will analyze time-series data from a microbial community inside a bioreactor.</p>
   </li>
 </ul>
 
@@ -155,13 +221,13 @@ Metatranscriptomics analysis enables understanding of how the microbiome respond
 
 <p>To orchestrate tools and help users with their analyses, several <a href="https://asaim.readthedocs.io/en/latest/workflows.html" target="_blank">workflows</a> are available. They formally orchestrate tools in a defined order and with defined parameters, but they are customizable (tools, order, parameters).</p>
 
-<p>The workflows are available in the <a href="https://metagenomics.usegalaxy.eu/workflows/list_published">Shared Workflows</a>, with the label “<strong><em>asaim</em></strong>”.</p>
+<p>The workflows are available in the <a href="/workflows/list_published">Shared Workflows</a>, with the label “<strong><em>asaim</em></strong>”.</p>
 
-<h2 id="analysis-of-raw-metagenomic-or-metatranscriptomic-shotgun-data">Analysis of raw metagenomic or metatranscriptomic shotgun data</h2>
+<h2 id="taxonomic-and-functional-community-profiling-of-raw-metagenomic-shotgun-data">Taxonomic and functional community profiling of raw metagenomic shotgun data</h2>
 
-<p>The workflow quickly produces, from raw metagenomic or metatranscriptomic shotgun data, accurate and precise taxonomic assignations, wide extended functional results and taxonomically related metabolism information</p>
+<p>The workflow quickly produces, from raw metagenomic shotgun data, accurate and precise taxonomic assignations, wide extended functional results and taxonomically related metabolism information</p>
 
-<p><img src="/assets/media/2018-01-17-asaim_main_workflow.png" alt="ASaiM main workflow" /></p>
+<p><img src="/assets/media/2018-01-17-asaim_main_workflow.png" alt="ASaiM main workflow" width="75%" /></p>
 
 <p>This workflow consists of</p>
 
@@ -175,8 +241,8 @@ Metatranscriptomics analysis enables understanding of how the microbiome respond
 <p>It is available with 4 versions, given the input</p>
 
 <ol>
-  <li>Simple files: <a href="https://metagenomics.usegalaxy.eu/u/berenice/w/asaim-shotgun-workflow">Single-end</a> or <a href="https://metagenomics.usegalaxy.eu/u/berenice/w/asaim---shotgun-workflow-for-paired-end-data">paired-end</a></li>
-  <li>Collection input files: <a href="https://metagenomics.usegalaxy.eu/u/berenice/w/asaim-shotgun-workflow-se-collection">Single-end</a> or <a href="https://metagenomics.usegalaxy.eu/u/berenice/w/asaim---shotgun-workflow-for-paired-end-data-collection">paired-end</a></li>
+  <li>Simple files: <a href="/u/berenice/w/asaim-shotgun-workflow">Single-end</a> or <a href="/u/berenice/w/asaim---shotgun-workflow-for-paired-end-data">paired-end</a></li>
+  <li>Collection input files: <a href="/u/berenice/w/asaim-shotgun-workflow-se-collection">Single-end</a> or <a href="/u/berenice/w/asaim---shotgun-workflow-for-paired-end-data-collection">paired-end</a></li>
 </ol>
 
 <h2 id="assembly-of-metagenomic-data">Assembly of metagenomic data</h2>
@@ -187,12 +253,12 @@ Metatranscriptomics analysis enables understanding of how the microbiome respond
 
 <ul>
   <li>
-    <p><a href="https://metagenomics.usegalaxy.eu/u/berenice/w/asaim-metagenomic-assembly-with-megahit">MEGAHIT</a></p>
+    <p><a href="/u/berenice/w/asaim-metagenomic-assembly-with-megahit">MEGAHIT</a></p>
 
     <p>It is currently the most efficent computationally assembler: it has the lowest memory and time consumption <a class="citation" href="#van2017assembling">(van der Walt <i>et al.</i>, 2017; Awad <i>et al.</i>, 2017; Sczyrba <i>et al.</i>, 2017)</a>. It produced some of the best assemblies (irrespective of sequencing coverage) with the fewest structural errors <a class="citation" href="#olson2017metagenomic">(Olson <i>et al.</i>, 2017)</a> and outperforms in recovering the genomes of closely related strains <a class="citation" href="#awad2017evaluating">(Awad <i>et al.</i>, 2017)</a>, but has a bias towards relatively low coverage genomes leading to a suboptimal assembly of high abundant community member genomes in very large datasets <a class="citation" href="#vollmers2017comparing">(Vollmers <i>et al.</i>, 2017)</a></p>
   </li>
   <li>
-    <p><a href="https://metagenomics.usegalaxy.eu/u/berenice/w/asaim-metagenomic-assembly-with-metaspades">MetaSPAdes</a></p>
+    <p><a href="/u/berenice/w/asaim-metagenomic-assembly-with-metaspades">MetaSPAdes</a></p>
 
     <p>It is particularly optimal for high-coverage metagenomes <a class="citation" href="#van2017assembling">(van der Walt <i>et al.</i>, 2017)</a> with the best contig metrics <a class="citation" href="#greenwald2017utilization">(Greenwald <i>et al.</i>, 2017)</a> and produces few under-collapsed/over-collapsed repeats <a class="citation" href="#olson2017metagenomic">(Olson <i>et al.</i>, 2017)</a></p>
   </li>
@@ -208,19 +274,14 @@ Metatranscriptomics analysis enables understanding of how the microbiome respond
   <li>Determination of percentage of unmapped reads with <strong>Bowtie2</strong> combined with <strong>MultiQC</strong> to aggregate the results.</li>
 </ol>
 
+<p><img src="/assets/media/microbiome_assembly_wf.png" alt="ASaiM assembly workflows" width="75%" /></p>
+
 <h2 id="analysis-of-metataxonomic-data">Analysis of metataxonomic data</h2>
 
 <p>To analyze amplicon data, the <strong>Mothur</strong> and <strong>QIIME</strong> tool suites are available there. We implemented the workflows described in tutorials of Mothur and QIIME websites, as example of amplicon data analyses as well as support for the training material. These workflows, as any workflows available there, can be adapted for a specific analysis or used as subworkflows by the users.</p>
 
-<h2 id="running-as-in-ebi-metagenomics">Running as in EBI metagenomics</h2>
-
-<p>The tools used in the EBI Metagenomics pipeline are also available here and can be run as a <a href="https://metagenomics.usegalaxy.eu/u/berenice/w/asaim-ebi-metagenomics-workflow-30" target="_blank">workflow</a> with the same steps as the <a href="https://www.ebi.ac.uk/metagenomics/pipelines/3.0" target="_blank">EBI Metagenomics pipeline (3.0)</a>.</p>
-
-<p><img src="/assets/media/asaim/ebi_metagenomics_workflow.png" alt="EBI Metagenomics Workflow" /></p>
-
-<p>However, the parameters must be adjusted by the user as we could not find them in the EBI Metagenomics documentation.</p>
-
 <h2 id="asaim-mt-optimized-workflow-for-metatranscriptomics-data-analysis">ASaiM-MT: Optimized workflow for metatranscriptomics data analysis</h2>
+
 <p>While the shotgun workflow is suitable for both metagenomics and metatranscriptomics datasets, we also offer an enhanced workflow aimed specifically at metatranscriptomics data.</p>
 
 <p><img src="/assets/media/asaim/asaim-mt_workflow.png" alt="ASaiM-MT workflow" width="50%" /></p>
@@ -234,10 +295,36 @@ Metatranscriptomics analysis enables understanding of how the microbiome respond
   <li><strong>Taxonomy-Function Quantitation</strong> - combine taxonomy and functional quantitation values into relative abundance values at different levels such as e.g. the abundance of a pathway between phyla.</li>
 </ol>
 
+<h2 id="integrative-meta-omics-analysis---metagenomics-metatranscriptomics-metaproteomics">Integrative meta-omics analysis - Metagenomics, Metatranscriptomics, Metaproteomics</h2>
+
+<p>The combination of metagenomics, -transcriptomics and -proteomics can provide a detailed understanding of which organisms occupy specific metabolic niches, how they interact, and how they utilize environmental nutrients. Commonly used omics tools spanning metagenomics, -transcriptomics and -proteomics has been adapted into an integrated meta-omics analysis pipeline:</p>
+
+<ul>
+  <li>
+    <p><strong>Metagenomics</strong></p>
+
+    <p><img src="/assets/media/magnus/metagenomics.png" alt="Magnus metagenomics workflow" /></p>
+  </li>
+  <li>
+    <p><strong>Metatranscriptomics</strong></p>
+
+    <p><img src="/assets/media/magnus/metatranscriptomics.png" alt="Magnus metatranscriptomics workflow" width="75%" /></p>
+  </li>
+  <li>
+    <p><strong>Metaproteomics</strong></p>
+
+    <p><img src="/assets/media/magnus/metaproteomics.png" alt="Magnus metaproteomics workflow" width="50%" /></p>
+  </li>
+  <li>
+    <p>Integration of omics data using R</p>
+  </li>
+</ul>
+
+<p>This pipeline has been applied to <a href="/posts/2020/04/14/integrative-meta-omics/">deconvolute a highly efficient cellulose-degrading minimal consortium isolated and enriched from a biogas reactor in Fredrikstad, Norway</a></p>
+
 <h1 id="references">References</h1>
 
 <ol class="bibliography"><li><span id="index-metagenomics-awad2017evaluating">Awad,S. <i>et al.</i> (2017) Evaluating Metagenome Assembly on a Simple Defined Community with Many Strain Variants. <i>bioRxiv</i>, 155358.</span></li>
-<li><span id="index-metagenomics-batut2017community">Batut,B. <i>et al.</i> (2017) Community-driven data analysis training for biology. <i>BioRxiv</i>, 225680.</span></li>
 <li><span id="index-metagenomics-greenwald2017utilization">Greenwald,W.W. <i>et al.</i> (2017) Utilization of defined microbial communities enables effective evaluation of meta-genomic assemblies. <i>BMC genomics</i>, <b>18</b>, 296.</span></li>
 <li><span id="index-metagenomics-olson2017metagenomic">Olson,N.D. <i>et al.</i> (2017) Metagenomic assembly through the lens of validation: recent advances in assessing and improving the quality of genomes assembled from metagenomes. <i>Briefings in Bioinformatics</i>, bbx098.</span></li>
 <li><span id="index-metagenomics-sczyrba2017critical">Sczyrba,A. <i>et al.</i> (2017) Critical Assessment of Metagenome Interpretation- a benchmark of computational metagenomics software. <i>Biorxiv</i>, 099127.</span></li>
