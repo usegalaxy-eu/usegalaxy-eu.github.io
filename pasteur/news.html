@@ -146,6 +146,62 @@
 
 
      
+      tags.push(``)
+
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
+
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4  news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  
+                    <a href="/posts/2021/06/09/terra-and-galaxy/">
+                  
+                    <h2 class="title">A Galaxy of tools at your fingertips inside of Broad Institutes Terra</h2>
+                  </a>
+                  <span class="date">
+                    
+
+
+
+
+
+
+
+
+
+
+
+                  </span>
+                  <span class="date">
+                    June 9, 2021
+                  </span>
+                  
+                  
+
+                </div>
+                <div class="news-content">
+                  <div><p>The Broad Institute of MIT and Harvard, Verily, an Alphabet company, and Microsoft Corp. are developing the <a href="Terra platform">Terra platform</a>
+to accelerate new innovations in biomedicine. Read more about how Terra and Galaxy aligns beautifully in the new blog post entitled
+“A Galaxy of tools at your fingertips”.</p>
+</div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
+
+        news.append(div);
+    }
+    tags = []
+
+
+     
       tags.push(`talk`)
      
       tags.push(``)
