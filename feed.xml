@@ -1,4 +1,82 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2021-06-11T17:44:33+02:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">Training Infrastructure Feedback from Abdus Salam</title><link href="https://galaxyproject.eu/posts/2021/06/10/tiaas-Abdus-Salam/" rel="alternate" type="text/html" title="Training Infrastructure Feedback from Abdus Salam" /><published>2021-06-10T00:00:00+02:00</published><updated>2021-06-10T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2021/06/10/tiaas-Abdus-Salam</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/06/10/tiaas-Abdus-Salam/">&lt;p&gt;We have received some feedback about TIaaS from Abdus Salam:&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2021-06-12T05:14:20+02:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2021-06-12</title><link href="https://galaxyproject.eu/posts/2021/06/12/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2021-06-12" /><published>2021-06-12T00:00:00+02:00</published><updated>2021-06-12T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2021/06/12/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/06/12/tool-update/">&lt;p&gt;On 2021-06-12, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#277/&quot;&gt;Jenkins Build #277&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;chemicaltoolbox&quot;&gt;ChemicalToolBox&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;ambertools_acpype was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/ambertools_acpype/710301bc46fa&quot;&gt;710301bc46fa&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;ambertools_antechamber was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/ambertools_antechamber/5f3f7376a0e3&quot;&gt;5f3f7376a0e3&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;ambertools_parmchk2 was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/ambertools_parmchk2/cf9f1f2688b5&quot;&gt;cf9f1f2688b5&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mmpbsa_mmgbsa was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/mmpbsa_mmgbsa/2c62c4422f7a&quot;&gt;2c62c4422f7a&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;parmconv was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/parmconv/267a70416daf&quot;&gt;267a70416daf&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;annotation&quot;&gt;Annotation&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;goseq was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/goseq/ef2ad746b589&quot;&gt;ef2ad746b589&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;proteomics&quot;&gt;Proteomics&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;openms_openpepxl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_openpepxl/a2a842b00f9c&quot;&gt;a2a842b00f9c&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_percolatoradapter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_percolatoradapter/0fc9ae55bcfc&quot;&gt;0fc9ae55bcfc&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_percolatoradapter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_percolatoradapter/e7881a82b56d&quot;&gt;e7881a82b56d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_xfdr was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_xfdr/81402a5e4173&quot;&gt;81402a5e4173&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_xfdr was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_xfdr/9a6e3bb0f358&quot;&gt;9a6e3bb0f358&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;metagenomic-analysis&quot;&gt;Metagenomic Analysis&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;lotus2 was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/earlhaminst/lotus2/f2bb89058e99&quot;&gt;f2bb89058e99&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;rna-analysis&quot;&gt;RNA Analysis&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;seurat was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/seurat/828324f3292f&quot;&gt;828324f3292f&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;mapping&quot;&gt;Mapping&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;minimap2 was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/minimap2/1f06dccdc5d1&quot;&gt;1f06dccdc5d1&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;phylogenetics&quot;&gt;Phylogenetics&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;hyphy_annotate was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_annotate/ad5901c44e66&quot;&gt;ad5901c44e66&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hyphy_relax was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_relax/7cd99ec269ee&quot;&gt;7cd99ec269ee&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hyphy_strike_ambigs was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_strike_ambigs/4e3212e05a8f&quot;&gt;4e3212e05a8f&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hyphy_strike_ambigs was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_strike_ambigs/7b214c69e387&quot;&gt;7b214c69e387&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;nextclade was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/nextclade/3b75d5285aff&quot;&gt;3b75d5285aff&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;virology&quot;&gt;Virology&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;ivar_consensus was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/ivar_consensus/d1459d85ff18&quot;&gt;d1459d85ff18&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;ivar_filtervariants was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/ivar_filtervariants/4abcfbc2e5b6&quot;&gt;4abcfbc2e5b6&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;ivar_removereads was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/ivar_removereads/43aac8d29685&quot;&gt;43aac8d29685&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;ivar_trim was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/ivar_trim/364f4ffec275&quot;&gt;364f4ffec275&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;ivar_variants was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/ivar_variants/252dfb042563&quot;&gt;252dfb042563&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;apollo&quot;&gt;Apollo&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;apollo_create_account was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/gga/apollo_create_account/115d5e5c88d4&quot;&gt;115d5e5c88d4&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;apollo_create_or_update was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/gga/apollo_create_or_update/1e28978d7136&quot;&gt;1e28978d7136&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;apollo_delete_features was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/gga/apollo_delete_features/1a19b27dd22d&quot;&gt;1a19b27dd22d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;apollo_delete_organism was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/gga/apollo_delete_organism/cdd6632b235a&quot;&gt;cdd6632b235a&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;apollo_export was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/gga/apollo_export/b503fe85f261&quot;&gt;b503fe85f261&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;apollo_feat_from_gff3 was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/gga/apollo_feat_from_gff3/18217f8862ef&quot;&gt;18217f8862ef&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;apollo_fetch_jbrowse was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/gga/apollo_fetch_jbrowse/41b74ee91497&quot;&gt;41b74ee91497&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;apollo_iframe was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/gga/apollo_iframe/8585783deb07&quot;&gt;8585783deb07&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;apollo_list_organism was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/gga/apollo_list_organism/1cab73e6bf13&quot;&gt;1cab73e6bf13&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2021-06-12, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #277</summary></entry><entry><title type="html">Training Infrastructure Feedback from Abdus Salam</title><link href="https://galaxyproject.eu/posts/2021/06/10/tiaas-Abdus-Salam/" rel="alternate" type="text/html" title="Training Infrastructure Feedback from Abdus Salam" /><published>2021-06-10T00:00:00+02:00</published><updated>2021-06-10T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2021/06/10/tiaas-Abdus-Salam</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/06/10/tiaas-Abdus-Salam/">&lt;p&gt;We have received some feedback about TIaaS from Abdus Salam:&lt;/p&gt;
 
 &lt;h2 id=&quot;a-week-in-genomics&quot;&gt;A week in Genomics&lt;/h2&gt;
 
@@ -390,25 +468,4 @@ The &lt;a href=&quot;https://journals.plos.org/ploscompbiol/article?id=10.1371/j
 
 &lt;p&gt;Since the beginning of the pandemic, the Galaxy community has organised several massive and highly successful workshops: &lt;a href=&quot;https://galaxyproject.eu/posts/2020/09/15/ML-lessons-learned/&quot;&gt;Machine Learning&lt;/a&gt;, &lt;a href=&quot;https://gallantries.github.io/posts/2021/02/01/gat/&quot;&gt;Galaxy Admin Training&lt;/a&gt;, &lt;a href=&quot;https://gallantries.github.io/posts/2021/03/01/sm%C3%B6rg%C3%A5sbord/&quot;&gt;GTN Smörgåsbord&lt;/a&gt; and &lt;a href=&quot;https://galaxyproject.eu/posts/2021/05/03/plant-summary/&quot;&gt;Plant Transcriptome Analsis using Galaxy&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Read our experiences and both manuscripts to get some practical tips for your next training!&lt;/p&gt;</content><author><name></name></author><category term="paper" /><category term="training" /><category term="TIaaS" /><category term="COVID-19" /><summary type="html">Two hand-in-hand teaching papers have been published this week using Galaxy as a teaching platform. The common frame encompassing both is the effects of the lockdown during the COVID-19 pandemic. University lessons and workshop have been forced to move to an online setting.</summary></entry><entry><title type="html">New Paper “Novel insights into the electrophysiology of murine cardiac macrophages: relevance of voltage-gated potassium channels”</title><link href="https://galaxyproject.eu/posts/2021/05/13/paper-cardio/" rel="alternate" type="text/html" title="New Paper &quot;Novel insights into the electrophysiology of murine cardiac macrophages: relevance of voltage-gated potassium channels&quot;" /><published>2021-05-13T00:00:00+02:00</published><updated>2021-05-13T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2021/05/13/paper-cardio</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/05/13/paper-cardio/">&lt;p&gt;Ana Simon-Chica and colleagues from SFB 1452 have published a paper using Galaxy to analyse the sequencing data. Congratulations and thanks for using Galaxy!&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Abstract&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Aims&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Macrophages (MΦ), known for immunological roles such as phagocytosis and antigen presentation, have been found to electrotonically couple to cardiomyocytes (CM) of the atrio-ventricular node via Cx43, affecting cardiac conduction in isolated mouse hearts. Here, we characterise passive and active electrophysiological properties of murine cardiac resident MΦ, and model their potential electrophysiological relevance for CM.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Methods and Results&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;We combined classic electrophysiological approaches with 3 D florescence imaging, RNA-sequencing, pharmacological interventions and computer simulations. We used Cx3cr1eYFP/+ mice wherein cardiac MΦ were fluorescently labelled. FACS-purified fluorescent MΦ from mouse hearts were studied by whole-cell patch-clamp. MΦ electrophysiological properties include: membrane resistance 2.2 ± 0.1 GΩ (all data mean±SEM), capacitance 18.3 ± 0.1 pF, resting membrane potential -39.6 ± 0.3 mV, and several voltage-activated, outward or inwardly-rectifying potassium currents. Using ion channel blockers (barium, TEA, 4-AP, margatoxin, XEN-D0103, DIDS), flow cytometry, immuno-staining and RNA-sequencing, we identified Kv1.3, Kv1.5 and Kir2.1 as channels contributing to observed ion currents. MΦ displayed four patterns for outward and two for inward-rectifier potassium currents. Additionally, MΦ showed surface expression of Cx43, a prerequisite for homo- and/or heterotypic electrotonic coupling. Experimental results fed into development of an original computational model to describe cardiac MΦ electrophysiology. Computer simulations to quantitatively assess plausible effects of MΦ on electrotonically coupled CM showed that MΦ can depolarise resting CM, shorten early and prolong late action potential duration, with effects depending on coupling strength and individual MΦ electrophysiological properties, in particular resting membrane potential and presence/absence of Kir2.1.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Conclusions&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Our results provide a first electrophysiological characterisation of cardiac resident MΦ, and a computational model to quantitatively explore their relevance in the heterocellular heart. Future work will be focussed at distinguishing electrophysiological effects of MΦ–CM coupling on both cell types during steady-state and in patho-physiological remodelling, when immune cells change their phenotype, proliferate, and/or invade from external sources.
-Translational Perspective&lt;/p&gt;
-
-&lt;p&gt;Cardiac tissue contains resident macrophages (MΦ) which, beyond immunological and housekeeping roles, have been found to electrotonically couple via connexins to cardiomyocytes (CM), stabilising atrio-ventricular conduction at high excitation rates. Here, we characterise structure and electrophysiological function of murine cardiac MΦ and provide a computational model to quantitatively probe the potential relevance of MΦ-CM coupling for cardiac electrophysiology. We find that MΦ are unlikely to have major electrophysiological effects in normal tissue, where they would hasten early and slow late CM-repolarisation. Further work will address potential arrhythmogenicity of MΦ in patho-physiologically remodelled tissue containing elevated MΦ-numbers, incl. non-resident recruited cells.&lt;/p&gt;
-
-&lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Novel insights into the electrophysiology of murine cardiac macrophages: relevance of voltage-gated potassium channels &lt;a href=&quot;https://t.co/bWXVa5vNsA&quot;&gt;https://t.co/bWXVa5vNsA&lt;/a&gt;&lt;/p&gt;&amp;mdash; Connexin Papers (@ConnexinPapers) &lt;a href=&quot;https://twitter.com/ConnexinPapers/status/1379684100613808129?ref_src=twsrc%5Etfw&quot;&gt;April 7, 2021&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="paper" /><summary type="html">Ana Simon-Chica and colleagues from SFB 1452 have published a paper using Galaxy to analyse the sequencing data. Congratulations and thanks for using Galaxy!</summary></entry></feed>
+&lt;p&gt;Read our experiences and both manuscripts to get some practical tips for your next training!&lt;/p&gt;</content><author><name></name></author><category term="paper" /><category term="training" /><category term="TIaaS" /><category term="COVID-19" /><summary type="html">Two hand-in-hand teaching papers have been published this week using Galaxy as a teaching platform. The common frame encompassing both is the effects of the lockdown during the COVID-19 pandemic. University lessons and workshop have been forced to move to an online setting.</summary></entry></feed>
