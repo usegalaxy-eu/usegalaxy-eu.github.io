@@ -213,6 +213,67 @@
 
 
      
+      tags.push(`UseCase`)
+     
+      tags.push(``)
+
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
+
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4 UseCase news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  
+                    <a href="/posts/2021/06/18/use-case-harry-bulstrode/">
+                  
+                    <h2 class="title">UseGalaxy.eu Use Case: Zika virus effects on brain and brain tumours</h2>
+                  </a>
+                  <span class="date">
+                    
+
+
+
+
+
+
+
+
+
+
+
+                  </span>
+                  <span class="date">
+                    June 18, 2021
+                  </span>
+                  
+                  
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=UseCase'"
+           class="btn btn-primary btn-xs tag-element" role="button">UseCase</a>
+    
+
+
+                </div>
+                <div class="news-content">
+                  <div><p><a href="https://www.stemcells.cam.ac.uk/directory/harry-bulstrode"><strong>Harry Bulstrode</strong></a> from the <a href="https://www.stemcells.cam.ac.uk/">Wellcome Stem Cell Institute at the University of Cambridge (UK)</a> has kindly described for us his research topic: <strong>Zika virus effects on brain and brain tumours</strong>.</p>
+</div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
+
+        news.append(div);
+    }
+    tags = []
+
+
+     
       tags.push(`tools`)
      
       tags.push(`Freiburg`)
@@ -743,6 +804,8 @@ to accelerate new innovations in biomedicine. Read more about how Terra and Gala
      
       tags.push(`talk`)
      
+      tags.push(`training`)
+     
       tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
@@ -750,7 +813,7 @@ to accelerate new innovations in biomedicine. Read more about how Terra and Gala
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 talk news ">
+            <div class="col-md-4 talktraining news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -762,6 +825,8 @@ to accelerate new innovations in biomedicine. Read more about how Terra and Gala
                     
 
 
+
+	<i class="fa fa-graduation-cap" aria-hidden="true"></i>
 
 
 
@@ -780,6 +845,11 @@ to accelerate new innovations in biomedicine. Read more about how Terra and Gala
     
         <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=talk'"
            class="btn btn-primary btn-xs tag-element" role="button">talk</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=training'"
+           class="btn btn-primary btn-xs tag-element" role="button">training</a>
     
 
 
