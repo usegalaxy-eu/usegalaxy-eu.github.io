@@ -232,6 +232,67 @@
 
 
      
+      tags.push(`talk`)
+     
+      tags.push(``)
+
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
+
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4 talk news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  
+                    <a href="/posts/2021/07/02/bvcn/plain.html">
+                  
+                    <h2 class="title">&quot;Galaxy for microbiome via ASaiM story - From a local project to a global effort to support microbiome data analysis&quot; - Talk at Holistic Bioinformatic Approaches used in Microbiome Research</h2>
+                  </a>
+                  <span class="date">
+                    
+
+
+
+
+
+
+
+
+
+
+
+                  </span>
+                  <span class="date">
+                    July 2, 2021
+                  </span>
+                  
+                  
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=talk'"
+           class="btn btn-primary btn-xs tag-element" role="button">talk</a>
+    
+
+
+                </div>
+                <div class="news-content">
+                  <div><p>The <a href="https://biovcnet.github.io/">Bioinformatics Virtual Coordination Network (BVCN)</a> is committed to reducing entry barriers into bioinformatics for researchers. For the first time in June 2021, this online conference brought together early career researchers (ECRs) from across the globe who are equally committed to reducing such entry barriers, and who would like to exchange and share their research and bioinformatics experiences in a step-by-step format with a global and interdisciplinary audience.</p>
+</div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
+
+        news.append(div);
+    }
+    tags = []
+
+
+     
       tags.push(`training`)
      
       tags.push(``)
