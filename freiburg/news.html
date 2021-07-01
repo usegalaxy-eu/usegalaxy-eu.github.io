@@ -171,6 +171,69 @@
               <div class="row" style="padding: 1em">
                 <div>
                   
+                    <a href="/posts/2021/07/01/wids/">
+                  
+                    <h2 class="title">Women in Data Science 2021 - Perspectives in Industry and Academia - Join Bayer AG and de.NBI / ELIXIR Germany event</h2>
+                  </a>
+                  <span class="date">
+                    
+
+
+
+	<i class="fa fa-graduation-cap" aria-hidden="true"></i>
+
+
+
+
+
+
+
+
+
+                  </span>
+                  <span class="date">
+                    July 1, 2021
+                  </span>
+                  
+                  
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=training'"
+           class="btn btn-primary btn-xs tag-element" role="button">training</a>
+    
+
+
+                </div>
+                <div class="news-content">
+                  <div><p>Last June 18th, Bayer AG (as a member of the de.NBI Industrial Forum) and de.NBI/ELIXIR Germany organized a common event entitled <a href="https://www.denbi.de/events/1226-women-in-data-science-2021-perspectives-in-industry-and-academia"><strong>“Women in Data Science - Perspectives in Industry and Academia”</strong></a>, to show how attractive and diverse the job as a data scientist can be, regardless of whether it is industry or academia.</p>
+</div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
+
+        news.append(div);
+    }
+    tags = []
+
+
+     
+      tags.push(`training`)
+     
+      tags.push(``)
+
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
+
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4 training news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  
                     <a href="https://training.galaxyproject.org/training-material/news/2021/06/30/tutorial-sars-cov-2-variant-discovery.html">
                   
                     <h2 class="title">New Tutorial: Mutation calling, viral genome reconstruction and lineage/clade assignment from SARS-CoV-2 sequencing data</h2>
