@@ -1,4 +1,85 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2021-07-02T20:55:37+02:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">“Galaxy for microbiome via ASaiM story - From a local project to a global effort to support microbiome data analysis” - Talk at Holistic Bioinformatic Approaches used in Microbiome Research</title><link href="https://galaxyproject.eu/posts/2021/07/02/bvcn/" rel="alternate" type="text/html" title="&quot;Galaxy for microbiome via ASaiM story - From a local project to a global effort to support microbiome data analysis&quot; - Talk at Holistic Bioinformatic Approaches used in Microbiome Research" /><published>2021-07-02T00:00:00+02:00</published><updated>2021-07-02T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2021/07/02/bvcn</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/07/02/bvcn/">&lt;p&gt;The &lt;a href=&quot;https://biovcnet.github.io/&quot;&gt;Bioinformatics Virtual Coordination Network (BVCN)&lt;/a&gt; is committed to reducing entry barriers into bioinformatics for researchers. For the first time in June 2021, this online conference brought together early career researchers (ECRs) from across the globe who are equally committed to reducing such entry barriers, and who would like to exchange and share their research and bioinformatics experiences in a step-by-step format with a global and interdisciplinary audience.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2021-07-03T04:59:57+02:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2021-07-03</title><link href="https://galaxyproject.eu/posts/2021/07/03/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2021-07-03" /><published>2021-07-03T00:00:00+02:00</published><updated>2021-07-03T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2021/07/03/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/07/03/tool-update/">&lt;p&gt;On 2021-07-03, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#281/&quot;&gt;Jenkins Build #281&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;species-abundance&quot;&gt;Species abundance&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;pampa_communitymetrics was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ecology/pampa_communitymetrics/5bd7ddd7601f&quot;&gt;5bd7ddd7601f&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;pampa_communitymetrics was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ecology/pampa_communitymetrics/c67ece97d4b1&quot;&gt;c67ece97d4b1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;pampa_glmcomm was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ecology/pampa_glmcomm/44b9069775ca&quot;&gt;44b9069775ca&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;pampa_glmcomm was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ecology/pampa_glmcomm/b40fecef616b&quot;&gt;b40fecef616b&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;pampa_glmsp was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ecology/pampa_glmsp/6c14021f678e&quot;&gt;6c14021f678e&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;pampa_glmsp was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ecology/pampa_glmsp/7a69e1c8ba46&quot;&gt;7a69e1c8ba46&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;pampa_plotglm was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ecology/pampa_plotglm/3ab852a7ff53&quot;&gt;3ab852a7ff53&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;pampa_plotglm was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ecology/pampa_plotglm/c448e026f122&quot;&gt;c448e026f122&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;pampa_presabs was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ecology/pampa_presabs/1ebb70b59037&quot;&gt;1ebb70b59037&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;mapping&quot;&gt;Mapping&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;rgrnastar was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/rgrnastar/44959aa06aeb&quot;&gt;44959aa06aeb&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;rna-analysis&quot;&gt;RNA Analysis&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;deseq2 was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/deseq2/d027d1f4984e&quot;&gt;d027d1f4984e&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;edger was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/edger/6e53e565fc6a&quot;&gt;6e53e565fc6a&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;egsea was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/egsea/fba1660fb717&quot;&gt;fba1660fb717&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;limma_voom was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/limma_voom/708348a17fa1&quot;&gt;708348a17fa1&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;proteomics&quot;&gt;Proteomics&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;openms_openpepxl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_openpepxl/a2a842b00f9c&quot;&gt;a2a842b00f9c&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_percolatoradapter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_percolatoradapter/0fc9ae55bcfc&quot;&gt;0fc9ae55bcfc&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_percolatoradapter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_percolatoradapter/e7881a82b56d&quot;&gt;e7881a82b56d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_xfdr was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_xfdr/81402a5e4173&quot;&gt;81402a5e4173&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_xfdr was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_xfdr/9a6e3bb0f358&quot;&gt;9a6e3bb0f358&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;assembly&quot;&gt;Assembly&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;flye was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/flye/e27815e82dd4&quot;&gt;e27815e82dd4&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;genomescope was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/genomescope/3169a38c2656&quot;&gt;3169a38c2656&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;meryl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/meryl/51c2360aa807&quot;&gt;51c2360aa807&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;metagenomic-analysis&quot;&gt;Metagenomic Analysis&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;dada2_assigntaxonomyaddspecies was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/dada2_assigntaxonomyaddspecies/63f86089423e&quot;&gt;63f86089423e&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;dada2_dada was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/dada2_dada/1c35dadbe76f&quot;&gt;1c35dadbe76f&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;dada2_filterandtrim was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/dada2_filterandtrim/a9f4a217dcd6&quot;&gt;a9f4a217dcd6&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;dada2_learnerrors was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/dada2_learnerrors/04c15826a0b8&quot;&gt;04c15826a0b8&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;dada2_makesequencetable was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/dada2_makesequencetable/e96bbb9e24ea&quot;&gt;e96bbb9e24ea&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;dada2_mergepairs was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/dada2_mergepairs/1d75bd0595e2&quot;&gt;1d75bd0595e2&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;dada2_plotcomplexity was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/dada2_plotcomplexity/8daf4564ccda&quot;&gt;8daf4564ccda&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;dada2_plotqualityprofile was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/dada2_plotqualityprofile/d60df8727f59&quot;&gt;d60df8727f59&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;dada2_removebimeradenovo was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/dada2_removebimeradenovo/7f3b59dee073&quot;&gt;7f3b59dee073&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;dada2_seqcounts was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/dada2_seqcounts/0a1224c4b781&quot;&gt;0a1224c4b781&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;fastafastq&quot;&gt;FASTA/FASTQ&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;cutadapt was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/lparsons/cutadapt/4e5056fefd88&quot;&gt;4e5056fefd88&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;convert-formats&quot;&gt;Convert Formats&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;biom_convert was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/biom_convert/bd46669113b9&quot;&gt;bd46669113b9&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;annotation&quot;&gt;Annotation&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;maker was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/maker/3c1a01127868&quot;&gt;3c1a01127868&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;maker_map_ids was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/maker_map_ids/2e3535db1bfa&quot;&gt;2e3535db1bfa&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2021-07-03, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #281</summary></entry><entry><title type="html">“Galaxy for microbiome via ASaiM story - From a local project to a global effort to support microbiome data analysis” - Talk at Holistic Bioinformatic Approaches used in Microbiome Research</title><link href="https://galaxyproject.eu/posts/2021/07/02/bvcn/" rel="alternate" type="text/html" title="&quot;Galaxy for microbiome via ASaiM story - From a local project to a global effort to support microbiome data analysis&quot; - Talk at Holistic Bioinformatic Approaches used in Microbiome Research" /><published>2021-07-02T00:00:00+02:00</published><updated>2021-07-02T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2021/07/02/bvcn</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/07/02/bvcn/">&lt;p&gt;The &lt;a href=&quot;https://biovcnet.github.io/&quot;&gt;Bioinformatics Virtual Coordination Network (BVCN)&lt;/a&gt; is committed to reducing entry barriers into bioinformatics for researchers. For the first time in June 2021, this online conference brought together early career researchers (ECRs) from across the globe who are equally committed to reducing such entry barriers, and who would like to exchange and share their research and bioinformatics experiences in a step-by-step format with a global and interdisciplinary audience.&lt;/p&gt;
 
 &lt;p&gt;The first conference of BVCN was &lt;a href=&quot;https://biovcnet.github.io/_pages/conference-2021/&quot;&gt;&lt;strong&gt;Holistic Bioinformatic Approaches used in Microbiome Research&lt;/strong&gt;&lt;/a&gt;, A step-by-step open access conference showcasing state-of-the-art bioinformatics pipelines for microbiome research. It was run 7-11 June 2021, online.&lt;/p&gt;
 
@@ -394,16 +475,4 @@
   &lt;li&gt;hyphy_sm19 was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_sm19/50c12e254867&quot;&gt;50c12e254867&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;hyphy_strike_ambigs was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_strike_ambigs/4bf743518e41&quot;&gt;4bf743518e41&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;hyphy_strike_ambigs was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_strike_ambigs/79dc560d8ea3&quot;&gt;79dc560d8ea3&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2021-06-19, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #278</summary></entry><entry><title type="html">UseGalaxy.eu Use Case: Zika virus effects on brain and brain tumours</title><link href="https://galaxyproject.eu/posts/2021/06/18/use-case-harry-bulstrode/" rel="alternate" type="text/html" title="UseGalaxy.eu Use Case: Zika virus effects on brain and brain tumours" /><published>2021-06-18T00:00:00+02:00</published><updated>2021-06-18T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2021/06/18/use-case-harry-bulstrode</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/06/18/use-case-harry-bulstrode/">&lt;p&gt;&lt;a href=&quot;https://www.stemcells.cam.ac.uk/directory/harry-bulstrode&quot;&gt;&lt;strong&gt;Harry Bulstrode&lt;/strong&gt;&lt;/a&gt; from the &lt;a href=&quot;https://www.stemcells.cam.ac.uk/&quot;&gt;Wellcome Stem Cell Institute at the University of Cambridge (UK)&lt;/a&gt; has kindly described for us his research topic: &lt;strong&gt;Zika virus effects on brain and brain tumours&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;I use &lt;a href=&quot;https://usegalaxy.eu/&quot;&gt;usegalaxy.eu&lt;/a&gt; to analyse bulk RNA Seq datasets from human embryo brain tissue and glioblastoma brain tumours. We are looking at the oncolytic effects of Zika virus on brain and brain tumours, and at the effect of the microenvironment on the ability of the virus to infect.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Below you can see some human embryo brain tissue infected with the virus from our upcoming paper, which will of course acknowledge the valuable help of usegalaxy.eu.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/media/use_cases/harry-bulstrode.png&quot; alt=&quot;harry-bulstrode-use-case&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Thanks for using Galaxy, Harry, and for sharing your research with us!&lt;/p&gt;</content><author><name></name></author><category term="UseCase" /><summary type="html">Harry Bulstrode from the Wellcome Stem Cell Institute at the University of Cambridge (UK) has kindly described for us his research topic: Zika virus effects on brain and brain tumours.</summary></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2021-06-19, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #278</summary></entry></feed>
