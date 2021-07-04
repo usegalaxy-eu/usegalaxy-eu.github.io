@@ -184,6 +184,75 @@
               <div class="row" style="padding: 1em">
                 <div>
                   
+                    <a href="/posts/2021/07/04/nextcloud-support/plain.html">
+                  
+                    <h2 class="title">ownCloud and Nextcloud integration for your private data</h2>
+                  </a>
+                  <span class="date">
+                    
+
+
+
+
+
+	<i class="fa fa-wrench" aria-hidden="true"></i>
+
+
+
+
+
+
+
+                  </span>
+                  <span class="date">
+                    July 4, 2021
+                  </span>
+                  
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
+                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  
+                  
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=tools'"
+           class="btn btn-primary btn-xs tag-element" role="button">tools</a>
+    
+
+
+                </div>
+                <div class="news-content">
+                  <div><p>So-called cloud storages are becoming more and more popular in academic research. The most prominent one is probably <a href="https://www.dropbox.com">Dropbox</a>, which 
+you can already use in Galaxy. Today, we would like to introduce you to the support of free and open-source alternatives.
+<a href="https://owncloud.com/">ownCloud</a> and <a href="https://nextcloud.com/">Nextcloud</a> are free software solutions for the storage and management of data.
+Many universities are offering their own Nextcloud instances where researchers can store and share data in a GDPR compliant way.</p>
+</div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
+
+        news.append(div);
+    }
+    tags = []
+
+
+     
+      tags.push(`tools`)
+     
+      tags.push(`Freiburg`)
+
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
+
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4 tools news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  
                     <a href="/posts/2021/07/03/tool-update/plain.html">
                   
                     <h2 class="title">UseGalaxy.eu Tool Updates for 2021-07-03</h2>

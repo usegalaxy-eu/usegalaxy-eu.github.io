@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  <title>Galaxy Europe | New Paper "Novel insights into the electrophysiology of murine cardiac macrophages: relevance of voltage-gated potassium channels"</title>
-  <meta property="og:title" content="New Paper "Novel insights into the electrophysiology of m..." />
-  <meta property="og:description" content="Ana Simon-Chica and colleagues from SFB 1452 have publish..." />
+  <title>Galaxy Europe | ownCloud and Nextcloud integration for your private data</title>
+  <meta property="og:title" content="ownCloud and Nextcloud integration for your private data" />
+  <meta property="og:description" content="So-called cloud storages are becoming more and more popul..." />
   <meta property="og:image" content="/assets/media/galaxy-eu-logo.512.png" />
   <meta name="description" content="The European Galaxy Instance">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,7 +16,7 @@
 
 
 
-  <link rel="canonical" href="https://galaxyproject.eu/posts/2021/05/13/paper-cardio/">
+  <link rel="canonical" href="https://galaxyproject.eu/posts/2021/07/04/nextcloud-support/">
   <link rel="shortcut icon" href="/assets/media/galaxy-eu-logo.64.png" type="image/x-icon" />
   <link rel="alternate" type="application/rss+xml" title="Galaxy Europe" href="/feed.xml">
 
@@ -147,20 +147,16 @@
 <section id="news-page">
   <div class="row news-header-row">
     
-    <a class="col-xs-1 text-center" href="/posts/2021/05/11/tool-update/">
+    <a class="col-xs-1 text-center" href="/posts/2021/07/03/tool-update/">
       «
     </a>
     
     <div class="col-xs-10 ">
       <div class="text-center">
-        <h2 class="title">New Paper &quot;Novel insights into the electrophysiology of murine cardiac macrophages: relevance of voltage-gated potassium channels&quot;</h2>
+        <h2 class="title">ownCloud and Nextcloud integration for your private data</h2>
       </div>
       <hr />
     </div>
-    
-    <a class="col-xs-1 text-center" href="/posts/2021/05/13/tool-update/">
-      »
-    </a>
     
   </div>
   <div class="row post-metadata">
@@ -173,7 +169,7 @@
         <div class="col-md-6 text-right">
           <div>
             <span class="post-date">
-              May 13, 2021
+              Jul 4, 2021
             </span>
 
             
@@ -182,12 +178,8 @@
             <span class="post-tags">
                 <span class="label label-success">Freiburg</span>
               
-                <span class="label label-info">paper</span>
+                <span class="label label-info">tools</span>
               
-              
-                <a href="https://dx.doi.org/10.1093/cvr/cvab126">
-                <span class="label label-warning">DOI:10.1093/cvr/cvab126</span>
-                </a>
               
             </span>
 
@@ -201,28 +193,53 @@
   <div class="row">
     <div class="col-md-8 col-md-offset-2">
       <div class="news-content">
-        <p>Ana Simon-Chica and colleagues from SFB 1452 have published a paper using Galaxy to analyse the sequencing data. Congratulations and thanks for using Galaxy!</p>
+        <p>So-called cloud storages are becoming more and more popular in academic research. The most prominent one is probably <a href="https://www.dropbox.com">Dropbox</a>, which 
+you can already use in Galaxy. Today, we would like to introduce you to the support of free and open-source alternatives.
+<a href="https://owncloud.com/">ownCloud</a> and <a href="https://nextcloud.com/">Nextcloud</a> are free software solutions for the storage and management of data.
+Many universities are offering their own Nextcloud instances where researchers can store and share data in a GDPR compliant way.</p>
 
-<p><em>Abstract</em></p>
+<p>We have now added support to Galaxy to interact with your storage. You can import data from your Nextcloud instance or export data from your history
+to your cloud storage. Technically, this works by using the <a href="https://en.wikipedia.org/wiki/WebDAV">WebDAV</a> protocol and you can use this integration with
+every server that speaks this protocol.</p>
 
-<p><strong>Aims</strong></p>
+<p>Here are some examples of how to configure your Galaxy account to make use of that feature.</p>
 
-<p>Macrophages (MΦ), known for immunological roles such as phagocytosis and antigen presentation, have been found to electrotonically couple to cardiomyocytes (CM) of the atrio-ventricular node via Cx43, affecting cardiac conduction in isolated mouse hearts. Here, we characterise passive and active electrophysiological properties of murine cardiac resident MΦ, and model their potential electrophysiological relevance for CM.</p>
+<p>In all cases you need to go User → Preferences → <a href="https://usegalaxy.eu/user/information">Manage Information</a></p>
 
-<p><strong>Methods and Results</strong></p>
+<p><img src="/assets/media/b2drop_access.png" alt="" /></p>
 
-<p>We combined classic electrophysiological approaches with 3 D florescence imaging, RNA-sequencing, pharmacological interventions and computer simulations. We used Cx3cr1eYFP/+ mice wherein cardiac MΦ were fluorescently labelled. FACS-purified fluorescent MΦ from mouse hearts were studied by whole-cell patch-clamp. MΦ electrophysiological properties include: membrane resistance 2.2 ± 0.1 GΩ (all data mean±SEM), capacitance 18.3 ± 0.1 pF, resting membrane potential -39.6 ± 0.3 mV, and several voltage-activated, outward or inwardly-rectifying potassium currents. Using ion channel blockers (barium, TEA, 4-AP, margatoxin, XEN-D0103, DIDS), flow cytometry, immuno-staining and RNA-sequencing, we identified Kv1.3, Kv1.5 and Kir2.1 as channels contributing to observed ion currents. MΦ displayed four patterns for outward and two for inward-rectifier potassium currents. Additionally, MΦ showed surface expression of Cx43, a prerequisite for homo- and/or heterotypic electrotonic coupling. Experimental results fed into development of an original computational model to describe cardiac MΦ electrophysiology. Computer simulations to quantitatively assess plausible effects of MΦ on electrotonically coupled CM showed that MΦ can depolarise resting CM, shorten early and prolong late action potential duration, with effects depending on coupling strength and individual MΦ electrophysiological properties, in particular resting membrane potential and presence/absence of Kir2.1.</p>
+<p>Once configured, you will find an option called “Choose remote files” in the normal Galaxy upload dialogue.
+Choose “Nextcloud/ownCloud” and select the files you want to import.</p>
 
-<p><strong>Conclusions</strong></p>
+<p><img src="/assets/media/nextcloud_file_picker.png" alt="" /></p>
 
-<p>Our results provide a first electrophysiological characterisation of cardiac resident MΦ, and a computational model to quantitatively explore their relevance in the heterocellular heart. Future work will be focussed at distinguishing electrophysiological effects of MΦ–CM coupling on both cell types during steady-state and in patho-physiological remodelling, when immune cells change their phenotype, proliferate, and/or invade from external sources.
-Translational Perspective</p>
+<h2 id="example-configurations">Example configurations</h2>
 
-<p>Cardiac tissue contains resident macrophages (MΦ) which, beyond immunological and housekeeping roles, have been found to electrotonically couple via connexins to cardiomyocytes (CM), stabilising atrio-ventricular conduction at high excitation rates. Here, we characterise structure and electrophysiological function of murine cardiac MΦ and provide a computational model to quantitatively probe the potential relevance of MΦ-CM coupling for cardiac electrophysiology. We find that MΦ are unlikely to have major electrophysiological effects in normal tissue, where they would hasten early and slow late CM-repolarisation. Further work will address potential arrhythmogenicity of MΦ in patho-physiologically remodelled tissue containing elevated MΦ-numbers, incl. non-resident recruited cells.</p>
+<p>For example, to get access to the <a href="https://eudat.eu/services/b2drop">B2Drop service of EUDAT</a>, you can configure your settings like:</p>
 
-<div class="jekyll-twitter-plugin"><blockquote class="twitter-tweet"><p lang="en" dir="ltr">Novel insights into the electrophysiology of murine cardiac macrophages: relevance of voltage-gated potassium channels <a href="https://t.co/bWXVa5vNsA">https://t.co/bWXVa5vNsA</a></p>&mdash; Connexin Papers (@ConnexinPapers) <a href="https://twitter.com/ConnexinPapers/status/1379684100613808129?ref_src=twsrc%5Etfw">April 7, 2021</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</div>
+<blockquote>
+  <p>Server Domain: <code class="highlighter-rouge">https://b2drop.bsc.es</code></p>
+
+  <p>Server Path: <code class="highlighter-rouge">/remote.php/webdav</code></p>
+
+  <p>Username: <code class="highlighter-rouge">&lt;your username&gt;</code> (e.g. your email)</p>
+
+  <p>Password: <code class="highlighter-rouge">&lt;your password&gt;</code></p>
+</blockquote>
+
+<p>As a member of the <a href="https://www.sfb1425.uni-freiburg.de">CRC1425</a> (“The heterocellular nature of cardiac lesions: Identities, interactions, implications”), you can use settings like:</p>
+
+<blockquote>
+  <p>Server Domain: <code class="highlighter-rouge">https://nxc-1425.imbi.uni-freiburg.de</code></p>
+
+  <p>Server Path: <code class="highlighter-rouge">/remote.php/webdav</code></p>
+
+  <p>Username: <code class="highlighter-rouge">&lt;your username&gt;</code> (e.g. your email)</p>
+
+  <p>Password: <code class="highlighter-rouge">&lt;your password&gt;</code></p>
+</blockquote>
+
+<p>And don’t forget that you can also export files back to your cloud storage.</p>
 
       </div>
     </div>
@@ -238,6 +255,30 @@ Translational Perspective</p>
     
     <div class="row eu-image-box">
       
+      
+        
+          
+        
+      <div class="col-md-6">
+        
+        
+          <a href="https://www.denbi.de" target="_blank">
+            <img alt="de.NBI logo" src="/assets/media/deNBI_Logo_rgb.png" class="img-responsive eu-image"/>
+          </a>
+        
+      </div>
+      
+        
+          
+        
+      <div class="col-md-6">
+        
+        
+          <a href="https://www.elixir-europe.org" target="_blank">
+            <img alt="ELIXIR logo" src="/assets/media/elixir_logo.png" class="img-responsive eu-image" />
+          </a>
+        
+      </div>
       
         
           
@@ -293,7 +334,7 @@ unless otherwise specified.</p>
         <div class="row">
             <div class="col-lg-12" style="text-align:center">
                 <ul class="contact-info">
-                    <li><i class="fa fa-github"></i><a href="https://github.com/usegalaxy-eu/website/tree/master/_posts/2021-05-13-paper-cardio.md">Edit this page on GitHub</a></li>
+                    <li><i class="fa fa-github"></i><a href="https://github.com/usegalaxy-eu/website/tree/master/_posts/2021-07-04-nextcloud-support.md">Edit this page on GitHub</a></li>
                     
                       <li><i class="fa fa-envelope"></i><a href="mailto:contact@usegalaxy.eu">contact@usegalaxy.eu</a></li>
                     
