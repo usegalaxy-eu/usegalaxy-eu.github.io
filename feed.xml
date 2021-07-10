@@ -1,4 +1,107 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2021-07-09T17:45:26+02:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Use Case: Plant genomics</title><link href="https://galaxyproject.eu/posts/2021/07/09/use-case-shaobin-zhong/" rel="alternate" type="text/html" title="UseGalaxy.eu Use Case: Plant genomics" /><published>2021-07-09T00:00:00+02:00</published><updated>2021-07-09T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2021/07/09/use-case-shaobin-zhong</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/07/09/use-case-shaobin-zhong/">&lt;p&gt;&lt;a href=&quot;https://www.ag.ndsu.edu/plantpath/faculty/shaobin-zhong&quot;&gt;&lt;strong&gt;Shaobin Zhong&lt;/strong&gt;&lt;/a&gt; is using Galaxy at the &lt;a href=&quot;https://www.ag.ndsu.edu/plantpath/plant-pathology-department&quot;&gt;North Dakota State University, Plant Pathology (USA)&lt;/a&gt; for plant genomics and has shared some details with us. Thank you Shaobin!&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2021-07-10T05:33:00+02:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2021-07-10</title><link href="https://galaxyproject.eu/posts/2021/07/10/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2021-07-10" /><published>2021-07-10T00:00:00+02:00</published><updated>2021-07-10T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2021/07/10/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/07/10/tool-update/">&lt;p&gt;On 2021-07-10, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#282/&quot;&gt;Jenkins Build #282&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;text-manipulation&quot;&gt;Text Manipulation&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;prinseq was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/prinseq/654b3a274ed5&quot;&gt;654b3a274ed5&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;proteomics&quot;&gt;Proteomics&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;maxquant was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/maxquant/e42225f8a659&quot;&gt;e42225f8a659&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_openpepxl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_openpepxl/40cc19c0dbd6&quot;&gt;40cc19c0dbd6&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_openpepxl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_openpepxl/a2a842b00f9c&quot;&gt;a2a842b00f9c&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_openpepxl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_openpepxl/fc36cfd19834&quot;&gt;fc36cfd19834&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_percolatoradapter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_percolatoradapter/0fc9ae55bcfc&quot;&gt;0fc9ae55bcfc&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_percolatoradapter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_percolatoradapter/e7881a82b56d&quot;&gt;e7881a82b56d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_xfdr was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_xfdr/81402a5e4173&quot;&gt;81402a5e4173&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_xfdr was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_xfdr/9a6e3bb0f358&quot;&gt;9a6e3bb0f358&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;proteomiqon_peptidedb was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/proteomiqon_peptidedb/1e5400393797&quot;&gt;1e5400393797&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;single-cell&quot;&gt;Single-cell&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;dropletutils was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/dropletutils/a9caad671439&quot;&gt;a9caad671439&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;variant-calling&quot;&gt;Variant Calling&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;beagle was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/beagle/553b27c30eb8&quot;&gt;553b27c30eb8&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;graphdisplay-data&quot;&gt;Graph/Display Data&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;intervene was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/intervene/08780101bc36&quot;&gt;08780101bc36&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;convert-formats&quot;&gt;Convert Formats&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;bioext_bam2msa was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bioext_bam2msa/0a4ad829d87a&quot;&gt;0a4ad829d87a&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;mapping&quot;&gt;Mapping&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;bioext_bealign was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bioext_bealign/d8b6f0adaa79&quot;&gt;d8b6f0adaa79&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;annotation&quot;&gt;Annotation&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;annotatemyids was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/annotatemyids/f29602ae449e&quot;&gt;f29602ae449e&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;tbvcfreport was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/tbvcfreport/adc0645b945c&quot;&gt;adc0645b945c&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;emboss&quot;&gt;EMBOSS&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;emboss_5 was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/emboss_5/63dd26468588&quot;&gt;63dd26468588&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;phylogenetics&quot;&gt;Phylogenetics&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;hyphy_absrel was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_absrel/113854308427&quot;&gt;113854308427&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hyphy_annotate was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_annotate/68cd2d8e3840&quot;&gt;68cd2d8e3840&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hyphy_bgm was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_bgm/0286ee7cc27d&quot;&gt;0286ee7cc27d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hyphy_bgm was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_bgm/194108d6da22&quot;&gt;194108d6da22&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hyphy_busted was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_busted/1e712a6b98ff&quot;&gt;1e712a6b98ff&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hyphy_busted was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_busted/cfbb255acb43&quot;&gt;cfbb255acb43&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hyphy_cfel was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_cfel/0990351232c6&quot;&gt;0990351232c6&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hyphy_cfel was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_cfel/643be54bef90&quot;&gt;643be54bef90&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hyphy_conv was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_conv/38755f5207a5&quot;&gt;38755f5207a5&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hyphy_conv was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_conv/6569d04885e5&quot;&gt;6569d04885e5&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hyphy_fade was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_fade/5e8d0e777033&quot;&gt;5e8d0e777033&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hyphy_fade was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_fade/fccaa7ba05fd&quot;&gt;fccaa7ba05fd&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hyphy_fel was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_fel/09afc9104fc8&quot;&gt;09afc9104fc8&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hyphy_fubar was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_fubar/6cb6a5e71ccb&quot;&gt;6cb6a5e71ccb&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hyphy_fubar was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_fubar/b2096be81d82&quot;&gt;b2096be81d82&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hyphy_gard was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_gard/053b20029378&quot;&gt;053b20029378&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hyphy_meme was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_meme/d0f087aae1a3&quot;&gt;d0f087aae1a3&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hyphy_prime was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_prime/6d29207a32c5&quot;&gt;6d29207a32c5&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hyphy_prime was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_prime/b3b775a4ae1f&quot;&gt;b3b775a4ae1f&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hyphy_relax was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_relax/a4c5dc437558&quot;&gt;a4c5dc437558&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hyphy_relax was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_relax/ed0f10a1db94&quot;&gt;ed0f10a1db94&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hyphy_slac was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_slac/0c6724c345d9&quot;&gt;0c6724c345d9&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hyphy_slac was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_slac/82c77ba28d70&quot;&gt;82c77ba28d70&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hyphy_sm19 was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_sm19/36e40d93e8a3&quot;&gt;36e40d93e8a3&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hyphy_sm19 was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_sm19/86e10267b4cc&quot;&gt;86e10267b4cc&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hyphy_strike_ambigs was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_strike_ambigs/4bf743518e41&quot;&gt;4bf743518e41&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hyphy_strike_ambigs was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_strike_ambigs/50554f806e16&quot;&gt;50554f806e16&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hyphy_summary was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_summary/bd90215b7d15&quot;&gt;bd90215b7d15&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;pangolin was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/pangolin/437e28791761&quot;&gt;437e28791761&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;fastafastq&quot;&gt;FASTA/FASTQ&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;fastqe was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/fastqe/ecb38e2798cd&quot;&gt;ecb38e2798cd&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2021-07-10, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #282</summary></entry><entry><title type="html">UseGalaxy.eu Use Case: Plant genomics</title><link href="https://galaxyproject.eu/posts/2021/07/09/use-case-shaobin-zhong/" rel="alternate" type="text/html" title="UseGalaxy.eu Use Case: Plant genomics" /><published>2021-07-09T00:00:00+02:00</published><updated>2021-07-09T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2021/07/09/use-case-shaobin-zhong</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/07/09/use-case-shaobin-zhong/">&lt;p&gt;&lt;a href=&quot;https://www.ag.ndsu.edu/plantpath/faculty/shaobin-zhong&quot;&gt;&lt;strong&gt;Shaobin Zhong&lt;/strong&gt;&lt;/a&gt; is using Galaxy at the &lt;a href=&quot;https://www.ag.ndsu.edu/plantpath/plant-pathology-department&quot;&gt;North Dakota State University, Plant Pathology (USA)&lt;/a&gt; for plant genomics and has shared some details with us. Thank you Shaobin!&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;I want to use this opportunity to thank you and the whole USEGALAXY.EU team for providing, maintaining, and updating the bioinformatics programs in USEGALAXY.EU for research scientists all over the world to use! My lab has been frequently using USEGALAXY.EU for our genome sequencing projects. We are working on sequencing and annotation of genomes with sizes ranging from 30 Mb (like fungal genomes) to 17 Gb (like wheat genomes), and we use a number of bioinformatics tools for gene mapping, genome sequence assembly, gene annotation, genome structure comparison and analysis, and so on. The programs in USEGALAXY.EU are essential for our research group to accomplish the research goal and objectives.&lt;/p&gt;
@@ -383,56 +486,4 @@ Choose “Nextcloud/ownCloud” and select the files you want to import.&lt;/p&g
   &lt;li&gt;&lt;strong&gt;Business team members&lt;/strong&gt;: collaborative projects with the researcher, public engagement, dissemination of research output, resource hosting services, etc.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Support staff members&lt;/strong&gt;: reproducible workflow, FAIRification of research components (training, data, web source, etc.), support documents for their colleagues, participatory &amp;amp; citizen science.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Community/project managers&lt;/strong&gt;: community-building skills, community development project, collaborative research, training and education opportunity, etc.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="training" /><summary type="html"></summary></entry><entry><title type="html">UseGalaxy.eu Tool Updates for 2021-06-26</title><link href="https://galaxyproject.eu/posts/2021/06/26/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2021-06-26" /><published>2021-06-26T00:00:00+02:00</published><updated>2021-06-26T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2021/06/26/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/06/26/tool-update/">&lt;p&gt;On 2021-06-26, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#280/&quot;&gt;Jenkins Build #280&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;mapping&quot;&gt;Mapping&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;minimap2 was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/minimap2/09b53c1d4ab1&quot;&gt;09b53c1d4ab1&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;phylogenetics&quot;&gt;Phylogenetics&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;pangolin was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/pangolin/42a174224817&quot;&gt;42a174224817&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;chemicaltoolbox&quot;&gt;ChemicalToolBox&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;md_converter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/md_converter/730ef07b90ae&quot;&gt;730ef07b90ae&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;proteomics&quot;&gt;Proteomics&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;diffacto was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/diffacto/3cc7ce0822a1&quot;&gt;3cc7ce0822a1&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;maxquant was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/maxquant/181bd6a5f6ce&quot;&gt;181bd6a5f6ce&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;openms_openpepxl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_openpepxl/40cc19c0dbd6&quot;&gt;40cc19c0dbd6&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;openms_openpepxl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_openpepxl/a2a842b00f9c&quot;&gt;a2a842b00f9c&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;openms_openpepxl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_openpepxl/fc36cfd19834&quot;&gt;fc36cfd19834&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;openms_percolatoradapter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_percolatoradapter/0fc9ae55bcfc&quot;&gt;0fc9ae55bcfc&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;openms_percolatoradapter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_percolatoradapter/e7881a82b56d&quot;&gt;e7881a82b56d&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;openms_xfdr was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_xfdr/81402a5e4173&quot;&gt;81402a5e4173&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;openms_xfdr was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_xfdr/9a6e3bb0f358&quot;&gt;9a6e3bb0f358&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;assembly&quot;&gt;Assembly&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;flye was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/flye/8d4f03b5fe9d&quot;&gt;8d4f03b5fe9d&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;text-manipulation&quot;&gt;Text Manipulation&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;text_processing was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/text_processing/f46f0e4f75c4&quot;&gt;f46f0e4f75c4&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;annotation&quot;&gt;Annotation&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;maker was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/maker/7bac6f5fcfa2&quot;&gt;7bac6f5fcfa2&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;maker_map_ids was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/maker_map_ids/9e0cc465595e&quot;&gt;9e0cc465595e&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;maker_map_ids was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/maker_map_ids/f1912d5575df&quot;&gt;f1912d5575df&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2021-06-26, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #280</summary></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><category term="training" /><summary type="html"></summary></entry></feed>
