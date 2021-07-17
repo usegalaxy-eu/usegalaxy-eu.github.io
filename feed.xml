@@ -1,4 +1,78 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2021-07-16T22:41:48+02:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Use Case: Epigenomics and transcriptomics in cancer</title><link href="https://galaxyproject.eu/posts/2021/07/16/use-case-mzwanele-ngubo/" rel="alternate" type="text/html" title="UseGalaxy.eu Use Case: Epigenomics and transcriptomics in cancer" /><published>2021-07-16T00:00:00+02:00</published><updated>2021-07-16T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2021/07/16/use-case-mzwanele-ngubo</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/07/16/use-case-mzwanele-ngubo/">&lt;p&gt;&lt;strong&gt;Mzwanele Ngubo&lt;/strong&gt; uses Galaxy for cancer research at &lt;a href=&quot;http://www.ohri.ca/programs/regenerative_medicine/default.asp&quot;&gt;The Ottawa Hospital Research Institute, Regenerative Medicine, Ottawa (Canada)&lt;/a&gt;. Thanks Mzwanele!&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2021-07-17T05:28:06+02:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2021-07-17</title><link href="https://galaxyproject.eu/posts/2021/07/17/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2021-07-17" /><published>2021-07-17T00:00:00+02:00</published><updated>2021-07-17T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2021/07/17/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/07/17/tool-update/">&lt;p&gt;On 2021-07-17, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#283/&quot;&gt;Jenkins Build #283&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;chemicaltoolbox&quot;&gt;ChemicalToolBox&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;ambertools_acpype was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/ambertools_acpype/6ca543ec1bf8&quot;&gt;6ca543ec1bf8&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;ambertools_antechamber was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/ambertools_antechamber/df191be5f11a&quot;&gt;df191be5f11a&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;ambertools_parmchk2 was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/ambertools_parmchk2/75cf92df2580&quot;&gt;75cf92df2580&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;md_converter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/md_converter/ba83f0923369&quot;&gt;ba83f0923369&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mmpbsa_mmgbsa was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/mmpbsa_mmgbsa/9234f137c6e1&quot;&gt;9234f137c6e1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;parmconv was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/parmconv/e99af9b44cbb&quot;&gt;e99af9b44cbb&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;traj_selections_and_merge was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/traj_selections_and_merge/8740338fdff4&quot;&gt;8740338fdff4&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;rna-analysis&quot;&gt;RNA Analysis&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;featurecounts was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/featurecounts/ce44c6f2ba38&quot;&gt;ce44c6f2ba38&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;slamdunk was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/slamdunk/141f65f7c7c8&quot;&gt;141f65f7c7c8&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;epigenetics&quot;&gt;Epigenetics&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;bwameth was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bwameth/b4e6819b25ef&quot;&gt;b4e6819b25ef&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;proteomics&quot;&gt;Proteomics&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;openms_openpepxl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_openpepxl/a2a842b00f9c&quot;&gt;a2a842b00f9c&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_percolatoradapter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_percolatoradapter/0fc9ae55bcfc&quot;&gt;0fc9ae55bcfc&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_percolatoradapter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_percolatoradapter/e7881a82b56d&quot;&gt;e7881a82b56d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_xfdr was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_xfdr/81402a5e4173&quot;&gt;81402a5e4173&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_xfdr was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_xfdr/9a6e3bb0f358&quot;&gt;9a6e3bb0f358&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;proteomiqon_peptidespectrummatching was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/proteomiqon_peptidespectrummatching/db6faafbf75b&quot;&gt;db6faafbf75b&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;annotation&quot;&gt;Annotation&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;busco was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/busco/2dd755c1c6ff&quot;&gt;2dd755c1c6ff&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;send-data&quot;&gt;Send Data&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;ena_upload was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/ena_upload/9e2df763086c&quot;&gt;9e2df763086c&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;variant-calling&quot;&gt;Variant Calling&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;lumpy_prep was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/lumpy_prep/80adce82354c&quot;&gt;80adce82354c&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;lumpy_sv was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/lumpy_sv/88b35d91a662&quot;&gt;88b35d91a662&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;snippy was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/snippy/d220115f882b&quot;&gt;d220115f882b&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;convert-formats&quot;&gt;Convert Formats&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;crossmap_bam was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/crossmap_bam/e5340c09200a&quot;&gt;e5340c09200a&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;crossmap_bed was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/crossmap_bed/f4a70882a71b&quot;&gt;f4a70882a71b&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;crossmap_gff was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/crossmap_gff/4d97434ea0fb&quot;&gt;4d97434ea0fb&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;crossmap_region was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/crossmap_region/8635b6b8a8f2&quot;&gt;8635b6b8a8f2&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;crossmap_vcf was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/crossmap_vcf/71730c177cdf&quot;&gt;71730c177cdf&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;crossmap_wig was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/crossmap_wig/282a658c6569&quot;&gt;282a658c6569&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;mapping&quot;&gt;Mapping&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;bowtie2 was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/bowtie2/a6d65b0c67af&quot;&gt;a6d65b0c67af&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;winnowmap was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/winnowmap/35ea4a8b1ea6&quot;&gt;35ea4a8b1ea6&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2021-07-17, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #283</summary></entry><entry><title type="html">UseGalaxy.eu Use Case: Epigenomics and transcriptomics in cancer</title><link href="https://galaxyproject.eu/posts/2021/07/16/use-case-mzwanele-ngubo/" rel="alternate" type="text/html" title="UseGalaxy.eu Use Case: Epigenomics and transcriptomics in cancer" /><published>2021-07-16T00:00:00+02:00</published><updated>2021-07-16T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2021/07/16/use-case-mzwanele-ngubo</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/07/16/use-case-mzwanele-ngubo/">&lt;p&gt;&lt;strong&gt;Mzwanele Ngubo&lt;/strong&gt; uses Galaxy for cancer research at &lt;a href=&quot;http://www.ohri.ca/programs/regenerative_medicine/default.asp&quot;&gt;The Ottawa Hospital Research Institute, Regenerative Medicine, Ottawa (Canada)&lt;/a&gt;. Thanks Mzwanele!&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;My research projects seek to map the epigenomic and transcriptomic alterations in cancer, and delineate the higher order chromatin organization during aging. UseGalaxy.eu resources are useful in our analysis of such computationally intensive biomedical datasets. This infrastructure is quite beneficial even to research scientists without computer programming or systems administration background.&lt;/p&gt;
@@ -399,96 +473,4 @@ Choose “Nextcloud/ownCloud” and select the files you want to import.&lt;/p&g
 
 &lt;blockquote&gt;
   &lt;p&gt;I would like to thank all the developers and staff to make the UseGalaxy.eu tool come true, which benefits the whole world and human society.&lt;/p&gt;
-&lt;/blockquote&gt;</content><author><name></name></author><category term="UseCase" /><summary type="html">Yi Yang, PhD has shared with us how Galaxy is used at the Institute of Applied Ecology, Chinese Academy of Sciences (China).</summary></entry><entry><title type="html">Women in Data Science 2021 - Perspectives in Industry and Academia - Join Bayer AG and de.NBI / ELIXIR Germany event</title><link href="https://galaxyproject.eu/posts/2021/07/01/wids/" rel="alternate" type="text/html" title="Women in Data Science 2021 - Perspectives in Industry and Academia - Join Bayer AG and de.NBI / ELIXIR Germany event" /><published>2021-07-01T00:00:00+02:00</published><updated>2021-07-01T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2021/07/01/wids</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/07/01/wids/">&lt;p&gt;Last June 18th, Bayer AG (as a member of the de.NBI Industrial Forum) and de.NBI/ELIXIR Germany organized a common event entitled &lt;a href=&quot;https://www.denbi.de/events/1226-women-in-data-science-2021-perspectives-in-industry-and-academia&quot;&gt;&lt;strong&gt;“Women in Data Science - Perspectives in Industry and Academia”&lt;/strong&gt;&lt;/a&gt;, to show how attractive and diverse the job as a data scientist can be, regardless of whether it is industry or academia.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/media/2021-07-01-wids.jpeg&quot; alt=&quot;WiDS&quot; /&gt;&lt;/p&gt;
-
-&lt;table class=&quot;table table-striped&quot;&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Agenda&lt;/th&gt;
-      &lt;th&gt; &lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;Opening address&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;WiDS network at Bayer AG&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;Arwa Al-Dilaimi&lt;/strong&gt;, Bayer AG&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;German network for Bioinformatics Infrastructure (de.NBI)&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;Tanja Dammann-Kalinowski&lt;/strong&gt;, de.NBI&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;Data Science - Perspectives in Industry&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Where great minds can make a difference: Working for Bayer&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;Veronica Lopez Remus&lt;/strong&gt;, Bayer AG&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Digitally capable: How science, technology and innovation helps you to build a resilient career&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;Catherine Sirven&lt;/strong&gt;, Bayer AG&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;My career experience as biostatistician and project manager&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;Erica Manesso&lt;/strong&gt;, Bayer AG&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;Data Science - Perspectives in Academia&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;ELIXIR - Data for Life&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;Katharina Lauer&lt;/strong&gt;, ELIXIR&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;How I developed my career in data science: role models, training, mentoring and community &lt;a href=&quot;https://bit.ly/bebatut-women-data-science-2021&quot; class=&quot;fa fa-slideshare&quot;&gt;&lt;/a&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;Bérénice Batut&lt;/strong&gt;, University of Freiburg, de.NBI&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Woman power in data curation and data management&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;Ulrike Wittig&lt;/strong&gt;, Heidelberg Institute for Theoretical Studies, de.NBI&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;Panel discussion&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;Nearly 150 participants worldwide attended this 2h30m event to discuss and exchange on Women in Data science topic, perspective in Industry and Academia! The feedback was overwhelming. A second &lt;strong&gt;“Women in Data Science – Perspectives in Industry and Academia” is planned in Autumn 2021&lt;/strong&gt;! Stay tuned!&lt;/p&gt;
-
-&lt;div class=&quot;row&quot;&gt;
-&lt;div class=&quot;col-md-6&quot;&gt;
-    &lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Let&amp;#39;s start with our Women in &lt;a href=&quot;https://twitter.com/hashtag/DataScience?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#DataScience&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/hashtag/BioInformatics?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#BioInformatics&lt;/a&gt; event! &lt;a href=&quot;https://t.co/r55c6USpI6&quot;&gt;pic.twitter.com/r55c6USpI6&lt;/a&gt;&lt;/p&gt;&amp;mdash; denbi (@denbiOffice) &lt;a href=&quot;https://twitter.com/denbiOffice/status/1405875221911977984?ref_src=twsrc%5Etfw&quot;&gt;June 18, 2021&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-&lt;/div&gt;
-    &lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;In the first talk, the women in &lt;a href=&quot;https://twitter.com/hashtag/DataScience?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#DataScience&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/hashtag/BioInformatics?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#BioInformatics&lt;/a&gt; of &lt;a href=&quot;https://twitter.com/Bayer?ref_src=twsrc%5Etfw&quot;&gt;@Bayer&lt;/a&gt; are introduced &lt;a href=&quot;https://t.co/cQ390F6S58&quot;&gt;pic.twitter.com/cQ390F6S58&lt;/a&gt;&lt;/p&gt;&amp;mdash; denbi (@denbiOffice) &lt;a href=&quot;https://twitter.com/denbiOffice/status/1405877500794880004?ref_src=twsrc%5Etfw&quot;&gt;June 18, 2021&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-&lt;/div&gt;
-    &lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;In the second talk, &lt;a href=&quot;https://twitter.com/denbiOffice?ref_src=twsrc%5Etfw&quot;&gt;@denbiOffice&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/bioinformatics?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#bioinformatics&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/service?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#service&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/hashtag/training?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#training&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/hashtag/cloud?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#cloud&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/computing?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#computing&lt;/a&gt; (&lt;a href=&quot;https://twitter.com/denbiCloud?ref_src=twsrc%5Etfw&quot;&gt;@denbiCloud&lt;/a&gt;) is presented by Tanja Dammann-Kalinowski. More information can be found here:   &lt;a href=&quot;https://t.co/dQRFbs4gc7&quot;&gt;https://t.co/dQRFbs4gc7&lt;/a&gt; &lt;a href=&quot;https://t.co/ZE74jnOlxm&quot;&gt;pic.twitter.com/ZE74jnOlxm&lt;/a&gt;&lt;/p&gt;&amp;mdash; denbi (@denbiOffice) &lt;a href=&quot;https://twitter.com/denbiOffice/status/1405879286951821312?ref_src=twsrc%5Etfw&quot;&gt;June 18, 2021&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-&lt;/div&gt;
-    &lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;&lt;a href=&quot;https://twitter.com/SirvenCatherine?ref_src=twsrc%5Etfw&quot;&gt;@SirvenCatherine&lt;/a&gt; talks about her research and her career &lt;a href=&quot;https://twitter.com/Bayer?ref_src=twsrc%5Etfw&quot;&gt;@Bayer&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/WIDS?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#WIDS&lt;/a&gt; &lt;a href=&quot;https://t.co/efpXMzVLyC&quot;&gt;pic.twitter.com/efpXMzVLyC&lt;/a&gt;&lt;/p&gt;&amp;mdash; denbi (@denbiOffice) &lt;a href=&quot;https://twitter.com/denbiOffice/status/1405886095464747012?ref_src=twsrc%5Etfw&quot;&gt;June 18, 2021&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-&lt;/div&gt;
-    &lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;&lt;a href=&quot;https://twitter.com/lauerkatharina?ref_src=twsrc%5Etfw&quot;&gt;@lauerkatharina&lt;/a&gt; talks about her career &lt;a href=&quot;https://twitter.com/ELIXIREurope?ref_src=twsrc%5Etfw&quot;&gt;@ELIXIREurope&lt;/a&gt; at the &lt;a href=&quot;https://twitter.com/denbiOffice?ref_src=twsrc%5Etfw&quot;&gt;@denbiOffice&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/WiDS?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#WiDS&lt;/a&gt; event &lt;a href=&quot;https://twitter.com/hashtag/BioInformatics?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#BioInformatics&lt;/a&gt;. More information about &lt;a href=&quot;https://twitter.com/hashtag/ELIXIR?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#ELIXIR&lt;/a&gt; can be found here: &lt;a href=&quot;https://t.co/nysUOaiRTx&quot;&gt;https://t.co/nysUOaiRTx&lt;/a&gt; &lt;a href=&quot;https://t.co/T4cXPTQJD1&quot;&gt;pic.twitter.com/T4cXPTQJD1&lt;/a&gt;&lt;/p&gt;&amp;mdash; denbi (@denbiOffice) &lt;a href=&quot;https://twitter.com/denbiOffice/status/1405894946809384963?ref_src=twsrc%5Etfw&quot;&gt;June 18, 2021&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-&lt;/div&gt;
-    &lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;&lt;a href=&quot;https://twitter.com/bebatut?ref_src=twsrc%5Etfw&quot;&gt;@bebatut&lt;/a&gt; talks about her career, &lt;a href=&quot;https://twitter.com/galaxyproject?ref_src=twsrc%5Etfw&quot;&gt;@galaxyproject&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/gxytraining?ref_src=twsrc%5Etfw&quot;&gt;@gxytraining&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/openlifesci?ref_src=twsrc%5Etfw&quot;&gt;@openlifesci&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/StreetScienceCo?ref_src=twsrc%5Etfw&quot;&gt;@StreetScienceCo&lt;/a&gt; in her presentation &lt;a href=&quot;https://twitter.com/denbiOffice?ref_src=twsrc%5Etfw&quot;&gt;@denbiOffice&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/WiDS?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#WiDS&lt;/a&gt; event &lt;a href=&quot;https://t.co/dBtGCRprFR&quot;&gt;pic.twitter.com/dBtGCRprFR&lt;/a&gt;&lt;/p&gt;&amp;mdash; denbi (@denbiOffice) &lt;a href=&quot;https://twitter.com/denbiOffice/status/1405900003462324238?ref_src=twsrc%5Etfw&quot;&gt;June 18, 2021&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-&lt;/div&gt;
-    &lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;In the last talk, &lt;a href=&quot;https://twitter.com/UlrikeWittig?ref_src=twsrc%5Etfw&quot;&gt;@UlrikeWittig&lt;/a&gt; talks about her career as &lt;a href=&quot;https://twitter.com/hashtag/biocurator?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#biocurator&lt;/a&gt; &lt;a href=&quot;https://twitter.com/HITStudies?ref_src=twsrc%5Etfw&quot;&gt;@HITStudies&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/FAIRDOM_eu?ref_src=twsrc%5Etfw&quot;&gt;@FAIRDOM_eu&lt;/a&gt; and the &lt;a href=&quot;https://twitter.com/ELIXIREurope?ref_src=twsrc%5Etfw&quot;&gt;@ELIXIREurope&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/RDMkit?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#RDMkit&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/WiDS?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#WiDS&lt;/a&gt; &lt;a href=&quot;https://t.co/ktwU0P3P78&quot;&gt;pic.twitter.com/ktwU0P3P78&lt;/a&gt;&lt;/p&gt;&amp;mdash; denbi (@denbiOffice) &lt;a href=&quot;https://twitter.com/denbiOffice/status/1405904529753886730?ref_src=twsrc%5Etfw&quot;&gt;June 18, 2021&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-&lt;/div&gt;
-  &lt;/div&gt;
-&lt;div class=&quot;col-md-6&quot;&gt;
-&lt;iframe src=&quot;https://www.linkedin.com/embed/feed/update/urn:li:share:6813103913747718145&quot; allowfullscreen=&quot;&quot; title=&quot;LinkedIn post from Catherine Sirven&quot; width=&quot;100%&quot; height=&quot;1500px&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="training" /><summary type="html">Last June 18th, Bayer AG (as a member of the de.NBI Industrial Forum) and de.NBI/ELIXIR Germany organized a common event entitled “Women in Data Science - Perspectives in Industry and Academia”, to show how attractive and diverse the job as a data scientist can be, regardless of whether it is industry or academia.</summary></entry></feed>
+&lt;/blockquote&gt;</content><author><name></name></author><category term="UseCase" /><summary type="html">Yi Yang, PhD has shared with us how Galaxy is used at the Institute of Applied Ecology, Chinese Academy of Sciences (China).</summary></entry></feed>
