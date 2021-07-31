@@ -158,6 +158,150 @@
 
 
      
+      tags.push(`training`)
+     
+      tags.push(`gtn-news`)
+     
+      tags.push(``)
+
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
+
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4 traininggtn-news news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  
+                    <a href="https://training.galaxyproject.org/training-material/news/2021/07/28/feedback.html">
+                  
+                    <h2 class="title">New Feature: a feedback page to aggregate and display feedback answers</h2>
+                  </a>
+                  <span class="date">
+                    
+	<i class="fa fa-external-link" aria-hidden="true"></i>
+
+
+
+
+	<i class="fa fa-graduation-cap" aria-hidden="true"></i>
+
+
+
+
+
+
+
+
+
+                  </span>
+                  <span class="date">
+                    July 28, 2021
+                  </span>
+                  
+                  
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=training'"
+           class="btn btn-primary btn-xs tag-element" role="button">training</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=gtn-news'"
+           class="btn btn-primary btn-xs tag-element" role="button">gtn-news</a>
+    
+
+
+                </div>
+                <div class="news-content">
+                  <div><p>As you have probably already seen, a feedback form is embedded on the bottom of each tutorial.</p>
+</div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
+
+        news.append(div);
+    }
+    tags = []
+
+
+     
+      tags.push(`training`)
+     
+      tags.push(`gtn-news`)
+     
+      tags.push(``)
+
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
+
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4 traininggtn-news news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  
+                    <a href="https://training.galaxyproject.org/training-material/news/2021/07/27/a11y.html">
+                  
+                    <h2 class="title">Accessibility Improvements</h2>
+                  </a>
+                  <span class="date">
+                    
+	<i class="fa fa-external-link" aria-hidden="true"></i>
+
+
+
+
+	<i class="fa fa-graduation-cap" aria-hidden="true"></i>
+
+
+
+
+
+
+
+
+
+                  </span>
+                  <span class="date">
+                    July 27, 2021
+                  </span>
+                  
+                  
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=training'"
+           class="btn btn-primary btn-xs tag-element" role="button">training</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=gtn-news'"
+           class="btn btn-primary btn-xs tag-element" role="button">gtn-news</a>
+    
+
+
+                </div>
+                <div class="news-content">
+                  <div><p><strong>Accessibility Improvements</strong></p>
+</div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
+
+        news.append(div);
+    }
+    tags = []
+
+
+     
       tags.push(`tools`)
      
       tags.push(`Freiburg`)
@@ -1001,6 +1145,8 @@ Many universities are offering their own Nextcloud instances where researchers c
      
       tags.push(`training`)
      
+      tags.push(`gtn-news`)
+     
       tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
@@ -1008,7 +1154,7 @@ Many universities are offering their own Nextcloud instances where researchers c
 
       div = `
             ${counter === 3 ? '<div class="row">' : ''}
-            <div class="col-md-4 training news ">
+            <div class="col-md-4 traininggtn-news news ">
               <div class="row" style="padding: 1em">
                 <div>
                   
@@ -1044,10 +1190,15 @@ Many universities are offering their own Nextcloud instances where researchers c
            class="btn btn-primary btn-xs tag-element" role="button">training</a>
     
 
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=gtn-news'"
+           class="btn btn-primary btn-xs tag-element" role="button">gtn-news</a>
+    
+
 
                 </div>
                 <div class="news-content">
-                  <div><p>Effectively monitoring global infectious disease crises, such as the COVID-19 pandemic, requires capacity to generate and analyze large volumes of sequencing data in near real time. These data have proven essential for monitoring the emergence and spread of new variants, and for understanding the evolutionary dynamics of the virus. The Galaxy community has developed <a href="https://covid19.galaxyproject.org/genomics/global_platform/">high-quality analysis workflows for SARS-CoV-2 analysis</a>. The new tutorial <a href="https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/sars-cov-2-variant-discovery/tutorial.html">“Mutation calling, viral genome reconstruction and lineage/clade assignment from SARS-CoV-2 sequencing data”</a> will teach you how to obtain, run and combine these workflows appropriately for different types of input data.</p>
+                  <div><p>Effectively monitoring global infectious disease crises, such as the COVID-19 pandemic, requires capacity to generate and analyze large volumes of sequencing data in near real time. These data have proven essential for monitoring the emergence and spread of new variants, and for understanding the evolutionary dynamics of the virus.</p>
 </div>
                 </div>
               </div>
@@ -1177,6 +1328,151 @@ Many universities are offering their own Nextcloud instances where researchers c
                 </div>
                 <div class="news-content">
                   <div><p>On 2021-06-26, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in <a href="https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#280/">Jenkins Build #280</a></p>
+</div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
+
+        news.append(div);
+    }
+    tags = []
+
+
+     
+      tags.push(`training`)
+     
+      tags.push(`gtn-news`)
+     
+      tags.push(``)
+
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
+
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4 traininggtn-news news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  
+                    <a href="https://training.galaxyproject.org/training-material/news/2021/06/26/tutorial-volcanoplot-r.html">
+                  
+                    <h2 class="title">New Tutorial: Visualization of RNA-Seq results with Volcano Plot in R</h2>
+                  </a>
+                  <span class="date">
+                    
+	<i class="fa fa-external-link" aria-hidden="true"></i>
+
+
+
+
+	<i class="fa fa-graduation-cap" aria-hidden="true"></i>
+
+
+
+
+
+
+
+
+
+                  </span>
+                  <span class="date">
+                    June 26, 2021
+                  </span>
+                  
+                  
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=training'"
+           class="btn btn-primary btn-xs tag-element" role="button">training</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=gtn-news'"
+           class="btn btn-primary btn-xs tag-element" role="button">gtn-news</a>
+    
+
+
+                </div>
+                <div class="news-content">
+                  <div><p>The Volcano plot tutorial introduced volcano plots and showed how they can be easily generated with the Galaxy Volcano plot tool. This new tutorial shows how you can customise a plot using the R script output from the tool and RStudio in Galaxy. A short video for the tutorial is also available on YouTube, created for the GCC2021 Training week. 
+Happy plotting!</p>
+</div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
+
+        news.append(div);
+    }
+    tags = []
+
+
+     
+      tags.push(`training`)
+     
+      tags.push(`gtn-news`)
+     
+      tags.push(``)
+
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
+
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4 traininggtn-news news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  
+                    <a href="https://training.galaxyproject.org/training-material/news/2021/06/25/gitpod.html">
+                  
+                    <h2 class="title">New Tutorial: GitPod for contributing to the GTN</h2>
+                  </a>
+                  <span class="date">
+                    
+	<i class="fa fa-external-link" aria-hidden="true"></i>
+
+
+
+
+	<i class="fa fa-graduation-cap" aria-hidden="true"></i>
+
+
+
+
+
+
+
+
+
+                  </span>
+                  <span class="date">
+                    June 25, 2021
+                  </span>
+                  
+                  
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=training'"
+           class="btn btn-primary btn-xs tag-element" role="button">training</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=gtn-news'"
+           class="btn btn-primary btn-xs tag-element" role="button">gtn-news</a>
+    
+
+
+                </div>
+                <div class="news-content">
+                  <div><p>Want to contribute to the GTN without installing anything on your own computer? GitPod provides an online workspace for editing the GTN tutorials, and showing a live preview of the GTN website with your changes. This tutorial shows you how to set up GitPod, how to use it to get a live preview of the GTN website, and how to save any changes you make back to your GitHub fork. This makes it easier than ever to contribute to the GTN!</p>
 </div>
                 </div>
               </div>
@@ -1843,6 +2139,151 @@ to accelerate new innovations in biomedicine. Read more about how Terra and Gala
 
 
      
+      tags.push(`training`)
+     
+      tags.push(`gtn-news`)
+     
+      tags.push(``)
+
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
+
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4 traininggtn-news news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  
+                    <a href="https://training.galaxyproject.org/training-material/news/2021/06/04/apollo.html">
+                  
+                    <h2 class="title">New Tutorial: Genome Annotation with Apollo</h2>
+                  </a>
+                  <span class="date">
+                    
+	<i class="fa fa-external-link" aria-hidden="true"></i>
+
+
+
+
+	<i class="fa fa-graduation-cap" aria-hidden="true"></i>
+
+
+
+
+
+
+
+
+
+                  </span>
+                  <span class="date">
+                    June 4, 2021
+                  </span>
+                  
+                  
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=training'"
+           class="btn btn-primary btn-xs tag-element" role="button">training</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=gtn-news'"
+           class="btn btn-primary btn-xs tag-element" role="button">gtn-news</a>
+    
+
+
+                </div>
+                <div class="news-content">
+                  <div><p>After two years, the Galaxy Genome Annotation team has finally finished their much awaited tutorial on doing Genome Annotation in Galaxy! Genome annotation is a time consuming and largely manual process as it requires the synthesis of a significant amount of varied information to make inferences, a process tha cannot be accomplished without an interactive editor. To support this, Apollo was deployed on UseGalaxy.eu. Over the past two years the GGA project has pushed forward apollo and tooling around it, and it finally culminates in this look at how to annotated your genomes in Apollo.</p>
+</div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
+
+        news.append(div);
+    }
+    tags = []
+
+
+     
+      tags.push(`training`)
+     
+      tags.push(`gtn-news`)
+     
+      tags.push(``)
+
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
+
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4 traininggtn-news news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  
+                    <a href="https://training.galaxyproject.org/training-material/news/2021/06/01/archive-menu.html">
+                  
+                    <h2 class="title">Oh no, it changed! Quick, to the archive menu.</h2>
+                  </a>
+                  <span class="date">
+                    
+	<i class="fa fa-external-link" aria-hidden="true"></i>
+
+
+
+
+	<i class="fa fa-graduation-cap" aria-hidden="true"></i>
+
+
+
+
+
+
+
+
+
+                  </span>
+                  <span class="date">
+                    June 1, 2021
+                  </span>
+                  
+                  
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=training'"
+           class="btn btn-primary btn-xs tag-element" role="button">training</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=gtn-news'"
+           class="btn btn-primary btn-xs tag-element" role="button">gtn-news</a>
+    
+
+
+                </div>
+                <div class="news-content">
+                  <div><p>Did you ever start teaching a GTN tutorial, only to realise something changed recently? Oh no! A while ago the GTN created an <strong>Archive</strong> to address just this concern.
+On every tag, we’d build a copy of the website which we would place online and never touch again. This way we’d have permanent online copies so that if someone needed to go back to an older version of the GTN, they could.</p>
+</div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
+
+        news.append(div);
+    }
+    tags = []
+
+
+     
       tags.push(`paper`)
      
       tags.push(`Freiburg`)
@@ -2045,6 +2486,150 @@ to accelerate new innovations in biomedicine. Read more about how Terra and Gala
 
 
      
+      tags.push(`training`)
+     
+      tags.push(`gtn-news`)
+     
+      tags.push(``)
+
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
+
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4 traininggtn-news news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  
+                    <a href="https://training.galaxyproject.org/training-material/news/2021/05/25/abbreviations-tag.html">
+                  
+                    <h2 class="title">New Feature: Easy Abbreviation</h2>
+                  </a>
+                  <span class="date">
+                    
+	<i class="fa fa-external-link" aria-hidden="true"></i>
+
+
+
+
+	<i class="fa fa-graduation-cap" aria-hidden="true"></i>
+
+
+
+
+
+
+
+
+
+                  </span>
+                  <span class="date">
+                    May 25, 2021
+                  </span>
+                  
+                  
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=training'"
+           class="btn btn-primary btn-xs tag-element" role="button">training</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=gtn-news'"
+           class="btn btn-primary btn-xs tag-element" role="button">gtn-news</a>
+    
+
+
+                </div>
+                <div class="news-content">
+                  <div><p>Thanks to the great tutorial developed by first time contributor Erik Schill and edited by Simon Bray, we noticed that they defined a number of abbreviations and re-used those throughout their tutorial.</p>
+</div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
+
+        news.append(div);
+    }
+    tags = []
+
+
+     
+      tags.push(`training`)
+     
+      tags.push(`gtn-news`)
+     
+      tags.push(``)
+
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
+
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4 traininggtn-news news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  
+                    <a href="https://training.galaxyproject.org/training-material/news/2021/05/25/new-dev-tutorial.html">
+                  
+                    <h2 class="title">Contributing to BioBlend as a developer</h2>
+                  </a>
+                  <span class="date">
+                    
+	<i class="fa fa-external-link" aria-hidden="true"></i>
+
+
+
+
+	<i class="fa fa-graduation-cap" aria-hidden="true"></i>
+
+
+
+
+
+
+
+
+
+                  </span>
+                  <span class="date">
+                    May 25, 2021
+                  </span>
+                  
+                  
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=training'"
+           class="btn btn-primary btn-xs tag-element" role="button">training</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=gtn-news'"
+           class="btn btn-primary btn-xs tag-element" role="button">gtn-news</a>
+    
+
+
+                </div>
+                <div class="news-content">
+                  <div><p>The first of the developer tutorials for GCC2021 is live, first time contributor Erik Schill has produced a fantastic tutorial covering how to develop new functions in BioBlend for new APIs in Galaxy. Many thanks to Simon Bray for editing!</p>
+</div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
+
+        news.append(div);
+    }
+    tags = []
+
+
+     
       tags.push(`paper`)
      
       tags.push(`Freiburg`)
@@ -2095,6 +2680,78 @@ to accelerate new innovations in biomedicine. Read more about how Terra and Gala
                 </div>
                 <div class="news-content">
                   <div><p>Joachim Wolff and colleagues have published a paper providing a novel single-cell Hi-C clustering approach. Congratulations Joachim!</p>
+</div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
+
+        news.append(div);
+    }
+    tags = []
+
+
+     
+      tags.push(`training`)
+     
+      tags.push(`gtn-news`)
+     
+      tags.push(``)
+
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
+
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4 traininggtn-news news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  
+                    <a href="https://training.galaxyproject.org/training-material/news/2021/05/20/spanish_project_begins.html">
+                  
+                    <h2 class="title">¿Hablas español?: The first curated tutorial in Spanish!</h2>
+                  </a>
+                  <span class="date">
+                    
+	<i class="fa fa-external-link" aria-hidden="true"></i>
+
+
+
+
+	<i class="fa fa-graduation-cap" aria-hidden="true"></i>
+
+
+
+
+
+
+
+
+
+                  </span>
+                  <span class="date">
+                    May 20, 2021
+                  </span>
+                  
+                  
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=training'"
+           class="btn btn-primary btn-xs tag-element" role="button">training</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=gtn-news'"
+           class="btn btn-primary btn-xs tag-element" role="button">gtn-news</a>
+    
+
+
+                </div>
+                <div class="news-content">
+                  <div><p>¡El primer tutorial en español ya está disponible! Galaxy siempre ha tenido tutoriales traducidos automáticamente mediante Google-Translate, ahora nos estamos embarcando en un nuevo proyecto para estudiar la experiencia de aprendizaje con tutoriales en bioinformática traducidos por humanos. Nuestro objetivo es crear un paquete de tutoriales para el análisis de datos single-cell (célula única) en primera instancia, con el fin de estudiar su uso y utilidad en un taller para hablantes nativos de español. Agradecemos enormemente a las nuevas participantes Patricia Carvajal López y Alejandra Escobar-Zepeda (EMBL-EBI) así como a las miembros existentes de GTN Beatriz Serrano-Solano (University of Freiburg), Saskia Hiltemann &amp; Helena Rasche (Erasmus-MC), por su arduo trabajo en este proyecto de traducción y mantenimiento y, por supuesto, a Wendi Bacon (The Open University/EBI) como líder de proyecto.</p>
 </div>
                 </div>
               </div>

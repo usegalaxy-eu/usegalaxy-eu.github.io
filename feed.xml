@@ -1,4 +1,29 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2021-07-31T23:13:38+02:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2021-07-27</title><link href="https://galaxyproject.eu/posts/2021/07/27/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2021-07-27" /><published>2021-07-27T00:00:00+02:00</published><updated>2021-07-27T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2021/07/27/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/07/27/tool-update/">&lt;p&gt;On 2021-07-27, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#285/&quot;&gt;Jenkins Build #285&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2021-07-31T23:20:09+02:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">New Feature: a feedback page to aggregate and display feedback answers</title><link href="https://galaxyproject.eu/posts/2021/07/28/feedback/" rel="alternate" type="text/html" title="New Feature: a feedback page to aggregate and display feedback answers" /><published>2021-07-28T00:00:00+02:00</published><updated>2021-07-28T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2021/07/28/feedback</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/07/28/feedback/">&lt;p&gt;As you have probably already seen, a feedback form is embedded on the bottom of each tutorial.&lt;/p&gt;
+
+&lt;p&gt;The answers are automatically posted to a GitHub issue. With &amp;gt; 1,300 answers, it is quite difficult to keep an eye on the answers, specially because the answers there are for all tutorials, but also to have an overview of the answers.&lt;/p&gt;
+
+&lt;p&gt;How can we have the feedback for a specific tutorial? Or for all the tutorials for a topic? How many feedback has been submitted? Are the tutorials appreciated?&lt;/p&gt;
+
+&lt;p&gt;To answer some of these questions and help contributors, we created a page which aggregate all feedback, display them globally, but also by topic and tutorials, including the free text.&lt;/p&gt;
+
+&lt;p&gt;The data from the feedback are automatically extracted every week to update the page and its graphs. The page is linked in the “Extras” menu on the top (with direct link to interesting section from topic and tutorial pages).&lt;/p&gt;
+
+&lt;p&gt;Visit the Feedback page&lt;/p&gt;</content><author><name></name></author><category term="training" /><category term="gtn-news" /><summary type="html">As you have probably already seen, a feedback form is embedded on the bottom of each tutorial.</summary></entry><entry><title type="html">Accessibility Improvements</title><link href="https://galaxyproject.eu/posts/2021/07/27/a11y/" rel="alternate" type="text/html" title="Accessibility Improvements" /><published>2021-07-27T00:00:00+02:00</published><updated>2021-07-27T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2021/07/27/a11y</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/07/27/a11y/">&lt;p&gt;&lt;strong&gt;Accessibility Improvements&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;One of our community members suggested on twitter that we support alternative formats for accessing our JavaScript based slides, as this can be difficult for users using screen readers. We’ve now added support for “plain text slides”, where we render the slide decks as a single long document.&lt;/p&gt;
+
+&lt;p&gt;The rendering is imperfect, due to how our slide deck library handles custom classes within slides, but it should still be an improvement for anyone who wants to scroll through the slides in an alternative format. You can find them linked from the first slide of each slide deck, or from the slides dropdown in the topic pages, &lt;em&gt;check them out!&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Additionally we’ve made a number of other minor accessibility improvements:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Fixed 533 missing alt texts for images&lt;/li&gt;
+  &lt;li&gt;Removed some repetitive icon names names when followed immediately by their descriptive text&lt;/li&gt;
+  &lt;li&gt;Remove repetitive image labels on author badges.&lt;/li&gt;
+  &lt;li&gt;etc.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Some of these were done after (Helena Rasche) learned to use Android’s TalkBack and noticed the site could be unpleasant to go through. While absolutely not a replacement for someone who deeply understands the needs of visually impaired users or experiences such needs themselves, hopefully this makes the GTN a little bit more pleasant for everyone.&lt;/p&gt;</content><author><name></name></author><category term="training" /><category term="gtn-news" /><summary type="html">Accessibility Improvements</summary></entry><entry><title type="html">UseGalaxy.eu Tool Updates for 2021-07-27</title><link href="https://galaxyproject.eu/posts/2021/07/27/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2021-07-27" /><published>2021-07-27T00:00:00+02:00</published><updated>2021-07-27T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2021/07/27/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/07/27/tool-update/">&lt;p&gt;On 2021-07-27, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#285/&quot;&gt;Jenkins Build #285&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;annotation&quot;&gt;Annotation&lt;/h2&gt;
 
@@ -435,131 +460,4 @@ Previous studies with similar analyses in pancreatic cancer without wet lab work
     &lt;li&gt;Transcriptomics profiling with the least oscillation in the blood of healthy individuals compared to their blood of breast cancer patients (Ms Ahmadi).&lt;/li&gt;
     &lt;li&gt;Network and pathway-based drug repurposing for COVID-19 treatment (Ms Mirmohammadi).&lt;/li&gt;
   &lt;/ol&gt;
-&lt;/blockquote&gt;</content><author><name></name></author><category term="UseCase" /><summary type="html">Amir Sabbaghian is using Galaxy at the Advance Technologies Faculty, Golestan University of Medical Sciences Campus (Iran) for colorectal cancer research. Thank you Amir for sharing your work with us! Description of the project:</summary></entry><entry><title type="html">ownCloud and Nextcloud integration for your private data</title><link href="https://galaxyproject.eu/posts/2021/07/04/nextcloud-support/" rel="alternate" type="text/html" title="ownCloud and Nextcloud integration for your private data" /><published>2021-07-04T00:00:00+02:00</published><updated>2021-07-04T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2021/07/04/nextcloud-support</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/07/04/nextcloud-support/">&lt;p&gt;So-called cloud storages are becoming more and more popular in academic research. The most prominent one is probably &lt;a href=&quot;https://www.dropbox.com&quot;&gt;Dropbox&lt;/a&gt;, which 
-you can already use in Galaxy. Today, we would like to introduce you to the support of free and open-source alternatives.
-&lt;a href=&quot;https://owncloud.com/&quot;&gt;ownCloud&lt;/a&gt; and &lt;a href=&quot;https://nextcloud.com/&quot;&gt;Nextcloud&lt;/a&gt; are free software solutions for the storage and management of data.
-Many universities are offering their own Nextcloud instances where researchers can store and share data in a GDPR compliant way.&lt;/p&gt;
-
-&lt;p&gt;We have now added support to Galaxy to interact with your storage. You can import data from your Nextcloud instance or export data from your history
-to your cloud storage. Technically, this works by using the &lt;a href=&quot;https://en.wikipedia.org/wiki/WebDAV&quot;&gt;WebDAV&lt;/a&gt; protocol and you can use this integration with
-every server that speaks this protocol.&lt;/p&gt;
-
-&lt;p&gt;Here are some examples of how to configure your Galaxy account to make use of that feature.&lt;/p&gt;
-
-&lt;p&gt;In all cases you need to go User → Preferences → &lt;a href=&quot;https://usegalaxy.eu/user/information&quot;&gt;Manage Information&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/media/b2drop_access.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Once configured, you will find an option called “Choose remote files” in the normal Galaxy upload dialogue.
-Choose “Nextcloud/ownCloud” and select the files you want to import.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/media/nextcloud_file_picker.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;example-configurations&quot;&gt;Example configurations&lt;/h2&gt;
-
-&lt;p&gt;For example, to get access to the &lt;a href=&quot;https://eudat.eu/services/b2drop&quot;&gt;B2Drop service of EUDAT&lt;/a&gt;, you can configure your settings like:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Server Domain: &lt;code class=&quot;highlighter-rouge&quot;&gt;https://b2drop.bsc.es&lt;/code&gt;&lt;/p&gt;
-
-  &lt;p&gt;Server Path: &lt;code class=&quot;highlighter-rouge&quot;&gt;/remote.php/webdav&lt;/code&gt;&lt;/p&gt;
-
-  &lt;p&gt;Username: &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;your username&amp;gt;&lt;/code&gt; (e.g. your email)&lt;/p&gt;
-
-  &lt;p&gt;Password: &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;your password&amp;gt;&lt;/code&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;As a member of the &lt;a href=&quot;https://www.sfb1425.uni-freiburg.de&quot;&gt;CRC1425&lt;/a&gt; (“The heterocellular nature of cardiac lesions: Identities, interactions, implications”), you can use settings like:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Server Domain: &lt;code class=&quot;highlighter-rouge&quot;&gt;https://nxc-1425.imbi.uni-freiburg.de&lt;/code&gt;&lt;/p&gt;
-
-  &lt;p&gt;Server Path: &lt;code class=&quot;highlighter-rouge&quot;&gt;/remote.php/webdav&lt;/code&gt;&lt;/p&gt;
-
-  &lt;p&gt;Username: &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;your username&amp;gt;&lt;/code&gt; (e.g. your email)&lt;/p&gt;
-
-  &lt;p&gt;Password: &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;your password&amp;gt;&lt;/code&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;And don’t forget that you can also export files back to your cloud storage.&lt;/p&gt;</content><author><name></name></author><category term="tools" /><summary type="html">So-called cloud storages are becoming more and more popular in academic research. The most prominent one is probably Dropbox, which you can already use in Galaxy. Today, we would like to introduce you to the support of free and open-source alternatives. ownCloud and Nextcloud are free software solutions for the storage and management of data. Many universities are offering their own Nextcloud instances where researchers can store and share data in a GDPR compliant way.</summary></entry><entry><title type="html">UseGalaxy.eu Tool Updates for 2021-07-03</title><link href="https://galaxyproject.eu/posts/2021/07/03/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2021-07-03" /><published>2021-07-03T00:00:00+02:00</published><updated>2021-07-03T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2021/07/03/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/07/03/tool-update/">&lt;p&gt;On 2021-07-03, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#281/&quot;&gt;Jenkins Build #281&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;species-abundance&quot;&gt;Species abundance&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;pampa_communitymetrics was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ecology/pampa_communitymetrics/5bd7ddd7601f&quot;&gt;5bd7ddd7601f&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;pampa_communitymetrics was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ecology/pampa_communitymetrics/c67ece97d4b1&quot;&gt;c67ece97d4b1&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;pampa_glmcomm was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ecology/pampa_glmcomm/44b9069775ca&quot;&gt;44b9069775ca&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;pampa_glmcomm was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ecology/pampa_glmcomm/b40fecef616b&quot;&gt;b40fecef616b&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;pampa_glmsp was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ecology/pampa_glmsp/6c14021f678e&quot;&gt;6c14021f678e&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;pampa_glmsp was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ecology/pampa_glmsp/7a69e1c8ba46&quot;&gt;7a69e1c8ba46&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;pampa_plotglm was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ecology/pampa_plotglm/3ab852a7ff53&quot;&gt;3ab852a7ff53&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;pampa_plotglm was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ecology/pampa_plotglm/c448e026f122&quot;&gt;c448e026f122&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;pampa_presabs was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ecology/pampa_presabs/1ebb70b59037&quot;&gt;1ebb70b59037&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;mapping&quot;&gt;Mapping&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;rgrnastar was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/rgrnastar/44959aa06aeb&quot;&gt;44959aa06aeb&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;rna-analysis&quot;&gt;RNA Analysis&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;deseq2 was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/deseq2/d027d1f4984e&quot;&gt;d027d1f4984e&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;edger was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/edger/6e53e565fc6a&quot;&gt;6e53e565fc6a&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;egsea was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/egsea/fba1660fb717&quot;&gt;fba1660fb717&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;limma_voom was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/limma_voom/708348a17fa1&quot;&gt;708348a17fa1&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;proteomics&quot;&gt;Proteomics&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;openms_openpepxl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_openpepxl/a2a842b00f9c&quot;&gt;a2a842b00f9c&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;openms_percolatoradapter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_percolatoradapter/0fc9ae55bcfc&quot;&gt;0fc9ae55bcfc&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;openms_percolatoradapter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_percolatoradapter/e7881a82b56d&quot;&gt;e7881a82b56d&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;openms_xfdr was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_xfdr/81402a5e4173&quot;&gt;81402a5e4173&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;openms_xfdr was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_xfdr/9a6e3bb0f358&quot;&gt;9a6e3bb0f358&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;assembly&quot;&gt;Assembly&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;flye was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/flye/e27815e82dd4&quot;&gt;e27815e82dd4&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;genomescope was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/genomescope/3169a38c2656&quot;&gt;3169a38c2656&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;meryl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/meryl/51c2360aa807&quot;&gt;51c2360aa807&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;metagenomic-analysis&quot;&gt;Metagenomic Analysis&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;dada2_assigntaxonomyaddspecies was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/dada2_assigntaxonomyaddspecies/63f86089423e&quot;&gt;63f86089423e&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;dada2_dada was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/dada2_dada/1c35dadbe76f&quot;&gt;1c35dadbe76f&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;dada2_filterandtrim was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/dada2_filterandtrim/a9f4a217dcd6&quot;&gt;a9f4a217dcd6&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;dada2_learnerrors was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/dada2_learnerrors/04c15826a0b8&quot;&gt;04c15826a0b8&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;dada2_makesequencetable was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/dada2_makesequencetable/e96bbb9e24ea&quot;&gt;e96bbb9e24ea&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;dada2_mergepairs was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/dada2_mergepairs/1d75bd0595e2&quot;&gt;1d75bd0595e2&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;dada2_plotcomplexity was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/dada2_plotcomplexity/8daf4564ccda&quot;&gt;8daf4564ccda&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;dada2_plotqualityprofile was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/dada2_plotqualityprofile/d60df8727f59&quot;&gt;d60df8727f59&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;dada2_removebimeradenovo was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/dada2_removebimeradenovo/7f3b59dee073&quot;&gt;7f3b59dee073&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;dada2_seqcounts was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/dada2_seqcounts/0a1224c4b781&quot;&gt;0a1224c4b781&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;fastafastq&quot;&gt;FASTA/FASTQ&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;cutadapt was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/lparsons/cutadapt/4e5056fefd88&quot;&gt;4e5056fefd88&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;convert-formats&quot;&gt;Convert Formats&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;biom_convert was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/biom_convert/bd46669113b9&quot;&gt;bd46669113b9&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;annotation&quot;&gt;Annotation&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;maker was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/maker/3c1a01127868&quot;&gt;3c1a01127868&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;maker_map_ids was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/maker_map_ids/2e3535db1bfa&quot;&gt;2e3535db1bfa&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2021-07-03, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #281</summary></entry></feed>
+&lt;/blockquote&gt;</content><author><name></name></author><category term="UseCase" /><summary type="html">Amir Sabbaghian is using Galaxy at the Advance Technologies Faculty, Golestan University of Medical Sciences Campus (Iran) for colorectal cancer research. Thank you Amir for sharing your work with us! Description of the project:</summary></entry></feed>
