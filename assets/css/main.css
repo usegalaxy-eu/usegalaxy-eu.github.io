@@ -126,6 +126,8 @@ div.news-header-row a { display: flex; flex-direction: column; justify-content: 
 
 div.news-header-row a:hover { background: #eee; }
 
+.profile-img { max-width: 50px; margin-top: -70px; margin-bottom: 5px; border: 3px solid #fff; border-radius: 100%; box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1); }
+
 .page-header { margin: 0px; }
 
 section { padding: 0px; }

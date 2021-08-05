@@ -434,6 +434,67 @@
 
 
      
+      tags.push(`GCC`)
+     
+      tags.push(``)
+
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
+
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4 GCC news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  
+                    <a href="/posts/2021/07/21/freiburg-galaxy-team-gcc/">
+                  
+                    <h2 class="title">Freiburg Galaxy Team at the Galaxy Community Conference 2021</h2>
+                  </a>
+                  <span class="date">
+                    
+
+
+
+
+
+
+
+
+
+
+
+                  </span>
+                  <span class="date">
+                    July 21, 2021
+                  </span>
+                  
+                  
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=GCC'"
+           class="btn btn-primary btn-xs tag-element" role="button">GCC</a>
+    
+
+
+                </div>
+                <div class="news-content">
+                  <div><p>The Freiburg Galaxy Team participated to the <a href="https://gcc2021.sched.com/">Galaxy Community Conference 2021</a> with:</p>
+</div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
+
+        news.append(div);
+    }
+    tags = []
+
+
+     
       tags.push(`tools`)
      
       tags.push(`Freiburg`)

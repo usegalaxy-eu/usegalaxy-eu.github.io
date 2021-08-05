@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2021-08-05T17:45:06+02:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">New Feature: a feedback page to aggregate and display feedback answers</title><link href="https://galaxyproject.eu/posts/2021/07/28/feedback/" rel="alternate" type="text/html" title="New Feature: a feedback page to aggregate and display feedback answers" /><published>2021-07-28T00:00:00+02:00</published><updated>2021-07-28T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2021/07/28/feedback</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/07/28/feedback/">&lt;p&gt;As you have probably already seen, a feedback form is embedded on the bottom of each tutorial.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2021-08-05T21:10:35+02:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">New Feature: a feedback page to aggregate and display feedback answers</title><link href="https://galaxyproject.eu/posts/2021/07/28/feedback/" rel="alternate" type="text/html" title="New Feature: a feedback page to aggregate and display feedback answers" /><published>2021-07-28T00:00:00+02:00</published><updated>2021-07-28T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2021/07/28/feedback</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/07/28/feedback/">&lt;p&gt;As you have probably already seen, a feedback form is embedded on the bottom of each tutorial.&lt;/p&gt;
 
 &lt;p&gt;The answers are automatically posted to a GitHub issue. With &amp;gt; 1,300 answers, it is quite difficult to keep an eye on the answers, specially because the answers there are for all tutorials, but also to have an overview of the answers.&lt;/p&gt;
 
@@ -185,7 +185,371 @@
 
 &lt;ul&gt;
   &lt;li&gt;pangolin was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/pangolin/7bb8726be37c&quot;&gt;7bb8726be37c&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2021-07-25, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #284</summary></entry><entry><title type="html">UseGalaxy.eu Tool Updates for 2021-07-17</title><link href="https://galaxyproject.eu/posts/2021/07/17/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2021-07-17" /><published>2021-07-17T00:00:00+02:00</published><updated>2021-07-17T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2021/07/17/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/07/17/tool-update/">&lt;p&gt;On 2021-07-17, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#283/&quot;&gt;Jenkins Build #283&lt;/a&gt;&lt;/p&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2021-07-25, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #284</summary></entry><entry><title type="html">Freiburg Galaxy Team at the Galaxy Community Conference 2021</title><link href="https://galaxyproject.eu/posts/2021/07/21/freiburg-galaxy-team-gcc/" rel="alternate" type="text/html" title="Freiburg Galaxy Team at the Galaxy Community Conference 2021" /><published>2021-07-21T00:00:00+02:00</published><updated>2021-07-21T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2021/07/21/freiburg-galaxy-team-gcc</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/07/21/freiburg-galaxy-team-gcc/">&lt;p&gt;The Freiburg Galaxy Team participated to the &lt;a href=&quot;https://gcc2021.sched.com/&quot;&gt;Galaxy Community Conference 2021&lt;/a&gt; with:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;#talks&quot;&gt;Talks&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#posters--demos&quot;&gt;Posters/Demos&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#bof&quot;&gt;BoF (Birds of Feather)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;CoFest&lt;/li&gt;
+  &lt;li&gt;and &lt;a href=&quot;#training&quot;&gt;training&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;To learn more about the Galaxy Community Conference 2021, please read our post: &lt;a href=&quot;/posts/2021/07/13/gcc2021/&quot;&gt;“Highlights from the Galaxy Community Conference 2021”&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;talks&quot;&gt;Talks&lt;/h2&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;div class=&quot;col-md-6&quot;&gt;
+    &lt;iframe width=&quot;100%&quot; height=&quot;275&quot; src=&quot;https://www.youtube.com/embed/qzNjh9_CL0Q&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+  &lt;/div&gt;
+&lt;div class=&quot;col-md-6&quot;&gt;
+    &lt;h3 id=&quot;galaxy-as-a-global-platform-for-the-analysis-of-sars-cov-2-sequence-variants&quot;&gt;&lt;a href=&quot;https://gcc2021.sched.com/event/jm5Y/galaxy-as-a-global-platform-for-the-analysis-of-sars-cov-2-sequence-variants&quot;&gt;&lt;strong&gt;Galaxy as a global platform for the analysis of SARS CoV 2 sequence variants&lt;/strong&gt;&lt;/a&gt;&lt;/h3&gt;
+
+    &lt;p&gt;&lt;img src=&quot;https://github.com/wm75.png&quot; alt=&quot;&quot; class=&quot;profile-img&quot; /&gt; Wolgang Maier&lt;/p&gt;
+
+    &lt;p&gt;With Anton Nekrutenko; Sergei Pon; the &lt;a href=&quot;http://covid19.galaxyproject.org/&quot;&gt;covid19.galaxyproject.org&lt;/a&gt;; &lt;a href=&quot;http://covid19.datamonkey.org/&quot;&gt;covid19.datamonkey.org&lt;/a&gt; and Viral Beacon&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;https://static.sched.com/hosted_files/gcc2021/ed/abstract58.pdf&quot; class=&quot;fa fa-external-link&quot;&gt;Abstract&lt;/a&gt;&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;div class=&quot;col-md-6&quot;&gt;
+    &lt;iframe width=&quot;100%&quot; height=&quot;275&quot; src=&quot;https://www.youtube.com/embed/qi7bWcn2TN4&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+  &lt;/div&gt;
+&lt;div class=&quot;col-md-6&quot;&gt;
+    &lt;h3 id=&quot;overhaul-and-pagination-in-data-libraries&quot;&gt;&lt;a href=&quot;https://gcc2021.sched.com/event/jm5h/overhaul-and-pagination-in-data-libraries&quot;&gt;&lt;strong&gt;Overhaul and pagination in Data-Libraries&lt;/strong&gt;&lt;/a&gt;&lt;/h3&gt;
+
+    &lt;p&gt;&lt;img src=&quot;https://github.com/OlegZharkov.png&quot; alt=&quot;&quot; class=&quot;profile-img&quot; /&gt; Oleg Zharkov&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;https://static.sched.com/hosted_files/gcc2021/c1/abstract93.pdf&quot; class=&quot;fa fa-external-link&quot;&gt;Abstract&lt;/a&gt;, &lt;a href=&quot;https://doi.org/10.7490/f1000research.1118606.1&quot; class=&quot;fa fa-slideshare&quot;&gt;Slides&lt;/a&gt;&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;div class=&quot;col-md-6&quot;&gt;
+    &lt;iframe width=&quot;100%&quot; height=&quot;275&quot; src=&quot;https://www.youtube.com/embed/eqfNfGMSqx4&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+  &lt;/div&gt;
+&lt;div class=&quot;col-md-6&quot;&gt;
+    &lt;h3 id=&quot;how-usegalaxyeu-is-managed---tips-and-tricks-from-inside&quot;&gt;&lt;a href=&quot;https://gcc2021.sched.com/event/jm5n/how-usegalaxyeu-is-managed-tips-and-tricks-from-inside&quot;&gt;&lt;strong&gt;How UseGalaxy.EU is managed - tips and tricks from inside&lt;/strong&gt;&lt;/a&gt;&lt;/h3&gt;
+
+    &lt;p&gt;&lt;img src=&quot;https://github.com/gmauro.png&quot; alt=&quot;&quot; class=&quot;profile-img&quot; /&gt; Gianmauro Cuccuru&lt;/p&gt;
+
+    &lt;p&gt;With Helena Rasche&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;https://static.sched.com/hosted_files/gcc2021/bb/abstract21.pdf&quot; class=&quot;fa fa-external-link&quot;&gt;Abstract&lt;/a&gt;, &lt;a href=&quot;https://doi.org/10.7490/f1000research.1118605.1&quot; class=&quot;fa fa-slideshare&quot;&gt;Slides&lt;/a&gt;&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;div class=&quot;col-md-6&quot;&gt;
+    &lt;iframe width=&quot;100%&quot; height=&quot;275&quot; src=&quot;https://www.youtube.com/embed/akgxMCEeXco&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+  &lt;/div&gt;
+&lt;div class=&quot;col-md-6&quot;&gt;
+    &lt;h3 id=&quot;analysis-of-microscopy-data-in-galaxy&quot;&gt;&lt;a href=&quot;https://gcc2021.sched.com/event/ihp0/analysis-of-microscopy-data-in-galaxy&quot;&gt;&lt;strong&gt;Analysis of Microscopy Data in Galaxy&lt;/strong&gt;&lt;/a&gt;&lt;/h3&gt;
+
+    &lt;p&gt;&lt;img src=&quot;https://github.com/beatrizserrano.png&quot; alt=&quot;&quot; class=&quot;profile-img&quot; /&gt; Beatriz Serrano-Solano&lt;/p&gt;
+
+    &lt;p&gt;With Yi Sun; Jeremy Goecks; Jean-Karim Hériché&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;https://static.sched.com/hosted_files/gcc2021/1a/abstract78.pdf&quot; class=&quot;fa fa-external-link&quot;&gt;Abstract&lt;/a&gt;, &lt;a href=&quot;https://f1000research.com/slides/10-579&quot; class=&quot;fa fa-slideshare&quot;&gt;Slides&lt;/a&gt;&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;div class=&quot;col-md-6&quot;&gt;
+    &lt;iframe width=&quot;100%&quot; height=&quot;275&quot; src=&quot;https://www.youtube.com/embed/4lOGjNCXxyk&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+  &lt;/div&gt;
+&lt;div class=&quot;col-md-6&quot;&gt;
+    &lt;h3 id=&quot;modernizing-the-galaxy-backend---typing-and-the-api&quot;&gt;&lt;a href=&quot;https://gcc2021.sched.com/event/jm88/modernizing-the-galaxy-backend-typing-and-the-api&quot;&gt;&lt;strong&gt;Modernizing the Galaxy Backend - Typing and the API&lt;/strong&gt;&lt;/a&gt;&lt;/h3&gt;
+
+    &lt;p&gt;&lt;img src=&quot;https://github.com/davelopez.png&quot; alt=&quot;&quot; class=&quot;profile-img&quot; /&gt; David López&lt;/p&gt;
+
+    &lt;p&gt;With Galaxy Backend Working Group&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;https://static.sched.com/hosted_files/gcc2021/8c/abstract54.pdf&quot; class=&quot;fa fa-external-link&quot;&gt;Abstract&lt;/a&gt;, &lt;a href=&quot;https://doi.org/10.7490/f1000research.1118607.1&quot; class=&quot;fa fa-slideshare&quot;&gt;Slides&lt;/a&gt;&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;div class=&quot;col-md-6&quot;&gt;
+    &lt;iframe width=&quot;100%&quot; height=&quot;275&quot; src=&quot;https://www.youtube.com/embed/puwJxDSNv54&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+  &lt;/div&gt;
+&lt;div class=&quot;col-md-6&quot;&gt;
+    &lt;h3 id=&quot;galaxy-language-server---develop-high-quality-galaxy-tool-wrappers-at-intergalactic-speed&quot;&gt;&lt;a href=&quot;https://gcc2021.sched.com/event/jm8K/galaxy-language-server-develop-high-quality-galaxy-tool-wrappers-at-intergalactic-speed&quot;&gt;&lt;strong&gt;Galaxy Language Server - Develop high-quality Galaxy tool wrappers at intergalactic speed&lt;/strong&gt;&lt;/a&gt;&lt;/h3&gt;
+
+    &lt;p&gt;&lt;img src=&quot;https://github.com/davelopez.png&quot; alt=&quot;&quot; class=&quot;profile-img&quot; /&gt; David López&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;https://static.sched.com/hosted_files/gcc2021/91/abstract53.pdf&quot; class=&quot;fa fa-external-link&quot;&gt;Abstract&lt;/a&gt;&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;posters--demos&quot;&gt;Posters / Demos&lt;/h2&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;div class=&quot;col-md-6&quot;&gt;
+    &lt;iframe width=&quot;100%&quot; height=&quot;275&quot; src=&quot;https://www.youtube.com/embed/x9f_Trif0dkfGMSqx4&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+  &lt;/div&gt;
+&lt;div class=&quot;col-md-6&quot;&gt;
+    &lt;h3 id=&quot;gpu-enabled-jupyterlab-notebook-for-deep-learning-using-tensorflow-in-galaxy&quot;&gt;&lt;a href=&quot;https://gcc2021.sched.com/event/k5MW/w-48-gpu-enabled-jupyterlab-notebook-for-deep-learning-using-tensorflow-in-galaxy&quot;&gt;&lt;strong&gt;GPU enabled Jupyterlab notebook for deep learning using Tensorflow in Galaxy&lt;/strong&gt;&lt;/a&gt;&lt;/h3&gt;
+
+    &lt;p&gt;&lt;img src=&quot;https://github.com/anuprulez.png&quot; alt=&quot;&quot; class=&quot;profile-img&quot; /&gt; Anup Kumar&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;https://static.sched.com/hosted_files/gcc2021/8c/abstract49.pdf&quot; class=&quot;fa fa-external-link&quot;&gt;Abstract&lt;/a&gt;, &lt;a href=&quot;https://static.sched.com/hosted_files/gcc2021/3b/Demo_GPU_Jupyter_Notebook.pdf&quot; class=&quot;fa fa-slideshare&quot;&gt;Slides&lt;/a&gt;&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;div class=&quot;col-md-6&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;col-md-6&quot;&gt;
+    &lt;h3 id=&quot;automating-galaxy-tool-requirement-updates-with-planemo&quot;&gt;&lt;a href=&quot;https://gcc2021.sched.com/event/kIRA/tu-22-automating-galaxy-tool-requirement-updates-with-planemo&quot;&gt;&lt;strong&gt;Automating Galaxy tool requirement updates with Planemo&lt;/strong&gt;&lt;/a&gt;&lt;/h3&gt;
+
+    &lt;p&gt;&lt;img src=&quot;https://github.com/simonbray.png&quot; alt=&quot;&quot; class=&quot;profile-img&quot; /&gt; Simon Bray&lt;/p&gt;
+
+    &lt;p&gt;With Lorraine Coelho; &lt;img src=&quot;https://github.com/bgruening.png&quot; alt=&quot;&quot; class=&quot;profile-img&quot; /&gt; Björn Grüning&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;https://static.sched.com/hosted_files/gcc2021/31/abstract8.pdf&quot; class=&quot;fa fa-external-link&quot;&gt;Abstract&lt;/a&gt;&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;div class=&quot;col-md-6&quot;&gt;
+    &lt;iframe width=&quot;100%&quot; height=&quot;275&quot; src=&quot;https://www.youtube.com/embed/qzNjh9_CL0Q&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+  &lt;/div&gt;
+&lt;div class=&quot;col-md-6&quot;&gt;
+    &lt;h3 id=&quot;galaxy-as-a-global-platform-for-the-analysis-of-sars-cov-2-sequence-variants-1&quot;&gt;&lt;a href=&quot;https://gcc2021.sched.com/event/jm5Y/galaxy-as-a-global-platform-for-the-analysis-of-sars-cov-2-sequence-variants&quot;&gt;&lt;strong&gt;Galaxy as a global platform for the analysis of SARS CoV 2 sequence variants&lt;/strong&gt;&lt;/a&gt;&lt;/h3&gt;
+
+    &lt;p&gt;&lt;img src=&quot;https://github.com/wm75.png&quot; alt=&quot;&quot; class=&quot;profile-img&quot; /&gt; Wolgang Maier&lt;/p&gt;
+
+    &lt;p&gt;With Anton Nekrutenko; Sergei Pon; the &lt;a href=&quot;http://covid19.galaxyproject.org/&quot;&gt;covid19.galaxyproject.org&lt;/a&gt;; &lt;a href=&quot;http://covid19.datamonkey.org/&quot;&gt;covid19.datamonkey.org&lt;/a&gt; and Viral Beacon&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;https://static.sched.com/hosted_files/gcc2021/ed/abstract58.pdf&quot; class=&quot;fa fa-external-link&quot;&gt;Abstract&lt;/a&gt;&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;bof&quot;&gt;BoF&lt;/h2&gt;
+
+&lt;h3 id=&quot;gtn-español---bioinformatics-resources-in-human-translated-spanish&quot;&gt;&lt;a href=&quot;https://gcc2021.sched.com/event/kFAN/bof-gtn-espanol-bioinformatics-resources-in-human-translated-spanish&quot;&gt;&lt;strong&gt;GTN-Español - Bioinformatics resources in human-translated Spanish&lt;/strong&gt;&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Co-organized by &lt;img src=&quot;https://github.com/beatrizserrano.png&quot; alt=&quot;&quot; class=&quot;profile-img&quot; /&gt; Beatriz Serrano-Solano&lt;/p&gt;
+
+&lt;p&gt;We’re trying to move beyond Google-translate into manually translated tutorials, slide-decks, and videos in Spanish for a workshop. Anyone who speaks Spanish and would be keen to get involved in developing or testing these resources would be very welcome! And double gold star if you know anything about translation or automated translation, as long-term we want to see how we can power this up bigger scale.&lt;/p&gt;
+
+&lt;h3 id=&quot;galaxy-for-microbiome---kickoff&quot;&gt;&lt;a href=&quot;https://gcc2021.sched.com/event/k72Z/bof-galaxy-for-microbiome-kickoff&quot;&gt;&lt;strong&gt;Galaxy for Microbiome - Kickoff&lt;/strong&gt;&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Co-organized by &lt;img src=&quot;https://github.com/bebatut.png&quot; alt=&quot;&quot; class=&quot;profile-img&quot; /&gt; Bérénice Batut&lt;/p&gt;
+
+&lt;p&gt;Many efforts on microbiome analysis are done in Galaxy but we do not communicate so much together about them. To avoid redundancy and coordinate our efforts, we would like to start a “Galaxy for Microbiome” community.&lt;/p&gt;
+
+&lt;p&gt;We started to collect ideas about this community in a &lt;a href=&quot;https://docs.google.com/document/d/1btaPVcrE9Hr6gLQUsqdxHKX9IvtWaWINkLZ3_NcOhe8/edit&quot;&gt;shared document&lt;/a&gt;. We would like now to properly kickoff this community. What is better to kickoff a community than a BoF at GCC?&lt;/p&gt;
+
+&lt;h3 id=&quot;galaxy--training--teaching&quot;&gt;&lt;a href=&quot;https://gcc2021.sched.com/event/kFyJ/bof-galaxy-training-teaching&quot;&gt;&lt;strong&gt;Galaxy &amp;amp; Training / Teaching&lt;/strong&gt;&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Co-organized by &lt;img src=&quot;https://github.com/bebatut.png&quot; alt=&quot;&quot; class=&quot;profile-img&quot; /&gt; Bérénice Batut; &lt;img src=&quot;https://github.com/bgruening.png&quot; alt=&quot;&quot; class=&quot;profile-img&quot; /&gt; Björn Grüning&lt;/p&gt;
+
+&lt;p&gt;Discussions on using Galaxy for training / teaching and the Galaxy Training Network community:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;training material (recent and future developments)&lt;/li&gt;
+  &lt;li&gt;using Galaxy for undergraduate instruction&lt;/li&gt;
+  &lt;li&gt;training / teaching delivery and events&lt;/li&gt;
+  &lt;li&gt;community building (instructors, contributors, users, mentoring)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;cofest&quot;&gt;CoFest&lt;/h2&gt;
+
+&lt;p&gt;GCC ends by two days gathering community members who are interested in contributing to Galaxy’s code base, available tool set, documentation, training materials, and anywhere else that expands the Galaxy ecosystem.&lt;/p&gt;
+
+&lt;p&gt;The Freiburg Galaxy team participated with several projects&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Microbial &amp;amp; Microbiome tool integration and update&lt;/li&gt;
+  &lt;li&gt;Community Directory&lt;/li&gt;
+  &lt;li&gt;Creating learning paths within the Galaxy Training Network&lt;/li&gt;
+  &lt;li&gt;Populating FAQ (Frequently Asked Questions) pages in the GTN&lt;/li&gt;
+  &lt;li&gt;Workflows (IWC)&lt;/li&gt;
+  &lt;li&gt;and many more informal projects&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;training&quot;&gt;Training&lt;/h2&gt;
+
+&lt;p&gt;The Freiburg Galaxy team supported the &lt;a href=&quot;https://galaxyproject.org/events/gcc2021/training/&quot;&gt;GCC2021 Training Week&lt;/a&gt; by providing videos (below), developping and updating material, helping participants by answering their questions on Slack, helping with captions for videos, etc!&lt;/p&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;div class=&quot;col-md-6&quot;&gt;
+    &lt;iframe width=&quot;100%&quot; height=&quot;275&quot; src=&quot;https://www.youtube.com/embed/o39QjVnLG68&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+  &lt;/div&gt;
+&lt;div class=&quot;col-md-6&quot;&gt;
+    &lt;h3 id=&quot;running-workflows-from-the-command-line-using-planemo&quot;&gt;&lt;strong&gt;Running Workflows from the Command Line using Planemo&lt;/strong&gt;&lt;/h3&gt;
+
+    &lt;p&gt;&lt;img src=&quot;https://github.com/simonbray.png&quot; alt=&quot;&quot; class=&quot;profile-img&quot; /&gt; Simon Bray&lt;/p&gt;
+
+    &lt;p&gt;With &lt;img src=&quot;https://github.com/wm75.png&quot; alt=&quot;&quot; class=&quot;profile-img&quot; /&gt; Wolgang Maier&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Material&lt;/strong&gt;&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/workflow-automation/tutorial.html&quot; class=&quot;fa fa-laptop&quot; target=&quot;_blank&quot;&gt;&lt;/a&gt; Tutorial&lt;/li&gt;
+    &lt;/ul&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;div class=&quot;col-md-6&quot;&gt;
+    &lt;iframe width=&quot;100%&quot; height=&quot;275&quot; src=&quot;https://www.youtube.com/embed/jNFLYhjgJPs&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+  &lt;/div&gt;
+&lt;div class=&quot;col-md-6&quot;&gt;
+    &lt;h3 id=&quot;assembly-unicycler-assembly-of-sars-cov-2-genome&quot;&gt;&lt;strong&gt;Assembly: Unicycler assembly of SARS-CoV-2 genome&lt;/strong&gt;&lt;/h3&gt;
+
+    &lt;p&gt;&lt;img src=&quot;https://github.com/gallardoalba.png&quot; alt=&quot;&quot; class=&quot;profile-img&quot; /&gt; Cristóbal Gallardo&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Material&lt;/strong&gt;&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://training.galaxyproject.org/training-material/topics/assembly/tutorials/assembly-with-preprocessing/slides.html&quot; class=&quot;fa fa-slideshare&quot; target=&quot;_blank&quot;&gt;&lt;/a&gt; Slides&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://training.galaxyproject.org/training-material/topics/assembly/tutorials/assembly-with-preprocessing/tutorial.html&quot; class=&quot;fa fa-laptop&quot; target=&quot;_blank&quot;&gt;&lt;/a&gt; Tutorial&lt;/li&gt;
+    &lt;/ul&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;div class=&quot;col-md-6&quot;&gt;
+    &lt;iframe width=&quot;100%&quot; height=&quot;275&quot; src=&quot;https://www.youtube.com/embed/j4onRSN650A&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+  &lt;/div&gt;
+&lt;div class=&quot;col-md-6&quot;&gt;
+    &lt;h3 id=&quot;reference-based-rna-seq-data-analysis&quot;&gt;&lt;strong&gt;Reference-based RNA-Seq data analysis&lt;/strong&gt;&lt;/h3&gt;
+
+    &lt;p&gt;&lt;img src=&quot;https://github.com/bebatut.png&quot; alt=&quot;&quot; class=&quot;profile-img&quot; /&gt; Bérénice Batut&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Material&lt;/strong&gt;&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/ref-based/tutorial.html&quot; class=&quot;fa fa-laptop&quot; target=&quot;_blank&quot;&gt;&lt;/a&gt; Tutorial&lt;/li&gt;
+    &lt;/ul&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;div class=&quot;col-md-6&quot;&gt;
+    &lt;iframe width=&quot;100%&quot; height=&quot;275&quot; src=&quot;https://www.youtube.com/embed/wS1X_0Mgw7M&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+  &lt;/div&gt;
+&lt;div class=&quot;col-md-6&quot;&gt;
+    &lt;h3 id=&quot;whole-transcriptome-analysis-of-arabidopsis-thaliana&quot;&gt;&lt;strong&gt;Whole transcriptome analysis of Arabidopsis thaliana&lt;/strong&gt;&lt;/h3&gt;
+
+    &lt;p&gt;&lt;img src=&quot;https://github.com/gallardoalba.png&quot; alt=&quot;&quot; class=&quot;profile-img&quot; /&gt; Cristóbal Gallardo&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Material&lt;/strong&gt;&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/mirna-target-finder/slides.html&quot; class=&quot;fa fa-slideshare&quot; target=&quot;_blank&quot;&gt;&lt;/a&gt; Slides&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/mirna-target-finder/tutorial.html&quot; class=&quot;fa fa-laptop&quot; target=&quot;_blank&quot;&gt;&lt;/a&gt; Tutorial&lt;/li&gt;
+    &lt;/ul&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;div class=&quot;col-md-6&quot;&gt;
+    &lt;iframe width=&quot;100%&quot; height=&quot;275&quot; src=&quot;https://www.youtube.com/embed/yKlJ5ESri7o&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+  &lt;/div&gt;
+&lt;div class=&quot;col-md-6&quot;&gt;
+    &lt;h3 id=&quot;analysis-of-plant-scrna-seq-data-with-scanpy&quot;&gt;&lt;strong&gt;Analysis of plant scRNA-Seq Data with Scanpy&lt;/strong&gt;&lt;/h3&gt;
+
+    &lt;p&gt;&lt;img src=&quot;https://github.com/mtekman.png&quot; alt=&quot;&quot; class=&quot;profile-img&quot; /&gt; Mehmet Tekman&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Material&lt;/strong&gt;&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna-plant/tutorial.html&quot; class=&quot;fa fa-laptop&quot; target=&quot;_blank&quot;&gt;&lt;/a&gt; Tutorial&lt;/li&gt;
+    &lt;/ul&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;div class=&quot;col-md-6&quot;&gt;
+    &lt;iframe width=&quot;100%&quot; height=&quot;275&quot; src=&quot;https://www.youtube.com/embed/ix58oj8n8nA&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+  &lt;/div&gt;
+&lt;div class=&quot;col-md-6&quot;&gt;
+    &lt;h3 id=&quot;introduction-to-machine-learning&quot;&gt;&lt;strong&gt;Introduction to Machine Learning&lt;/strong&gt;&lt;/h3&gt;
+
+    &lt;p&gt;&lt;img src=&quot;https://github.com/anuprulez.png&quot; alt=&quot;&quot; class=&quot;profile-img&quot; /&gt; Anup Kumar&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Material&lt;/strong&gt;&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://docs.google.com/presentation/d/1RZtXFk8qz6wmPsIKnMte3Y4SvmI_nD2vIyeSEvYR6RA/edit?usp=sharing&quot; class=&quot;fa fa-slideshare&quot; target=&quot;_blank&quot;&gt;&lt;/a&gt; Slides&lt;/li&gt;
+    &lt;/ul&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;div class=&quot;col-md-6&quot;&gt;
+    &lt;iframe width=&quot;100%&quot; height=&quot;275&quot; src=&quot;https://www.youtube.com/embed/Gz2OdRPS2Nk&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+  &lt;/div&gt;
+&lt;div class=&quot;col-md-6&quot;&gt;
+    &lt;h3 id=&quot;classification-in-machine-learning&quot;&gt;&lt;strong&gt;Classification in Machine Learning&lt;/strong&gt;&lt;/h3&gt;
+
+    &lt;p&gt;&lt;img src=&quot;https://github.com/anuprulez.png&quot; alt=&quot;&quot; class=&quot;profile-img&quot; /&gt; Anup Kumar&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Material&lt;/strong&gt;&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://training.galaxyproject.org/training-material/topics/statistics/tutorials/classification_machinelearning/tutorial.html&quot; class=&quot;fa fa-laptop&quot; target=&quot;_blank&quot;&gt;&lt;/a&gt; Tutorial&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://docs.google.com/presentation/d/1lAYCZ-g6y8cC1aH68FWL6gkRRI2srXSHuJwaaYAQZaU/edit?usp=sharing&quot; class=&quot;fa fa-slideshare&quot; target=&quot;_blank&quot;&gt;&lt;/a&gt; Slides&lt;/li&gt;
+    &lt;/ul&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;div class=&quot;col-md-6&quot;&gt;
+    &lt;iframe width=&quot;100%&quot; height=&quot;275&quot; src=&quot;https://www.youtube.com/embed/qxaWQjtEOzM&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+  &lt;/div&gt;
+&lt;div class=&quot;col-md-6&quot;&gt;
+    &lt;h3 id=&quot;regression-in-machine-learning&quot;&gt;&lt;strong&gt;Regression in Machine Learning&lt;/strong&gt;&lt;/h3&gt;
+
+    &lt;p&gt;&lt;img src=&quot;https://github.com/anuprulez.png&quot; alt=&quot;&quot; class=&quot;profile-img&quot; /&gt; Anup Kumar&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Material&lt;/strong&gt;&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://training.galaxyproject.org/training-material/topics/statistics/tutorials/regression_machinelearning/tutorial.html&quot; class=&quot;fa fa-laptop&quot; target=&quot;_blank&quot;&gt;&lt;/a&gt; Tutorial&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://docs.google.com/presentation/d/16Ct2wJmLz4YI2rF9Y1SxcFWfSdVyJVoBy3YynBRDB0Q/edit&quot; class=&quot;fa fa-slideshare&quot; target=&quot;_blank&quot;&gt;&lt;/a&gt; Slides&lt;/li&gt;
+    &lt;/ul&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;div class=&quot;col-md-6&quot;&gt;
+    &lt;iframe width=&quot;100%&quot; height=&quot;275&quot; src=&quot;https://www.youtube.com/embed/LjW3nES04bI&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+  &lt;/div&gt;
+&lt;div class=&quot;col-md-6&quot;&gt;
+    &lt;h3 id=&quot;high-throughput-molecular-dynamics-and-analysis&quot;&gt;&lt;strong&gt;High Throughput Molecular Dynamics and Analysis&lt;/strong&gt;&lt;/h3&gt;
+
+    &lt;p&gt;&lt;img src=&quot;https://github.com/simonbray.png&quot; alt=&quot;&quot; class=&quot;profile-img&quot; /&gt; Simon Bray&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Material&lt;/strong&gt;&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://training.galaxyproject.org/training-material/topics/computational-chemistry/tutorials/htmd-analysis/tutorial.html&quot; class=&quot;fa fa-laptop&quot; target=&quot;_blank&quot;&gt;&lt;/a&gt; Tutorial&lt;/li&gt;
+    &lt;/ul&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;div class=&quot;col-md-6&quot;&gt;
+    &lt;iframe width=&quot;100%&quot; height=&quot;275&quot; src=&quot;https://www.youtube.com/embed/Vw9h5kvRH2k&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+  &lt;/div&gt;
+&lt;div class=&quot;col-md-6&quot;&gt;
+    &lt;h3 id=&quot;creating-a-new-tutorial&quot;&gt;&lt;strong&gt;Creating a new Tutorial&lt;/strong&gt;&lt;/h3&gt;
+
+    &lt;p&gt;&lt;img src=&quot;https://github.com/bebatut.png&quot; alt=&quot;&quot; class=&quot;profile-img&quot; /&gt; Bérénice Batut&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Material&lt;/strong&gt;&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://training.galaxyproject.org/training-material/topics/contributing/tutorials/create-new-tutorial/tutorial.html&quot; class=&quot;fa fa-laptop&quot; target=&quot;_blank&quot;&gt;&lt;/a&gt; Tutorial&lt;/li&gt;
+    &lt;/ul&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="GCC" /><summary type="html">The Freiburg Galaxy Team participated to the Galaxy Community Conference 2021 with:</summary></entry><entry><title type="html">UseGalaxy.eu Tool Updates for 2021-07-17</title><link href="https://galaxyproject.eu/posts/2021/07/17/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2021-07-17" /><published>2021-07-17T00:00:00+02:00</published><updated>2021-07-17T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2021/07/17/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/07/17/tool-update/">&lt;p&gt;On 2021-07-17, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#283/&quot;&gt;Jenkins Build #283&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;chemicaltoolbox&quot;&gt;ChemicalToolBox&lt;/h2&gt;
 
@@ -445,19 +809,4 @@ After two intense weeks of training, conference and collaboration fest, the &lt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Thank you again for your services and support to our research.&lt;/p&gt;
-&lt;/blockquote&gt;</content><author><name></name></author><category term="UseCase" /><summary type="html">Shaobin Zhong is using Galaxy at the North Dakota State University, Plant Pathology (USA) for plant genomics and has shared some details with us. Thank you Shaobin!</summary></entry><entry><title type="html">UseGalaxy.eu Use Case: colorectal cancer research</title><link href="https://galaxyproject.eu/posts/2021/07/05/use-case-amir/" rel="alternate" type="text/html" title="UseGalaxy.eu Use Case: colorectal cancer research" /><published>2021-07-05T00:00:00+02:00</published><updated>2021-07-05T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2021/07/05/use-case-amir</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/07/05/use-case-amir/">&lt;p&gt;&lt;strong&gt;Amir Sabbaghian&lt;/strong&gt; is using Galaxy at the &lt;a href=&quot;https://goums.ac.ir/index.php?slc_lang=en&amp;amp;sid=100&quot;&gt;Advance Technologies Faculty, Golestan University of Medical Sciences Campus (Iran)&lt;/a&gt; for colorectal cancer research. Thank you Amir for sharing your work with us!&lt;/p&gt;
-
-&lt;p&gt;Description of the project:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;miRNAs with low fluctuations in blood samples of normal people and their comparison in patients with colorectal cancer have been evaluated
-via &lt;em&gt;in silico&lt;/em&gt; methods.
-The aim is to design miRNA based panels to detect colorectal cancer in the very early stages. This is now validated with qPCR.
-Previous studies with similar analyses in pancreatic cancer without wet lab work, just &lt;em&gt;in silico&lt;/em&gt;. Other projects (soon to be published) are:&lt;/p&gt;
-  &lt;ol&gt;
-    &lt;li&gt;PI3k/Akt is the main pathway of cisplatin resistance in triple-negative breast cancer (Dr Memar).&lt;/li&gt;
-    &lt;li&gt;Profiling pseudogenes with the least oscillation in the blood of healthy individual’s compared to the blood of breast cancer patients (Mr Ramezanian).&lt;/li&gt;
-    &lt;li&gt;Transcriptomics profiling with the least oscillation in the blood of healthy individuals compared to their blood of breast cancer patients (Ms Ahmadi).&lt;/li&gt;
-    &lt;li&gt;Network and pathway-based drug repurposing for COVID-19 treatment (Ms Mirmohammadi).&lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/blockquote&gt;</content><author><name></name></author><category term="UseCase" /><summary type="html">Amir Sabbaghian is using Galaxy at the Advance Technologies Faculty, Golestan University of Medical Sciences Campus (Iran) for colorectal cancer research. Thank you Amir for sharing your work with us! Description of the project:</summary></entry></feed>
+&lt;/blockquote&gt;</content><author><name></name></author><category term="UseCase" /><summary type="html">Shaobin Zhong is using Galaxy at the North Dakota State University, Plant Pathology (USA) for plant genomics and has shared some details with us. Thank you Shaobin!</summary></entry></feed>
