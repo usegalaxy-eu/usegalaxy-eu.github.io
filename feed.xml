@@ -1,4 +1,71 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2021-08-20T17:45:01+02:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2021-08-14</title><link href="https://galaxyproject.eu/posts/2021/08/14/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2021-08-14" /><published>2021-08-14T00:00:00+02:00</published><updated>2021-08-14T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2021/08/14/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/08/14/tool-update/">&lt;p&gt;On 2021-08-14, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#287/&quot;&gt;Jenkins Build #287&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2021-08-21T04:56:20+02:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2021-08-21</title><link href="https://galaxyproject.eu/posts/2021/08/21/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2021-08-21" /><published>2021-08-21T00:00:00+02:00</published><updated>2021-08-21T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2021/08/21/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/08/21/tool-update/">&lt;p&gt;On 2021-08-21, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#288/&quot;&gt;Jenkins Build #288&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;send-data&quot;&gt;Send Data&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;ena_upload was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/ena_upload/59bb6d34fca6&quot;&gt;59bb6d34fca6&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;convert-formats&quot;&gt;Convert Formats&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;bioext_bam2msa was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bioext_bam2msa/b226e0c805a5&quot;&gt;b226e0c805a5&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;evolution&quot;&gt;Evolution&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;iqtree was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/iqtree/f58a10e2e46d&quot;&gt;f58a10e2e46d&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;assembly&quot;&gt;Assembly&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;pretext_map was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/pretext_map/8fef980d48b5&quot;&gt;8fef980d48b5&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;mapping&quot;&gt;Mapping&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;bioext_bealign was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bioext_bealign/fb4975b507c6&quot;&gt;fb4975b507c6&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;rna-analysis&quot;&gt;RNA Analysis&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;cuffmerge was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/cuffmerge/86285ddd4512&quot;&gt;86285ddd4512&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;virology&quot;&gt;Virology&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;ivar_consensus was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/ivar_consensus/5e668dc9f379&quot;&gt;5e668dc9f379&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;ivar_consensus was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/ivar_consensus/731182d54f78&quot;&gt;731182d54f78&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;ivar_filtervariants was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/ivar_filtervariants/47a27906d750&quot;&gt;47a27906d750&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;ivar_removereads was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/ivar_removereads/8d36959b000d&quot;&gt;8d36959b000d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;ivar_trim was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/ivar_trim/c092052ed673&quot;&gt;c092052ed673&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;ivar_variants was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/ivar_variants/252dfb042563&quot;&gt;252dfb042563&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;ivar_variants was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/ivar_variants/3888bbe7a9ca&quot;&gt;3888bbe7a9ca&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;annotation&quot;&gt;Annotation&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;lorikeet_spoligotype was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/lorikeet_spoligotype/f9c37d0b3002&quot;&gt;f9c37d0b3002&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;spotyping was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/spotyping/efa2be6db310&quot;&gt;efa2be6db310&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;proteomics&quot;&gt;Proteomics&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;openms_openpepxl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_openpepxl/40cc19c0dbd6&quot;&gt;40cc19c0dbd6&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_openpepxl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_openpepxl/a2a842b00f9c&quot;&gt;a2a842b00f9c&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_openpepxl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_openpepxl/fc36cfd19834&quot;&gt;fc36cfd19834&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_percolatoradapter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_percolatoradapter/0fc9ae55bcfc&quot;&gt;0fc9ae55bcfc&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_percolatoradapter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_percolatoradapter/e7881a82b56d&quot;&gt;e7881a82b56d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_xfdr was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_xfdr/81402a5e4173&quot;&gt;81402a5e4173&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_xfdr was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_xfdr/9a6e3bb0f358&quot;&gt;9a6e3bb0f358&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2021-08-21, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #288</summary></entry><entry><title type="html">UseGalaxy.eu Tool Updates for 2021-08-14</title><link href="https://galaxyproject.eu/posts/2021/08/14/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2021-08-14" /><published>2021-08-14T00:00:00+02:00</published><updated>2021-08-14T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2021/08/14/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/08/14/tool-update/">&lt;p&gt;On 2021-08-14, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#287/&quot;&gt;Jenkins Build #287&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;biodiversity-data-exploration&quot;&gt;Biodiversity data exploration&lt;/h2&gt;
 
@@ -771,75 +838,4 @@
 
 &lt;blockquote&gt;
   &lt;p&gt;My research projects seek to map the epigenomic and transcriptomic alterations in cancer, and delineate the higher order chromatin organization during aging. UseGalaxy.eu resources are useful in our analysis of such computationally intensive biomedical datasets. This infrastructure is quite beneficial even to research scientists without computer programming or systems administration background.&lt;/p&gt;
-&lt;/blockquote&gt;</content><author><name></name></author><category term="UseCase" /><summary type="html">Mzwanele Ngubo uses Galaxy for cancer research at The Ottawa Hospital Research Institute, Regenerative Medicine, Ottawa (Canada). Thanks Mzwanele!</summary></entry><entry><title type="html">Highlights from the Galaxy Community Conference 2021</title><link href="https://galaxyproject.eu/posts/2021/07/13/gcc2021/" rel="alternate" type="text/html" title="Highlights from the Galaxy Community Conference 2021" /><published>2021-07-13T00:00:00+02:00</published><updated>2021-07-13T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2021/07/13/gcc2021</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/07/13/gcc2021/">&lt;p&gt;&lt;br /&gt;
-After two intense weeks of training, conference and collaboration fest, the &lt;a href=&quot;https://www.vibconferences.be/events/gcc2021-virtual-edition&quot;&gt;&lt;strong&gt;Galaxy Community Conference 2021 (GCC2021)&lt;/strong&gt;&lt;/a&gt; has come to an end. This has been the second virtual GCC since the pandemic started and it has featured a week of training, a three-day conference and a two-day CoFest. In total, &lt;strong&gt;399 participants from 55 countries&lt;/strong&gt; attended any of these events.&lt;/p&gt;
-
-&lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Hi All, as the GCC2021 CoFest winds down, I would like to announce the audited participant counts for GCC2021:&lt;br /&gt;⇨   45 Training, Admin Track&lt;br /&gt;⇨ 219 CoFest&lt;br /&gt;⇨ 226 Training, Science/Dev tracks&lt;br /&gt;⇨ 285 Meeting&lt;br /&gt;⇨ 399 Total participants&lt;br /&gt;Pretty good. :-)&lt;a href=&quot;https://twitter.com/hashtag/UseGalaxy?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#UseGalaxy&lt;/a&gt; &lt;a href=&quot;https://t.co/OqXZBteSRj&quot;&gt;pic.twitter.com/OqXZBteSRj&lt;/a&gt;&lt;/p&gt;&amp;mdash; Dave Clements (@tnabtaf) &lt;a href=&quot;https://twitter.com/tnabtaf/status/1413972089753673731?ref_src=twsrc%5Etfw&quot;&gt;July 10, 2021&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;training-week&quot;&gt;Training Week&lt;/h2&gt;
-
-&lt;p&gt;The &lt;a href=&quot;https://galaxyproject.org/events/gcc2021/training/&quot;&gt;&lt;strong&gt;training week&lt;/strong&gt;&lt;/a&gt; ran from June 28 through July 2. Three different tracks were offered for &lt;strong&gt;scientists&lt;/strong&gt;, &lt;strong&gt;developers&lt;/strong&gt; and &lt;strong&gt;admins&lt;/strong&gt;. All the lectures were prerecorded, captioned and the experts provided live support in chat or in &lt;a href=&quot;https://remo.co/&quot;&gt;remo&lt;/a&gt; when needed. This format allowed the participants to learn at their own pace, and everything is still available! Check the &lt;a href=&quot;https://training.galaxyproject.org/&quot;&gt;Galaxy Training Network&lt;/a&gt; and the &lt;a href=&quot;https://galaxyproject.org/events/gcc2021/training/&quot;&gt;GCC2021 training page&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;conference&quot;&gt;Conference&lt;/h2&gt;
-
-&lt;p&gt;The main goal of the Galaxy Community conference is to bring together the community to share our work and address common challenges in data-intensive science, with a special focus on networking. To make it truly global, the &lt;a href=&quot;https://gcc2021.sched.com/&quot;&gt;schedule&lt;/a&gt; ran twice every day shifted by 9 hours. We had, in total, &lt;strong&gt;53 talks, 59 speakers, 44 posters/demos and 17 Birds of a Feather (BoF)&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;On the &lt;strong&gt;first day&lt;/strong&gt;, the different sessions addressed &lt;a href=&quot;https://gcc2021.sched.com/event/ih0L/emea-apac-session-1&quot;&gt;current challenges (COVID, Biodiversity)&lt;/a&gt;, &lt;a href=&quot;https://gcc2021.sched.com/event/ih0U/emea-apac-session-2&quot;&gt;Galaxy administration&lt;/a&gt; and &lt;a href=&quot;https://gcc2021.sched.com/event/ih0j/emea-apac-session-3&quot;&gt;Workflows&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Between days 1 and 2, several BoFs took place:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://gcc2021.sched.com/event/kBmc/bof-galaxy-bioinformatics-in-africa&quot;&gt;Galaxy &amp;amp; Bioinformatics in Africa&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://gcc2021.sched.com/event/k72Z/bof-galaxy-for-microbiome-kickoff&quot;&gt;Galaxy for Microbiome - Kickoff&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://gcc2021.sched.com/event/k73y/bof-addressing-common-misconceptions-about-galaxy&quot;&gt;Addressing common misconceptions about Galaxy&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://gcc2021.sched.com/event/kLwE/bof-namaste-galaxy-india&quot;&gt;Namaste, Galaxy India!&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://gcc2021.sched.com/event/kH79/bof-rainbow-galaxy-people-lgbtqia&quot;&gt;Rainbow Galaxy People (LGBTQIA)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;On the &lt;strong&gt;second day&lt;/strong&gt;, the topics varied from &lt;a href=&quot;https://gcc2021.sched.com/event/ihol/emea-apac-session-4&quot;&gt;genome annotation and (public) health&lt;/a&gt; to &lt;a href=&quot;https://gcc2021.sched.com/event/ihox/emea-apac-session-5&quot;&gt;use cases&lt;/a&gt;, the recent &lt;a href=&quot;https://gcc2021.sched.com/event/ihpC/emea-apac-session-6&quot;&gt;Galaxy developments and the state of the Galaxy&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;After the second day, 7 BoFs gathered in both time zones:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://gcc2021.sched.com/event/k735/bof-celestial-masses-galaxy-platform-for-mass-spectrometry-research&quot;&gt;Celestial Masses: Galaxy Platform for Mass Spectrometry Research&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://gcc2021.sched.com/event/kDfq/bof-galaxy-public-health-community&quot;&gt;Galaxy Public Health Community&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://gcc2021.sched.com/event/kIN9/bof-accessing-ncbi-data-in-galaxy&quot;&gt;Accessing NCBI Data in Galaxy&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://gcc2021.sched.com/event/k73m/bof-at-the-edge-of-the-galaxy-the-lonely-life-of-a-small-scale-local-galaxy-server-admin&quot;&gt;At the edge of the Galaxy, the lonely life of a (small scale) local Galaxy server admin&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://gcc2021.sched.com/event/kGmX/bof-boost-the-diversity-in-your-community-outreachy-and-other-internship-mentorship-initiatives&quot;&gt;Boost the diversity in your community: Outreachy and other internship-mentorship initiatives&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://gcc2021.sched.com/event/kFK5/bof-galaxy-community-roadmap-planning&quot;&gt;Galaxy community roadmap planning&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://gcc2021.sched.com/event/kFyJ/bof-galaxy-training-teaching&quot;&gt;Galaxy &amp;amp; Training / Teaching&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://gcc2021.sched.com/event/ihq4/emea-apac-session-7&quot;&gt;Education and community outreach&lt;/a&gt;, &lt;a href=&quot;https://gcc2021.sched.com/event/ihqG/emea-apac-session-8&quot;&gt;proteomics&lt;/a&gt; and &lt;a href=&quot;https://gcc2021.sched.com/event/ihqV/emea-apac-session-9&quot;&gt;deployment of Galaxy&lt;/a&gt; were presented on &lt;strong&gt;day 3&lt;/strong&gt;, followed by 5 new BoFs:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://gcc2021.sched.com/event/kfjK/bof-community-hubs-helping-the-hubmakers&quot;&gt;BoF: Community Hubs: Helping the Hubmakers&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://gcc2021.sched.com/event/kSHZ/bof-galaxy-on-kubernetes&quot;&gt;Galaxy on Kubernetes&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://gcc2021.sched.com/event/kFAN/bof-gtn-espanol-bioinformatics-resources-in-human-translated-spanish&quot;&gt;GTN-Español -  Bioinformatics resources in human-translated Spanish&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://gcc2021.sched.com/event/k8Wj/bof-idc-intergalactic-reference-data-commission&quot;&gt;IDC -  Intergalactic (reference) Data Commission&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://gcc2021.sched.com/event/kbz7/bof-earth-in-galaxy-handling-georeferenced-data-in-galaxy&quot;&gt;Earth in Galaxy: handling georeferenced data in Galaxy&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;All the recordings are available, with captions in the &lt;a href=&quot;https://www.youtube.com/channel/UCwoMMZPbz1L9AZzvIvrvqYA&quot;&gt;Galaxy Project YouTube channel&lt;/a&gt; and in &lt;a href=&quot;https://gcc2021.sched.com/&quot;&gt;Sched&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Besides the talks and BoFs, we had the &lt;strong&gt;poster/demo/sponsor sessions&lt;/strong&gt; every day after the second session, with 44 posters presented over the 3 days in both time zones.&lt;/p&gt;
-
-&lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;So here&amp;#39;s a wordcloud with all the talk, poster and BoF titles at GCC2021 😍 Thank all the speakers, chairs, sponsors, scientific and org committees for making it great! Looking forward to meeting the &lt;a href=&quot;https://twitter.com/hashtag/UseGalaxy?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#UseGalaxy&lt;/a&gt; community in person! &lt;a href=&quot;https://t.co/k2RQh5KYPU&quot;&gt;pic.twitter.com/k2RQh5KYPU&lt;/a&gt;&lt;/p&gt;&amp;mdash; Beatriz Serrano (@Birthae) &lt;a href=&quot;https://twitter.com/Birthae/status/1413145200495448077?ref_src=twsrc%5Etfw&quot;&gt;July 8, 2021&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;cofest&quot;&gt;CoFest&lt;/h2&gt;
-
-&lt;p&gt;The three-day conference was followed by a &lt;strong&gt;two-day collaborative work event&lt;/strong&gt; to expand the contributor community. This year, the CoFest was organized around &lt;a href=&quot;https://docs.google.com/document/d/1c0L4mc7s2JOx0uq6HGP3QE3V5Za20GfCh1e-KKbOoV4/edit#&quot;&gt;clusters ideas&lt;/a&gt; linked to the recently created &lt;a href=&quot;https://galaxyproject.org/community/wg/&quot;&gt;Galaxy Working Groups&lt;/a&gt;, as these are the entry points for new community members.&lt;/p&gt;
-
-&lt;p&gt;To celebrate the success of GCC2021, the Freiburg Galaxy team enjoyed an outdoor BBQ!&lt;/p&gt;
-
-&lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;The &lt;a href=&quot;https://twitter.com/hashtag/UseGalaxy?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#UseGalaxy&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/cofest?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#cofest&lt;/a&gt; 2021 ends in &lt;a href=&quot;https://twitter.com/UniFreiburg?ref_src=twsrc%5Etfw&quot;&gt;@UniFreiburg&lt;/a&gt;. We celebrated it with the first BBQ since a year. Thanks &lt;a href=&quot;https://twitter.com/tatieguinoa?ref_src=twsrc%5Etfw&quot;&gt;@tatieguinoa&lt;/a&gt; and team for organising the cofest and thanks everyone for contributing to &lt;a href=&quot;https://twitter.com/hashtag/OpenSource?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#OpenSource&lt;/a&gt;! See you next year at GCC 2022! &lt;a href=&quot;https://t.co/X7OJgMVXFi&quot;&gt;pic.twitter.com/X7OJgMVXFi&lt;/a&gt;&lt;/p&gt;&amp;mdash; Björn Grüning (@bjoerngruening) &lt;a href=&quot;https://twitter.com/bjoerngruening/status/1413942191358160899?ref_src=twsrc%5Etfw&quot;&gt;July 10, 2021&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;thank-you-to-all-the-organizers-scientific-program-committee-sponsors-and-the-galaxy-community-for-the-engagement-enthusiasm-and-contributions&quot;&gt;Thank you to all the organizers, scientific program committee, sponsors and the Galaxy community for the engagement, enthusiasm and contributions!!&lt;/h3&gt;</content><author><name></name></author><category term="training" /><category term="GCC" /><summary type="html">After two intense weeks of training, conference and collaboration fest, the Galaxy Community Conference 2021 (GCC2021) has come to an end. This has been the second virtual GCC since the pandemic started and it has featured a week of training, a three-day conference and a two-day CoFest. In total, 399 participants from 55 countries attended any of these events.</summary></entry></feed>
+&lt;/blockquote&gt;</content><author><name></name></author><category term="UseCase" /><summary type="html">Mzwanele Ngubo uses Galaxy for cancer research at The Ottawa Hospital Research Institute, Regenerative Medicine, Ottawa (Canada). Thanks Mzwanele!</summary></entry></feed>
