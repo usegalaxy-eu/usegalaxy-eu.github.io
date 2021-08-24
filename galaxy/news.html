@@ -109,6 +109,82 @@
 
 
      
+      tags.push(`training`)
+     
+      tags.push(`TIaaS`)
+     
+      tags.push(``)
+
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
+
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4 trainingTIaaS news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  
+                    <a href="/posts/2021/08/24/tiaas-flyer/plain.html">
+                  
+                    <h2 class="title">Training Infrastructure as a Service (TIaaS) is sponsored by EOSC-Life</h2>
+                  </a>
+                  <span class="date">
+                    
+
+
+
+	<i class="fa fa-graduation-cap" aria-hidden="true"></i>
+
+
+
+
+
+
+
+
+
+                  </span>
+                  <span class="date">
+                    August 24, 2021
+                  </span>
+                  
+                  
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=training'"
+           class="btn btn-primary btn-xs tag-element" role="button">training</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=TIaaS'"
+           class="btn btn-primary btn-xs tag-element" role="button">TIaaS</a>
+    
+
+
+                </div>
+                <div class="news-content">
+                  <div><div class="row">
+<div class="col-md-6">
+    <p><br /><br />
+<strong>TIaaS (Training Infrastructure as a Service)</strong> provides a special queue in the server so that, during the execution of a workshop, <strong>the trainees’ jobs
+are run preferentially</strong> without waiting in the general job queue of the server. The main advantage of this system is that the workshop
+can run smoothly avoiding possible waiting execution times depending on the load of the server.</p>
+  </div></div>
+</div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
+
+        news.append(div);
+    }
+    tags = []
+
+
+     
       tags.push(`tools`)
      
       tags.push(`Freiburg`)
