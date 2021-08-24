@@ -146,6 +146,83 @@
 
 
      
+      tags.push(`galaxy`)
+     
+      tags.push(`training`)
+     
+      tags.push(`COVID-19`)
+     
+      tags.push(``)
+
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
+
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4 galaxytrainingCOVID-19 news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  
+                    <a href="/posts/2021/08/24/new-elixir-galaxy-community-website/">
+                  
+                    <h2 class="title">Updates from the ELIXIR Galaxy Community</h2>
+                  </a>
+                  <span class="date">
+                    
+
+
+
+	<i class="fa fa-graduation-cap" aria-hidden="true"></i>
+
+
+
+
+
+
+
+
+
+                  </span>
+                  <span class="date">
+                    August 24, 2021
+                  </span>
+                  
+                  
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=galaxy'"
+           class="btn btn-primary btn-xs tag-element" role="button">galaxy</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=training'"
+           class="btn btn-primary btn-xs tag-element" role="button">training</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=COVID-19'"
+           class="btn btn-primary btn-xs tag-element" role="button">COVID-19</a>
+    
+
+
+                </div>
+                <div class="news-content">
+                  <div><p>The <a href="https://elixir-europe.org/communities/galaxy"><strong>ELIXIR Galaxy Community</strong></a> started in 2018 from the Galaxy Working Group, founded in 2015. Since then, the community has expanded a lot and we have updated the ELIXIR website including the <strong>goals</strong> (we outgrown the old ones!) with a special emphasis on the interactions with the <strong>local, domain-specific and global communities</strong>. Of course, providing <strong>infrastructure</strong>, constant improvement of <strong>tools</strong> and easy <strong>access to data</strong> has always been a must!</p>
+</div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
+
+        news.append(div);
+    }
+    tags = []
+
+
+     
       tags.push(`training`)
      
       tags.push(`TIaaS`)
