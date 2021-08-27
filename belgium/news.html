@@ -146,6 +146,132 @@
 
 
      
+      tags.push(`UseCase`)
+     
+      tags.push(``)
+
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
+
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4 UseCase news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  
+                    <a href="/posts/2021/08/27/use-case-carolyn-nielsen/">
+                  
+                    <h2 class="title">UseGalaxy.eu Use Case: Antibody responses following vaccination</h2>
+                  </a>
+                  <span class="date">
+                    
+
+
+
+
+
+
+
+
+
+
+
+                  </span>
+                  <span class="date">
+                    August 27, 2021
+                  </span>
+                  
+                  
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=UseCase'"
+           class="btn btn-primary btn-xs tag-element" role="button">UseCase</a>
+    
+
+
+                </div>
+                <div class="news-content">
+                  <div><p><a href="https://www.ndm.ox.ac.uk/team/carolyn-nielsen"><strong>Carolyn Nielsen</strong></a> works on clinical immunology at the <a href="https://www.ox.ac.uk/">University of Oxford (UK)</a>.</p>
+</div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
+
+        news.append(div);
+    }
+    tags = []
+
+
+     
+      tags.push(`training`)
+     
+      tags.push(``)
+
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
+
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4 training news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  
+                    <a href="/posts/2021/08/26/covid-workshop-summary/">
+                  
+                    <h2 class="title">Outcomes of the workshop &#39;SARS-CoV-2 Data Analysis and Monitoring with Galaxy&#39;</h2>
+                  </a>
+                  <span class="date">
+                    
+
+
+
+	<i class="fa fa-graduation-cap" aria-hidden="true"></i>
+
+
+
+
+
+
+
+
+
+                  </span>
+                  <span class="date">
+                    August 26, 2021
+                  </span>
+                  
+                  
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=training'"
+           class="btn btn-primary btn-xs tag-element" role="button">training</a>
+    
+
+
+                </div>
+                <div class="news-content">
+                  <div><p>The Galaxy community has recently organised a workshop on <a href="https://galaxyproject.eu/event/2021-06-21-sars-cov-2-data-analysis-monitoring-training/"><strong>SARS-CoV-2 Data Analysis and Monitoring with Galaxy</strong></a>. 
+The goal was to build capacity, both in the analysis and data management sides of SARS-CoV-2, based on the acquired expertise since the beginning
+of the pandemic. On a broader scope, sharing the experience in SARS-CoV-2 data analysis, and fostering the principles of <strong>open data, open science and open infrastructure</strong> are key aspects in the current public health global situation.</p>
+</div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
+
+        news.append(div);
+    }
+    tags = []
+
+
+     
       tags.push(`galaxy`)
      
       tags.push(`training`)
