@@ -1,4 +1,120 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2021-08-27T18:42:14+02:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Use Case: Antibody responses following vaccination</title><link href="https://galaxyproject.eu/posts/2021/08/27/use-case-carolyn-nielsen/" rel="alternate" type="text/html" title="UseGalaxy.eu Use Case: Antibody responses following vaccination" /><published>2021-08-27T00:00:00+02:00</published><updated>2021-08-27T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2021/08/27/use-case-carolyn-nielsen</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/08/27/use-case-carolyn-nielsen/">&lt;p&gt;&lt;a href=&quot;https://www.ndm.ox.ac.uk/team/carolyn-nielsen&quot;&gt;&lt;strong&gt;Carolyn Nielsen&lt;/strong&gt;&lt;/a&gt; works on clinical immunology at the &lt;a href=&quot;https://www.ox.ac.uk/&quot;&gt;University of Oxford (UK)&lt;/a&gt;.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2021-08-28T18:27:41+02:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2021-08-28</title><link href="https://galaxyproject.eu/posts/2021/08/28/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2021-08-28" /><published>2021-08-28T00:00:00+02:00</published><updated>2021-08-28T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2021/08/28/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/08/28/tool-update/">&lt;p&gt;On 2021-08-28, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#289/&quot;&gt;Jenkins Build #289&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;annotation&quot;&gt;Annotation&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;augustus was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/augustus/28433faa6e42&quot;&gt;28433faa6e42&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;augustus_training was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/augustus_training/dc027fa56d55&quot;&gt;dc027fa56d55&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;repeat_masker was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/repeat_masker/39b40a9a6296&quot;&gt;39b40a9a6296&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;repeatmodeler was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/csbl/repeatmodeler/dda44fd49bcd&quot;&gt;dda44fd49bcd&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;funannotate_clean was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/funannotate_clean/b5ec3983deda&quot;&gt;b5ec3983deda&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;funannotate_predict was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/funannotate_predict/40b87aef5241&quot;&gt;40b87aef5241&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;funannotate_sort was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/funannotate_sort/998b719a94cb&quot;&gt;998b719a94cb&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;tbprofiler was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/tbprofiler/c6f7442355e9&quot;&gt;c6f7442355e9&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;chipseeker was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/rnateam/chipseeker/8bd92f2404dd&quot;&gt;8bd92f2404dd&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;variant-calling&quot;&gt;Variant Calling&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;artic_guppyplex was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/artic_guppyplex/7a82006f7c05&quot;&gt;7a82006f7c05&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;artic_minion was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/artic_minion/7a7d7f30ddfc&quot;&gt;7a7d7f30ddfc&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;assembly&quot;&gt;Assembly&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;bellerophon was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bellerophon/25ca5d73aedf&quot;&gt;25ca5d73aedf&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;phylogenetics&quot;&gt;Phylogenetics&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;nextclade was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/nextclade/b74b9a7b3e3b&quot;&gt;b74b9a7b3e3b&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;epigenetics&quot;&gt;Epigenetics&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;moabs was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/moabs/214874e24cd6&quot;&gt;214874e24cd6&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;none&quot;&gt;None&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;data_manager_funannotate was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/data_manager_funannotate/ef7f9e2f32f2&quot;&gt;ef7f9e2f32f2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;proteomics&quot;&gt;Proteomics&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;openms_openpepxl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_openpepxl/a2a842b00f9c&quot;&gt;a2a842b00f9c&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_percolatoradapter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_percolatoradapter/0fc9ae55bcfc&quot;&gt;0fc9ae55bcfc&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_percolatoradapter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_percolatoradapter/e7881a82b56d&quot;&gt;e7881a82b56d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_xfdr was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_xfdr/81402a5e4173&quot;&gt;81402a5e4173&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_xfdr was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_xfdr/9a6e3bb0f358&quot;&gt;9a6e3bb0f358&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;proteomiqon_psmstatistics was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/proteomiqon_psmstatistics/f831f7d721f8&quot;&gt;f831f7d721f8&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;machine-learning&quot;&gt;Machine Learning&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;keras_batch_models was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/keras_batch_models/0dc3027df8f4&quot;&gt;0dc3027df8f4&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;keras_batch_models was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/keras_batch_models/77c04469e8b8&quot;&gt;77c04469e8b8&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;keras_model_builder was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/keras_model_builder/053570bac5ea&quot;&gt;053570bac5ea&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;keras_model_builder was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/keras_model_builder/5b35833076f0&quot;&gt;5b35833076f0&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;keras_model_config was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/keras_model_config/2a853a2d2e72&quot;&gt;2a853a2d2e72&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;keras_model_config was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/keras_model_config/2b8d85927742&quot;&gt;2b8d85927742&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;keras_train_and_eval was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/keras_train_and_eval/470aed90aa41&quot;&gt;470aed90aa41&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;ml_visualization_ex was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/ml_visualization_ex/14bd6d59650d&quot;&gt;14bd6d59650d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;ml_visualization_ex was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/ml_visualization_ex/e88c782a127d&quot;&gt;e88c782a127d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;model_prediction was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/model_prediction/1e088aa741eb&quot;&gt;1e088aa741eb&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;sklearn_build_pipeline was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_build_pipeline/3f25f37ee3db&quot;&gt;3f25f37ee3db&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;sklearn_clf_metrics was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_clf_metrics/40e31fb88836&quot;&gt;40e31fb88836&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;sklearn_clf_metrics was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_clf_metrics/daaa56720686&quot;&gt;daaa56720686&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;sklearn_data_preprocess was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_data_preprocess/add3c3a7c2b4&quot;&gt;add3c3a7c2b4&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;sklearn_discriminant_classifier was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_discriminant_classifier/1bd039aca44f&quot;&gt;1bd039aca44f&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;sklearn_ensemble was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_ensemble/407495139a09&quot;&gt;407495139a09&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;sklearn_estimator_attributes was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_estimator_attributes/5ae00d2908f2&quot;&gt;5ae00d2908f2&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;sklearn_feature_selection was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_feature_selection/1d20e0dce176&quot;&gt;1d20e0dce176&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;sklearn_feature_selection was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_feature_selection/a7c667ff83fe&quot;&gt;a7c667ff83fe&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;sklearn_fitted_model_eval was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_fitted_model_eval/c2a7717d96ce&quot;&gt;c2a7717d96ce&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;sklearn_generalized_linear was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_generalized_linear/616a241c5b37&quot;&gt;616a241c5b37&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;sklearn_generalized_linear was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_generalized_linear/c9969328b42f&quot;&gt;c9969328b42f&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;sklearn_lightgbm was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_lightgbm/74f96ebc5554&quot;&gt;74f96ebc5554&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;sklearn_model_fit was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_model_fit/5dc03d8e137e&quot;&gt;5dc03d8e137e&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;sklearn_model_fit was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_model_fit/fb17e19b62a4&quot;&gt;fb17e19b62a4&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;sklearn_model_validation was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_model_validation/65f18ab91132&quot;&gt;65f18ab91132&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;sklearn_nn_classifier was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_nn_classifier/309cc7c6af56&quot;&gt;309cc7c6af56&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;sklearn_numeric_clustering was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_numeric_clustering/e13a7c05b3a4&quot;&gt;e13a7c05b3a4&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;sklearn_pairwise_metrics was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_pairwise_metrics/2a1afd3481ce&quot;&gt;2a1afd3481ce&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;sklearn_pca was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_pca/caf164dd0e18&quot;&gt;caf164dd0e18&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;sklearn_regression_metrics was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_regression_metrics/6000c1589f33&quot;&gt;6000c1589f33&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;sklearn_sample_generator was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_sample_generator/1fe020b2108f&quot;&gt;1fe020b2108f&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;sklearn_searchcv was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_searchcv/586e68c83df2&quot;&gt;586e68c83df2&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;sklearn_searchcv was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_searchcv/f0d2e8a3c575&quot;&gt;f0d2e8a3c575&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;sklearn_stacking_ensemble_models was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_stacking_ensemble_models/2b679bb676be&quot;&gt;2b679bb676be&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;sklearn_stacking_ensemble_models was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_stacking_ensemble_models/d25127d5f4e0&quot;&gt;d25127d5f4e0&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;sklearn_svm_classifier was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_svm_classifier/a5665e1b06b0&quot;&gt;a5665e1b06b0&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;sklearn_svm_classifier was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_svm_classifier/f458724cc317&quot;&gt;f458724cc317&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;sklearn_to_categorical was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_to_categorical/59e8b4328c82&quot;&gt;59e8b4328c82&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;sklearn_to_categorical was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_to_categorical/612ca26c197d&quot;&gt;612ca26c197d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;sklearn_train_test_eval was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_train_test_eval/443471b0a27a&quot;&gt;443471b0a27a&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;sklearn_train_test_split was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_train_test_split/03611d7232f6&quot;&gt;03611d7232f6&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;statistics&quot;&gt;Statistics&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;scipy_sparse was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/scipy_sparse/318484f56b6a&quot;&gt;318484f56b6a&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scipy_sparse was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/scipy_sparse/e6893a4bcb7b&quot;&gt;e6893a4bcb7b&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;hca_sc_scanpy_tools&quot;&gt;hca_sc_scanpy_tools&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;anndata_ops was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/anndata_ops/fe75d2414dc0&quot;&gt;fe75d2414dc0&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2021-08-28, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #289</summary></entry><entry><title type="html">UseGalaxy.eu Use Case: Antibody responses following vaccination</title><link href="https://galaxyproject.eu/posts/2021/08/27/use-case-carolyn-nielsen/" rel="alternate" type="text/html" title="UseGalaxy.eu Use Case: Antibody responses following vaccination" /><published>2021-08-27T00:00:00+02:00</published><updated>2021-08-27T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2021/08/27/use-case-carolyn-nielsen</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/08/27/use-case-carolyn-nielsen/">&lt;p&gt;&lt;a href=&quot;https://www.ndm.ox.ac.uk/team/carolyn-nielsen&quot;&gt;&lt;strong&gt;Carolyn Nielsen&lt;/strong&gt;&lt;/a&gt; works on clinical immunology at the &lt;a href=&quot;https://www.ox.ac.uk/&quot;&gt;University of Oxford (UK)&lt;/a&gt;.&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;My project focuses on understanding the cellular drivers of antibody responses following vaccination, in particular in the impact of different dosing regimens. As part of this work, I have run a single cell RNA sequencing experiment (SmartSeq, Nextera, HiSeq4000) with sorted vaccine-specific B cells from two groups receiving malaria vaccines on either a ‘standard’ or ‘delayed’ dosing regimen. I am now analysing this data using the Human Cell Atlas of the Galaxy platform to understand whether there is differential gene expression between the B cell responses of the two groups, which would give important insight into the impact of dosing regimen on the quality of the B cell response. As a non-bioinformatician, the Galaxy platform has been invaluable to me as an accessible tool to explore the gene expression data, building analysis skills without needing to devote an extensive period of time to learning to code or use command line programmes. The storage capacity of the platform has also meant that after the initial data upload I can run my analysis anywhere, and without requiring subscription to sequencing facilities/servers. I plan to finish this analysis within the next few months and include in an upcoming publication.&lt;/p&gt;
@@ -297,8 +413,4 @@ on sex determination of fish. Thank you very much Joëlle for sharing the goal o
   &lt;li&gt;ivar_removereads was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/ivar_removereads/28a6f1908fcc&quot;&gt;28a6f1908fcc&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;ivar_trim was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/ivar_trim/397e5f0eb3ef&quot;&gt;397e5f0eb3ef&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;ivar_variants was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/ivar_variants/aea7008fe1f1&quot;&gt;aea7008fe1f1&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2021-08-07, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #286</summary></entry><entry><title type="html">UseGalaxy.eu Use Case: Circadian research</title><link href="https://galaxyproject.eu/posts/2021/07/30/use-case-akanksha-bafna/" rel="alternate" type="text/html" title="UseGalaxy.eu Use Case: Circadian research" /><published>2021-07-30T00:00:00+02:00</published><updated>2021-07-30T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2021/07/30/use-case-akanksha-bafna</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/07/30/use-case-akanksha-bafna/">&lt;p&gt;&lt;strong&gt;Akanksha Bafna&lt;/strong&gt; from the &lt;a href=&quot;https://www.har.mrc.ac.uk/&quot;&gt;MRC Harwell Institute, Neurobehavioural Genetics, Oxfordshire, United Kingdom&lt;/a&gt; uses Galaxy for Circadian research. Thanks Akanksha!&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;I’m a circadian biologist which means that often I am dealing with NGS dataset coming from biological samples collected at varied time-points, spread  uniformly across 24 hour period. To make my research reliable and robust, as a practice I prefer to conduct my experiments on independent biological replicates. As a result, I require reasonable disk quota to run and analyse my dataset. Further, Galaxy gives me the privilege to understand and analyse my data, without prior knowledge of command line or coding. This offers great advantage to biologist like me who would like to analyse the dataset keeping in mind the biological question.&lt;/p&gt;
-&lt;/blockquote&gt;</content><author><name></name></author><category term="UseCase" /><summary type="html">Akanksha Bafna from the MRC Harwell Institute, Neurobehavioural Genetics, Oxfordshire, United Kingdom uses Galaxy for Circadian research. Thanks Akanksha!</summary></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2021-08-07, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #286</summary></entry></feed>
