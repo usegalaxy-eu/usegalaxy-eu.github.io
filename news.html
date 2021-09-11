@@ -213,6 +213,68 @@
 
 
      
+      tags.push(`report`)
+     
+      tags.push(``)
+
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
+
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4 report news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  
+                    <a href="/posts/2021/09/10/reports-ifb-elixir/">
+                  
+                    <h2 class="title">Annual reports 2020: ELIXIR and IFB</h2>
+                  </a>
+                  <span class="date">
+                    
+
+
+
+
+
+
+
+
+
+
+
+                  </span>
+                  <span class="date">
+                    September 10, 2021
+                  </span>
+                  
+                  
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=report'"
+           class="btn btn-primary btn-xs tag-element" role="button">report</a>
+    
+
+
+                </div>
+                <div class="news-content">
+                  <div><p>The <a href="https://elixir-europe.org/sites/default/files/documents/annual-report-2020.pdf">ELIXIR</a> and <a href="https://www.france-bioinformatique.fr/en/activity-reports/">IFB</a> annual reports for 2020 are out. 
+Besides the regular activities from the different national nodes around Galaxy and its role within the different platforms and communities, ELIXIR highlights the commitment and quick response of the Galaxy community to provide open, reproducible workflows for SARS-CoV-2 data analysis. IFB sets the focus on the launch of <a href="https://usegalaxy.fr/">usegalaxy.fr</a> in mid-2020 with the subdomains <a href="https://workflow4metabolomics.usegalaxy.fr/"><em>workflow4metabolomics</em></a> and <a href="https://proteore.usegalaxy.fr/static/welcome.html"><em>proteore</em></a> among other news. Check them both to find out all the details!</p>
+</div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
+
+        news.append(div);
+    }
+    tags = []
+
+
+     
       tags.push(`tools`)
      
       tags.push(`Freiburg`)
