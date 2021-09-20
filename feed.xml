@@ -1,4 +1,98 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2021-09-20T17:44:36+02:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">Enough talking - time to act!</title><link href="https://galaxyproject.eu/posts/2021/09/17/we-are-striking-really/" rel="alternate" type="text/html" title="Enough talking - time to act!" /><published>2021-09-17T00:00:00+02:00</published><updated>2021-09-17T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2021/09/17/we-are-striking-really</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/09/17/we-are-striking-really/">&lt;p&gt;September the 24th will see the next global climate strike! 
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2021-09-20T19:10:44+02:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2021-09-20</title><link href="https://galaxyproject.eu/posts/2021/09/20/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2021-09-20" /><published>2021-09-20T00:00:00+02:00</published><updated>2021-09-20T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2021/09/20/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/09/20/tool-update/">&lt;p&gt;On 2021-09-20, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#292/&quot;&gt;Jenkins Build #292&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;nanopore&quot;&gt;Nanopore&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;medaka_consensus was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/medaka_consensus/fa11aa8103b2&quot;&gt;fa11aa8103b2&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;medaka_consensus_pipeline was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/medaka_consensus_pipeline/0e9e7fcdd543&quot;&gt;0e9e7fcdd543&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;medaka_variant was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/medaka_variant/0f5f4a208660&quot;&gt;0f5f4a208660&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;medaka_variant_pipeline was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/medaka_variant_pipeline/597407d61386&quot;&gt;597407d61386&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;medaka_variant_pipeline was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/medaka_variant_pipeline/ea1833858055&quot;&gt;ea1833858055&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;assembly&quot;&gt;Assembly&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;racon was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/racon/7c847ec300b8&quot;&gt;7c847ec300b8&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;abyss was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/abyss/0e93176640ac&quot;&gt;0e93176640ac&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;pretext_map was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/pretext_map/d256a51a656b&quot;&gt;d256a51a656b&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;raven was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/raven/f8564b2d7f63&quot;&gt;f8564b2d7f63&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;rnaspades was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/rnaspades/16e0eb91072f&quot;&gt;16e0eb91072f&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;metaspades was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/nml/metaspades/3ca2d2a9068c&quot;&gt;3ca2d2a9068c&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;spades was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/nml/spades/b7829778729f&quot;&gt;b7829778729f&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;fastafastq&quot;&gt;FASTA/FASTQ&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;fastqc was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/fastqc/3d0c7bdf12f5&quot;&gt;3d0c7bdf12f5&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;umi_tools_count was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/umi_tools_count/e654095ab143&quot;&gt;e654095ab143&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;variant-calling&quot;&gt;Variant Calling&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;seqwish was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/seqwish/ca1fb032116d&quot;&gt;ca1fb032116d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;snpsift was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/snpsift/5fab4f81391d&quot;&gt;5fab4f81391d&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;graphdisplay-data&quot;&gt;Graph/Display Data&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;bandage was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bandage/d8b1027d6ce0&quot;&gt;d8b1027d6ce0&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;genome-editing&quot;&gt;Genome editing&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;sonneityping was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/sonneityping/db4fe7172114&quot;&gt;db4fe7172114&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;proteomics&quot;&gt;Proteomics&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;openms_openpepxl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_openpepxl/40cc19c0dbd6&quot;&gt;40cc19c0dbd6&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_openpepxl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_openpepxl/a2a842b00f9c&quot;&gt;a2a842b00f9c&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_openpepxl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_openpepxl/fc36cfd19834&quot;&gt;fc36cfd19834&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_percolatoradapter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_percolatoradapter/0fc9ae55bcfc&quot;&gt;0fc9ae55bcfc&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_percolatoradapter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_percolatoradapter/e7881a82b56d&quot;&gt;e7881a82b56d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_xfdr was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_xfdr/81402a5e4173&quot;&gt;81402a5e4173&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_xfdr was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_xfdr/9a6e3bb0f358&quot;&gt;9a6e3bb0f358&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;proteomiqon_joinquantpepionswithproteins was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/proteomiqon_joinquantpepionswithproteins/f7e1c904ac2c&quot;&gt;f7e1c904ac2c&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;proteinortho was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/proteinortho/26abc7846e6f&quot;&gt;26abc7846e6f&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;proteinortho_grab_proteins was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/proteinortho_grab_proteins/85ffb2cc6b64&quot;&gt;85ffb2cc6b64&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;proteinortho_summary was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/proteinortho_summary/c3f58c2eee1e&quot;&gt;c3f58c2eee1e&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;annotation&quot;&gt;Annotation&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;orthofinder_onlygroups was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/orthofinder_onlygroups/0ff17c7a18cd&quot;&gt;0ff17c7a18cd&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;chemicaltoolbox&quot;&gt;ChemicalToolBox&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;ambertools_acpype was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/ambertools_acpype/da6bd1975a71&quot;&gt;da6bd1975a71&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;ambertools_antechamber was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/ambertools_antechamber/c6e895c6bb75&quot;&gt;c6e895c6bb75&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;ambertools_parmchk2 was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/ambertools_parmchk2/26876112c25b&quot;&gt;26876112c25b&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mmpbsa_mmgbsa was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/mmpbsa_mmgbsa/84c85e65027c&quot;&gt;84c85e65027c&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;parmconv was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/parmconv/88658acb9337&quot;&gt;88658acb9337&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;quality-control&quot;&gt;Quality Control&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;fastq_info was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/fastq_info/7a821cd57b43&quot;&gt;7a821cd57b43&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;single-cell&quot;&gt;Single-cell&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;music_construct_eset was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/music_construct_eset/2cfd0db49bbc&quot;&gt;2cfd0db49bbc&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;music_deconvolution was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/music_deconvolution/224721e76869&quot;&gt;224721e76869&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;music_inspect_eset was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/music_inspect_eset/2fed32b5aa02&quot;&gt;2fed32b5aa02&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2021-09-20, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #292</summary></entry><entry><title type="html">Enough talking - time to act!</title><link href="https://galaxyproject.eu/posts/2021/09/17/we-are-striking-really/" rel="alternate" type="text/html" title="Enough talking - time to act!" /><published>2021-09-17T00:00:00+02:00</published><updated>2021-09-17T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2021/09/17/we-are-striking-really</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/09/17/we-are-striking-really/">&lt;p&gt;September the 24th will see the next global climate strike! 
 As last time, the Freiburg Galaxy Team is going to express its support more directly:&lt;/p&gt;
 
 &lt;p&gt;The team will be striking and &lt;strong&gt;we will not schedule new jobs on the European Galaxy server for the whole day&lt;/strong&gt;.&lt;/p&gt;
@@ -332,10 +426,4 @@ My name is M.C., and I just finished my masters in Turkey. I want to personally 
 
 &lt;ul&gt;
   &lt;li&gt;anndata_ops was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/anndata_ops/fe75d2414dc0&quot;&gt;fe75d2414dc0&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2021-08-28, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #289</summary></entry><entry><title type="html">UseGalaxy.eu Use Case: Antibody responses following vaccination</title><link href="https://galaxyproject.eu/posts/2021/08/27/use-case-carolyn-nielsen/" rel="alternate" type="text/html" title="UseGalaxy.eu Use Case: Antibody responses following vaccination" /><published>2021-08-27T00:00:00+02:00</published><updated>2021-08-27T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2021/08/27/use-case-carolyn-nielsen</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/08/27/use-case-carolyn-nielsen/">&lt;p&gt;&lt;a href=&quot;https://www.ndm.ox.ac.uk/team/carolyn-nielsen&quot;&gt;&lt;strong&gt;Carolyn Nielsen&lt;/strong&gt;&lt;/a&gt; works on clinical immunology at the &lt;a href=&quot;https://www.ox.ac.uk/&quot;&gt;University of Oxford (UK)&lt;/a&gt;.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;My project focuses on understanding the cellular drivers of antibody responses following vaccination, in particular in the impact of different dosing regimens. As part of this work, I have run a single cell RNA sequencing experiment (SmartSeq, Nextera, HiSeq4000) with sorted vaccine-specific B cells from two groups receiving malaria vaccines on either a ‘standard’ or ‘delayed’ dosing regimen. I am now analysing this data using the Human Cell Atlas of the Galaxy platform to understand whether there is differential gene expression between the B cell responses of the two groups, which would give important insight into the impact of dosing regimen on the quality of the B cell response. As a non-bioinformatician, the Galaxy platform has been invaluable to me as an accessible tool to explore the gene expression data, building analysis skills without needing to devote an extensive period of time to learning to code or use command line programmes. The storage capacity of the platform has also meant that after the initial data upload I can run my analysis anywhere, and without requiring subscription to sequencing facilities/servers. I plan to finish this analysis within the next few months and include in an upcoming publication.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Thank you Carolyn for using Galaxy and sharing your research with us!&lt;/p&gt;</content><author><name></name></author><category term="UseCase" /><summary type="html">Carolyn Nielsen works on clinical immunology at the University of Oxford (UK).</summary></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2021-08-28, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #289</summary></entry></feed>
