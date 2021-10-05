@@ -147,6 +147,80 @@
 
 
      
+      tags.push(`devops`)
+     
+      tags.push(`hardware`)
+     
+      tags.push(`Freiburg`)
+
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
+
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4 devopshardware news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  
+                    <a href="/posts/2021/10/05/ftp-server-update/">
+                  
+                    <h2 class="title">UseGalaxy.eu FTP Server Update</h2>
+                  </a>
+                  <span class="date">
+                    
+
+
+
+
+
+
+	<i class="fa fa-gear" aria-hidden="true"></i>
+
+
+
+
+
+
+                  </span>
+                  <span class="date">
+                    October 5, 2021
+                  </span>
+                  
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
+                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  
+                  
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=devops'"
+           class="btn btn-primary btn-xs tag-element" role="button">devops</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=hardware'"
+           class="btn btn-primary btn-xs tag-element" role="button">hardware</a>
+    
+
+
+                </div>
+                <div class="news-content">
+                  <div><p>On 2021-10-06, the FTP server accessible through the domain ftp.usegalaxy.eu, will be upgraded with a new hardware and a new configuration.
+The new node will provide more space and accept only encrypted connections (TLS).</p>
+</div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
+
+        news.append(div);
+    }
+    tags = []
+
+
+     
       tags.push(`tools`)
      
       tags.push(`Freiburg`)
