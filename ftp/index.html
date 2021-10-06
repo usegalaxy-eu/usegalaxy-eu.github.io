@@ -29,7 +29,7 @@
     <div id="wrap">
       <div id="main">
         <div class="container" id="maincontainer">
-          <h1 id="usegalaxyeu-ftp-servers">UseGalaxy.eu FTP Servers</h1>
+          <h1 id="usegalaxyeu-ftp-server">UseGalaxy.eu FTP Server</h1>
 
 <h2 id="servers">Servers</h2>
 
@@ -45,20 +45,20 @@
     <tr>
       <td><code class="highlighter-rouge">ftp.usegalaxy.eu</code></td>
       <td>21</td>
-      <td>Insecure connections only, no support for tls.</td>
+      <td>Secure connections only (TLS).</td>
     </tr>
   </tbody>
 </table>
 
 <h2 id="upload-multiple-files-via-curl">Upload multiple files via curl</h2>
 
-<p><code class="highlighter-rouge">curl -T {"file1,file2"} ftp://ftp.usegalaxy.eu --user user@name.de --ssl</code></p>
+<p><code class="highlighter-rouge">curl -T {"file1,file2"} --user user@name.de --ssl ftp://ftp.usegalaxy.eu</code></p>
 
-<p>The list needs to be comma seperated, without spaces and in quotation: <code class="highlighter-rouge">{"file1,file2"}</code></p>
+<p>The comma-separated list of files needs to be quoted and must not contain spaces: <code class="highlighter-rouge">{"file1,file2"}</code></p>
 
 <h2 id="credentials">Credentials</h2>
 
-<p>Use the same email address and password that you use to login to <a href="https://usegalaxy.eu">usegalaxy.eu</a></p>
+<p>Use the same email address and password that you use to log in to <a href="https://usegalaxy.eu">usegalaxy.eu</a></p>
 
 <h2 id="more-information">More Information</h2>
 
