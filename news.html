@@ -147,6 +147,80 @@
 
 
      
+      tags.push(`paper`)
+     
+      tags.push(`data`)
+     
+      tags.push(`Freiburg`)
+
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
+
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4 paperdata news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  
+                    <a href="/posts/2021/10/08/metadata-representation-for-multiomics-integration/">
+                  
+                    <h2 class="title">A proteomics sample metadata representation for multiomics integration and big data analysis</h2>
+                  </a>
+                  <span class="date">
+                    
+
+
+
+
+	<i class="fa fa-file-text" aria-hidden="true"></i>
+
+
+
+
+
+
+
+
+                  </span>
+                  <span class="date">
+                    October 8, 2021
+                  </span>
+                  
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
+                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  
+                  
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=paper'"
+           class="btn btn-primary btn-xs tag-element" role="button">paper</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=data'"
+           class="btn btn-primary btn-xs tag-element" role="button">data</a>
+    
+
+
+                </div>
+                <div class="news-content">
+                  <div><p>The amount of public proteomics data is rapidly increasing but there is no standardized format to describe the sample metadata and
+their relationship with the dataset files in a way that fully supports their understanding or reanalysis.</p>
+</div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
+
+        news.append(div);
+    }
+    tags = []
+
+
+     
       tags.push(`COVID-19`)
      
       tags.push(`Freiburg`)
