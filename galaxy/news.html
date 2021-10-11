@@ -48,6 +48,67 @@
 
 
      
+      tags.push(`UseCase`)
+     
+      tags.push(``)
+
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
+
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4 UseCase news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  
+                    <a href="/posts/2021/10/11/use-case-ileana-duran/plain.html">
+                  
+                    <h2 class="title">UseGalaxy.eu Use Case: microRNAs in heart disease</h2>
+                  </a>
+                  <span class="date">
+                    
+
+
+
+
+
+
+
+
+
+
+
+                  </span>
+                  <span class="date">
+                    October 11, 2021
+                  </span>
+                  
+                  
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=UseCase'"
+           class="btn btn-primary btn-xs tag-element" role="button">UseCase</a>
+    
+
+
+                </div>
+                <div class="news-content">
+                  <div><p><strong>Ileana Duran Fernandez</strong> from the <a href="https://www.ipt.med.tum.de/en">School of Medicine of the Technical University of Munich</a> works on heart disease. Thank you Ileana and good luck with your project!</p>
+</div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
+
+        news.append(div);
+    }
+    tags = []
+
+
+     
       tags.push(`paper`)
      
       tags.push(`data`)
