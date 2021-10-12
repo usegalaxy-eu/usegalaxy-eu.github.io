@@ -48,6 +48,67 @@
 
 
      
+      tags.push(`COVID-19`)
+     
+      tags.push(``)
+
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
+
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4 COVID-19 news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  
+                    <a href="/posts/2021/10/13/bycovid-kickoff/plain.html">
+                  
+                    <h2 class="title">BY-COVID: A new EU project for pandemic preparedness</h2>
+                  </a>
+                  <span class="date">
+                    
+
+
+
+
+
+
+
+
+
+
+
+                  </span>
+                  <span class="date">
+                    October 13, 2021
+                  </span>
+                  
+                  
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=COVID-19'"
+           class="btn btn-primary btn-xs tag-element" role="button">COVID-19</a>
+    
+
+
+                </div>
+                <div class="news-content">
+                  <div><p>Today marks the launch of a new €12 million Horizon Europe funded project, BeYond-COVID (BY-COVID), which will tackle the data challenges that can hinder effective pandemic response. The core aim of the project is to ensure that data on SARS-CoV-2 and other infectious diseases can be found and used by everyone.</p>
+</div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
+
+        news.append(div);
+    }
+    tags = []
+
+
+     
       tags.push(`UseCase`)
      
       tags.push(``)
