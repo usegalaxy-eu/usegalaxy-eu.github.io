@@ -1,4 +1,71 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2021-11-05T17:45:36+01:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2021-10-30</title><link href="https://galaxyproject.eu/posts/2021/10/30/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2021-10-30" /><published>2021-10-30T00:00:00+02:00</published><updated>2021-10-30T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2021/10/30/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/10/30/tool-update/">&lt;p&gt;On 2021-10-30, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#297/&quot;&gt;Jenkins Build #297&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2021-11-06T05:16:32+01:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2021-11-06</title><link href="https://galaxyproject.eu/posts/2021/11/06/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2021-11-06" /><published>2021-11-06T00:00:00+01:00</published><updated>2021-11-06T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2021/11/06/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/11/06/tool-update/">&lt;p&gt;On 2021-11-06, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#298/&quot;&gt;Jenkins Build #298&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;quality-control&quot;&gt;Quality Control&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;multiqc was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/multiqc/9a913cdee30e&quot;&gt;9a913cdee30e&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;bed&quot;&gt;BED&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;bedtools was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bedtools/7ab85ac5f64b&quot;&gt;7ab85ac5f64b&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;rna-analysis&quot;&gt;RNA Analysis&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;trinity was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/trinity/d5e8807a407d&quot;&gt;d5e8807a407d&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;convert-formats&quot;&gt;Convert Formats&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;mz_to_sqlite was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/mz_to_sqlite/8190f6083c0d&quot;&gt;8190f6083c0d&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;proteomics&quot;&gt;Proteomics&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;openms_openpepxl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_openpepxl/40cc19c0dbd6&quot;&gt;40cc19c0dbd6&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_openpepxl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_openpepxl/a2a842b00f9c&quot;&gt;a2a842b00f9c&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_openpepxl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_openpepxl/fc36cfd19834&quot;&gt;fc36cfd19834&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_percolatoradapter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_percolatoradapter/0fc9ae55bcfc&quot;&gt;0fc9ae55bcfc&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_percolatoradapter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_percolatoradapter/e7881a82b56d&quot;&gt;e7881a82b56d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_xfdr was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_xfdr/81402a5e4173&quot;&gt;81402a5e4173&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_xfdr was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_xfdr/9a6e3bb0f358&quot;&gt;9a6e3bb0f358&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;multiple-alignments&quot;&gt;Multiple Alignments&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;cd_hit was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/cd_hit/7807800a3d03&quot;&gt;7807800a3d03&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mafft was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/rnateam/mafft/f1a5908ea2cb&quot;&gt;f1a5908ea2cb&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;metagenomic-analysis&quot;&gt;Metagenomic Analysis&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;maaslin2 was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/maaslin2/c629e6de3c49&quot;&gt;c629e6de3c49&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;annotation&quot;&gt;Annotation&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;busco was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/busco/46ae58b1d792&quot;&gt;46ae58b1d792&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;fastafastq&quot;&gt;FASTA/FASTQ&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;cutadapt was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/lparsons/cutadapt/de6cebe3c043&quot;&gt;de6cebe3c043&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;phylogenetics&quot;&gt;Phylogenetics&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;pangolin was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/pangolin/debfccc4d65b&quot;&gt;debfccc4d65b&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2021-11-06, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #298</summary></entry><entry><title type="html">UseGalaxy.eu Tool Updates for 2021-10-30</title><link href="https://galaxyproject.eu/posts/2021/10/30/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2021-10-30" /><published>2021-10-30T00:00:00+02:00</published><updated>2021-10-30T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2021/10/30/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/10/30/tool-update/">&lt;p&gt;On 2021-10-30, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#297/&quot;&gt;Jenkins Build #297&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;send-data&quot;&gt;Send Data&lt;/h2&gt;
 
@@ -502,9 +569,4 @@ as well as application examples, is available at the &lt;a href=&quot;https://ps
 
 &lt;p&gt;Take a look at the &lt;a href=&quot;https://www.denbi.de/images/Downloads/ELIXIR-DE_brochure_2021.pdf&quot;&gt;brochure&lt;/a&gt;!&lt;/p&gt;
 
-&lt;embed src=&quot;https://www.denbi.de/images/Downloads/ELIXIR-DE_brochure_2021.pdf&quot; width=&quot;65%&quot; height=&quot;700px&quot; type=&quot;application/pdf&quot; /&gt;</content><author><name></name></author><category term="COVID-19" /><summary type="html">ELIXIR Germany has published the handout “ELIXIR GERMANY - Shaping the Bioinformatics Infrastructure for Life Sciences in Europe”.</summary></entry><entry><title type="html">UseGalaxy.eu FTP Server Update</title><link href="https://galaxyproject.eu/posts/2021/10/05/ftp-server-update/" rel="alternate" type="text/html" title="UseGalaxy.eu FTP Server Update" /><published>2021-10-05T00:00:00+02:00</published><updated>2021-10-05T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2021/10/05/ftp-server-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/10/05/ftp-server-update/">&lt;p&gt;On 2021-10-06, the FTP server accessible through the domain &lt;strong&gt;ftp.usegalaxy.eu&lt;/strong&gt;, will be upgraded with a new hardware and a new configuration.
-The new node will provide more space and accept only encrypted connections (TLS).&lt;/p&gt;
-
-&lt;p&gt;It will be easy to use as usual, just remember to select an SSL/TLS type of connection.&lt;/p&gt;
-
-&lt;p&gt;All the detail to use the service at &lt;a href=&quot;https://galaxyproject.eu/ftp/&quot;&gt;https://galaxyproject.eu/ftp/&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="devops" /><category term="hardware" /><summary type="html">On 2021-10-06, the FTP server accessible through the domain ftp.usegalaxy.eu, will be upgraded with a new hardware and a new configuration. The new node will provide more space and accept only encrypted connections (TLS).</summary></entry></feed>
+&lt;embed src=&quot;https://www.denbi.de/images/Downloads/ELIXIR-DE_brochure_2021.pdf&quot; width=&quot;65%&quot; height=&quot;700px&quot; type=&quot;application/pdf&quot; /&gt;</content><author><name></name></author><category term="COVID-19" /><summary type="html">ELIXIR Germany has published the handout “ELIXIR GERMANY - Shaping the Bioinformatics Infrastructure for Life Sciences in Europe”.</summary></entry></feed>
