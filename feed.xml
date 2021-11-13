@@ -1,4 +1,82 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2021-11-12T17:45:14+01:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2021-11-06</title><link href="https://galaxyproject.eu/posts/2021/11/06/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2021-11-06" /><published>2021-11-06T00:00:00+01:00</published><updated>2021-11-06T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2021/11/06/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/11/06/tool-update/">&lt;p&gt;On 2021-11-06, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#298/&quot;&gt;Jenkins Build #298&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2021-11-13T15:31:43+01:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2021-11-13</title><link href="https://galaxyproject.eu/posts/2021/11/13/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2021-11-13" /><published>2021-11-13T00:00:00+01:00</published><updated>2021-11-13T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2021/11/13/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/11/13/tool-update/">&lt;p&gt;On 2021-11-13, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#299/&quot;&gt;Jenkins Build #299&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;metagenomic-analysis&quot;&gt;Metagenomic Analysis&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;data_manager_build_bracken_database was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/data_manager_build_bracken_database/3c7d2c84cb09&quot;&gt;3c7d2c84cb09&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;instrain_compare was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/instrain_compare/3b54b419b5cb&quot;&gt;3b54b419b5cb&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;instrain_profile was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/instrain_profile/4b0418b1f58b&quot;&gt;4b0418b1f58b&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;annotation&quot;&gt;Annotation&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;funannotate_clean was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/funannotate_clean/922ff4f431b3&quot;&gt;922ff4f431b3&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;rna-analysis&quot;&gt;RNA Analysis&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;tximport was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/tximport/1906cb429215&quot;&gt;1906cb429215&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;graphdisplay-data&quot;&gt;Graph/Display Data&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;pretext_snapshot was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/pretext_snapshot/44c66e8d21e6&quot;&gt;44c66e8d21e6&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;convert-formats&quot;&gt;Convert Formats&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;bioext_bam2msa was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bioext_bam2msa/359e043a285c&quot;&gt;359e043a285c&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;assembly&quot;&gt;Assembly&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;merqury was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/merqury/39edec572bae&quot;&gt;39edec572bae&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;pretext_map was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/pretext_map/bbe19ef04a74&quot;&gt;bbe19ef04a74&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;salsa was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/salsa/f77f7a7f3b83&quot;&gt;f77f7a7f3b83&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;mapping&quot;&gt;Mapping&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;bioext_bealign was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bioext_bealign/09dbbf5d3201&quot;&gt;09dbbf5d3201&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;ncbi-blast&quot;&gt;NCBI Blast&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;bbtools_bbduk was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bbtools_bbduk/204a131e47db&quot;&gt;204a131e47db&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;single-cell&quot;&gt;Single-cell&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;scater_create_qcmetric_ready_sce was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/scater_create_qcmetric_ready_sce/8f333f90d8d6&quot;&gt;8f333f90d8d6&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scater_filter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/scater_filter/652923ce664f&quot;&gt;652923ce664f&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scater_plot_dist_scatter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/scater_plot_dist_scatter/ef4c80837bc5&quot;&gt;ef4c80837bc5&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scater_plot_pca was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/scater_plot_pca/c99ba278dfa9&quot;&gt;c99ba278dfa9&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scater_plot_tsne was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/scater_plot_tsne/99f912d5af9f&quot;&gt;99f912d5af9f&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;chemicaltoolbox&quot;&gt;ChemicalToolBox&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;gmx_solvate was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/gmx_solvate/9a1e472aa515&quot;&gt;9a1e472aa515&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;proteomics&quot;&gt;Proteomics&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;openms_openpepxl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_openpepxl/a2a842b00f9c&quot;&gt;a2a842b00f9c&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_percolatoradapter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_percolatoradapter/0fc9ae55bcfc&quot;&gt;0fc9ae55bcfc&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_percolatoradapter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_percolatoradapter/e7881a82b56d&quot;&gt;e7881a82b56d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_xfdr was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_xfdr/81402a5e4173&quot;&gt;81402a5e4173&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_xfdr was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_xfdr/9a6e3bb0f358&quot;&gt;9a6e3bb0f358&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2021-11-13, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #299</summary></entry><entry><title type="html">UseGalaxy.eu Tool Updates for 2021-11-06</title><link href="https://galaxyproject.eu/posts/2021/11/06/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2021-11-06" /><published>2021-11-06T00:00:00+01:00</published><updated>2021-11-06T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2021/11/06/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/11/06/tool-update/">&lt;p&gt;On 2021-11-06, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#298/&quot;&gt;Jenkins Build #298&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;quality-control&quot;&gt;Quality Control&lt;/h2&gt;
 
@@ -563,10 +641,4 @@ to validate MAGE-TAB-Proteomics files and integrate the metadata in the PRIDE da
 The full specification document describing all aspects of MAGE-TAB-Proteomics version 1.0, the current implementations,
 as well as application examples, is available at the &lt;a href=&quot;https://psidev.info/magetab&quot;&gt;PSI website&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Read more in our &lt;a href=&quot;https://www.nature.com/articles/s41467-021-26111-3&quot;&gt;Nature Communications paper&lt;/a&gt;!&lt;/p&gt;</content><author><name></name></author><category term="paper" /><category term="data" /><summary type="html">The amount of public proteomics data is rapidly increasing but there is no standardized format to describe the sample metadata and their relationship with the dataset files in a way that fully supports their understanding or reanalysis.</summary></entry><entry><title type="html">New brochure from ELIXIR Germany</title><link href="https://galaxyproject.eu/posts/2021/10/06/elixir-de-brochure/" rel="alternate" type="text/html" title="New brochure from ELIXIR Germany" /><published>2021-10-06T00:00:00+02:00</published><updated>2021-10-06T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2021/10/06/elixir-de-brochure</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/10/06/elixir-de-brochure/">&lt;p&gt;ELIXIR Germany has published the handout “ELIXIR GERMANY - Shaping the Bioinformatics Infrastructure for Life Sciences in Europe”.&lt;/p&gt;
-
-&lt;p&gt;Galaxy is one of the services provided by ELIXIR-DE with a strong impact on COVID-19 research. It is also a key component of the tools ecosystem in the ELIXIR Tools Platform and has led/participated in various commissioned services.&lt;/p&gt;
-
-&lt;p&gt;Take a look at the &lt;a href=&quot;https://www.denbi.de/images/Downloads/ELIXIR-DE_brochure_2021.pdf&quot;&gt;brochure&lt;/a&gt;!&lt;/p&gt;
-
-&lt;embed src=&quot;https://www.denbi.de/images/Downloads/ELIXIR-DE_brochure_2021.pdf&quot; width=&quot;65%&quot; height=&quot;700px&quot; type=&quot;application/pdf&quot; /&gt;</content><author><name></name></author><category term="COVID-19" /><summary type="html">ELIXIR Germany has published the handout “ELIXIR GERMANY - Shaping the Bioinformatics Infrastructure for Life Sciences in Europe”.</summary></entry></feed>
+&lt;p&gt;Read more in our &lt;a href=&quot;https://www.nature.com/articles/s41467-021-26111-3&quot;&gt;Nature Communications paper&lt;/a&gt;!&lt;/p&gt;</content><author><name></name></author><category term="paper" /><category term="data" /><summary type="html">The amount of public proteomics data is rapidly increasing but there is no standardized format to describe the sample metadata and their relationship with the dataset files in a way that fully supports their understanding or reanalysis.</summary></entry></feed>
