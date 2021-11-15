@@ -1,4 +1,60 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2021-11-14T17:48:12+01:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2021-11-13</title><link href="https://galaxyproject.eu/posts/2021/11/13/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2021-11-13" /><published>2021-11-13T00:00:00+01:00</published><updated>2021-11-13T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2021/11/13/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/11/13/tool-update/">&lt;p&gt;On 2021-11-13, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#299/&quot;&gt;Jenkins Build #299&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2021-11-15T09:51:25+01:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">Training Infrastructure feedback: FORCeS eScience course</title><link href="https://galaxyproject.eu/posts/2021/11/13/tiaas-anne/" rel="alternate" type="text/html" title="Training Infrastructure feedback: FORCeS eScience course" /><published>2021-11-13T00:00:00+01:00</published><updated>2021-11-13T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2021/11/13/tiaas-anne</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/11/13/tiaas-anne/">&lt;p&gt;The &lt;a href=&quot;https://forces-project.eu/&quot;&gt;FORCeS&lt;/a&gt; eScience course “Tools in Climate Science: Linking Observations with Modelling” was held at the &lt;a href=&quot;https://www.gu.se/en/tjarno&quot;&gt;Tjärnö Marine Biological Laboratory&lt;/a&gt;, Sweden, from November 1st to November 8th.&lt;/p&gt;
+
+&lt;p&gt;The course introduced the role of aerosols and clouds in Earth’s climate system along
+with observational techniques, Earth system models, climate forcing and climate model evaluation through a series of lectures and tutorials.&lt;/p&gt;
+
+&lt;p&gt;We made an extensive use of Galaxy Pangeo Climate JupyterLab interactive tool for modern visualization, data analysis and statistical tools. Each participant work on a scientific project and at the end of November (22/23 November) will deliver a final Jupyter Notebook and give an oral presentation to show their main achievements and results.&lt;/p&gt;
+
+&lt;h2 id=&quot;setup-and-data-availability&quot;&gt;Setup and data availability&lt;/h2&gt;
+
+&lt;p&gt;The figure below shows what was available to end-users. The dashed lines (blue and magenta) represent data access points that are all external to your Galaxy instance. In fact, there are many more access points where you can get access to data and we only listed the ones that may be relevant for this course.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/media/tiaas/anne_1.png&quot; alt=&quot;fig1&quot; /&gt;
+Figure 1: different storage endpoints available to Galaxy Pangeo Climate JupyterLab during the EScience 2021 course.&lt;/p&gt;
+
+&lt;p&gt;The setup is very flexible:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;New data can be added (NIRD Read/Write) during the course to accommodate new needs.&lt;/li&gt;
+  &lt;li&gt;New software, packages &amp;amp; conda Jupyter environment can be added by any users.&lt;/li&gt;
+  &lt;li&gt;The notebooks are regularly saved in the NIRD Read/Write object storage and/or in GitHub.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;group-work&quot;&gt;Group work&lt;/h2&gt;
+
+&lt;p&gt;We had 28 participants to the course, mostly master students and PhDs, divided in 7 groups and mentored by PhDs and/or postdocs:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Group 1 - SOA&lt;/strong&gt;: SOA stands for Secondary Organic Aerosols and this group works on the evaluation of SOA mediated earth System feedbacks.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Group 2 - LOBSTER&lt;/strong&gt;: The LOBSTER group works on Linking Ocean, Biosphere and Sea ice in  ArcTic modEls and obseRvations (LOBSTER).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Group 3 - OCTOPUS&lt;/strong&gt;: The OCTOPUS groups work on explOring aerosol-Cloud inTeractiOns in CMIP6 models Using joint-hiStograms (OCTOPUS).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Group 4 - GENIUS&lt;/strong&gt;: The GENIUS groups work on GeoENgineering Impacts on the occUrrence of extreme eventS (GENIUS).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Group 5 - ACRTLVE&lt;/strong&gt;: The ACRTLVE group works on Atmospheric Circulation Response To Large Volcanic Eruptions (ACRTLVE).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Group 6 - BLAZING!&lt;/strong&gt;: The BLAZING! group works on Biomass burning cLimate responses in the America ZImbabwe-area and Northern reGions (BLAZING!).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Group 7 - AT&lt;/strong&gt;: The AT group works on Aerosol Trends (AT).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Each group works on different scientific questions and may use different datasets. This makes this course very challenging from a technical point of view as we need to offer access to large amounts of data (satellite and in-situ observations, climate model outputs such as CMIP6, copernicus reanalysis, etc.).&lt;/p&gt;
+
+&lt;h2 id=&quot;course-outcome--preliminary-results&quot;&gt;Course outcome &amp;amp; preliminary results&lt;/h2&gt;
+
+&lt;p&gt;Using the &lt;a href=&quot;https://pangeo.io/&quot;&gt;Pangeo&lt;/a&gt; ecosystem was quite new for many attendees and challenging when it comes to manipulate large amounts of satellite observations or climate models. &lt;a href=&quot;https://xarray.pydata.org/&quot;&gt;Xarray&lt;/a&gt; and &lt;a href=&quot;https://dask.org/&quot;&gt;dask&lt;/a&gt; concepts were not always well understood and we under-estimate the need to explain basic principles of Pangeo. It is not straightforward to understand all the subtleties of Xarray and dask, and student’s sessions have crashed a number of times! Next course, we will put more emphasis on the basics and will try to explain the concepts behind xarray and dask at the very beginning of the course.
+On the other hand, the flexibility of the Galaxy Pangeo Climate JupyterLab allowed students to start immediately and to try out new packages (they can be installed in the current conda environment or a new conda environment can be created).
+Below, you will find a short overview of the work done by each group with some examples of their work.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/media/tiaas/anne_2.png&quot; alt=&quot;fig2&quot; /&gt;
+Figure 2: Overview of the work done by all the groups during the eScience2021 course.&lt;/p&gt;
+
+&lt;h2 id=&quot;whats-next&quot;&gt;What’s next?&lt;/h2&gt;
+
+&lt;p&gt;The course is still not finished e.g. all the students are working on their final Jupyter notebook, report and oral presentation. 
+We have already identified new topics/tutorials to develop for Galaxy training e.g.:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;The pangeo ecosystem and its optimal usage&lt;/li&gt;
+  &lt;li&gt;Introduction to aerosols and Climate&lt;/li&gt;
+  &lt;li&gt;Cloud microphysical processes
+For each topic, we could have slides for the “theory” and hands-on to illustrate and check learner understanding.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In addition to Galaxy training, we plan to wrap some of the “tools/work” (jupyter notebooks) to create new Galaxy tools and facilitate the complex usage of xarray and dask.&lt;/p&gt;</content><author><name>Anne Fouilloux</name></author><category term="training" /><category term="TIaaS" /><summary type="html">The FORCeS eScience course “Tools in Climate Science: Linking Observations with Modelling” was held at the Tjärnö Marine Biological Laboratory, Sweden, from November 1st to November 8th.</summary></entry><entry><title type="html">UseGalaxy.eu Tool Updates for 2021-11-13</title><link href="https://galaxyproject.eu/posts/2021/11/13/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2021-11-13" /><published>2021-11-13T00:00:00+01:00</published><updated>2021-11-13T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2021/11/13/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/11/13/tool-update/">&lt;p&gt;On 2021-11-13, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#299/&quot;&gt;Jenkins Build #299&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;metagenomic-analysis&quot;&gt;Metagenomic Analysis&lt;/h2&gt;
 
@@ -628,17 +684,4 @@ ZBSA - Center for Biological Systems Analysis&lt;/a&gt; in Freiburg (Germany) ha
 
 &lt;blockquote&gt;
   &lt;p&gt;Our project studies the effect of specific microRNAs inhibition as a treatment for heart disease. We evaluate transcriptome changes in cardiac cell types in different conditions, and for this we make use of useGalaxy.eu resources. Quality check, mapping, annotation and differential expression analysis are driven in useGalaxy.eu platform with its user-friendly environment, that makes the work fast and straightforward.”&lt;/p&gt;
-&lt;/blockquote&gt;</content><author><name></name></author><category term="UseCase" /><summary type="html">Ileana Duran Fernandez from the School of Medicine of the Technical University of Munich works on heart disease. Thank you Ileana and good luck with your project!</summary></entry><entry><title type="html">A proteomics sample metadata representation for multiomics integration and big data analysis</title><link href="https://galaxyproject.eu/posts/2021/10/08/metadata-representation-for-multiomics-integration/" rel="alternate" type="text/html" title="A proteomics sample metadata representation for multiomics integration and big data analysis" /><published>2021-10-08T00:00:00+02:00</published><updated>2021-10-08T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2021/10/08/metadata-representation-for-multiomics-integration</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/10/08/metadata-representation-for-multiomics-integration/">&lt;p&gt;The amount of public proteomics data is rapidly increasing but there is no standardized format to describe the sample metadata and
-their relationship with the dataset files in a way that fully supports their understanding or reanalysis.&lt;/p&gt;
-
-&lt;p&gt;Here we introduce an extension and implementation of the MAGE-TAB format for proteomics (MAGE-TAB-Proteomics).
-The format has been developed in collaboration with the Proteomics Standards Initiative (PSI), the organization
-in charge of developing open-standard formats in the field. We have also developed general guidelines about what
-information needs to be encoded in MAGE-TAB to improve the reproducibility and enable the reanalysis of proteomics datasets.
-In addition, we have crowdsourced the annotation of over 200 existing public datasets according to these guidelines,
-covering different analytical methods and experimental designs. Finally, we have developed an ecosystem of tools
-to validate MAGE-TAB-Proteomics files and integrate the metadata in the PRIDE database, the most popular PX resource.
-The full specification document describing all aspects of MAGE-TAB-Proteomics version 1.0, the current implementations,
-as well as application examples, is available at the &lt;a href=&quot;https://psidev.info/magetab&quot;&gt;PSI website&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Read more in our &lt;a href=&quot;https://www.nature.com/articles/s41467-021-26111-3&quot;&gt;Nature Communications paper&lt;/a&gt;!&lt;/p&gt;</content><author><name></name></author><category term="paper" /><category term="data" /><summary type="html">The amount of public proteomics data is rapidly increasing but there is no standardized format to describe the sample metadata and their relationship with the dataset files in a way that fully supports their understanding or reanalysis.</summary></entry></feed>
+&lt;/blockquote&gt;</content><author><name></name></author><category term="UseCase" /><summary type="html">Ileana Duran Fernandez from the School of Medicine of the Technical University of Munich works on heart disease. Thank you Ileana and good luck with your project!</summary></entry></feed>
