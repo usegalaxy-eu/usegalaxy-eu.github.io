@@ -146,6 +146,78 @@
 
 
      
+      tags.push(`galaxy`)
+     
+      tags.push(`release`)
+     
+      tags.push(``)
+
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
+
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4 galaxyrelease news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  
+                    <a href="https://docs.galaxyproject.org/en/release_21.09/releases/21.09_announce_user.html">
+                  
+                    <h2 class="title">UseGalaxy.eu update to 21.09</h2>
+                  </a>
+                  <span class="date">
+                    
+	<i class="fa fa-external-link" aria-hidden="true"></i>
+
+
+
+
+
+
+
+
+	<i class="fa fa-bullhorn" aria-hidden="true"></i>
+
+
+
+
+
+                  </span>
+                  <span class="date">
+                    November 25, 2021
+                  </span>
+                  
+                  
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=galaxy'"
+           class="btn btn-primary btn-xs tag-element" role="button">galaxy</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=release'"
+           class="btn btn-primary btn-xs tag-element" role="button">release</a>
+    
+
+
+                </div>
+                <div class="news-content">
+                  <div><p>UseGalaxy.eu has been updated to version 21.09.</p>
+</div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
+
+        news.append(div);
+    }
+    tags = []
+
+
+     
       tags.push(`training`)
      
       tags.push(`TIaaS`)
