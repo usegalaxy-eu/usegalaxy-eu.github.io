@@ -50,6 +50,88 @@
      
       tags.push(`galaxy`)
      
+      tags.push(`support`)
+     
+      tags.push(`society`)
+     
+      tags.push(`report`)
+     
+      tags.push(``)
+
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
+
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4 galaxysupportsocietyreport news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  
+                    <a href="/posts/2021/11/25/ghelp-stats/plain.html">
+                  
+                    <h2 class="title">An overview on the Galaxy Help Forum</h2>
+                  </a>
+                  <span class="date">
+                    
+
+
+
+
+
+
+
+
+
+
+
+                  </span>
+                  <span class="date">
+                    November 25, 2021
+                  </span>
+                  
+                  
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=galaxy'"
+           class="btn btn-primary btn-xs tag-element" role="button">galaxy</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=support'"
+           class="btn btn-primary btn-xs tag-element" role="button">support</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=society'"
+           class="btn btn-primary btn-xs tag-element" role="button">society</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=report'"
+           class="btn btn-primary btn-xs tag-element" role="button">report</a>
+    
+
+
+                </div>
+                <div class="news-content">
+                  <div><p>As part of the Galaxy Community, you have probably visited the <a href="https://help.galaxyproject.org/">Galaxy Help Forum</a> (GHelp). This website, together with the different Gitter channels, is one of the primary meeting places where Galaxy users turn to searching for answers. From the GHelp supporting group, we thank you for the trust you place in us every day.</p>
+</div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
+
+        news.append(div);
+    }
+    tags = []
+
+
+     
+      tags.push(`galaxy`)
+     
       tags.push(`release`)
      
       tags.push(``)
