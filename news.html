@@ -147,6 +147,78 @@
 
 
      
+      tags.push(`data`)
+     
+      tags.push(`COVID-19`)
+     
+      tags.push(`Freiburg`)
+
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
+
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4 dataCOVID-19 news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  
+                    <a href="/posts/2021/11/29/omicron-and-galaxy/">
+                  
+                    <h2 class="title">Omicron and SARS-CoV-2 genome surveillance</h2>
+                  </a>
+                  <span class="date">
+                    
+
+
+
+
+
+
+
+
+
+
+
+                  </span>
+                  <span class="date">
+                    November 29, 2021
+                  </span>
+                  
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
+                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  
+                  
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=data'"
+           class="btn btn-primary btn-xs tag-element" role="button">data</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=COVID-19'"
+           class="btn btn-primary btn-xs tag-element" role="button">COVID-19</a>
+    
+
+
+                </div>
+                <div class="news-content">
+                  <div><p>The newly reported SARS-CoV-2 lineage B.1.1.529 made the headlines last week.
+On Friday then, the <a href="https://www.who.int/news/item/26-11-2021-classification-of-omicron-(b.1.1.529)-sars-cov-2-variant-of-concern">WHO declared the lineage a variant of concern (VOC)</a> asking countries to, among other things, <em>enhance surveillance and sequencing efforts to better understand circulating SARS-CoV-2 variants</em>.</p>
+</div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
+
+        news.append(div);
+    }
+    tags = []
+
+
+     
       tags.push(`tools`)
      
       tags.push(`Freiburg`)
