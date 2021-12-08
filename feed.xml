@@ -1,4 +1,118 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2021-12-08T09:48:00+01:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">Omicron and SARS-CoV-2 genome surveillance</title><link href="https://galaxyproject.eu/posts/2021/11/29/omicron-and-galaxy/" rel="alternate" type="text/html" title="Omicron and SARS-CoV-2 genome surveillance" /><published>2021-11-29T00:00:00+01:00</published><updated>2021-11-29T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2021/11/29/omicron-and-galaxy</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/11/29/omicron-and-galaxy/">&lt;p&gt;The newly reported SARS-CoV-2 lineage B.1.1.529 made the headlines last week.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2021-12-08T13:02:57+01:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">Accessible and scalable detection and identification of foodborne pathogens, a project with Biolytix and funded by EOSC-Life</title><link href="https://galaxyproject.eu/posts/2021/12/08/pathogen-detection-eosc-life-grant/" rel="alternate" type="text/html" title="Accessible and scalable detection and identification of foodborne pathogens, a project with Biolytix and funded by EOSC-Life" /><published>2021-12-08T00:00:00+01:00</published><updated>2021-12-08T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2021/12/08/pathogen-detection-eosc-life-grant</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/12/08/pathogen-detection-eosc-life-grant/">&lt;p&gt;&lt;strong&gt;TLDR&lt;/strong&gt;: Thanks to funding from &lt;a href=&quot;https://www.eosc-life.eu/&quot;&gt;EOSC-Life&lt;/a&gt;, the
+Freiburg Galaxy team will work in 2022 with
+&lt;a href=&quot;https://www.biolytix.ch/en/&quot;&gt;Biolytix&lt;/a&gt;, a Swiss Small and Medium-sized
+Enterprise (SME) specialized in molecular biology and microbiological analyses,
+toward &lt;strong&gt;Accessible and scalable detection and identification of foodborne
+pathogens&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;background&quot;&gt;Background&lt;/h2&gt;
+
+&lt;p&gt;Food contaminations with pathogens are a major burden on our society. In the
+year 2019, foodborne pathogens caused 137 diseases in Germany (BVL 2019).
+Globally, they affect an estimated 600 million people a year and impact
+socioeconomic development at different levels. These outbreaks are mainly due to
+&lt;em&gt;Salmonella&lt;/em&gt; spp. followed by &lt;em&gt;Campylobacter&lt;/em&gt; spp. and Noroviruses.&lt;/p&gt;
+
+&lt;p&gt;During the investigation of a foodborne outbreak, a microbiological analysis of
+the probable responsible food vehicle is performed in order to detect the
+responsible pathogens and track the contamination source. By default, to detect
+bacterial pathogens in food, the European Regulation (CE) follows ISO standards,
+but alternative methods with equivalent performance are possible. Usually,
+foodborne pathogens are detected and identified by stepwise cultures on
+selective media and/or targeting specific genes with real-time PCRs. To
+characterize the detected strains, the current gold standard is Pulsed-field Gel
+Electrophoresis (PFGE) or Multiple-Locus Variable Number Tandem Repeat Analysis
+(MLVA). These techniques have some disadvantages. Whole Genome Sequencing (WGS)
+has been proposed as an alternative:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;detection of all genes with just one sequencing run,&lt;/li&gt;
+  &lt;li&gt;phylogenetic analysis to link cases,&lt;/li&gt;
+  &lt;li&gt;information on antimicrobial resistance genes, virulence, serotype, resistance
+to sanitizers, root cause, and other critical factors in one assay, including
+historical reference to pathogen emergence.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;WGS is more than a surveillance tool and was recommended by the European Centre
+for Disease Prevention and Control (ECDC) and the European Food Safety Authority
+(EFSA) for surveillance and outbreak investigation. WGS still requires isolation
+of the targeted pathogen, which is a time-consuming, not always straightforward
+nor successful process. Sequencing methods without prior isolation could solve
+this issue.&lt;/p&gt;
+
+&lt;p&gt;The evolution of sequencing techniques in the last decades has made possible the
+development of shotgun metagenomic sequencing, i.e. the direct sequencing of all
+DNA present in a sample. This approach gives an overview of the genomic
+composition of all cells in the sample, including the food source itself, the
+microbial community and any possible pathogens and their complete genetic
+information, without the need for prior isolation. Several studies have
+demonstrated the potential of shotgun metagenomics to identify and characterize
+pathogens and their functional characteristics (e.g. virulence genes) in
+naturally contaminated or spiked food samples.&lt;/p&gt;
+
+&lt;p&gt;The currently available studies used Illumina sequencing, generating short
+reads. Longer read lengths, generated by third generation sequencing platforms
+such as Pacific Biosciences (PacBio) and Oxford Nanopore Technologies (ONT),
+make it easier and more practical to identify strains with fewer reads. MinION
+(from Oxford Nanopore) is a portable, real-time device for ONT sequencing.
+Several proof-of-principle studies have shown the utility of ONT long read
+sequencing from metagenomic samples for pathogen identification.&lt;/p&gt;
+
+&lt;h2 id=&quot;our-project&quot;&gt;Our project&lt;/h2&gt;
+
+&lt;p&gt;The industry partner of this project, &lt;a href=&quot;https://www.biolytix.ch/en/&quot;&gt;Biolytix&lt;/a&gt;,
+is a Swiss Small and Medium-sized Enterprise (SME) founded in 1998, that
+specializes in molecular biology and microbiological analyses. They developed a
+procedure to extract, sequence using MinION (ONT) sequencing and analyze a food
+sample for foodborne pathogen detection and contamination source tracking.
+However, the bioinformatics pipelines are not following the best practices for
+open data science, not straightforward and can only be manipulated by the
+original author, making it not scalable.&lt;/p&gt;
+
+&lt;p&gt;The aim of the project is to &lt;strong&gt;modernize, FAIRify and validate the bioinformatic
+pipeline developed by Biolytix to extract, sequence using MinION (ONT)
+sequencing and analyze a food sample for foodborne pathogen detection and
+contamination source tracking using modern paradigms of data science to make it
+accessible and scalable.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;What do we plan to do?&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Version, document and package the manual tasks and custom scripts into proper
+tools;&lt;/li&gt;
+  &lt;li&gt;Replace some tools by state-of-the-art and open-source and free to use tools;&lt;/li&gt;
+  &lt;li&gt;Improve dependency resolution by providing
+&lt;a href=&quot;https://bioconda.github.io/&quot;&gt;Bioconda&lt;/a&gt;/&lt;a href=&quot;https://biocontainers.pro/&quot;&gt;Biocontainer&lt;/a&gt;
+for all tools;&lt;/li&gt;
+  &lt;li&gt;Update and version databases;&lt;/li&gt;
+  &lt;li&gt;Migrate to an explicit workflow environment system (Galaxy):
+    &lt;ol&gt;
+      &lt;li&gt;Update existing wrappers and create new wrappers when needed for all tools
+and share them on the &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/&quot;&gt;Galaxy ToolShed&lt;/a&gt;,&lt;/li&gt;
+      &lt;li&gt;Associate all databases to data managers and add them to Galaxy
+&lt;a href=&quot;https://cernvm.cern.ch/fs/&quot;&gt;CVMFS&lt;/a&gt;,&lt;/li&gt;
+      &lt;li&gt;Add proper visualization,&lt;/li&gt;
+      &lt;li&gt;Add automatic report generation;&lt;/li&gt;
+      &lt;li&gt;Annotate tools and workflows with metadata including
+&lt;a href=&quot;https://bio.tools/&quot;&gt;ELIXIR bio.tools&lt;/a&gt;;&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Validate the workflows:
+    &lt;ol&gt;
+      &lt;li&gt;Blind tests on the data generated by Biolytix,&lt;/li&gt;
+      &lt;li&gt;Comparison with results from existing workflow;&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Develop a suite for automatic workflow tests and integrate it with
+&lt;a href=&quot;https://lifemonitor.eu/&quot;&gt;EOSC-Life Life-Monitor&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Share the workflows on &lt;a href=&quot;https://github.com/galaxyproject/iwc&quot;&gt;IWC&lt;/a&gt; and
+&lt;a href=&quot;https://workflowhub.eu/&quot;&gt;EOSC-Life Workflow Hub&lt;/a&gt;;&lt;/li&gt;
+  &lt;li&gt;Documentation in the form of online tutorials in the
+&lt;a href=&quot;https://training.galaxyproject.org/&quot;&gt;Galaxy Training Network&lt;/a&gt;;&lt;/li&gt;
+  &lt;li&gt;Organization of a workshop;&lt;/li&gt;
+  &lt;li&gt;Dissemination and advertisement of the workflows to interested (industry)
+parties.&lt;/li&gt;
+&lt;/ol&gt;</content><author><name></name></author><summary type="html">TLDR: Thanks to funding from EOSC-Life, the Freiburg Galaxy team will work in 2022 with Biolytix, a Swiss Small and Medium-sized Enterprise (SME) specialized in molecular biology and microbiological analyses, toward Accessible and scalable detection and identification of foodborne pathogens.</summary></entry><entry><title type="html">Omicron and SARS-CoV-2 genome surveillance</title><link href="https://galaxyproject.eu/posts/2021/11/29/omicron-and-galaxy/" rel="alternate" type="text/html" title="Omicron and SARS-CoV-2 genome surveillance" /><published>2021-11-29T00:00:00+01:00</published><updated>2021-11-29T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2021/11/29/omicron-and-galaxy</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/11/29/omicron-and-galaxy/">&lt;p&gt;The newly reported SARS-CoV-2 lineage B.1.1.529 made the headlines last week.
 On Friday then, the &lt;a href=&quot;https://www.who.int/news/item/26-11-2021-classification-of-omicron-(b.1.1.529)-sars-cov-2-variant-of-concern&quot;&gt;WHO declared the lineage a variant of concern (VOC)&lt;/a&gt; asking countries to, among other things, &lt;em&gt;enhance surveillance and sequencing efforts to better understand circulating SARS-CoV-2 variants&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;For several months, the Galaxy Project has kept running a free, public genome surveillance program based on raw sequencing data deposited in the public databases of the &lt;a href=&quot;https://www.ebi.ac.uk/ena/browser/&quot;&gt;ENA&lt;/a&gt; and the &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/sra&quot;&gt;SRA&lt;/a&gt;.
@@ -630,130 +744,4 @@ For each topic, we could have slides for the “theory” and hands-on to illust
 
 &lt;ul&gt;
   &lt;li&gt;pangolin was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/pangolin/debfccc4d65b&quot;&gt;debfccc4d65b&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2021-11-06, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #298</summary></entry><entry><title type="html">UseGalaxy.eu Tool Updates for 2021-10-30</title><link href="https://galaxyproject.eu/posts/2021/10/30/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2021-10-30" /><published>2021-10-30T00:00:00+02:00</published><updated>2021-10-30T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2021/10/30/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/10/30/tool-update/">&lt;p&gt;On 2021-10-30, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#297/&quot;&gt;Jenkins Build #297&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;send-data&quot;&gt;Send Data&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;ena_upload was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/ena_upload/e1b3b37aa69f&quot;&gt;e1b3b37aa69f&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;nanopore&quot;&gt;Nanopore&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;ont_fast5_api_compress_fast5 was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/ont_fast5_api_compress_fast5/82c6009bc120&quot;&gt;82c6009bc120&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;ont_fast5_api_fast5_subset was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/ont_fast5_api_fast5_subset/0defe443ea04&quot;&gt;0defe443ea04&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;ont_fast5_api_multi_to_single_fast5 was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/ont_fast5_api_multi_to_single_fast5/f98c015cebd8&quot;&gt;f98c015cebd8&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;ont_fast5_api_single_to_multi_fast5 was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/ont_fast5_api_single_to_multi_fast5/435344af6dc9&quot;&gt;435344af6dc9&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;graphdisplay-data&quot;&gt;Graph/Display Data&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;ggplot2_heatmap was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/ggplot2_heatmap/391a4cc45fea&quot;&gt;391a4cc45fea&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;ggplot2_histogram was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/ggplot2_histogram/1f0242e49a58&quot;&gt;1f0242e49a58&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;ggplot2_histogram was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/ggplot2_histogram/398e5104f8a2&quot;&gt;398e5104f8a2&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;ggplot2_pca was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/ggplot2_pca/1b9406a1a769&quot;&gt;1b9406a1a769&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;ggplot2_pca was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/ggplot2_pca/7e616a1bdb07&quot;&gt;7e616a1bdb07&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;ggplot2_point was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/ggplot2_point/87908c76ca8d&quot;&gt;87908c76ca8d&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;ggplot2_point was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/ggplot2_point/e3a675da7fd0&quot;&gt;e3a675da7fd0&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;ggplot2_violin was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/ggplot2_violin/3a270cee1239&quot;&gt;3a270cee1239&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;ggplot2_violin was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/ggplot2_violin/dfd5d981b5a4&quot;&gt;dfd5d981b5a4&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;convert-formats&quot;&gt;Convert Formats&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;bioext_bam2msa was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bioext_bam2msa/27202050e185&quot;&gt;27202050e185&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;biom_convert was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/biom_convert/54ccb7e1f49a&quot;&gt;54ccb7e1f49a&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;mapping&quot;&gt;Mapping&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;bioext_bealign was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bioext_bealign/c239e93d9f04&quot;&gt;c239e93d9f04&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;fastafastq&quot;&gt;FASTA/FASTQ&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;umi_tools_count was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/umi_tools_count/24013bf85a6f&quot;&gt;24013bf85a6f&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;umi_tools_dedup was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/umi_tools_dedup/aa9a4233c641&quot;&gt;aa9a4233c641&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;umi_tools_extract was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/umi_tools_extract/7accf7407811&quot;&gt;7accf7407811&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;umi_tools_group was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/umi_tools_group/1263189f6204&quot;&gt;1263189f6204&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;umi_tools_whitelist was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/umi_tools_whitelist/81bebc3027fc&quot;&gt;81bebc3027fc&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;assembly&quot;&gt;Assembly&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;miniasm was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/miniasm/80d1250bd5fd&quot;&gt;80d1250bd5fd&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;annotation&quot;&gt;Annotation&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;hamronize_summarize was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hamronize_summarize/a84e3131ae6a&quot;&gt;a84e3131ae6a&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;hamronize_tool was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hamronize_tool/ec82fac4eb4b&quot;&gt;ec82fac4eb4b&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;chemicaltoolbox&quot;&gt;ChemicalToolBox&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;gmx_editconf was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/gmx_editconf/8be9cb12a4fa&quot;&gt;8be9cb12a4fa&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;gmx_em was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/gmx_em/59c662ca4211&quot;&gt;59c662ca4211&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;gmx_energy was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/gmx_energy/97872d87ba80&quot;&gt;97872d87ba80&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;gmx_makendx was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/gmx_makendx/5f9f51642a24&quot;&gt;5f9f51642a24&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;gmx_merge_topology_files was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/gmx_merge_topology_files/534ff13ea227&quot;&gt;534ff13ea227&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;gmx_restraints was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/gmx_restraints/54eadeb47ab9&quot;&gt;54eadeb47ab9&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;gmx_setup was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/gmx_setup/8ad46f918541&quot;&gt;8ad46f918541&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;gmx_sim was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/gmx_sim/525ca7c8065f&quot;&gt;525ca7c8065f&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;gmx_solvate was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/gmx_solvate/61094e01eff9&quot;&gt;61094e01eff9&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;gmx_trj was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/gmx_trj/b4705476229d&quot;&gt;b4705476229d&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;proteomics&quot;&gt;Proteomics&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;openms_openpepxl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_openpepxl/a2a842b00f9c&quot;&gt;a2a842b00f9c&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;openms_percolatoradapter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_percolatoradapter/0fc9ae55bcfc&quot;&gt;0fc9ae55bcfc&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;openms_percolatoradapter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_percolatoradapter/e7881a82b56d&quot;&gt;e7881a82b56d&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;openms_xfdr was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_xfdr/81402a5e4173&quot;&gt;81402a5e4173&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;openms_xfdr was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_xfdr/9a6e3bb0f358&quot;&gt;9a6e3bb0f358&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;hca_sc_scanpy_tools&quot;&gt;hca_sc_scanpy_tools&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;anndata_ops was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/anndata_ops/a36d7a315be7&quot;&gt;a36d7a315be7&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;scanpy_compute_graph was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_compute_graph/a58d4166805b&quot;&gt;a58d4166805b&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;scanpy_filter_cells was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_filter_cells/4c42e5d8cb7c&quot;&gt;4c42e5d8cb7c&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;scanpy_filter_genes was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_filter_genes/7857ea93a011&quot;&gt;7857ea93a011&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;scanpy_find_cluster was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_find_cluster/35caf3c27c91&quot;&gt;35caf3c27c91&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;scanpy_find_markers was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_find_markers/eb01a7e59e9a&quot;&gt;eb01a7e59e9a&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;scanpy_find_variable_genes was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_find_variable_genes/0edb75c411a4&quot;&gt;0edb75c411a4&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;scanpy_integrate_bbknn was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_integrate_bbknn/6e903e287858&quot;&gt;6e903e287858&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;scanpy_integrate_combat was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_integrate_combat/9f995f5e855a&quot;&gt;9f995f5e855a&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;scanpy_integrate_harmony was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_integrate_harmony/ca0c7251e415&quot;&gt;ca0c7251e415&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;scanpy_integrate_mnn was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_integrate_mnn/94697510d55f&quot;&gt;94697510d55f&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;scanpy_normalise_data was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_normalise_data/439f7f939d46&quot;&gt;439f7f939d46&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;scanpy_parameter_iterator was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_parameter_iterator/0387a2179f88&quot;&gt;0387a2179f88&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;scanpy_plot_embed was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_plot_embed/99dd7baf9e23&quot;&gt;99dd7baf9e23&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;scanpy_plot_trajectory was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_plot_trajectory/629ed290bf30&quot;&gt;629ed290bf30&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;scanpy_read_10x was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_read_10x/30a139b5fcfb&quot;&gt;30a139b5fcfb&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;scanpy_regress_variable was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_regress_variable/2cf10c8c094d&quot;&gt;2cf10c8c094d&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;scanpy_run_diffmap was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_run_diffmap/7abe27a3866e&quot;&gt;7abe27a3866e&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;scanpy_run_dpt was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_run_dpt/5c54f3eb81d3&quot;&gt;5c54f3eb81d3&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;scanpy_run_fdg was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_run_fdg/5bcec1fc4c7f&quot;&gt;5bcec1fc4c7f&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;scanpy_run_paga was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_run_paga/9dcd0b02d686&quot;&gt;9dcd0b02d686&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;scanpy_run_pca was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_run_pca/ce93e630b55a&quot;&gt;ce93e630b55a&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;scanpy_run_tsne was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_run_tsne/8eff7ec034e3&quot;&gt;8eff7ec034e3&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;scanpy_run_umap was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_run_umap/0f98603d0116&quot;&gt;0f98603d0116&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;scanpy_scale_data was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_scale_data/c6e52529260e&quot;&gt;c6e52529260e&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;metabolomics&quot;&gt;Metabolomics&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;isoplot was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/workflow4metabolomics/isoplot/dd3e046a72ad&quot;&gt;dd3e046a72ad&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2021-10-30, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #297</summary></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2021-11-06, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #298</summary></entry></feed>

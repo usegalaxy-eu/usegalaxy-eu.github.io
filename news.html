@@ -147,6 +147,68 @@
 
 
      
+      tags.push(`Freiburg`)
+
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
+
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4  news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  
+                    <a href="/posts/2021/12/08/pathogen-detection-eosc-life-grant/">
+                  
+                    <h2 class="title">Accessible and scalable detection and identification of foodborne pathogens, a project with Biolytix and funded by EOSC-Life</h2>
+                  </a>
+                  <span class="date">
+                    
+
+
+
+
+
+
+
+
+
+
+
+                  </span>
+                  <span class="date">
+                    December 8, 2021
+                  </span>
+                  
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
+                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  
+                  
+
+                </div>
+                <div class="news-content">
+                  <div><p><strong>TLDR</strong>: Thanks to funding from <a href="https://www.eosc-life.eu/">EOSC-Life</a>, the
+Freiburg Galaxy team will work in 2022 with
+<a href="https://www.biolytix.ch/en/">Biolytix</a>, a Swiss Small and Medium-sized
+Enterprise (SME) specialized in molecular biology and microbiological analyses,
+toward <strong>Accessible and scalable detection and identification of foodborne
+pathogens</strong>.</p>
+</div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
+
+        news.append(div);
+    }
+    tags = []
+
+
+     
       tags.push(`data`)
      
       tags.push(`COVID-19`)
