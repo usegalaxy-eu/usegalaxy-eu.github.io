@@ -1,92 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2022-01-16T14:07:15+01:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2022-01-16</title><link href="https://galaxyproject.eu/posts/2022/01/16/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2022-01-16" /><published>2022-01-16T00:00:00+01:00</published><updated>2022-01-16T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2022/01/16/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2022/01/16/tool-update/">&lt;p&gt;On 2022-01-16, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#305/&quot;&gt;Jenkins Build #305&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;variant-calling&quot;&gt;Variant Calling&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;artic_guppyplex was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/artic_guppyplex/5ceeb5a5d70f&quot;&gt;5ceeb5a5d70f&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_annotate was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_annotate/403553ae19f6&quot;&gt;403553ae19f6&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_annotate was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_annotate/8a885a1a92ea&quot;&gt;8a885a1a92ea&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_call was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_call/072f606e2e69&quot;&gt;072f606e2e69&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_call was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_call/5801eff9ac7e&quot;&gt;5801eff9ac7e&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_concat was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_concat/81426b3cf18b&quot;&gt;81426b3cf18b&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_concat was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_concat/874cc12ae316&quot;&gt;874cc12ae316&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_concat was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_concat/d40d4bf05718&quot;&gt;d40d4bf05718&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_consensus was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_consensus/d6dc477167f8&quot;&gt;d6dc477167f8&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_convert_from_vcf was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_convert_from_vcf/b8e9da766b0f&quot;&gt;b8e9da766b0f&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_convert_from_vcf was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_convert_from_vcf/e968db9208a4&quot;&gt;e968db9208a4&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_convert_to_vcf was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_convert_to_vcf/7887b9d94c05&quot;&gt;7887b9d94c05&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_convert_to_vcf was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_convert_to_vcf/fec517907949&quot;&gt;fec517907949&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_csq was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_csq/f10f5b4e7854&quot;&gt;f10f5b4e7854&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_csq was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_csq/fdd127bd4a32&quot;&gt;fdd127bd4a32&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_filter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_filter/6ca7c55a27e8&quot;&gt;6ca7c55a27e8&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_filter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_filter/a892912c09d5&quot;&gt;a892912c09d5&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_gtcheck was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_gtcheck/672b6c02fbc7&quot;&gt;672b6c02fbc7&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_gtcheck was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_gtcheck/9243f0e24906&quot;&gt;9243f0e24906&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_isec was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_isec/02f349bdbf96&quot;&gt;02f349bdbf96&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_isec was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_isec/0d7d3de5ef5d&quot;&gt;0d7d3de5ef5d&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_merge was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_merge/27026ed52654&quot;&gt;27026ed52654&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_merge was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_merge/9473302f4588&quot;&gt;9473302f4588&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_merge was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_merge/e03f2f3ac3a9&quot;&gt;e03f2f3ac3a9&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_mpileup was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_mpileup/0dbff46d5a1b&quot;&gt;0dbff46d5a1b&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_mpileup was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_mpileup/a0c219ecb5e7&quot;&gt;a0c219ecb5e7&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_norm was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_norm/a62e934346f5&quot;&gt;a62e934346f5&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_norm was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_norm/c077f71d351f&quot;&gt;c077f71d351f&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_plugin_color_chrs was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_plugin_color_chrs/71dfde92fd57&quot;&gt;71dfde92fd57&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_plugin_color_chrs was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_plugin_color_chrs/c39113e2ae34&quot;&gt;c39113e2ae34&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_plugin_frameshifts was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_plugin_frameshifts/48ac4d611e92&quot;&gt;48ac4d611e92&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_plugin_frameshifts was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_plugin_frameshifts/eb22990a2be9&quot;&gt;eb22990a2be9&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_query was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_query/5fce85148ed1&quot;&gt;5fce85148ed1&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_query was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_query/c9c5718edc19&quot;&gt;c9c5718edc19&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_reheader was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_reheader/9ef52d95114b&quot;&gt;9ef52d95114b&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_reheader was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_reheader/d68c43202172&quot;&gt;d68c43202172&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_roh was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_roh/427e353bf26f&quot;&gt;427e353bf26f&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_roh was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_roh/b76adb2f1c51&quot;&gt;b76adb2f1c51&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_view was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_view/1262c96a9974&quot;&gt;1262c96a9974&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_view was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_view/98d5499ead46&quot;&gt;98d5499ead46&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;varscan_mpileup was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/varscan_mpileup/45288fb1f3f5&quot;&gt;45288fb1f3f5&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;rna-analysis&quot;&gt;RNA Analysis&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;seurat was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/seurat/bb9732cfcdbe&quot;&gt;bb9732cfcdbe&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;annotation&quot;&gt;Annotation&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;roary was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/roary/91887494eb97&quot;&gt;91887494eb97&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;picard&quot;&gt;Picard&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;picard was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/picard/881d7645d1bf&quot;&gt;881d7645d1bf&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;imaging&quot;&gt;Imaging&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;projective_transformation was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/imgteam/projective_transformation/1ffdb07020ee&quot;&gt;1ffdb07020ee&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;idr_download_by_ids was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/idr_download_by_ids/cbd605a24336&quot;&gt;cbd605a24336&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;proteomics&quot;&gt;Proteomics&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;openms_openpepxl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_openpepxl/a2a842b00f9c&quot;&gt;a2a842b00f9c&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;openms_percolatoradapter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_percolatoradapter/0fc9ae55bcfc&quot;&gt;0fc9ae55bcfc&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;openms_percolatoradapter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_percolatoradapter/e7881a82b56d&quot;&gt;e7881a82b56d&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;openms_xfdr was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_xfdr/81402a5e4173&quot;&gt;81402a5e4173&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;openms_xfdr was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_xfdr/9a6e3bb0f358&quot;&gt;9a6e3bb0f358&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;climate-analysis&quot;&gt;Climate Analysis&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;cdo_info was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/climate/cdo_info/8e0ae5c594e7&quot;&gt;8e0ae5c594e7&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;cdo_operations was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/climate/cdo_operations/d5355f6fa02b&quot;&gt;d5355f6fa02b&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2022-01-16, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #305</summary></entry><entry><title type="html">UseGalaxy.eu Tool Updates for 2022-01-14</title><link href="https://galaxyproject.eu/posts/2022/01/14/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2022-01-14" /><published>2022-01-14T00:00:00+01:00</published><updated>2022-01-14T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2022/01/14/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2022/01/14/tool-update/">&lt;p&gt;On 2022-01-14, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#304/&quot;&gt;Jenkins Build #304&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2022-01-16T14:23:56+01:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2022-01-14</title><link href="https://galaxyproject.eu/posts/2022/01/14/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2022-01-14" /><published>2022-01-14T00:00:00+01:00</published><updated>2022-01-14T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2022/01/14/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2022/01/14/tool-update/">&lt;p&gt;On 2022-01-14, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#304/&quot;&gt;Jenkins Build #304&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;graphdisplay-data&quot;&gt;Graph/Display Data&lt;/h2&gt;
 
@@ -1210,4 +1122,14 @@ enhancements in Tool Panel, Collections, Importing Data, Reports, Datatypes and 
   &lt;li&gt;openms_percolatoradapter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_percolatoradapter/e7881a82b56d&quot;&gt;e7881a82b56d&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;openms_xfdr was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_xfdr/81402a5e4173&quot;&gt;81402a5e4173&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;openms_xfdr was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_xfdr/9a6e3bb0f358&quot;&gt;9a6e3bb0f358&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2021-11-21, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #300</summary></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2021-11-21, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #300</summary></entry><entry><title type="html">4th de.NBI Cloud User meeting</title><link href="https://galaxyproject.eu/posts/2021/11/17/4th-denbi-cloud-meeting/" rel="alternate" type="text/html" title="4th de.NBI Cloud User meeting" /><published>2021-11-17T00:00:00+01:00</published><updated>2021-11-17T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2021/11/17/4th-denbi-cloud-meeting</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/11/17/4th-denbi-cloud-meeting/">&lt;p&gt;The &lt;a href=&quot;https://events.denbi.de/event/1/&quot;&gt;4th de.NBI Cloud User meeting&lt;/a&gt; took place from 12th to 24th of November 2021.&lt;/p&gt;
+
+&lt;p&gt;Many researchers from different bioinformatics research areas gathered to learn more about cloud computing and the de.NBI Cloud.&lt;/p&gt;
+
+&lt;p&gt;The Galaxy Team contributed to the event, organizing two different workshops:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://events.denbi.de/event/1/program&quot;&gt;Bioconda and Biocontainers&lt;/a&gt; - organizer: Björn Grüning&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://events.denbi.de/event/1/program&quot;&gt;Deploying a compute cluster in OpenStack via Terraform&lt;/a&gt; - organizer: Gianmauro Cuccuru&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Both of them have garnered the interest of the cloud community.&lt;/p&gt;</content><author><name></name></author><category term="training" /><summary type="html">The 4th de.NBI Cloud User meeting took place from 12th to 24th of November 2021.</summary></entry></feed>
