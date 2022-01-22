@@ -158,6 +158,92 @@
 
 
      
+      tags.push(`galaxy`)
+     
+      tags.push(`support`)
+     
+      tags.push(`society`)
+     
+      tags.push(`report`)
+     
+      tags.push(``)
+
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
+
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4 galaxysupportsocietyreport news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  
+                    <a href="/posts/2022/01/20/reached-4000-users/">
+                  
+                    <h2 class="title">Usegalaxy.eu surpassed 40.000 registered users</h2>
+                  </a>
+                  <span class="date">
+                    
+
+
+
+
+
+
+
+
+
+
+
+                  </span>
+                  <span class="date">
+                    January 20, 2022
+                  </span>
+                  
+                  
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=galaxy'"
+           class="btn btn-primary btn-xs tag-element" role="button">galaxy</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=support'"
+           class="btn btn-primary btn-xs tag-element" role="button">support</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=society'"
+           class="btn btn-primary btn-xs tag-element" role="button">society</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=report'"
+           class="btn btn-primary btn-xs tag-element" role="button">report</a>
+    
+
+
+                </div>
+                <div class="news-content">
+                  <div><p>We are celebrating that usegalaxy.eu reached 40,000 registered users last November! Over the last year, the number of registered users has almost doubled, from 25,000 to more than 41,000 by January 2022. As we can see in figure 1, the growth in the number of new registered users shows a constant increase since 2019.</p>
+
+<p><img src="/assets/media/reached_40000/total_users_galaxyeu.png" alt="Total number of registered" /></p>
+
+<p><em>Figure 1. Total number of users registered in usegalaxy.eu since 2019.</em></p>
+</div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
+
+        news.append(div);
+    }
+    tags = []
+
+
+     
       tags.push(`tools`)
      
       tags.push(`Freiburg`)
