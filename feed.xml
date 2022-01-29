@@ -1,4 +1,137 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2022-01-29T04:27:55+01:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2022-01-23</title><link href="https://galaxyproject.eu/posts/2022/01/23/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2022-01-23" /><published>2022-01-23T00:00:00+01:00</published><updated>2022-01-23T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2022/01/23/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2022/01/23/tool-update/">&lt;p&gt;On 2022-01-23, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#306/&quot;&gt;Jenkins Build #306&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2022-01-29T17:31:59+01:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2022-01-29</title><link href="https://galaxyproject.eu/posts/2022/01/29/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2022-01-29" /><published>2022-01-29T00:00:00+01:00</published><updated>2022-01-29T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2022/01/29/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2022/01/29/tool-update/">&lt;p&gt;On 2022-01-29, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#308/&quot;&gt;Jenkins Build #308&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;metagenomic-analysis&quot;&gt;Metagenomic Analysis&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;metabat2 was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/metabat2/76bc4efa1aeb&quot;&gt;76bc4efa1aeb&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;annotation&quot;&gt;Annotation&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;interproscan was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/interproscan/c762a1cd357e&quot;&gt;c762a1cd357e&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;variant-calling&quot;&gt;Variant Calling&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;pharmcat was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/pharmcat/d67642a21a1d&quot;&gt;d67642a21a1d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;bcftools_annotate was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_annotate/403553ae19f6&quot;&gt;403553ae19f6&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;bcftools_call was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_call/072f606e2e69&quot;&gt;072f606e2e69&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;bcftools_call was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_call/5801eff9ac7e&quot;&gt;5801eff9ac7e&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;bcftools_concat was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_concat/874cc12ae316&quot;&gt;874cc12ae316&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;bcftools_concat was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_concat/d40d4bf05718&quot;&gt;d40d4bf05718&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;bcftools_consensus was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_consensus/d6dc477167f8&quot;&gt;d6dc477167f8&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;bcftools_convert_from_vcf was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_convert_from_vcf/b8e9da766b0f&quot;&gt;b8e9da766b0f&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;bcftools_convert_to_vcf was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_convert_to_vcf/fec517907949&quot;&gt;fec517907949&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;bcftools_csq was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_csq/f10f5b4e7854&quot;&gt;f10f5b4e7854&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;bcftools_csq was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_csq/fdd127bd4a32&quot;&gt;fdd127bd4a32&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;bcftools_filter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_filter/6ca7c55a27e8&quot;&gt;6ca7c55a27e8&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;bcftools_gtcheck was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_gtcheck/672b6c02fbc7&quot;&gt;672b6c02fbc7&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;bcftools_isec was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_isec/02f349bdbf96&quot;&gt;02f349bdbf96&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;bcftools_merge was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_merge/9473302f4588&quot;&gt;9473302f4588&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;bcftools_merge was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_merge/e03f2f3ac3a9&quot;&gt;e03f2f3ac3a9&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;bcftools_mpileup was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_mpileup/0dbff46d5a1b&quot;&gt;0dbff46d5a1b&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;bcftools_norm was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_norm/a62e934346f5&quot;&gt;a62e934346f5&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;bcftools_norm was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_norm/c077f71d351f&quot;&gt;c077f71d351f&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;bcftools_plugin_color_chrs was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_plugin_color_chrs/71dfde92fd57&quot;&gt;71dfde92fd57&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;bcftools_plugin_color_chrs was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_plugin_color_chrs/c39113e2ae34&quot;&gt;c39113e2ae34&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;bcftools_plugin_frameshifts was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_plugin_frameshifts/48ac4d611e92&quot;&gt;48ac4d611e92&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;bcftools_plugin_frameshifts was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_plugin_frameshifts/eb22990a2be9&quot;&gt;eb22990a2be9&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;bcftools_query was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_query/c9c5718edc19&quot;&gt;c9c5718edc19&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;bcftools_reheader was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_reheader/9ef52d95114b&quot;&gt;9ef52d95114b&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;bcftools_roh was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_roh/b76adb2f1c51&quot;&gt;b76adb2f1c51&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;bcftools_view was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_view/98d5499ead46&quot;&gt;98d5499ead46&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;vardict_java was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/vardict_java/e0734e88a104&quot;&gt;e0734e88a104&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;get-data&quot;&gt;Get Data&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;ncbi_datasets was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/ncbi_datasets/1a7773882d2c&quot;&gt;1a7773882d2c&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;assembly&quot;&gt;Assembly&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;abyss was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/abyss/8f1b150a2487&quot;&gt;8f1b150a2487&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;rnaspades was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/rnaspades/ef69617ecb42&quot;&gt;ef69617ecb42&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;spades_biosyntheticspades was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/spades_biosyntheticspades/1bb12736175c&quot;&gt;1bb12736175c&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;spades_biosyntheticspades was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/spades_biosyntheticspades/42a39792aaae&quot;&gt;42a39792aaae&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;spades_coronaspades was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/spades_coronaspades/7004279ff8b7&quot;&gt;7004279ff8b7&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;spades_coronaspades was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/spades_coronaspades/808b3a0a6716&quot;&gt;808b3a0a6716&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;spades_metaplasmidspades was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/spades_metaplasmidspades/32ab23671cc1&quot;&gt;32ab23671cc1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;spades_metaplasmidspades was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/spades_metaplasmidspades/8d4b90bf9caf&quot;&gt;8d4b90bf9caf&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;spades_metaviralspades was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/spades_metaviralspades/9346dcffaafc&quot;&gt;9346dcffaafc&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;spades_metaviralspades was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/spades_metaviralspades/f1532cb33c75&quot;&gt;f1532cb33c75&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;spades_plasmidspades was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/spades_plasmidspades/e41dcb0e913b&quot;&gt;e41dcb0e913b&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;spades_plasmidspades was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/spades_plasmidspades/eabeb1a74dac&quot;&gt;eabeb1a74dac&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;spades_rnaviralspades was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/spades_rnaviralspades/249f6a28c751&quot;&gt;249f6a28c751&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;spades_rnaviralspades was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/spades_rnaviralspades/5df83f4bad67&quot;&gt;5df83f4bad67&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;metaspades was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/nml/metaspades/a9b8c9e204ee&quot;&gt;a9b8c9e204ee&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;metaspades was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/nml/metaspades/f338e9942b27&quot;&gt;f338e9942b27&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;spades was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/nml/spades/74f20c988994&quot;&gt;74f20c988994&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;spades was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/nml/spades/d2d1df21dfb9&quot;&gt;d2d1df21dfb9&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;phylogenetics&quot;&gt;Phylogenetics&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;nextalign was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/nextalign/6f6a2cb188cf&quot;&gt;6f6a2cb188cf&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;nextclade was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/nextclade/64be7ff9b97b&quot;&gt;64be7ff9b97b&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;virology&quot;&gt;Virology&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;read_it_and_keep was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/read_it_and_keep/554aa2a63f04&quot;&gt;554aa2a63f04&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;chemicaltoolbox&quot;&gt;ChemicalToolBox&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;acpype_amber2gromacs was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/acpype_amber2gromacs/5b4ae74b7f0b&quot;&gt;5b4ae74b7f0b&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;ambertools_acpype was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/ambertools_acpype/095ad4d096d1&quot;&gt;095ad4d096d1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;ambertools_antechamber was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/ambertools_antechamber/4fff93efc0f9&quot;&gt;4fff93efc0f9&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;ambertools_antechamber was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/ambertools_antechamber/8a839e6a1e3e&quot;&gt;8a839e6a1e3e&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;ambertools_parmchk2 was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/ambertools_parmchk2/7c9bfca84241&quot;&gt;7c9bfca84241&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;ambertools_parmchk2 was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/ambertools_parmchk2/ecc43bf27a49&quot;&gt;ecc43bf27a49&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mmpbsa_mmgbsa was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/mmpbsa_mmgbsa/45dc2555933c&quot;&gt;45dc2555933c&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mmpbsa_mmgbsa was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/mmpbsa_mmgbsa/608098b3668d&quot;&gt;608098b3668d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;parmconv was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/parmconv/5a97cb53a456&quot;&gt;5a97cb53a456&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;parmconv was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/parmconv/6d0677a148fe&quot;&gt;6d0677a148fe&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;tleap was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/tleap/3de1359b86cc&quot;&gt;3de1359b86cc&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;data-managers&quot;&gt;Data Managers&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;data_manager_eggnog_mapper_abspath was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/data_manager_eggnog_mapper_abspath/fcb8bdd124f4&quot;&gt;fcb8bdd124f4&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;proteomics&quot;&gt;Proteomics&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;eggnog_mapper was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/eggnog_mapper/96cac424c870&quot;&gt;96cac424c870&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_openpepxl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_openpepxl/a2a842b00f9c&quot;&gt;a2a842b00f9c&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_percolatoradapter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_percolatoradapter/0fc9ae55bcfc&quot;&gt;0fc9ae55bcfc&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_percolatoradapter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_percolatoradapter/e7881a82b56d&quot;&gt;e7881a82b56d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_xfdr was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_xfdr/81402a5e4173&quot;&gt;81402a5e4173&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_xfdr was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_xfdr/9a6e3bb0f358&quot;&gt;9a6e3bb0f358&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;single-cell&quot;&gt;Single-cell&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;music_construct_eset was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/music_construct_eset/7902cd31b9b5&quot;&gt;7902cd31b9b5&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;music_inspect_eset was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/music_inspect_eset/577435e5e6b2&quot;&gt;577435e5e6b2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;imaging&quot;&gt;Imaging&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;projective_transformation_points was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/imgteam/projective_transformation_points/3a686b6aa7fc&quot;&gt;3a686b6aa7fc&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2022-01-29, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #308</summary></entry><entry><title type="html">UseGalaxy.eu Tool Updates for 2022-01-23</title><link href="https://galaxyproject.eu/posts/2022/01/23/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2022-01-23" /><published>2022-01-23T00:00:00+01:00</published><updated>2022-01-23T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2022/01/23/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2022/01/23/tool-update/">&lt;p&gt;On 2022-01-23, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#306/&quot;&gt;Jenkins Build #306&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;gis-data-handling&quot;&gt;GIS Data Handling&lt;/h2&gt;
 
@@ -1104,34 +1237,4 @@ With the first reports of B.1.1.529 appearing last week, we ran our analysis wor
 &lt;p&gt;Check out the &lt;a href=&quot;https://docs.galaxyproject.org/en/release_21.09/releases/21.09_announce_user.html&quot;&gt;user release notes&lt;/a&gt; for a lot more details, there are many more
 enhancements in Tool Panel, Collections, Importing Data, Reports, Datatypes and bugfixes.&lt;/p&gt;
 
-&lt;p&gt;Enjoy! And if you find issues, please &lt;a href=&quot;mailto:contact@usegalaxy.eu&quot;&gt;let us know&lt;/a&gt;!&lt;/p&gt;</content><author><name></name></author><category term="galaxy" /><category term="release" /><summary type="html">UseGalaxy.eu has been updated to version 21.09.</summary></entry><entry><title type="html">An overview and statistics on the Galaxy Help Forum</title><link href="https://galaxyproject.eu/posts/2021/11/25/ghelp-stats/" rel="alternate" type="text/html" title="An overview and statistics on the Galaxy Help Forum" /><published>2021-11-25T00:00:00+01:00</published><updated>2021-11-25T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2021/11/25/ghelp-stats</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/11/25/ghelp-stats/">&lt;p&gt;As part of the Galaxy Community, you have probably visited the &lt;a href=&quot;https://help.galaxyproject.org/&quot;&gt;Galaxy Help Forum&lt;/a&gt; (GHelp). This website, together with the different Gitter channels, is one of the primary meeting places where Galaxy users turn to searching for answers. From the GHelp supporting group, we thank you for the trust you place in us every day.&lt;/p&gt;
-
-&lt;p&gt;Since November 2018, when it was put into service, more than 3,000 users have been registered, and around 9,300 posts have been written. Currently, the average number of daily visits is around 800 (fig. 1), having reached its peak in May 2021, with 2,800 visits in a single day.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/media/ghelp_stats/visits_two_months.png&quot; alt=&quot;Visits last months&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Figure 1. Daily number of visits in the period between October and November 2021.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;The analysis of the records since 2019 shows that the average number of daily visits has risen from 464 in 2019 to 822 visits in 2021 (fig. 2). A remarkable aspect of the trend in the increase in visits is the sharp spike that occurred in April 2020, coinciding with the origin of the pandemic (fig. 3). During this period, the average number of visits increased from around 600 to more than 800 visits per month. One of the factors that undoubtedly determined this increase was the growing interest of researchers in bioinformatics tools linked to COVID-19 research.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/media/ghelp_stats/visits_box.png&quot; alt=&quot;Visits boxplot&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Figure 2. Description of the number of visits from 2019 to 2021.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Since then, the monthly number of visits has been around 800 users, peaking in May 2020. With respect to the total number of visits, between the period from January 1st to November 23st, the values recorded in 2019, 2020 and 2021 were 152,002, 264,426 and 268,793 respectively.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/media/ghelp_stats/visits_median.png&quot; alt=&quot;Visits median&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Figure 3. Total number of visits from 2019 to 2021.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Regarding the number of posts, the average number of new publications per month since 2019 is above 200, peaking in May 2019, when 370 new entries were published (fig. 4). In 2021, from January 1st to November 23rd, 2,895 new entries have been published.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/media/ghelp_stats/posts_box.png&quot; alt=&quot;Posts boxplot&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Figure 4. Description of the number of posts from 2019 to 2021.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;To conclude this post, we would like to encourage all members of the Galaxy Community to participate in &lt;a href=&quot;https://help.galaxyproject.org/&quot;&gt;GHelp&lt;/a&gt;.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The mutual-aid tendency in man has so remote an origin, and is so deeply interwoven with all the past evolution of the human race, that is has been maintained by mankind up to the present time, notwithstanding all vicissitudes of history. ― Peter Kropotkin&lt;/p&gt;
-&lt;/blockquote&gt;</content><author><name></name></author><category term="galaxy" /><category term="support" /><category term="society" /><category term="report" /><summary type="html">As part of the Galaxy Community, you have probably visited the Galaxy Help Forum (GHelp). This website, together with the different Gitter channels, is one of the primary meeting places where Galaxy users turn to searching for answers. From the GHelp supporting group, we thank you for the trust you place in us every day.</summary></entry></feed>
+&lt;p&gt;Enjoy! And if you find issues, please &lt;a href=&quot;mailto:contact@usegalaxy.eu&quot;&gt;let us know&lt;/a&gt;!&lt;/p&gt;</content><author><name></name></author><category term="galaxy" /><category term="release" /><summary type="html">UseGalaxy.eu has been updated to version 21.09.</summary></entry></feed>
