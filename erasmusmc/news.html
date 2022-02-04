@@ -150,6 +150,74 @@
      
       tags.push(`support`)
      
+      tags.push(``)
+
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
+
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4 galaxysupport news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  
+                    <a href="/posts/2022/02/01/27001-certifiation/">
+                  
+                    <h2 class="title">IT security management of the University of Freiburg certified by TÜV SÜD</h2>
+                  </a>
+                  <span class="date">
+                    
+
+
+
+
+
+
+
+
+
+
+
+                  </span>
+                  <span class="date">
+                    February 1, 2022
+                  </span>
+                  
+                  
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=galaxy'"
+           class="btn btn-primary btn-xs tag-element" role="button">galaxy</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=support'"
+           class="btn btn-primary btn-xs tag-element" role="button">support</a>
+    
+
+
+                </div>
+                <div class="news-content">
+                  <div><p><a href="https://www.tuvsud.com">TÜV SÜD</a> has awarded the University’s data centre the international certification for information security management systems (<a href="https://en.wikipedia.org/wiki/Information_security_management">ISMS</a>) <a href="https://en.wikipedia.org/wiki/ISO/IEC_27001">ISO/IEC 27001</a>.</p>
+</div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
+
+        news.append(div);
+    }
+    tags = []
+
+
+     
+      tags.push(`galaxy`)
+     
+      tags.push(`support`)
+     
       tags.push(`society`)
      
       tags.push(`report`)
