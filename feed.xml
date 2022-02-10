@@ -1,105 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2022-02-10T17:42:44+01:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2022-02-10</title><link href="https://galaxyproject.eu/posts/2022/02/10/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2022-02-10" /><published>2022-02-10T00:00:00+01:00</published><updated>2022-02-10T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2022/02/10/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2022/02/10/tool-update/">&lt;p&gt;On 2022-02-10, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#311/&quot;&gt;Jenkins Build #311&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;variant-calling&quot;&gt;Variant Calling&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;bcftools_annotate was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_annotate/403553ae19f6&quot;&gt;403553ae19f6&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_call was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_call/072f606e2e69&quot;&gt;072f606e2e69&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_call was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_call/5801eff9ac7e&quot;&gt;5801eff9ac7e&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_concat was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_concat/874cc12ae316&quot;&gt;874cc12ae316&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_concat was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_concat/d40d4bf05718&quot;&gt;d40d4bf05718&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_consensus was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_consensus/d6dc477167f8&quot;&gt;d6dc477167f8&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_convert_from_vcf was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_convert_from_vcf/b8e9da766b0f&quot;&gt;b8e9da766b0f&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_convert_to_vcf was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_convert_to_vcf/fec517907949&quot;&gt;fec517907949&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_csq was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_csq/f10f5b4e7854&quot;&gt;f10f5b4e7854&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_csq was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_csq/fdd127bd4a32&quot;&gt;fdd127bd4a32&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_filter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_filter/6ca7c55a27e8&quot;&gt;6ca7c55a27e8&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_gtcheck was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_gtcheck/672b6c02fbc7&quot;&gt;672b6c02fbc7&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_isec was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_isec/02f349bdbf96&quot;&gt;02f349bdbf96&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_merge was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_merge/9473302f4588&quot;&gt;9473302f4588&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_merge was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_merge/e03f2f3ac3a9&quot;&gt;e03f2f3ac3a9&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_mpileup was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_mpileup/0dbff46d5a1b&quot;&gt;0dbff46d5a1b&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_norm was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_norm/a62e934346f5&quot;&gt;a62e934346f5&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_norm was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_norm/c077f71d351f&quot;&gt;c077f71d351f&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_plugin_color_chrs was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_plugin_color_chrs/71dfde92fd57&quot;&gt;71dfde92fd57&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_plugin_color_chrs was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_plugin_color_chrs/c39113e2ae34&quot;&gt;c39113e2ae34&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_plugin_frameshifts was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_plugin_frameshifts/48ac4d611e92&quot;&gt;48ac4d611e92&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_plugin_frameshifts was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_plugin_frameshifts/eb22990a2be9&quot;&gt;eb22990a2be9&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_query was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_query/c9c5718edc19&quot;&gt;c9c5718edc19&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_reheader was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_reheader/9ef52d95114b&quot;&gt;9ef52d95114b&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_roh was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_roh/b76adb2f1c51&quot;&gt;b76adb2f1c51&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_view was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_view/98d5499ead46&quot;&gt;98d5499ead46&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;fastafastq&quot;&gt;FASTA/FASTQ&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;cutadapt was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/lparsons/cutadapt/48f587c13075&quot;&gt;48f587c13075&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;assembly&quot;&gt;Assembly&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;quast was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/quast/875d0f36d66f&quot;&gt;875d0f36d66f&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;rnaspades was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/rnaspades/53c2bc8c2ae3&quot;&gt;53c2bc8c2ae3&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;spades_biosyntheticspades was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/spades_biosyntheticspades/7490b213baa9&quot;&gt;7490b213baa9&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;spades_coronaspades was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/spades_coronaspades/d6e617c4e338&quot;&gt;d6e617c4e338&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;spades_metaplasmidspades was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/spades_metaplasmidspades/b8002c3f7141&quot;&gt;b8002c3f7141&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;spades_metaviralspades was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/spades_metaviralspades/2a10645aeadd&quot;&gt;2a10645aeadd&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;spades_plasmidspades was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/spades_plasmidspades/340bc17f49cf&quot;&gt;340bc17f49cf&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;spades_rnaviralspades was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/spades_rnaviralspades/d159735a6a9f&quot;&gt;d159735a6a9f&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;metaspades was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/nml/metaspades/e731ea24e48d&quot;&gt;e731ea24e48d&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;spades was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/nml/spades/7897763d14ec&quot;&gt;7897763d14ec&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;rna-analysis&quot;&gt;RNA Analysis&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;trinity_gene_to_trans_map was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/trinity_gene_to_trans_map/964b7efe2639&quot;&gt;964b7efe2639&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;metagenomic-analysis&quot;&gt;Metagenomic Analysis&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;data_manager_build_bracken_database was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/data_manager_build_bracken_database/fd5830f88314&quot;&gt;fd5830f88314&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;chemicaltoolbox&quot;&gt;ChemicalToolBox&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;gmx_get_builtin_file was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/gmx_get_builtin_file/a81256d23782&quot;&gt;a81256d23782&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;gromacs_extract_topology was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/gromacs_extract_topology/9faa4f4b8b76&quot;&gt;9faa4f4b8b76&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;gromacs_modify_topology was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/gromacs_modify_topology/5521a057ed6a&quot;&gt;5521a057ed6a&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;proteomics&quot;&gt;Proteomics&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;openms_openpepxl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_openpepxl/40cc19c0dbd6&quot;&gt;40cc19c0dbd6&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;openms_openpepxl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_openpepxl/a2a842b00f9c&quot;&gt;a2a842b00f9c&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;openms_openpepxl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_openpepxl/fc36cfd19834&quot;&gt;fc36cfd19834&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;openms_percolatoradapter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_percolatoradapter/0fc9ae55bcfc&quot;&gt;0fc9ae55bcfc&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;openms_percolatoradapter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_percolatoradapter/e7881a82b56d&quot;&gt;e7881a82b56d&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;openms_xfdr was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_xfdr/81402a5e4173&quot;&gt;81402a5e4173&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;openms_xfdr was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_xfdr/9a6e3bb0f358&quot;&gt;9a6e3bb0f358&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;single-cell&quot;&gt;Single-cell&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;music_compare was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/music_compare/10bf0f89035f&quot;&gt;10bf0f89035f&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;music_construct_eset was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/music_construct_eset/7ffaa0968da3&quot;&gt;7ffaa0968da3&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;music_deconvolution was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/music_deconvolution/56371b5a2da9&quot;&gt;56371b5a2da9&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;music_inspect_eset was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/music_inspect_eset/8c64a2da3869&quot;&gt;8c64a2da3869&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;annotation&quot;&gt;Annotation&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;maker was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/maker/a444254e9a57&quot;&gt;a444254e9a57&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;maker_map_ids was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/maker_map_ids/9e0cc465595e&quot;&gt;9e0cc465595e&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;maker_map_ids was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/maker_map_ids/e906fa778440&quot;&gt;e906fa778440&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2022-02-10, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #311</summary></entry><entry><title type="html">UseGalaxy.eu Tool Updates for 2022-02-06</title><link href="https://galaxyproject.eu/posts/2022/02/06/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2022-02-06" /><published>2022-02-06T00:00:00+01:00</published><updated>2022-02-06T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2022/02/06/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2022/02/06/tool-update/">&lt;p&gt;On 2022-02-06, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#310/&quot;&gt;Jenkins Build #310&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2022-02-10T21:15:10+01:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2022-02-06</title><link href="https://galaxyproject.eu/posts/2022/02/06/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2022-02-06" /><published>2022-02-06T00:00:00+01:00</published><updated>2022-02-06T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2022/02/06/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2022/02/06/tool-update/">&lt;p&gt;On 2022-02-06, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#310/&quot;&gt;Jenkins Build #310&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;variant-calling&quot;&gt;Variant Calling&lt;/h2&gt;
 
@@ -1169,4 +1068,51 @@ and share them on the &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/&quot;&gt;
   &lt;li&gt;Organization of a workshop;&lt;/li&gt;
   &lt;li&gt;Dissemination and advertisement of the workflows to interested (industry)
 parties.&lt;/li&gt;
-&lt;/ol&gt;</content><author><name></name></author><summary type="html">TLDR: Thanks to funding from EOSC-Life, the Freiburg Galaxy team will work in 2022 with Biolytix, a Swiss Small and Medium-sized Enterprise (SME) specialized in molecular biology and microbiological analyses, toward Accessible and scalable detection and identification of foodborne pathogens.</summary></entry></feed>
+&lt;/ol&gt;</content><author><name></name></author><summary type="html">TLDR: Thanks to funding from EOSC-Life, the Freiburg Galaxy team will work in 2022 with Biolytix, a Swiss Small and Medium-sized Enterprise (SME) specialized in molecular biology and microbiological analyses, toward Accessible and scalable detection and identification of foodborne pathogens.</summary></entry><entry><title type="html">Omicron and SARS-CoV-2 genome surveillance</title><link href="https://galaxyproject.eu/posts/2021/11/29/omicron-and-galaxy/" rel="alternate" type="text/html" title="Omicron and SARS-CoV-2 genome surveillance" /><published>2021-11-29T00:00:00+01:00</published><updated>2021-11-29T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2021/11/29/omicron-and-galaxy</id><content type="html" xml:base="https://galaxyproject.eu/posts/2021/11/29/omicron-and-galaxy/">&lt;p&gt;The newly reported SARS-CoV-2 lineage B.1.1.529 made the headlines last week.
+On Friday then, the &lt;a href=&quot;https://www.who.int/news/item/26-11-2021-classification-of-omicron-(b.1.1.529)-sars-cov-2-variant-of-concern&quot;&gt;WHO declared the lineage a variant of concern (VOC)&lt;/a&gt; asking countries to, among other things, &lt;em&gt;enhance surveillance and sequencing efforts to better understand circulating SARS-CoV-2 variants&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;For several months, the Galaxy Project has kept running a free, public genome surveillance program based on raw sequencing data deposited in the public databases of the &lt;a href=&quot;https://www.ebi.ac.uk/ena/browser/&quot;&gt;ENA&lt;/a&gt; and the &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/sra&quot;&gt;SRA&lt;/a&gt;.
+Among the countries we have been collaborating with to ensure high-quality analysis of their national SARS-CoV-2 genome sequencing efforts has been South Africa, which we included recently in our public dashboard at &lt;a href=&quot;https://covid19.galaxyproject.org/dashboard&quot;&gt;https://covid19.galaxyproject.org/dashboard&lt;/a&gt;.
+With the first reports of B.1.1.529 appearing last week, we ran our analysis workflows on one of their latest batches of data, and can offer now a first view of the Omicron lineage’s mutational pattern derived transparently and fully reproducibly from raw sequencing reads.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://usegalaxy.eu/u/sars-cov2-requests-bot/h/b11529-run234-midnight-primers&quot;&gt;The full analysis history&lt;/a&gt; of a batch of 68 samples, most of which turn out to be of the Omicron lineage, enables everybody to verify claims made about the mutations found in the new VOC. No need to rely on hard to verify FASTA consensus sequences, nor on mainstream media - just check out the analysis and see the samples and the derived variant calls and lineage assignments right there.&lt;/p&gt;
+
+&lt;p&gt;For the impatient, here’s the summary plot of the variant spectrum of the batch (taken directly from the linked history above):&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/media/2021-11-29-omicron-variant-plot.png&quot; alt=&quot;Omicron seen through Galaxy&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The reported, unprecedentedly high number of mutations in the spike protein (delineated by the narrow violet bar at the top of the plot) of the VOC can be identified clearly. The full analysis confirms all key mutations that have been publically reported.&lt;/p&gt;
+
+&lt;p&gt;A huge thank you goes to the &lt;a href=&quot;https://www.krisp.org.za/&quot;&gt;KwaZulu-Natal Research Innovation and Sequencing Platform&lt;/a&gt; (KRISP) for submitting raw sequencing data of South African samples in an extremely timely manner under NCBI Bioproject &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/bioproject/PRJNA636748/&quot;&gt;PRJNA636748&lt;/a&gt;. It is open sharing of data of this kind that enables scientific insight (even if the information gathered is as unpleasant as a new VOC)!&lt;/p&gt;
+
+&lt;p&gt;In case you want to understand better how viral variant calling and lineage assignment work and even want to try things yourself, we have prepared a &lt;a href=&quot;https://usegalaxy.eu/u/sars-cov2-requests-bot/h/b11529-try-your-own-analysis&quot;&gt;starting history with just the raw data and required accessory datasets&lt;/a&gt; for you to experiment with. Use it in conjunction with our &lt;a href=&quot;https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/sars-cov-2-variant-discovery/tutorial.html&quot;&gt;dedicated training material&lt;/a&gt; to familiarize yourself with an aspect of science that has and, unfortunately, will continue to have a huge impact on our daily lives.&lt;/p&gt;
+
+&lt;h3 id=&quot;update-2021-12-05&quot;&gt;Update 2021-12-05&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;We published the first selection analysis results about Omicron on virological.org: &lt;a href=&quot;https://virological.org/t/selection-analysis-identifies-significant-mutational-changes-in-omicron-that-are-likely-to-influence-both-antibody-neutralization-and-spike-function-part-1-of-2&quot;&gt;“Selection analysis identifies significant mutational changes in Omicron that are likely to influence both antibody neutralization and Spike function”&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/media/sars/omicron_intro-host-allelic-variation.png&quot; alt=&quot;Intra-host allelic variation&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;You can see above the intra-host allelic variation seen at Omicron amino acid mutation sites in a subset of SARS-CoV-2 raw sequencing data since March 2020 analyzed using the Galaxy variant calling pipeline&lt;/li&gt;
+  &lt;li&gt;As you can see in the image, many Omicron mutations have been seen in subconsensus frequencies long before identification of Omicron.&lt;/li&gt;
+  &lt;li&gt;Conclusion: Intermediate frequency data is critical for early detection and you can get this data in a high quality from &lt;a href=&quot;ftp://xfer13.crg.eu/&quot;&gt;us&lt;/a&gt;. Happy research!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;update-2021-12-08&quot;&gt;Update 2021-12-08&lt;/h3&gt;
+
+&lt;p&gt;New analysis results are available from both ONT and Illumina data:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://usegalaxy.eu/u/sars-cov2-requests-bot/h/omicron-ont-midnight-batch-1&quot;&gt;Galaxy History - omicron-ont-midnight-batch-1&lt;/a&gt; (141 ONT runs, 130 assigned to B.1.1.529)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://usegalaxy.eu/u/sars-cov2-requests-bot/h/omicron-illumina-articv4-batch-1&quot;&gt;Galaxy History - omicron-illumina-articv4-batch-1&lt;/a&gt; (70 Illumina runs, 66 assigned to B.1.1.529)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Further readings:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://covid19.galaxyproject.org&quot;&gt;https://covid19.galaxyproject.org&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://galaxyproject.eu/news?tag=COVID-19&quot;&gt;https://galaxyproject.eu/news?tag=COVID-19&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="data" /><category term="COVID-19" /><summary type="html">The newly reported SARS-CoV-2 lineage B.1.1.529 made the headlines last week. On Friday then, the WHO declared the lineage a variant of concern (VOC) asking countries to, among other things, enhance surveillance and sequencing efforts to better understand circulating SARS-CoV-2 variants.</summary></entry></feed>
