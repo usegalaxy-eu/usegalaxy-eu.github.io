@@ -158,6 +158,73 @@
 
 
      
+      tags.push(`tools`)
+     
+      tags.push(``)
+
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
+
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4 tools news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  
+                    <a href="/posts/2022/02/24/alphafold/">
+                  
+                    <h2 class="title">AlphaFold now available in Galaxy</h2>
+                  </a>
+                  <span class="date">
+                    
+
+
+
+
+
+	<i class="fa fa-wrench" aria-hidden="true"></i>
+
+
+
+
+
+
+
+                  </span>
+                  <span class="date">
+                    February 24, 2022
+                  </span>
+                  
+                  
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=tools'"
+           class="btn btn-primary btn-xs tag-element" role="button">tools</a>
+    
+
+
+                </div>
+                <div class="news-content">
+                  <div><p>It seems the whole world is talking about <a href="https://deepmind.com/blog/article/putting-the-power-of-alphafold-into-the-worlds-hands">AlphaFold</a>,
+the AI system that predicts a protein’s 3D structure from its amino acid sequence that
+achieves accuracy comparable with real-life experiments. There was much fanfare last year when <a href="https://deepmind.com/">DeepMind</a> published
+the <a href="https://www.nature.com/articles/s41586-021-03819-2">scientific paper</a> and
+<a href="https://github.com/deepmind/alphafold/">source code</a> that explained their innovative system.</p>
+</div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
+
+        news.append(div);
+    }
+    tags = []
+
+
+     
       tags.push(`galaxy`)
      
       tags.push(`devops`)

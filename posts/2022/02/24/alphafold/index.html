@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  <title>Galaxy Europe | ELIXIR staff exchange between the German and Italian ELIXIR nodes</title>
-  <meta property="og:title" content="ELIXIR staff exchange between the German and Italian ELIX..." />
-  <meta property="og:description" content="Hello, I’m Pietro Mandreoli, PhD student at the Universit..." />
+  <title>Galaxy Europe | AlphaFold now available in Galaxy</title>
+  <meta property="og:title" content="AlphaFold now available in Galaxy" />
+  <meta property="og:description" content="It seems the whole world is talking about AlphaFold,
+the ..." />
   <meta property="og:image" content="/assets/media/galaxy-eu-logo.512.png" />
   <meta name="description" content="The European Galaxy Instance">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,7 +17,7 @@
 
 
 
-  <link rel="canonical" href="https://galaxyproject.eu/posts/2022/02/22/ELIXIR-staff-exchange/">
+  <link rel="canonical" href="https://galaxyproject.eu/posts/2022/02/24/alphafold/">
   <link rel="shortcut icon" href="/assets/media/galaxy-eu-logo.64.png" type="image/x-icon" />
   <link rel="alternate" type="application/rss+xml" title="Galaxy Europe" href="/feed.xml">
 
@@ -143,20 +144,16 @@
 <section id="news-page">
   <div class="row news-header-row">
     
-    <a class="col-xs-1 text-center" href="/posts/2022/02/21/paper-dead-box-rna-helicase/">
+    <a class="col-xs-1 text-center" href="/posts/2022/02/22/ELIXIR-staff-exchange/">
       «
     </a>
     
     <div class="col-xs-10 ">
       <div class="text-center">
-        <h2 class="title">ELIXIR staff exchange between the German and Italian ELIXIR nodes</h2>
+        <h2 class="title">AlphaFold now available in Galaxy</h2>
       </div>
       <hr />
     </div>
-    
-    <a class="col-xs-1 text-center" href="/posts/2022/02/24/alphafold/">
-      »
-    </a>
     
   </div>
   <div class="row post-metadata">
@@ -169,7 +166,7 @@
         <div class="col-md-6 text-right">
           <div>
             <span class="post-date">
-              Feb 22, 2022
+              Feb 24, 2022
             </span>
 
             
@@ -178,9 +175,7 @@
             <span class="post-tags">
                 <span class="label label-success"></span>
               
-                <span class="label label-info">galaxy</span>
-              
-                <span class="label label-info">devops</span>
+                <span class="label label-info">tools</span>
               
               
             </span>
@@ -195,20 +190,36 @@
   <div class="row">
     <div class="col-md-8 col-md-offset-2">
       <div class="news-content">
-        <p>Hello, I’m Pietro Mandreoli, PhD student at the University of Milan (Italy) and one of the developers of the <a href="laniakea-elixir-it.github.io">Laniakea</a> platform for the deployment of on-demand Galaxy instances over Cloud infrastructures.</p>
+        <p>It seems the whole world is talking about <a href="https://deepmind.com/blog/article/putting-the-power-of-alphafold-into-the-worlds-hands">AlphaFold</a>,
+the AI system that predicts a protein’s 3D structure from its amino acid sequence that
+achieves accuracy comparable with real-life experiments. There was much fanfare last year when <a href="https://deepmind.com/">DeepMind</a> published
+the <a href="https://www.nature.com/articles/s41586-021-03819-2">scientific paper</a> and
+<a href="https://github.com/deepmind/alphafold/">source code</a> that explained their innovative system.</p>
 
-<p>The ELIXIR Staff Exchange program gave me the precious opportunity to work in Freiburg for two months, with the amazing useGalaxy.eu team. 
-In this period I worked hard to understand each component of the UseGalaxy.eu infrastructure, how they are configured but above all how it is maintained and kept up to date over time.
-My final aim is to reproduce the very same (or quite similar!) infrastructure in Italy, opening the path to an Italian National version of usegalaxy.</p>
+<p>In partnership with <a href="https://alphafold.ebi.ac.uk/">EMBL’s European Bioinformatics Institute (EMBL-EBI)</a> the predictions for the shape of every single protein in the human body,
+as well as for the proteins of 20 other important organisms were made freely available to the scientific community.</p>
 
-<p>I have tested the deployment of a completely cloud hosted version of the Usegalaxy.eu infrastructure, consisting of only the Galaxy instance and its underlying HTcondor based infrastructure. This deployment procedure once finished, tested and documented, can be used by other groups as a starting point, a seed, for the development  of other  Usegalaxy.* services.
-This work allowed me to become familiar with the software used to operate and maintain Usegalaxy.eu e.g. Terraform, Ansible, Jenkins and it was interesting for the platform developers team to test once again part of their infrastructure deployment process.</p>
+<p><img src="/assets/media/alphafold.png" alt="Aphafold in Galaxy" /></p>
 
-<p>During my stay, I also had the opportunity to improve Laniakea and contribute to the ELIXIR-IT community, deploying a dedicated CVMFS mirror of the GalaxyProject one hosting reference data at <a href="https://cloud.garr.it">GARR cloud</a> in Italy.
-In addition to the purely technical things I have mentioned so far, these two months were also a great experience from the cultural and social point of view. 
-The group was lovely and welcomed me immediately, and we have spent a lot of time together outside, hiking in the forest and trying different restaurants. I particularly recommend Kantine West, great hamburgers :D.
-This experience also helped me to improve my proficiency with English, and to integrate better into the awesome Galaxy community.
-I would thank ELIXIR-Italy  for giving me the opportunity to experience this, and the German Node for hosting me so kindly. It was a wonderful experience and I think it has definitely laid the foundations for future collaborations between the German and Italian Elixir nodes.</p>
+<p>Understanding a protein’s structure helps us to understand their function, and is traditionally achieved through slow, laborious experimentation. Painstaking effort over many years has determined the structures of around 100,000 unique proteins, but this represents just a tiny fraction of the billions of known protein sequences. Using computational approaches to enable large-scale structural bioinformatics to predict protein structures now promises to fast track our understanding of protein structure.</p>
+
+<p>The Galaxy community, spearheaded by <a href="https://www.biocommons.org.au/galaxy-australia">Galaxy Australia</a>, saw an opportunity to further democratise access
+to this useful tool by making AlphaFold 2.0 available in Galaxy.
+The Galaxy project provides researchers access to a rich catalogue of computational resources and now includes the GPU clusters required to power AlphaFold 2.0.
+Life scientists can now easily visualise the consequences of DNA variants at the protein level, accelerating understanding of protein-protein interactions, activation or inhibition studies and drug design as examples.</p>
+
+<p>It was an ambitious and technically challenging task, made possible through the work of multiple people around the world. While Galaxy Australia Developers and Admins laboured away
+to make the specific hardware, reference data and environment setup work together, Galaxy EU provided the necessary GPU-enabled development machine to test the approach. This technical
+triumph means that AlphaFold 2.0 is now available for installation on all Galaxy services globally, via the <a href="https://toolshed.g2.bx.psu.edu/">Galaxy toolshed</a>.</p>
+
+<p>The AlphaFold Service is now taking amino acid sequences from the user, and all the set-up and provisioning of underlying infrastructure are taken care of by Galaxy, so researchers can focus on generating the protein 3D structure itself.</p>
+
+<div align="center">
+<a href="https://usegalaxy.eu/?tool_id=alphafold"><button type="button" class="btn btn-primary btn-lg">Start AlphaFold now</button></a>
+</div>
+<p><br /></p>
+
+<p>Thanks especially to <a href="https://www.biocommons.org.au/">Australian BioCommons</a> for this <a href="https://www.biocommons.org.au/news/alphafold-galaxy-au">great collaboration</a>.</p>
 
       </div>
     </div>
@@ -233,6 +244,43 @@ I would thank ELIXIR-Italy  for giving me the opportunity to experience this, an
             
             <a href="https://www.elixir-europe.org" target="_blank">
                 <img alt="ELIXIR logo" src="/assets/media/elixir_logo.png" class="img-responsive eu-image" />
+            </a>
+            
+        </div>
+        
+        
+        
+        
+        <div class="col-md-6">
+            
+            
+            <a href="https://www.denbi.de" target="_blank">
+                <img alt="de.NBI logo" src="/assets/media/deNBI_Logo_rgb.png" class="img-responsive eu-image" />
+            </a>
+            
+        </div>
+        
+        
+        
+        
+        <div class="col-md-6">
+            
+            
+            <a href="http://uni-freiburg.de/" target="_blank">
+                <img alt="University of Freiburg Logo" src="/assets/media/Logo_Uni_Freiburg.png"
+                    class="img-responsive eu-image" />
+            </a>
+            
+        </div>
+        
+        
+        
+        
+        <div class="col-md-6">
+            
+            
+            <a href="https://www.biocommons.org.au/" target="_blank">
+                <img alt="Australian Biocommons" src="/assets/media/australian_biocommons.png" class="img-responsive eu-image" />
             </a>
             
         </div>
@@ -272,7 +320,7 @@ All content on this site is available under <a href="https://creativecommons.org
         <div class="row">
             <div class="col-lg-12" style="text-align:center">
                 <ul class="contact-info">
-                    <li><i class="fa fa-github"></i><a href="https://github.com/usegalaxy-eu/website/tree/master/_posts/2022-02-22-ELIXIR-staff-exchange.md">Edit this page on GitHub</a></li>
+                    <li><i class="fa fa-github"></i><a href="https://github.com/usegalaxy-eu/website/tree/master/_posts/2022-02-24-alphafold.md">Edit this page on GitHub</a></li>
                     
                       <li><i class="fa fa-envelope"></i><a href="mailto:contact@usegalaxy.eu">contact@usegalaxy.eu</a></li>
                     

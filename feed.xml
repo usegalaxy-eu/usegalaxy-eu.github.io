@@ -1,4 +1,33 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2022-02-23T17:43:30+01:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">ELIXIR staff exchange between the German and Italian ELIXIR nodes</title><link href="https://galaxyproject.eu/posts/2022/02/22/ELIXIR-staff-exchange/" rel="alternate" type="text/html" title="ELIXIR staff exchange between the German and Italian ELIXIR nodes" /><published>2022-02-22T00:00:00+01:00</published><updated>2022-02-22T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2022/02/22/ELIXIR-staff-exchange</id><content type="html" xml:base="https://galaxyproject.eu/posts/2022/02/22/ELIXIR-staff-exchange/">&lt;p&gt;Hello, I’m Pietro Mandreoli, PhD student at the University of Milan (Italy) and one of the developers of the &lt;a href=&quot;laniakea-elixir-it.github.io&quot;&gt;Laniakea&lt;/a&gt; platform for the deployment of on-demand Galaxy instances over Cloud infrastructures.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2022-02-24T10:30:20+01:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">AlphaFold now available in Galaxy</title><link href="https://galaxyproject.eu/posts/2022/02/24/alphafold/" rel="alternate" type="text/html" title="AlphaFold now available in Galaxy" /><published>2022-02-24T00:00:00+01:00</published><updated>2022-02-24T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2022/02/24/alphafold</id><content type="html" xml:base="https://galaxyproject.eu/posts/2022/02/24/alphafold/">&lt;p&gt;It seems the whole world is talking about &lt;a href=&quot;https://deepmind.com/blog/article/putting-the-power-of-alphafold-into-the-worlds-hands&quot;&gt;AlphaFold&lt;/a&gt;,
+the AI system that predicts a protein’s 3D structure from its amino acid sequence that
+achieves accuracy comparable with real-life experiments. There was much fanfare last year when &lt;a href=&quot;https://deepmind.com/&quot;&gt;DeepMind&lt;/a&gt; published
+the &lt;a href=&quot;https://www.nature.com/articles/s41586-021-03819-2&quot;&gt;scientific paper&lt;/a&gt; and
+&lt;a href=&quot;https://github.com/deepmind/alphafold/&quot;&gt;source code&lt;/a&gt; that explained their innovative system.&lt;/p&gt;
+
+&lt;p&gt;In partnership with &lt;a href=&quot;https://alphafold.ebi.ac.uk/&quot;&gt;EMBL’s European Bioinformatics Institute (EMBL-EBI)&lt;/a&gt; the predictions for the shape of every single protein in the human body,
+as well as for the proteins of 20 other important organisms were made freely available to the scientific community.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/media/alphafold.png&quot; alt=&quot;Aphafold in Galaxy&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Understanding a protein’s structure helps us to understand their function, and is traditionally achieved through slow, laborious experimentation. Painstaking effort over many years has determined the structures of around 100,000 unique proteins, but this represents just a tiny fraction of the billions of known protein sequences. Using computational approaches to enable large-scale structural bioinformatics to predict protein structures now promises to fast track our understanding of protein structure.&lt;/p&gt;
+
+&lt;p&gt;The Galaxy community, spearheaded by &lt;a href=&quot;https://www.biocommons.org.au/galaxy-australia&quot;&gt;Galaxy Australia&lt;/a&gt;, saw an opportunity to further democratise access
+to this useful tool by making AlphaFold 2.0 available in Galaxy.
+The Galaxy project provides researchers access to a rich catalogue of computational resources and now includes the GPU clusters required to power AlphaFold 2.0.
+Life scientists can now easily visualise the consequences of DNA variants at the protein level, accelerating understanding of protein-protein interactions, activation or inhibition studies and drug design as examples.&lt;/p&gt;
+
+&lt;p&gt;It was an ambitious and technically challenging task, made possible through the work of multiple people around the world. While Galaxy Australia Developers and Admins laboured away
+to make the specific hardware, reference data and environment setup work together, Galaxy EU provided the necessary GPU-enabled development machine to test the approach. This technical
+triumph means that AlphaFold 2.0 is now available for installation on all Galaxy services globally, via the &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/&quot;&gt;Galaxy toolshed&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The AlphaFold Service is now taking amino acid sequences from the user, and all the set-up and provisioning of underlying infrastructure are taken care of by Galaxy, so researchers can focus on generating the protein 3D structure itself.&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+&lt;a href=&quot;https://usegalaxy.eu/?tool_id=alphafold&quot;&gt;&lt;button type=&quot;button&quot; class=&quot;btn btn-primary btn-lg&quot;&gt;Start AlphaFold now&lt;/button&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Thanks especially to &lt;a href=&quot;https://www.biocommons.org.au/&quot;&gt;Australian BioCommons&lt;/a&gt; for this &lt;a href=&quot;https://www.biocommons.org.au/news/alphafold-galaxy-au&quot;&gt;great collaboration&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="tools" /><summary type="html">It seems the whole world is talking about AlphaFold, the AI system that predicts a protein’s 3D structure from its amino acid sequence that achieves accuracy comparable with real-life experiments. There was much fanfare last year when DeepMind published the scientific paper and source code that explained their innovative system.</summary></entry><entry><title type="html">ELIXIR staff exchange between the German and Italian ELIXIR nodes</title><link href="https://galaxyproject.eu/posts/2022/02/22/ELIXIR-staff-exchange/" rel="alternate" type="text/html" title="ELIXIR staff exchange between the German and Italian ELIXIR nodes" /><published>2022-02-22T00:00:00+01:00</published><updated>2022-02-22T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2022/02/22/ELIXIR-staff-exchange</id><content type="html" xml:base="https://galaxyproject.eu/posts/2022/02/22/ELIXIR-staff-exchange/">&lt;p&gt;Hello, I’m Pietro Mandreoli, PhD student at the University of Milan (Italy) and one of the developers of the &lt;a href=&quot;laniakea-elixir-it.github.io&quot;&gt;Laniakea&lt;/a&gt; platform for the deployment of on-demand Galaxy instances over Cloud infrastructures.&lt;/p&gt;
 
 &lt;p&gt;The ELIXIR Staff Exchange program gave me the precious opportunity to work in Freiburg for two months, with the amazing useGalaxy.eu team. 
 In this period I worked hard to understand each component of the UseGalaxy.eu infrastructure, how they are configured but above all how it is maintained and kept up to date over time.
@@ -498,119 +527,4 @@ especially Jan Leendertse, Dirk von Suchodoletz, Marc Herbstritt and the entire 
 
 &lt;ul&gt;
   &lt;li&gt;projective_transformation_points was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/imgteam/projective_transformation_points/3a686b6aa7fc&quot;&gt;3a686b6aa7fc&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2022-01-29, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #308</summary></entry><entry><title type="html">UseGalaxy.eu Tool Updates for 2022-01-23</title><link href="https://galaxyproject.eu/posts/2022/01/23/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2022-01-23" /><published>2022-01-23T00:00:00+01:00</published><updated>2022-01-23T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2022/01/23/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2022/01/23/tool-update/">&lt;p&gt;On 2022-01-23, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#306/&quot;&gt;Jenkins Build #306&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;gis-data-handling&quot;&gt;GIS Data Handling&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;xarray_coords_info was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ecology/xarray_coords_info/3e73f657a998&quot;&gt;3e73f657a998&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;xarray_mapplot was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ecology/xarray_mapplot/dc05bf0af58f&quot;&gt;dc05bf0af58f&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;xarray_metadata_info was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ecology/xarray_metadata_info/9bbaab36a5d4&quot;&gt;9bbaab36a5d4&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;xarray_netcdf2netcdf was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ecology/xarray_netcdf2netcdf/e87073edecd6&quot;&gt;e87073edecd6&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;xarray_select was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ecology/xarray_select/bf595d613af4&quot;&gt;bf595d613af4&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;variant-calling&quot;&gt;Variant Calling&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;bcftools_annotate was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_annotate/403553ae19f6&quot;&gt;403553ae19f6&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_call was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_call/072f606e2e69&quot;&gt;072f606e2e69&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_call was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_call/5801eff9ac7e&quot;&gt;5801eff9ac7e&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_concat was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_concat/874cc12ae316&quot;&gt;874cc12ae316&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_concat was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_concat/d40d4bf05718&quot;&gt;d40d4bf05718&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_consensus was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_consensus/d6dc477167f8&quot;&gt;d6dc477167f8&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_convert_from_vcf was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_convert_from_vcf/b8e9da766b0f&quot;&gt;b8e9da766b0f&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_convert_to_vcf was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_convert_to_vcf/fec517907949&quot;&gt;fec517907949&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_csq was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_csq/f10f5b4e7854&quot;&gt;f10f5b4e7854&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_csq was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_csq/fdd127bd4a32&quot;&gt;fdd127bd4a32&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_filter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_filter/6ca7c55a27e8&quot;&gt;6ca7c55a27e8&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_gtcheck was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_gtcheck/672b6c02fbc7&quot;&gt;672b6c02fbc7&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_isec was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_isec/02f349bdbf96&quot;&gt;02f349bdbf96&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_merge was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_merge/9473302f4588&quot;&gt;9473302f4588&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_merge was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_merge/e03f2f3ac3a9&quot;&gt;e03f2f3ac3a9&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_mpileup was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_mpileup/0dbff46d5a1b&quot;&gt;0dbff46d5a1b&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_norm was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_norm/a62e934346f5&quot;&gt;a62e934346f5&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_norm was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_norm/c077f71d351f&quot;&gt;c077f71d351f&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_plugin_color_chrs was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_plugin_color_chrs/71dfde92fd57&quot;&gt;71dfde92fd57&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_plugin_color_chrs was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_plugin_color_chrs/c39113e2ae34&quot;&gt;c39113e2ae34&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_plugin_frameshifts was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_plugin_frameshifts/48ac4d611e92&quot;&gt;48ac4d611e92&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_plugin_frameshifts was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_plugin_frameshifts/eb22990a2be9&quot;&gt;eb22990a2be9&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_query was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_query/c9c5718edc19&quot;&gt;c9c5718edc19&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_reheader was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_reheader/9ef52d95114b&quot;&gt;9ef52d95114b&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_roh was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_roh/b76adb2f1c51&quot;&gt;b76adb2f1c51&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_view was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_view/98d5499ead46&quot;&gt;98d5499ead46&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;proteomics&quot;&gt;Proteomics&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;openms_openpepxl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_openpepxl/40cc19c0dbd6&quot;&gt;40cc19c0dbd6&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;openms_openpepxl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_openpepxl/a2a842b00f9c&quot;&gt;a2a842b00f9c&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;openms_openpepxl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_openpepxl/fc36cfd19834&quot;&gt;fc36cfd19834&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;openms_percolatoradapter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_percolatoradapter/0fc9ae55bcfc&quot;&gt;0fc9ae55bcfc&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;openms_percolatoradapter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_percolatoradapter/e7881a82b56d&quot;&gt;e7881a82b56d&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;openms_xfdr was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_xfdr/81402a5e4173&quot;&gt;81402a5e4173&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;openms_xfdr was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_xfdr/9a6e3bb0f358&quot;&gt;9a6e3bb0f358&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;climate-analysis&quot;&gt;Climate Analysis&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;cds_essential_variability was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/climate/cds_essential_variability/ee42b7a33dc7&quot;&gt;ee42b7a33dc7&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;ctsm_fates was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/climate/ctsm_fates/efaa93ed5a79&quot;&gt;efaa93ed5a79&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;imaging&quot;&gt;Imaging&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;image_registration_affine was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/imgteam/image_registration_affine/fa769715b6b0&quot;&gt;fa769715b6b0&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;projective_transformation was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/imgteam/projective_transformation/be9a815e2240&quot;&gt;be9a815e2240&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;annotation&quot;&gt;Annotation&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;interproscan was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/interproscan/2e1cf7d85dbc&quot;&gt;2e1cf7d85dbc&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;rna-analysis&quot;&gt;RNA Analysis&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;seurat was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/seurat/b72d84f6941d&quot;&gt;b72d84f6941d&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;convert-formats&quot;&gt;Convert Formats&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;crossmap_bam was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/crossmap_bam/158b5b2a164a&quot;&gt;158b5b2a164a&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;crossmap_bed was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/crossmap_bed/ee86b27291b5&quot;&gt;ee86b27291b5&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;crossmap_gff was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/crossmap_gff/42b239a32349&quot;&gt;42b239a32349&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;crossmap_region was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/crossmap_region/eb66d7a04bf8&quot;&gt;eb66d7a04bf8&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;crossmap_vcf was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/crossmap_vcf/18f7e96459d2&quot;&gt;18f7e96459d2&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;crossmap_wig was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/crossmap_wig/e72c320c17c1&quot;&gt;e72c320c17c1&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;assembly&quot;&gt;Assembly&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;bionano_scaffold was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/bionano_scaffold/a7f16f24e9a1&quot;&gt;a7f16f24e9a1&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;phylogenetics&quot;&gt;Phylogenetics&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;nextalign was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/nextalign/1021f52c9e11&quot;&gt;1021f52c9e11&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;nextclade was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/nextclade/7004ce07621a&quot;&gt;7004ce07621a&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;none&quot;&gt;None&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;data_manager_humann_database_downloader was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/data_manager_humann_database_downloader/87febc68b45b&quot;&gt;87febc68b45b&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;metagenomic-analysis&quot;&gt;Metagenomic Analysis&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;data_manager_build_bracken_database was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/data_manager_build_bracken_database/fd5830f88314&quot;&gt;fd5830f88314&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2022-01-23, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #306</summary></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2022-01-29, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #308</summary></entry></feed>
