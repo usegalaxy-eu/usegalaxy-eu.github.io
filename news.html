@@ -147,6 +147,68 @@
 
 
      
+      tags.push(`videos`)
+     
+      tags.push(``)
+
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
+
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4 videos news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  
+                    <a href="/posts/2022/02/25/ml-in-galaxy/">
+                  
+                    <h2 class="title">Machine learning in Galaxy Europe</h2>
+                  </a>
+                  <span class="date">
+                    
+
+
+
+
+
+
+
+
+
+
+
+                  </span>
+                  <span class="date">
+                    February 25, 2022
+                  </span>
+                  
+                  
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=videos'"
+           class="btn btn-primary btn-xs tag-element" role="button">videos</a>
+    
+
+
+                </div>
+                <div class="news-content">
+                  <div><p>Artificial intelligence (machine learning and deep learning) algorithms are being increasingly applied in several fields of Bioinformatics such as drug-response 
+and protein structure prediction, imputing missing data in single-cell gene expression, modelling evolution in biological sequences and many more. To harness the potential and versatility of AI’s algorithms, it becomes of utmost importance to deeply understand its algorithms while applying them to biological datasets for predictive tasks. <a href="https://doi.org/10.1371/journal.pcbi.1009014">Galaxy’s ML</a> toolkit provides many popular AI algorithms from Scikit-learn, a popular Python ML library and Keras, a deep learning library based on Google’s Tensorflow, and various other tools for preprocessing and visualization. Recently, we have customized the Jupyterlab notebook to the needs of machine learning researchers and made it available online via Galaxy Europe. It runs on GPU for faster prototyping, is integrated with Git for maintaining code repositories, has a possibility of sending long-running jobs to Galaxy cluster, has added security as it runs inside an isolated <a href="https://github.com/anuprulez/ml-jupyter-notebook">docker container</a> and a few more. A tutorial explaining how to use this infrastructure to develop machine learning algorithms will soon be available in Galaxy Training Network.</p>
+</div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
+
+        news.append(div);
+    }
+    tags = []
+
+
+     
       tags.push(`paper`)
      
       tags.push(`citations`)

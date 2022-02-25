@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  <title>Galaxy Europe | AlphaFold now available in Galaxy</title>
-  <meta property="og:title" content="AlphaFold now available in Galaxy" />
-  <meta property="og:description" content="It seems the whole world is talking about AlphaFold,
-the ..." />
+  <title>Galaxy Europe | Machine learning in Galaxy Europe</title>
+  <meta property="og:title" content="Machine learning in Galaxy Europe" />
+  <meta property="og:description" content="Artificial intelligence (machine learning and deep learni..." />
   <meta property="og:image" content="/assets/media/galaxy-eu-logo.512.png" />
   <meta name="description" content="The European Galaxy Instance">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,7 +16,7 @@ the ..." />
 
 
 
-  <link rel="canonical" href="https://galaxyproject.eu/posts/2022/02/24/alphafold/">
+  <link rel="canonical" href="https://galaxyproject.eu/posts/2022/02/25/ml-in-galaxy/">
   <link rel="shortcut icon" href="/assets/media/galaxy-eu-logo.64.png" type="image/x-icon" />
   <link rel="alternate" type="application/rss+xml" title="Galaxy Europe" href="/feed.xml">
 
@@ -144,18 +143,18 @@ the ..." />
 <section id="news-page">
   <div class="row news-header-row">
     
-    <a class="col-xs-1 text-center" href="/posts/2022/02/22/ELIXIR-staff-exchange/">
+    <a class="col-xs-1 text-center" href="/posts/2022/02/24/alphafold/">
       «
     </a>
     
     <div class="col-xs-10 ">
       <div class="text-center">
-        <h2 class="title">AlphaFold now available in Galaxy</h2>
+        <h2 class="title">Machine learning in Galaxy Europe</h2>
       </div>
       <hr />
     </div>
     
-    <a class="col-xs-1 text-center" href="/posts/2022/02/25/ml-in-galaxy/">
+    <a class="col-xs-1 text-center" href="/posts/2022/02/25/paper-democratizing-data-independent-acquisition-proteomics/">
       »
     </a>
     
@@ -170,7 +169,7 @@ the ..." />
         <div class="col-md-6 text-right">
           <div>
             <span class="post-date">
-              Feb 24, 2022
+              Feb 25, 2022
             </span>
 
             
@@ -179,7 +178,7 @@ the ..." />
             <span class="post-tags">
                 <span class="label label-success"></span>
               
-                <span class="label label-info">tools</span>
+                <span class="label label-info">videos</span>
               
               
             </span>
@@ -194,36 +193,12 @@ the ..." />
   <div class="row">
     <div class="col-md-8 col-md-offset-2">
       <div class="news-content">
-        <p>It seems the whole world is talking about <a href="https://deepmind.com/blog/article/putting-the-power-of-alphafold-into-the-worlds-hands">AlphaFold</a>,
-the AI system that predicts a protein’s 3D structure from its amino acid sequence that
-achieves accuracy comparable with real-life experiments. There was much fanfare last year when <a href="https://deepmind.com/">DeepMind</a> published
-the <a href="https://www.nature.com/articles/s41586-021-03819-2">scientific paper</a> and
-<a href="https://github.com/deepmind/alphafold/">source code</a> that explained their innovative system.</p>
+        <p>Artificial intelligence (machine learning and deep learning) algorithms are being increasingly applied in several fields of Bioinformatics such as drug-response 
+and protein structure prediction, imputing missing data in single-cell gene expression, modelling evolution in biological sequences and many more. To harness the potential and versatility of AI’s algorithms, it becomes of utmost importance to deeply understand its algorithms while applying them to biological datasets for predictive tasks. <a href="https://doi.org/10.1371/journal.pcbi.1009014">Galaxy’s ML</a> toolkit provides many popular AI algorithms from Scikit-learn, a popular Python ML library and Keras, a deep learning library based on Google’s Tensorflow, and various other tools for preprocessing and visualization. Recently, we have customized the Jupyterlab notebook to the needs of machine learning researchers and made it available online via Galaxy Europe. It runs on GPU for faster prototyping, is integrated with Git for maintaining code repositories, has a possibility of sending long-running jobs to Galaxy cluster, has added security as it runs inside an isolated <a href="https://github.com/anuprulez/ml-jupyter-notebook">docker container</a> and a few more. A tutorial explaining how to use this infrastructure to develop machine learning algorithms will soon be available in Galaxy Training Network.</p>
 
-<p>In partnership with <a href="https://alphafold.ebi.ac.uk/">EMBL’s European Bioinformatics Institute (EMBL-EBI)</a> the predictions for the shape of every single protein in the human body,
-as well as for the proteins of 20 other important organisms were made freely available to the scientific community.</p>
+<p>To make experiments with science without doing hands-on would be incomplete. To mitigate this gap, several ready-to-use tutorials have been written as part of <a href="https://training.galaxyproject.org/">Galaxy training materials</a>. In addition, to make them easier to understand, a collection of selected tutorials has been compiled spanning various machine and deep learning algorithms and have been recorded showcasing the tutorials. These videos can be conveniently watched <a href="https://gallantries.github.io/video-library/modules/machine-learning">online</a>. There are three categories of tutorials starting with a few easy, introductory tutorials such as classification and regression and then moving on to complex ones that include deep learning. In each tutorial, you will find videos along with their respective captions in English, links to their slides and tutorial. Moreover, online support in the form of Slack and Gitter is also available for asking questions directly to the respective tutors.</p>
 
-<p><img src="/assets/media/alphafold.png" alt="Aphafold in Galaxy" /></p>
-
-<p>Understanding a protein’s structure helps us to understand their function, and is traditionally achieved through slow, laborious experimentation. Painstaking effort over many years has determined the structures of around 100,000 unique proteins, but this represents just a tiny fraction of the billions of known protein sequences. Using computational approaches to enable large-scale structural bioinformatics to predict protein structures now promises to fast track our understanding of protein structure.</p>
-
-<p>The Galaxy community, spearheaded by <a href="https://www.biocommons.org.au/galaxy-australia">Galaxy Australia</a>, saw an opportunity to further democratise access
-to this useful tool by making AlphaFold 2.0 available in Galaxy.
-The Galaxy project provides researchers access to a rich catalogue of computational resources and now includes the GPU clusters required to power AlphaFold 2.0.
-Life scientists can now easily visualise the consequences of DNA variants at the protein level, accelerating understanding of protein-protein interactions, activation or inhibition studies and drug design as examples.</p>
-
-<p>It was an ambitious and technically challenging task, made possible through the work of multiple people around the world. While Galaxy Australia Developers and Admins laboured away
-to make the specific hardware, reference data and environment setup work together, Galaxy EU provided the necessary GPU-enabled development machine to test the approach. This technical
-triumph means that AlphaFold 2.0 is now available for installation on all Galaxy services globally, via the <a href="https://toolshed.g2.bx.psu.edu/">Galaxy toolshed</a>.</p>
-
-<p>The AlphaFold Service is now taking amino acid sequences from the user, and all the set-up and provisioning of underlying infrastructure are taken care of by Galaxy, so researchers can focus on generating the protein 3D structure itself.</p>
-
-<div align="center">
-<a href="https://usegalaxy.eu/?tool_id=alphafold"><button type="button" class="btn btn-primary btn-lg">Start AlphaFold now</button></a>
-</div>
-<p><br /></p>
-
-<p>Thanks especially to <a href="https://www.biocommons.org.au/">Australian BioCommons</a> for this <a href="https://www.biocommons.org.au/news/alphafold-galaxy-au">great collaboration</a>.</p>
+<p>We thank Helena Rasche, Saskia Hiltemann, Fotis Psomopoulos, Kaivan Kamali, Anup Kumar and all other involved people for putting together a great resource that include an informative webpage listing videos, captions, links in a streamlined manner for educational purposes.</p>
 
       </div>
     </div>
@@ -246,8 +221,9 @@ triumph means that AlphaFold 2.0 is now available for installation on all Galaxy
         <div class="col-md-6">
             
             
-            <a href="https://www.elixir-europe.org" target="_blank">
-                <img alt="ELIXIR logo" src="/assets/media/elixir_logo.png" class="img-responsive eu-image" />
+            <a href="https://usegalaxy-eu.github.io" target="_blank">
+                <img alt="European Galaxy Team Logo" src="/assets/media/galaxy-eu.png"
+                    class="img-responsive eu-image" />
             </a>
             
         </div>
@@ -283,8 +259,8 @@ triumph means that AlphaFold 2.0 is now available for installation on all Galaxy
         <div class="col-md-6">
             
             
-            <a href="https://www.biocommons.org.au/" target="_blank">
-                <img alt="Australian Biocommons" src="/assets/media/australian_biocommons.png" class="img-responsive eu-image" />
+            <a href="https://www.elixir-europe.org" target="_blank">
+                <img alt="ELIXIR logo" src="/assets/media/elixir_logo.png" class="img-responsive eu-image" />
             </a>
             
         </div>
@@ -324,7 +300,7 @@ All content on this site is available under <a href="https://creativecommons.org
         <div class="row">
             <div class="col-lg-12" style="text-align:center">
                 <ul class="contact-info">
-                    <li><i class="fa fa-github"></i><a href="https://github.com/usegalaxy-eu/website/tree/master/_posts/2022-02-24-alphafold.md">Edit this page on GitHub</a></li>
+                    <li><i class="fa fa-github"></i><a href="https://github.com/usegalaxy-eu/website/tree/master/_posts/2022-02-25-ml-in-galaxy.md">Edit this page on GitHub</a></li>
                     
                       <li><i class="fa fa-envelope"></i><a href="mailto:contact@usegalaxy.eu">contact@usegalaxy.eu</a></li>
                     
