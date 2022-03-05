@@ -169,6 +169,76 @@
               <div class="row" style="padding: 1em">
                 <div>
                   
+                    <a href="/posts/2022/03/05/paper-impact-of-high-platelet-turnover/">
+                  
+                    <h2 class="title">New Paper &quot;Impact of high platelet turnover on the platelet transcriptome: Results from platelet RNA-sequencing in patients with sepsis&quot;</h2>
+                  </a>
+                  <span class="date">
+                    
+
+
+
+
+	<i class="fa fa-file-text" aria-hidden="true"></i>
+
+
+
+
+
+
+
+
+                  </span>
+                  <span class="date">
+                    March 5, 2022
+                  </span>
+                  
+                  
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=paper'"
+           class="btn btn-primary btn-xs tag-element" role="button">paper</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=citations'"
+           class="btn btn-primary btn-xs tag-element" role="button">citations</a>
+    
+
+
+                </div>
+                <div class="news-content">
+                  <div><p>Thomas Nührenberg and team published a new paper in PLOS ONE about the “Impact of high platelet turnover on the platelet transcriptome”.</p>
+</div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
+
+        news.append(div);
+    }
+    tags = []
+
+
+     
+      tags.push(`paper`)
+     
+      tags.push(`citations`)
+     
+      tags.push(``)
+
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
+
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4 papercitations news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  
                     <a href="/posts/2022/02/28/paper-pluripotency-factors-determine-gene-expression-repertoire/">
                   
                     <h2 class="title">New Paper &quot;Pluripotency factors determine gene expression repertoire at zygotic genome activation&quot;</h2>
