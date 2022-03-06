@@ -1,4 +1,92 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2022-03-06T02:48:34+01:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">New Paper “Impact of high platelet turnover on the platelet transcriptome: Results from platelet RNA-sequencing in patients with sepsis”</title><link href="https://galaxyproject.eu/posts/2022/03/05/paper-impact-of-high-platelet-turnover/" rel="alternate" type="text/html" title="New Paper &quot;Impact of high platelet turnover on the platelet transcriptome: Results from platelet RNA-sequencing in patients with sepsis&quot;" /><published>2022-03-05T00:00:00+01:00</published><updated>2022-03-05T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2022/03/05/paper-impact-of-high-platelet-turnover</id><content type="html" xml:base="https://galaxyproject.eu/posts/2022/03/05/paper-impact-of-high-platelet-turnover/">&lt;p&gt;Thomas Nührenberg and team published a new paper in PLOS ONE about the “Impact of high platelet turnover on the platelet transcriptome”.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2022-03-06T12:46:19+01:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2022-03-06</title><link href="https://galaxyproject.eu/posts/2022/03/06/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2022-03-06" /><published>2022-03-06T00:00:00+01:00</published><updated>2022-03-06T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2022/03/06/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2022/03/06/tool-update/">&lt;p&gt;On 2022-03-06, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#316/&quot;&gt;Jenkins Build #316&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;proteomics&quot;&gt;Proteomics&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;openms_openpepxl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_openpepxl/a2a842b00f9c&quot;&gt;a2a842b00f9c&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_percolatoradapter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_percolatoradapter/0fc9ae55bcfc&quot;&gt;0fc9ae55bcfc&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_percolatoradapter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_percolatoradapter/e7881a82b56d&quot;&gt;e7881a82b56d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_xfdr was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_xfdr/81402a5e4173&quot;&gt;81402a5e4173&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_xfdr was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_xfdr/9a6e3bb0f358&quot;&gt;9a6e3bb0f358&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;chemicaltoolbox&quot;&gt;ChemicalToolBox&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;alphafold2 was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxy-australia/alphafold2/58854e2e6654&quot;&gt;58854e2e6654&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;hca_sc_seurat_tools&quot;&gt;hca_sc_seurat_tools&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;seurat_dim_plot was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/seurat_dim_plot/316623eb59bd&quot;&gt;316623eb59bd&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;seurat_export_cellbrowser was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/seurat_export_cellbrowser/249392cd0d99&quot;&gt;249392cd0d99&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;seurat_filter_cells was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/seurat_filter_cells/c4b984347138&quot;&gt;c4b984347138&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;seurat_find_clusters was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/seurat_find_clusters/eefaffdcd441&quot;&gt;eefaffdcd441&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;seurat_find_markers was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/seurat_find_markers/3dd20b758756&quot;&gt;3dd20b758756&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;seurat_find_neighbours was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/seurat_find_neighbours/99d628557c47&quot;&gt;99d628557c47&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;seurat_find_variable_genes was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/seurat_find_variable_genes/5be60722113a&quot;&gt;5be60722113a&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;seurat_normalise_data was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/seurat_normalise_data/a835b38e389f&quot;&gt;a835b38e389f&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;seurat_read10x was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/seurat_read10x/301cf1b4b43d&quot;&gt;301cf1b4b43d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;seurat_run_pca was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/seurat_run_pca/9547ebb03f6f&quot;&gt;9547ebb03f6f&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;seurat_run_tsne was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/seurat_run_tsne/8d9ceaec2c7f&quot;&gt;8d9ceaec2c7f&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;seurat_scale_data was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/seurat_scale_data/d2f6eac0ad42&quot;&gt;d2f6eac0ad42&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;imaging&quot;&gt;Imaging&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;colocalization_viz was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/imgteam/colocalization_viz/0f8652663a03&quot;&gt;0f8652663a03&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;image_registration_affine was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/imgteam/image_registration_affine/77dc68af2b40&quot;&gt;77dc68af2b40&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;landmark_registration was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/imgteam/landmark_registration/9ccd642e7ae2&quot;&gt;9ccd642e7ae2&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;overlay_images was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/imgteam/overlay_images/589af0005df5&quot;&gt;589af0005df5&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;overlay_moving_and_fixed_image was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/imgteam/overlay_moving_and_fixed_image/b4fc6e09e576&quot;&gt;b4fc6e09e576&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;overlay_segmentation_mask was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/imgteam/overlay_segmentation_mask/22e573b7dcb1&quot;&gt;22e573b7dcb1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;projective_transformation was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/imgteam/projective_transformation/37b079c98c38&quot;&gt;37b079c98c38&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;get-data&quot;&gt;Get Data&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;ncbi_datasets was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/ncbi_datasets/d19bb3e590b6&quot;&gt;d19bb3e590b6&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;fastafastq&quot;&gt;FASTA/FASTQ&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;cutadapt was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/lparsons/cutadapt/c5e2e5902201&quot;&gt;c5e2e5902201&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;graphdisplay-data&quot;&gt;Graph/Display Data&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;ucsc_custom_track was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/ucsc_custom_track/3d87079756e1&quot;&gt;3d87079756e1&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;rna-analysis&quot;&gt;RNA Analysis&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;limma_voom was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/limma_voom/d6f5fa4ee473&quot;&gt;d6f5fa4ee473&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;variant-calling&quot;&gt;Variant Calling&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;bcftools_annotate was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_annotate/403553ae19f6&quot;&gt;403553ae19f6&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;bcftools_query was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_query/94c5f302f0ea&quot;&gt;94c5f302f0ea&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;bcftools_reheader was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_reheader/6993b945aefc&quot;&gt;6993b945aefc&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;bcftools_roh was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_roh/b76adb2f1c51&quot;&gt;b76adb2f1c51&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;bcftools_roh was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_roh/fb3af223ff33&quot;&gt;fb3af223ff33&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;bcftools_view was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_view/98d5499ead46&quot;&gt;98d5499ead46&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;bcftools_view was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_view/e1a2389af238&quot;&gt;e1a2389af238&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;phylogenetics&quot;&gt;Phylogenetics&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;nextalign was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/nextalign/c318aef17dc0&quot;&gt;c318aef17dc0&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;nextclade was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/nextclade/daddf188c13f&quot;&gt;daddf188c13f&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2022-03-06, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #316</summary></entry><entry><title type="html">New Paper “Impact of high platelet turnover on the platelet transcriptome: Results from platelet RNA-sequencing in patients with sepsis”</title><link href="https://galaxyproject.eu/posts/2022/03/05/paper-impact-of-high-platelet-turnover/" rel="alternate" type="text/html" title="New Paper &quot;Impact of high platelet turnover on the platelet transcriptome: Results from platelet RNA-sequencing in patients with sepsis&quot;" /><published>2022-03-05T00:00:00+01:00</published><updated>2022-03-05T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2022/03/05/paper-impact-of-high-platelet-turnover</id><content type="html" xml:base="https://galaxyproject.eu/posts/2022/03/05/paper-impact-of-high-platelet-turnover/">&lt;p&gt;Thomas Nührenberg and team published a new paper in PLOS ONE about the “Impact of high platelet turnover on the platelet transcriptome”.&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Abstract&lt;/em&gt; - &lt;strong&gt;Background&lt;/strong&gt;: Sepsis is associated with high platelet turnover and elevated levels of immature platelets. Changes in the platelet transcriptome and the specific impact of immature platelets on the platelet transcriptome remain unclear. Thus, this study sought to address whether and how elevated levels of immature platelets affect the platelet transcriptome in patients with sepsis.&lt;/p&gt;
 
@@ -235,17 +323,4 @@ photosynthetic electron transport chain and characterizes CrhR as an enzyme with
 &lt;ul&gt;
   &lt;li&gt;data_manager_humann_database_downloader was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/data_manager_humann_database_downloader/87febc68b45b&quot;&gt;87febc68b45b&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;data_manager_interproscan was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/data_manager_interproscan/7776cb18fdf8&quot;&gt;7776cb18fdf8&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2022-02-20, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #314</summary></entry><entry><title type="html">Protein target prediction of a bioactive ligand with Align-it and ePharmaLib</title><link href="https://galaxyproject.eu/posts/2022/02/15/zauberkugel/" rel="alternate" type="text/html" title="Protein target prediction of a bioactive ligand with Align-it and ePharmaLib" /><published>2022-02-15T00:00:00+01:00</published><updated>2022-02-15T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2022/02/15/zauberkugel</id><content type="html" xml:base="https://galaxyproject.eu/posts/2022/02/15/zauberkugel/">&lt;p&gt;Bioactive compounds often bind to several target proteins, thereby exhibiting polypharmacology. Experimentally determining these interactions is however laborious, and structure-based virtual screening of bioactive compounds could expedite drug discovery by prioritizing hits for experimental validation.&lt;/p&gt;
-
-&lt;p&gt;The &lt;a href=&quot;http://www.pharmbioinf.uni-freiburg.de/&quot;&gt;Pharmaceutical Bioinformatics&lt;/a&gt; group at the University of Freiburg has therefore developed &lt;a href=&quot;https://usegalaxy.eu/u/aurelien_moumbock/w/zauberkugel&quot;&gt;Zauberkugel&lt;/a&gt;, a workflow for pharmacophore-based protein target prediction of a bioactive ligand with the tool &lt;a href=&quot;https://doi.org/10.1016/j.jmgm.2008.04.003&quot;&gt;Align-it&lt;/a&gt; and the recently reported pharmacophore dataset &lt;a href=&quot;https://doi.org/10.1021/acs.jcim.1c00135&quot;&gt;ePharmaLib&lt;/a&gt;. The Zauberkugel workflow requires only two inputs; the ligand structure file (SMI format) and the ePharmaLib dataset (PHAR format). The latter can be retrieved from &lt;a href=&quot;https://zenodo.org/record/6055897&quot;&gt;Zenodo&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/media/2022-02-10-zauberkugel.png&quot; alt=&quot;zauberkugel&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;To learn more on how to use the Zauberkugel workflow, please refer to the &lt;a href=&quot;https://training.galaxyproject.org/training-material/topics/computational-chemistry/tutorials/zauberkugel/tutorial.html&quot;&gt;Galaxy training material&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;credit&quot;&gt;Credit&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;ePharmaLib: A Versatile Library of e-Pharmacophores to Address Small-Molecule (Poly-)Pharmacology&lt;/strong&gt;&lt;br /&gt;
-Aurélien F. A. Moumbock, Jianyu Li, Hoai T. T. Tran, Rahel Hinkelmann, Evelyn Lamy, Henning J. Jessen, and Stefan Günther.&lt;br /&gt;
-&lt;em&gt;Journal of Chemical Information and Modeling&lt;/em&gt; &lt;strong&gt;2021&lt;/strong&gt;, &lt;em&gt;61&lt;/em&gt;(7), 3659-3666.&lt;br /&gt;
-https://doi.org/10.1021/acs.jcim.1c00135&lt;/p&gt;</content><author><name>aurelienmoumbock</name></author><category term="training" /><category term="tools" /><summary type="html">Bioactive compounds often bind to several target proteins, thereby exhibiting polypharmacology. Experimentally determining these interactions is however laborious, and structure-based virtual screening of bioactive compounds could expedite drug discovery by prioritizing hits for experimental validation.</summary></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2022-02-20, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #314</summary></entry></feed>
