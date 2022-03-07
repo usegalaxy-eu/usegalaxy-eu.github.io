@@ -231,6 +231,76 @@
               <div class="row" style="padding: 1em">
                 <div>
                   
+                    <a href="/posts/2022/03/07/paper-gut-microbiota-microglia-aging/">
+                  
+                    <h2 class="title">New Paper &quot;Gut microbiota drives age-related oxidative stress and mitochondrial damage in microglia via the metabolite N6-carboxymethyllysine&quot;</h2>
+                  </a>
+                  <span class="date">
+                    
+
+
+
+
+	<i class="fa fa-file-text" aria-hidden="true"></i>
+
+
+
+
+
+
+
+
+                  </span>
+                  <span class="date">
+                    March 7, 2022
+                  </span>
+                  
+                  
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=paper'"
+           class="btn btn-primary btn-xs tag-element" role="button">paper</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=citations'"
+           class="btn btn-primary btn-xs tag-element" role="button">citations</a>
+    
+
+
+                </div>
+                <div class="news-content">
+                  <div><p>Our work led by Omar Mossad and Thomas Blank (Institute of Neuropathology, University of Freiburg) has been published last week in Nature Neuroscience: <a href="https://www.nature.com/articles/s41593-022-01027-3">“Gut microbiota drives age-related oxidative stress and mitochondrial damage in microglia via the metabolite N6-carboxymethyllysine”</a></p>
+</div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
+
+        news.append(div);
+    }
+    tags = []
+
+
+     
+      tags.push(`paper`)
+     
+      tags.push(`citations`)
+     
+      tags.push(``)
+
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
+
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4 papercitations news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  
                     <a href="/posts/2022/03/05/paper-impact-of-high-platelet-turnover/">
                   
                     <h2 class="title">New Paper &quot;Impact of high platelet turnover on the platelet transcriptome: Results from platelet RNA-sequencing in patients with sepsis&quot;</h2>
