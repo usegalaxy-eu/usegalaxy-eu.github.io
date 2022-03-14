@@ -158,6 +158,70 @@
 
 
      
+      tags.push(`workflows`)
+     
+      tags.push(`Freiburg`)
+
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
+
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4 workflows news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  
+                    <a href="/posts/2022/03/13/workflow_commnity_inititive/">
+                  
+                    <h2 class="title">Announcing the Workflows Community Initiative (WCI)</h2>
+                  </a>
+                  <span class="date">
+                    
+
+
+
+
+
+
+
+
+
+
+
+                  </span>
+                  <span class="date">
+                    March 13, 2022
+                  </span>
+                  
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
+                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  
+                  
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=workflows'"
+           class="btn btn-primary btn-xs tag-element" role="button">workflows</a>
+    
+
+
+                </div>
+                <div class="news-content">
+                  <div><p><img src="/assets/media/workflows-community-logo.png" alt="Workflow Community initiative" /></p>
+</div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
+
+        news.append(div);
+    }
+    tags = []
+
+
+     
       tags.push(`paper`)
      
       tags.push(`citations`)
