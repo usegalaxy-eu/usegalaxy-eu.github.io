@@ -1,4 +1,58 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2022-03-14T11:56:15+01:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">Announcing the Workflows Community Initiative (WCI)</title><link href="https://galaxyproject.eu/posts/2022/03/13/workflow_commnity_inititive/" rel="alternate" type="text/html" title="Announcing the Workflows Community Initiative (WCI)" /><published>2022-03-13T00:00:00+01:00</published><updated>2022-03-13T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2022/03/13/workflow_commnity_inititive</id><content type="html" xml:base="https://galaxyproject.eu/posts/2022/03/13/workflow_commnity_inititive/">&lt;p&gt;&lt;img src=&quot;/assets/media/workflows-community-logo.png&quot; alt=&quot;Workflow Community initiative&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2022-03-14T13:25:31+01:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2022-03-14</title><link href="https://galaxyproject.eu/posts/2022/03/14/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2022-03-14" /><published>2022-03-14T00:00:00+01:00</published><updated>2022-03-14T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2022/03/14/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2022/03/14/tool-update/">&lt;p&gt;On 2022-03-14, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#317/&quot;&gt;Jenkins Build #317&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;extract-features&quot;&gt;Extract Features&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;length_and_gc_content was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/length_and_gc_content/e3ba567abdf5&quot;&gt;e3ba567abdf5&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;proteomics&quot;&gt;Proteomics&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;openms_openpepxl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_openpepxl/40cc19c0dbd6&quot;&gt;40cc19c0dbd6&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_openpepxl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_openpepxl/a2a842b00f9c&quot;&gt;a2a842b00f9c&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_openpepxl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_openpepxl/fc36cfd19834&quot;&gt;fc36cfd19834&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_percolatoradapter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_percolatoradapter/0fc9ae55bcfc&quot;&gt;0fc9ae55bcfc&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_percolatoradapter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_percolatoradapter/e7881a82b56d&quot;&gt;e7881a82b56d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_xfdr was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_xfdr/81402a5e4173&quot;&gt;81402a5e4173&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_xfdr was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_xfdr/9a6e3bb0f358&quot;&gt;9a6e3bb0f358&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;chemicaltoolbox&quot;&gt;ChemicalToolBox&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;alphafold2 was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxy-australia/alphafold2/138feebde7d3&quot;&gt;138feebde7d3&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;annotation&quot;&gt;Annotation&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;legsta was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/legsta/579f1cabfe79&quot;&gt;579f1cabfe79&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;get-data&quot;&gt;Get Data&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;ncbi_datasets was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/ncbi_datasets/c47a0a93ffd2&quot;&gt;c47a0a93ffd2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;fastafastq&quot;&gt;FASTA/FASTQ&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;fastq_paired_end_splitter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/fastq_paired_end_splitter/e39cc71d3ed6&quot;&gt;e39cc71d3ed6&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;variant-calling&quot;&gt;Variant Calling&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;bcftools_annotate was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_annotate/2958e3b49ad4&quot;&gt;2958e3b49ad4&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;phylogenetics&quot;&gt;Phylogenetics&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;ete was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/earlhaminst/ete/2db72467da51&quot;&gt;2db72467da51&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2022-03-14, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #317</summary></entry><entry><title type="html">Announcing the Workflows Community Initiative (WCI)</title><link href="https://galaxyproject.eu/posts/2022/03/13/workflow_commnity_inititive/" rel="alternate" type="text/html" title="Announcing the Workflows Community Initiative (WCI)" /><published>2022-03-13T00:00:00+01:00</published><updated>2022-03-13T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2022/03/13/workflow_commnity_inititive</id><content type="html" xml:base="https://galaxyproject.eu/posts/2022/03/13/workflow_commnity_inititive/">&lt;p&gt;&lt;img src=&quot;/assets/media/workflows-community-logo.png&quot; alt=&quot;Workflow Community initiative&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The &lt;strong&gt;Workflows Community Initiative&lt;/strong&gt; (WCI) has lunched the new website at &lt;a href=&quot;https://workflows.community&quot;&gt;workflows.community&lt;/a&gt;.&lt;/p&gt;
 
@@ -248,33 +302,4 @@ in the paper published two weeks ago. Congratulations Dr. Matthias :)&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Conclusion&lt;/strong&gt; The integration of an open-source DIA analysis suite in the web-based and user-friendly Galaxy framework in combination with extensive training material empowers a broad community of researches to perform reproducible and transparent DIA data analysis.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/media/2022-02-28-dia.jpeg&quot; alt=&quot;DIA Galaxy workflow&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="paper" /><category term="citations" /><summary type="html">Matthias Fahrner from the University of Freiburg is defending his PhD today. Read his latest work about data-independent acquisition (DIA) of mass spectrometric proteomic studies in the paper published two weeks ago. Congratulations Dr. Matthias :)</summary></entry><entry><title type="html">AlphaFold now available in Galaxy</title><link href="https://galaxyproject.eu/posts/2022/02/24/alphafold/" rel="alternate" type="text/html" title="AlphaFold now available in Galaxy" /><published>2022-02-24T00:00:00+01:00</published><updated>2022-02-24T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2022/02/24/alphafold</id><content type="html" xml:base="https://galaxyproject.eu/posts/2022/02/24/alphafold/">&lt;p&gt;It seems the whole world is talking about &lt;a href=&quot;https://deepmind.com/blog/article/putting-the-power-of-alphafold-into-the-worlds-hands&quot;&gt;AlphaFold&lt;/a&gt;,
-the AI system that predicts a protein’s 3D structure from its amino acid sequence that
-achieves accuracy comparable with real-life experiments. There was much fanfare last year when &lt;a href=&quot;https://deepmind.com/&quot;&gt;DeepMind&lt;/a&gt; published
-the &lt;a href=&quot;https://www.nature.com/articles/s41586-021-03819-2&quot;&gt;scientific paper&lt;/a&gt; and
-&lt;a href=&quot;https://github.com/deepmind/alphafold/&quot;&gt;source code&lt;/a&gt; that explained their innovative system.&lt;/p&gt;
-
-&lt;p&gt;In partnership with &lt;a href=&quot;https://alphafold.ebi.ac.uk/&quot;&gt;EMBL’s European Bioinformatics Institute (EMBL-EBI)&lt;/a&gt; the predictions for the shape of every single protein in the human body,
-as well as for the proteins of 20 other important organisms were made freely available to the scientific community.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/media/alphafold.png&quot; alt=&quot;Aphafold in Galaxy&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Understanding a protein’s structure helps us to understand their function, and is traditionally achieved through slow, laborious experimentation. Painstaking effort over many years has determined the structures of around 100,000 unique proteins, but this represents just a tiny fraction of the billions of known protein sequences. Using computational approaches to enable large-scale structural bioinformatics to predict protein structures now promises to fast track our understanding of protein structure.&lt;/p&gt;
-
-&lt;p&gt;The Galaxy community, spearheaded by &lt;a href=&quot;https://www.biocommons.org.au/galaxy-australia&quot;&gt;Galaxy Australia&lt;/a&gt;, saw an opportunity to further democratise access
-to this useful tool by making AlphaFold 2.0 available in Galaxy.
-The Galaxy project provides researchers access to a rich catalogue of computational resources and now includes the GPU clusters required to power AlphaFold 2.0.
-Life scientists can now easily visualise the consequences of DNA variants at the protein level, accelerating understanding of protein-protein interactions, activation or inhibition studies and drug design as examples.&lt;/p&gt;
-
-&lt;p&gt;It was an ambitious and technically challenging task, made possible through the work of multiple people around the world. While Galaxy Australia Developers and Admins laboured away
-to make the specific hardware, reference data and environment setup work together, Galaxy EU provided the necessary GPU-enabled development machine to test the approach. This technical
-triumph means that AlphaFold 2.0 is now available for installation on all Galaxy services globally, via the &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/&quot;&gt;Galaxy toolshed&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;The AlphaFold Service is now taking amino acid sequences from the user, and all the set-up and provisioning of underlying infrastructure are taken care of by Galaxy, so researchers can focus on generating the protein 3D structure itself.&lt;/p&gt;
-
-&lt;div align=&quot;center&quot;&gt;
-&lt;a href=&quot;https://usegalaxy.eu/?tool_id=alphafold&quot;&gt;&lt;button type=&quot;button&quot; class=&quot;btn btn-primary btn-lg&quot;&gt;Start AlphaFold now&lt;/button&gt;&lt;/a&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Thanks especially to &lt;a href=&quot;https://www.biocommons.org.au/&quot;&gt;Australian BioCommons&lt;/a&gt; for this &lt;a href=&quot;https://www.biocommons.org.au/news/alphafold-galaxy-au&quot;&gt;great collaboration&lt;/a&gt; and the blog that was adopted from from them.&lt;/p&gt;</content><author><name></name></author><category term="tools" /><summary type="html">It seems the whole world is talking about AlphaFold, the AI system that predicts a protein’s 3D structure from its amino acid sequence that achieves accuracy comparable with real-life experiments. There was much fanfare last year when DeepMind published the scientific paper and source code that explained their innovative system.</summary></entry></feed>
+&lt;p&gt;&lt;img src=&quot;/assets/media/2022-02-28-dia.jpeg&quot; alt=&quot;DIA Galaxy workflow&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="paper" /><category term="citations" /><summary type="html">Matthias Fahrner from the University of Freiburg is defending his PhD today. Read his latest work about data-independent acquisition (DIA) of mass spectrometric proteomic studies in the paper published two weeks ago. Congratulations Dr. Matthias :)</summary></entry></feed>
