@@ -158,6 +158,79 @@
 
 
      
+      tags.push(`s4f`)
+     
+      tags.push(`society`)
+     
+      tags.push(`Freiburg`)
+
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
+
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4 s4fsociety news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  
+                    <a href="/posts/2022/03/23/we-are-striking-really/">
+                  
+                    <h2 class="title">Enough talking - time to act!</h2>
+                  </a>
+                  <span class="date">
+                    
+
+
+
+
+
+
+
+
+
+
+🌍🔥
+
+
+                  </span>
+                  <span class="date">
+                    March 23, 2022
+                  </span>
+                  
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
+                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  
+                  
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=s4f'"
+           class="btn btn-primary btn-xs tag-element" role="button">s4f</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=society'"
+           class="btn btn-primary btn-xs tag-element" role="button">society</a>
+    
+
+
+                </div>
+                <div class="news-content">
+                  <div><p>The next global climate strike will be on <strong>March 25</strong>! As last time, the Freiburg Galaxy Team is going to express its support more directly: the team will be striking in <a href="https://freiburgforfuture.de/25-03/">Freiburg</a>, if you are nearby join us - and maybe we will find time to talk about research as well :)</p>
+</div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
+
+        news.append(div);
+    }
+    tags = []
+
+
+     
       tags.push(``)
 
     if (!userTag ? true : tags.includes(userTag)) {
