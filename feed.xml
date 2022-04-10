@@ -1,4 +1,87 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2022-04-10T18:00:47+02:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2022-04-03</title><link href="https://galaxyproject.eu/posts/2022/04/03/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2022-04-03" /><published>2022-04-03T00:00:00+02:00</published><updated>2022-04-03T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2022/04/03/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2022/04/03/tool-update/">&lt;p&gt;On 2022-04-03, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#320/&quot;&gt;Jenkins Build #320&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2022-04-10T19:08:08+02:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2022-04-10</title><link href="https://galaxyproject.eu/posts/2022/04/10/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2022-04-10" /><published>2022-04-10T00:00:00+02:00</published><updated>2022-04-10T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2022/04/10/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2022/04/10/tool-update/">&lt;p&gt;On 2022-04-10, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#321/&quot;&gt;Jenkins Build #321&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;bed&quot;&gt;BED&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;bedtools was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bedtools/07e8b80f278c&quot;&gt;07e8b80f278c&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;fastafastq&quot;&gt;FASTA/FASTQ&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;pear was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/pear/b4c6f054210a&quot;&gt;b4c6f054210a&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;peak-calling&quot;&gt;Peak Calling&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;macs2 was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/macs2/640d3af5d833&quot;&gt;640d3af5d833&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;proteomics&quot;&gt;Proteomics&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;metanovo was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/metanovo/4a851c02f558&quot;&gt;4a851c02f558&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_openpepxl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_openpepxl/40cc19c0dbd6&quot;&gt;40cc19c0dbd6&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_openpepxl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_openpepxl/a2a842b00f9c&quot;&gt;a2a842b00f9c&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_openpepxl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_openpepxl/fc36cfd19834&quot;&gt;fc36cfd19834&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_percolatoradapter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_percolatoradapter/0fc9ae55bcfc&quot;&gt;0fc9ae55bcfc&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_percolatoradapter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_percolatoradapter/e7881a82b56d&quot;&gt;e7881a82b56d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_xfdr was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_xfdr/81402a5e4173&quot;&gt;81402a5e4173&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_xfdr was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_xfdr/9a6e3bb0f358&quot;&gt;9a6e3bb0f358&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;chemicaltoolbox&quot;&gt;ChemicalToolBox&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;alphafold2 was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxy-australia/alphafold2/04e95886cf24&quot;&gt;04e95886cf24&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;annotation&quot;&gt;Annotation&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;repeatmodeler was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/csbl/repeatmodeler/1e10310ce195&quot;&gt;1e10310ce195&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;busco was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/busco/e4bd1e99bacf&quot;&gt;e4bd1e99bacf&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;variant-calling&quot;&gt;Variant Calling&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;seqwish was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/seqwish/6293a926066f&quot;&gt;6293a926066f&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;ncbi-blast&quot;&gt;NCBI Blast&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;ncbi_blast_plus was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/ncbi_blast_plus/acf4e47b734c&quot;&gt;acf4e47b734c&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;phylogenetics&quot;&gt;Phylogenetics&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;hyphy_absrel was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_absrel/212c958f6cee&quot;&gt;212c958f6cee&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hyphy_annotate was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_annotate/e6009f23582c&quot;&gt;e6009f23582c&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hyphy_bgm was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_bgm/5b6b8b08f1a9&quot;&gt;5b6b8b08f1a9&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hyphy_busted was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_busted/e931e69b5a80&quot;&gt;e931e69b5a80&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hyphy_cfel was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_cfel/5b63871000c9&quot;&gt;5b63871000c9&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hyphy_conv was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_conv/3ea647006f17&quot;&gt;3ea647006f17&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hyphy_fade was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_fade/eb23ebaf69d2&quot;&gt;eb23ebaf69d2&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hyphy_fel was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_fel/8a6ef85b934d&quot;&gt;8a6ef85b934d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hyphy_fubar was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_fubar/55a45d4c31dc&quot;&gt;55a45d4c31dc&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hyphy_gard was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_gard/26834f8534f9&quot;&gt;26834f8534f9&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hyphy_meme was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_meme/5d8389d684bf&quot;&gt;5d8389d684bf&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hyphy_prime was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_prime/f207757f9ca2&quot;&gt;f207757f9ca2&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hyphy_relax was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_relax/49885a825dc1&quot;&gt;49885a825dc1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hyphy_slac was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_slac/365e33adf3a4&quot;&gt;365e33adf3a4&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hyphy_sm19 was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_sm19/00b4cf477625&quot;&gt;00b4cf477625&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hyphy_strike_ambigs was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_strike_ambigs/193dcaef2169&quot;&gt;193dcaef2169&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;graphdisplay-data&quot;&gt;Graph/Display Data&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;pathview was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/pathview/fe154a7af404&quot;&gt;fe154a7af404&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2022-04-10, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #321</summary></entry><entry><title type="html">UseGalaxy.eu Tool Updates for 2022-04-03</title><link href="https://galaxyproject.eu/posts/2022/04/03/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2022-04-03" /><published>2022-04-03T00:00:00+02:00</published><updated>2022-04-03T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2022/04/03/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2022/04/03/tool-update/">&lt;p&gt;On 2022-04-03, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#320/&quot;&gt;Jenkins Build #320&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;rad-seq&quot;&gt;RAD-seq&lt;/h2&gt;
 
@@ -284,92 +367,4 @@ developmental time. With this study, we start to disentangle how multiple, funct
 
 &lt;p&gt;Microglial function declines during aging. The interaction of microglia with the gut microbiota has been well characterized during development and adulthood but not in aging. Here, we compared microglial transcriptomes from young-adult and aged mice housed under germ-free and specific pathogen-free conditions and found that the microbiota influenced aging associated-changes in microglial gene expression. The absence of gut microbiota diminished oxidative stress and ameliorated mitochondrial dysfunction in microglia from the brains of aged mice. Unbiased metabolomic analyses of serum and brain tissue revealed the accumulation of N6-carboxymethyllysine (CML) in the microglia of the aging brain. CML mediated a burst of reactive oxygen species and impeded mitochondrial activity and ATP reservoirs in microglia. We validated the age-dependent rise in CML levels in the sera and brains of humans. Finally, a microbiota-dependent increase in intestinal permeability in aged mice mediated the elevated levels of CML. This study adds insight into how specific features of microglia from aged mice are regulated by the gut microbiota.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/media/2022-03-07-paper-gut-microbiota-microglia-aging-fig-1.png&quot; alt=&quot;Fig. 1: Microbiota orchestrates microglial transcriptome in young and aged mice&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="paper" /><category term="citations" /><summary type="html">Our work led by Omar Mossad and Thomas Blank (Institute of Neuropathology, University of Freiburg) has been published last week in Nature Neuroscience: “Gut microbiota drives age-related oxidative stress and mitochondrial damage in microglia via the metabolite N6-carboxymethyllysine”</summary></entry><entry><title type="html">UseGalaxy.eu Tool Updates for 2022-03-06</title><link href="https://galaxyproject.eu/posts/2022/03/06/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2022-03-06" /><published>2022-03-06T00:00:00+01:00</published><updated>2022-03-06T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2022/03/06/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2022/03/06/tool-update/">&lt;p&gt;On 2022-03-06, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#316/&quot;&gt;Jenkins Build #316&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;proteomics&quot;&gt;Proteomics&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;openms_openpepxl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_openpepxl/a2a842b00f9c&quot;&gt;a2a842b00f9c&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;openms_percolatoradapter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_percolatoradapter/0fc9ae55bcfc&quot;&gt;0fc9ae55bcfc&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;openms_percolatoradapter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_percolatoradapter/e7881a82b56d&quot;&gt;e7881a82b56d&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;openms_xfdr was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_xfdr/81402a5e4173&quot;&gt;81402a5e4173&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;openms_xfdr was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_xfdr/9a6e3bb0f358&quot;&gt;9a6e3bb0f358&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;chemicaltoolbox&quot;&gt;ChemicalToolBox&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;alphafold2 was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxy-australia/alphafold2/58854e2e6654&quot;&gt;58854e2e6654&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;hca_sc_seurat_tools&quot;&gt;hca_sc_seurat_tools&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;seurat_dim_plot was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/seurat_dim_plot/316623eb59bd&quot;&gt;316623eb59bd&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;seurat_export_cellbrowser was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/seurat_export_cellbrowser/249392cd0d99&quot;&gt;249392cd0d99&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;seurat_filter_cells was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/seurat_filter_cells/c4b984347138&quot;&gt;c4b984347138&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;seurat_find_clusters was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/seurat_find_clusters/eefaffdcd441&quot;&gt;eefaffdcd441&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;seurat_find_markers was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/seurat_find_markers/3dd20b758756&quot;&gt;3dd20b758756&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;seurat_find_neighbours was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/seurat_find_neighbours/99d628557c47&quot;&gt;99d628557c47&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;seurat_find_variable_genes was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/seurat_find_variable_genes/5be60722113a&quot;&gt;5be60722113a&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;seurat_normalise_data was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/seurat_normalise_data/a835b38e389f&quot;&gt;a835b38e389f&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;seurat_read10x was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/seurat_read10x/301cf1b4b43d&quot;&gt;301cf1b4b43d&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;seurat_run_pca was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/seurat_run_pca/9547ebb03f6f&quot;&gt;9547ebb03f6f&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;seurat_run_tsne was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/seurat_run_tsne/8d9ceaec2c7f&quot;&gt;8d9ceaec2c7f&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;seurat_scale_data was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/seurat_scale_data/d2f6eac0ad42&quot;&gt;d2f6eac0ad42&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;imaging&quot;&gt;Imaging&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;colocalization_viz was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/imgteam/colocalization_viz/0f8652663a03&quot;&gt;0f8652663a03&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;image_registration_affine was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/imgteam/image_registration_affine/77dc68af2b40&quot;&gt;77dc68af2b40&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;landmark_registration was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/imgteam/landmark_registration/9ccd642e7ae2&quot;&gt;9ccd642e7ae2&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;overlay_images was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/imgteam/overlay_images/589af0005df5&quot;&gt;589af0005df5&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;overlay_moving_and_fixed_image was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/imgteam/overlay_moving_and_fixed_image/b4fc6e09e576&quot;&gt;b4fc6e09e576&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;overlay_segmentation_mask was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/imgteam/overlay_segmentation_mask/22e573b7dcb1&quot;&gt;22e573b7dcb1&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;projective_transformation was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/imgteam/projective_transformation/37b079c98c38&quot;&gt;37b079c98c38&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;get-data&quot;&gt;Get Data&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;ncbi_datasets was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/ncbi_datasets/d19bb3e590b6&quot;&gt;d19bb3e590b6&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;fastafastq&quot;&gt;FASTA/FASTQ&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;cutadapt was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/lparsons/cutadapt/c5e2e5902201&quot;&gt;c5e2e5902201&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;graphdisplay-data&quot;&gt;Graph/Display Data&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;ucsc_custom_track was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/ucsc_custom_track/3d87079756e1&quot;&gt;3d87079756e1&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;rna-analysis&quot;&gt;RNA Analysis&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;limma_voom was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/limma_voom/d6f5fa4ee473&quot;&gt;d6f5fa4ee473&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;variant-calling&quot;&gt;Variant Calling&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;bcftools_annotate was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_annotate/403553ae19f6&quot;&gt;403553ae19f6&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_query was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_query/94c5f302f0ea&quot;&gt;94c5f302f0ea&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_reheader was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_reheader/6993b945aefc&quot;&gt;6993b945aefc&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_roh was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_roh/b76adb2f1c51&quot;&gt;b76adb2f1c51&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_roh was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_roh/fb3af223ff33&quot;&gt;fb3af223ff33&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_view was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_view/98d5499ead46&quot;&gt;98d5499ead46&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bcftools_view was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_view/e1a2389af238&quot;&gt;e1a2389af238&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;phylogenetics&quot;&gt;Phylogenetics&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;nextalign was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/nextalign/c318aef17dc0&quot;&gt;c318aef17dc0&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;nextclade was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/nextclade/daddf188c13f&quot;&gt;daddf188c13f&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2022-03-06, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #316</summary></entry></feed>
+&lt;p&gt;&lt;img src=&quot;/assets/media/2022-03-07-paper-gut-microbiota-microglia-aging-fig-1.png&quot; alt=&quot;Fig. 1: Microbiota orchestrates microglial transcriptome in young and aged mice&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="paper" /><category term="citations" /><summary type="html">Our work led by Omar Mossad and Thomas Blank (Institute of Neuropathology, University of Freiburg) has been published last week in Nature Neuroscience: “Gut microbiota drives age-related oxidative stress and mitochondrial damage in microglia via the metabolite N6-carboxymethyllysine”</summary></entry></feed>
