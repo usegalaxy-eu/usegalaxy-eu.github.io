@@ -1,4 +1,25 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2022-04-19T23:35:15+02:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2022-04-17</title><link href="https://galaxyproject.eu/posts/2022/04/17/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2022-04-17" /><published>2022-04-17T00:00:00+02:00</published><updated>2022-04-17T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2022/04/17/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2022/04/17/tool-update/">&lt;p&gt;On 2022-04-17, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#322/&quot;&gt;Jenkins Build #322&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2022-04-20T02:46:25+02:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">Towards a sustainable storage, enabling co-financing of public infrastructure</title><link href="https://galaxyproject.eu/posts/2022/04/20/towards-sustainable-storage/" rel="alternate" type="text/html" title="Towards a sustainable storage, enabling co-financing of public infrastructure" /><published>2022-04-20T00:00:00+02:00</published><updated>2022-04-20T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2022/04/20/towards-sustainable-storage</id><content type="html" xml:base="https://galaxyproject.eu/posts/2022/04/20/towards-sustainable-storage/">&lt;p&gt;tl;dr: Research groups and networks can include their own storage into the European Galaxy server and decide about quota and data policies.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;If people ask us what do they need to run a Galaxy service, one of our answers is
+“Storage is always the bottleneck. Try to get your hands on enough storage, this provides your users freedom to play around with their data.”
+The European Galaxy server, thanks to the de.NBI cloud and the Uni-Freiburg compute center, manages 2 PB of data as of today (2022/04).
+Users do use this storage for free, public institutions are paying for the freedom of science and against being locked in into some commercial system.
+Everyone gets a fair share of the storage, on the &lt;a href=&quot;https://usegalaxy.eu&quot;&gt;EU Galaxy server&lt;/a&gt; those are 250 GB for every user.
+This system works and has served us well for many years. However, different user groups have different needs and a
+few user groups provide funding to the global infrastructure in one way or the other. Our solution until now was to be
+very generous in extending the user storage via our &lt;a href=&quot;http://usegalaxy.eu/quota-increase&quot;&gt;quota-request form&lt;/a&gt; - and we will try to do so
+as much as we can increase our storage capacity with future grants.&lt;/p&gt;
+
+&lt;p&gt;Going forward, we have &lt;a href=&quot;https://github.com/usegalaxy-eu/sorting-hat/pull/9/&quot;&gt;enabled&lt;/a&gt; an additional strategy that makes it possible to
+&lt;strong&gt;include storage provided by partner consortia in a very transparent way into the European Galaxy Server&lt;/strong&gt; to increase quota to all consortia members.&lt;/p&gt;
+
+&lt;p&gt;An exemplary use case is the &lt;a href=&quot;https://nfdi4plants.de&quot;&gt;DataPLANT&lt;/a&gt; consortium, part of &lt;a href=&quot;https://www.nfdi.de&quot;&gt;NFDI&lt;/a&gt; (National Research Data Infrastructure), which builds Research Data Management (RDM) communities in Germany. DataPLANT focuses on fundamental plant research and has access to the &lt;a href=&quot;https://www.alwr-bw.de/bwsfs/&quot;&gt;bwSFS&lt;/a&gt;, a state-funded storage for scientists. In cooperation with DataPLANT, we have included part of this storage into Galaxy and configured it so that users associated with DataPLANT store data on this particular storage only. This enables DataPLANT to decide on their preferred quota limits and manage the level of data backup policies. It also enhances the collaboration of NFDI consortia with the Galaxy project.&lt;/p&gt;
+
+&lt;p&gt;The system is very flexible and we could enable research networks, like the German CRCs, in the same way the participation in the European Galaxy project
+and offer sustainable storage solutions for their researchers. It is to be noted that this covers the technical aspect of storage infrastructure but
+is only a small aspect of RDM - for which NFDI and Galaxy provide additional solutions. Please &lt;a href=&quot;mailto:contact@usegalaxy.eu&quot;&gt;get in contact&lt;/a&gt; with us if you want to learn more about RDM.&lt;/p&gt;</content><author><name>bgruening</name></author><category term="citations" /><summary type="html">tl;dr: Research groups and networks can include their own storage into the European Galaxy server and decide about quota and data policies.</summary></entry><entry><title type="html">UseGalaxy.eu Tool Updates for 2022-04-17</title><link href="https://galaxyproject.eu/posts/2022/04/17/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2022-04-17" /><published>2022-04-17T00:00:00+02:00</published><updated>2022-04-17T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2022/04/17/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2022/04/17/tool-update/">&lt;p&gt;On 2022-04-17, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#322/&quot;&gt;Jenkins Build #322&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;join-subtract-and-group&quot;&gt;Join, Subtract and Group&lt;/h2&gt;
 
@@ -456,19 +477,4 @@
 
 &lt;ul&gt;
   &lt;li&gt;ete was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/earlhaminst/ete/2db72467da51&quot;&gt;2db72467da51&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2022-03-14, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #317</summary></entry><entry><title type="html">Announcing the Workflows Community Initiative (WCI)</title><link href="https://galaxyproject.eu/posts/2022/03/13/workflow_commnity_inititive/" rel="alternate" type="text/html" title="Announcing the Workflows Community Initiative (WCI)" /><published>2022-03-13T00:00:00+01:00</published><updated>2022-03-13T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2022/03/13/workflow_commnity_inititive</id><content type="html" xml:base="https://galaxyproject.eu/posts/2022/03/13/workflow_commnity_inititive/">&lt;p&gt;&lt;img src=&quot;/assets/media/workflows-community-logo.png&quot; alt=&quot;Workflow Community initiative&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The &lt;strong&gt;Workflows Community Initiative&lt;/strong&gt; (WCI) has lunched the new website at &lt;a href=&quot;https://workflows.community&quot;&gt;workflows.community&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;The Freiburg Galaxy team is part of this Inititive to help improving computational workflows for everyone. 
-Feel free to also join us on &lt;a href=&quot;http://join.workflows.community&quot;&gt;this mission&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;The website lists some workflow systems. Feel free to suggest to us other actively-developed open source systems that are not currently listed. 
-Also, there is a rich set of metadata information that these systems could provide by adding a “.wci.yml” file to their system’s repository (more &lt;a href=&quot;https://workflows.community/systems/contribute&quot;&gt;information&lt;/a&gt;).&lt;/p&gt;
-
-&lt;p&gt;If you have any related events, please feel free to suggest other workflow-related events not currently listed in the website.
-You can also use the &lt;a href=&quot;https://workflows.community/events/add&quot;&gt;contribute feature&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;And last but not least, feel free to suggest your workflow-related job openings to be added to the website. You can also use the &lt;a href=&quot;https://workflows.community/jobs/add&quot;&gt;contribute feature&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;We have also other collections in the website that we are still working on (registries, working groups, research frameworks, etc.), but you are welcome to explore and suggest ideas.&lt;/p&gt;</content><author><name></name></author><category term="workflows" /><summary type="html"></summary></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2022-03-14, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #317</summary></entry></feed>
