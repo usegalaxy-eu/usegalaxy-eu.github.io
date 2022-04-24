@@ -1,4 +1,49 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2022-04-24T07:48:16+02:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">Towards a sustainable storage, enabling co-financing of public infrastructure</title><link href="https://galaxyproject.eu/posts/2022/04/20/towards-sustainable-storage/" rel="alternate" type="text/html" title="Towards a sustainable storage, enabling co-financing of public infrastructure" /><published>2022-04-20T00:00:00+02:00</published><updated>2022-04-20T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2022/04/20/towards-sustainable-storage</id><content type="html" xml:base="https://galaxyproject.eu/posts/2022/04/20/towards-sustainable-storage/">&lt;p&gt;tl;dr: Research groups and networks can include their own storage into the European Galaxy server and decide about quota and data policies.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2022-04-24T17:47:36+02:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2022-04-24</title><link href="https://galaxyproject.eu/posts/2022/04/24/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2022-04-24" /><published>2022-04-24T00:00:00+02:00</published><updated>2022-04-24T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2022/04/24/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2022/04/24/tool-update/">&lt;p&gt;On 2022-04-24, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#323/&quot;&gt;Jenkins Build #323&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;proteomics&quot;&gt;Proteomics&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;metanovo was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/metanovo/7a5ff5359b13&quot;&gt;7a5ff5359b13&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_openpepxl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_openpepxl/40cc19c0dbd6&quot;&gt;40cc19c0dbd6&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_openpepxl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_openpepxl/a2a842b00f9c&quot;&gt;a2a842b00f9c&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_openpepxl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_openpepxl/fc36cfd19834&quot;&gt;fc36cfd19834&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_percolatoradapter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_percolatoradapter/0fc9ae55bcfc&quot;&gt;0fc9ae55bcfc&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_percolatoradapter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_percolatoradapter/e7881a82b56d&quot;&gt;e7881a82b56d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_xfdr was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_xfdr/81402a5e4173&quot;&gt;81402a5e4173&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_xfdr was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_xfdr/9a6e3bb0f358&quot;&gt;9a6e3bb0f358&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;chemicaltoolbox&quot;&gt;ChemicalToolBox&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;alphafold2 was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxy-australia/alphafold2/138feebde7d3&quot;&gt;138feebde7d3&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;alphafold2 was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxy-australia/alphafold2/eb085b3dbaf8&quot;&gt;eb085b3dbaf8&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;variant-calling&quot;&gt;Variant Calling&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;king was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/king/1932808c6fab&quot;&gt;1932808c6fab&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;seqwish was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/seqwish/0c415ba215e7&quot;&gt;0c415ba215e7&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;fastafastq&quot;&gt;FASTA/FASTQ&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;cutadapt was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/lparsons/cutadapt/02c5a84971c8&quot;&gt;02c5a84971c8&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;convert-formats&quot;&gt;Convert Formats&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;biom_convert was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/biom_convert/33c99804a32f&quot;&gt;33c99804a32f&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;phylogenetics&quot;&gt;Phylogenetics&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;pangolin was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/pangolin/abf6dbe8c9d7&quot;&gt;abf6dbe8c9d7&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2022-04-24, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #323</summary></entry><entry><title type="html">Towards a sustainable storage, enabling co-financing of public infrastructure</title><link href="https://galaxyproject.eu/posts/2022/04/20/towards-sustainable-storage/" rel="alternate" type="text/html" title="Towards a sustainable storage, enabling co-financing of public infrastructure" /><published>2022-04-20T00:00:00+02:00</published><updated>2022-04-20T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2022/04/20/towards-sustainable-storage</id><content type="html" xml:base="https://galaxyproject.eu/posts/2022/04/20/towards-sustainable-storage/">&lt;p&gt;tl;dr: Research groups and networks can include their own storage into the European Galaxy server and decide about quota and data policies.&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -423,58 +468,4 @@ is only a small aspect of RDM - for which NFDI and Galaxy provide additional sol
 
 &lt;ul&gt;
   &lt;li&gt;read_it_and_keep was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/read_it_and_keep/1563b58905f4&quot;&gt;1563b58905f4&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2022-03-20, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #318</summary></entry><entry><title type="html">UseGalaxy.eu Tool Updates for 2022-03-14</title><link href="https://galaxyproject.eu/posts/2022/03/14/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2022-03-14" /><published>2022-03-14T00:00:00+01:00</published><updated>2022-03-14T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2022/03/14/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2022/03/14/tool-update/">&lt;p&gt;On 2022-03-14, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#317/&quot;&gt;Jenkins Build #317&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;extract-features&quot;&gt;Extract Features&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;length_and_gc_content was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/length_and_gc_content/e3ba567abdf5&quot;&gt;e3ba567abdf5&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;proteomics&quot;&gt;Proteomics&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;openms_openpepxl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_openpepxl/40cc19c0dbd6&quot;&gt;40cc19c0dbd6&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;openms_openpepxl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_openpepxl/a2a842b00f9c&quot;&gt;a2a842b00f9c&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;openms_openpepxl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_openpepxl/fc36cfd19834&quot;&gt;fc36cfd19834&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;openms_percolatoradapter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_percolatoradapter/0fc9ae55bcfc&quot;&gt;0fc9ae55bcfc&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;openms_percolatoradapter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_percolatoradapter/e7881a82b56d&quot;&gt;e7881a82b56d&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;openms_xfdr was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_xfdr/81402a5e4173&quot;&gt;81402a5e4173&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;openms_xfdr was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_xfdr/9a6e3bb0f358&quot;&gt;9a6e3bb0f358&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;chemicaltoolbox&quot;&gt;ChemicalToolBox&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;alphafold2 was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxy-australia/alphafold2/138feebde7d3&quot;&gt;138feebde7d3&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;annotation&quot;&gt;Annotation&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;legsta was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/legsta/579f1cabfe79&quot;&gt;579f1cabfe79&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;get-data&quot;&gt;Get Data&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;ncbi_datasets was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/ncbi_datasets/c47a0a93ffd2&quot;&gt;c47a0a93ffd2&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;fastafastq&quot;&gt;FASTA/FASTQ&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;fastq_paired_end_splitter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/fastq_paired_end_splitter/e39cc71d3ed6&quot;&gt;e39cc71d3ed6&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;variant-calling&quot;&gt;Variant Calling&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;bcftools_annotate was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_annotate/2958e3b49ad4&quot;&gt;2958e3b49ad4&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;phylogenetics&quot;&gt;Phylogenetics&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;ete was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/earlhaminst/ete/2db72467da51&quot;&gt;2db72467da51&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2022-03-14, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #317</summary></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2022-03-20, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #318</summary></entry></feed>
