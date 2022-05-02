@@ -1,4 +1,55 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2022-05-01T08:46:59+02:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2022-04-24</title><link href="https://galaxyproject.eu/posts/2022/04/24/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2022-04-24" /><published>2022-04-24T00:00:00+02:00</published><updated>2022-04-24T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2022/04/24/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2022/04/24/tool-update/">&lt;p&gt;On 2022-04-24, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#323/&quot;&gt;Jenkins Build #323&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2022-05-02T09:12:59+02:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2022-05-01</title><link href="https://galaxyproject.eu/posts/2022/05/01/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2022-05-01" /><published>2022-05-01T00:00:00+02:00</published><updated>2022-05-01T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2022/05/01/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2022/05/01/tool-update/">&lt;p&gt;On 2022-05-01, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#324/&quot;&gt;Jenkins Build #324&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;proteomics&quot;&gt;Proteomics&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;openms_openpepxl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_openpepxl/a2a842b00f9c&quot;&gt;a2a842b00f9c&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_percolatoradapter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_percolatoradapter/0fc9ae55bcfc&quot;&gt;0fc9ae55bcfc&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_percolatoradapter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_percolatoradapter/e7881a82b56d&quot;&gt;e7881a82b56d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_xfdr was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_xfdr/81402a5e4173&quot;&gt;81402a5e4173&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_xfdr was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_xfdr/9a6e3bb0f358&quot;&gt;9a6e3bb0f358&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;proteomiqon_mzmltomzlite was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/proteomiqon_mzmltomzlite/acb8aba959ed&quot;&gt;acb8aba959ed&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;proteomiqon_proteininference was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/proteomiqon_proteininference/7729b9043b80&quot;&gt;7729b9043b80&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;proteomiqon_psmbasedquantification was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/proteomiqon_psmbasedquantification/4abcc674fc0b&quot;&gt;4abcc674fc0b&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;hca_sc_scanpy_tools&quot;&gt;hca_sc_scanpy_tools&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;scanpy_multiplet_scrublet was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_multiplet_scrublet/8ca3ab8300ce&quot;&gt;8ca3ab8300ce&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_plot_scrublet was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_plot_scrublet/021a6e341dcf&quot;&gt;021a6e341dcf&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;metagenomic-analysis&quot;&gt;Metagenomic Analysis&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;binning_refiner was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/binning_refiner/1c8d0916f97f&quot;&gt;1c8d0916f97f&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;annotation&quot;&gt;Annotation&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;interproscan was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/interproscan/98cafcbd2578&quot;&gt;98cafcbd2578&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;assembly&quot;&gt;Assembly&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;meryl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/meryl/9cd178127b19&quot;&gt;9cd178127b19&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;mapping&quot;&gt;Mapping&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;coverm_contig was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/coverm_contig/6941d0d453ba&quot;&gt;6941d0d453ba&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;coverm_genome was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/coverm_genome/134e4e78e754&quot;&gt;134e4e78e754&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;ncbi-blast&quot;&gt;NCBI Blast&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;diamond was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/diamond/1e3323a44643&quot;&gt;1e3323a44643&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2022-05-01, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #324</summary></entry><entry><title type="html">UseGalaxy.eu Tool Updates for 2022-04-24</title><link href="https://galaxyproject.eu/posts/2022/04/24/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2022-04-24" /><published>2022-04-24T00:00:00+02:00</published><updated>2022-04-24T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2022/04/24/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2022/04/24/tool-update/">&lt;p&gt;On 2022-04-24, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#323/&quot;&gt;Jenkins Build #323&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;proteomics&quot;&gt;Proteomics&lt;/h2&gt;
 
@@ -416,56 +467,4 @@ is only a small aspect of RDM - for which NFDI and Galaxy provide additional sol
     &lt;iframe width=&quot;1000&quot; height=&quot;600&quot; src=&quot;https://globalclimatestrike.net/#map&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 &lt;/div&gt;</content><author><name></name></author><category term="s4f" /><category term="society" /><summary type="html">The next global climate strike will be on March 25! As last time, the Freiburg Galaxy Team is going to express its support more directly: the team will be striking in Freiburg, if you are nearby join us - and maybe we will find time to talk about research as well :)</summary></entry><entry><title type="html">Genomic analysis on Galaxy using Azure CycleCloud</title><link href="https://galaxyproject.eu/posts/2022/03/20/azure-galaxy/" rel="alternate" type="text/html" title="Genomic analysis on Galaxy using Azure CycleCloud" /><published>2022-03-20T00:00:00+01:00</published><updated>2022-03-20T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2022/03/20/azure-galaxy</id><content type="html" xml:base="https://galaxyproject.eu/posts/2022/03/20/azure-galaxy/">&lt;p&gt;&lt;img src=&quot;/assets/media/azure-galaxy.png&quot; alt=&quot;Graphical Abstract&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Galaxy is now available in the Azure CycleCloud. If you need more resources then we can offer and can pay for it &lt;a href=&quot;https://azure.microsoft.com/en-us/blog/genomic-analysis-on-galaxy-using-azure-cyclecloud/&quot;&gt;read more at this blog post&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">UseGalaxy.eu Tool Updates for 2022-03-20</title><link href="https://galaxyproject.eu/posts/2022/03/20/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2022-03-20" /><published>2022-03-20T00:00:00+01:00</published><updated>2022-03-20T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2022/03/20/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2022/03/20/tool-update/">&lt;p&gt;On 2022-03-20, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#318/&quot;&gt;Jenkins Build #318&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;chemicaltoolbox&quot;&gt;ChemicalToolBox&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;gmx_editconf was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/gmx_editconf/d06c503b33bd&quot;&gt;d06c503b33bd&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;gmx_em was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/gmx_em/aeec3c2719da&quot;&gt;aeec3c2719da&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;gmx_energy was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/gmx_energy/0920286a2d41&quot;&gt;0920286a2d41&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;gmx_get_builtin_file was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/gmx_get_builtin_file/377fe4ce732d&quot;&gt;377fe4ce732d&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;gmx_makendx was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/gmx_makendx/a72a739de916&quot;&gt;a72a739de916&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;gmx_merge_topology_files was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/gmx_merge_topology_files/3c56532ba462&quot;&gt;3c56532ba462&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;gmx_merge_topology_files was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/gmx_merge_topology_files/930a403f7389&quot;&gt;930a403f7389&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;gmx_restraints was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/gmx_restraints/455470c9d8e6&quot;&gt;455470c9d8e6&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;gmx_rg was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/gmx_rg/28c34e9949ac&quot;&gt;28c34e9949ac&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;gmx_setup was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/gmx_setup/1a5991ec7ce1&quot;&gt;1a5991ec7ce1&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;gmx_sim was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/gmx_sim/633f27174e8f&quot;&gt;633f27174e8f&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;gmx_solvate was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/gmx_solvate/2dfcf594c838&quot;&gt;2dfcf594c838&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;gmx_trj was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/gmx_trj/aefa274e0126&quot;&gt;aefa274e0126&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;proteomics&quot;&gt;Proteomics&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;openms_openpepxl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_openpepxl/a2a842b00f9c&quot;&gt;a2a842b00f9c&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;openms_percolatoradapter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_percolatoradapter/0fc9ae55bcfc&quot;&gt;0fc9ae55bcfc&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;openms_percolatoradapter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_percolatoradapter/e7881a82b56d&quot;&gt;e7881a82b56d&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;openms_xfdr was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_xfdr/81402a5e4173&quot;&gt;81402a5e4173&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;openms_xfdr was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_xfdr/9a6e3bb0f358&quot;&gt;9a6e3bb0f358&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;assembly&quot;&gt;Assembly&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;racon was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/racon/d865b62f501c&quot;&gt;d865b62f501c&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;mapping&quot;&gt;Mapping&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;bbtools_bbmap was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bbtools_bbmap/81cbb6a4c1ca&quot;&gt;81cbb6a4c1ca&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;annotation&quot;&gt;Annotation&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;tbvcfreport was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/tbvcfreport/4934c0ac6197&quot;&gt;4934c0ac6197&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;virology&quot;&gt;Virology&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;read_it_and_keep was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/read_it_and_keep/1563b58905f4&quot;&gt;1563b58905f4&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2022-03-20, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #318</summary></entry></feed>
+&lt;p&gt;Galaxy is now available in the Azure CycleCloud. If you need more resources then we can offer and can pay for it &lt;a href=&quot;https://azure.microsoft.com/en-us/blog/genomic-analysis-on-galaxy-using-azure-cyclecloud/&quot;&gt;read more at this blog post&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
