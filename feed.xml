@@ -1,4 +1,39 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2022-06-05T02:46:55+02:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2022-05-29</title><link href="https://galaxyproject.eu/posts/2022/05/29/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2022-05-29" /><published>2022-05-29T00:00:00+02:00</published><updated>2022-05-29T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2022/05/29/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2022/05/29/tool-update/">&lt;p&gt;On 2022-05-29, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#329/&quot;&gt;Jenkins Build #329&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2022-06-05T16:11:40+02:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2022-06-05</title><link href="https://galaxyproject.eu/posts/2022/06/05/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2022-06-05" /><published>2022-06-05T00:00:00+02:00</published><updated>2022-06-05T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2022/06/05/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2022/06/05/tool-update/">&lt;p&gt;On 2022-06-05, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#330/&quot;&gt;Jenkins Build #330&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;proteomics&quot;&gt;Proteomics&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;openms_openpepxl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_openpepxl/a2a842b00f9c&quot;&gt;a2a842b00f9c&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_percolatoradapter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_percolatoradapter/0fc9ae55bcfc&quot;&gt;0fc9ae55bcfc&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_percolatoradapter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_percolatoradapter/e7881a82b56d&quot;&gt;e7881a82b56d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_xfdr was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_xfdr/81402a5e4173&quot;&gt;81402a5e4173&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_xfdr was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_xfdr/9a6e3bb0f358&quot;&gt;9a6e3bb0f358&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;fastafastq&quot;&gt;FASTA/FASTQ&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;gfastats was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/gfastats/ad1149b4f795&quot;&gt;ad1149b4f795&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;annotation&quot;&gt;Annotation&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;antismash was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/antismash/e78e25d3b4bd&quot;&gt;e78e25d3b4bd&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;assembly&quot;&gt;Assembly&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;hifiasm was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hifiasm/366a11d316a7&quot;&gt;366a11d316a7&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;meryl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/meryl/29dabd8db6f2&quot;&gt;29dabd8db6f2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;rna-analysis&quot;&gt;RNA Analysis&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;ribotaper was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/rnateam/ribotaper/579b3be2559f&quot;&gt;579b3be2559f&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2022-06-05, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #330</summary></entry><entry><title type="html">UseGalaxy.eu Tool Updates for 2022-05-29</title><link href="https://galaxyproject.eu/posts/2022/05/29/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2022-05-29" /><published>2022-05-29T00:00:00+02:00</published><updated>2022-05-29T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2022/05/29/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2022/05/29/tool-update/">&lt;p&gt;On 2022-05-29, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#329/&quot;&gt;Jenkins Build #329&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;machine-learning&quot;&gt;Machine Learning&lt;/h2&gt;
 
@@ -491,28 +526,4 @@ is only a small aspect of RDM - for which NFDI and Galaxy provide additional sol
 
 &lt;ul&gt;
   &lt;li&gt;ega_download_client was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/ega_download_client/1162bfd9f782&quot;&gt;1162bfd9f782&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2022-04-17, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #322</summary></entry><entry><title type="html">Complete human genome T2T-CHM13v2.0 available in Galaxy</title><link href="https://galaxyproject.eu/posts/2022/04/11/T2T-human-genome/" rel="alternate" type="text/html" title="Complete human genome T2T-CHM13v2.0 available in Galaxy" /><published>2022-04-11T00:00:00+02:00</published><updated>2022-04-11T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2022/04/11/T2T-human-genome</id><content type="html" xml:base="https://galaxyproject.eu/posts/2022/04/11/T2T-human-genome/">&lt;p&gt;While the first version of an improved human genome resulting from the Telomere-to-Telomere (T2T) Consortium efforts got reported in 2020, it has taken two years of additional work to achieve something that the scientific community has been eagerly awaiting since: the first complete, gap-free sequence for all 24 human chromosomes (including Y).&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/media/T2T_human_genome.png&quot; alt=&quot;Graphical Abstract&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Resolved sequences by the T2T-CHM13v2.0 reference genome. Resource: T2T consortium&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;The T2T-CHM13v2.0 reference genome, generated primarily by long-read sequencing, provides a significant improvement in the characterization of centromeric satellite repeats, transposable elements, and segmental duplications.&lt;/p&gt;
-
-&lt;p&gt;Compared to the latest version, GRCh38, of the human reference genome, it adds nearly 200 million base pairs of novel DNA sequences, revealing 2,880 genes with no assigned GRCh38 orthologs, and nearly 2,000 candidate new genes. The filled gaps include the entire short arms of five human chromosomes and cover some of the most complex regions of the genome. In addition, the new version corrects thousands of structural errors and includes, for the first time, the complete sequence of the Y chromosome.&lt;/p&gt;
-
-&lt;p&gt;This genome is now available as built-in indexed genome in the wide collection of mapping tools that Galaxy puts at your disposal (e.g. &lt;a href=&quot;https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/rgrnastar/rna_star/2.7.8a+galaxy0&quot;&gt;RNASTAR&lt;/a&gt;, &lt;a href=&quot;https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/hisat2/hisat2/2.2.1+galaxy0&quot;&gt;HISAT2&lt;/a&gt;, &lt;a href=&quot;https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/0.7.17.2&quot;&gt;BWA-MEM&lt;/a&gt;). Enjoy your research!&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;References:&lt;/p&gt;
-
-&lt;p&gt;&lt;small&gt; [1] Nurk, S., Koren, S., Rhie, A., Rautiainen, M., Bzikadze, A. V., Mikheenko, A. &amp;amp; Phillippy, A. M. (2022). The complete sequence of a human genome. Science, 376(6588), 44-53. &lt;/small&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;small&gt; [2] Zahn, L. (2022). Filling the gaps. Science. 376(6588), 42-43. &lt;/small&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;small&gt; [3] Gershman, A., Sauria, M. E., Hook, P. W., Hoyt, S. J., Razaghi, R., Koren, S., … &amp;amp; Timp, W. (2021). Epigenetic patterns in a complete human genome. Science.  376(6588). &lt;/small&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">While the first version of an improved human genome resulting from the Telomere-to-Telomere (T2T) Consortium efforts got reported in 2020, it has taken two years of additional work to achieve something that the scientific community has been eagerly awaiting since: the first complete, gap-free sequence for all 24 human chromosomes (including Y).</summary></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2022-04-17, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #322</summary></entry></feed>
