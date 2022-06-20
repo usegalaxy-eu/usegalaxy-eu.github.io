@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2022-06-20T02:46:52+02:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2022-06-19</title><link href="https://galaxyproject.eu/posts/2022/06/19/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2022-06-19" /><published>2022-06-19T00:00:00+02:00</published><updated>2022-06-19T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2022/06/19/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2022/06/19/tool-update/">&lt;p&gt;On 2022-06-19, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#332/&quot;&gt;Jenkins Build #332&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2022-06-20T10:00:35+02:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2022-06-19</title><link href="https://galaxyproject.eu/posts/2022/06/19/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2022-06-19" /><published>2022-06-19T00:00:00+02:00</published><updated>2022-06-19T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2022/06/19/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2022/06/19/tool-update/">&lt;p&gt;On 2022-06-19, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#332/&quot;&gt;Jenkins Build #332&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;text-manipulation&quot;&gt;Text Manipulation&lt;/h2&gt;
 
@@ -113,7 +113,15 @@
 
 &lt;ul&gt;
   &lt;li&gt;ete was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/earlhaminst/ete/dc32007a6b36&quot;&gt;dc32007a6b36&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2022-06-12, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #331</summary></entry><entry><title type="html">UseGalaxy.eu Tool Updates for 2022-06-05</title><link href="https://galaxyproject.eu/posts/2022/06/05/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2022-06-05" /><published>2022-06-05T00:00:00+02:00</published><updated>2022-06-05T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2022/06/05/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2022/06/05/tool-update/">&lt;p&gt;On 2022-06-05, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#330/&quot;&gt;Jenkins Build #330&lt;/a&gt;&lt;/p&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2022-06-12, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #331</summary></entry><entry><title type="html">Training Infrastructure Feedback from Stefanie Dukowic-Schulze</title><link href="https://galaxyproject.eu/posts/2022/06/07/tiaas-stefanie-dukowic-schulze/" rel="alternate" type="text/html" title="Training Infrastructure Feedback from Stefanie Dukowic-Schulze" /><published>2022-06-07T00:00:00+02:00</published><updated>2022-06-07T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2022/06/07/tiaas-stefanie-dukowic-schulze</id><content type="html" xml:base="https://galaxyproject.eu/posts/2022/06/07/tiaas-stefanie-dukowic-schulze/">&lt;p&gt;Dr. Stefanie Dukowic-Schulze gave a training in the MSc Program “Translational Medical Research“ (TMR) at the Medical Faculty of Mannheim (University of Heidelberg).&lt;/p&gt;
+
+&lt;p&gt;Participants: 8 highly motivated students (7 TMR students plus 1 PhD student)&lt;/p&gt;
+
+&lt;p&gt;After repeated request for a bioinformatic introduction course, preferentially using Galaxy, we offered our first TMR course “Introduction to Bioinformatics“ as an extracurricular opportunity. The course highly benefitted from the provided Tlaas resource and from the instructor option to look up the current queues to which students submitted tasks.&lt;/p&gt;
+
+&lt;p&gt;Two whole on-site Saturdays (and self-study time around them) were filled with getting to know Galaxy, tools to process sequencing data and background information on common file formats and common issues in bioinformatics. We made use of the basic Galaxy tutorial “Galaxy 101 for everyone“ for preparation, and went in-class together through the concise Galaxy tutorials “Quality Control“ and “Mapping“, and parts of the “Whole transcriptome analysis of Arabidopsis thaliana“ tutorial to keep the on-site time focused on understanding inputs and outputs instead of re-cooking tutorials with more hours of processing time. Major life lessons came from re-processing individual published RNA-seq datasets which opened our eyes to issues regarding data access, using appropriate annotation files, and different final results depending on the pipelines used.&lt;/p&gt;
+
+&lt;p&gt;Thanks a lot to the whole Galaxy team for providing the service (Galaxy EU), the self-study-suitable tutorials with great explanations, and the well maintained tools to process data. This will definitely not be our last TMR Galaxy course!&lt;/p&gt;</content><author><name>Stefanie Dukowic-Schulze</name></author><category term="training" /><category term="TIaaS" /><summary type="html">Dr. Stefanie Dukowic-Schulze gave a training in the MSc Program “Translational Medical Research“ (TMR) at the Medical Faculty of Mannheim (University of Heidelberg).</summary></entry><entry><title type="html">UseGalaxy.eu Tool Updates for 2022-06-05</title><link href="https://galaxyproject.eu/posts/2022/06/05/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2022-06-05" /><published>2022-06-05T00:00:00+02:00</published><updated>2022-06-05T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2022/06/05/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2022/06/05/tool-update/">&lt;p&gt;On 2022-06-05, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#330/&quot;&gt;Jenkins Build #330&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;proteomics&quot;&gt;Proteomics&lt;/h2&gt;
 
@@ -248,7 +256,17 @@
 
 &lt;ul&gt;
   &lt;li&gt;orfipy was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/orfipy/c147914c9f02&quot;&gt;c147914c9f02&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2022-05-29, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #329</summary></entry><entry><title type="html">UseGalaxy.eu Tool Updates for 2022-05-23</title><link href="https://galaxyproject.eu/posts/2022/05/23/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2022-05-23" /><published>2022-05-23T00:00:00+02:00</published><updated>2022-05-23T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2022/05/23/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2022/05/23/tool-update/">&lt;p&gt;On 2022-05-23, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#328/&quot;&gt;Jenkins Build #328&lt;/a&gt;&lt;/p&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2022-05-29, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #329</summary></entry><entry><title type="html">New Paper “Transcriptome profiling of cisplatin resistance in triple-negative breast cancer: New insight into the role of PI3k/Akt pathway”</title><link href="https://galaxyproject.eu/posts/2022/05/27/paper-tnbc/" rel="alternate" type="text/html" title="New Paper &quot;Transcriptome profiling of cisplatin resistance in triple-negative breast cancer: New insight into the role of PI3k/Akt pathway&quot;" /><published>2022-05-27T00:00:00+02:00</published><updated>2022-05-27T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2022/05/27/paper-tnbc</id><content type="html" xml:base="https://galaxyproject.eu/posts/2022/05/27/paper-tnbc/">&lt;p&gt;Amir Sabbaghian and colleagues have published a paper related to the resistance to cisplatin in the treatment of triple negative breast cancer. Thanks for using the European Galaxy server and sharing your results with us!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Background:&lt;/strong&gt; Aggressive nature of triple negative breast cancer (TNBC) is associated with poor prognosis compared with other breast cancer types. Current guidelines recommend the use of Cisplatin for the management of TNBC. However, the development of resistance to cisplatin is the primary cause of chemotherapy failure.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Objective:&lt;/strong&gt; In the present study, we aimed to develop a stable cisplatin-resistant TNBC cell line to investigate the key pathways and genes involved in cisplatin-resistant TNBC.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Methods:&lt;/strong&gt; The MDA-MB-231 cell was exposed to different concentrations of cisplatin. After 33 generations, cells showed a resistant phenotype. Then, RNA-sequencing analysis was performed in cisplatin-resistant and parent cell lines. The RNA-sequencing data was verified by quantitative PCR (qPCR).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Results:&lt;/strong&gt; The IC50 of the resistant cell increased to 10-fold of parental cell (p&amp;lt;0.001). Also, cisplatin-resistant cells show cross-resistance to other drugs, including 5-fluorouracil, paclitaxel, and doxorubicin. Resistant cells demonstrated reduced drug accumulation compared to the parental cells. Results showed there were 116 differentially expression genes (DEGs) (p&amp;lt;0.01). Gene ontology analysis revealed that the DEGs have several molecular functions, including binding and transporter activity. Functional annotation showed that the DEGs were enriched in the drug resistance-related pathways, especially the PI3K-Akt signaling pathway. The most important genes identified in the protein-protein interaction network were heme oxygenase 1 (HMOX1) and TIMP metallopeptidase inhibitor 3 (TIMP3).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Conclusion&lt;/strong&gt;: We have identified several pathways and DEGs associated with the PI3K-Akt pathway, which provides new insights into the mechanism of cisplatin resistance, and potential drug targets in TNBC.&lt;/p&gt;</content><author><name></name></author><category term="paper" /><category term="citations" /><summary type="html">Amir Sabbaghian and colleagues have published a paper related to the resistance to cisplatin in the treatment of triple negative breast cancer. Thanks for using the European Galaxy server and sharing your results with us!</summary></entry><entry><title type="html">UseGalaxy.eu Tool Updates for 2022-05-23</title><link href="https://galaxyproject.eu/posts/2022/05/23/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2022-05-23" /><published>2022-05-23T00:00:00+02:00</published><updated>2022-05-23T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2022/05/23/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2022/05/23/tool-update/">&lt;p&gt;On 2022-05-23, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#328/&quot;&gt;Jenkins Build #328&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;machine-learning&quot;&gt;Machine Learning&lt;/h2&gt;
 
@@ -468,57 +486,4 @@
 
 &lt;ul&gt;
   &lt;li&gt;diamond was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/diamond/1e3323a44643&quot;&gt;1e3323a44643&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2022-05-01, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #324</summary></entry><entry><title type="html">Training Infrastructure Feedback from Hans-Rudolf Hotz and Lucille Delisle</title><link href="https://galaxyproject.eu/posts/2022/04/28/tiaas-hans-rudolf-lucille/" rel="alternate" type="text/html" title="Training Infrastructure Feedback from Hans-Rudolf Hotz and Lucille Delisle" /><published>2022-04-28T00:00:00+02:00</published><updated>2022-04-28T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2022/04/28/tiaas-hans-rudolf-lucille</id><content type="html" xml:base="https://galaxyproject.eu/posts/2022/04/28/tiaas-hans-rudolf-lucille/">&lt;p&gt;After 2 years running the &lt;a href=&quot;https://www.sib.swiss/&quot;&gt;SIB&lt;/a&gt; “Galaxy Introduction for Life Scientists” course only online, we were super happy to stand in front of a crowd and meet again the students in person. Thanks to TIaaS, we could offer the students an easy to set up
-working environment (i.e. just login and go to the provided TIaas URL).&lt;/p&gt;
-
-&lt;p&gt;We were working with the new version of the &lt;a href=&quot;https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/ref-based/tutorial.html&quot;&gt;Reference-based RNA-seq tutorial&lt;/a&gt;
-which included the new feature: &lt;a href=&quot;https://training.galaxyproject.org/training-material/news/2022/04/12/cyot.html&quot;&gt;“Choose Your Own Tutorial”&lt;/a&gt;. A big Thank You to Helena for implementing this in time. Despite a few minor hick-ups, it all went smoothly.&lt;/p&gt;
-
-&lt;p&gt;The students also seemed happy and enjoyed to be able to ask questions directly. It was much easier to help them but also to catch their attention. We are looking forward to teaching the next in person course.&lt;/p&gt;
-
-&lt;p&gt;Lucille and Hans-Rudolf&lt;/p&gt;</content><author><name>Hans-Rudolf Hotz and Lucille Delisle</name></author><category term="training" /><category term="TIaaS" /><summary type="html">After 2 years running the SIB “Galaxy Introduction for Life Scientists” course only online, we were super happy to stand in front of a crowd and meet again the students in person. Thanks to TIaaS, we could offer the students an easy to set up working environment (i.e. just login and go to the provided TIaas URL).</summary></entry><entry><title type="html">UseGalaxy.eu Tool Updates for 2022-04-24</title><link href="https://galaxyproject.eu/posts/2022/04/24/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2022-04-24" /><published>2022-04-24T00:00:00+02:00</published><updated>2022-04-24T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2022/04/24/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2022/04/24/tool-update/">&lt;p&gt;On 2022-04-24, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#323/&quot;&gt;Jenkins Build #323&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;proteomics&quot;&gt;Proteomics&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;metanovo was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/metanovo/7a5ff5359b13&quot;&gt;7a5ff5359b13&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;openms_openpepxl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_openpepxl/40cc19c0dbd6&quot;&gt;40cc19c0dbd6&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;openms_openpepxl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_openpepxl/a2a842b00f9c&quot;&gt;a2a842b00f9c&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;openms_openpepxl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_openpepxl/fc36cfd19834&quot;&gt;fc36cfd19834&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;openms_percolatoradapter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_percolatoradapter/0fc9ae55bcfc&quot;&gt;0fc9ae55bcfc&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;openms_percolatoradapter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_percolatoradapter/e7881a82b56d&quot;&gt;e7881a82b56d&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;openms_xfdr was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_xfdr/81402a5e4173&quot;&gt;81402a5e4173&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;openms_xfdr was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_xfdr/9a6e3bb0f358&quot;&gt;9a6e3bb0f358&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;chemicaltoolbox&quot;&gt;ChemicalToolBox&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;alphafold2 was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxy-australia/alphafold2/138feebde7d3&quot;&gt;138feebde7d3&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;alphafold2 was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxy-australia/alphafold2/eb085b3dbaf8&quot;&gt;eb085b3dbaf8&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;variant-calling&quot;&gt;Variant Calling&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;king was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/king/1932808c6fab&quot;&gt;1932808c6fab&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;seqwish was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/seqwish/0c415ba215e7&quot;&gt;0c415ba215e7&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;fastafastq&quot;&gt;FASTA/FASTQ&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;cutadapt was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/lparsons/cutadapt/02c5a84971c8&quot;&gt;02c5a84971c8&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;convert-formats&quot;&gt;Convert Formats&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;biom_convert was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/biom_convert/33c99804a32f&quot;&gt;33c99804a32f&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;phylogenetics&quot;&gt;Phylogenetics&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;pangolin was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/pangolin/abf6dbe8c9d7&quot;&gt;abf6dbe8c9d7&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2022-04-24, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #323</summary></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2022-05-01, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #324</summary></entry></feed>
