@@ -147,6 +147,81 @@
 
 
      
+      tags.push(`COVID-19`)
+     
+      tags.push(`data`)
+     
+      tags.push(`Freiburg`)
+
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
+
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4 COVID-19data news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  
+                    <a href="https://by-covid.org/news-events/monkeypox-pipeline/">
+                  
+                    <h2 class="title">Repurposing COVID-19 pipelines for the monkeypox virus</h2>
+                  </a>
+                  <span class="date">
+                    
+	<i class="fa fa-external-link" aria-hidden="true"></i>
+
+
+
+
+
+
+
+
+
+
+
+
+                  </span>
+                  <span class="date">
+                    June 23, 2022
+                  </span>
+                  
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
+                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  
+                  
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=COVID-19'"
+           class="btn btn-primary btn-xs tag-element" role="button">COVID-19</a>
+    
+
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=data'"
+           class="btn btn-primary btn-xs tag-element" role="button">data</a>
+    
+
+
+                </div>
+                <div class="news-content">
+                  <div><p>One aim of the BY-COVID project is to build a framework enabling data from newly emerging infectious disease threats to be made
+rapidly and widely accessible. The current monkeypox outbreak is providing a use case to show how BY-COVID services can be
+adapted to new infectious agents.</p>
+</div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
+
+        news.append(div);
+    }
+    tags = []
+
+
+     
       tags.push(`conference`)
      
       tags.push(`talk`)
