@@ -156,6 +156,67 @@
      
       tags.push(`galaxy`)
      
+      tags.push(``)
+
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
+
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4 galaxy news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  
+                    <a href="/posts/2022/06/27/gcc2022-webinar-mode/">
+                  
+                    <h2 class="title">GCC2022: Registration open for Webinar mode</h2>
+                  </a>
+                  <span class="date">
+                    
+
+
+
+
+
+
+
+
+
+
+
+                  </span>
+                  <span class="date">
+                    June 27, 2022
+                  </span>
+                  
+                  
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=galaxy'"
+           class="btn btn-primary btn-xs tag-element" role="button">galaxy</a>
+    
+
+
+                </div>
+                <div class="news-content">
+                  <div><p>As you may know, the Galaxy Community Conference (GCC2022) will take place in Minnesota this year. For those that won’t attend in person, the GCC Organizing Committee is happy to announce a virtual webinar-like option.</p>
+</div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
+
+        news.append(div);
+    }
+    tags = []
+
+
+     
+      tags.push(`galaxy`)
+     
       tags.push(`support`)
      
       tags.push(`society`)
