@@ -1,4 +1,84 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2022-07-03T02:46:59+02:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">GCC2022: Registration open for Webinar mode</title><link href="https://galaxyproject.eu/posts/2022/06/27/gcc2022-webinar-mode/" rel="alternate" type="text/html" title="GCC2022: Registration open for Webinar mode" /><published>2022-06-27T00:00:00+02:00</published><updated>2022-06-27T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2022/06/27/gcc2022-webinar-mode</id><content type="html" xml:base="https://galaxyproject.eu/posts/2022/06/27/gcc2022-webinar-mode/">&lt;p&gt;As you may know, the &lt;a href=&quot;https://galaxyproject.org/events/gcc2022/&quot;&gt;Galaxy Community Conference (GCC2022)&lt;/a&gt; will take place in Minnesota this year. For those that won’t attend in person, the GCC Organizing Committee is happy to announce a &lt;strong&gt;virtual webinar-like option&lt;/strong&gt;.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2022-07-03T20:48:50+02:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2022-07-03</title><link href="https://galaxyproject.eu/posts/2022/07/03/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2022-07-03" /><published>2022-07-03T00:00:00+02:00</published><updated>2022-07-03T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2022/07/03/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2022/07/03/tool-update/">&lt;p&gt;On 2022-07-03, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#334/&quot;&gt;Jenkins Build #334&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;join-subtract-and-group&quot;&gt;Join, Subtract and Group&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;datamash_ops was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/datamash_ops/746e8e4bf929&quot;&gt;746e8e4bf929&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;datamash_reverse was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/datamash_reverse/f198773344e4&quot;&gt;f198773344e4&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;datamash_transpose was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/datamash_transpose/ac092723240d&quot;&gt;ac092723240d&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;proteomics&quot;&gt;Proteomics&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;openms_openpepxl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_openpepxl/a2a842b00f9c&quot;&gt;a2a842b00f9c&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_percolatoradapter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_percolatoradapter/0fc9ae55bcfc&quot;&gt;0fc9ae55bcfc&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_percolatoradapter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_percolatoradapter/e7881a82b56d&quot;&gt;e7881a82b56d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_semanticvalidator was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_semanticvalidator/b60c5420dac6&quot;&gt;b60c5420dac6&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_xfdr was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_xfdr/81402a5e4173&quot;&gt;81402a5e4173&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_xfdr was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_xfdr/9a6e3bb0f358&quot;&gt;9a6e3bb0f358&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;hca_sc_scanpy_tools&quot;&gt;hca_sc_scanpy_tools&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;scanpy_find_markers was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_find_markers/af5e4efa9e66&quot;&gt;af5e4efa9e66&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;metagenomic-analysis&quot;&gt;Metagenomic Analysis&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;concoct was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/concoct/7a145c72d375&quot;&gt;7a145c72d375&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;concoct_coverage_table was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/concoct_coverage_table/052e6bc06ea3&quot;&gt;052e6bc06ea3&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;concoct_cut_up_fasta was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/concoct_cut_up_fasta/137ede2b48c0&quot;&gt;137ede2b48c0&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;concoct_extract_fasta_bins was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/concoct_extract_fasta_bins/92a2d9109528&quot;&gt;92a2d9109528&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;concoct_merge_cut_up_clustering was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/concoct_merge_cut_up_clustering/ce1a3ce0e807&quot;&gt;ce1a3ce0e807&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;das_tool was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/das_tool/a8e434ebe961&quot;&gt;a8e434ebe961&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;drep_compare was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/drep_compare/54aa421c2911&quot;&gt;54aa421c2911&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;drep_dereplicate was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/drep_dereplicate/368cb4bef9d8&quot;&gt;368cb4bef9d8&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;fasta_to_contig2bin was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/fasta_to_contig2bin/5033d753964b&quot;&gt;5033d753964b&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;recentrifuge was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/recentrifuge/09b7b0b2e2c2&quot;&gt;09b7b0b2e2c2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;variant-calling&quot;&gt;Variant Calling&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;delly_call was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/delly_call/c34eab9d5134&quot;&gt;c34eab9d5134&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;delly_classify was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/delly_classify/df4300f300e4&quot;&gt;df4300f300e4&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;delly_cnv was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/delly_cnv/8ad49c4272ea&quot;&gt;8ad49c4272ea&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;delly_filter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/delly_filter/74f9f312c713&quot;&gt;74f9f312c713&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;delly_lr was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/delly_lr/7bd397ff21a2&quot;&gt;7bd397ff21a2&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;delly_merge was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/delly_merge/6c44bbc0eaa5&quot;&gt;6c44bbc0eaa5&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;ensembl_vep was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/ensembl_vep/27fd1c1f00a8&quot;&gt;27fd1c1f00a8&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;vcf2maf was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/vcf2maf/2973994fecd6&quot;&gt;2973994fecd6&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;nanopore&quot;&gt;Nanopore&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;medaka_consensus was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/medaka_consensus/d6cddc06aeae&quot;&gt;d6cddc06aeae&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;medaka_consensus_pipeline was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/medaka_consensus_pipeline/cb34f00cc10f&quot;&gt;cb34f00cc10f&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;medaka_variant was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/medaka_variant/cc36773a3681&quot;&gt;cc36773a3681&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;medaka_variant_pipeline was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/medaka_variant_pipeline/1d62240feff3&quot;&gt;1d62240feff3&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;assembly&quot;&gt;Assembly&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;yahs was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/yahs/d87433f2a54d&quot;&gt;d87433f2a54d&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;none&quot;&gt;None&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;data_manager_build_kraken2_database was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/data_manager_build_kraken2_database/9002633b4737&quot;&gt;9002633b4737&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;annotation&quot;&gt;Annotation&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;annotatemyids was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/annotatemyids/4f2967b27e67&quot;&gt;4f2967b27e67&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2022-07-03, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #334</summary></entry><entry><title type="html">GCC2022: Registration open for Webinar mode</title><link href="https://galaxyproject.eu/posts/2022/06/27/gcc2022-webinar-mode/" rel="alternate" type="text/html" title="GCC2022: Registration open for Webinar mode" /><published>2022-06-27T00:00:00+02:00</published><updated>2022-06-27T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2022/06/27/gcc2022-webinar-mode</id><content type="html" xml:base="https://galaxyproject.eu/posts/2022/06/27/gcc2022-webinar-mode/">&lt;p&gt;As you may know, the &lt;a href=&quot;https://galaxyproject.org/events/gcc2022/&quot;&gt;Galaxy Community Conference (GCC2022)&lt;/a&gt; will take place in Minnesota this year. For those that won’t attend in person, the GCC Organizing Committee is happy to announce a &lt;strong&gt;virtual webinar-like option&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;How can you register?&lt;/strong&gt;&lt;/p&gt;
 
@@ -404,104 +484,4 @@ to the creation of a sustainable European infrastructure for pandemic preparedne
 
 &lt;ul&gt;
   &lt;li&gt;ribotaper was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/rnateam/ribotaper/579b3be2559f&quot;&gt;579b3be2559f&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2022-06-05, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #330</summary></entry><entry><title type="html">UseGalaxy.eu Tool Updates for 2022-05-29</title><link href="https://galaxyproject.eu/posts/2022/05/29/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2022-05-29" /><published>2022-05-29T00:00:00+02:00</published><updated>2022-05-29T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2022/05/29/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2022/05/29/tool-update/">&lt;p&gt;On 2022-05-29, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#329/&quot;&gt;Jenkins Build #329&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;machine-learning&quot;&gt;Machine Learning&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;keras_batch_models was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/keras_batch_models/0dc3027df8f4&quot;&gt;0dc3027df8f4&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;keras_batch_models was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/keras_batch_models/68eb154fa0c6&quot;&gt;68eb154fa0c6&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;keras_model_builder was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/keras_model_builder/053570bac5ea&quot;&gt;053570bac5ea&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;keras_model_builder was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/keras_model_builder/8611b3f52a38&quot;&gt;8611b3f52a38&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;keras_model_config was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/keras_model_config/0c933465d70e&quot;&gt;0c933465d70e&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;keras_model_config was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/keras_model_config/de19ef9ff031&quot;&gt;de19ef9ff031&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;keras_train_and_eval was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/keras_train_and_eval/785dd890e27d&quot;&gt;785dd890e27d&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;keras_train_and_eval was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/keras_train_and_eval/b6ef6d0cb6b7&quot;&gt;b6ef6d0cb6b7&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;ml_visualization_ex was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/ml_visualization_ex/14bd6d59650d&quot;&gt;14bd6d59650d&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;ml_visualization_ex was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/ml_visualization_ex/947c2eacccb8&quot;&gt;947c2eacccb8&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;model_prediction was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/model_prediction/1552b8cb4a94&quot;&gt;1552b8cb4a94&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_build_pipeline was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_build_pipeline/0c74d3164ac8&quot;&gt;0c74d3164ac8&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_build_pipeline was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_build_pipeline/aef56d0e7a61&quot;&gt;aef56d0e7a61&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_clf_metrics was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_clf_metrics/40e31fb88836&quot;&gt;40e31fb88836&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_clf_metrics was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_clf_metrics/a7067bbf1e58&quot;&gt;a7067bbf1e58&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_data_preprocess was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_data_preprocess/1bef885255e0&quot;&gt;1bef885255e0&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_data_preprocess was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_data_preprocess/484a98c44f00&quot;&gt;484a98c44f00&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_discriminant_classifier was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_discriminant_classifier/420a4bf99244&quot;&gt;420a4bf99244&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_discriminant_classifier was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_discriminant_classifier/78a60f884ac9&quot;&gt;78a60f884ac9&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_ensemble was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_ensemble/4ecc0ce9d0a2&quot;&gt;4ecc0ce9d0a2&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_ensemble was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_ensemble/53616c8b0865&quot;&gt;53616c8b0865&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_estimator_attributes was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_estimator_attributes/375bbd555f4a&quot;&gt;375bbd555f4a&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_feature_selection was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_feature_selection/1d20e0dce176&quot;&gt;1d20e0dce176&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_feature_selection was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_feature_selection/e918f33f7d4f&quot;&gt;e918f33f7d4f&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_fitted_model_eval was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_fitted_model_eval/2e69c6de354e&quot;&gt;2e69c6de354e&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_generalized_linear was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_generalized_linear/2fc89dcd41c8&quot;&gt;2fc89dcd41c8&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_lightgbm was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_lightgbm/a459c68692ca&quot;&gt;a459c68692ca&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_model_fit was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_model_fit/17999807dc1b&quot;&gt;17999807dc1b&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_model_fit was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_model_fit/5dd3f77a2257&quot;&gt;5dd3f77a2257&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_model_validation was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_model_validation/4b359039f09f&quot;&gt;4b359039f09f&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_model_validation was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_model_validation/be4f389a95d9&quot;&gt;be4f389a95d9&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_nn_classifier was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_nn_classifier/34d31bd995e9&quot;&gt;34d31bd995e9&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_nn_classifier was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_nn_classifier/4cc980df6265&quot;&gt;4cc980df6265&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_numeric_clustering was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_numeric_clustering/4bbaf77573ef&quot;&gt;4bbaf77573ef&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_pairwise_metrics was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_pairwise_metrics/09bfbef3dd90&quot;&gt;09bfbef3dd90&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_pairwise_metrics was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_pairwise_metrics/d2da602b05cb&quot;&gt;d2da602b05cb&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_pca was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_pca/24c1cc2dd4a4&quot;&gt;24c1cc2dd4a4&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_pca was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_pca/435592ba3087&quot;&gt;435592ba3087&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_regression_metrics was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_regression_metrics/70c5a9127f99&quot;&gt;70c5a9127f99&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_regression_metrics was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_regression_metrics/7acb9b46c066&quot;&gt;7acb9b46c066&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_sample_generator was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_sample_generator/0f460421b212&quot;&gt;0f460421b212&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_sample_generator was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_sample_generator/e6f4d3d9058c&quot;&gt;e6f4d3d9058c&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_searchcv was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_searchcv/586e68c83df2&quot;&gt;586e68c83df2&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_searchcv was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_searchcv/c6ae57f774c6&quot;&gt;c6ae57f774c6&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_stacking_ensemble_models was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_stacking_ensemble_models/2b679bb676be&quot;&gt;2b679bb676be&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_stacking_ensemble_models was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_stacking_ensemble_models/59f53bbe6ba9&quot;&gt;59f53bbe6ba9&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_svm_classifier was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_svm_classifier/14fa42b095c4&quot;&gt;14fa42b095c4&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_svm_classifier was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_svm_classifier/4ed102b922cb&quot;&gt;4ed102b922cb&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_to_categorical was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_to_categorical/59e8b4328c82&quot;&gt;59e8b4328c82&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_to_categorical was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_to_categorical/ec69cbe34b73&quot;&gt;ec69cbe34b73&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_train_test_eval was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_train_test_eval/10e2498ef07b&quot;&gt;10e2498ef07b&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_train_test_split was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_train_test_split/13b9ac5d277c&quot;&gt;13b9ac5d277c&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_train_test_split was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_train_test_split/376dd641af44&quot;&gt;376dd641af44&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;statistics&quot;&gt;Statistics&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;scipy_sparse was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/scipy_sparse/318484f56b6a&quot;&gt;318484f56b6a&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;scipy_sparse was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/scipy_sparse/f49aad8f79ea&quot;&gt;f49aad8f79ea&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;rad-seq&quot;&gt;RAD-seq&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;stacks2_clonefilter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/stacks2_clonefilter/110a346daf36&quot;&gt;110a346daf36&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;stacks2_cstacks was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/stacks2_cstacks/42d9087b4789&quot;&gt;42d9087b4789&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;stacks2_denovomap was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/stacks2_denovomap/33486216eec0&quot;&gt;33486216eec0&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;stacks2_gstacks was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/stacks2_gstacks/fa51dc5e8386&quot;&gt;fa51dc5e8386&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;stacks2_kmerfilter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/stacks2_kmerfilter/a3e86cd9cac7&quot;&gt;a3e86cd9cac7&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;stacks2_populations was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/stacks2_populations/564c33e5c3e3&quot;&gt;564c33e5c3e3&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;stacks2_procrad was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/stacks2_procrad/8cff84759bf6&quot;&gt;8cff84759bf6&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;stacks2_refmap was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/stacks2_refmap/adc7a7610d4f&quot;&gt;adc7a7610d4f&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;stacks2_shortreads was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/stacks2_shortreads/c287418eb288&quot;&gt;c287418eb288&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;stacks2_sstacks was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/stacks2_sstacks/a819ec3b362d&quot;&gt;a819ec3b362d&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;stacks2_tsv2bam was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/stacks2_tsv2bam/2645575d1bf2&quot;&gt;2645575d1bf2&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;stacks2_ustacks was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/stacks2_ustacks/912f904a6e1e&quot;&gt;912f904a6e1e&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;proteomics&quot;&gt;Proteomics&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;openms_openpepxl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_openpepxl/40cc19c0dbd6&quot;&gt;40cc19c0dbd6&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;openms_openpepxl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_openpepxl/a2a842b00f9c&quot;&gt;a2a842b00f9c&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;openms_openpepxl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_openpepxl/fc36cfd19834&quot;&gt;fc36cfd19834&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;openms_percolatoradapter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_percolatoradapter/0fc9ae55bcfc&quot;&gt;0fc9ae55bcfc&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;openms_percolatoradapter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_percolatoradapter/e7881a82b56d&quot;&gt;e7881a82b56d&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;openms_xfdr was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_xfdr/81402a5e4173&quot;&gt;81402a5e4173&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;openms_xfdr was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_xfdr/9a6e3bb0f358&quot;&gt;9a6e3bb0f358&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;extract-features&quot;&gt;Extract Features&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;orfipy was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/orfipy/c147914c9f02&quot;&gt;c147914c9f02&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2022-05-29, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #329</summary></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2022-06-05, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #330</summary></entry></feed>
