@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <title>Galaxy Europe | OpenAPI support in Galaxy and Interactive API Documentation</title>
+  <meta property="og:title" content="OpenAPI support in Galaxy and Interactive API Documentation" />
+  <meta property="og:description" content="Since Galaxy release 22.05 it’s much easier to discover, ..." />
+  <meta property="og:image" content="/assets/media/galaxy-eu-logo.512.png" />
+  <meta name="description" content="The European Galaxy Instance">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+
+
+
+
+  <link rel="canonical" href="https://galaxyproject.eu/posts/2022/08/05/galaxy-open-api/plain.html">
+  <link rel="shortcut icon" href="/assets/media/galaxy-eu-logo.64.png" type="image/x-icon" />
+  <link rel="alternate" type="application/rss+xml" title="Galaxy Europe" href="/feed.xml">
+
+  <link href="/assets/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <script src="/assets/js/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
+  <script src="/assets/js/bootstrap.min.js" integrity="sha256-U5ZEeKfGNOja007MMD3YBI0A3OSZOQbeG6z2f2Y0hu8=" crossorigin="anonymous"></script>
+</head>
+
+  <body>
+    <div id="wrap">
+      <div id="main">
+        <div class="container" id="maincontainer">
+          
+
+
+
+
+<section id="news-page">
+  <div class="row news-header-row">
+    
+    <a class="col-xs-1 text-center" href="/posts/2022/07/31/tool-update/plain.html">
+      «
+    </a>
+    
+    <div class="col-xs-10 ">
+      <div class="text-center">
+        <h2 class="title">OpenAPI support in Galaxy and Interactive API Documentation</h2>
+      </div>
+      <hr />
+    </div>
+    
+  </div>
+  <div class="row post-metadata">
+    <div class="col-md-8 col-md-offset-2">
+      <div class="row">
+        <div class="col-md-6">
+            
+
+        </div>
+        <div class="col-md-6 text-right">
+          <div>
+            <span class="post-date">
+              Aug 5, 2022
+            </span>
+
+            
+
+            <br />
+            <span class="post-tags">
+                <span class="label label-success">Freiburg</span>
+              
+                <span class="label label-info">galaxy</span>
+              
+              
+            </span>
+
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2">
+      <div class="news-content">
+        <p>Since Galaxy release 22.05 it’s much easier to <strong>discover</strong>, <strong>explore</strong>, <strong>learn</strong> and <strong>experiment</strong> with the <em>Galaxy Rest API</em>.</p>
+
+<p>Thanks to the recent development efforts in modernizing the Galaxy backend by migrating our custom API framework to <a href="https://fastapi.tiangolo.com/">FastAPI</a> and moving from a Synchronous (WSGI) to an Asynchronous Server Gateway Interface (<a href="https://asgi.readthedocs.io/en/latest/specs/main.html">ASGI</a>), the Galaxy API is now <a href="https://github.com/OAI/OpenAPI-Specification">OpenAPI</a> compliant. This enables many new features that were not possible with the previous framework.</p>
+
+<p>One of those new features is that we now have interactive API documentation using <a href="https://swagger.io/">Swagger</a>!</p>
+
+<p><a href="https://usegalaxy.eu/api/docs">You can go to <strong>https://usegalaxy.eu/api/docs</strong> and try it out now!</a></p>
+
+<p><img src="/assets/media/2022-08-05-galaxy-open-api.gif" alt="Galaxy OpenAPI Demo" /></p>
+
+<h3 id="lets-have-a-look-at-how-we-are-migrating-our-existing-api-routes">Let’s have a look at how we are migrating our existing API routes</h3>
+
+<p>As an example, we can see how the <em>show quota details</em> route was migrated in the <a href="https://github.com/galaxyproject/galaxy/blob/dev/lib/galaxy/webapps/galaxy/api/quotas.py"><em>Quotas</em> API</a>.</p>
+
+<p>Usually, the first step is moving the existing API logic to a <em>service layer</em>. Then, in the API module, we can focus on documenting each endpoint and keep the logic in a different class <a href="https://github.com/galaxyproject/galaxy/blob/dev/lib/galaxy/webapps/galaxy/services/quotas.py">QuotasService</a> that has extensive <a href="https://docs.python.org/3/library/typing.html">Python type hints</a> and returns <a href="https://pydantic-docs.helpmanual.io/">Pydantic</a> models. These <em>Pydantic models</em> annotate each field with additional information used by FastAPI to generate the interactive documentation.</p>
+
+<p>Here’s an example of the <em>QuotaDetails</em> Pydantic model. It provides type hints for each field, default values, title and description:</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">QuotaDetails</span><span class="p">(</span><span class="n">QuotaBase</span><span class="p">):</span>
+    <span class="n">description</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="n">QuotaDescriptionField</span>
+    <span class="nb">bytes</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="n">Field</span><span class="p">(</span>
+        <span class="o">...</span><span class="p">,</span>
+        <span class="n">title</span><span class="o">=</span><span class="s">"Bytes"</span><span class="p">,</span>
+        <span class="n">description</span><span class="o">=</span><span class="s">"The amount, expressed in bytes, of this Quota."</span><span class="p">,</span>
+    <span class="p">)</span>
+    <span class="n">operation</span><span class="p">:</span> <span class="n">QuotaOperation</span> <span class="o">=</span> <span class="n">QuotaOperationField</span>
+    <span class="n">display_amount</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="n">Field</span><span class="p">(</span>
+        <span class="o">...</span><span class="p">,</span>
+        <span class="n">title</span><span class="o">=</span><span class="s">"Display Amount"</span><span class="p">,</span>
+        <span class="n">description</span><span class="o">=</span><span class="s">"Human-readable representation of the `amount` field."</span><span class="p">,</span>
+    <span class="p">)</span>
+    <span class="n">default</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="n">DefaultQuota</span><span class="p">]</span> <span class="o">=</span> <span class="n">Field</span><span class="p">(</span>
+        <span class="p">[],</span>
+        <span class="n">title</span><span class="o">=</span><span class="s">"Default"</span><span class="p">,</span>
+        <span class="n">description</span><span class="o">=</span><span class="s">"A list indicating which types of default user quotas, if any, are associated with this quota."</span><span class="p">,</span>
+    <span class="p">)</span>
+    <span class="n">users</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="n">UserQuota</span><span class="p">]</span> <span class="o">=</span> <span class="n">Field</span><span class="p">(</span>
+        <span class="p">[],</span>
+        <span class="n">title</span><span class="o">=</span><span class="s">"Users"</span><span class="p">,</span>
+        <span class="n">description</span><span class="o">=</span><span class="s">"A list of specific users associated with this quota."</span><span class="p">,</span>
+    <span class="p">)</span>
+    <span class="n">groups</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="n">GroupQuota</span><span class="p">]</span> <span class="o">=</span> <span class="n">Field</span><span class="p">(</span>
+        <span class="p">[],</span>
+        <span class="n">title</span><span class="o">=</span><span class="s">"Groups"</span><span class="p">,</span>
+        <span class="n">description</span><span class="o">=</span><span class="s">"A list of specific groups of users associated with this quota."</span><span class="p">,</span>
+    <span class="p">)</span>
+</code></pre></div></div>
+
+<p>Then, the <code class="highlighter-rouge">api/quotas/{id}</code> route in our <a href="https://github.com/galaxyproject/galaxy/blob/c975fbc538bdd600d91116c82e7536cd4828714e/lib/galaxy/webapps/galaxy/api/quotas.py#L65">Quotas API module</a> will be something like this:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">@</span><span class="n">router</span><span class="o">.</span><span class="n">cbv</span>
+<span class="k">class</span> <span class="nc">FastAPIQuota</span><span class="p">:</span>
+    <span class="n">service</span><span class="p">:</span> <span class="n">QuotasService</span> <span class="o">=</span> <span class="n">depends</span><span class="p">(</span><span class="n">QuotasService</span><span class="p">)</span>
+
+<span class="o">...</span>
+
+    <span class="o">@</span><span class="n">router</span><span class="o">.</span><span class="n">get</span><span class="p">(</span>
+        <span class="s">"/api/quotas/{id}"</span><span class="p">,</span>
+        <span class="n">summary</span><span class="o">=</span><span class="s">"Displays details on a particular active quota."</span><span class="p">,</span>
+        <span class="n">require_admin</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span>
+    <span class="p">)</span>
+    <span class="k">def</span> <span class="nf">show</span><span class="p">(</span>
+        <span class="bp">self</span><span class="p">,</span> <span class="n">trans</span><span class="p">:</span> <span class="n">ProvidesUserContext</span> <span class="o">=</span> <span class="n">DependsOnTrans</span><span class="p">,</span> <span class="nb">id</span><span class="p">:</span> <span class="n">EncodedDatabaseIdField</span> <span class="o">=</span> <span class="n">QuotaIdPathParam</span>
+    <span class="p">)</span> <span class="o">-&gt;</span> <span class="n">QuotaDetails</span><span class="p">:</span>
+        <span class="s">"""Displays details on a particular active quota."""</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">service</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="n">trans</span><span class="p">,</span> <span class="nb">id</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>While the <code class="highlighter-rouge">show</code> function in the <a href="https://github.com/galaxyproject/galaxy/blob/c975fbc538bdd600d91116c82e7536cd4828714e/lib/galaxy/webapps/galaxy/services/quotas.py#L56"><em>QuotasService</em> class</a> is the same that we had in the previous API framework, now, it uses Pydantic models and type annotations to document the parameters and return models.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">QuotasService</span><span class="p">(</span><span class="n">ServiceBase</span><span class="p">):</span>
+    <span class="s">"""Interface/service object shared by controllers for interacting with quotas."""</span>
+
+<span class="o">...</span>
+
+    <span class="k">def</span> <span class="nf">show</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">trans</span><span class="p">:</span> <span class="n">ProvidesUserContext</span><span class="p">,</span> <span class="nb">id</span><span class="p">:</span> <span class="n">EncodedDatabaseIdField</span><span class="p">,</span> <span class="n">deleted</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="bp">False</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">QuotaDetails</span><span class="p">:</span>
+        <span class="s">"""Displays information about a quota."""</span>
+        <span class="n">quota</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">quota_manager</span><span class="o">.</span><span class="n">get_quota</span><span class="p">(</span><span class="n">trans</span><span class="p">,</span> <span class="nb">id</span><span class="p">,</span> <span class="n">deleted</span><span class="o">=</span><span class="n">deleted</span><span class="p">)</span>
+        <span class="n">rval</span> <span class="o">=</span> <span class="n">quota</span><span class="o">.</span><span class="n">to_dict</span><span class="p">(</span><span class="n">view</span><span class="o">=</span><span class="s">"element"</span><span class="p">,</span> <span class="n">value_mapper</span><span class="o">=</span><span class="p">{</span><span class="s">"id"</span><span class="p">:</span> <span class="n">trans</span><span class="o">.</span><span class="n">security</span><span class="o">.</span><span class="n">encode_id</span><span class="p">,</span> <span class="s">"total_disk_usage"</span><span class="p">:</span> <span class="nb">float</span><span class="p">})</span>
+        <span class="k">return</span> <span class="n">QuotaDetails</span><span class="o">.</span><span class="n">parse_obj</span><span class="p">(</span><span class="n">rval</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Galaxy is a complex application and its API is considerable large! So there are still some undocumented routes out there. If you are familiar with Galaxy and want to help migrate more API routes or improve the existing documented ones, you are very welcome! Please look at this <a href="https://github.com/galaxyproject/galaxy/issues/10889">GitHub issue</a> to track which APIs still need documentation.</p>
+
+      </div>
+    </div>
+  </div>
+
+
+<div id="supported">
+    
+    <h1>Supported by</h1>
+    
+    <div class="row eu-image-box">
+        
+        
+        
+        
+        
+        <div class="col-md-6">
+            
+            
+            <a href="https://usegalaxy-eu.github.io" target="_blank">
+                <img alt="European Galaxy Team Logo" src="/assets/media/galaxy-eu.png"
+                    class="img-responsive eu-image" />
+            </a>
+            
+        </div>
+        
+    </div>
+</div>
+
+
+</section>
+
+        </div>
+      </div>
+    </div>
+    
+
+
+
+
+
+
+
+<footer class="navbar-default">
+    <div class="container">
+        <div class="row">
+        </div>
+        <div class="row">
+            <div class="col-lg-12" style="text-align:center">
+                <p>The <a href="/freiburg/people">Freiburg Galaxy Team</a> is headed by Björn Grüning
+and is part of the <a href="http://www.bioinf.uni-freiburg.de">Bioinformatics Group
+Freiburg</a>, headed by Prof. Dr. Rolf
+Backofen.</p>
+
+<p>The team is part of <a href="https://www.denbi.de">de.NBI</a> and
+<a href="https://www.elixir-europe.org">ELIXIR</a> and largely funded by
+<a href="http://dfg.de/">DFG</a> and <a href="https://www.bmbf.de">BMBF</a>. All content on
+this site is available under <a href="https://creativecommons.org/share-your-work/public-domain/cc0/">CC0-1.0</a>,
+unless otherwise specified.</p>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12" style="text-align:center">
+                <ul class="contact-info">
+                    <li><i class="fa fa-github"></i><a href="https://github.com/usegalaxy-eu/website/tree/master/_posts_plain/2022-08-05-galaxy-open-api.md">Edit this page on GitHub</a></li>
+                    
+                      <li><i class="fa fa-envelope"></i><a href="mailto:contact@usegalaxy.eu">contact@usegalaxy.eu</a></li>
+                    
+                    
+                      <li><i class="fa fa-github"></i><a href="https://github.com/usegalaxy-eu">usegalaxy-eu</a></li>
+                    
+                    
+                      <li><i class="fa fa-twitter"></i><a href="https://twitter.com/galaxyproject">galaxyproject</a></li>
+                    
+                      <li><i class="fa fa-rss"></i>Subscribe <a href="/feed.xml">via RSS (UseGalaxy.eu Feed)</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script async defer data-domain="galaxyproject.eu" src="https://plausible.galaxyproject.eu/js/plausible.js"></script>
+  </body>
+</html>

@@ -48,6 +48,70 @@
 
 
      
+      tags.push(`galaxy`)
+     
+      tags.push(`Freiburg`)
+
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
+
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4 galaxy news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  
+                    <a href="/posts/2022/08/05/galaxy-open-api/plain.html">
+                  
+                    <h2 class="title">OpenAPI support in Galaxy and Interactive API Documentation</h2>
+                  </a>
+                  <span class="date">
+                    
+
+
+
+
+
+
+
+
+
+
+
+                  </span>
+                  <span class="date">
+                    August 5, 2022
+                  </span>
+                  
+                  <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=Freiburg'"
+                  class="btn btn-success btn-xs tag-element" role="button">Freiburg</a>
+                  
+                  
+    
+        <a href="javascript:window.location.href=window.location.href.split('?')[0] + '?tag=galaxy'"
+           class="btn btn-primary btn-xs tag-element" role="button">galaxy</a>
+    
+
+
+                </div>
+                <div class="news-content">
+                  <div><p>Since Galaxy release 22.05 it’s much easier to <strong>discover</strong>, <strong>explore</strong>, <strong>learn</strong> and <strong>experiment</strong> with the <em>Galaxy Rest API</em>.</p>
+</div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
+
+        news.append(div);
+    }
+    tags = []
+
+
+     
       tags.push(`tools`)
      
       tags.push(`Freiburg`)
