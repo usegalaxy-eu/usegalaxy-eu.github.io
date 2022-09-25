@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  <title>Galaxy Europe | UseGalaxy.eu Tool Updates for 2022-09-18</title>
-  <meta property="og:title" content="UseGalaxy.eu Tool Updates for 2022-09-18" />
-  <meta property="og:description" content="On 2022-09-18, the tools on UseGalaxy.eu were updated by ..." />
+  <title>Galaxy Europe | UseGalaxy.eu Tool Updates for 2022-09-25</title>
+  <meta property="og:title" content="UseGalaxy.eu Tool Updates for 2022-09-25" />
+  <meta property="og:description" content="On 2022-09-25, the tools on UseGalaxy.eu were updated by ..." />
   <meta property="og:image" content="/assets/media/galaxy-eu-logo.512.png" />
   <meta name="description" content="The European Galaxy Instance">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,7 +16,7 @@
 
 
 
-  <link rel="canonical" href="https://galaxyproject.eu/posts/2022/09/18/tool-update/">
+  <link rel="canonical" href="https://galaxyproject.eu/posts/2022/09/25/tool-update/">
   <link rel="shortcut icon" href="/assets/media/galaxy-eu-logo.64.png" type="image/x-icon" />
   <link rel="alternate" type="application/rss+xml" title="Galaxy Europe" href="/feed.xml">
 
@@ -147,20 +147,16 @@
 <section id="news-page">
   <div class="row news-header-row">
     
-    <a class="col-xs-1 text-center" href="/posts/2022/09/11/tool-update/">
+    <a class="col-xs-1 text-center" href="/posts/2022/09/18/tool-update/">
       «
     </a>
     
     <div class="col-xs-10 ">
       <div class="text-center">
-        <h2 class="title">UseGalaxy.eu Tool Updates for 2022-09-18</h2>
+        <h2 class="title">UseGalaxy.eu Tool Updates for 2022-09-25</h2>
       </div>
       <hr />
     </div>
-    
-    <a class="col-xs-1 text-center" href="/posts/2022/09/25/tool-update/">
-      »
-    </a>
     
   </div>
   <div class="row post-metadata">
@@ -173,7 +169,7 @@
         <div class="col-md-6 text-right">
           <div>
             <span class="post-date">
-              Sep 18, 2022
+              Sep 25, 2022
             </span>
 
             
@@ -197,48 +193,108 @@
   <div class="row">
     <div class="col-md-8 col-md-offset-2">
       <div class="news-content">
-        <p>On 2022-09-18, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in <a href="https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#348/">Jenkins Build #348</a></p>
+        <p>On 2022-09-25, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in <a href="https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#349/">Jenkins Build #349</a></p>
+
+<h2 id="variant-calling">Variant Calling</h2>
+
+<ul>
+  <li>bcftools_annotate was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_annotate/8a2e296c07ef">8a2e296c07ef</a></li>
+  <li>bcftools_call was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_call/22637b1a55bf">22637b1a55bf</a></li>
+  <li>bcftools_cnv was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_cnv/3a7084316a6e">3a7084316a6e</a></li>
+  <li>bcftools_concat was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_concat/03e0645395d2">03e0645395d2</a></li>
+  <li>bcftools_consensus was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_consensus/95c6f3f4c77f">95c6f3f4c77f</a></li>
+  <li>bcftools_convert_from_vcf was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_convert_from_vcf/9b29129fb491">9b29129fb491</a></li>
+  <li>bcftools_convert_to_vcf was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_convert_to_vcf/ecc9192912b8">ecc9192912b8</a></li>
+  <li>bcftools_csq was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_csq/6c790a091c7c">6c790a091c7c</a></li>
+  <li>bcftools_filter was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_filter/e7452697afd9">e7452697afd9</a></li>
+  <li>bcftools_gtcheck was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_gtcheck/a29a2f40b665">a29a2f40b665</a></li>
+  <li>bcftools_isec was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_isec/5f27e814a119">5f27e814a119</a></li>
+  <li>bcftools_merge was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_merge/2215287d5cc9">2215287d5cc9</a></li>
+  <li>bcftools_mpileup was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_mpileup/37757ffb4c5f">37757ffb4c5f</a></li>
+  <li>bcftools_norm was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_norm/48291658fdf6">48291658fdf6</a></li>
+  <li>bcftools_plugin_color_chrs was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_plugin_color_chrs/62dc969ef973">62dc969ef973</a></li>
+  <li>bcftools_plugin_frameshifts was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_plugin_frameshifts/0505a687ac58">0505a687ac58</a></li>
+  <li>bcftools_plugin_setgt was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_plugin_setgt/40daf124be88">40daf124be88</a></li>
+  <li>bcftools_plugin_split_vep was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_plugin_split_vep/70276425d001">70276425d001</a></li>
+  <li>bcftools_query was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_query/3ce32adc55b2">3ce32adc55b2</a></li>
+  <li>bcftools_reheader was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_reheader/79489d5685dd">79489d5685dd</a></li>
+  <li>bcftools_roh was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_roh/6a636d58dfc2">6a636d58dfc2</a></li>
+  <li>bcftools_stats was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_stats/4d3ce9dc1525">4d3ce9dc1525</a></li>
+  <li>bcftools_view was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_view/3ca3de4e5291">3ca3de4e5291</a></li>
+</ul>
+
+<h2 id="single-cell">Single-cell</h2>
+
+<ul>
+  <li>gsc_scran_normalize was updated to <a href="https://toolshed.g2.bx.psu.edu/view/artbio/gsc_scran_normalize/252eded61848">252eded61848</a></li>
+</ul>
+
+<h2 id="graphdisplay-data">Graph/Display Data</h2>
+
+<ul>
+  <li>pathifier was updated to <a href="https://toolshed.g2.bx.psu.edu/view/artbio/pathifier/fec313f5c889">fec313f5c889</a></li>
+</ul>
 
 <h2 id="proteomics">Proteomics</h2>
 
 <ul>
-  <li>openms_openpepxl was updated to <a href="https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_openpepxl/40cc19c0dbd6">40cc19c0dbd6</a></li>
   <li>openms_openpepxl was updated to <a href="https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_openpepxl/a2a842b00f9c">a2a842b00f9c</a></li>
-  <li>openms_openpepxl was updated to <a href="https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_openpepxl/fc36cfd19834">fc36cfd19834</a></li>
   <li>openms_percolatoradapter was updated to <a href="https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_percolatoradapter/0fc9ae55bcfc">0fc9ae55bcfc</a></li>
   <li>openms_percolatoradapter was updated to <a href="https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_percolatoradapter/e7881a82b56d">e7881a82b56d</a></li>
   <li>openms_xfdr was updated to <a href="https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_xfdr/81402a5e4173">81402a5e4173</a></li>
   <li>openms_xfdr was updated to <a href="https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_xfdr/9a6e3bb0f358">9a6e3bb0f358</a></li>
+  <li>prot_scriber was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/prot_scriber/4d4df9779b7b">4d4df9779b7b</a></li>
 </ul>
 
-<h2 id="chemicaltoolbox">ChemicalToolBox</h2>
+<h2 id="rna-analysis">RNA Analysis</h2>
 
 <ul>
-  <li>alphafold2 was updated to <a href="https://toolshed.g2.bx.psu.edu/view/galaxy-australia/alphafold2/7fbec959cf2b">7fbec959cf2b</a></li>
-</ul>
-
-<h2 id="imaging">Imaging</h2>
-
-<ul>
-  <li>bfconvert was updated to <a href="https://toolshed.g2.bx.psu.edu/view/imgteam/bfconvert/f3360fbeda64">f3360fbeda64</a></li>
-</ul>
-
-<h2 id="multiple-alignments">Multiple Alignments</h2>
-
-<ul>
-  <li>clustalw was updated to <a href="https://toolshed.g2.bx.psu.edu/view/devteam/clustalw/d9c2b2fde6a3">d9c2b2fde6a3</a></li>
-</ul>
-
-<h2 id="assembly">Assembly</h2>
-
-<ul>
-  <li>shovill was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/shovill/ad80238462c1">ad80238462c1</a></li>
+  <li>arriba was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/arriba/4f1efcc055d5">4f1efcc055d5</a></li>
+  <li>arriba_draw_fusions was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/arriba_draw_fusions/cf18a5993aa2">cf18a5993aa2</a></li>
+  <li>arriba_get_filters was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/arriba_get_filters/1fe9d667447c">1fe9d667447c</a></li>
+  <li>ribowaltz_plot was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/ribowaltz_plot/8e903cb3f919">8e903cb3f919</a></li>
+  <li>ribowaltz_process was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/ribowaltz_process/6d4c94373bba">6d4c94373bba</a></li>
 </ul>
 
 <h2 id="annotation">Annotation</h2>
 
 <ul>
-  <li>annotatemyids was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/annotatemyids/fe3ca740a485">fe3ca740a485</a></li>
+  <li>miniprot was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/miniprot/ce04c239454b">ce04c239454b</a></li>
+  <li>te_finder was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/te_finder/2edb80d68a1b">2edb80d68a1b</a></li>
+</ul>
+
+<h2 id="extract-features">Extract Features</h2>
+
+<ul>
+  <li>orfipy was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/orfipy/45d4d26e01b5">45d4d26e01b5</a></li>
+</ul>
+
+<h2 id="assembly">Assembly</h2>
+
+<ul>
+  <li>unicycler was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/unicycler/6e26c9afd301">6e26c9afd301</a></li>
+</ul>
+
+<h2 id="mothur">Mothur</h2>
+
+<ul>
+  <li>mothur_classify_tree was updated to <a href="https://toolshed.g2.bx.psu.edu/view/iuc/mothur_classify_tree/fec1c905cb22">fec1c905cb22</a></li>
+</ul>
+
+<h2 id="muon-spectroscopy">Muon Spectroscopy</h2>
+
+<ul>
+  <li>cif2cell was updated to <a href="https://toolshed.g2.bx.psu.edu/view/muon-spectroscopy-computational-project/cif2cell/a2583fac03ab">a2583fac03ab</a></li>
+  <li>muspinsim was updated to <a href="https://toolshed.g2.bx.psu.edu/view/muon-spectroscopy-computational-project/muspinsim/b30217097125">b30217097125</a></li>
+  <li>muspinsim_config was updated to <a href="https://toolshed.g2.bx.psu.edu/view/muon-spectroscopy-computational-project/muspinsim_config/52d3a28902e8">52d3a28902e8</a></li>
+  <li>muspinsim_plot was updated to <a href="https://toolshed.g2.bx.psu.edu/view/muon-spectroscopy-computational-project/muspinsim_plot/b53cbb8ad124">b53cbb8ad124</a></li>
+  <li>pm_asephonons was updated to <a href="https://toolshed.g2.bx.psu.edu/view/muon-spectroscopy-computational-project/pm_asephonons/641fda3dfb62">641fda3dfb62</a></li>
+  <li>pm_dftb_opt was updated to <a href="https://toolshed.g2.bx.psu.edu/view/muon-spectroscopy-computational-project/pm_dftb_opt/23cb25b1d776">23cb25b1d776</a></li>
+  <li>pm_muairss_read was updated to <a href="https://toolshed.g2.bx.psu.edu/view/muon-spectroscopy-computational-project/pm_muairss_read/eb6382889b92">eb6382889b92</a></li>
+  <li>pm_muairss_write was updated to <a href="https://toolshed.g2.bx.psu.edu/view/muon-spectroscopy-computational-project/pm_muairss_write/150301c057b0">150301c057b0</a></li>
+  <li>pm_symmetry was updated to <a href="https://toolshed.g2.bx.psu.edu/view/muon-spectroscopy-computational-project/pm_symmetry/d8146a73b011">d8146a73b011</a></li>
+  <li>pm_uep_opt was updated to <a href="https://toolshed.g2.bx.psu.edu/view/muon-spectroscopy-computational-project/pm_uep_opt/8f41a71fc710">8f41a71fc710</a></li>
+  <li>pm_yaml_config was updated to <a href="https://toolshed.g2.bx.psu.edu/view/muon-spectroscopy-computational-project/pm_yaml_config/6f271bc31aa8">6f271bc31aa8</a></li>
 </ul>
 
 
@@ -323,7 +379,7 @@ unless otherwise specified.</p>
         <div class="row">
             <div class="col-lg-12" style="text-align:center">
                 <ul class="contact-info">
-                    <li><i class="fa fa-github"></i><a href="https://github.com/usegalaxy-eu/website/tree/master/_posts/2022-09-18-tool-update.md">Edit this page on GitHub</a></li>
+                    <li><i class="fa fa-github"></i><a href="https://github.com/usegalaxy-eu/website/tree/master/_posts/2022-09-25-tool-update.md">Edit this page on GitHub</a></li>
                     
                       <li><i class="fa fa-envelope"></i><a href="mailto:contact@usegalaxy.eu">contact@usegalaxy.eu</a></li>
                     
