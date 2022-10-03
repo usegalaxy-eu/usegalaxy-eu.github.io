@@ -1,4 +1,134 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2022-10-03T02:47:16+02:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2022-10-02</title><link href="https://galaxyproject.eu/posts/2022/10/02/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2022-10-02" /><published>2022-10-02T00:00:00+02:00</published><updated>2022-10-02T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2022/10/02/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2022/10/02/tool-update/">&lt;p&gt;On 2022-10-02, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#350/&quot;&gt;Jenkins Build #350&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2022-10-03T05:11:03+02:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2022-10-03</title><link href="https://galaxyproject.eu/posts/2022/10/03/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2022-10-03" /><published>2022-10-03T00:00:00+02:00</published><updated>2022-10-03T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2022/10/03/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2022/10/03/tool-update/">&lt;p&gt;On 2022-10-03, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#351/&quot;&gt;Jenkins Build #351&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;variant-calling&quot;&gt;Variant Calling&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;bcftools_annotate was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_annotate/b7ea370b8f5d&quot;&gt;b7ea370b8f5d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;bcftools_call was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_call/21687e35f066&quot;&gt;21687e35f066&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;bcftools_cnv was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_cnv/0238f68ad641&quot;&gt;0238f68ad641&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;bcftools_concat was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_concat/d144af39073a&quot;&gt;d144af39073a&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;bcftools_consensus was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_consensus/d3081540d175&quot;&gt;d3081540d175&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;bcftools_convert_from_vcf was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_convert_from_vcf/348cd212dbad&quot;&gt;348cd212dbad&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;bcftools_convert_to_vcf was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_convert_to_vcf/55c0e906c14c&quot;&gt;55c0e906c14c&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;bcftools_csq was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_csq/ae68ceb4cca3&quot;&gt;ae68ceb4cca3&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;bcftools_filter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_filter/277719af4dd7&quot;&gt;277719af4dd7&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;bcftools_gtcheck was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_gtcheck/26d97cdd5410&quot;&gt;26d97cdd5410&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;bcftools_isec was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_isec/d7d1663559e9&quot;&gt;d7d1663559e9&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;bcftools_merge was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_merge/b931e65638b8&quot;&gt;b931e65638b8&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;bcftools_mpileup was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_mpileup/5660b21a0dbd&quot;&gt;5660b21a0dbd&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;bcftools_norm was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_norm/6deb4d549bc9&quot;&gt;6deb4d549bc9&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;bcftools_plugin_color_chrs was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_plugin_color_chrs/f88f74d5b1e9&quot;&gt;f88f74d5b1e9&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;bcftools_plugin_frameshifts was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_plugin_frameshifts/b40213125e88&quot;&gt;b40213125e88&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;bcftools_plugin_setgt was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_plugin_setgt/11af7fce71cf&quot;&gt;11af7fce71cf&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;bcftools_plugin_split_vep was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_plugin_split_vep/91c5e4de195a&quot;&gt;91c5e4de195a&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;bcftools_query was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_query/e53501abf992&quot;&gt;e53501abf992&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;bcftools_reheader was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_reheader/4db0695a6fc7&quot;&gt;4db0695a6fc7&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;bcftools_roh was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_roh/1ccf0e7fb4f6&quot;&gt;1ccf0e7fb4f6&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;bcftools_stats was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_stats/388983871932&quot;&gt;388983871932&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;bcftools_view was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_view/59fa8742285e&quot;&gt;59fa8742285e&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;proteomics&quot;&gt;Proteomics&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;openms_openpepxl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_openpepxl/a2a842b00f9c&quot;&gt;a2a842b00f9c&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_percolatoradapter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_percolatoradapter/0fc9ae55bcfc&quot;&gt;0fc9ae55bcfc&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_percolatoradapter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_percolatoradapter/e7881a82b56d&quot;&gt;e7881a82b56d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_xfdr was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_xfdr/81402a5e4173&quot;&gt;81402a5e4173&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_xfdr was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_xfdr/9a6e3bb0f358&quot;&gt;9a6e3bb0f358&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;multiple-alignments&quot;&gt;Multiple Alignments&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;clustalw was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/clustalw/4daabc25df00&quot;&gt;4daabc25df00&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mafft was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/rnateam/mafft/a65296ffb4a0&quot;&gt;a65296ffb4a0&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;fastafastq&quot;&gt;FASTA/FASTQ&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;gfastats was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/gfastats/5127a713de83&quot;&gt;5127a713de83&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;seqcomplexity was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/seqcomplexity/054c3355458d&quot;&gt;054c3355458d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;umi_tools_count was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/umi_tools_count/276b4111b253&quot;&gt;276b4111b253&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;umi_tools_count was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/umi_tools_count/933220bbc2ae&quot;&gt;933220bbc2ae&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;rna-analysis&quot;&gt;RNA Analysis&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;arriba was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/arriba/add230dddd52&quot;&gt;add230dddd52&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;arriba_draw_fusions was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/arriba_draw_fusions/68ff8cd874db&quot;&gt;68ff8cd874db&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;arriba_get_filters was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/arriba_get_filters/47311adce34e&quot;&gt;47311adce34e&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;metagenomic-analysis&quot;&gt;Metagenomic Analysis&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;vapor was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/vapor/7bf891a13ace&quot;&gt;7bf891a13ace&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;statistics&quot;&gt;Statistics&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;iwtomics_plotwithscale was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/iwtomics_plotwithscale/25030f0d1154&quot;&gt;25030f0d1154&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;iwtomics_plotwithscale was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/iwtomics_plotwithscale/4bd560127b68&quot;&gt;4bd560127b68&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;quality-control&quot;&gt;Quality Control&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;multiqc was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/multiqc/161f4383df15&quot;&gt;161f4383df15&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;hicexplorer&quot;&gt;HiCExplorer&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;hicexplorer_chicaggregatestatistic was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_chicaggregatestatistic/d6f5e51e97ec&quot;&gt;d6f5e51e97ec&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_chicdifferentialtest was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_chicdifferentialtest/126abc4b03f1&quot;&gt;126abc4b03f1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_chicplotviewpoint was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_chicplotviewpoint/ac7999229ac6&quot;&gt;ac7999229ac6&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_chicqualitycontrol was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_chicqualitycontrol/0e149d0c112c&quot;&gt;0e149d0c112c&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_chicqualitycontrol was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_chicqualitycontrol/692b686622b6&quot;&gt;692b686622b6&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_chicsignificantinteractions was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_chicsignificantinteractions/38fa8a72ece6&quot;&gt;38fa8a72ece6&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_chicviewpoint was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_chicviewpoint/78b70d78a596&quot;&gt;78b70d78a596&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_chicviewpointbackgroundmodel was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_chicviewpointbackgroundmodel/51447a1d38ed&quot;&gt;51447a1d38ed&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_chicviewpointbackgroundmodel was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_chicviewpointbackgroundmodel/7fe1a401d833&quot;&gt;7fe1a401d833&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicadjustmatrix was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicadjustmatrix/26f73673e261&quot;&gt;26f73673e261&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicadjustmatrix was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicadjustmatrix/cd29c9a2ad55&quot;&gt;cd29c9a2ad55&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicaggregatecontacts was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicaggregatecontacts/1b25346775db&quot;&gt;1b25346775db&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicaggregatecontacts was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicaggregatecontacts/4ba4b59dcff1&quot;&gt;4ba4b59dcff1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicaverageregions was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicaverageregions/3dafb9693b8c&quot;&gt;3dafb9693b8c&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicaverageregions was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicaverageregions/9b02bf402560&quot;&gt;9b02bf402560&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicbuildmatrix was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicbuildmatrix/6152fc6da3dc&quot;&gt;6152fc6da3dc&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicbuildmatrix was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicbuildmatrix/c657edbea349&quot;&gt;c657edbea349&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hiccomparematrices was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hiccomparematrices/41aab2463ca4&quot;&gt;41aab2463ca4&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hiccomparematrices was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hiccomparematrices/cf39f061ad91&quot;&gt;cf39f061ad91&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hiccompartmentspolarization was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hiccompartmentspolarization/7eaa4f72691f&quot;&gt;7eaa4f72691f&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hiccompartmentspolarization was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hiccompartmentspolarization/a9b3dfde1f31&quot;&gt;a9b3dfde1f31&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicconvertformat was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicconvertformat/abf2ec674f17&quot;&gt;abf2ec674f17&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicconvertformat was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicconvertformat/cfce80a8e25d&quot;&gt;cfce80a8e25d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hiccorrectmatrix was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hiccorrectmatrix/bc027a1c0952&quot;&gt;bc027a1c0952&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hiccorrectmatrix was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hiccorrectmatrix/dcc9500b13aa&quot;&gt;dcc9500b13aa&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hiccorrelate was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hiccorrelate/364a38df1449&quot;&gt;364a38df1449&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hiccorrelate was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hiccorrelate/882a7222da7e&quot;&gt;882a7222da7e&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicdetectloops was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicdetectloops/1119cdd14ddb&quot;&gt;1119cdd14ddb&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicdetectloops was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicdetectloops/1cf50a7d0a05&quot;&gt;1cf50a7d0a05&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicfindrestrictionsites was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicfindrestrictionsites/8823a9d45ed0&quot;&gt;8823a9d45ed0&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicfindrestrictionsites was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicfindrestrictionsites/8ea7e91d13b3&quot;&gt;8ea7e91d13b3&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicfindrestrictionsites was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicfindrestrictionsites/ad852622d00a&quot;&gt;ad852622d00a&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicinfo was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicinfo/172137e5fadb&quot;&gt;172137e5fadb&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicinfo was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicinfo/a83e4b0074a3&quot;&gt;a83e4b0074a3&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicmergematrixbins was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicmergematrixbins/9b7840d527be&quot;&gt;9b7840d527be&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicmergematrixbins was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicmergematrixbins/d5e27e6cfa59&quot;&gt;d5e27e6cfa59&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicnormalize was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicnormalize/7f7139b8a671&quot;&gt;7f7139b8a671&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicnormalize was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicnormalize/e24802b3bbad&quot;&gt;e24802b3bbad&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicquickqc was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicquickqc/3175b66ea9a3&quot;&gt;3175b66ea9a3&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicquickqc was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicquickqc/653fa9fa585e&quot;&gt;653fa9fa585e&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicsummatrices was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicsummatrices/3ff8fa11be2b&quot;&gt;3ff8fa11be2b&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hicsummatrices was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicsummatrices/5fbf0fd998ce&quot;&gt;5fbf0fd998ce&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hictransform was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hictransform/b3553a0a5dcf&quot;&gt;b3553a0a5dcf&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;hicexplorer_hictransform was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hictransform/e8dfe346a207&quot;&gt;e8dfe346a207&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2022-10-03, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #351</summary></entry><entry><title type="html">UseGalaxy.eu Tool Updates for 2022-10-02</title><link href="https://galaxyproject.eu/posts/2022/10/02/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2022-10-02" /><published>2022-10-02T00:00:00+02:00</published><updated>2022-10-02T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2022/10/02/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2022/10/02/tool-update/">&lt;p&gt;On 2022-10-02, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#350/&quot;&gt;Jenkins Build #350&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;proteomics&quot;&gt;Proteomics&lt;/h2&gt;
 
@@ -552,60 +682,4 @@
 
 &lt;ul&gt;
   &lt;li&gt;data_manager_nextclade was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/data_manager_nextclade/c8b67693199e&quot;&gt;c8b67693199e&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2022-08-15, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #341</summary></entry><entry><title type="html">The European Galaxy Team is hiring!</title><link href="https://galaxyproject.eu/posts/2022/08/10/open-admin-position/" rel="alternate" type="text/html" title="The European Galaxy Team is hiring!" /><published>2022-08-10T00:00:00+02:00</published><updated>2022-08-10T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2022/08/10/open-admin-position</id><content type="html" xml:base="https://galaxyproject.eu/posts/2022/08/10/open-admin-position/">&lt;p&gt;The &lt;strong&gt;Freiburg Galaxy Team&lt;/strong&gt; is looking for a &lt;strong&gt;Systems Engineer/DevOps Engineer&lt;/strong&gt;!&lt;/p&gt;
-
-&lt;div class=&quot;multiple-img&quot;&gt;
-&lt;a data-flickr-embed=&quot;true&quot; href=&quot;https://www.flickr.com/photos/134305289@N03/31768905991/in/album-72157671198874931/&quot; title=&quot;Untitled&quot;&gt;&lt;img src=&quot;https://farm1.staticflickr.com/366/31768905991_508703bbeb_k.jpg&quot; width=&quot;512&quot; height=&quot;340&quot; alt=&quot;Untitled&quot; /&gt;&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;p&gt;The &lt;strong&gt;Freiburg Galaxy Team&lt;/strong&gt; is looking for a &lt;strong&gt;Systems Engineer/DevOps Engineer&lt;/strong&gt; to support our work on the web-based computational platform Galaxy. The Freiburg Galaxy Team offers the service usegalaxy.eu to biomedical and pharmaceutical researchers in Europe.&lt;/p&gt;
-
-&lt;p&gt;The engineer will be responsible for implementing, supporting, and documenting several large-scale application systems. This role includes, but is not limited to, the installation, modification, testing, and upgrades of applications, operating systems, file systems, hardware, and cloud environments. The work will be carried out together with other administrators.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Your opportunities&lt;/strong&gt;
-This position will offer the postholder the opportunity to interact with an interdisciplinary bioinformatics, life science and software development team, working with cutting edge cloud infrastructure across Europe and engaged in advanced topics such as distributed heterogeneous computing, encrypted data processing or smart scheduling of jobs across federated resources.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Your Tasks&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Administrate with a team of admins the European Galaxy server and a european wide distributed compute network&lt;/li&gt;
-  &lt;li&gt;Identify interdependence and productivity barriers between the development and operations functions;&lt;/li&gt;
-  &lt;li&gt;Identify opportunities to automate operations activities and/or to reduce process complexity;&lt;/li&gt;
-  &lt;li&gt;Design, implement, and maintain automation tool sets for configuration management, infrastructure and application deployment processes;&lt;/li&gt;
-  &lt;li&gt;Work within the team to design and improve developed software and deployment pipelines;&lt;/li&gt;
-  &lt;li&gt;Build internal and external contacts and participate in networks for the exchange of information and to form relationships for future collaborations;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Your Profile&lt;/strong&gt;
-We are looking for a dedicated and motivated team player with strong communication skills and a good command of the English language.
-The successful applicant will be an expert Linux system administrator with a proficient knowledge of Python, Git and SQL databases.He/she is an analytical thinker, problem-solver and reliable, with a strong desire to learn and collaborate with the team.&lt;/p&gt;
-
-&lt;p&gt;Additional skills that are advantageous:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Bachelor or Master in Informatics or equal qualification&lt;/li&gt;
-  &lt;li&gt;5 years+ experience&lt;/li&gt;
-  &lt;li&gt;Experience building containerized applications&lt;/li&gt;
-  &lt;li&gt;Experience configuring continuous integration and continuous delivery (CI/CD) systems&lt;/li&gt;
-  &lt;li&gt;Proficiency using configuration management tools (Terraform, Ansible)&lt;/li&gt;
-  &lt;li&gt;Familiarity with cloud technologies (e.g. OpenStack)&lt;/li&gt;
-  &lt;li&gt;Experience on high-performance computing environments&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;What we offer&lt;/strong&gt;
-Located in a region that connects Germany, France and Switzerland, our institute offers an international research environment with outstanding infrastructure facilities and a positive working atmosphere that places a high value on work-life balance.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Salary according to your qualification and professional experience according to the German TV-L salary grading system&lt;/li&gt;
-  &lt;li&gt;A team of admins to work with&lt;/li&gt;
-  &lt;li&gt;Professional training and development opportunities&lt;/li&gt;
-  &lt;li&gt;Challenging tasks in European wide distributed projects in a modern working environment&lt;/li&gt;
-  &lt;li&gt;Flexible working hours and trust-based working time&lt;/li&gt;
-  &lt;li&gt;30 days holiday a year&lt;/li&gt;
-  &lt;li&gt;Reduced-cost public transport within the local area&lt;/li&gt;
-  &lt;li&gt;Family-friendly offers (affiliated day care center at the institute, family service)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;This &lt;a href=&quot;https://drive.google.com/file/d/13jGEmb8lH6XwO1p0CGMnXRAO0qE7Ptr8/view?usp=sharing&quot;&gt;position&lt;/a&gt; is open immediately and funded for two years, with the possibility of extension. More information about the European Galaxy project is available on https://galaxyproject.eu.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Ready to join our team?&lt;/strong&gt;
-Please submit your complete application documents including a 1-page motivation summary, CV and contact details of referees by 22th August 2022 to 
-bioinf-jobs@informatik.uni-freiburg.de&lt;/p&gt;</content><author><name></name></author><category term="jobs" /><summary type="html">The Freiburg Galaxy Team is looking for a Systems Engineer/DevOps Engineer!</summary></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2022-08-15, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #341</summary></entry></feed>
