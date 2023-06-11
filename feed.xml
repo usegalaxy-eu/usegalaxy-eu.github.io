@@ -1,4 +1,79 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2023-06-11T02:47:45+02:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2023-06-04</title><link href="https://galaxyproject.eu/posts/2023/06/04/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2023-06-04" /><published>2023-06-04T00:00:00+02:00</published><updated>2023-06-04T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2023/06/04/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2023/06/04/tool-update/">&lt;p&gt;On 2023-06-04, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#388/&quot;&gt;Jenkins Build #388&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2023-06-11T17:22:56+02:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2023-06-11</title><link href="https://galaxyproject.eu/posts/2023/06/11/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2023-06-11" /><published>2023-06-11T00:00:00+02:00</published><updated>2023-06-11T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2023/06/11/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2023/06/11/tool-update/">&lt;p&gt;On 2023-06-11, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#389/&quot;&gt;Jenkins Build #389&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;fastq-quality-control&quot;&gt;FASTQ Quality Control&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;fastqc was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/fastqc/5ec9f6bceaee&quot;&gt;5ec9f6bceaee&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;get-data&quot;&gt;Get Data&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;spocc_occ was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ecology/spocc_occ/f64b3c1a80a6&quot;&gt;f64b3c1a80a6&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;qiime-2&quot;&gt;QIIME 2&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;qiime2__deblur__denoise_16S was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/q2d2/qiime2__deblur__denoise_16S/2572fc0f88f2&quot;&gt;2572fc0f88f2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;proteomics&quot;&gt;Proteomics&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;openms_openpepxl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_openpepxl/40cc19c0dbd6&quot;&gt;40cc19c0dbd6&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_openpepxl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_openpepxl/a2a842b00f9c&quot;&gt;a2a842b00f9c&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_openpepxl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_openpepxl/fc36cfd19834&quot;&gt;fc36cfd19834&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_percolatoradapter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_percolatoradapter/0fc9ae55bcfc&quot;&gt;0fc9ae55bcfc&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_percolatoradapter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_percolatoradapter/e7881a82b56d&quot;&gt;e7881a82b56d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_xfdr was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_xfdr/81402a5e4173&quot;&gt;81402a5e4173&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_xfdr was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_xfdr/9a6e3bb0f358&quot;&gt;9a6e3bb0f358&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;annotation&quot;&gt;Annotation&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;multigsea was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/multigsea/28e29a3d0eda&quot;&gt;28e29a3d0eda&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;assembly&quot;&gt;Assembly&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;rnaquast was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/rnaquast/33c060ec0ac9&quot;&gt;33c060ec0ac9&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;rnaquast was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/rnaquast/96f74538896e&quot;&gt;96f74538896e&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;rnaquast was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/rnaquast/e989670c7fc7&quot;&gt;e989670c7fc7&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;machine-learning&quot;&gt;Machine Learning&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;deepmicro was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/deepmicro/c58c1a99578b&quot;&gt;c58c1a99578b&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;rna-analysis&quot;&gt;RNA Analysis&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;kallisto_pseudo was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/kallisto_pseudo/ce5d418183c5&quot;&gt;ce5d418183c5&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;kallisto_quant was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/kallisto_quant/4f9c4e6566e5&quot;&gt;4f9c4e6566e5&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;none&quot;&gt;None&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;data_manager_diamond_database_builder was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/data_manager_diamond_database_builder/4a08b7b76b78&quot;&gt;4a08b7b76b78&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;deeptools&quot;&gt;deepTools&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;deeptools_bigwig_average was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/deeptools_bigwig_average/f6f246438eda&quot;&gt;f6f246438eda&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;variant-calling&quot;&gt;Variant Calling&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;manta was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/artbio/manta/cb5691381acb&quot;&gt;cb5691381acb&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2023-06-11, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #389</summary></entry><entry><title type="html">UseGalaxy.eu Tool Updates for 2023-06-04</title><link href="https://galaxyproject.eu/posts/2023/06/04/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2023-06-04" /><published>2023-06-04T00:00:00+02:00</published><updated>2023-06-04T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2023/06/04/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2023/06/04/tool-update/">&lt;p&gt;On 2023-06-04, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#388/&quot;&gt;Jenkins Build #388&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;qiime-2&quot;&gt;QIIME 2&lt;/h2&gt;
 
@@ -859,92 +934,4 @@
 &lt;ul&gt;
   &lt;li&gt;data_manager_diamond_database_builder was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/data_manager_diamond_database_builder/4a08b7b76b78&quot;&gt;4a08b7b76b78&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;data_manager_metaphlan_database_downloader was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/data_manager_metaphlan_database_downloader/4ba60cb14cb0&quot;&gt;4ba60cb14cb0&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2023-04-09, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #380</summary></entry><entry><title type="html">UseGalaxy.eu Tool Updates for 2023-04-02</title><link href="https://galaxyproject.eu/posts/2023/04/02/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2023-04-02" /><published>2023-04-02T00:00:00+02:00</published><updated>2023-04-02T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2023/04/02/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2023/04/02/tool-update/">&lt;p&gt;On 2023-04-02, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#379/&quot;&gt;Jenkins Build #379&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;graphdisplay-data&quot;&gt;Graph/Display Data&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;ggplot2_histogram was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/ggplot2_histogram/536078949ae4&quot;&gt;536078949ae4&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;pygenometracks was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/pygenometracks/360df4999907&quot;&gt;360df4999907&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;qiime-2&quot;&gt;QIIME 2&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;qiime2__deblur__denoise_16S was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/q2d2/qiime2__deblur__denoise_16S/2572fc0f88f2&quot;&gt;2572fc0f88f2&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;mapping&quot;&gt;Mapping&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;rgrnastar was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/rgrnastar/3ea5a2a63fa2&quot;&gt;3ea5a2a63fa2&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;rgrnastar was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/rgrnastar/850f3679b9b4&quot;&gt;850f3679b9b4&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;rna_starsolo was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/rna_starsolo/13022c3d3076&quot;&gt;13022c3d3076&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;proteomics&quot;&gt;Proteomics&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;openms_openpepxl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_openpepxl/40cc19c0dbd6&quot;&gt;40cc19c0dbd6&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;openms_openpepxl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_openpepxl/a2a842b00f9c&quot;&gt;a2a842b00f9c&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;openms_openpepxl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_openpepxl/fc36cfd19834&quot;&gt;fc36cfd19834&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;openms_percolatoradapter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_percolatoradapter/0fc9ae55bcfc&quot;&gt;0fc9ae55bcfc&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;openms_percolatoradapter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_percolatoradapter/e7881a82b56d&quot;&gt;e7881a82b56d&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;openms_xfdr was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_xfdr/81402a5e4173&quot;&gt;81402a5e4173&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;openms_xfdr was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_xfdr/9a6e3bb0f358&quot;&gt;9a6e3bb0f358&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;assembly&quot;&gt;Assembly&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;hifiasm was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hifiasm/ec9e21e9c71b&quot;&gt;ec9e21e9c71b&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;trycycler_cluster was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/trycycler_cluster/8f631679571f&quot;&gt;8f631679571f&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;trycycler_consensus was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/trycycler_consensus/19bdfd1e6fe3&quot;&gt;19bdfd1e6fe3&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;trycycler_partition was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/trycycler_partition/80a17897564d&quot;&gt;80a17897564d&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;trycycler_reconcile_msa was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/trycycler_reconcile_msa/cb1e3db43020&quot;&gt;cb1e3db43020&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;trycycler_subsample was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/trycycler_subsample/2628f6790eda&quot;&gt;2628f6790eda&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;metagenomic-analysis&quot;&gt;Metagenomic Analysis&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;coverm_contig was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/coverm_contig/f8cb3f0a19fa&quot;&gt;f8cb3f0a19fa&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;coverm_genome was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/coverm_genome/5bf5792b0996&quot;&gt;5bf5792b0996&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;customize_metaphlan_database was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/customize_metaphlan_database/b18594e1a514&quot;&gt;b18594e1a514&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;extract_metaphlan_database was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/extract_metaphlan_database/2e38deed28ee&quot;&gt;2e38deed28ee&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;humann was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/humann/037c0b25c041&quot;&gt;037c0b25c041&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;humann_associate was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/humann_associate/fbc22270a6ff&quot;&gt;fbc22270a6ff&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;humann_barplot was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/humann_barplot/d76a22ed5e5b&quot;&gt;d76a22ed5e5b&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;humann_join_tables was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/humann_join_tables/6c3271894a95&quot;&gt;6c3271894a95&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;humann_reduce_table was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/humann_reduce_table/7ebfd8d889b9&quot;&gt;7ebfd8d889b9&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;humann_regroup_table was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/humann_regroup_table/b7d324b18be1&quot;&gt;b7d324b18be1&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;humann_rename_table was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/humann_rename_table/e217b0e10b36&quot;&gt;e217b0e10b36&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;humann_renorm_table was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/humann_renorm_table/a4d7148ccee4&quot;&gt;a4d7148ccee4&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;humann_rna_dna_norm was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/humann_rna_dna_norm/6795edeb923a&quot;&gt;6795edeb923a&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;humann_split_stratified_table was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/humann_split_stratified_table/cf87759761eb&quot;&gt;cf87759761eb&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;humann_split_table was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/humann_split_table/cc6a10100a14&quot;&gt;cc6a10100a14&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;humann_strain_profiler was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/humann_strain_profiler/e1f89068ee3a&quot;&gt;e1f89068ee3a&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;humann_unpack_pathways was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/humann_unpack_pathways/c82508e76ad1&quot;&gt;c82508e76ad1&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;merge_metaphlan_tables was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/merge_metaphlan_tables/4fd3b5d8706b&quot;&gt;4fd3b5d8706b&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;metaphlan was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/metaphlan/ec368db926f4&quot;&gt;ec368db926f4&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;semibin was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/semibin/6b517dc161e4&quot;&gt;6b517dc161e4&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;semibin_bin was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/semibin_bin/4d561bdc2c31&quot;&gt;4d561bdc2c31&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;semibin_concatenate_fasta was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/semibin_concatenate_fasta/e6bc3455940e&quot;&gt;e6bc3455940e&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;semibin_generate_cannot_links was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/semibin_generate_cannot_links/5ae13a156271&quot;&gt;5ae13a156271&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;semibin_generate_sequence_features was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/semibin_generate_sequence_features/0ae1a2636de5&quot;&gt;0ae1a2636de5&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;semibin_train was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/semibin_train/43df7a4c33a2&quot;&gt;43df7a4c33a2&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;variant-calling&quot;&gt;Variant Calling&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;ensembl_vep was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/ensembl_vep/ff0a8cda0c0b&quot;&gt;ff0a8cda0c0b&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sansa_annotate was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/sansa_annotate/b1ca9fce4749&quot;&gt;b1ca9fce4749&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;none&quot;&gt;None&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;data_manager_diamond_database_builder was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/data_manager_diamond_database_builder/4a08b7b76b78&quot;&gt;4a08b7b76b78&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;data_manager_humann_database_downloader was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/data_manager_humann_database_downloader/19bbd19b74b3&quot;&gt;19bbd19b74b3&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2023-04-02, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #379</summary></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2023-04-09, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #380</summary></entry></feed>
