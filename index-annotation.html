@@ -57,13 +57,25 @@
 
 
 
-  <p>Welcome to <strong>Galaxy for Genome Annotation</strong> – a platform to annotate, curate, and publish genomic data</p>
+  <p><img src="https://galaxy-genome-annotation.github.io/gga-clean.png" height="150px" alt="GGA Logo" style="float: right" /></p>
 
-<p><img src="https://galaxy-genome-annotation.github.io/gga-clean.png" height="150px" alt="GGA Logo" /></p>
+<hgroup>
+  <h1>Galaxy for Genome Annotation</h1>
+  <p>A platform to annotate, curate, and publish genomic data</p>
+</hgroup>
 
 <p>From <a href="https://annotation.usegalaxy.eu/">annotation.usegalaxy.eu</a>, you can easily run state-of-the-art workflows to annotate genome sequences, and explore your results with modern visualisations (see below).</p>
 
 <p>You also have access to a self-service <a href="https://github.com/GMOD/apollo">Apollo</a> server, offering you a free technical infrastructure to set up in minutes your own project of manual curation of annotation for your favorite genome.</p>
+
+<div class="row">
+<div class="col-md-6 col-sm-12">
+<img src="https://galaxy-genome-annotation.github.io/circos-sample-panel.png" alt="Circos in Galaxy" width="500px" />
+</div>
+<div class="col-md-6 col-sm-12">
+<img src="https://galaxy-genome-annotation.github.io/jbrowse.png" alt="JBrowse in Galaxy" width="500px" />
+</div>
+</div>
 
 <p>Have a look at the <a href="https://training.galaxyproject.org/topics/genome-annotation/">training material</a> to learn how to use these tools!</p>
 
@@ -77,13 +89,30 @@
   <li>Apollo tooling and service</li>
 </ul>
 
+<h2 id="community">Community</h2>
+
 <p>Checkout the <a href="https://galaxy-genome-annotation.github.io/">GGA website</a> for more details, and feel free to chat with us on our <a href="https://matrix.to/#/#galaxy-genome-annotation_Lobby:gitter.im">Matrix channel</a>.</p>
 
 <p>GGA was also <a href="https://docs.google.com/presentation/d/1hJyI1sbfxAzzgoJ5E4eHNicSbYzBDaVwTwfOlOLiV3c/edit?usp=sharing">presented at ISMB/ECCB 2019!</a></p>
 
-<p><img src="https://galaxy-genome-annotation.github.io/circos-sample-panel.png" alt="Circos in Galaxy" width="500px" /></p>
+<h2 id="training-resources">Training Resources</h2>
 
-<p><img src="https://galaxy-genome-annotation.github.io/jbrowse.png" alt="JBrowse in Galaxy" width="500px" /></p>
+<div class="row">
+<div class="col-md-6 col-sm-12">
+<h3>Eukaryotic Training</h3>
+<iframe src="https://training.galaxyproject.org/training-material/tags/eukaryotic/embed.html" height="300px" width="100%" class="gtn-embed" frameborder="0"></iframe>
+</div>
+
+<div class="col-md-6 col-sm-12">
+<h3>Prokaryotic Training</h3>
+<iframe src="https://training.galaxyproject.org/training-material/tags/prokaryotic/embed.html" height="300px" width="100%" class="gtn-embed" frameborder="0"></iframe>
+</div>
+</div>
+
+<script>
+document.querySelectorAll("iframe.gtn-embed").forEach(e => { e.height = e.contentWindow.document.body.scrollHeight + 60 });
+</script>
+
 
 
 <h2>Our Data Policy</h2>
