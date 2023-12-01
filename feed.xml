@@ -1,4 +1,224 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2023-11-19T02:49:01+01:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2023-11-14</title><link href="https://galaxyproject.eu/posts/2023/11/14/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2023-11-14" /><published>2023-11-14T00:00:00+01:00</published><updated>2023-11-14T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2023/11/14/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2023/11/14/tool-update/">&lt;p&gt;On 2023-11-14, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#417/&quot;&gt;Jenkins Build #417&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2023-12-01T10:55:49+01:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2023-11-26</title><link href="https://galaxyproject.eu/posts/2023/11/26/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2023-11-26" /><published>2023-11-26T00:00:00+01:00</published><updated>2023-11-26T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2023/11/26/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2023/11/26/tool-update/">&lt;p&gt;On 2023-11-26, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#419/&quot;&gt;Jenkins Build #419&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;metabolomics&quot;&gt;Metabolomics&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;matchms_convert was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/recetox/matchms_convert/165f303aa2d1&quot;&gt;165f303aa2d1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;matchms_filtering was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/recetox/matchms_filtering/36a53917818d&quot;&gt;36a53917818d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;matchms_fingerprint_similarity was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/recetox/matchms_fingerprint_similarity/da9c5d40d1ba&quot;&gt;da9c5d40d1ba&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;matchms_formatter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/recetox/matchms_formatter/afc881c21a62&quot;&gt;afc881c21a62&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;matchms_metadata_export was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/recetox/matchms_metadata_export/8ff29dee9f26&quot;&gt;8ff29dee9f26&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;matchms_metadata_match was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/recetox/matchms_metadata_match/41cf8dd03e42&quot;&gt;41cf8dd03e42&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;matchms_networking was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/recetox/matchms_networking/7c9599ecc2d3&quot;&gt;7c9599ecc2d3&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;matchms_spectral_similarity was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/recetox/matchms_spectral_similarity/50229f084c4e&quot;&gt;50229f084c4e&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;matchms_split was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/recetox/matchms_split/5bdb8e7841f4&quot;&gt;5bdb8e7841f4&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;qiime-2&quot;&gt;QIIME 2&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;qiime2__deblur__denoise_16S was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/q2d2/qiime2__deblur__denoise_16S/2572fc0f88f2&quot;&gt;2572fc0f88f2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;variant-calling&quot;&gt;Variant Calling&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;snpeff was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/snpeff/9473cd297a76&quot;&gt;9473cd297a76&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;proteomics&quot;&gt;Proteomics&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;openms_openpepxl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_openpepxl/a2a842b00f9c&quot;&gt;a2a842b00f9c&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_percolatoradapter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_percolatoradapter/0fc9ae55bcfc&quot;&gt;0fc9ae55bcfc&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_percolatoradapter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_percolatoradapter/e7881a82b56d&quot;&gt;e7881a82b56d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_xfdr was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_xfdr/81402a5e4173&quot;&gt;81402a5e4173&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_xfdr was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_xfdr/9a6e3bb0f358&quot;&gt;9a6e3bb0f358&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;collection-operations&quot;&gt;Collection Operations&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;split_file_to_collection was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/split_file_to_collection/baabc30154cd&quot;&gt;baabc30154cd&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;imaging&quot;&gt;Imaging&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;bioformats2raw was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/imgteam/bioformats2raw/b32f5368e279&quot;&gt;b32f5368e279&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;convert-formats&quot;&gt;Convert Formats&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;samtools_bam_to_cram was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/samtools_bam_to_cram/b9ea85dfaf45&quot;&gt;b9ea85dfaf45&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;ncbi-blast&quot;&gt;NCBI Blast&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;ncbi_blast_plus was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/ncbi_blast_plus/d999e774072a&quot;&gt;d999e774072a&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;phylogenetics&quot;&gt;Phylogenetics&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;hyphy_prime was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_prime/4072360120e4&quot;&gt;4072360120e4&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;rna-analysis&quot;&gt;RNA Analysis&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;edger was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/edger/5bf899c13979&quot;&gt;5bf899c13979&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;sambam&quot;&gt;SAM/BAM&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;samtools_bedcov was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/samtools_bedcov/6856f8a01905&quot;&gt;6856f8a01905&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;samtools_calmd was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/samtools_calmd/c89806670ab9&quot;&gt;c89806670ab9&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;samtools_flagstat was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/samtools_flagstat/fefd89ab563c&quot;&gt;fefd89ab563c&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;samtools_idxstats was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/samtools_idxstats/fa5d3e61e429&quot;&gt;fa5d3e61e429&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;samtools_mpileup was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/samtools_mpileup/b61f5d6a7f25&quot;&gt;b61f5d6a7f25&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;samtools_reheader was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/samtools_reheader/d7b4851d1971&quot;&gt;d7b4851d1971&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;samtools_slice_bam was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/samtools_slice_bam/b5c88b7b153e&quot;&gt;b5c88b7b153e&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;samtools_sort was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/samtools_sort/a577ea614bed&quot;&gt;a577ea614bed&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;samtools_split was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/samtools_split/bd850490c7f1&quot;&gt;bd850490c7f1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;samtools_stats was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/samtools_stats/fed4aa48ba09&quot;&gt;fed4aa48ba09&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;samtools_ampliconclip was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/samtools_ampliconclip/6a8febad1f6c&quot;&gt;6a8febad1f6c&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;samtools_depth was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/samtools_depth/971dc85e9441&quot;&gt;971dc85e9441&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;samtools_fastx was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/samtools_fastx/66e23b11feae&quot;&gt;66e23b11feae&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;samtools_fixmate was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/samtools_fixmate/e5ece8fa99de&quot;&gt;e5ece8fa99de&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;samtools_markdup was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/samtools_markdup/a389f74c3630&quot;&gt;a389f74c3630&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;samtools_merge was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/samtools_merge/65a38e8c8e2a&quot;&gt;65a38e8c8e2a&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;samtools_view was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/samtools_view/6be888be75f9&quot;&gt;6be888be75f9&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;none&quot;&gt;None&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;data_manager_diamond_database_builder was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/data_manager_diamond_database_builder/4a08b7b76b78&quot;&gt;4a08b7b76b78&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;metagenomic-analysis&quot;&gt;Metagenomic Analysis&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;lotus2 was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/earlhaminst/lotus2/469095a58c15&quot;&gt;469095a58c15&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2023-11-26, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #419</summary></entry><entry><title type="html">UseGalaxy.eu Tool Updates for 2023-11-19</title><link href="https://galaxyproject.eu/posts/2023/11/19/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2023-11-19" /><published>2023-11-19T00:00:00+01:00</published><updated>2023-11-19T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2023/11/19/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2023/11/19/tool-update/">&lt;p&gt;On 2023-11-19, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#418/&quot;&gt;Jenkins Build #418&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;data-and-metadata-management&quot;&gt;Data and Metadata Management&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;eml2eal was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ecology/eml2eal/248b03f124dd&quot;&gt;248b03f124dd&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;makeeml was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ecology/makeeml/9d56f6480194&quot;&gt;9d56f6480194&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;qiime-2&quot;&gt;QIIME 2&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;qiime2__deblur__denoise_16S was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/q2d2/qiime2__deblur__denoise_16S/2572fc0f88f2&quot;&gt;2572fc0f88f2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;get-data&quot;&gt;Get Data&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;sra_tools was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/sra_tools/e407b9da183a&quot;&gt;e407b9da183a&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;proteomics&quot;&gt;Proteomics&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;openms_openpepxl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_openpepxl/40cc19c0dbd6&quot;&gt;40cc19c0dbd6&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_openpepxl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_openpepxl/a2a842b00f9c&quot;&gt;a2a842b00f9c&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_openpepxl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_openpepxl/fc36cfd19834&quot;&gt;fc36cfd19834&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_percolatoradapter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_percolatoradapter/0fc9ae55bcfc&quot;&gt;0fc9ae55bcfc&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_percolatoradapter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_percolatoradapter/e7881a82b56d&quot;&gt;e7881a82b56d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_xfdr was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_xfdr/81402a5e4173&quot;&gt;81402a5e4173&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;openms_xfdr was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_xfdr/9a6e3bb0f358&quot;&gt;9a6e3bb0f358&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;imaging&quot;&gt;Imaging&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;2d_filter_segmentation_by_features was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/imgteam/2d_filter_segmentation_by_features/6ad1d3cfdea1&quot;&gt;6ad1d3cfdea1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;2d_histogram_equalization was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/imgteam/2d_histogram_equalization/77f7159d775a&quot;&gt;77f7159d775a&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;anisotropic_diffusion was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/imgteam/anisotropic_diffusion/e6987afa0484&quot;&gt;e6987afa0484&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;binary2labelimage was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/imgteam/binary2labelimage/984358e43242&quot;&gt;984358e43242&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;binary2labelimage was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/imgteam/binary2labelimage/9bb446db4a1e&quot;&gt;9bb446db4a1e&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;binaryimage2points was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/imgteam/binaryimage2points/f38f42d55813&quot;&gt;f38f42d55813&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;bioformats2raw was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/imgteam/bioformats2raw/4b6c2135e547&quot;&gt;4b6c2135e547&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;color_deconvolution was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/imgteam/color_deconvolution/612aa1478fe1&quot;&gt;612aa1478fe1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;concat_channels was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/imgteam/concat_channels/212627bfb759&quot;&gt;212627bfb759&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;coordinates_of_roi was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/imgteam/coordinates_of_roi/00175f4a2bbb&quot;&gt;00175f4a2bbb&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;count_objects was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/imgteam/count_objects/b58447a2eed2&quot;&gt;b58447a2eed2&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;curve_fitting was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/imgteam/curve_fitting/2dc244356765&quot;&gt;2dc244356765&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;detection_viz was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/imgteam/detection_viz/99433164b593&quot;&gt;99433164b593&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;image_registration_affine was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/imgteam/image_registration_affine/5030651c2993&quot;&gt;5030651c2993&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;imagecoordinates_flipaxis was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/imgteam/imagecoordinates_flipaxis/984b342d03a6&quot;&gt;984b342d03a6&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;labelimage2points was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/imgteam/labelimage2points/3b7460735223&quot;&gt;3b7460735223&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;landmark_registration was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/imgteam/landmark_registration/02aa2873e67d&quot;&gt;02aa2873e67d&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mergeneighboursinlabelimage was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/imgteam/mergeneighboursinlabelimage/9cbddb13fb9e&quot;&gt;9cbddb13fb9e&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;overlay_images was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/imgteam/overlay_images/37662cbf44b8&quot;&gt;37662cbf44b8&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;permutate_axis was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/imgteam/permutate_axis/7e7215e721af&quot;&gt;7e7215e721af&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;points2binaryimage was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/imgteam/points2binaryimage/90385ec28b34&quot;&gt;90385ec28b34&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;points2labelimage was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/imgteam/points2labelimage/30ca5d5d03ec&quot;&gt;30ca5d5d03ec&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;points_association_nn was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/imgteam/points_association_nn/f3fad67af22c&quot;&gt;f3fad67af22c&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;projective_transformation was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/imgteam/projective_transformation/f5744f0e5a81&quot;&gt;f5744f0e5a81&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;projective_transformation_points was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/imgteam/projective_transformation_points/65e95d0b8838&quot;&gt;65e95d0b8838&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;rfove was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/imgteam/rfove/d10a46ef77d3&quot;&gt;d10a46ef77d3&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;segmetrics was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/imgteam/segmetrics/462f49860277&quot;&gt;462f49860277&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;segmetrics was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/imgteam/segmetrics/ac55e2f4d9e3&quot;&gt;ac55e2f4d9e3&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;segmetrics was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/imgteam/segmetrics/b6e88e7bf2fa&quot;&gt;b6e88e7bf2fa&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;slice_image was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/imgteam/slice_image/f312d414f234&quot;&gt;f312d414f234&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;split_labelmap was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/imgteam/split_labelmap/9db1c22dbe17&quot;&gt;9db1c22dbe17&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;spot_detection_2d was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/imgteam/spot_detection_2d/14f9986800fa&quot;&gt;14f9986800fa&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;superdsm was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/imgteam/superdsm/244f67290d28&quot;&gt;244f67290d28&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;superdsm was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/imgteam/superdsm/7fd8dba15bd3&quot;&gt;7fd8dba15bd3&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;wsi_extract_top_view was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/imgteam/wsi_extract_top_view/3bd767eee603&quot;&gt;3bd767eee603&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;hicexplorer&quot;&gt;HiCExplorer&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;hicexplorer_hicplotsvl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/hicexplorer_hicplotsvl/81d061c9276d&quot;&gt;81d061c9276d&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;phylogenetics&quot;&gt;Phylogenetics&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;hyphy_prime was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_prime/4072360120e4&quot;&gt;4072360120e4&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;raxml was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/raxml/b1e68bbe4cef&quot;&gt;b1e68bbe4cef&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;single-cell&quot;&gt;Single-cell&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;scanpy_cluster_reduce_dimension was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/scanpy_cluster_reduce_dimension/6acb08931836&quot;&gt;6acb08931836&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_filter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/scanpy_filter/a03ff8633507&quot;&gt;a03ff8633507&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_inspect was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/scanpy_inspect/3081ff5c84a3&quot;&gt;3081ff5c84a3&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_normalize was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/scanpy_normalize/94c19fb1281c&quot;&gt;94c19fb1281c&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_plot was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/scanpy_plot/9b0cdb8cf6be&quot;&gt;9b0cdb8cf6be&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;scanpy_remove_confounders was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/scanpy_remove_confounders/458e8f43a775&quot;&gt;458e8f43a775&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;none&quot;&gt;None&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;data_manager_diamond_database_builder was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/data_manager_diamond_database_builder/4a08b7b76b78&quot;&gt;4a08b7b76b78&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;hca_sc_label_analysis_tools&quot;&gt;hca_sc_label_analysis_tools&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;decoupler_pseudobulk was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/decoupler_pseudobulk/130e25d3ce92&quot;&gt;130e25d3ce92&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;decoupler_pseudobulk was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ebi-gxa/decoupler_pseudobulk/f321c60167d4&quot;&gt;f321c60167d4&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;annotation&quot;&gt;Annotation&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;genenotebook_genenotebook_build was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/gga/genenotebook_genenotebook_build/12494257f0f0&quot;&gt;12494257f0f0&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2023-11-19, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #418</summary></entry><entry><title type="html">UseGalaxy.eu Tool Updates for 2023-11-14</title><link href="https://galaxyproject.eu/posts/2023/11/14/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2023-11-14" /><published>2023-11-14T00:00:00+01:00</published><updated>2023-11-14T00:00:00+01:00</updated><id>https://galaxyproject.eu/posts/2023/11/14/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2023/11/14/tool-update/">&lt;p&gt;On 2023-11-14, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#417/&quot;&gt;Jenkins Build #417&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;qiime-2&quot;&gt;QIIME 2&lt;/h2&gt;
 
@@ -799,377 +1019,4 @@
 
 &lt;ul&gt;
   &lt;li&gt;data_manager_diamond_database_builder was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/data_manager_diamond_database_builder/4a08b7b76b78&quot;&gt;4a08b7b76b78&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2023-10-06, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #409</summary></entry><entry><title type="html">UseGalaxy.eu Tool Updates for 2023-10-05</title><link href="https://galaxyproject.eu/posts/2023/10/05/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2023-10-05" /><published>2023-10-05T00:00:00+02:00</published><updated>2023-10-05T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2023/10/05/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2023/10/05/tool-update/">&lt;p&gt;On 2023-10-05, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#408/&quot;&gt;Jenkins Build #408&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;machine-learning&quot;&gt;Machine Learning&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;keras_batch_models was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/keras_batch_models/0dc3027df8f4&quot;&gt;0dc3027df8f4&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;keras_batch_models was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/keras_batch_models/508ce0649bec&quot;&gt;508ce0649bec&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;keras_batch_models was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/keras_batch_models/62b85c8ad8fa&quot;&gt;62b85c8ad8fa&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;keras_batch_models was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/keras_batch_models/a98b60c639af&quot;&gt;a98b60c639af&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;keras_batch_models was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/keras_batch_models/ed4d31f47d65&quot;&gt;ed4d31f47d65&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;keras_batch_models was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/keras_batch_models/f5e7df4f7975&quot;&gt;f5e7df4f7975&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;keras_model_builder was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/keras_model_builder/1f0c955fabc7&quot;&gt;1f0c955fabc7&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;keras_model_builder was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/keras_model_builder/20cd4269deb2&quot;&gt;20cd4269deb2&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;keras_model_builder was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/keras_model_builder/4bd0bd2add7f&quot;&gt;4bd0bd2add7f&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;keras_model_builder was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/keras_model_builder/c51571d0a0b1&quot;&gt;c51571d0a0b1&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;keras_model_builder was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/keras_model_builder/e3b420d0b71a&quot;&gt;e3b420d0b71a&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;keras_model_config was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/keras_model_config/0fd7d8e90e2a&quot;&gt;0fd7d8e90e2a&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;keras_model_config was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/keras_model_config/2a853a2d2e72&quot;&gt;2a853a2d2e72&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;keras_model_config was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/keras_model_config/2b8d85927742&quot;&gt;2b8d85927742&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;keras_model_config was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/keras_model_config/b9906ce4756c&quot;&gt;b9906ce4756c&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;keras_model_config was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/keras_model_config/de19ef9ff031&quot;&gt;de19ef9ff031&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;keras_train_and_eval was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/keras_train_and_eval/03f61bb3ca43&quot;&gt;03f61bb3ca43&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;keras_train_and_eval was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/keras_train_and_eval/785dd890e27d&quot;&gt;785dd890e27d&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;keras_train_and_eval was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/keras_train_and_eval/ccd6269fad60&quot;&gt;ccd6269fad60&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;keras_train_and_eval was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/keras_train_and_eval/e29894cdea47&quot;&gt;e29894cdea47&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;ml_visualization_ex was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/ml_visualization_ex/6b94d76a1397&quot;&gt;6b94d76a1397&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;ml_visualization_ex was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/ml_visualization_ex/6fabdcde0214&quot;&gt;6fabdcde0214&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;ml_visualization_ex was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/ml_visualization_ex/e88c782a127d&quot;&gt;e88c782a127d&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;model_prediction was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/model_prediction/1e088aa741eb&quot;&gt;1e088aa741eb&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;model_prediction was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/model_prediction/22f9cbcf1582&quot;&gt;22f9cbcf1582&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;model_prediction was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/model_prediction/65820fb7257b&quot;&gt;65820fb7257b&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;model_prediction was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/model_prediction/6efb9bc6bf32&quot;&gt;6efb9bc6bf32&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;model_prediction was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/model_prediction/948eca2af157&quot;&gt;948eca2af157&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_build_pipeline was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_build_pipeline/118e230e85ce&quot;&gt;118e230e85ce&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_clf_metrics was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_clf_metrics/15bcf1a7543b&quot;&gt;15bcf1a7543b&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_clf_metrics was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_clf_metrics/40e31fb88836&quot;&gt;40e31fb88836&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_clf_metrics was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_clf_metrics/5a21a631d2eb&quot;&gt;5a21a631d2eb&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_data_preprocess was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_data_preprocess/1bef885255e0&quot;&gt;1bef885255e0&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_data_preprocess was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_data_preprocess/4fc54bac4254&quot;&gt;4fc54bac4254&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_data_preprocess was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_data_preprocess/826c3e68e7a9&quot;&gt;826c3e68e7a9&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_data_preprocess was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_data_preprocess/9e43ee712723&quot;&gt;9e43ee712723&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_data_preprocess was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_data_preprocess/a5c2ce4ea328&quot;&gt;a5c2ce4ea328&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_data_preprocess was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_data_preprocess/add3c3a7c2b4&quot;&gt;add3c3a7c2b4&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_data_preprocess was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_data_preprocess/b75cae00f980&quot;&gt;b75cae00f980&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_data_preprocess was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_data_preprocess/eb79bde99328&quot;&gt;eb79bde99328&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_discriminant_classifier was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_discriminant_classifier/1bd039aca44f&quot;&gt;1bd039aca44f&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_discriminant_classifier was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_discriminant_classifier/64b771b1471a&quot;&gt;64b771b1471a&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_discriminant_classifier was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_discriminant_classifier/893285b150f8&quot;&gt;893285b150f8&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_discriminant_classifier was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_discriminant_classifier/8e49f26b14d3&quot;&gt;8e49f26b14d3&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_ensemble was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_ensemble/315f01a9d2c2&quot;&gt;315f01a9d2c2&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_ensemble was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_ensemble/3ab7af14f1b5&quot;&gt;3ab7af14f1b5&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_ensemble was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_ensemble/407495139a09&quot;&gt;407495139a09&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_ensemble was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_ensemble/4ecc0ce9d0a2&quot;&gt;4ecc0ce9d0a2&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_ensemble was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_ensemble/af0523c606a7&quot;&gt;af0523c606a7&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_estimator_attributes was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_estimator_attributes/74de84506e74&quot;&gt;74de84506e74&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_estimator_attributes was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_estimator_attributes/7a9a9349eb42&quot;&gt;7a9a9349eb42&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_estimator_attributes was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_estimator_attributes/adaf2457d6ec&quot;&gt;adaf2457d6ec&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_estimator_attributes was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_estimator_attributes/f4a7c3aa1e10&quot;&gt;f4a7c3aa1e10&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_feature_selection was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_feature_selection/8a307b946c58&quot;&gt;8a307b946c58&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_feature_selection was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_feature_selection/ae0fafb53c1d&quot;&gt;ae0fafb53c1d&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_feature_selection was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_feature_selection/c2cd3219543a&quot;&gt;c2cd3219543a&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_feature_selection was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_feature_selection/d84b3a229a52&quot;&gt;d84b3a229a52&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_feature_selection was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_feature_selection/ec25331946b8&quot;&gt;ec25331946b8&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_feature_selection was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_feature_selection/fe47a06943fb&quot;&gt;fe47a06943fb&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_fitted_model_eval was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_fitted_model_eval/044729657181&quot;&gt;044729657181&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_fitted_model_eval was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_fitted_model_eval/61fb99c55558&quot;&gt;61fb99c55558&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_fitted_model_eval was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_fitted_model_eval/cf54bae8ad42&quot;&gt;cf54bae8ad42&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_fitted_model_eval was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_fitted_model_eval/e00c1c9d206b&quot;&gt;e00c1c9d206b&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_fitted_model_eval was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_fitted_model_eval/f73a2b68a37b&quot;&gt;f73a2b68a37b&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_generalized_linear was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_generalized_linear/3e4a7684d402&quot;&gt;3e4a7684d402&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_generalized_linear was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_generalized_linear/616a241c5b37&quot;&gt;616a241c5b37&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_generalized_linear was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_generalized_linear/63417d0acc72&quot;&gt;63417d0acc72&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_generalized_linear was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_generalized_linear/6cf4b82c72bc&quot;&gt;6cf4b82c72bc&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_generalized_linear was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_generalized_linear/913bf1c4c7bb&quot;&gt;913bf1c4c7bb&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_generalized_linear was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_generalized_linear/c648d0716fb0&quot;&gt;c648d0716fb0&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_generalized_linear was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_generalized_linear/c9969328b42f&quot;&gt;c9969328b42f&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_label_encoder was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_label_encoder/026ff1ea9f94&quot;&gt;026ff1ea9f94&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_lightgbm was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_lightgbm/74f96ebc5554&quot;&gt;74f96ebc5554&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_lightgbm was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_lightgbm/8e95b68b178b&quot;&gt;8e95b68b178b&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_model_fit was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_model_fit/17999807dc1b&quot;&gt;17999807dc1b&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_model_fit was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_model_fit/fc2e64a27e90&quot;&gt;fc2e64a27e90&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_model_validation was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_model_validation/60b8a683ba99&quot;&gt;60b8a683ba99&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_model_validation was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_model_validation/887e0aaa482e&quot;&gt;887e0aaa482e&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_model_validation was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_model_validation/9dc28a4b6ca8&quot;&gt;9dc28a4b6ca8&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_model_validation was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_model_validation/cf9aa11b91c8&quot;&gt;cf9aa11b91c8&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_model_validation was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_model_validation/de360b57a5ab&quot;&gt;de360b57a5ab&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_nn_classifier was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_nn_classifier/34d31bd995e9&quot;&gt;34d31bd995e9&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_nn_classifier was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_nn_classifier/d33d37f32e54&quot;&gt;d33d37f32e54&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_numeric_clustering was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_numeric_clustering/73e7f1c76ece&quot;&gt;73e7f1c76ece&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_numeric_clustering was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_numeric_clustering/83938131dd46&quot;&gt;83938131dd46&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_numeric_clustering was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_numeric_clustering/8eed73e8e04d&quot;&gt;8eed73e8e04d&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_numeric_clustering was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_numeric_clustering/e13a7c05b3a4&quot;&gt;e13a7c05b3a4&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_pairwise_metrics was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_pairwise_metrics/053e7f32d37e&quot;&gt;053e7f32d37e&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_pairwise_metrics was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_pairwise_metrics/1682b64aad9e&quot;&gt;1682b64aad9e&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_pairwise_metrics was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_pairwise_metrics/62945303e6bd&quot;&gt;62945303e6bd&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_pairwise_metrics was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_pairwise_metrics/7366e5108e9f&quot;&gt;7366e5108e9f&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_pairwise_metrics was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_pairwise_metrics/86020dbc8ef7&quot;&gt;86020dbc8ef7&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_pca was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_pca/03e0da430d44&quot;&gt;03e0da430d44&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_pca was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_pca/24c1cc2dd4a4&quot;&gt;24c1cc2dd4a4&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_pca was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_pca/e36ab18cbaca&quot;&gt;e36ab18cbaca&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_regression_metrics was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_regression_metrics/40ee30b5e456&quot;&gt;40ee30b5e456&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_regression_metrics was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_regression_metrics/70c5a9127f99&quot;&gt;70c5a9127f99&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_regression_metrics was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_regression_metrics/9c8ede554b7c&quot;&gt;9c8ede554b7c&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_regression_metrics was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_regression_metrics/f5dcb87fd14e&quot;&gt;f5dcb87fd14e&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_sample_generator was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_sample_generator/0ba38603a0d6&quot;&gt;0ba38603a0d6&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_sample_generator was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_sample_generator/0f460421b212&quot;&gt;0f460421b212&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_sample_generator was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_sample_generator/7c2e71e4acf3&quot;&gt;7c2e71e4acf3&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_searchcv was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_searchcv/103aaea17119&quot;&gt;103aaea17119&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_searchcv was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_searchcv/1ae5dfd5ac17&quot;&gt;1ae5dfd5ac17&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_searchcv was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_searchcv/1ddf415cb349&quot;&gt;1ddf415cb349&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_searchcv was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_searchcv/907bb0418c9f&quot;&gt;907bb0418c9f&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_stacking_ensemble_models was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_stacking_ensemble_models/fcc5eaaec401&quot;&gt;fcc5eaaec401&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_svm_classifier was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_svm_classifier/14fa42b095c4&quot;&gt;14fa42b095c4&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_svm_classifier was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_svm_classifier/d2afc87db26b&quot;&gt;d2afc87db26b&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_svm_classifier was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_svm_classifier/fa9d6a4d95ad&quot;&gt;fa9d6a4d95ad&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_to_categorical was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_to_categorical/59e8b4328c82&quot;&gt;59e8b4328c82&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_to_categorical was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_to_categorical/a4f18bbb4eca&quot;&gt;a4f18bbb4eca&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_to_categorical was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_to_categorical/f93f0cdbaf18&quot;&gt;f93f0cdbaf18&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_train_test_eval was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_train_test_eval/1b68acd5ac08&quot;&gt;1b68acd5ac08&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_train_test_eval was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_train_test_eval/443471b0a27a&quot;&gt;443471b0a27a&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_train_test_eval was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_train_test_eval/8b822484debc&quot;&gt;8b822484debc&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_train_test_eval was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_train_test_eval/caf7d2b71a48&quot;&gt;caf7d2b71a48&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_train_test_eval was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_train_test_eval/cc49634df38f&quot;&gt;cc49634df38f&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;sklearn_train_test_split was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_train_test_split/b6f5443c4f58&quot;&gt;b6f5443c4f58&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;statistics&quot;&gt;Statistics&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;scipy_sparse was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/scipy_sparse/1658dff33c46&quot;&gt;1658dff33c46&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;scipy_sparse was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/scipy_sparse/6d1a9fae57eb&quot;&gt;6d1a9fae57eb&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;scipy_sparse was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/scipy_sparse/b9ed7b774ba3&quot;&gt;b9ed7b774ba3&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;qiime-2&quot;&gt;QIIME 2&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;qiime2__deblur__denoise_16S was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/q2d2/qiime2__deblur__denoise_16S/2572fc0f88f2&quot;&gt;2572fc0f88f2&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;chemicaltoolbox&quot;&gt;ChemicalToolBox&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;chembl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/chembl/6f8458d1cf46&quot;&gt;6f8458d1cf46&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;openbabel_addh was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/openbabel_addh/d2e6d682bcd0&quot;&gt;d2e6d682bcd0&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;openbabel_compound_convert was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/openbabel_compound_convert/1c66bf08f687&quot;&gt;1c66bf08f687&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;openbabel_filter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/openbabel_filter/0e382252d23d&quot;&gt;0e382252d23d&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;openbabel_filter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/openbabel_filter/da03b00048b1&quot;&gt;da03b00048b1&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;openbabel_remduplicates was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/openbabel_remduplicates/12aca74f07d7&quot;&gt;12aca74f07d7&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;openbabel_remduplicates was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/openbabel_remduplicates/65254472e5b4&quot;&gt;65254472e5b4&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;openbabel_remove_protonation_state was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/openbabel_remove_protonation_state/b578d0c101cd&quot;&gt;b578d0c101cd&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;openbabel_subsearch was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/openbabel_subsearch/bd678d7db2ae&quot;&gt;bd678d7db2ae&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;ambertools_parmchk2 was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/ambertools_parmchk2/3549852f413f&quot;&gt;3549852f413f&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;ambertools_parmchk2 was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/ambertools_parmchk2/6aa2b60f3195&quot;&gt;6aa2b60f3195&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;ambertools_parmchk2 was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/ambertools_parmchk2/79f570a89e3d&quot;&gt;79f570a89e3d&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;gmx_get_builtin_file was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/gmx_get_builtin_file/377fe4ce732d&quot;&gt;377fe4ce732d&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;gmx_get_builtin_file was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/gmx_get_builtin_file/42dfec375136&quot;&gt;42dfec375136&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;gmx_rg was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/gmx_rg/b01f3db44534&quot;&gt;b01f3db44534&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;parmconv was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/parmconv/30120022aa5c&quot;&gt;30120022aa5c&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;convert-formats&quot;&gt;Convert Formats&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;graphicsmagick_image_convert was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/graphicsmagick_image_convert/c01226f0d828&quot;&gt;c01226f0d828&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;assembly&quot;&gt;Assembly&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;flye was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/flye/de24438c9988&quot;&gt;de24438c9988&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;racon was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/racon/7c847ec300b8&quot;&gt;7c847ec300b8&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;nanopore&quot;&gt;Nanopore&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;nanopolish_eventalign was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/nanopolish_eventalign/5c360c46eac7&quot;&gt;5c360c46eac7&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;nanopolish_methylation was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/nanopolish_methylation/12efe2f03697&quot;&gt;12efe2f03697&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;fastafastq&quot;&gt;FASTA/FASTQ&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;fastqc was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/fastqc/0b201de108b9&quot;&gt;0b201de108b9&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;fastqc was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/fastqc/9337dd1fbc66&quot;&gt;9337dd1fbc66&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;quality-control&quot;&gt;Quality Control&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;multiqc was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/multiqc/161f4383df15&quot;&gt;161f4383df15&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;mapping&quot;&gt;Mapping&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;bowtie2 was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/bowtie2/96d2e31a3938&quot;&gt;96d2e31a3938&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;bwa was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/bwa/48f306c57611&quot;&gt;48f306c57611&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;data-managers&quot;&gt;Data Managers&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;data_manager_qiime_database_downloader was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/data_manager_qiime_database_downloader/cbe065fbd038&quot;&gt;cbe065fbd038&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;imaging&quot;&gt;Imaging&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;cp_cellprofiler was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/cp_cellprofiler/ba4fd9fbf924&quot;&gt;ba4fd9fbf924&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;cp_common was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/cp_common/3c3cd68d6d5a&quot;&gt;3c3cd68d6d5a&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;cp_convert_objects_to_image was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/cp_convert_objects_to_image/1221c018f7be&quot;&gt;1221c018f7be&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;cp_convert_objects_to_image was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/cp_convert_objects_to_image/7ec682d4e4cc&quot;&gt;7ec682d4e4cc&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;cp_convert_objects_to_image was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/cp_convert_objects_to_image/d9fa2e6fae97&quot;&gt;d9fa2e6fae97&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;cp_display_data_on_image was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/cp_display_data_on_image/7c70e5268acd&quot;&gt;7c70e5268acd&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;cp_display_data_on_image was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/cp_display_data_on_image/e46efde93815&quot;&gt;e46efde93815&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;cp_enhance_or_suppress_features was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/cp_enhance_or_suppress_features/29188f9c4ca8&quot;&gt;29188f9c4ca8&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;cp_export_to_spreadsheet was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/cp_export_to_spreadsheet/c0759ca34e20&quot;&gt;c0759ca34e20&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;cp_gray_to_color was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/cp_gray_to_color/c72f83dbc7b5&quot;&gt;c72f83dbc7b5&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;cp_identify_primary_objects was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/cp_identify_primary_objects/52c01fb29b2a&quot;&gt;52c01fb29b2a&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;cp_mask_image was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/cp_mask_image/ca1421f7e3ed&quot;&gt;ca1421f7e3ed&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;cp_measure_granularity was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/cp_measure_granularity/88dd3674c4d0&quot;&gt;88dd3674c4d0&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;cp_measure_image_intensity was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/cp_measure_image_intensity/2a404d72850f&quot;&gt;2a404d72850f&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;cp_measure_image_intensity was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/cp_measure_image_intensity/e87d1fd2d673&quot;&gt;e87d1fd2d673&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;cp_measure_image_quality was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/cp_measure_image_quality/26945c55ddff&quot;&gt;26945c55ddff&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;cp_measure_object_intensity was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/cp_measure_object_intensity/b867e9317a06&quot;&gt;b867e9317a06&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;cp_measure_object_size_shape was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/cp_measure_object_size_shape/66408bdb2674&quot;&gt;66408bdb2674&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;cp_measure_texture was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/cp_measure_texture/0f751bb492de&quot;&gt;0f751bb492de&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;cp_measure_texture was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/cp_measure_texture/51acaef34e47&quot;&gt;51acaef34e47&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;cp_save_images was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/cp_save_images/609911f19ab2&quot;&gt;609911f19ab2&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;cp_save_images was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/cp_save_images/6e0f244acd32&quot;&gt;6e0f244acd32&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;cp_save_images was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/cp_save_images/84c3bd433b96&quot;&gt;84c3bd433b96&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;2d_feature_extraction was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/imgteam/2d_feature_extraction/6fdb3542a406&quot;&gt;6fdb3542a406&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;2d_local_threshold was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/imgteam/2d_local_threshold/c90b91f4a07b&quot;&gt;c90b91f4a07b&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;2d_split_binaryimage_by_watershed was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/imgteam/2d_split_binaryimage_by_watershed/5e21d7342593&quot;&gt;5e21d7342593&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;count_objects was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/imgteam/count_objects/895a29ebd0c7&quot;&gt;895a29ebd0c7&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;curve_fitting was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/imgteam/curve_fitting/00feb1ecd040&quot;&gt;00feb1ecd040&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;imagecoordinates_flipaxis was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/imgteam/imagecoordinates_flipaxis/5a210baa2ff1&quot;&gt;5a210baa2ff1&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;imagej2_analyze_particles_binary was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/imgteam/imagej2_analyze_particles_binary/aeb9bb864b8c&quot;&gt;aeb9bb864b8c&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;imagej2_bunwarpj_compose_raw was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/imgteam/imagej2_bunwarpj_compose_raw/93b416f8e9e3&quot;&gt;93b416f8e9e3&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;imagej2_create_image was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/imgteam/imagej2_create_image/dc3935a0165a&quot;&gt;dc3935a0165a&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;imagej2_make_binary was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/imgteam/imagej2_make_binary/baa308e2533a&quot;&gt;baa308e2533a&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;imagej2_sharpen was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/imgteam/imagej2_sharpen/a84f2cbf091b&quot;&gt;a84f2cbf091b&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;permutate_axis was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/imgteam/permutate_axis/5b82f2186244&quot;&gt;5b82f2186244&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;spot_detection_2d was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/imgteam/spot_detection_2d/859dd1c11ac0&quot;&gt;859dd1c11ac0&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;visceral_evaluatesegmentation was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/imgteam/visceral_evaluatesegmentation/8c1a805c2fc5&quot;&gt;8c1a805c2fc5&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;apollo&quot;&gt;Apollo&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;apollo_create_account was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/gga/apollo_create_account/0929c15c3d70&quot;&gt;0929c15c3d70&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;apollo_export was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/gga/apollo_export/c3251541cf2b&quot;&gt;c3251541cf2b&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;annotation&quot;&gt;Annotation&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;maker was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/maker/a444254e9a57&quot;&gt;a444254e9a57&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;muon-spectroscopy&quot;&gt;Muon Spectroscopy&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;cif2cell was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/muon-spectroscopy-computational-project/cif2cell/e5f1ac42b063&quot;&gt;e5f1ac42b063&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;muspinsim was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/muon-spectroscopy-computational-project/muspinsim/e002cee8f707&quot;&gt;e002cee8f707&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;muspinsim_combine was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/muon-spectroscopy-computational-project/muspinsim_combine/06aabd70b869&quot;&gt;06aabd70b869&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;muspinsim_config was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/muon-spectroscopy-computational-project/muspinsim_config/e1e338f56656&quot;&gt;e1e338f56656&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;muspinsim_plot was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/muon-spectroscopy-computational-project/muspinsim_plot/e15e8800c39e&quot;&gt;e15e8800c39e&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;pm_asephonons was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/muon-spectroscopy-computational-project/pm_asephonons/fd28cbdb134e&quot;&gt;fd28cbdb134e&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;pm_muairss_read was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/muon-spectroscopy-computational-project/pm_muairss_read/40071ff77285&quot;&gt;40071ff77285&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;pm_symmetry was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/muon-spectroscopy-computational-project/pm_symmetry/c062cefbb20f&quot;&gt;c062cefbb20f&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;pm_uep_opt was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/muon-spectroscopy-computational-project/pm_uep_opt/eea73e1f65cb&quot;&gt;eea73e1f65cb&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2023-10-05, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #408</summary></entry><entry><title type="html">UseGalaxy.eu Tool Updates for 2023-10-01</title><link href="https://galaxyproject.eu/posts/2023/10/01/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2023-10-01" /><published>2023-10-01T00:00:00+02:00</published><updated>2023-10-01T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2023/10/01/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2023/10/01/tool-update/">&lt;p&gt;On 2023-10-01, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#407/&quot;&gt;Jenkins Build #407&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;text-manipulation&quot;&gt;Text Manipulation&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;add_value was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/add_value/023f0a3760b3&quot;&gt;023f0a3760b3&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;qiime-2&quot;&gt;QIIME 2&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;qiime2__deblur__denoise_16S was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/q2d2/qiime2__deblur__denoise_16S/2572fc0f88f2&quot;&gt;2572fc0f88f2&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;proteomics&quot;&gt;Proteomics&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;openms_openpepxl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_openpepxl/40cc19c0dbd6&quot;&gt;40cc19c0dbd6&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;openms_openpepxl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_openpepxl/a2a842b00f9c&quot;&gt;a2a842b00f9c&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;openms_openpepxl was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_openpepxl/fc36cfd19834&quot;&gt;fc36cfd19834&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;openms_percolatoradapter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_percolatoradapter/0fc9ae55bcfc&quot;&gt;0fc9ae55bcfc&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;openms_percolatoradapter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_percolatoradapter/e7881a82b56d&quot;&gt;e7881a82b56d&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;openms_xfdr was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_xfdr/81402a5e4173&quot;&gt;81402a5e4173&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;openms_xfdr was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/galaxyp/openms_xfdr/9a6e3bb0f358&quot;&gt;9a6e3bb0f358&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;get-data&quot;&gt;Get Data&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;ega_download_client was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/ega_download_client/6cb20e130473&quot;&gt;6cb20e130473&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;metagenomic-analysis&quot;&gt;Metagenomic Analysis&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;kraken2tax was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/devteam/kraken2tax/50bd98b3ae5a&quot;&gt;50bd98b3ae5a&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;nanopore&quot;&gt;Nanopore&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;medaka_consensus was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/medaka_consensus/18505fe2bdb1&quot;&gt;18505fe2bdb1&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;medaka_consensus_pipeline was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/medaka_consensus_pipeline/fc8804320156&quot;&gt;fc8804320156&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;medaka_variant was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/medaka_variant/eb746fa6f514&quot;&gt;eb746fa6f514&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;rna-analysis&quot;&gt;RNA Analysis&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;edger was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/edger/0cb907a2a810&quot;&gt;0cb907a2a810&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;variant-calling&quot;&gt;Variant Calling&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;cnvkit_access was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/cnvkit_access/9f18bcf53f92&quot;&gt;9f18bcf53f92&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;cnvkit_antitarget was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/cnvkit_antitarget/b52fa1df3bc4&quot;&gt;b52fa1df3bc4&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;cnvkit_autobin was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/cnvkit_autobin/94e1d19c8190&quot;&gt;94e1d19c8190&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;cnvkit_batch was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/cnvkit_batch/4653aeb60243&quot;&gt;4653aeb60243&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;cnvkit_call was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/cnvkit_call/0a5e2fc51dfb&quot;&gt;0a5e2fc51dfb&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;cnvkit_coverage was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/cnvkit_coverage/5602cbf1153b&quot;&gt;5602cbf1153b&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;cnvkit_diagram was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/cnvkit_diagram/697c61206f5f&quot;&gt;697c61206f5f&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;cnvkit_fix was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/cnvkit_fix/dc0fb5f07231&quot;&gt;dc0fb5f07231&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;cnvkit_heatmap was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/cnvkit_heatmap/d8c45afa221c&quot;&gt;d8c45afa221c&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;cnvkit_reference was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/cnvkit_reference/0c3db8ec44b0&quot;&gt;0c3db8ec44b0&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;cnvkit_scatter was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/cnvkit_scatter/3323a7867128&quot;&gt;3323a7867128&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;cnvkit_segment was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/cnvkit_segment/c4a22d0fdba5&quot;&gt;c4a22d0fdba5&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;cnvkit_target was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/cnvkit_target/876630eb0680&quot;&gt;876630eb0680&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;none&quot;&gt;None&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;data_manager_diamond_database_builder was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/data_manager_diamond_database_builder/4a08b7b76b78&quot;&gt;4a08b7b76b78&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;deeptools&quot;&gt;deepTools&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;deeptools_alignmentsieve was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/deeptools_alignmentsieve/97b384b7bfb0&quot;&gt;97b384b7bfb0&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;deeptools_bam_compare was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/deeptools_bam_compare/c929a006727f&quot;&gt;c929a006727f&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;deeptools_bam_coverage was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/deeptools_bam_coverage/0e49b109abc2&quot;&gt;0e49b109abc2&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;deeptools_bam_pe_fragmentsize was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/deeptools_bam_pe_fragmentsize/c06951d10364&quot;&gt;c06951d10364&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;deeptools_bigwig_average was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/deeptools_bigwig_average/4a53856a5b85&quot;&gt;4a53856a5b85&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;deeptools_bigwig_compare was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/deeptools_bigwig_compare/07418a30ed01&quot;&gt;07418a30ed01&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;deeptools_compute_gc_bias was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/deeptools_compute_gc_bias/26983857c91a&quot;&gt;26983857c91a&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;deeptools_compute_matrix was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/deeptools_compute_matrix/a60c359ec43c&quot;&gt;a60c359ec43c&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;deeptools_compute_matrix_operations was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/deeptools_compute_matrix_operations/e6d0bff01239&quot;&gt;e6d0bff01239&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;deeptools_correct_gc_bias was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/deeptools_correct_gc_bias/e479c7ca5570&quot;&gt;e479c7ca5570&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;deeptools_estimatereadfiltering was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/deeptools_estimatereadfiltering/c72a755904a9&quot;&gt;c72a755904a9&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;deeptools_multi_bam_summary was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/deeptools_multi_bam_summary/01fb6a7654e6&quot;&gt;01fb6a7654e6&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;deeptools_multi_bigwig_summary was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/deeptools_multi_bigwig_summary/137c4beed34b&quot;&gt;137c4beed34b&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;deeptools_plot_correlation was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/deeptools_plot_correlation/bad3ca889618&quot;&gt;bad3ca889618&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;deeptools_plot_coverage was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/deeptools_plot_coverage/231994413f89&quot;&gt;231994413f89&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;deeptools_plot_enrichment was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/deeptools_plot_enrichment/4431f39ede55&quot;&gt;4431f39ede55&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;deeptools_plot_fingerprint was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/deeptools_plot_fingerprint/4ed32329e0ed&quot;&gt;4ed32329e0ed&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;deeptools_plot_heatmap was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/deeptools_plot_heatmap/e4c7985d4585&quot;&gt;e4c7985d4585&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;deeptools_plot_pca was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/deeptools_plot_pca/443d9a9d6d11&quot;&gt;443d9a9d6d11&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;deeptools_plot_profile was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/deeptools_plot_profile/6662b1a8d326&quot;&gt;6662b1a8d326&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2023-10-01, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #407</summary></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2023-10-06, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #409</summary></entry></feed>
