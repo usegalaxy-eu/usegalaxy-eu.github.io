@@ -1,4 +1,49 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2024-06-23T02:46:49+02:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2024-06-16</title><link href="https://galaxyproject.eu/posts/2024/06/16/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2024-06-16" /><published>2024-06-16T00:00:00+02:00</published><updated>2024-06-16T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2024/06/16/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2024/06/16/tool-update/">&lt;p&gt;On 2024-06-16, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#454/&quot;&gt;Jenkins Build #454&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://galaxyproject.eu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://galaxyproject.eu/" rel="alternate" type="text/html" /><updated>2024-06-24T02:47:03+02:00</updated><id>https://galaxyproject.eu/feed.xml</id><title type="html">Galaxy Europe</title><subtitle>The European Galaxy Instance</subtitle><entry><title type="html">UseGalaxy.eu Tool Updates for 2024-06-23</title><link href="https://galaxyproject.eu/posts/2024/06/23/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2024-06-23" /><published>2024-06-23T00:00:00+02:00</published><updated>2024-06-23T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2024/06/23/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2024/06/23/tool-update/">&lt;p&gt;On 2024-06-23, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#455/&quot;&gt;Jenkins Build #455&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;mothur&quot;&gt;Mothur&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;mothur_sffinfo was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_sffinfo/3839397c8f28&quot;&gt;3839397c8f28&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mothur_sffinfo was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mothur_sffinfo/51d7c2486a68&quot;&gt;51d7c2486a68&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;get-data&quot;&gt;Get Data&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;retrieve_bold was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ecology/retrieve_bold/0608a259f2da&quot;&gt;0608a259f2da&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;chemicaltoolbox&quot;&gt;ChemicalToolBox&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;gmx_energy was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/chemteam/gmx_energy/593c63b5aff8&quot;&gt;593c63b5aff8&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;xtb_molecular_optimization was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/recetox/xtb_molecular_optimization/cba7123c2741&quot;&gt;cba7123c2741&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;qiime-2&quot;&gt;QIIME 2&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;qiime2__deblur__denoise_16S was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/q2d2/qiime2__deblur__denoise_16S/2572fc0f88f2&quot;&gt;2572fc0f88f2&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;qiime2__deblur__denoise_16S was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/q2d2/qiime2__deblur__denoise_16S/b883cbea5623&quot;&gt;b883cbea5623&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;metagenomic-analysis&quot;&gt;Metagenomic Analysis&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;genomad_end_to_end was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/ufz/genomad_end_to_end/955e33326e20&quot;&gt;955e33326e20&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;graphdisplay-data&quot;&gt;Graph/Display Data&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;jbrowse2 was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/fubar/jbrowse2/dc3fe98e7b37&quot;&gt;dc3fe98e7b37&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;machine-learning&quot;&gt;Machine Learning&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;sklearn_numeric_clustering was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_numeric_clustering/6edcaa8dbb9f&quot;&gt;6edcaa8dbb9f&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2024-06-23, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #455</summary></entry><entry><title type="html">UseGalaxy.eu Tool Updates for 2024-06-16</title><link href="https://galaxyproject.eu/posts/2024/06/16/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2024-06-16" /><published>2024-06-16T00:00:00+02:00</published><updated>2024-06-16T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2024/06/16/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2024/06/16/tool-update/">&lt;p&gt;On 2024-06-16, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#454/&quot;&gt;Jenkins Build #454&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;chemicaltoolbox&quot;&gt;ChemicalToolBox&lt;/h2&gt;
 
@@ -630,73 +675,4 @@
 
 &lt;ul&gt;
   &lt;li&gt;plotly_ml_performance_plots was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/plotly_ml_performance_plots/1c5dcef5ce0f&quot;&gt;1c5dcef5ce0f&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2024-05-12, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #445</summary></entry><entry><title type="html">UseGalaxy.eu Tool Updates for 2024-05-05</title><link href="https://galaxyproject.eu/posts/2024/05/05/tool-update/" rel="alternate" type="text/html" title="UseGalaxy.eu Tool Updates for 2024-05-05" /><published>2024-05-05T00:00:00+02:00</published><updated>2024-05-05T00:00:00+02:00</updated><id>https://galaxyproject.eu/posts/2024/05/05/tool-update</id><content type="html" xml:base="https://galaxyproject.eu/posts/2024/05/05/tool-update/">&lt;p&gt;On 2024-05-05, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in &lt;a href=&quot;https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#444/&quot;&gt;Jenkins Build #444&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;qiime-2&quot;&gt;QIIME 2&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;qiime2__deblur__denoise_16S was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/q2d2/qiime2__deblur__denoise_16S/2572fc0f88f2&quot;&gt;2572fc0f88f2&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;qiime2__deblur__denoise_16S was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/q2d2/qiime2__deblur__denoise_16S/b883cbea5623&quot;&gt;b883cbea5623&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;rna-analysis&quot;&gt;RNA Analysis&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;stringtie was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/stringtie/8eb8750070d4&quot;&gt;8eb8750070d4&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;imaging&quot;&gt;Imaging&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;cp_enhance_or_suppress_features was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/bgruening/cp_enhance_or_suppress_features/3f9747bda8c4&quot;&gt;3f9747bda8c4&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;annotation&quot;&gt;Annotation&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;mitos was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mitos/96c36179210e&quot;&gt;96c36179210e&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;mitos2 was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/mitos2/c8ac28e8ac44&quot;&gt;c8ac28e8ac44&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;assembly&quot;&gt;Assembly&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;fastk_fastk was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/fastk_fastk/ff827f983bbb&quot;&gt;ff827f983bbb&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;pairtools_dedup was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/pairtools_dedup/55a53b5e308d&quot;&gt;55a53b5e308d&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;pairtools_parse was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/pairtools_parse/44cb74c154bc&quot;&gt;44cb74c154bc&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;pairtools_sort was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/pairtools_sort/8ed44487c834&quot;&gt;8ed44487c834&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;pairtools_split was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/pairtools_split/060f0fed864e&quot;&gt;060f0fed864e&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;pairtools_stats was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/pairtools_stats/6cbca5661205&quot;&gt;6cbca5661205&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;convert-formats&quot;&gt;Convert Formats&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;tooldistillator was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/tooldistillator/6e868bf6c38e&quot;&gt;6e868bf6c38e&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;tooldistillator_summarize was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/tooldistillator_summarize/05c1bcba20c9&quot;&gt;05c1bcba20c9&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;metagenomic-analysis&quot;&gt;Metagenomic Analysis&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;customize_metaphlan_database was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/customize_metaphlan_database/254cb00a578f&quot;&gt;254cb00a578f&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;das_tool was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/das_tool/b048a987dd7d&quot;&gt;b048a987dd7d&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;extract_metaphlan_database was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/extract_metaphlan_database/8ea21f0669f1&quot;&gt;8ea21f0669f1&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;fasta_to_contig2bin was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/fasta_to_contig2bin/fb2bed0eb02f&quot;&gt;fb2bed0eb02f&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;maaslin2 was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/maaslin2/c629e6de3c49&quot;&gt;c629e6de3c49&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;maaslin2 was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/maaslin2/faacef62bb54&quot;&gt;faacef62bb54&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;merge_metaphlan_tables was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/merge_metaphlan_tables/327d9f4cc95f&quot;&gt;327d9f4cc95f&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;metaphlan was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/metaphlan/289b3807e80c&quot;&gt;289b3807e80c&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;phylogenetics&quot;&gt;Phylogenetics&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;hyphy_prime was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/hyphy_prime/4072360120e4&quot;&gt;4072360120e4&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;none&quot;&gt;None&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;data_manager_diamond_database_builder was updated to &lt;a href=&quot;https://toolshed.g2.bx.psu.edu/view/iuc/data_manager_diamond_database_builder/4a08b7b76b78&quot;&gt;4a08b7b76b78&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2024-05-05, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #444</summary></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><category term="tools" /><summary type="html">On 2024-05-12, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #445</summary></entry></feed>
