@@ -147,6 +147,60 @@
 
 
      
+      tags.push(``)
+
+    if (!userTag ? true : tags.includes(userTag)) {
+      counter++
+
+      div = `
+            ${counter === 3 ? '<div class="row">' : ''}
+            <div class="col-md-4  news ">
+              <div class="row" style="padding: 1em">
+                <div>
+                  
+                    <a href="/posts/2025/08/03/tool-update/">
+                  
+                    <h2 class="title">Tool Update</h2>
+                  </a>
+                  <span class="date">
+                    
+
+
+
+
+
+
+
+
+
+
+
+                  </span>
+                  <span class="date">
+                    August 3, 2025
+                  </span>
+                  
+                  
+
+                </div>
+                <div class="news-content">
+                  <div>
+</div>
+                </div>
+              </div>
+            </div>
+            ${counter === 3 ? '</div>' : ''}
+            `
+        if (counter === 3) {
+          counter = 0
+        }
+
+        news.append(div);
+    }
+    tags = []
+
+
+     
       tags.push(`tools`)
      
       tags.push(`Freiburg`)
