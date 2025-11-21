@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <title>Galaxy Europe | Monitoring of raw open data for SARS-CoV-2 genome surveillance</title>
+  <meta property="og:title" content="Monitoring of raw open data for SARS-CoV-2 genome surveil..." />
+  <meta property="og:description" content="Recently, we started a large-scale project on the Europea..." />
+  <meta property="og:image" content="/assets/media/galaxy-eu-logo.512.png" />
+  <meta name="description" content="The European Galaxy Instance">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+
+
+
+
+  <link rel="canonical" href="https://galaxyproject.eu/posts/2021/04/29/sars-cov-2-monitoring/plain.html">
+  <link rel="shortcut icon" href="/assets/media/galaxy-eu-logo.64.png" type="image/x-icon" />
+  <link rel="alternate" type="application/rss+xml" title="Galaxy Europe" href="/feed.xml">
+
+  <link href="/assets/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <script src="/assets/js/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
+  <script src="/assets/js/bootstrap.min.js" integrity="sha256-U5ZEeKfGNOja007MMD3YBI0A3OSZOQbeG6z2f2Y0hu8=" crossorigin="anonymous"></script>
+</head>
+
+  <body>
+    <div id="wrap">
+      <div id="main">
+        <div class="container" id="maincontainer">
+          
+
+
+
+
+<section id="news-page">
+  <div class="row news-header-row">
+    
+    <a class="col-xs-1 text-center" href="/posts/2021/04/26/tool-update/plain.html">
+      «
+    </a>
+    
+    <div class="col-xs-10 ">
+      <div class="text-center">
+        <h2 class="title">Monitoring of raw open data for SARS-CoV-2 genome surveillance</h2>
+      </div>
+      <hr />
+    </div>
+    
+    <a class="col-xs-1 text-center" href="/posts/2021/05/03/plant-summary/plain.html">
+      »
+    </a>
+    
+  </div>
+  <div class="row post-metadata">
+    <div class="col-md-8 col-md-offset-2">
+      <div class="row">
+        <div class="col-md-6">
+            
+
+        </div>
+        <div class="col-md-6 text-right">
+          <div>
+            <span class="post-date">
+              Apr 29, 2021
+            </span>
+
+            
+
+            <br />
+            <span class="post-tags">
+                <span class="label label-success">Freiburg</span>
+              
+                <span class="label label-info">data</span>
+              
+                <span class="label label-info">COVID-19</span>
+              
+              
+            </span>
+
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2">
+      <div class="news-content">
+        <p>Recently, we started a large-scale project on the European Galaxy server for automatically collecting,
+and analyzing raw sequencing data published by the <a href="https://www.cogconsortium.uk/">COVID-19 Genomics UK Consortium (COG-UK)</a> and, potentially, other large-scale SARS-CoV-2 sequencing projects. As a unique feature, we aim to make all analysis steps leading from sequenced reads to lists of genomic variants and consensus sequences fully open and accessible.</p>
+
+<p><img src="/assets/media/2021-04-29-covid-monitoring.png" alt="COVID monitoring" /></p>
+
+<h2 id="automated-variant-calling-workflows">Automated variant calling workflows</h2>
+
+<p>Every three hours, newly published COG-UK samples are processed to produce:</p>
+
+<ul>
+  <li>public Galaxy histories, which provide full data provenance</li>
+  <li>variants in VCF format</li>
+  <li>alignment files in BAM format</li>
+  <li>consensus sequences in FASTA format</li>
+</ul>
+
+<p>These are subsequently pushed back to a public FTP server hosted by <a href="ftp://xfer13.crg.eu">CRG/BSC</a>. CRG then takes this data and
+integrates it into the <a href="https://covid19beacon.crg.eu/">Viral Beacon</a>.</p>
+
+<p>The scripts for the workflow automation are <a href="https://github.com/usegalaxy-eu/ena-cog-uk-wfs">publicly available</a> together with <a href="https://github.com/usegalaxy-eu/ena-cog-uk-wfs/blob/main/docs/manual.md">documentation</a>. The analysis is based on <a href="https://www.biorxiv.org/content/10.1101/2021.03.25.437046v1">public, validated workflows</a> that are available via <a href="https://workflowhub.eu/">workflowhub.eu</a>.</p>
+
+<p>Special care was taken to run this analysis on scale without disrupting normal Galaxy usage. In other words, we can monitor samples, and at the same time still run trainings and serve hundreds of other Galaxy users simultaneously.</p>
+
+<p>If you want us to process samples from your country, too, please get in touch with us and we will help you get things running!</p>
+
+<h2 id="interactive-observablehq-dashboard">Interactive ObservableHQ dashboard</h2>
+
+<p>Furthermore, all data that we process is summarized in an <a href="https://observablehq.com/@spond/sars-cov-2-cog-uk">ObservableHQ dashboard</a>. Anyone can access, play around with the data in JavaScript and JSON and push any new plots they create back to us.</p>
+
+<p>Since it’s a notebook, you can also filter the data with real-time queries. At the lower end, under “variants of concern”, you can for example select your favorite lineage and see how often
+its signature mutations are identified. As in most countries, the South African and the Brazilian variants aren’t really taking off in the UK. The Bloom DMS Escape variants also aren’t seen much. These are variants that have been demonstrated in lab experiments to cause immune escape. So good news for the UK - what about the other European countries? Well, for this we need your Galaxy instances to analyze the other data - and maybe more importantly, 
+we need more <a href="https://www.covid19dataportal.org/support-data-sharing-covid19">OPEN DATA</a>!</p>
+
+<h2 id="request-processing-of-your-samples-of-interest">Request processing of your samples of interest</h2>
+
+<p>In addition, we wanted to make this automated resource useful for everyone, including non-Galaxy users. To this end, we have opened up an on-demand analysis service via a simple GitHub repository: <a href="https://github.com/usegalaxy-eu/sars-cov-2-processing-requests">https://github.com/usegalaxy-eu/sars-cov-2-processing-requests</a>. The idea is very simple; you just submit a file with URLs (ENA URLs for example) as a single file. This file makes up one batch of processing requests.</p>
+
+<p>Members of the European Galaxy Team will check your contribution and approve it, after which Galaxy will pick those files up and process them with our standard pipelines.</p>
+
+<p>Just as for the automated COG-UK data analysis, all files are pushed back to the <a href="ftp://xfer13.crg.eu/">CRG FTP server</a>. So in the end, after a few hours (depending on the amount of URLs and the load on our servers), you can access the results through either:</p>
+
+<ul>
+  <li>Galaxy via <a href="https://covid19.galaxyproject.org/genomics/global_platform/#processed-cog-uk-data">shared/public histories</a></li>
+  <li>via the <a href="ftp://xfer13.crg.eu/">CRG FTP server</a></li>
+</ul>
+
+<p>and see them visualized on the <a href="https://covid19beacon.crg.eu">Viral Beacon</a> dashboard (with a delay of probably a few days).</p>
+
+<p>This should make it even easier to analyze viral sequences with Galaxy, in particular, for people who don’t want to run their own workflows,
+but are still interested in specific batches of samples not covered by our automated monitoring efforts.</p>
+
+
+      </div>
+    </div>
+  </div>
+
+
+<div id="supported">
+    
+    <h1>Supported by</h1>
+    
+    <div class="row eu-image-box">
+        
+        
+        
+        
+        
+        <div class="col-md-6">
+            
+            
+            <a href="https://www.denbi.de" target="_blank">
+                <img alt="de.NBI logo" src="/assets/media/deNBI_Logo_rgb.png" class="img-responsive eu-image" />
+            </a>
+            
+        </div>
+        
+        
+        
+        
+        <div class="col-md-6">
+            
+            
+            <a href="https://www.elixir-europe.org" target="_blank">
+                <img alt="ELIXIR logo" src="/assets/media/elixir_logo.png" class="img-responsive eu-image" />
+            </a>
+            
+        </div>
+        
+    </div>
+</div>
+
+
+</section>
+
+        </div>
+      </div>
+    </div>
+    
+
+
+
+
+
+
+
+<footer class="navbar-default">
+    <div class="container">
+        <div class="row">
+        </div>
+        <div class="row">
+            <div class="col-lg-12" style="text-align:center">
+                <p>The <a href="/freiburg/people">Freiburg Galaxy Team</a> is headed by Björn Grüning
+and is part of the <a href="http://www.bioinf.uni-freiburg.de">Bioinformatics Group
+Freiburg</a>, headed by Prof. Dr. Rolf
+Backofen.</p>
+
+<p>The team is part of <a href="https://www.denbi.de">de.NBI</a> and
+<a href="https://www.elixir-europe.org">ELIXIR</a> and largely funded by
+<a href="http://dfg.de/">DFG</a> and <a href="https://www.bmbf.de">BMBF</a>. All content on
+this site is available under <a href="https://creativecommons.org/share-your-work/public-domain/cc0/">CC0-1.0</a>,
+unless otherwise specified.</p>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12" style="text-align:center">
+                <ul class="contact-info">
+                    <li><i class="fa fa-github"></i><a href="https://github.com/usegalaxy-eu/website/tree/master/_posts_plain/2021-04-29-sars-cov-2-monitoring.md" target="_blank">Edit this page on GitHub</a></li>
+                    
+                      <li><i class="fa fa-envelope"></i><a href="mailto:contact@usegalaxy.eu">contact@usegalaxy.eu</a></li>
+                    
+                    
+                      <li><i class="fa fa-github"></i><a href="https://github.com/usegalaxy-eu" target="_blank">usegalaxy-eu</a></li>
+                    
+                    
+                    
+                      <li><img class="fa-mastodon" src="/assets/media/mastodon.svg" style="width:18px;height:18px;padding-right:4px;filter:grayscale(100%);-webkit-filter:grayscale(100%);"/><a href="https://bawü.social/@galaxyfreiburg" target="_blank">galaxyfreiburg</a></li>
+                    
+                      <li><i class="fa fa-rss"></i>Subscribe <a href="/feed.xml">via RSS (UseGalaxy.eu Feed)</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script async defer data-domain="galaxyproject.eu" src="https://plausible.galaxyproject.eu/js/plausible.js"></script>
+  </body>
+</html>

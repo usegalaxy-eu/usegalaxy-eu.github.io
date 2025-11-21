@@ -1,1 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <title>Galaxy Europe</title>
+  <meta property="og:title" content="" />
+  <meta property="og:description" content="" />
+  <meta property="og:image" content="/assets/media/galaxy-eu-logo.512.png" />
+  <meta name="description" content="The European Galaxy Instance">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
+  <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+
+
+
+
+  <link rel="canonical" href="https://galaxyproject.eu/index-humancellatlas.html">
+  <link rel="shortcut icon" href="/assets/media/galaxy-eu-logo.64.png" type="image/x-icon" />
+  <link rel="alternate" type="application/rss+xml" title="Galaxy Europe" href="/feed.xml">
+
+  <link href="/assets/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <script src="/assets/js/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
+  <script src="/assets/js/bootstrap.min.js" integrity="sha256-U5ZEeKfGNOja007MMD3YBI0A3OSZOQbeG6z2f2Y0hu8=" crossorigin="anonymous"></script>
+</head>
+
+  <body>
+    <div id="wrap">
+      <div id="main">
+        <div class="container" id="maincontainer">
+          <div class="home">
+
+
+
+
+
+
+
+  <h1 class="no_toc" id="welcome-to-the-galaxy-human-cell-atlas-project">Welcome to the Galaxy Human Cell Atlas project</h1>
+
+<p><img src="/assets/media/hca.png" alt="Human Cell Atlas" /></p>
+
+<p>The <a href="https://www.humancellatlas.org" target="_blank">Human Cell Atlas</a> Galaxy setup comprises of analysis tools and workflows for the analysis of Single Cell RNA-Seq data. It includes a module that connects to the Matrix Service API of the HCA’s Data Coordination Platform that enables retrieval of gene expression matrices from any data sets in the Human Cell Atlas. The instance is based on the Galaxy framework, which guarantees simple access, easy extension, flexible adaption to personal and security needs, and sophisticated analyses independent of command-line knowledge.</p>
+
+<p>This setup aims to give users access to as much granularity as possible in terms
+of the downstream analysis steps provided by the major software for
+single cell data analysis: Scanpy, SC3, Scater and Seurat. For each of these tools,
+this Galaxy instance has decomposed modules for each the main functionalities:
+ingestion from 10x/loom, filtering (by cells or genes), scaling, normalisation,
+clustering, marker genes, and dimensionality reduction, among others. In the short
+term we expect to have interoperability between these tools through the Loom exchange format.
+Additionally, we provide specialised viewers for single cell clustering data:
+UCSC CellBrowser and cellxgene interactive tool (contributed by the great Galaxy community).</p>
+
+<p>Tools available under HCA-Single Cell section were mainly brought to Galaxy by
+the <a href="https://www.ebi.ac.uk/about/people/irene-papatheodorou" target="_blank">Gene Expression Team</a>
+at <a href="https://www.ebi.ac.uk" target="_blank">EMBL-EBI</a> and the <a href="https://www.sanger.ac.uk/science/groups/teichmann-group" target="_blank">Teichmann Team</a> at the <a href="https://www.sanger.ac.uk/" target="_blank">Wellcome Sanger Institute</a>.</p>
+
+<h1 class="no_toc" id="content">Content</h1>
+
+<ol id="markdown-toc">
+  <li><a href="#get-started" id="markdown-toc-get-started">Get started</a></li>
+  <li><a href="#available-workflows" id="markdown-toc-available-workflows">Available Workflows</a></li>
+  <li><a href="#available-tools" id="markdown-toc-available-tools">Available tools</a>    <ol>
+      <li><a href="#single-cell-galaxy-tools-developed-for-the-human-cell-atlas" id="markdown-toc-single-cell-galaxy-tools-developed-for-the-human-cell-atlas">Single Cell Galaxy Tools developed for the Human Cell Atlas</a></li>
+    </ol>
+  </li>
+  <li><a href="#contributors" id="markdown-toc-contributors">Contributors</a></li>
+</ol>
+
+<h1 id="get-started">Get started</h1>
+
+<p>Are you new to Galaxy, or returning after a long time, and looking for help to get started? Take <a href="https://humancellatlas.usegalaxy.eu/tours/core.galaxy_ui" target="_blank">a guided tour</a> through Galaxy’s user interface.</p>
+
+<h1 id="available-workflows">Available Workflows</h1>
+
+<table class="table table-striped tooltable">
+  <thead>
+    <tr>
+      <th>Workflow</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://humancellatlas.usegalaxy.eu/u/pmoreno/w/humancellatlas-scanpy-cellbrowser" target="_blank">Human Cell Atlas - Scanpy - CellBrowser</a></td>
+      <td>Retrieve data from the Human Cell Atlas matrix service, analysis with Scanpy and visualisation with UCSC CellBrowser</td>
+    </tr>
+    <tr>
+      <td><a href="https://humancellatlas.usegalaxy.eu/u/pmoreno/w/atlas-scanpy-cellbrowser-imported-from-uploaded-file" target="_blank">EBI Single Cell Expression Atlas - Scanpy - CellBrowser</a></td>
+      <td>Retrieve expression matrices from Single Cell Expression Atlas, analysis with Scanpy and visualisation with UCSC CellBrowser</td>
+    </tr>
+    <tr>
+      <td><a href="https://humancellatlas.usegalaxy.eu/u/pmoreno/w/scanpy-prod-13-smart-imported-from-uploaded-file" target="_blank">EBI Single Cell Expression Atlas Scanpy Prod 1.3</a></td>
+      <td>Workflow used for clustering data in the <a href="https://www.ebi.ac.uk/gxa/sc/release-notes.html" target="_blank">release 6 to 9</a> of <a href="https://www.ebi.ac.uk/gxa/sc/home" target="_blank">Single Cell Expression Atlas</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://humancellatlas.usegalaxy.eu/u/pmoreno/w/ebi-sc-expression-atlas-release-10-analysis-pipeline-scanpy-143" target="_blank">EBI Single Cell Expression Atlas Tertiary Analysis Rel 10</a></td>
+      <td>Workflow used for clustering data in the <a href="https://www.ebi.ac.uk/gxa/sc/release-notes.html" target="_blank">release 10</a> of <a href="https://www.ebi.ac.uk/gxa/sc/home" target="_blank">Single Cell Expression Atlas</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://humancellatlas.usegalaxy.eu/u/pmoreno/w/ebi-sc-expression-atlas-release-11-analysis-pipeline" target="_blank">EBI Single Cell Expression Atlas Tertiary Analysis Rel 11</a></td>
+      <td>Workflow used for clustering data in the <a href="https://www.ebi.ac.uk/gxa/sc/release-notes.html" target="_blank">releases 11 and 12</a> of <a href="https://www.ebi.ac.uk/gxa/sc/home" target="_blank">Single Cell Expression Atlas</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://humancellatlas.usegalaxy.eu/u/pmoreno/w/ebi-sc-expression-atlas-release-13-analysis-pipeline-scanpy-160---harmony-batch-correction" target="_blank">EBI Single Cell Expression Atlas Tertiary Analysis Rel 13</a></td>
+      <td>Workflow used for downstream analysis in the <a href="https://www.ebi.ac.uk/gxa/sc/release-notes.html" target="_blank">releases 13 to 15</a> of <a href="https://www.ebi.ac.uk/gxa/sc/home" target="_blank">Single Cell Expression Atlas</a>.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 id="available-tools">Available tools</h1>
+
+<p>In this section we list all tools that have been integrated in the RNA workbench. The list is likely to grow as soon as further tools and workflows are contributed. To ease readability, we divided them into categories.</p>
+
+<h2 id="single-cell-galaxy-tools-developed-for-the-human-cell-atlas">Single Cell Galaxy Tools developed for the Human Cell Atlas</h2>
+
+<h3 id="data-retrieval-from-single-cell-data-repositories">Data retrieval from Single Cell data Repositories</h3>
+
+<table class="table table-striped tooltable">
+  <thead>
+    <tr>
+      <th>Tool</th>
+      <th>Description</th>
+      <th>Reference</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://humancellatlas.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/hca_matrix_downloader/hca_matrix_downloader" target="_top" title="hca_matrix_downloader">hca_matrix_downloader</a></td>
+      <td>Human Cell Atlas Matrix Downloader retrieves expression matrices and metadata from the Human Cell Atlas.</td>
+      <td><a href="https://arxiv.org/abs/1810.05192" target="_blank">Regev et al. 2018</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://humancellatlas.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/retrieve_scxa/retrieve_scxa" target="_top" title="retrieve_scxa">retrieve_scxa</a></td>
+      <td>EBI SCXA Data Retrieval downloads expression matrices and metadata from the EBI Single Cell Expression Atlas (SCXA)</td>
+      <td><a href="https://doi.org/10.1093/nar/gkx1158" target="_blank">Papatheodorou et al. 2018</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>10x files produced by these tools can be consumed by 10x reader modules in the tools below.</p>
+
+<h3 id="visualisation">Visualisation</h3>
+
+<table class="table table-striped tooltable">
+  <thead>
+    <tr>
+      <th>Tool</th>
+      <th>Description</th>
+      <th>Reference</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://humancellatlas.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/ucsc_cell_browser/ucsc_cell_browser" target="_top" title="ucsc_cell_browser">ucsc_cell_browser</a></td>
+      <td>UCSC Cell Browser displays single-cell clusterized data in an interactive web application.</td>
+      <td><a href="https://cells.ucsc.edu/" target="_blank">cells.ucsc.edu</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="scanpy">Scanpy</h3>
+
+<p>Granular tools for accessing the main Scanpy functionalities.</p>
+
+<table class="table table-striped tooltable">
+  <thead>
+    <tr>
+      <th>Tool</th>
+      <th>Description</th>
+      <th>Reference</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://humancellatlas.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_read_10x/scanpy_read_10x" target="_top" title="scanpy_read_10x">scanpy_read_10x</a></td>
+      <td>Scanpy Read10x into hdf5 object handled by scanpy</td>
+      <td><a href="https://doi.org/10.1186/s13059-017-1382-0" target="_blank">Wolf et al. 2018</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://humancellatlas.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_filter_genes/scanpy_filter_genes" target="_top" title="scanpy_filter_genes">scanpy_filter_genes</a></td>
+      <td>Scanpy FilterGenes based on counts and numbers of cells expressed</td>
+      <td><a href="https://doi.org/10.1186/s13059-017-1382-0" target="_blank">Wolf et al. 2018</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://humancellatlas.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_filter_cells/scanpy_filter_cells" target="_top" title="scanpy_filter_cells">scanpy_filter_cells</a></td>
+      <td>Scanpy FilterCells based on counts and numbers of genes expressed</td>
+      <td><a href="https://doi.org/10.1186/s13059-017-1382-0" target="_blank">Wolf et al. 2018</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://humancellatlas.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_normalise_data/scanpy_normalise_data" target="_top" title="scanpy_normalise_data">scanpy_normalise_data</a></td>
+      <td>Scanpy NormaliseData to make all cells having the same total expression</td>
+      <td><a href="https://doi.org/10.1186/s13059-017-1382-0" target="_blank">Wolf et al. 2018</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://humancellatlas.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_find_variable_genes/scanpy_find_variable_genes" target="_top" title="scanpy_find_variable_genes">scanpy_find_variable_genes</a></td>
+      <td>Scanpy FindVariableGenes based on normalised dispersion of expression</td>
+      <td><a href="https://doi.org/10.1186/s13059-017-1382-0" target="_blank">Wolf et al. 2018</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://humancellatlas.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_scale_data/scanpy_scale_data" target="_top" title="scanpy_scale_data">scanpy_scale_data</a></td>
+      <td>Scanpy ScaleData to make expression variance the same for all genes</td>
+      <td><a href="https://doi.org/10.1186/s13059-017-1382-0" target="_blank">Wolf et al. 2018</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://humancellatlas.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_run_pca/scanpy_run_pca" target="_top" title="scanpy_run_pca">scanpy_run_pca</a></td>
+      <td>Scanpy RunPCA for dimensionality reduction</td>
+      <td><a href="https://doi.org/10.1186/s13059-017-1382-0" target="_blank">Wolf et al. 2018</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://humancellatlas.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_compute_graph/scanpy_compute_graph" target="_top" title="scanpy_compute_graph">scanpy_compute_graph</a></td>
+      <td>Scanpy ComputeGraph to derive kNN graph</td>
+      <td><a href="https://doi.org/10.1186/s13059-017-1382-0" target="_blank">Wolf et al. 2018</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://humancellatlas.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_find_cluster/scanpy_find_cluster" target="_top" title="scanpy_find_cluster">scanpy_find_cluster</a></td>
+      <td>Scanpy FindCluster based on community detection on KNN graph</td>
+      <td><a href="https://doi.org/10.1186/s13059-017-1382-0" target="_blank">Wolf et al. 2018</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://humancellatlas.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_find_markers/scanpy_find_markers" target="_top" title="scanpy_find_markers">scanpy_find_markers</a></td>
+      <td>Scanpy FindMarkers to find differentially expressed genes between groups</td>
+      <td><a href="https://doi.org/10.1186/s13059-017-1382-0" target="_blank">Wolf et al. 2018</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://humancellatlas.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_run_tsne/scanpy_run_tsne" target="_top" title="scanpy_run_tsne">scanpy_run_tsne</a></td>
+      <td>Scanpy RunTSNE visualise cell clusters using tSNE</td>
+      <td><a href="https://doi.org/10.1186/s13059-017-1382-0" target="_blank">Wolf et al. 2018</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://humancellatlas.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_run_umap/scanpy_run_umap" target="_top" title="scanpy_run_umap">scanpy_run_umap</a></td>
+      <td>Scanpy RunUMAP visualise cell clusters using UMAP</td>
+      <td><a href="https://doi.org/10.1186/s13059-017-1382-0" target="_blank">Wolf et al. 2018</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="seurat">Seurat</h3>
+
+<p>Granular tools for accessing the main Seurat functionalities. These tools received contributions from Maria Doyle <a href="https://github.com/mblue9">@mblue9</a>.</p>
+
+<table class="table table-striped tooltable">
+  <thead>
+    <tr>
+      <th>Tool</th>
+      <th>Description</th>
+      <th>Reference</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://humancellatlas.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/seurat_read10x/seurat_read10x" target="_top" title="seurat_read10x">seurat_read10x</a></td>
+      <td>Seurat Read10x Loads 10x data into a serialized seurat R object</td>
+      <td><a href="https://doi.org/10.1038/nbt.3192" target="_blank">Satija et al. 2015</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://humancellatlas.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/seurat_create_seurat_object/seurat_create_seurat_object" target="_top" title="seurat_create_seurat_object">seurat_create_seurat_object</a></td>
+      <td>Seurat CreateSeuratObject create a Seurat object</td>
+      <td><a href="https://doi.org/10.1038/nbt.3192" target="_blank">Satija et al. 2015</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://humancellatlas.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/seurat_filter_cells/seurat_filter_cells" target="_top" title="seurat_filter_cells">seurat_filter_cells</a></td>
+      <td>Seurat FilterCells filter cells in a Seurat object</td>
+      <td><a href="https://doi.org/10.1038/nbt.3192" target="_blank">Satija et al. 2015</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://humancellatlas.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/seurat_normalise_data/seurat_normalise_data" target="_top" title="seurat_normalise_data">seurat_normalise_data</a></td>
+      <td>Seurat NormaliseData normalise data</td>
+      <td><a href="https://doi.org/10.1038/nbt.3192" target="_blank">Satija et al. 2015</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://humancellatlas.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/seurat_find_variable_genes/seurat_find_variable_genes" target="_top" title="seurat_find_variable_genes">seurat_find_variable_genes</a></td>
+      <td>Seurat FindVariableGenes identify variable genes</td>
+      <td><a href="https://doi.org/10.1038/nbt.3192" target="_blank">Satija et al. 2015</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://humancellatlas.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/seurat_scale_data/seurat_scale_data" target="_top" title="seurat_scale_data">seurat_scale_data</a></td>
+      <td>Seurat ScaleData scale and center genes</td>
+      <td><a href="https://doi.org/10.1038/nbt.3192" target="_blank">Satija et al. 2015</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://humancellatlas.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/seurat_run_pca/seurat_run_pca" target="_top" title="seurat_run_pca">seurat_run_pca</a></td>
+      <td>Seurat RunPCA run a PCA dimensionality reduction</td>
+      <td><a href="https://doi.org/10.1038/nbt.3192" target="_blank">Satija et al. 2015</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://humancellatlas.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/seurat_find_clusters/seurat_find_clusters" target="_top" title="seurat_find_clusters">seurat_find_clusters</a></td>
+      <td>Seurat FindClusters find clusters of cells</td>
+      <td><a href="https://doi.org/10.1038/nbt.3192" target="_blank">Satija et al. 2015</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://humancellatlas.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/seurat_find_markers/seurat_find_markers" target="_top" title="seurat_find_markers">seurat_find_markers</a></td>
+      <td>Seurat FindMarkers find markers (differentially expressed genes)</td>
+      <td><a href="https://doi.org/10.1038/nbt.3192" target="_blank">Satija et al. 2015</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://humancellatlas.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/seurat_dim_plot/seurat_dim_plot" target="_top" title="seurat_dim_plot">seurat_dim_plot</a></td>
+      <td>Seurat Plot dimension reduction graphs the output of a dimensional reduction technique (PCA by default). Cells are colored by their identity class.</td>
+      <td><a href="https://doi.org/10.1038/nbt.3192" target="_blank">Satija et al. 2015</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://humancellatlas.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/seurat_run_tsne/seurat_run_tsne" target="_top" title="seurat_run_tsne">seurat_run_tsne</a></td>
+      <td>Seurat RunTSNE run t-SNE dimensionality reduction</td>
+      <td><a href="https://doi.org/10.1038/nbt.3192" target="_blank">Satija et al. 2015</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://humancellatlas.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/seurat_export_cellbrowser/seurat_export_cellbrowser" target="_top" title="seurat_export_cellbrowser">seurat_export_cellbrowser</a></td>
+      <td>Seurat Export2CellBrowser produces files for UCSC CellBrowser import.</td>
+      <td><a href="https://doi.org/10.1038/nbt.3192" target="_blank">Satija et al. 2015</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="scater">Scater</h3>
+
+<p>Granular tools for accessing the main Scater functionalities. Normally used in combination with SC3.</p>
+
+<table class="table table-striped tooltable">
+  <thead>
+    <tr>
+      <th>Tool</th>
+      <th>Description</th>
+      <th>Reference</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>Unknown Tool</b></td>
+      <td>Scater read 10x data Loads 10x data into a serialized scater R object</td>
+      <td><a href="https://doi.org/10.1093/bioinformatics/btw777" target="_blank">McCarthy et al. 2017</a></td>
+    </tr>
+    <tr>
+      <td><b>Unknown Tool</b></td>
+      <td>Scater CalculateQcMetrics based on expression values and experiment information</td>
+      <td><a href="https://doi.org/10.1093/bioinformatics/btw777" target="_blank">McCarthy et al. 2017</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://humancellatlas.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/scater_filter/scater_filter" target="_top" title="scater_filter">scater_filter</a></td>
+      <td>Scater Filter cells and genes based on pre-calculated stats and QC metrics</td>
+      <td><a href="https://doi.org/10.1093/bioinformatics/btw777" target="_blank">McCarthy et al. 2017</a></td>
+    </tr>
+    <tr>
+      <td><b>Unknown Tool</b></td>
+      <td>Scater DetectOutlier cells based on expression metrics</td>
+      <td><a href="https://doi.org/10.1093/bioinformatics/btw777" target="_blank">McCarthy et al. 2017</a></td>
+    </tr>
+    <tr>
+      <td><b>Unknown Tool</b></td>
+      <td>Scater CalculateCPM from raw counts</td>
+      <td><a href="https://doi.org/10.1093/bioinformatics/btw777" target="_blank">McCarthy et al. 2017</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://humancellatlas.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/scater_normalize/scater_normalize" target="_top" title="scater_normalize">scater_normalize</a></td>
+      <td>Scater Normalise expression values by library size in log2 scale</td>
+      <td><a href="https://doi.org/10.1093/bioinformatics/btw777" target="_blank">McCarthy et al. 2017</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="sc3">SC3</h3>
+
+<p>Granular tools for accessing the main SC3 functionalities. Normally used in combination with Scater.</p>
+
+<table class="table table-striped tooltable">
+  <thead>
+    <tr>
+      <th>Tool</th>
+      <th>Description</th>
+      <th>Reference</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://humancellatlas.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/sc3_prepare/sc3_prepare" target="_top" title="sc3_prepare">sc3_prepare</a></td>
+      <td>SC3 Prepare a sc3 SingleCellExperiment object</td>
+      <td><a href="https://doi.org/10.1038/nmeth.4236" target="_blank">Kisilev et al. 2017</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://humancellatlas.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/sc3_calc_consens/sc3_calc_consens" target="_top" title="sc3_calc_consens">sc3_calc_consens</a></td>
+      <td>SC3 Calculate Consensus from multiple runs of k-means clustering</td>
+      <td><a href="https://doi.org/10.1038/nmeth.4236" target="_blank">Kisilev et al. 2017</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://humancellatlas.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/sc3_calc_transfs/sc3_calc_transfs" target="_top" title="sc3_calc_transfs">sc3_calc_transfs</a></td>
+      <td>SC3 Calculate Transformations of distances using PCA and graph Laplacian</td>
+      <td><a href="https://doi.org/10.1038/nmeth.4236" target="_blank">Kisilev et al. 2017</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://humancellatlas.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/sc3_calc_biology/sc3_calc_biology" target="_top" title="sc3_calc_biology">sc3_calc_biology</a></td>
+      <td>SC3 DiffExp calculates DE genes, marker genes and cell outliers</td>
+      <td><a href="https://doi.org/10.1038/nmeth.4236" target="_blank">Kisilev et al. 2017</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://humancellatlas.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/sc3_estimate_k/sc3_estimate_k" target="_top" title="sc3_estimate_k">sc3_estimate_k</a></td>
+      <td>SC3 Estimate the number of clusters for k-means clustering</td>
+      <td><a href="https://doi.org/10.1038/nmeth.4236" target="_blank">Kisilev et al. 2017</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://humancellatlas.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/sc3_calc_dists/sc3_calc_dists" target="_top" title="sc3_calc_dists">sc3_calc_dists</a></td>
+      <td>SC3 Calculate Distances between cells</td>
+      <td><a href="https://doi.org/10.1038/nmeth.4236" target="_blank">Kisilev et al. 2017</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://humancellatlas.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ebi-gxa/sc3_kmeans/sc3_kmeans" target="_top" title="sc3_kmeans">sc3_kmeans</a></td>
+      <td>SC3 K-Means perform k-means clustering</td>
+      <td><a href="https://doi.org/10.1038/nmeth.4236" target="_blank">Kisilev et al. 2017</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>…plus all the great tools normally available at the <a href="https://usegalaxy.eu/">usegalaxy.eu</a>.</p>
+
+<h1 id="contributors">Contributors</h1>
+
+<ul>
+  <li><a href="https://github.com/pcm32">Pablo Moreno</a></li>
+  <li><a href="https://github.com/nh3">Ni Huang</a></li>
+  <li><a href="https://github.com/pinin4fjords">Jonathan Manning</a></li>
+  <li><a href="https://github.com/a-solovyev12">Andrey Solovyev</a></li>
+  <li><a href="https://github.com/cartal">Carlos Talavera-Lopez</a></li>
+  <li><a href="https://github.com/suhaibMo">Suhaib Mohammed</a></li>
+  <li><a href="https://twitter.com/irenepapatheodo">Irene Papatheodorou</a></li>
+  <li><a href="https://github.com/bgruening/">Björn Gruening</a></li>
+  <li><a href="https://github.com/ktpolanski">Krzysztof Polanski</a></li>
+  <li><a href="https://github.com/mblue9/">Maria Doyle</a></li>
+</ul>
+
+
+<h2>Our Data Policy</h2>
+
+
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Registered Users</th><th>Unregistered Users</th><th>FTP Data</th><th>GDPR Compliance</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>User data on UseGalaxy.eu (i.e. datasets, histories) will be available as long
+            as they are not deleted by the user. Once marked as deleted the datasets will
+            be permanently removed within 14 days. If the user "purges" the dataset in the
+            Galaxy, it will be removed immediately, permanently.
+
+            An <a href="https://docs.google.com/forms/d/e/1FAIpQLSf9w2MOS6KOlu9XdhRSDqWnCDkzoVBqHJ3zH_My4p8D8ZgkIQ/viewform" target="_blank">extended quota can be requested</a>
+for a limited time period in special cases.
+        </td>
+        <td>Processed data will only be accessible during one browser session, using a
+            cookie to identify your data. This cookie is not used for any other purposes
+            (e.g. tracking or analytics).
+            
+            If UseGalaxy.eu service is not accessed for 90 days, those datasets will be
+            permanently deleted.
+        </td>
+        <td>Any user data uploaded to our <a href="https://galaxyproject.eu/ftp/">FTP server</a> should be imported into Galaxy as soon
+            as possible. Data left in FTP folders for more than 3 months, will be deleted.            
+        </td>
+        <td>The Galaxy service complies with the EU General Data Protection Regulation
+            (GDPR). You can read more about this on our
+            <a href="https://usegalaxy.eu/terms/">Terms and Conditions</a>.</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+
+<!-- <h4>Registered Users</h4>
+
+User data on UseGalaxy.eu (i.e. datasets, histories) will be available as long
+as they are not deleted by the user. Once marked as deleted the datasets will
+be permanently removed within 14 days. If the user "purges" the dataset in the
+Galaxy, it will be removed immediately, permanently.
+
+An <a href="https://docs.google.com/forms/d/e/1FAIpQLSf9w2MOS6KOlu9XdhRSDqWnCDkzoVBqHJ3zH_My4p8D8ZgkIQ/viewform" target="_blank">extended quota can be requested</a>
+for a limited time period in special cases.
+
+<h4>Unregistered Users</h4>
+
+Processed data will only be accessible during one browser session, using a
+cookie to identify your data. This cookie is not used for any other purposes
+(e.g. tracking or analytics).
+
+If UseGalaxy.eu service is not accessed for 90 days, those datasets will be
+permanently deleted.
+
+<h4>FTP Data</h4>
+
+Any user data uploaded to our <a href="https://galaxyproject.eu/ftp/">FTP server</a> should be imported into Galaxy as soon
+as possible. Data left in FTP folders for more than 3 months, will be deleted.
+
+<h4>GDPR Compliance</h4>
+
+The Galaxy service complies with the EU General Data Protection Regulation
+(GDPR). You can read more about this on our
+<a href="https://usegalaxy.eu/terms/">Terms and Conditions</a>. 
+ -->
+
+<div>
+    <iframe style="border: 0px" width="100%" height="150px" src="https://stats.galaxyproject.eu/d-solo/000000034/jobs-dashboard?orgId=1&refresh=1m&panelId=1" ></iframe>
+</div>
+<div>
+<!--<iframe style="border: 0px" width="33%" height="100px" src="https://stats.galaxyproject.eu/d-solo/000000034/jobs-dashboard?orgId=1&refresh=1m&panelId=3" ></iframe>-->
+</div>
+
+<div class="row">
+
+    <section class="section-content">
+        <div class="col-md-12">
+        </div>
+    </section>
+</div>
+
+</div>
+
+        </div>
+      </div>
+    </div>
+    
+
+
+
+
+
+
+
+<footer class="navbar-default">
+    <div class="container">
+        <div class="row">
+        </div>
+        <div class="row">
+            <div class="col-lg-12" style="text-align:center">
+                <p>UseGalaxy.eu is maintained largely by the <a href="/freiburg/">Freiburg Galaxy Team</a> but also collectively by groups and individuals from across Europe. All of the member sites in this repository contribute to the European Galaxy Project.
+For <strong>acknowledgement</strong>, please refer to the <a href="/about">About</a> section.
+All content on this site is available under <a href="https://creativecommons.org/share-your-work/public-domain/cc0/">CC0-1.0</a> unless otherwise specified.</p>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12" style="text-align:center">
+                <ul class="contact-info">
+                    <li><i class="fa fa-github"></i><a href="https://github.com/usegalaxy-eu/website/tree/master/index-humancellatlas.md" target="_blank">Edit this page on GitHub</a></li>
+                    
+                      <li><i class="fa fa-envelope"></i><a href="mailto:contact@usegalaxy.eu">contact@usegalaxy.eu</a></li>
+                    
+                    
+                      <li><i class="fa fa-github"></i><a href="https://github.com/usegalaxy-eu" target="_blank">usegalaxy-eu</a></li>
+                    
+                    
+                    
+                      <li><img class="fa-mastodon" src="/assets/media/mastodon.svg" style="width:18px;height:18px;padding-right:4px;filter:grayscale(100%);-webkit-filter:grayscale(100%);"/><a href="https://bawü.social/@galaxyfreiburg" target="_blank">galaxyfreiburg</a></li>
+                    
+                      <li><i class="fa fa-rss"></i>Subscribe <a href="/feed.xml">via RSS (UseGalaxy.eu Feed)</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script async defer data-domain="galaxyproject.eu" src="https://plausible.galaxyproject.eu/js/plausible.js"></script>
+  </body>
+</html>

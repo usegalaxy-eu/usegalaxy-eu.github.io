@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <title>Galaxy Europe | Post Mortem: Upload and various tool failures</title>
+  <meta property="og:title" content="Post Mortem: Upload and various tool failures" />
+  <meta property="og:description" content="Yesterday (2017-11-20) all upload jobs and some other too..." />
+  <meta property="og:image" content="/assets/media/galaxy-eu-logo.512.png" />
+  <meta name="description" content="The European Galaxy Instance">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+
+
+
+
+  <link rel="canonical" href="https://galaxyproject.eu/posts/2017/11/21/upload-failures/plain.html">
+  <link rel="shortcut icon" href="/assets/media/galaxy-eu-logo.64.png" type="image/x-icon" />
+  <link rel="alternate" type="application/rss+xml" title="Galaxy Europe" href="/feed.xml">
+
+  <link href="/assets/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <script src="/assets/js/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
+  <script src="/assets/js/bootstrap.min.js" integrity="sha256-U5ZEeKfGNOja007MMD3YBI0A3OSZOQbeG6z2f2Y0hu8=" crossorigin="anonymous"></script>
+</head>
+
+  <body>
+    <div id="wrap">
+      <div id="main">
+        <div class="container" id="maincontainer">
+          
+
+
+
+
+<section id="news-page">
+  <div class="row news-header-row">
+    
+    <a class="col-xs-1 text-center" href="/posts/2017/11/17/Get/plain.html">
+      «
+    </a>
+    
+    <div class="col-xs-10 ">
+      <div class="text-center">
+        <h2 class="title">Post Mortem: Upload and various tool failures</h2>
+      </div>
+      <hr />
+    </div>
+    
+    <a class="col-xs-1 text-center" href="/posts/2017/11/22/methylation-natcom/plain.html">
+      »
+    </a>
+    
+  </div>
+  <div class="row post-metadata">
+    <div class="col-md-8 col-md-offset-2">
+      <div class="row">
+        <div class="col-md-6">
+            
+
+        </div>
+        <div class="col-md-6 text-right">
+          <div>
+            <span class="post-date">
+              Nov 21, 2017
+            </span>
+
+            
+
+            <br />
+            <span class="post-tags">
+                <span class="label label-success">Freiburg</span>
+              
+                <span class="label label-info">devops</span>
+              
+              
+            </span>
+
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2">
+      <div class="news-content">
+        <p>Yesterday (2017-11-20) all upload jobs and some other tools were failing to be launched on our cluster. One of our clusters became unresponsive and the code which handled job distribution to clusters had to be updated. This process required three iterations to get correct. Each update cycle took ~15-20 minutes due to our update process and how long it takes Galaxy to switch over to the new configuration.</p>
+
+<p>We’re very sorry for any inconvenience that this outage caused. We’ve made a number of improvements since this which will improve our response times should similar events occur again in the future.</p>
+
+<p>We have looked into the logs of the machine that went down but we have no concrete evidence for why it went down. We will monitor the situation going forward but since we have no clear path on how to prevent that condition from occuring, we have focused our remediation efforts on preventing issues further upstream.</p>
+
+<h2 id="automatic-cluster-failover">Automatic Cluster Failover</h2>
+
+<p>We enhanced our job scheduling system to check that condor is actually alive before scheduling jobs on them. Now if the condor cluster is down we will automatically redirect jobs to SGE.</p>
+
+<h2 id="decreased-cycle-time">Decreased Cycle Time</h2>
+
+<p>We have moved the job scheduling algorithm into a separate process. We can quickly re-deploy and update this process without restarting the main Galaxy processes. This should allows us to decrease the cycle times for updates from hours to minutes.</p>
+
+<h2 id="future-outlook">Future Outlook</h2>
+
+<p>The changes we’ve made as a result of this should prevent further issues of this type, and if issues like this do occur, we can react much more quickly to them.</p>
+
+      </div>
+    </div>
+  </div>
+
+
+
+</section>
+
+        </div>
+      </div>
+    </div>
+    
+
+
+
+
+
+
+
+<footer class="navbar-default">
+    <div class="container">
+        <div class="row">
+        </div>
+        <div class="row">
+            <div class="col-lg-12" style="text-align:center">
+                <p>The <a href="/freiburg/people">Freiburg Galaxy Team</a> is headed by Björn Grüning
+and is part of the <a href="http://www.bioinf.uni-freiburg.de">Bioinformatics Group
+Freiburg</a>, headed by Prof. Dr. Rolf
+Backofen.</p>
+
+<p>The team is part of <a href="https://www.denbi.de">de.NBI</a> and
+<a href="https://www.elixir-europe.org">ELIXIR</a> and largely funded by
+<a href="http://dfg.de/">DFG</a> and <a href="https://www.bmbf.de">BMBF</a>. All content on
+this site is available under <a href="https://creativecommons.org/share-your-work/public-domain/cc0/">CC0-1.0</a>,
+unless otherwise specified.</p>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12" style="text-align:center">
+                <ul class="contact-info">
+                    <li><i class="fa fa-github"></i><a href="https://github.com/usegalaxy-eu/website/tree/master/_posts_plain/2017-11-21-upload-failures.md" target="_blank">Edit this page on GitHub</a></li>
+                    
+                      <li><i class="fa fa-envelope"></i><a href="mailto:contact@usegalaxy.eu">contact@usegalaxy.eu</a></li>
+                    
+                    
+                      <li><i class="fa fa-github"></i><a href="https://github.com/usegalaxy-eu" target="_blank">usegalaxy-eu</a></li>
+                    
+                    
+                    
+                      <li><img class="fa-mastodon" src="/assets/media/mastodon.svg" style="width:18px;height:18px;padding-right:4px;filter:grayscale(100%);-webkit-filter:grayscale(100%);"/><a href="https://bawü.social/@galaxyfreiburg" target="_blank">galaxyfreiburg</a></li>
+                    
+                      <li><i class="fa fa-rss"></i>Subscribe <a href="/feed.xml">via RSS (UseGalaxy.eu Feed)</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script async defer data-domain="galaxyproject.eu" src="https://plausible.galaxyproject.eu/js/plausible.js"></script>
+  </body>
+</html>

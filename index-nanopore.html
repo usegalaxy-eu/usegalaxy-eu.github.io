@@ -1,1 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <title>Galaxy Europe</title>
+  <meta property="og:title" content="" />
+  <meta property="og:description" content="" />
+  <meta property="og:image" content="/assets/media/galaxy-eu-logo.512.png" />
+  <meta name="description" content="The European Galaxy Instance">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
+  <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+
+
+
+
+  <link rel="canonical" href="https://galaxyproject.eu/index-nanopore.html">
+  <link rel="shortcut icon" href="/assets/media/galaxy-eu-logo.64.png" type="image/x-icon" />
+  <link rel="alternate" type="application/rss+xml" title="Galaxy Europe" href="/feed.xml">
+
+  <link href="/assets/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <script src="/assets/js/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
+  <script src="/assets/js/bootstrap.min.js" integrity="sha256-U5ZEeKfGNOja007MMD3YBI0A3OSZOQbeG6z2f2Y0hu8=" crossorigin="anonymous"></script>
+</head>
+
+  <body>
+    <div id="wrap">
+      <div id="main">
+        <div class="container" id="maincontainer">
+          <div class="home">
+
+
+
+
+
+
+
+  <p><br />
+<img src="/assets/media/nanogalaxy_logo.png" height="100px" alt="NanoGalaxy logo" /></p>
+
+<p>Welcome to <strong>NanoGalaxy</strong>  – a webserver to process, analyse and visualize Oxford Nanopore Technologies (ONT) data and similar long-reads technologies.</p>
+
+<ol id="markdown-toc">
+  <li><a href="#get-started" id="markdown-toc-get-started">Get started</a></li>
+  <li><a href="#tools" id="markdown-toc-tools">Tools</a></li>
+  <li><a href="#tutorials" id="markdown-toc-tutorials">Tutorials</a></li>
+  <li><a href="#workflows" id="markdown-toc-workflows">Workflows</a></li>
+</ol>
+
+<h1 id="get-started">Get started</h1>
+
+<p>Are you new to Galaxy, or returning after a long time, and looking for help to get started?
+Take <a href="https://nanopore.usegalaxy.eu/tours/core.galaxy_ui" target="_blank">a guided tour</a> through Galaxy’s user interface.</p>
+
+<p>Check also the standard but customizable <a href="#workflows">workflows</a> available there.</p>
+
+<h1 id="tools">Tools</h1>
+
+<p>A collection of best practice and popular tools are integrated (and are expanding) in this custom Galaxy instance. The ONT-oriented and -specific subset includes:</p>
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#dfe2e5;width:60%;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#dfe2e5;}
+.tg .tg-0lax{text-align:center;vertical-align:top}
+</style>
+
+<div align="center">
+<table class="tg" width="50%">
+  <tr>
+    <th class="tg-0lax">
+
+    <div align="center">
+        <b>Polishing, QC and preprocessing</b><br />
+        <br />
+        <a href="https://nanopore.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/porechop/porechop" target="_top" title="Porechop">Porechop</a>, <a href="https://nanopore.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/filtlong/filtlong" target="_top" title="Filtlong">Filtlong</a>, <a href="https://nanopore.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/nanopolish_variants/nanopolish_variants" target="_top" title="Nanopolish">Nanopolish</a>,  <a href="https://nanopore.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/poretools_qualdist/poretools_qualdist" target="_top" title="Poretools">Poretools</a>,
+        <a href="https://nanopore.usegalaxy.eu/root?tool_id=https://nanopore.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/medaka_consensus/medaka_consensus/" target="_top" title="Medaka">Medaka</a>, <a href="https://nanopore.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/" target="_top" title="MultiQC">MultiQC</a>
+    </div>
+    </th>
+    <th class="tg-0lax" rowspan="4" align="center">
+    
+        <img src="/assets/media/nanogalaxy_toolkit.png" height="400px" alt="NanoGalaxy toolkit" />
+    
+    </th>
+  </tr>
+  <tr>
+    <td class="tg-0lax">
+        <div align="center"><b>Genome assembly</b><br />
+        <br />
+        <a href="https://nanopore.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2" target="_top" title="Minimap2">Minimap2</a>, <a href="https://nanopore.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/miniasm" target="_top" title="Miniasm">Miniasm</a>, <a href="https://nanopore.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/racon/racon" target="_top" title="Racon">Racon</a>
+        <br />
+        <a href="https://nanopore.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/racon/racon" target="_top" title="Racon">Racon</a>, <a href="https://nanopore.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/flye/flye" target="_top" title="Flye">Flye</a>, <a href="https://nanopore.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/unicycler/unicycler" target="_top" title="Unicycler">Unicycler</a>, <a href="https://nanopore.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/wtdbg/wtdbg/" target="_top" title="Wtdbg2">Wtdbg2</a>, <a href="https://nanopore.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/canu/canu" target="_top" title="Canu">Canu</a>
+        </div>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="tg-0lax">
+        <div align="center"><b>Visualisation</b><br />
+        <br />
+
+        <a href="https://nanopore.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/nanoplot/nanoplot" target="_top" title="Nanoplot">Nanoplot</a>,  <a href="https://nanopore.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/bandage/bandage_image" target="_top" title="Bandage">Bandage</a>
+        </div>
+    </td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">
+        <div align="center"><b>Taxonomy and metagenomics</b><br />
+        <br />
+        <a href="https://nanopore.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/plasflow/PlasFlow" target="_top" title="PlasFlow">PlasFlow</a>,  <a href="https://nanopore.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/nml/staramr/staramr_search" target="_top" title="Staramr">Staramr</a>,  <a href="https://nanopore.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2" target="_top" title="Kraken2">Kraken2</a>
+
+        </div>
+    </td>
+  </tr>
+
+
+</table>
+</div>
+
+<h1 id="tutorials">Tutorials</h1>
+
+<p>We are passionate about training. So we are working in close collaboration with the <a href="https://galaxyproject.org/teach/gtn/" target="_blank">Galaxy Training Network (GTN)</a> to develop training materials of data analyses based on Galaxy <a class="citation" href="#batut2017community">(Batut <i>et al.</i>, 2017)</a>. These materials hosted on the GTN GitHub repository are available online at <a href="https://training.galaxyproject.org" target="_blank">https://training.galaxyproject.org</a>.</p>
+
+<h1 id="workflows">Workflows</h1>
+
+<p>To orchestrate tools and help users with their analyses, some best practice workflows are prepared and available for all users.
+The workflows can be extended using similar and alternative combinations using the Galaxy workflow editor.</p>
+
+<p>The workflows are available in the <a href="https://nanopore.usegalaxy.eu/workflows/list_published" target="_top">Shared Workflows View</a> and are labeled with “<strong><em>ONT</em></strong>”.</p>
+
+<table class="table-striped ont-workflow-table">
+  <tbody>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://nanopore.usegalaxy.eu/u/milad/w/nanopolish-variants-tutorial" target="_top"><img src="/assets/media/nanogalaxy-nanopolish.png" alt="Nanopolish workflow" /></a></td>
+      <td><a href="https://nanopore.usegalaxy.eu/u/milad/w/ont-assembly-flye-ahrens" target="_blank"><img src="/assets/media/nanogalaxy-ahrens.png" alt="Ahrens et. al workflow" /></a></td>
+      <td><a href="https://usegalaxy.eu/u/milad/w/workflow-wick-etal-ont" target="_blank"><img src="/assets/media/nanogalaxy-wick.png" alt="Wick et. al workflow " /></a></td>
+      <td><a href="https://nanopore.usegalaxy.eu/u/milad/w/metagenomics-krakan2" target="_top"><img src="/assets/media/nanogalaxy-kraken.png" alt="Metagenomics workflow" /></a></td>
+    </tr>
+    <tr>
+      <td>Basic workflows inspired by the Nanopolish tutorials</td>
+      <td>Genome assembly: Flye-based WF for highly repetitive genomes [Schmid et al. NAR 2018]</td>
+      <td>Genome assembly: Unicycler-based WF for Klebsiella pneumoniae [Wick et al.  Microbial genomics 2017]</td>
+      <td>Metagenomics: taxa classification</td>
+    </tr>
+    <tr>
+      <td><a href="https://usegalaxy.eu/u/milad/h/nanopolish-tutorial"><img src="https://img.shields.io/static/v1?label=history&amp;message=view&amp;color=blue" alt="Galaxy history" /></a> <a href="https://nanopore.usegalaxy.eu/u/milad/w/nanopolish-variants-tutorial"><img src="https://img.shields.io/static/v1?label=workflow&amp;message=run&amp;color=blue" alt="Galaxy workflow" /></a></td>
+      <td><a href="https://usegalaxy.eu/u/milad/h/ahrens-nanopore-gmmap"><img src="https://img.shields.io/static/v1?label=history&amp;message=view&amp;color=blue" alt="Galaxy history" /></a> <a href="https://nanopore.usegalaxy.eu/u/milad/w/ont-assembly-flye-ahrens"><img src="https://img.shields.io/static/v1?label=workflow&amp;message=run&amp;color=blue" alt="Galaxy workflow" /></a></td>
+      <td><a href="https://usegalaxy.eu/u/milad/h/wick-etal-nanopore"><img src="https://img.shields.io/static/v1?label=history&amp;message=view&amp;color=blue" alt="Galaxy history" /></a> <a href="https://usegalaxy.eu/u/milad/h/wick-etal-nanopore"><img src="https://img.shields.io/static/v1?label=workflow&amp;message=run&amp;color=blue" alt="Galaxy workflow" /></a></td>
+      <td><a href="https://usegalaxy.eu/u/milad/h/nanoporebeerdecodechimaytriple"><img src="https://img.shields.io/static/v1?label=history&amp;message=view&amp;color=blue" alt="Galaxy history" /></a> <a href="https://nanopore.usegalaxy.eu/u/milad/w/metagenomics-krakan2"><img src="https://img.shields.io/static/v1?label=workflow&amp;message=run&amp;color=blue" alt="Galaxy workflow" /></a></td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+
+
+<h2>Our Data Policy</h2>
+
+
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Registered Users</th><th>Unregistered Users</th><th>FTP Data</th><th>GDPR Compliance</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>User data on UseGalaxy.eu (i.e. datasets, histories) will be available as long
+            as they are not deleted by the user. Once marked as deleted the datasets will
+            be permanently removed within 14 days. If the user "purges" the dataset in the
+            Galaxy, it will be removed immediately, permanently.
+
+            An <a href="https://docs.google.com/forms/d/e/1FAIpQLSf9w2MOS6KOlu9XdhRSDqWnCDkzoVBqHJ3zH_My4p8D8ZgkIQ/viewform" target="_blank">extended quota can be requested</a>
+for a limited time period in special cases.
+        </td>
+        <td>Processed data will only be accessible during one browser session, using a
+            cookie to identify your data. This cookie is not used for any other purposes
+            (e.g. tracking or analytics).
+            
+            If UseGalaxy.eu service is not accessed for 90 days, those datasets will be
+            permanently deleted.
+        </td>
+        <td>Any user data uploaded to our <a href="https://galaxyproject.eu/ftp/">FTP server</a> should be imported into Galaxy as soon
+            as possible. Data left in FTP folders for more than 3 months, will be deleted.            
+        </td>
+        <td>The Galaxy service complies with the EU General Data Protection Regulation
+            (GDPR). You can read more about this on our
+            <a href="https://usegalaxy.eu/terms/">Terms and Conditions</a>.</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+
+<!-- <h4>Registered Users</h4>
+
+User data on UseGalaxy.eu (i.e. datasets, histories) will be available as long
+as they are not deleted by the user. Once marked as deleted the datasets will
+be permanently removed within 14 days. If the user "purges" the dataset in the
+Galaxy, it will be removed immediately, permanently.
+
+An <a href="https://docs.google.com/forms/d/e/1FAIpQLSf9w2MOS6KOlu9XdhRSDqWnCDkzoVBqHJ3zH_My4p8D8ZgkIQ/viewform" target="_blank">extended quota can be requested</a>
+for a limited time period in special cases.
+
+<h4>Unregistered Users</h4>
+
+Processed data will only be accessible during one browser session, using a
+cookie to identify your data. This cookie is not used for any other purposes
+(e.g. tracking or analytics).
+
+If UseGalaxy.eu service is not accessed for 90 days, those datasets will be
+permanently deleted.
+
+<h4>FTP Data</h4>
+
+Any user data uploaded to our <a href="https://galaxyproject.eu/ftp/">FTP server</a> should be imported into Galaxy as soon
+as possible. Data left in FTP folders for more than 3 months, will be deleted.
+
+<h4>GDPR Compliance</h4>
+
+The Galaxy service complies with the EU General Data Protection Regulation
+(GDPR). You can read more about this on our
+<a href="https://usegalaxy.eu/terms/">Terms and Conditions</a>. 
+ -->
+
+<div>
+    <iframe style="border: 0px" width="100%" height="150px" src="https://stats.galaxyproject.eu/d-solo/000000034/jobs-dashboard?orgId=1&refresh=1m&panelId=1" ></iframe>
+</div>
+<div>
+<!--<iframe style="border: 0px" width="33%" height="100px" src="https://stats.galaxyproject.eu/d-solo/000000034/jobs-dashboard?orgId=1&refresh=1m&panelId=3" ></iframe>-->
+</div>
+
+<div class="row">
+
+    <section class="section-content">
+        <div class="col-md-12">
+        </div>
+    </section>
+</div>
+
+</div>
+
+        </div>
+      </div>
+    </div>
+    
+
+
+
+
+
+
+
+<footer class="navbar-default">
+    <div class="container">
+        <div class="row">
+        </div>
+        <div class="row">
+            <div class="col-lg-12" style="text-align:center">
+                <p>UseGalaxy.eu is maintained largely by the <a href="/freiburg/">Freiburg Galaxy Team</a> but also collectively by groups and individuals from across Europe. All of the member sites in this repository contribute to the European Galaxy Project.
+For <strong>acknowledgement</strong>, please refer to the <a href="/about">About</a> section.
+All content on this site is available under <a href="https://creativecommons.org/share-your-work/public-domain/cc0/">CC0-1.0</a> unless otherwise specified.</p>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12" style="text-align:center">
+                <ul class="contact-info">
+                    <li><i class="fa fa-github"></i><a href="https://github.com/usegalaxy-eu/website/tree/master/index-nanopore.md" target="_blank">Edit this page on GitHub</a></li>
+                    
+                      <li><i class="fa fa-envelope"></i><a href="mailto:contact@usegalaxy.eu">contact@usegalaxy.eu</a></li>
+                    
+                    
+                      <li><i class="fa fa-github"></i><a href="https://github.com/usegalaxy-eu" target="_blank">usegalaxy-eu</a></li>
+                    
+                    
+                    
+                      <li><img class="fa-mastodon" src="/assets/media/mastodon.svg" style="width:18px;height:18px;padding-right:4px;filter:grayscale(100%);-webkit-filter:grayscale(100%);"/><a href="https://bawü.social/@galaxyfreiburg" target="_blank">galaxyfreiburg</a></li>
+                    
+                      <li><i class="fa fa-rss"></i>Subscribe <a href="/feed.xml">via RSS (UseGalaxy.eu Feed)</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script async defer data-domain="galaxyproject.eu" src="https://plausible.galaxyproject.eu/js/plausible.js"></script>
+  </body>
+</html>

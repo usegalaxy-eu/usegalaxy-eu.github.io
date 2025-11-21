@@ -1,1 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <title>Galaxy Europe</title>
+  <meta property="og:title" content="" />
+  <meta property="og:description" content="" />
+  <meta property="og:image" content="/assets/media/galaxy-eu-logo.512.png" />
+  <meta name="description" content="The European Galaxy Instance">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
+  <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+
+
+
+
+  <link rel="canonical" href="https://galaxyproject.eu/index-cheminformatics.html">
+  <link rel="shortcut icon" href="/assets/media/galaxy-eu-logo.64.png" type="image/x-icon" />
+  <link rel="alternate" type="application/rss+xml" title="Galaxy Europe" href="/feed.xml">
+
+  <link href="/assets/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <script src="/assets/js/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
+  <script src="/assets/js/bootstrap.min.js" integrity="sha256-U5ZEeKfGNOja007MMD3YBI0A3OSZOQbeG6z2f2Y0hu8=" crossorigin="anonymous"></script>
+</head>
+
+  <body>
+    <div id="wrap">
+      <div id="main">
+        <div class="container" id="maincontainer">
+          <div class="home">
+
+
+
+
+
+
+
+  <h1 id="computational-chemistry-with-galaxy">Computational chemistry with Galaxy</h1>
+
+<p><br />
+<img src="/assets/media/cheminformatics.png" height="300px" alt="Cheminformatics" align="right" /></p>
+
+<p>Welcome to the <strong>ChemicalToolbox</strong> – a webserver for processing, analysing and visualising chemical data, and performing molecular simulations. This server is a flavor of the European Galaxy instance, usegalaxy.eu.</p>
+
+<ol id="markdown-toc">
+  <li><a href="#computational-chemistry-with-galaxy" id="markdown-toc-computational-chemistry-with-galaxy">Computational chemistry with Galaxy</a></li>
+  <li><a href="#get-started" id="markdown-toc-get-started">Get started</a></li>
+  <li><a href="#tools" id="markdown-toc-tools">Tools</a>    <ol>
+      <li><a href="#get-data" id="markdown-toc-get-data">Get data</a></li>
+      <li><a href="#chemical-structure-conversion-and-manipulation-tools" id="markdown-toc-chemical-structure-conversion-and-manipulation-tools">Chemical structure conversion and manipulation tools</a></li>
+      <li><a href="#compute-chemical-properties" id="markdown-toc-compute-chemical-properties">Compute chemical properties</a></li>
+      <li><a href="#molecular-docking" id="markdown-toc-molecular-docking">Molecular docking</a></li>
+      <li><a href="#pharmacophore-alignment" id="markdown-toc-pharmacophore-alignment">Pharmacophore alignment</a></li>
+      <li><a href="#molecular-dynamics-simulation" id="markdown-toc-molecular-dynamics-simulation">Molecular dynamics simulation</a></li>
+      <li><a href="#molecular-dynamics-analysis" id="markdown-toc-molecular-dynamics-analysis">Molecular dynamics analysis</a></li>
+    </ol>
+  </li>
+  <li><a href="#tutorials" id="markdown-toc-tutorials">Tutorials</a></li>
+  <li><a href="#workflows" id="markdown-toc-workflows">Workflows</a></li>
+  <li><a href="#contributors" id="markdown-toc-contributors">Contributors</a></li>
+  <li><a href="#citation" id="markdown-toc-citation">Citation</a></li>
+</ol>
+
+<h1 id="get-started">Get started</h1>
+
+<p>Are you new to Galaxy, or returning after a long time, and looking for help to get started? Take <a href="https://cheminformatics.usegalaxy.eu/tours/core.galaxy_ui" target="_blank">a guided tour</a> through Galaxy’s user interface.</p>
+
+<p>A good place to start is our <a href="#tutorials">tutorials</a>, which provide an introduction to the cheminformatics and molecular dynamics tools in Galaxy.</p>
+
+<p>You can also check out the standard but customizable <a href="#workflows">workflows</a> available there.</p>
+
+<h1 id="tools">Tools</h1>
+
+<p>Almost a hundred different tools for cheminformatics and molecular dynamics have been integrated into the ChemicalToolbox. A selection are displayed below.</p>
+
+<h2 id="get-data">Get data</h2>
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Tool</th>
+      <th>Description</th>
+      <th>Reference</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/get_pubchem/ctb_pubchem_download_as_smiles" target="_top" title="pubchem">pubchem</a></td>
+      <td>Download all compounds from PubChem</td>
+      <td><a href="https://dx.doi.org/10.1093%2Fnar%2Fgkv951" target="_blank">Kim et al., 2016</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/chembl/chembl" target="_top" title="chembl">chembl</a></td>
+      <td>Download molecules from ChEMBL</td>
+      <td><a href="https://doi.org/10.1093/nar/gkv352" target="_blank">Davies et al, 2015</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/get_pdb/get_pdb" target="_top" title="pdb">pdb</a></td>
+      <td>Download a file from the Protein Data Bank</td>
+      <td><a href="http://dx.doi.org/10.1093/nar/28.1.235" target="_blank">Berman, 2000</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="chemical-structure-conversion-and-manipulation-tools">Chemical structure conversion and manipulation tools</h2>
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Tool</th>
+      <th>Description</th>
+      <th>Reference</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_remsmall/openbabel_remSmall" target="_top" title="remSmallMol">remSmallMol</a></td>
+      <td>Remove small molecules</td>
+      <td><a href="https://doi.org/10.1186/1758-2946-3-33" target="_blank">N M O’Boyle,2011</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_addh/openbabel_addh" target="_top" title="AddH">AddH</a></td>
+      <td>Add hydrogen atoms at a certain pH value</td>
+      <td><a href="https://doi.org/10.1186/1758-2946-3-33" target="_blank">N M O’Boyle,2011</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_remduplicates/openbabel_remDuplicates" target="_top" title="RemDupMol">RemDupMol</a></td>
+      <td>Remove duplicated molecules</td>
+      <td><a href="https://doi.org/10.1186/1758-2946-3-33" target="_blank">N M O’Boyle,2011</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_remove_protonation_state/openbabel_remove_protonation_state" target="_top" title="remProtState">remProtState</a></td>
+      <td>Remove protonation state of every atom</td>
+      <td><a href="https://doi.org/10.1186/1758-2946-3-33" target="_blank">N M O’Boyle,2011</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_compound_convert/openbabel_compound_convert" target="_top" title="comConvert">comConvert</a></td>
+      <td>Compound Convert Converts various chemistry and molecular modeling data files</td>
+      <td><a href="https://doi.org/10.1186/1758-2946-3-33" target="_blank">N M O’Boyle,2011</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_remions/openbabel_remIons" target="_top" title="remConterIons">remConterIons</a></td>
+      <td>Remove counterions and fragments</td>
+      <td><a href="https://doi.org/10.1186/1758-2946-3-33" target="_blank">N M O’Boyle,2011</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_change_title/openbabel_change_title" target="_top" title="changTitle">changTitle</a></td>
+      <td>Change Title to meta-data value</td>
+      <td><a href="https://doi.org/10.1186/1758-2946-3-33" target="_blank">N M O’Boyle,2011</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="compute-chemical-properties">Compute chemical properties</h2>
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Tool</th>
+      <th>Description</th>
+      <th>Reference</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/openbabel_genprop/openbabel_genProp/" target="_top" title="genProp">genProp</a></td>
+      <td>Compute physico-chemical properties for a set of molecules</td>
+      <td><a href="https://doi.org/10.1186/1758-2946-3-33" target="_blank">N M O’Boyle,2011</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/natural_product_likeness/ctb_np-likeness-calculator" target="_top" title="NPL">NPL</a></td>
+      <td>Natural product likeness calculator</td>
+      <td><a href="http://dx.doi.org/10.1186/1471-2105-13-106" target="_blank">Jayaseelan, Kalai Vanii, 2012</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/silicos_it/ctb_silicos_qed" target="_top" title="QED">QED</a></td>
+      <td>Drug-likeness quantitative estimation (QED)</td>
+      <td><a href="https://doi.org/10.1038/nchem.1243" target="_blank">Bickerton et al., 2012</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/mordred/ctb_mordred_descriptors" target="_top" title="mordred">mordred</a></td>
+      <td>Molecular descriptor calculator</td>
+      <td><a href="https://doi.org/10.1186/s13321-018-0258-y" target="_blank">Moriwaki et al., 2018</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/chemfp/ctb_sdf2fps" target="_top" title="chemfp">chemfp</a></td>
+      <td>Fingerprints with chemfp</td>
+      <td><a href="https://doi.org/10.1186/1758-2946-5-s1-p36" target="_blank">Dalke, 2013</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/chemfp/ctb_chemfp_butina_clustering" target="_top" title="tbClust">tbClust</a></td>
+      <td>Taylor-Butina clustering</td>
+      <td><a href="https://doi.org/10.1186/1758-2946-5-s1-p36" target="_blank">Dalke, 2013</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/chemfp/ctb_chemfp_nxn_clustering" target="_top" title="nxnClust">nxnClust</a></td>
+      <td>NXN clustering</td>
+      <td><a href="https://doi.org/10.1186/1758-2946-5-s1-p36" target="_blank">Dalke, 2013</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="molecular-docking">Molecular docking</h2>
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Tool</th>
+      <th>Description</th>
+      <th>Reference</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/autodock_vina/docking" target="_top" title="vina">vina</a></td>
+      <td>Docking with AutoDock Vina</td>
+      <td><a href="https://doi.org/10.1002/jcc.21334" target="_blank">Trott et al., 2009</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/rdock_rbdock/rdock_rbdock" target="_top" title="rbdock">rbdock</a></td>
+      <td>Docking with rDock</td>
+      <td><a href="https://doi.org/10.1371/journal.pcbi.1003571" target="_blank">Ruiz-Carmona et al., 2014</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/sucos_docking_scoring/sucos_docking_scoring" target="_top" title="sucos">sucos</a></td>
+      <td>Score docked poses using SuCOS</td>
+      <td><a href="https://doi.org/10.26434/chemrxiv.8100203.v1" target="_blank">Leung et al., 2019</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/fpocket/fpocket" target="_top" title="fpocket">fpocket</a></td>
+      <td>Search a protein for potential binding sites</td>
+      <td><a href="https://doi.org/10.1093/nar/gkq383" target="_blank">Schmitdke et al., 2010</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="pharmacophore-alignment">Pharmacophore alignment</h2>
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Tool</th>
+      <th>Description</th>
+      <th>Reference</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/align_it/ctb_alignit" target="_top" title="alignit">alignit</a></td>
+      <td>Feature alignment using Align-it</td>
+      <td><a href="https://doi.org/10.1016/j.jmgm.2008.04.003" target="_blank">Taminau et al., 2008</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/sucos_clustering/sucos_clustering" target="_top" title="sucos_clustering">sucos_clustering</a></td>
+      <td>Feature clustering using SuCOS</td>
+      <td><a href="https://doi.org/10.26434/chemrxiv.8100203.v1" target="_blank">Leung et al., 2019</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/ctb_im_o3dalign/ctb_im_o3dalign" target="_top" title="Open3DALIGN">Open3DALIGN</a></td>
+      <td>Unsupervised molecular alignment using RDKit</td>
+      <td><a href="https://doi.org/10.1007/s10822-011-9462-9" target="_blank">Tosco et al., 2011</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="molecular-dynamics-simulation">Molecular dynamics simulation</h2>
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Tool</th>
+      <th>Description</th>
+      <th>Reference</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/chemteam/gmx_setup/gmx_setup/" target="_top" title="gmxSetup">gmxSetup</a></td>
+      <td>Produce a topology using GROMACS for a given protein structure</td>
+      <td><a href="https://doi.org/10.1016/j.softx.2015.06.001" target="_blank">Abraham et al., 2015</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/chemteam/gmx_solvate/gmx_solvate/" target="_top" title="gmxSolvate">gmxSolvate</a></td>
+      <td>Solvate a system using GROMACS</td>
+      <td><a href="https://doi.org/10.1016/j.softx.2015.06.001" target="_blank">Abraham et al., 2015</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/chemteam/gmx_em/gmx_em/" target="_top" title="gmxEM">gmxEM</a></td>
+      <td>Energy minimization using GROMACS</td>
+      <td><a href="https://doi.org/10.1016/j.softx.2015.06.001" target="_blank">Abraham et al., 2015</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/chemteam/gmx_sim/gmx_sim/" target="_top" title="gmxSim">gmxSim</a></td>
+      <td>MD simulation using GROMACS</td>
+      <td><a href="https://doi.org/10.1016/j.softx.2015.06.001" target="_blank">Abraham et al., 2015</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/chemteam/gmx_restraints/gmx_restraints/" target="_top" title="gmxRestraints">gmxRestraints</a></td>
+      <td>Calculate position restraints using GROMACS</td>
+      <td><a href="https://doi.org/10.1016/j.softx.2015.06.001" target="_blank">Abraham et al., 2015</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/chemteam/gmx_makendx/gmx_makendx/" target="_top" title="gmxMakeNDX">gmxMakeNDX</a></td>
+      <td>Create an index file using GROMACS</td>
+      <td><a href="https://doi.org/10.1016/j.softx.2015.06.001" target="_blank">Abraham et al., 2015</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/chemteam/gmx_energy/gmx_energy/" target="_top" title="gmxEnergy">gmxEnergy</a></td>
+      <td>Extract energy components using GROMACS</td>
+      <td><a href="https://doi.org/10.1016/j.softx.2015.06.001" target="_blank">Abraham et al., 2015</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/chemteam/gmx_trj/gmx_trj/" target="_top" title="gmxTrj">gmxTrj</a></td>
+      <td>Process MD trajectories using GROMACS</td>
+      <td><a href="https://doi.org/10.1016/j.softx.2015.06.001" target="_blank">Abraham et al., 2015</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/chemteam/gmx_editconf/gmx_editconf/" target="_top" title="gmxEditconf">gmxEditconf</a></td>
+      <td>Structure configuration using GROMACS</td>
+      <td><a href="https://doi.org/10.1016/j.softx.2015.06.001" target="_blank">Abraham et al., 2015</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/chemteam/gmx_fep/gmx_fep/" target="_top" title="gmxFEP">gmxFEP</a></td>
+      <td>Alchemical free energy simulations using GROMACS</td>
+      <td><a href="https://doi.org/10.1016/j.softx.2015.06.001" target="_blank">Abraham et al., 2015</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/chemteam/ambertools_antechamber/ambertools_antechamber" target="_top" title="antechamber">antechamber</a></td>
+      <td>Process input files with AmberTools</td>
+      <td><a href="https://doi.org/10.1002/jcc.20290" target="_blank">Case et al., 2005</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/chemteam/ambertools_acpype/ambertools_acpype" target="_top" title="acpype">acpype</a></td>
+      <td>Produce GROMACS topologies with acpype</td>
+      <td><a href="https://doi.org/10.1186/1756-0500-5-367" target="_blank">Sousa da Silva et al., 2012</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="molecular-dynamics-analysis">Molecular dynamics analysis</h2>
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Tool</th>
+      <th>Description</th>
+      <th>Reference</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_distance/mdanalysis_distance/" target="_top" title="mdaDistance">mdaDistance</a></td>
+      <td>Distance analysis using MDAnalysis</td>
+      <td><a href="https://doi.org/10.1002/jcc.21787" target="_blank">Agrawal et al., 2011</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_dihedral/mdanalysis_dihedral/" target="_top" title="mdaDihedral">mdaDihedral</a></td>
+      <td>Dihedral analysis using MDAnalysis</td>
+      <td><a href="https://doi.org/10.1002/jcc.21787" target="_blank">Agrawal et al., 2011</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_rdf/mdanalysis_rdf/" target="_top" title="mdaRDF">mdaRDF</a></td>
+      <td>Radial distribution function between two atoms</td>
+      <td><a href="https://doi.org/10.1002/jcc.21787" target="_blank">Agrawal et al., 2011</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/chemteam/mdanalysis_angle/mdanalysis_angle/" target="_top" title="mdaAngle">mdaAngle</a></td>
+      <td>Angle analysis using MDAnalysis</td>
+      <td><a href="https://doi.org/10.1002/jcc.21787" target="_blank">Agrawal et al., 2011</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/chemteam/md_converter/md_converter/" target="_top" title="mdConverter">mdConverter</a></td>
+      <td>Interconvert between MD file formats</td>
+      <td><a href="https://doi.org/10.1016/j.bpj.2015.08.015" target="_blank">McGibbon et al., 2015</a> <a href="https://doi.org/10.1016/j.softx.2015.06.001" target="_blank">Abraham et al., 2015</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/chemteam/packmol/packmol/" target="_top" title="packmol">packmol</a></td>
+      <td>Create initial MD configurations</td>
+      <td><a href="https://doi.org/10.1002/jcc.21224" target="_blank">Martinez et al., 2009</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_pca/bio3d_pca/" target="_top" title="bio3dPCA">bio3dPCA</a></td>
+      <td>Apply PCA to an MD trajectory</td>
+      <td><a href="https://doi.org/10.1093/bioinformatics/btl461" target="_blank">Grant et al., 2006</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsd/bio3d_rmsd/" target="_top" title="bio3dRMSD">bio3dRMSD</a></td>
+      <td>Calculate RMSD for an MD trajectory</td>
+      <td><a href="https://doi.org/10.1093/bioinformatics/btl461" target="_blank">Grant et al., 2006</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_rmsf/bio3d_rmsf/" target="_top" title="bio3dRMSF">bio3dRMSF</a></td>
+      <td>Calculate RMSF for an MD trajectory</td>
+      <td><a href="https://doi.org/10.1093/bioinformatics/btl461" target="_blank">Grant et al., 2006</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 id="tutorials">Tutorials</h1>
+<ul>
+  <li>Visit <a href="https://galaxyproject.github.io/training-material/topics/computational-chemistry/">the Galaxy training website</a> for tutorials on using the Galaxy tools for molecular dynamics.</li>
+</ul>
+
+<p>🙋 Are additional tutorials needed? <a href="https://github.com/galaxycomputationalchemistry/galaxy-tools-compchem/issues">Please make a request.</a></p>
+
+<h1 id="workflows">Workflows</h1>
+
+<p>To orchestrate tools and help users with their analyses, several workflows are available. They formally orchestrate tools in a defined order and with defined parameters, but they are customizable (tools, order, parameters).</p>
+
+<p>The workflows are available in the <a href="https://cheminformatics.usegalaxy.eu/workflows/list_published">Shared Workflows</a>, with the labels “<strong><em>cheminformatics</em></strong>” or “<strong>moleculardynamics</strong>”.</p>
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Workflow</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://usegalaxy.eu/u/sbray/w/library-download-final-2">Library preparation</a></td>
+      <td>Preparation of ligand library using PubChem, ChEMBL and ZINC</td>
+    </tr>
+    <tr>
+      <td><a href="https://cheminformatics.usegalaxy.eu/u/sbray/w/protein-ligand-docking-final">Protein-ligand docking</a></td>
+      <td>Docking with AutoDock Vina</td>
+    </tr>
+    <tr>
+      <td><a href="https://cheminformatics.usegalaxy.eu/u/sbray/w/hf080120">Hole filling</a></td>
+      <td>Expanding a library into gaps in the chemical space</td>
+    </tr>
+    <tr>
+      <td><a href="https://cheminformatics.usegalaxy.eu/u/sbray/w/cheminformatics-ml">Cheminformatics-ML</a></td>
+      <td>Machine learning for predicting small molecule protein interactions</td>
+    </tr>
+    <tr>
+      <td><a href="https://cheminformatics.usegalaxy.eu/u/simonbray/w/molecular-dynamics-1">GROMACS</a></td>
+      <td>Molecular dynamics simulation with GROMACS</td>
+    </tr>
+    <tr>
+      <td><a href="https://cheminformatics.usegalaxy.eu/u/tsenapathi/w/md-analysis-using-bio3d">Bio3D</a></td>
+      <td>Molecular dynamics analysis with Bio3D</td>
+    </tr>
+    <tr>
+      <td><a href="https://usegalaxy.eu/u/aurelien_moumbock/w/zauberkugel">Zauberkugel</a></td>
+      <td>Pharmacophore-based target prediction of a bioactive ligand using Align-it</td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 id="contributors">Contributors</h1>
+
+<ul>
+  <li><a href="https://github.com/simonbray">Simon Bray</a></li>
+  <li><a href="https://github.com/tsenapathi">Tharindu Senapathi</a></li>
+  <li><a href="https://github.com/chrisbarnettster">Chris Barnett</a></li>
+  <li><a href="https://github.com/anuprulez">Anup Kumar</a></li>
+  <li><a href="https://github.com/aurelienmoumbock">Aurélien F. A. Moumbock</a></li>
+  <li>Xavier Lucas</li>
+  <li><a href="https://github.com/bgruening">Björn Grüning</a></li>
+</ul>
+
+<h1 id="citation">Citation</h1>
+
+<ul>
+  <li>Simon Bray, Xavier Lucas, Anup Kumar and Björn Grüning. <strong>“The ChemicalToolbox: reproducible, user-friendly cheminformatics analysis on the Galaxy platform”</strong>, Journal of Cheminformatics, doi: <a href="https://doi.org/10.1186/s13321-020-00442-7">10.1186/s13321-020-00442-7</a></li>
+  <li>Tharindu Senapathi, Simon Bray, Christopher B Barnett, Björn Grüning, Kevin J Naidoo.
+<strong>“Biomolecular Reaction and Interaction Dynamics Global Environment (BRIDGE)”</strong>, Bioinformatics, Volume 35, Issue 18, 15 September 2019, Pages 3508–3509, doi: <a href="https://doi.org/10.1093/bioinformatics/btz107">10.1093/bioinformatics/btz107</a></li>
+</ul>
+
+
+<h2>Our Data Policy</h2>
+
+
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Registered Users</th><th>Unregistered Users</th><th>FTP Data</th><th>GDPR Compliance</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>User data on UseGalaxy.eu (i.e. datasets, histories) will be available as long
+            as they are not deleted by the user. Once marked as deleted the datasets will
+            be permanently removed within 14 days. If the user "purges" the dataset in the
+            Galaxy, it will be removed immediately, permanently.
+
+            An <a href="https://docs.google.com/forms/d/e/1FAIpQLSf9w2MOS6KOlu9XdhRSDqWnCDkzoVBqHJ3zH_My4p8D8ZgkIQ/viewform" target="_blank">extended quota can be requested</a>
+for a limited time period in special cases.
+        </td>
+        <td>Processed data will only be accessible during one browser session, using a
+            cookie to identify your data. This cookie is not used for any other purposes
+            (e.g. tracking or analytics).
+            
+            If UseGalaxy.eu service is not accessed for 90 days, those datasets will be
+            permanently deleted.
+        </td>
+        <td>Any user data uploaded to our <a href="https://galaxyproject.eu/ftp/">FTP server</a> should be imported into Galaxy as soon
+            as possible. Data left in FTP folders for more than 3 months, will be deleted.            
+        </td>
+        <td>The Galaxy service complies with the EU General Data Protection Regulation
+            (GDPR). You can read more about this on our
+            <a href="https://usegalaxy.eu/terms/">Terms and Conditions</a>.</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+
+<!-- <h4>Registered Users</h4>
+
+User data on UseGalaxy.eu (i.e. datasets, histories) will be available as long
+as they are not deleted by the user. Once marked as deleted the datasets will
+be permanently removed within 14 days. If the user "purges" the dataset in the
+Galaxy, it will be removed immediately, permanently.
+
+An <a href="https://docs.google.com/forms/d/e/1FAIpQLSf9w2MOS6KOlu9XdhRSDqWnCDkzoVBqHJ3zH_My4p8D8ZgkIQ/viewform" target="_blank">extended quota can be requested</a>
+for a limited time period in special cases.
+
+<h4>Unregistered Users</h4>
+
+Processed data will only be accessible during one browser session, using a
+cookie to identify your data. This cookie is not used for any other purposes
+(e.g. tracking or analytics).
+
+If UseGalaxy.eu service is not accessed for 90 days, those datasets will be
+permanently deleted.
+
+<h4>FTP Data</h4>
+
+Any user data uploaded to our <a href="https://galaxyproject.eu/ftp/">FTP server</a> should be imported into Galaxy as soon
+as possible. Data left in FTP folders for more than 3 months, will be deleted.
+
+<h4>GDPR Compliance</h4>
+
+The Galaxy service complies with the EU General Data Protection Regulation
+(GDPR). You can read more about this on our
+<a href="https://usegalaxy.eu/terms/">Terms and Conditions</a>. 
+ -->
+
+<div>
+    <iframe style="border: 0px" width="100%" height="150px" src="https://stats.galaxyproject.eu/d-solo/000000034/jobs-dashboard?orgId=1&refresh=1m&panelId=1" ></iframe>
+</div>
+<div>
+<!--<iframe style="border: 0px" width="33%" height="100px" src="https://stats.galaxyproject.eu/d-solo/000000034/jobs-dashboard?orgId=1&refresh=1m&panelId=3" ></iframe>-->
+</div>
+
+<div class="row">
+
+    <section class="section-content">
+        <div class="col-md-12">
+        </div>
+    </section>
+</div>
+
+</div>
+
+        </div>
+      </div>
+    </div>
+    
+
+
+
+
+
+
+
+<footer class="navbar-default">
+    <div class="container">
+        <div class="row">
+        </div>
+        <div class="row">
+            <div class="col-lg-12" style="text-align:center">
+                <p>UseGalaxy.eu is maintained largely by the <a href="/freiburg/">Freiburg Galaxy Team</a> but also collectively by groups and individuals from across Europe. All of the member sites in this repository contribute to the European Galaxy Project.
+For <strong>acknowledgement</strong>, please refer to the <a href="/about">About</a> section.
+All content on this site is available under <a href="https://creativecommons.org/share-your-work/public-domain/cc0/">CC0-1.0</a> unless otherwise specified.</p>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12" style="text-align:center">
+                <ul class="contact-info">
+                    <li><i class="fa fa-github"></i><a href="https://github.com/usegalaxy-eu/website/tree/master/index-cheminformatics.md" target="_blank">Edit this page on GitHub</a></li>
+                    
+                      <li><i class="fa fa-envelope"></i><a href="mailto:contact@usegalaxy.eu">contact@usegalaxy.eu</a></li>
+                    
+                    
+                      <li><i class="fa fa-github"></i><a href="https://github.com/usegalaxy-eu" target="_blank">usegalaxy-eu</a></li>
+                    
+                    
+                    
+                      <li><img class="fa-mastodon" src="/assets/media/mastodon.svg" style="width:18px;height:18px;padding-right:4px;filter:grayscale(100%);-webkit-filter:grayscale(100%);"/><a href="https://bawü.social/@galaxyfreiburg" target="_blank">galaxyfreiburg</a></li>
+                    
+                      <li><i class="fa fa-rss"></i>Subscribe <a href="/feed.xml">via RSS (UseGalaxy.eu Feed)</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script async defer data-domain="galaxyproject.eu" src="https://plausible.galaxyproject.eu/js/plausible.js"></script>
+  </body>
+</html>

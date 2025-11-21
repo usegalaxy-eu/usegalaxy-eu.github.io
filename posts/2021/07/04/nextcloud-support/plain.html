@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <title>Galaxy Europe | ownCloud and Nextcloud integration for your private data</title>
+  <meta property="og:title" content="ownCloud and Nextcloud integration for your private data" />
+  <meta property="og:description" content="So-called cloud storages are becoming more and more popul..." />
+  <meta property="og:image" content="/assets/media/galaxy-eu-logo.512.png" />
+  <meta name="description" content="The European Galaxy Instance">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+
+
+
+
+  <link rel="canonical" href="https://galaxyproject.eu/posts/2021/07/04/nextcloud-support/plain.html">
+  <link rel="shortcut icon" href="/assets/media/galaxy-eu-logo.64.png" type="image/x-icon" />
+  <link rel="alternate" type="application/rss+xml" title="Galaxy Europe" href="/feed.xml">
+
+  <link href="/assets/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <script src="/assets/js/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
+  <script src="/assets/js/bootstrap.min.js" integrity="sha256-U5ZEeKfGNOja007MMD3YBI0A3OSZOQbeG6z2f2Y0hu8=" crossorigin="anonymous"></script>
+</head>
+
+  <body>
+    <div id="wrap">
+      <div id="main">
+        <div class="container" id="maincontainer">
+          
+
+
+
+
+<section id="news-page">
+  <div class="row news-header-row">
+    
+    <a class="col-xs-1 text-center" href="/posts/2021/07/03/tool-update/plain.html">
+      «
+    </a>
+    
+    <div class="col-xs-10 ">
+      <div class="text-center">
+        <h2 class="title">ownCloud and Nextcloud integration for your private data</h2>
+      </div>
+      <hr />
+    </div>
+    
+    <a class="col-xs-1 text-center" href="/posts/2021/07/05/use-case-amir/plain.html">
+      »
+    </a>
+    
+  </div>
+  <div class="row post-metadata">
+    <div class="col-md-8 col-md-offset-2">
+      <div class="row">
+        <div class="col-md-6">
+            
+
+        </div>
+        <div class="col-md-6 text-right">
+          <div>
+            <span class="post-date">
+              Jul 4, 2021
+            </span>
+
+            
+
+            <br />
+            <span class="post-tags">
+                <span class="label label-success">Freiburg</span>
+              
+                <span class="label label-info">tools</span>
+              
+              
+            </span>
+
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2">
+      <div class="news-content">
+        <p>So-called cloud storages are becoming more and more popular in academic research. The most prominent one is probably <a href="https://www.dropbox.com">Dropbox</a>, which 
+you can already use in Galaxy. Today, we would like to introduce you to the support of free and open-source alternatives.
+<a href="https://owncloud.com/">ownCloud</a> and <a href="https://nextcloud.com/">Nextcloud</a> are free software solutions for the storage and management of data.
+Many universities are offering their own Nextcloud instances where researchers can store and share data in a GDPR compliant way.</p>
+
+<p>We have now added support to Galaxy to interact with your storage. You can import data from your Nextcloud instance or export data from your history
+to your cloud storage. Technically, this works by using the <a href="https://en.wikipedia.org/wiki/WebDAV">WebDAV</a> protocol and you can use this integration with
+every server that speaks this protocol.</p>
+
+<p>Here are some examples of how to configure your Galaxy account to make use of that feature.</p>
+
+<p>In all cases you need to go User → Preferences → <a href="https://usegalaxy.eu/user/information">Manage Information</a></p>
+
+<p><img src="/assets/media/b2drop_access.png" alt="" /></p>
+
+<p>Once configured, you will find an option called “Choose remote files” in the normal Galaxy upload dialogue.
+Choose “Nextcloud/ownCloud” and select the files you want to import.</p>
+
+<p><img src="/assets/media/nextcloud_file_picker.png" alt="" /></p>
+
+<h2 id="example-configurations">Example configurations</h2>
+
+<p>For example, to get access to the <a href="https://eudat.eu/services/b2drop">B2Drop service of EUDAT</a>, you can configure your settings like:</p>
+
+<blockquote>
+  <p>Server Domain: <code class="language-plaintext highlighter-rouge">https://b2drop.bsc.es</code></p>
+
+  <p>Server Path: <code class="language-plaintext highlighter-rouge">/remote.php/webdav</code></p>
+
+  <p>Username: <code class="language-plaintext highlighter-rouge">&lt;your username&gt;</code> (e.g. your email)</p>
+
+  <p>Password: <code class="language-plaintext highlighter-rouge">&lt;your password&gt;</code></p>
+</blockquote>
+
+<p>As a member of the <a href="https://www.sfb1425.uni-freiburg.de">CRC1425</a> (“The heterocellular nature of cardiac lesions: Identities, interactions, implications”), you can use settings like:</p>
+
+<blockquote>
+  <p>Server Domain: <code class="language-plaintext highlighter-rouge">https://nxc-1425.imbi.uni-freiburg.de</code></p>
+
+  <p>Server Path: <code class="language-plaintext highlighter-rouge">/remote.php/webdav</code></p>
+
+  <p>Username: <code class="language-plaintext highlighter-rouge">&lt;your username&gt;</code> (e.g. your email)</p>
+
+  <p>Password: <code class="language-plaintext highlighter-rouge">&lt;your password&gt;</code></p>
+</blockquote>
+
+<p>And don’t forget that you can also export files back to your cloud storage.</p>
+
+      </div>
+    </div>
+  </div>
+
+
+<div id="supported">
+    
+    <h1>Supported by</h1>
+    
+    <div class="row eu-image-box">
+        
+        
+        
+        
+        
+        <div class="col-md-6">
+            
+            
+            <a href="https://www.denbi.de" target="_blank">
+                <img alt="de.NBI logo" src="/assets/media/deNBI_Logo_rgb.png" class="img-responsive eu-image" />
+            </a>
+            
+        </div>
+        
+        
+        
+        
+        <div class="col-md-6">
+            
+            
+            <a href="https://www.elixir-europe.org" target="_blank">
+                <img alt="ELIXIR logo" src="/assets/media/elixir_logo.png" class="img-responsive eu-image" />
+            </a>
+            
+        </div>
+        
+        
+        
+        
+        <div class="col-md-6">
+            
+            
+            <a href="https://www.sfb1425.uni-freiburg.de/" target="_blank">
+                <img alt="CRC 1425 Logo" src="/assets/media/crc1425.png" class="img-responsive eu-image" />
+            </a>
+            
+        </div>
+        
+    </div>
+</div>
+
+
+</section>
+
+        </div>
+      </div>
+    </div>
+    
+
+
+
+
+
+
+
+<footer class="navbar-default">
+    <div class="container">
+        <div class="row">
+        </div>
+        <div class="row">
+            <div class="col-lg-12" style="text-align:center">
+                <p>The <a href="/freiburg/people">Freiburg Galaxy Team</a> is headed by Björn Grüning
+and is part of the <a href="http://www.bioinf.uni-freiburg.de">Bioinformatics Group
+Freiburg</a>, headed by Prof. Dr. Rolf
+Backofen.</p>
+
+<p>The team is part of <a href="https://www.denbi.de">de.NBI</a> and
+<a href="https://www.elixir-europe.org">ELIXIR</a> and largely funded by
+<a href="http://dfg.de/">DFG</a> and <a href="https://www.bmbf.de">BMBF</a>. All content on
+this site is available under <a href="https://creativecommons.org/share-your-work/public-domain/cc0/">CC0-1.0</a>,
+unless otherwise specified.</p>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12" style="text-align:center">
+                <ul class="contact-info">
+                    <li><i class="fa fa-github"></i><a href="https://github.com/usegalaxy-eu/website/tree/master/_posts_plain/2021-07-04-nextcloud-support.md" target="_blank">Edit this page on GitHub</a></li>
+                    
+                      <li><i class="fa fa-envelope"></i><a href="mailto:contact@usegalaxy.eu">contact@usegalaxy.eu</a></li>
+                    
+                    
+                      <li><i class="fa fa-github"></i><a href="https://github.com/usegalaxy-eu" target="_blank">usegalaxy-eu</a></li>
+                    
+                    
+                    
+                      <li><img class="fa-mastodon" src="/assets/media/mastodon.svg" style="width:18px;height:18px;padding-right:4px;filter:grayscale(100%);-webkit-filter:grayscale(100%);"/><a href="https://bawü.social/@galaxyfreiburg" target="_blank">galaxyfreiburg</a></li>
+                    
+                      <li><i class="fa fa-rss"></i>Subscribe <a href="/feed.xml">via RSS (UseGalaxy.eu Feed)</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script async defer data-domain="galaxyproject.eu" src="https://plausible.galaxyproject.eu/js/plausible.js"></script>
+  </body>
+</html>

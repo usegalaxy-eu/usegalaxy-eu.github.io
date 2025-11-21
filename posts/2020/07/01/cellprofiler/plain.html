@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <title>Galaxy Europe | CellProfiler now available in Galaxy</title>
+  <meta property="og:title" content="CellProfiler now available in Galaxy" />
+  <meta property="og:description" content="
+Several modules of the popular image analysis tool CellP..." />
+  <meta property="og:image" content="/assets/media/galaxy-eu-logo.512.png" />
+  <meta name="description" content="The European Galaxy Instance">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+
+
+
+
+  <link rel="canonical" href="https://galaxyproject.eu/posts/2020/07/01/cellprofiler/plain.html">
+  <link rel="shortcut icon" href="/assets/media/galaxy-eu-logo.64.png" type="image/x-icon" />
+  <link rel="alternate" type="application/rss+xml" title="Galaxy Europe" href="/feed.xml">
+
+  <link href="/assets/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <script src="/assets/js/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
+  <script src="/assets/js/bootstrap.min.js" integrity="sha256-U5ZEeKfGNOja007MMD3YBI0A3OSZOQbeG6z2f2Y0hu8=" crossorigin="anonymous"></script>
+</head>
+
+  <body>
+    <div id="wrap">
+      <div id="main">
+        <div class="container" id="maincontainer">
+          
+
+
+
+
+<section id="news-page">
+  <div class="row news-header-row">
+    
+    <a class="col-xs-1 text-center" href="/posts/2020/06/20/tool-update/plain.html">
+      «
+    </a>
+    
+    <div class="col-xs-10 ">
+      <div class="text-center">
+        <h2 class="title">CellProfiler now available in Galaxy</h2>
+      </div>
+      <hr />
+    </div>
+    
+    <a class="col-xs-1 text-center" href="/posts/2020/07/01/galactic-news/plain.html">
+      »
+    </a>
+    
+  </div>
+  <div class="row post-metadata">
+    <div class="col-md-8 col-md-offset-2">
+      <div class="row">
+        <div class="col-md-6">
+            
+
+        </div>
+        <div class="col-md-6 text-right">
+          <div>
+            <span class="post-date">
+              Jul 1, 2020
+            </span>
+
+            
+
+            <br />
+            <span class="post-tags">
+                <span class="label label-success"></span>
+              
+                <span class="label label-info">tools</span>
+              
+                <span class="label label-info">training</span>
+              
+              
+            </span>
+
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2">
+      <div class="news-content">
+        <p><br /><br />
+Several modules of the popular image analysis tool <strong>CellProfiler</strong> are now available in the <a href="https://toolshed.g2.bx.psu.edu/" target="_blank">Galaxy ToolShed</a>, thanks to <a href="https://elixir-europe.org/" target="_blank">ELIXIR’s</a> and <a href="https://www.eurobioimaging.eu/" target="_blank">EuroBioimaging’s</a> contribution to <a href="https://forum.eosc-life.eu/t/introduction-to-eosc-life-wp2/32" target="_blank">EOSC-Life WP2</a>.</p>
+
+<div class="multiple-img">
+    <img src="/assets/media/2020-07-01-wf_cell_profiler.jpg" alt="CellProfiler exemplary workflow" />
+</div>
+
+<p><br /></p>
+<h3 id="tools">Tools</h3>
+<p>In total, 22 modules have been integrated into <strong>19 Galaxy tools</strong>, providing scientists with a comprehensive suite to perform the most prevailing functionalities: object segmentation and feature extraction. Several segmentation methods can be applied (Manual, Measurement, Minimum cross entropy, Otsu and Robust background) to all image types supported by CellProfiler. At the level of the objects identified, several parameters can be measured (granularity, texture, intensity, size, shape, etc.), along with the relationships between objects. For complete images -or mathematical combinations of them-, features like the quality, the intensity, and the area occupied by objects can also be easily extracted.</p>
+
+<p><br /></p>
+<h3 id="data-access">Data Access</h3>
+
+<p>Scientists can now upload their own images to a Galaxy instance and build workflows combining these tools to address different biological questions. The outcome will vary depending on the design of the workflow: segmentation masks for each object identified, features associated with images or any of the objects segmented, images with metadata overlaid on top of the identified objects, among others.</p>
+
+<p>Another approach is to reuse public data from previous studies that are available at the <a href="https://idr.openmicroscopy.org/" target="_blank">Image Data Resource (IDR)</a>. For that purpose, a <a href="https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/idr_download_by_ids/idr_download_by_ids" target="_blank">Galaxy tool</a> was developed in collaboration with EOSC-Life WP1, that directly connects to the IDR, with advanced error handling, and makes bulk-downloads possible.</p>
+
+<p><br /></p>
+<h3 id="exemplary-workflow">Exemplary Workflow</h3>
+
+<p>An <a href="https://workflowhub.eu/workflows/41?code=01Ayacm0RbvLyTaAE%2FALunbR7waqdm2M9tozl%2Fla" target="_blank">exemplary workflow</a> has been created using these tools as part of Demonstrator 6 of EOSC-Life WP3. This demonstrator is focused on reusing publicly available RNAi screens to gain insights into the nucleolus biology. The workflow has been made accessible at the registry <a href="https://workflowhub.eu" target="_blank">Workflow Hub</a>.</p>
+
+<p><br /></p>
+<h3 id="training-material">Training Material</h3>
+<p>Since each tool comes with an extensive combination of parameters, a <a href="https://training.galaxyproject.org/training-material/topics/imaging/tutorials/tutorial-CP/tutorial.html" target="_blank">GTN tutorial</a> has been created reproducing the work done in the Demonstrator 6 of <a href="https://www.eosc-life.eu/" target="_blank">EOSC-Life</a>.
+<br /><br /><br /><br /></p>
+
+      </div>
+    </div>
+  </div>
+
+
+<div id="supported">
+    
+    <h1>Supported by</h1>
+    
+    <div class="row eu-image-box">
+        
+        
+        
+        
+        
+        <div class="col-md-6">
+            
+            
+            <a href="https://www.eosc-life.eu/" target="_blank">
+                <img alt="EOSC Logo" src="/assets/media/EOSC_logo.png" class="img-responsive eu-image" />
+            </a>
+            
+        </div>
+        
+        
+        
+        
+        <div class="col-md-6">
+            
+            
+            <a href="https://www.eurobioimaging.eu" target="_blank">
+                <img alt="EuBI logo" src="/assets/media/eubi_logo.png" class="img-responsive eu-image" />
+            </a>
+            
+        </div>
+        
+        
+        
+        
+        <div class="col-md-6">
+            
+            
+            <a href="https://www.elixir-europe.org" target="_blank">
+                <img alt="ELIXIR logo" src="/assets/media/elixir_logo.png" class="img-responsive eu-image" />
+            </a>
+            
+        </div>
+        
+        
+        
+        
+        <div class="col-md-6">
+            
+            
+            <a href="https://idr.openmicroscopy.org/" target="_blank">
+                <img alt="IDR logo" src="/assets/media/idr_logo.png" class="img-responsive eu-image" />
+            </a>
+            
+        </div>
+        
+        
+        
+        
+        <div class="col-md-6">
+            
+            
+            <a href="https://usegalaxy-eu.github.io" target="_blank">
+                <img alt="European Galaxy Team Logo" src="/assets/media/galaxy-eu.png"
+                    class="img-responsive eu-image" />
+            </a>
+            
+        </div>
+        
+    </div>
+</div>
+
+
+</section>
+
+        </div>
+      </div>
+    </div>
+    
+
+
+
+
+
+
+
+<footer class="navbar-default">
+    <div class="container">
+        <div class="row">
+        </div>
+        <div class="row">
+            <div class="col-lg-12" style="text-align:center">
+                <p>UseGalaxy.eu is maintained largely by the <a href="/freiburg/">Freiburg Galaxy Team</a> but also collectively by groups and individuals from across Europe. All of the member sites in this repository contribute to the European Galaxy Project.
+For <strong>acknowledgement</strong>, please refer to the <a href="/about">About</a> section.
+All content on this site is available under <a href="https://creativecommons.org/share-your-work/public-domain/cc0/">CC0-1.0</a> unless otherwise specified.</p>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12" style="text-align:center">
+                <ul class="contact-info">
+                    <li><i class="fa fa-github"></i><a href="https://github.com/usegalaxy-eu/website/tree/master/_posts_plain/2020-07-01-cellprofiler.md" target="_blank">Edit this page on GitHub</a></li>
+                    
+                      <li><i class="fa fa-envelope"></i><a href="mailto:contact@usegalaxy.eu">contact@usegalaxy.eu</a></li>
+                    
+                    
+                      <li><i class="fa fa-github"></i><a href="https://github.com/usegalaxy-eu" target="_blank">usegalaxy-eu</a></li>
+                    
+                    
+                    
+                      <li><img class="fa-mastodon" src="/assets/media/mastodon.svg" style="width:18px;height:18px;padding-right:4px;filter:grayscale(100%);-webkit-filter:grayscale(100%);"/><a href="https://bawü.social/@galaxyfreiburg" target="_blank">galaxyfreiburg</a></li>
+                    
+                      <li><i class="fa fa-rss"></i>Subscribe <a href="/feed.xml">via RSS (UseGalaxy.eu Feed)</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script async defer data-domain="galaxyproject.eu" src="https://plausible.galaxyproject.eu/js/plausible.js"></script>
+  </body>
+</html>

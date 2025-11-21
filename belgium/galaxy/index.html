@@ -1,1 +1,908 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <title>Galaxy Europe</title>
+  <meta property="og:title" content="" />
+  <meta property="og:description" content="" />
+  <meta property="og:image" content="/assets/media/galaxy-eu-logo.512.png" />
+  <meta name="description" content="The European Galaxy Instance">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
+  <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+
+
+
+
+  <link rel="canonical" href="https://galaxyproject.eu/belgium/galaxy/">
+  <link rel="shortcut icon" href="/assets/media/galaxy-eu-logo.64.png" type="image/x-icon" />
+  <link rel="alternate" type="application/rss+xml" title="Galaxy Europe" href="/feed.xml">
+
+  <link href="/assets/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <script src="/assets/js/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
+  <script src="/assets/js/bootstrap.min.js" integrity="sha256-U5ZEeKfGNOja007MMD3YBI0A3OSZOQbeG6z2f2Y0hu8=" crossorigin="anonymous"></script>
+</head>
+
+  <body>
+    <div id="wrap">
+      <div id="main">
+        <div class="container" id="maincontainer">
+          <div class="home">
+
+
+
+
+
+
+
+  <div class="row eu-image-box">
+	<a href="https://www.elixir-belgium.org/" target="_blank">
+		<img src="/assets/media/ELIXIR_BELGIUM_white_background.png" class="img-responsive eu-image" />
+	</a>
+	<a href="https://www.ugent.be/en" target="_blank">
+		<img src="/assets/media/UGent_EN.png" class="img-responsive eu-image" />
+	</a>
+	<a href="https://www.vscentrum.be/" target="_blank">
+		<img src="/assets/media/logo_VSC.svg" class="img-responsive eu-image" />
+	</a>
+	<a href="http://www.vib.be/en/pages/default.aspx" target="_blank">
+		<img src="/assets/media/vib_rf_plant_systems_biology_rgb_pos.png" class="img-responsive eu-image" />
+	</a>
+</div>
+
+<h1 id="how-to-use-galaxy">How to use Galaxy?</h1>
+
+<h2 id="tools">Tools</h2>
+
+<p>In the left panel of this page you will find the list of available tools, you can see this page at any point by clicking ‘Analyze Data’ in the top menu.</p>
+
+<h2 id="history">History</h2>
+
+<p>The history of your current data analysis is shown in the right panel. A good practice when running multiple analysis in parallel is to create several histories and give each one a unique name.
+You can click on ‘View all histories’ button (upper right corner in histories panel) to get an overview and switch between the current histories.</p>
+
+<h2 id="input-data">Input Data</h2>
+
+<p>Every analysis starts with getting the input data into your current history (right panel). To do this you can upload your own input files or use shared datasets.
+To upload files from your computer or instruct Galaxy to download files from the web you have to use of the upload tool: Get data (tool panel on the left) → upload file. Please DO NOT UPLOAD LARGE FILES (~GB), but contact the administrator to create a central data repository!
+To use available shared data you have to click on Shared data (top menu) → Data Libraries. You can then browse the available libraries and select the file/s you want to use. By clicking ‘to History’ button and choosing the desired History name you will import these files and make them available to use as input for future analysis.</p>
+
+<h2 id="execution">Execution</h2>
+
+<p>To run a job select the tool from tool panel on the left, then the corresponding interface will be loaded and you will be able to select corresponding input data and (re)define parameters.
+Please read carefully the labels and help text next to the input fields. After clicking Execute you will be able to see entries for each  in your history.
+The color of a dataset designates the current status of the underlying job</p>
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Color</th>
+      <th>State</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><span style="color: gray">Gray</span></td>
+      <td>The job is being evaluated to run (new dataset) or is queued. Allow this to complete.</td>
+    </tr>
+    <tr>
+      <td><span style="color: orange">Yellow</span></td>
+      <td>The job is executing.</td>
+    </tr>
+    <tr>
+      <td><span style="color: green">Green</span></td>
+      <td>Successful processing.</td>
+    </tr>
+    <tr>
+      <td><span style="color: red">Red</span></td>
+      <td>The job has failed.</td>
+    </tr>
+    <tr>
+      <td><span style="color: blue">Blue</span></td>
+      <td>The job is paused. This indicates either a problem with an input (a previous step in the workflow may have failed) or that you have exceeded disk quota set by the administrator of the Galaxy instance you are working on.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 id="workflows">Workflows</h1>
+
+<p>You can automate your analysis pipeline by using workflows composed of several tools linked by their input/output data. In the Workflows section (upper menu) you can see a list of current workflows and also create your own ones.
+It is also possible (and highly recommended) to use the shared, and widely tested, workflows available under Shared Data (top menu) → workflows. To use one of these you first need to import it to your workflows list by clicking on the name and selecting Import. To execute any workflow listed under your workflows first click on it and select run, then choose the input data as with any tool.</p>
+
+<div class="row">
+  <div class="col-sm-6">
+    <h2><a href="/galaxy/news.html">News</a></h2>
+    <div class="">
+  <div class="list-group">
+    
+    
+
+    
+
+    
+
+    
+
+    
+      
+        
+        <a class="list-group-item " href="/posts/2022/08/10/open-admin-position/plain.html">
+
+        <p class="list-group-item-text">Aug 10, 2022</p>
+        <h4 class="list-group-item-heading">
+          
+
+
+
+
+
+
+
+
+
+
+
+          The European Galaxy Team is hiring!
+        </h4>
+      </a>
+    
+      
+        
+        <a class="list-group-item " href="/posts/2022/07/06/Paper-Tomas-Teaching/plain.html">
+
+        <p class="list-group-item-text">Jul 6, 2022</p>
+        <h4 class="list-group-item-heading">
+          
+
+
+
+
+	<i class="fa fa-file-text" aria-hidden="true"></i>
+
+
+
+
+
+
+
+
+          New Paper &quot;Creating a good learning and sharing environment for bioinformatics&quot;
+        </h4>
+      </a>
+    
+      
+        
+        <a class="list-group-item " href="/posts/2022/06/27/gcc2022-webinar-mode/plain.html">
+
+        <p class="list-group-item-text">Jun 27, 2022</p>
+        <h4 class="list-group-item-heading">
+          
+
+
+
+
+
+
+
+
+
+
+
+          GCC2022: Registration open for Webinar mode
+        </h4>
+      </a>
+    
+      
+        
+        <a class="list-group-item " href="/posts/2022/06/23/reached-50000-users/plain.html">
+
+        <p class="list-group-item-text">Jun 23, 2022</p>
+        <h4 class="list-group-item-heading">
+          
+
+
+
+
+
+
+
+
+
+
+
+          Usegalaxy.eu has reached 50,000 registered users
+        </h4>
+      </a>
+    
+      
+        
+        <a class="list-group-item " href="/posts/2022/06/21/ElixirAH22/plain.html">
+
+        <p class="list-group-item-text">Jun 21, 2022</p>
+        <h4 class="list-group-item-heading">
+          
+
+
+
+	<i class="fa fa-graduation-cap" aria-hidden="true"></i>
+
+
+
+
+
+
+
+
+
+          Galaxy taking part @ Elixir All Hands 2022
+        </h4>
+      </a>
+    
+      
+        
+        <a class="list-group-item " href="/posts/2022/06/07/tiaas-stefanie-dukowic-schulze/plain.html">
+
+        <p class="list-group-item-text">Jun 7, 2022</p>
+        <h4 class="list-group-item-heading">
+          
+
+
+
+	<i class="fa fa-graduation-cap" aria-hidden="true"></i>
+
+
+
+
+
+
+
+
+
+          Training Infrastructure Feedback from Stefanie Dukowic-Schulze
+        </h4>
+      </a>
+    
+  </div>
+</div>
+
+  </div>
+  <div class="col-sm-6">
+    <h2><a href="/galaxy/events.html">Events</a></h2>
+    <div class="">
+  <div class="list-group">
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+     
+     
+    
+  </div>
+</div>
+
+  </div>
+</div>
+
+
+
+<div class="row">
+
+    <section class="section-content">
+        <div class="col-md-12">
+        </div>
+    </section>
+</div>
+
+</div>
+
+        </div>
+      </div>
+    </div>
+    
+
+
+
+
+
+
+
+<footer class="navbar-default">
+    <div class="container">
+        <div class="row">
+        </div>
+        <div class="row">
+            <div class="col-lg-12" style="text-align:center">
+                <p>Welcome to the Galaxy Instance of VIB - UGent Hosted at VSC (Flemish Supercomputer Centre)</p>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12" style="text-align:center">
+                <ul class="contact-info">
+                    <li><i class="fa fa-github"></i><a href="https://github.com/usegalaxy-eu/website/tree/master/belgium/galaxy/index.md" target="_blank">Edit this page on GitHub</a></li>
+                    
+                    
+                    
+                    
+                      <li><i class="fa fa-rss"></i>Subscribe <a href="/feed.xml">via RSS (UseGalaxy.eu Feed)</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script async defer data-domain="galaxyproject.eu" src="https://plausible.galaxyproject.eu/js/plausible.js"></script>
+  </body>
+</html>
